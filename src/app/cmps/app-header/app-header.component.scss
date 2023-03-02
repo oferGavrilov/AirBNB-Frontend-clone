@@ -1,0 +1,20 @@
+@import '../../../assets/styles/setup/variables';
+
+header {
+    height: 80px;
+    color: $header-text-color;
+    border-bottom: 1px solid #cccccca8;
+    .header-content {
+        display: flex;
+        align-items: center;
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            color: $secondary-color;
+            img{
+                width: 46px;
+            }
+        }
+    }
+}
