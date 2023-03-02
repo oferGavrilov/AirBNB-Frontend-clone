@@ -1,1 +1,5 @@
-<p>stay-list works!</p>
+<ul class="stay-list">
+  <li *ngFor="let stay of stays">
+    <stay-preview [stay]="stay"></stay-preview>
+  </li>
+</ul>

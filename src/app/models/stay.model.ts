@@ -2,7 +2,7 @@ export interface Stay {
     _id: string;
     name: string;
     type: string;
-    imgUrl: string[];
+    imgUrls: string[];
     price: number;
     summery: string
     capacity: number
