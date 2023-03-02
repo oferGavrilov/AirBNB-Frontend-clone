@@ -1,19 +1,101 @@
 @import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+@import '../../../assets/styles/setup/function';
 
 header {
     height: 80px;
     color: $header-text-color;
-    border-bottom: 1px solid #cccccca8;
+    border-bottom: 1px solid $border-color;
+    color: $header-text-color;
     .header-content {
         display: flex;
         align-items: center;
-        
+        justify-content: space-between;
+
         .logo {
             display: flex;
             align-items: center;
             color: $secondary-color;
-            img{
+
+            img {
                 width: 46px;
+            }
+        }
+    }
+
+    .header-filter {
+        display: flex;
+        align-items: center;
+        border: 1px solid $border-color;
+        border-radius: 40px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+        transition: box-shadow 0.2s ease;
+        padding: 7px 10px;
+        min-width: 348px;
+        height: 48px;
+        font-size: rem(14px);
+
+        >* {
+            cursor: pointer;
+            padding: 0 16px;
+            font-weight: 600;
+
+            &:nth-child(2) {
+                border-right: 1px solid $border-color;
+                border-left: 1px solid $border-color;
+            }
+
+            &:nth-child(3) {
+                color: $main-color;
+                font-weight: 400;
+            }
+        }
+
+        .icon-container {
+            @include center-flex();
+            background-color: $secondary-color;
+            border-radius: 50%;
+            height: 32px;
+            width: 32px;
+            color: #ffffff;
+        }
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        font-size: rem(14px);
+        font-weight: 600;
+
+        >* {
+            cursor: pointer;
+            padding: 12px;
+            border-radius: 22px;
+
+            &:hover:not(.menu) {
+                background-color: $main-hover;
+            }
+
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 5px 5px 12px;
+            width: 76px;
+            border:1px solid $border-color;
+
+            transition: box-shadow .4s;
+            svg {
+                width: 29px;
+                height: 29px;
+                color: gray;
+            }
+
+            &:hover {
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
             }
         }
     }
