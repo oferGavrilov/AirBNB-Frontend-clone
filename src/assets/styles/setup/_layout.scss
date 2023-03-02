@@ -10,10 +10,16 @@
         }
     }
 
-    @include for-narrow-layout {
+    @include for-tablet-layout {
         grid-template-columns: 
             minmax(20px, 1fr)
             minmax(auto, $mobile-breakpoint)
+            minmax(20px, 1fr);
+    }
+    @include for-narrow-layout {
+        grid-template-columns: 
+            minmax(20px, 1fr)
+            minmax(auto, $tablet-breakpoint)
             minmax(20px, 1fr);
     }
     @include for-normal-layout {

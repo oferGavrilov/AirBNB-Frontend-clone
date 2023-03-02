@@ -1,0 +1,101 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+
+.stay-filter {
+    position: relative;
+    height: 78px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    fa-icon {
+        font-size: 12px
+    }
+
+    .arrow-container {
+        @include center-flex();
+        position: absolute;
+        padding: 16px;
+        height: 100%;
+        background-color: white;
+        z-index: 5;
+        width: 50px;
+
+        &.arrow-left {
+            bottom: 0;
+            left: 0;
+        }
+
+        &.arrow-right {
+            bottom: 0;
+            right: 116px;
+        }
+
+        .arrow {
+            @include center-flex();
+            position: absolute;
+            cursor: pointer;
+            border: 0.5px solid rgb(0 0 0 / 0.3);
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            background-color: white;
+            transition: box-shadow 0.2s ease;
+
+            &:hover {
+                transform: scale(1.04);
+                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+            }
+        }
+    }
+
+    .filter-container {
+        display: flex;
+        padding: 8px;
+        overflow: hidden;
+
+        >* {
+            color: $main-color;
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 4px 20px 6px;
+            margin: 12px 0 10px;
+            gap: 8px;
+            align-items: center;
+            cursor: pointer;
+            transition: color .2s opacity .2s;
+
+            img {
+                opacity: .6;
+                width: 24px;
+                transition: opacity .2s;
+            }
+
+            &:hover:not(:last-child) {
+                color: #000000;
+                // box-shadow: 0 2px 0 0 rgba(211, 211, 211, 0.628);
+
+                img {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .filter-btn {
+        @include center-flex();
+        font-size: 12px;
+        gap: 6px;
+        color: $header-text-color;
+        padding: 7px 16px;
+        height: 48px;
+        border: 1px solid $border-color;
+        border-radius: 12px;
+        margin: auto 0;
+        cursor: pointer;
+    }
+
+
+}
