@@ -1,0 +1,53 @@
+.img-carousel {
+  position: relative;
+
+  &:hover {
+    .arrow {
+      opacity: .6;
+    }
+  }
+
+  .like {
+    position: absolute;
+    top: 4%;
+    right: 4%;
+    font-size: 21px;
+    color: #00000080;
+    stroke-width: 40px;
+    stroke: white;
+  }
+
+  img {
+    aspect-ratio: 1/0.85;
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    opacity: 0;
+    transition: transform 0.2s;
+    &:hover {
+      opacity: 1;
+      transform: scale(1.04);
+    }
+    &.right-arrow {
+      right: 10px;
+    }
+
+    &.left-arrow {
+      left: 10px;
+    }
+  }
+
+}

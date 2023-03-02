@@ -1,0 +1,23 @@
+@import '../../../assets/styles/setup/mixins';
+@import '../../../assets/styles/setup/variables';
+
+.stay-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 30px 24px;
+    margin: 16px 0 40px 0;
+    list-style: none;
+
+    @include for-narrow-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include for-normal-layout {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include for-wide-layout {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

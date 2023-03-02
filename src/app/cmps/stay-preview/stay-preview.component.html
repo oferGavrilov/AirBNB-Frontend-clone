@@ -1,1 +1,15 @@
-<p>stay-preview works!</p>
+<section class="stay-preview">
+  <img-carousel [imgs]="stay.imgUrls"></img-carousel>
+  <div class="details">
+    <div class="top">
+      <div class="loc">{{stay.loc.address}}</div>
+      <div class="rate">
+        <fa-icon [icon]="faStar"></fa-icon>
+        <span>{{getRateAvg()}}</span>
+      </div>
+    </div>
+    <div class="name">{{stay.name}}</div>
+    <div>{{stay.roomType}}</div>
+    <div class="price"><span>$ {{stay.price}}  </span>/ night</div>
+  </div>
+</section>
