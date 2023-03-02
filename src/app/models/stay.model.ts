@@ -13,6 +13,8 @@ export interface Stay {
     review: Review
     likedByUser:string[]
     types: string[]
+    roomType: string
+    statReviews: StatReviews
 }
 
 export interface Host {
@@ -20,6 +22,7 @@ export interface Host {
     fullname: string
     imgUrl: string
 }
+
 export interface Loc {
     country: string
     countryCode: string
@@ -28,6 +31,7 @@ export interface Loc {
     lat: number
     lng: number
 }
+
 export interface Review {
     id: string,
     txt: string,
@@ -38,3 +42,13 @@ export interface Review {
         imgUrl: string
     }
 }
+
+export interface StatReviews {
+  cleanliness: number,
+  communication: number,
+  checkIn: number,
+  accuracy: number,
+  location: number,
+  value: number
+}
+

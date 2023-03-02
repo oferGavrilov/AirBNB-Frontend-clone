@@ -210,6 +210,14 @@ export class StayService {
               "New",
               "OMG"
             ],
+            "statReviews": {
+              "cleanliness": 4.7,
+              "communication": 4.3,
+              "checkIn": 4.4,
+              "accuracy": 4.9,
+              "location": 4.1,
+              "value": 4.4
+            }
           },
           {
             "name": "Belle chambre à côté Metro Papineau",
@@ -311,12 +319,12 @@ export class StayService {
               "Luxe"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 4.2,
-              "CheckIn": 4.4,
-              "Accuracy": 4.9,
-              "Location": 4.5,
-              "Value": 4.4
+              "cleanliness": 5,
+              "communication": 4.2,
+              "checkIn": 4.4,
+              "accuracy": 4.9,
+              "location": 4.5,
+              "value": 4.4
             }
           },
           {
@@ -598,12 +606,12 @@ export class StayService {
               "Private rooms"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4.2,
-              "CheckIn": 4.8,
-              "Accuracy": 4.5,
-              "Location": 4.6,
-              "Value": 4.3
+              "cleanliness": 4.3,
+              "communication": 4.2,
+              "checkIn": 4.8,
+              "accuracy": 4.5,
+              "location": 4.6,
+              "value": 4.3
             }
           },
           {
@@ -781,7 +789,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
                   "id": "228580"
                 },
-                "txt": "Communication with Alex was spot on.  He happily answered any questions and made it easy for me to arrive late at night and went above and beyond to help me have a good stay. \r\nThe apartment has been tastefully refurbished.  Extremely clean, and with all you could need for cooking.  The bed is so comfy.  The apartment is peaceful at night and I slept so well.   Some noise travels from Alex' apartment upstairs but it is only a little during the day.\r\nThe area is a bit out of the main hub of Williamsburg and Bushwick but everything is easily accessible with a short walk or the subway about 8 mins walk away.\r\nAlex left me a list of great stores, cafes and restaurants in the immediate area.  \r\nSome people may be concerned about the area at face value as it is a white minority but I felt safe at all times.  People seemed friendly.\r\n\r\n"
+                "txt": "communication with Alex was spot on.  He happily answered any questions and made it easy for me to arrive late at night and went above and beyond to help me have a good stay. \r\nThe apartment has been tastefully refurbished.  Extremely clean, and with all you could need for cooking.  The bed is so comfy.  The apartment is peaceful at night and I slept so well.   Some noise travels from Alex' apartment upstairs but it is only a little during the day.\r\nThe area is a bit out of the main hub of Williamsburg and Bushwick but everything is easily accessible with a short walk or the subway about 8 mins walk away.\r\nAlex left me a list of great stores, cafes and restaurants in the immediate area.  \r\nSome people may be concerned about the area at face value as it is a white minority but I felt safe at all times.  People seemed friendly.\r\n\r\n"
               },
               {
                 "at": "2013-11-10T05:00:00.000Z",
@@ -871,12 +879,12 @@ export class StayService {
               "Skiing"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4.3,
-              "CheckIn": 4.4,
-              "Accuracy": 4.9,
-              "Location": 4.1,
-              "Value": 4.4
+              "cleanliness": 4.7,
+              "communication": 4.3,
+              "checkIn": 4.4,
+              "accuracy": 4.9,
+              "location": 4.1,
+              "value": 4.4
             }
           },
           {
@@ -935,7 +943,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
                   "id": "65117711"
                 },
-                "txt": "Host: Marian gave us a warm welcome and treated us kindly from the very beginning. She offered us help, told us what to visit and even put water, milk and orange juice in the fridge! We could have breakfast at her place which was perfect because she has a little sweet balcony! \r\nLocation: calmly situated in a side street, very near to the Placa Catalunya, the Rambla and the gothic area of Barcelona (very beautiful:)) so you have the old cultural center as well as all the restaurants and bars just nearby.\r\nHouse/Room: the appartment is not a huge, but I think you have everything you need (beautiful sitting room, balcony, kitchen) in it. You have to share the appartment with Marian so pay attention and don't be too loud in the evening!!\r\ndisadvantage: the heat is terrible in summer and there is no air-condition..\r\n\r\nI would overall recommend it to everybody!! But if you want to party and stay up late, take a hostel or another appartment."
+                "txt": "Host: Marian gave us a warm welcome and treated us kindly from the very beginning. She offered us help, told us what to visit and even put water, milk and orange juice in the fridge! We could have breakfast at her place which was perfect because she has a little sweet balcony! \r\nlocation: calmly situated in a side street, very near to the Placa Catalunya, the Rambla and the gothic area of Barcelona (very beautiful:)) so you have the old cultural center as well as all the restaurants and bars just nearby.\r\nHouse/Room: the appartment is not a huge, but I think you have everything you need (beautiful sitting room, balcony, kitchen) in it. You have to share the appartment with Marian so pay attention and don't be too loud in the evening!!\r\ndisadvantage: the heat is terrible in summer and there is no air-condition..\r\n\r\nI would overall recommend it to everybody!! But if you want to party and stay up late, take a hostel or another appartment."
               },
               {
                 "at": "2016-08-11T04:00:00.000Z",
@@ -955,12 +963,12 @@ export class StayService {
               "Casas particulares"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 4.4,
-              "CheckIn": 4.9,
-              "Accuracy": 4.1,
-              "Location": 4.2,
-              "Value": 5
+              "cleanliness": 4.4,
+              "communication": 4.4,
+              "checkIn": 4.9,
+              "accuracy": 4.1,
+              "location": 4.2,
+              "value": 5
             }
           },
           {
@@ -1146,7 +1154,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
                   "id": "11966400"
                 },
-                "txt": "Isabel was good host. Location is perfect."
+                "txt": "Isabel was good host. location is perfect."
               },
               {
                 "at": "2016-07-03T04:00:00.000Z",
@@ -1226,12 +1234,12 @@ export class StayService {
               "Golfing"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4.5,
-              "CheckIn": 5,
-              "Accuracy": 4.9,
-              "Location": 4.9,
-              "Value": 4.3
+              "cleanliness": 4.1,
+              "communication": 4.5,
+              "checkIn": 5,
+              "accuracy": 4.9,
+              "location": 4.9,
+              "value": 4.3
             }
           },
           {
@@ -1506,12 +1514,12 @@ export class StayService {
               "Tropical"
             ],
             "statReviews": {
-              "Cleanliness": 4.9,
-              "Communication": 4.6,
-              "CheckIn": 4.4,
-              "Accuracy": 4.3,
-              "Location": 4.2,
-              "Value": 4.4
+              "cleanliness": 4.9,
+              "communication": 4.6,
+              "checkIn": 4.4,
+              "accuracy": 4.3,
+              "location": 4.2,
+              "value": 4.4
             }
           },
           {
@@ -1790,12 +1798,12 @@ export class StayService {
               "Play"
             ],
             "statReviews": {
-              "Cleanliness": 4.8,
-              "Communication": 4.8,
-              "CheckIn": 4.7,
-              "Accuracy": 4.2,
-              "Location": 4.2,
-              "Value": 4.6
+              "cleanliness": 4.8,
+              "communication": 4.8,
+              "checkIn": 4.7,
+              "accuracy": 4.2,
+              "location": 4.2,
+              "value": 4.6
             }
           },
           {
@@ -1912,12 +1920,12 @@ export class StayService {
               "Skiing"
             ],
             "statReviews": {
-              "Cleanliness": 4.8,
-              "Communication": 4.4,
-              "CheckIn": 4.4,
-              "Accuracy": 4.8,
-              "Location": 4.7,
-              "Value": 4
+              "cleanliness": 4.8,
+              "communication": 4.4,
+              "checkIn": 4.4,
+              "accuracy": 4.8,
+              "location": 4.7,
+              "value": 4
             }
           },
           {
@@ -2176,12 +2184,12 @@ export class StayService {
               "Campers"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4.7,
-              "CheckIn": 5,
-              "Accuracy": 4.5,
-              "Location": 4.2,
-              "Value": 4.8
+              "cleanliness": 4.1,
+              "communication": 4.7,
+              "checkIn": 5,
+              "accuracy": 4.5,
+              "location": 4.2,
+              "value": 4.8
             }
           },
           {
@@ -2318,7 +2326,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
                   "id": "54509004"
                 },
-                "txt": "Very nice location with good beach. Penthouse is nice sized and comfortable. Amenities are good. Location is very good with close proximity to Lahaina and Kapalua."
+                "txt": "Very nice location with good beach. Penthouse is nice sized and comfortable. Amenities are good. location is very good with close proximity to Lahaina and Kapalua."
               },
               {
                 "at": "2017-11-03T04:00:00.000Z",
@@ -2398,7 +2406,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
                   "id": "4059349"
                 },
-                "txt": "Enjoyed our stay very much! The condo was clean, spacious and with all the amenities of a home away from home. Cynthia was very responsive, even checking up on us when the tropical storm warnings went out. Thankfully, the storm didn’t dampen our stay. Enjoyed many beautiful Maui sunsets from the home!"
+                "txt": "Enjoyed our stay very much! The condo was clean, spacious and with all the amenities of a home away from home. Cynthia was very responsive, even checkIng up on us when the tropical storm warnings went out. Thankfully, the storm didn’t dampen our stay. Enjoyed many beautiful Maui sunsets from the home!"
               },
               {
                 "at": "2018-10-18T04:00:00.000Z",
@@ -2458,12 +2466,12 @@ export class StayService {
               "New"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4,
-              "CheckIn": 4.3,
-              "Accuracy": 4.1,
-              "Location": 4.4,
-              "Value": 4.7
+              "cleanliness": 4,
+              "communication": 4,
+              "checkIn": 4.3,
+              "accuracy": 4.1,
+              "location": 4.4,
+              "value": 4.7
             }
           },
           {
@@ -2729,12 +2737,12 @@ export class StayService {
               "Amazing views"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 4.2,
-              "CheckIn": 4.4,
-              "Accuracy": 4.1,
-              "Location": 4.1,
-              "Value": 4.3
+              "cleanliness": 5,
+              "communication": 4.2,
+              "checkIn": 4.4,
+              "accuracy": 4.1,
+              "location": 4.1,
+              "value": 4.3
             }
           },
           {
@@ -2992,7 +3000,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
                   "id": "12265394"
                 },
-                "txt": "We stayed here with 8 people for a fun weekend in Barcelona and this apartment was a great home base for us. The apartment is exactly what the pictures showed and Regina and Juan were great hosts. Location is a little bit out of the way if you want to be central but proximity to la Sagrada Familia was nice!"
+                "txt": "We stayed here with 8 people for a fun weekend in Barcelona and this apartment was a great home base for us. The apartment is exactly what the pictures showed and Regina and Juan were great hosts. location is a little bit out of the way if you want to be central but proximity to la Sagrada Familia was nice!"
               }
             ],
             "likedByUsers": [],
@@ -3002,12 +3010,12 @@ export class StayService {
               "Amazing views"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4.5,
-              "CheckIn": 4,
-              "Accuracy": 4.1,
-              "Location": 4.2,
-              "Value": 4.4
+              "cleanliness": 4.7,
+              "communication": 4.5,
+              "checkIn": 4,
+              "accuracy": 4.1,
+              "location": 4.2,
+              "value": 4.4
             }
           },
           {
@@ -3307,12 +3315,12 @@ export class StayService {
               "Skiing"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4.3,
-              "CheckIn": 4,
-              "Accuracy": 4.8,
-              "Location": 4.9,
-              "Value": 4.3
+              "cleanliness": 4.1,
+              "communication": 4.3,
+              "checkIn": 4,
+              "accuracy": 4.8,
+              "location": 4.9,
+              "value": 4.3
             }
           },
           {
@@ -3394,7 +3402,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
                   "id": "23181786"
                 },
-                "txt": "Fantastic place. Clean and convenient to all of Williamsburg. My parents actually stayed here and the host was great to them, checking in all the time and making sure they had everything they needed. "
+                "txt": "Fantastic place. Clean and convenient to all of Williamsburg. My parents actually stayed here and the host was great to them, checkIng in all the time and making sure they had everything they needed. "
               },
               {
                 "at": "2016-05-15T04:00:00.000Z",
@@ -3494,7 +3502,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
                   "id": "91512091"
                 },
-                "txt": "We had a great stay! The host was very flexible about check-in and check-out time, and made it clear he was available if we needed anything (we didn't.) Location was perfect, 5 minutes to L train into Manhattan, but on a quiet street. Spacious enough to sleep four friends very comfortably (two beds + two futon-style couches). We really enjoyed sitting out on the back patio as well. "
+                "txt": "We had a great stay! The host was very flexible about check-in and check-out time, and made it clear he was available if we needed anything (we didn't.) location was perfect, 5 minutes to L train into Manhattan, but on a quiet street. Spacious enough to sleep four friends very comfortably (two beds + two futon-style couches). We really enjoyed sitting out on the back patio as well. "
               },
               {
                 "at": "2016-10-03T04:00:00.000Z",
@@ -3584,12 +3592,12 @@ export class StayService {
               "Off-the-grid"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4.1,
-              "CheckIn": 4.9,
-              "Accuracy": 4.7,
-              "Location": 4.7,
-              "Value": 5
+              "cleanliness": 4.3,
+              "communication": 4.1,
+              "checkIn": 4.9,
+              "accuracy": 4.7,
+              "location": 4.7,
+              "value": 5
             }
           },
           {
@@ -3852,12 +3860,12 @@ export class StayService {
               "Campers"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4.4,
-              "CheckIn": 4.5,
-              "Accuracy": 5,
-              "Location": 4.4,
-              "Value": 4.3
+              "cleanliness": 4.1,
+              "communication": 4.4,
+              "checkIn": 4.5,
+              "accuracy": 5,
+              "location": 4.4,
+              "value": 4.3
             }
           },
           {
@@ -4027,12 +4035,12 @@ export class StayService {
               "Private rooms"
             ],
             "statReviews": {
-              "Cleanliness": 4.8,
-              "Communication": 4.8,
-              "CheckIn": 4.6,
-              "Accuracy": 4.8,
-              "Location": 4,
-              "Value": 4.3
+              "cleanliness": 4.8,
+              "communication": 4.8,
+              "checkIn": 4.6,
+              "accuracy": 4.8,
+              "location": 4,
+              "value": 4.3
             }
           },
           {
@@ -4104,12 +4112,12 @@ export class StayService {
               "Minsus"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4.5,
-              "CheckIn": 4.6,
-              "Accuracy": 4.4,
-              "Location": 4.3,
-              "Value": 4.4
+              "cleanliness": 4.1,
+              "communication": 4.5,
+              "checkIn": 4.6,
+              "accuracy": 4.4,
+              "location": 4.3,
+              "value": 4.4
             }
           },
           {
@@ -4274,12 +4282,12 @@ export class StayService {
               "New"
             ],
             "statReviews": {
-              "Cleanliness": 4.2,
-              "Communication": 5,
-              "CheckIn": 4,
-              "Accuracy": 4.6,
-              "Location": 4.6,
-              "Value": 4.7
+              "cleanliness": 4.2,
+              "communication": 5,
+              "checkIn": 4,
+              "accuracy": 4.6,
+              "location": 4.6,
+              "value": 4.7
             }
           },
           {
@@ -4383,12 +4391,12 @@ export class StayService {
               "Amazing views"
             ],
             "statReviews": {
-              "Cleanliness": 4.5,
-              "Communication": 4,
-              "CheckIn": 4.4,
-              "Accuracy": 4.3,
-              "Location": 4.4,
-              "Value": 4.9
+              "cleanliness": 4.5,
+              "communication": 4,
+              "checkIn": 4.4,
+              "accuracy": 4.3,
+              "location": 4.4,
+              "value": 4.9
             }
           },
           {
@@ -4554,12 +4562,12 @@ export class StayService {
               "Minsus"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 5,
-              "CheckIn": 5,
-              "Accuracy": 4.8,
-              "Location": 4.4,
-              "Value": 4.2
+              "cleanliness": 4.1,
+              "communication": 5,
+              "checkIn": 5,
+              "accuracy": 4.8,
+              "location": 4.4,
+              "value": 4.2
             }
           },
           {
@@ -4826,12 +4834,12 @@ export class StayService {
               "Ryokans"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4.7,
-              "CheckIn": 4.2,
-              "Accuracy": 4,
-              "Location": 4.1,
-              "Value": 4.5
+              "cleanliness": 4,
+              "communication": 4.7,
+              "checkIn": 4.2,
+              "accuracy": 4,
+              "location": 4.1,
+              "value": 4.5
             }
           },
           {
@@ -4991,7 +4999,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
                   "id": "8464235"
                 },
-                "txt": "Very clean, comfortable place in a new building. Location was s fantastic. Walking distance to the main drag in the plateau."
+                "txt": "Very clean, comfortable place in a new building. location was s fantastic. Walking distance to the main drag in the plateau."
               },
               {
                 "at": "2018-08-28T04:00:00.000Z",
@@ -5061,7 +5069,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
                   "id": "188098543"
                 },
-                "txt": "We had a great stay at this lovely appartment in Le Plateau! Very nice and spacious, very comfy couch and a great location. Communication went well and all necessary amenities were provided. The only thing we struggled with was finding a spot for the car, but apart from that everything was great."
+                "txt": "We had a great stay at this lovely appartment in Le Plateau! Very nice and spacious, very comfy couch and a great location. communication went well and all necessary amenities were provided. The only thing we struggled with was finding a spot for the car, but apart from that everything was great."
               },
               {
                 "at": "2018-11-25T05:00:00.000Z",
@@ -5111,12 +5119,12 @@ export class StayService {
               "Ryokans"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 4.6,
-              "CheckIn": 4.4,
-              "Accuracy": 4.3,
-              "Location": 4.6,
-              "Value": 4
+              "cleanliness": 5,
+              "communication": 4.6,
+              "checkIn": 4.4,
+              "accuracy": 4.3,
+              "location": 4.6,
+              "value": 4
             }
           },
           {
@@ -5270,12 +5278,12 @@ export class StayService {
               "Skiing"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4.2,
-              "CheckIn": 5,
-              "Accuracy": 4.1,
-              "Location": 4,
-              "Value": 4.5
+              "cleanliness": 4,
+              "communication": 4.2,
+              "checkIn": 5,
+              "accuracy": 4.1,
+              "location": 4,
+              "value": 4.5
             }
           },
           {
@@ -5346,7 +5354,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg",
                   "id": "70051"
                 },
-                "txt": "I had an excellent time at Orestes' place in NYC.\r\n\r\nQuiet place with a private entrance to come back home at whatever time you want without disturbing anyone.\r\n\r\nLaundromat around the corner and the closest subway is literally one block away, where the 7 train goes all the way into Times Square. Also two blocks away you have the E train that also goes into Manhattan and the G train that goes into Brooklyn.\r\n\r\nIn the area there's still a cozy and cheap diner that's open 24/7, a few stores to get supplies and a few other places of interest. Location was excellent, 10 minutes away from everything.\r\n\r\nThe room was great and packed with a mini fridge, coffee maker, TV, a sofa, full size bed and walk-in closet. There was also a private bathroom that had everything you needed and a very good shower.\r\n\r\nThere's also a garden out back where you can go outside in the mornings and just relax, eat breakfast, etc.\r\n\r\nOrestes was a great host and gave me a lot of good spots to go sightseeing. Good person to chat with and quite knowledgeable about the city.\r\n\r\nI think that for the price, you simply can't get any better."
+                "txt": "I had an excellent time at Orestes' place in NYC.\r\n\r\nQuiet place with a private entrance to come back home at whatever time you want without disturbing anyone.\r\n\r\nLaundromat around the corner and the closest subway is literally one block away, where the 7 train goes all the way into Times Square. Also two blocks away you have the E train that also goes into Manhattan and the G train that goes into Brooklyn.\r\n\r\nIn the area there's still a cozy and cheap diner that's open 24/7, a few stores to get supplies and a few other places of interest. location was excellent, 10 minutes away from everything.\r\n\r\nThe room was great and packed with a mini fridge, coffee maker, TV, a sofa, full size bed and walk-in closet. There was also a private bathroom that had everything you needed and a very good shower.\r\n\r\nThere's also a garden out back where you can go outside in the mornings and just relax, eat breakfast, etc.\r\n\r\nOrestes was a great host and gave me a lot of good spots to go sightseeing. Good person to chat with and quite knowledgeable about the city.\r\n\r\nI think that for the price, you simply can't get any better."
               },
               {
                 "at": "2010-09-27T04:00:00.000Z",
@@ -5496,7 +5504,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
                   "id": "308976"
                 },
-                "txt": "Great host, very nice and understanding. Location was fantastic and interior photos don't do the place justice, its even nicer than it looks. Lots of good restaurants in the area too. "
+                "txt": "Great host, very nice and understanding. location was fantastic and interior photos don't do the place justice, its even nicer than it looks. Lots of good restaurants in the area too. "
               },
               {
                 "at": "2012-06-22T04:00:00.000Z",
@@ -5546,12 +5554,12 @@ export class StayService {
               "Skiing"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4,
-              "CheckIn": 4.6,
-              "Accuracy": 4.4,
-              "Location": 5,
-              "Value": 4.5
+              "cleanliness": 4.3,
+              "communication": 4,
+              "checkIn": 4.6,
+              "accuracy": 4.4,
+              "location": 5,
+              "value": 4.5
             }
           },
           {
@@ -5823,12 +5831,12 @@ export class StayService {
               "Caves"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 4,
-              "CheckIn": 5,
-              "Accuracy": 4.5,
-              "Location": 4.9,
-              "Value": 4.8
+              "cleanliness": 4.4,
+              "communication": 4,
+              "checkIn": 5,
+              "accuracy": 4.5,
+              "location": 4.9,
+              "value": 4.8
             }
           },
           {
@@ -6051,7 +6059,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
                   "id": "21913799"
                 },
-                "txt": "Very cosy apartment in a nice and local neighborhood. Montserrat was a really nice host and we felt very comfortable in her apartment. Location is perfect and just 2 min to metro and bus. She has an awesome juice machine to make fresh orange juice:) \r\nHighly recommended!"
+                "txt": "Very cosy apartment in a nice and local neighborhood. Montserrat was a really nice host and we felt very comfortable in her apartment. location is perfect and just 2 min to metro and bus. She has an awesome juice machine to make fresh orange juice:) \r\nHighly recommended!"
               },
               {
                 "at": "2016-10-26T04:00:00.000Z",
@@ -6101,12 +6109,12 @@ export class StayService {
               "New"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4.6,
-              "CheckIn": 4.6,
-              "Accuracy": 4.3,
-              "Location": 4.7,
-              "Value": 4
+              "cleanliness": 4.7,
+              "communication": 4.6,
+              "checkIn": 4.6,
+              "accuracy": 4.3,
+              "location": 4.7,
+              "value": 4
             }
           },
           {
@@ -6209,12 +6217,12 @@ export class StayService {
               "Casas particulares"
             ],
             "statReviews": {
-              "Cleanliness": 4.2,
-              "Communication": 4.4,
-              "CheckIn": 4.7,
-              "Accuracy": 4.4,
-              "Location": 4,
-              "Value": 4.9
+              "cleanliness": 4.2,
+              "communication": 4.4,
+              "checkIn": 4.7,
+              "accuracy": 4.4,
+              "location": 4,
+              "value": 4.9
             }
           },
           {
@@ -6477,12 +6485,12 @@ export class StayService {
               "Amazing views"
             ],
             "statReviews": {
-              "Cleanliness": 4.2,
-              "Communication": 4.5,
-              "CheckIn": 4.6,
-              "Accuracy": 4,
-              "Location": 5,
-              "Value": 4.4
+              "cleanliness": 4.2,
+              "communication": 4.5,
+              "checkIn": 4.6,
+              "accuracy": 4,
+              "location": 5,
+              "value": 4.4
             }
           },
           {
@@ -6773,12 +6781,12 @@ export class StayService {
               "Tropical"
             ],
             "statReviews": {
-              "Cleanliness": 4.6,
-              "Communication": 4.7,
-              "CheckIn": 4,
-              "Accuracy": 4,
-              "Location": 4,
-              "Value": 5
+              "cleanliness": 4.6,
+              "communication": 4.7,
+              "checkIn": 4,
+              "accuracy": 4,
+              "location": 4,
+              "value": 5
             }
           },
           {
@@ -6968,12 +6976,12 @@ export class StayService {
               "Minsus"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4.4,
-              "CheckIn": 4,
-              "Accuracy": 4.2,
-              "Location": 5,
-              "Value": 4.5
+              "cleanliness": 4.3,
+              "communication": 4.4,
+              "checkIn": 4,
+              "accuracy": 4.2,
+              "location": 5,
+              "value": 4.5
             }
           },
           {
@@ -7046,16 +7054,16 @@ export class StayService {
               "Off-the-grid"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4.3,
-              "CheckIn": 4.5,
-              "Accuracy": 4.9,
-              "Location": 4.5,
-              "Value": 4.2
+              "cleanliness": 4.7,
+              "communication": 4.3,
+              "checkIn": 4.5,
+              "accuracy": 4.9,
+              "location": 4.5,
+              "value": 4.2
             }
           },
           {
-            "name": "18C.  NICE AND COZY 2 BEDROOMS. PERFECT LOCATION!",
+            "name": "18C.  NICE AND COZY 2 BEDROOMS. PERFECT location!",
             "type": "Amazing pools",
             "imgUrls": [
               "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437349/thl7eoxar7dc7kpbahhj.jpg",
@@ -7223,7 +7231,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
                   "id": "76340443"
                 },
-                "txt": "Place was exactly like the photos.  Location was very convenient.  The most important thing for my family and I was that the apartment was clean.  I didn't meet Antoine but he left a detail message of how to get into the apartment.  A very good first experience with Airbnb.\r\n\r\nBonus: Netflix was available"
+                "txt": "Place was exactly like the photos.  location was very convenient.  The most important thing for my family and I was that the apartment was clean.  I didn't meet Antoine but he left a detail message of how to get into the apartment.  A very good first experience with Airbnb.\r\n\r\nBonus: Netflix was available"
               },
               {
                 "at": "2016-08-01T04:00:00.000Z",
@@ -7323,12 +7331,12 @@ export class StayService {
               "Amazing views"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 5,
-              "CheckIn": 4.7,
-              "Accuracy": 4.1,
-              "Location": 4.6,
-              "Value": 4.4
+              "cleanliness": 4.4,
+              "communication": 5,
+              "checkIn": 4.7,
+              "accuracy": 4.1,
+              "location": 4.6,
+              "value": 4.4
             }
           },
           {
@@ -7522,7 +7530,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
                   "id": "8530956"
                 },
-                "txt": "Very nice apartment! Perfectly situated between both the beach and the laguna. Communication with Barbara was easy."
+                "txt": "Very nice apartment! Perfectly situated between both the beach and the laguna. communication with Barbara was easy."
               },
               {
                 "at": "2016-06-01T04:00:00.000Z",
@@ -7602,12 +7610,12 @@ export class StayService {
               "Golfing"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4,
-              "CheckIn": 5,
-              "Accuracy": 4.8,
-              "Location": 4.5,
-              "Value": 5
+              "cleanliness": 4.3,
+              "communication": 4,
+              "checkIn": 5,
+              "accuracy": 4.8,
+              "location": 4.5,
+              "value": 5
             }
           },
           {
@@ -7897,7 +7905,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
                   "id": "58243775"
                 },
-                "txt": "We had an incredible time here on our Maui Vacation! We spent 3 nights here and really enjoyed it. The home has everything you could need... beach chairs, snorkel gear, boogie boards, tons of towels, extra pillows, extra sheets and blankets, pots, pans, coffee maker and much more. Home is right on the shore, but you can easily access the beach to the left or right (just a short walk). Snorkeling out front was wonderful. Lots of fish and we even saw sea turtles. My grandma wasn't able to snorkel, but she loved sitting on the Lanai watching the waves with beautiful views of the islands across (I think it is both Molokai AND Lanai?). She even got to see a sea turtle right out front! Francesco was very helpful, friendly and quick to respond with anything we needed. Location was unbeatable too! Close to Front Street in Lahaina, Grocery store 3 minutes away, lots of restaurants and shops within walking distance. It was close to everything but still quiet and private. My family loved Maui and we're already planning our trip for 2019 and hoping to stay at Francescos place again! Thanks again for letting us stay at your beautiful Maui home!"
+                "txt": "We had an incredible time here on our Maui Vacation! We spent 3 nights here and really enjoyed it. The home has everything you could need... beach chairs, snorkel gear, boogie boards, tons of towels, extra pillows, extra sheets and blankets, pots, pans, coffee maker and much more. Home is right on the shore, but you can easily access the beach to the left or right (just a short walk). Snorkeling out front was wonderful. Lots of fish and we even saw sea turtles. My grandma wasn't able to snorkel, but she loved sitting on the Lanai watching the waves with beautiful views of the islands across (I think it is both Molokai AND Lanai?). She even got to see a sea turtle right out front! Francesco was very helpful, friendly and quick to respond with anything we needed. location was unbeatable too! Close to Front Street in Lahaina, Grocery store 3 minutes away, lots of restaurants and shops within walking distance. It was close to everything but still quiet and private. My family loved Maui and we're already planning our trip for 2019 and hoping to stay at Francescos place again! Thanks again for letting us stay at your beautiful Maui home!"
               },
               {
                 "at": "2018-11-21T05:00:00.000Z",
@@ -7917,12 +7925,12 @@ export class StayService {
               "Ryokans"
             ],
             "statReviews": {
-              "Cleanliness": 4.6,
-              "Communication": 4.5,
-              "CheckIn": 4.5,
-              "Accuracy": 4.5,
-              "Location": 4.9,
-              "Value": 4.7
+              "cleanliness": 4.6,
+              "communication": 4.5,
+              "checkIn": 4.5,
+              "accuracy": 4.5,
+              "location": 4.9,
+              "value": 4.7
             }
           },
           {
@@ -8049,7 +8057,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
                   "id": "23058599"
                 },
-                "txt": "Really nice apartment. Easy communications with host. Great area. Value for money. Highly, highly recommended."
+                "txt": "Really nice apartment. Easy communications with host. Great area. value for money. Highly, highly recommended."
               },
               {
                 "at": "2018-07-07T04:00:00.000Z",
@@ -8179,12 +8187,12 @@ export class StayService {
               "Play"
             ],
             "statReviews": {
-              "Cleanliness": 4.9,
-              "Communication": 4.4,
-              "CheckIn": 4.1,
-              "Accuracy": 4.1,
-              "Location": 4.4,
-              "Value": 4.4
+              "cleanliness": 4.9,
+              "communication": 4.4,
+              "checkIn": 4.1,
+              "accuracy": 4.1,
+              "location": 4.4,
+              "value": 4.4
             }
           },
           {
@@ -8257,12 +8265,12 @@ export class StayService {
               "Luxe"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4.6,
-              "CheckIn": 5,
-              "Accuracy": 4,
-              "Location": 5,
-              "Value": 4.6
+              "cleanliness": 4.7,
+              "communication": 4.6,
+              "checkIn": 5,
+              "accuracy": 4,
+              "location": 5,
+              "value": 4.6
             }
           },
           {
@@ -8461,12 +8469,12 @@ export class StayService {
               "Top of the world"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 4.7,
-              "CheckIn": 4.6,
-              "Accuracy": 4.1,
-              "Location": 4.2,
-              "Value": 4.6
+              "cleanliness": 5,
+              "communication": 4.7,
+              "checkIn": 4.6,
+              "accuracy": 4.1,
+              "location": 4.2,
+              "value": 4.6
             }
           },
           {
@@ -8548,16 +8556,16 @@ export class StayService {
               "Earth homes"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 4.3,
-              "CheckIn": 4,
-              "Accuracy": 4.4,
-              "Location": 4.1,
-              "Value": 4.4
+              "cleanliness": 4.4,
+              "communication": 4.3,
+              "checkIn": 4,
+              "accuracy": 4.4,
+              "location": 4.1,
+              "value": 4.4
             }
           },
           {
-            "name": "Spacious 3bdrm. Artsy and Perfect Location!",
+            "name": "Spacious 3bdrm. Artsy and Perfect location!",
             "type": "Castles",
             "imgUrls": [
               "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436306/be2v9wssznxs4hebudb4.jpg",
@@ -8664,7 +8672,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
                   "id": "13362622"
                 },
-                "txt": "Melanie welcomed me promptly and timely providing me all the needed info to enjoy my staying at her place. She replied all of my questions and let me feel welcome.\r\n\r\nThe apartment is spacious (rare size in HK!) and really clean (not usual too), comfortable for families.\r\nFurthermore, it's strategically located in the heart of Soho and HK.\r\n\r\nCleanliness of the main gate and stairs could be improved.\r\n\r\nGreat experience overall.\r\n"
+                "txt": "Melanie welcomed me promptly and timely providing me all the needed info to enjoy my staying at her place. She replied all of my questions and let me feel welcome.\r\n\r\nThe apartment is spacious (rare size in HK!) and really clean (not usual too), comfortable for families.\r\nFurthermore, it's strategically located in the heart of Soho and HK.\r\n\r\ncleanliness of the main gate and stairs could be improved.\r\n\r\nGreat experience overall.\r\n"
               },
               {
                 "at": "2016-03-15T04:00:00.000Z",
@@ -8774,7 +8782,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
                   "id": "8945756"
                 },
-                "txt": "Melanie's place was great! The location is superb and her directions were very accurate and easy to follow. Communication was great. Construction site nearby was a bit noisy but we all slept fine. Convenience store on the corner very handy.\n\nThe place was spacious and clean. Shower had good flow and no trouble with hot water. Fridge small but all we needed. Plenty of markets and eateries around and the MTR (train) station is only a short walk and one stop to central.\n\nWe're able to drop our bags slightly earlier which was also very helpful in the heat.\n\nI would definitely stay at Melanie's place again.\n\nCheers for having us."
+                "txt": "Melanie's place was great! The location is superb and her directions were very accurate and easy to follow. communication was great. Construction site nearby was a bit noisy but we all slept fine. Convenience store on the corner very handy.\n\nThe place was spacious and clean. Shower had good flow and no trouble with hot water. Fridge small but all we needed. Plenty of markets and eateries around and the MTR (train) station is only a short walk and one stop to central.\n\nWe're able to drop our bags slightly earlier which was also very helpful in the heat.\n\nI would definitely stay at Melanie's place again.\n\nCheers for having us."
               },
               {
                 "at": "2016-07-17T04:00:00.000Z",
@@ -8814,12 +8822,12 @@ export class StayService {
               "Off-the-grid"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4.2,
-              "CheckIn": 4.6,
-              "Accuracy": 4.5,
-              "Location": 4.9,
-              "Value": 4.9
+              "cleanliness": 4,
+              "communication": 4.2,
+              "checkIn": 4.6,
+              "accuracy": 4.5,
+              "location": 4.9,
+              "value": 4.9
             }
           },
           {
@@ -8925,12 +8933,12 @@ export class StayService {
               "Campers"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4.5,
-              "CheckIn": 4.9,
-              "Accuracy": 4.7,
-              "Location": 5,
-              "Value": 4.9
+              "cleanliness": 4.3,
+              "communication": 4.5,
+              "checkIn": 4.9,
+              "accuracy": 4.7,
+              "location": 5,
+              "value": 4.9
             }
           },
           {
@@ -9049,12 +9057,12 @@ export class StayService {
               "Private rooms"
             ],
             "statReviews": {
-              "Cleanliness": 4.9,
-              "Communication": 4.9,
-              "CheckIn": 4.1,
-              "Accuracy": 4.2,
-              "Location": 4,
-              "Value": 4.2
+              "cleanliness": 4.9,
+              "communication": 4.9,
+              "checkIn": 4.1,
+              "accuracy": 4.2,
+              "location": 4,
+              "value": 4.2
             }
           },
           {
@@ -9205,7 +9213,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
                   "id": "129454405"
                 },
-                "txt": "Booking a holiday at this lovely apartment affords the luxury of two vacations rolled into one -- to easily explore the vibrant city of Barcelona, plus relax and unwind at the beach.  That's reason enough to chose to stay at Centric Boutique at the Beach.  What comes as a bonus is David, a host who takes pride in what he does and who understands that \"goodwill is everything\".  It is no surprise that the owner has been awarded the Tripadvisor Certificate of Excellence.  \n\nDavid keeps in touch, checking in to see if/what there is anything we need, in addition to recommending places to visit.  It's not just lip service.  For example, we suggested he consider adding a mat in the bathtub, which could be a bit slippery.  Later that day, DONE.\n\nFor example, when it was was time to vacate after our ten-day stay, we asked if would do us the favour of arranging for a mini-van to pick us up at 5:30am, as we were taking a train on to San Sebastian, and couldn't risk any misunderstanding if we tried booking this ourselves.  After checking around, David came back with an answer.  The going rate was too high and he was still looking to find us much more reasonable transportation.  He DID.\n\nThis beautifully decorated, two-bedroom apartment is everything as described, well-equipped, well-stocked, clean and comfortable with a lovely balcony and close to all amenities.  \n\nDo we recommend it, most definitely YES."
+                "txt": "Booking a holiday at this lovely apartment affords the luxury of two vacations rolled into one -- to easily explore the vibrant city of Barcelona, plus relax and unwind at the beach.  That's reason enough to chose to stay at Centric Boutique at the Beach.  What comes as a bonus is David, a host who takes pride in what he does and who understands that \"goodwill is everything\".  It is no surprise that the owner has been awarded the Tripadvisor Certificate of Excellence.  \n\nDavid keeps in touch, checkIng in to see if/what there is anything we need, in addition to recommending places to visit.  It's not just lip service.  For example, we suggested he consider adding a mat in the bathtub, which could be a bit slippery.  Later that day, DONE.\n\nFor example, when it was was time to vacate after our ten-day stay, we asked if would do us the favour of arranging for a mini-van to pick us up at 5:30am, as we were taking a train on to San Sebastian, and couldn't risk any misunderstanding if we tried booking this ourselves.  After checkIng around, David came back with an answer.  The going rate was too high and he was still looking to find us much more reasonable transportation.  He DID.\n\nThis beautifully decorated, two-bedroom apartment is everything as described, well-equipped, well-stocked, clean and comfortable with a lovely balcony and close to all amenities.  \n\nDo we recommend it, most definitely YES."
               },
               {
                 "at": "2017-08-29T04:00:00.000Z",
@@ -9275,7 +9283,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
                   "id": "39784223"
                 },
-                "txt": "Where to begin? Yeah! David, the owner. It's really hard to described how helpful and awesome he is. The best host in all our life. Very kind, friendly. You can always count on him, in every details. He took care of us before we even arrived. He explained how to get to the apartment in the best way. And he was there when we came. Ready to tell us everything. You can ask him about even unexpected things about your stay and be sure he will find an answer in a very short time. How to get to any museum or tourist attraction, where to go in Barcelona,  what to do with kids, where to go to a whole day journey outside the town etc. He's knowledge about Catalonia's history and Catalan architecture is unbelievable. We spending a whole week in Barcelona with our little daughter. She was so happy possessing her own room so she would not go outside. She told us every day she find herself as a princess. She's eight and believe me, she will never said this in our flat. The apartment is amazing. Full of every conveniences you need. Honestly, we haven't got in our own kitchen so many stuff. The apartment is stylish and cosy. So you could feel very comfortable here during your stay. If you need coffee you could make it in many ways, you could cooked here, prepared a dishes, and what it's really really awesome, you could spend a whole evening or night on a lovely terrace. But who wants to stayed on a terrace in Barcelona? If you decided to explore a town, you will find in David's apartment a special guide book which he prepared for his guests. You can't miss it. It's huge as an Encyclopedia Britannica. Neighbours are friendly, you will find a nice bakery and full equipped stores just around the corner. Location is just excellent. Lovely beach is a few blocks from your apartment, underground station just five minutes by walk. Bus stop is on the same corner as a David's apartment. It's hard to believe, but yes. You will find there everything what every high-maintenance resident need. So, if you really want to enjoy your stay at Barcelona, choose this unusual opportunity for living. You will not regret. We are sure! We fell in love with Barcelona, we fell in love with David and we plan to go back as soon as we can. What about next week?"
+                "txt": "Where to begin? Yeah! David, the owner. It's really hard to described how helpful and awesome he is. The best host in all our life. Very kind, friendly. You can always count on him, in every details. He took care of us before we even arrived. He explained how to get to the apartment in the best way. And he was there when we came. Ready to tell us everything. You can ask him about even unexpected things about your stay and be sure he will find an answer in a very short time. How to get to any museum or tourist attraction, where to go in Barcelona,  what to do with kids, where to go to a whole day journey outside the town etc. He's knowledge about Catalonia's history and Catalan architecture is unbelievable. We spending a whole week in Barcelona with our little daughter. She was so happy possessing her own room so she would not go outside. She told us every day she find herself as a princess. She's eight and believe me, she will never said this in our flat. The apartment is amazing. Full of every conveniences you need. Honestly, we haven't got in our own kitchen so many stuff. The apartment is stylish and cosy. So you could feel very comfortable here during your stay. If you need coffee you could make it in many ways, you could cooked here, prepared a dishes, and what it's really really awesome, you could spend a whole evening or night on a lovely terrace. But who wants to stayed on a terrace in Barcelona? If you decided to explore a town, you will find in David's apartment a special guide book which he prepared for his guests. You can't miss it. It's huge as an Encyclopedia Britannica. Neighbours are friendly, you will find a nice bakery and full equipped stores just around the corner. location is just excellent. Lovely beach is a few blocks from your apartment, underground station just five minutes by walk. Bus stop is on the same corner as a David's apartment. It's hard to believe, but yes. You will find there everything what every high-maintenance resident need. So, if you really want to enjoy your stay at Barcelona, choose this unusual opportunity for living. You will not regret. We are sure! We fell in love with Barcelona, we fell in love with David and we plan to go back as soon as we can. What about next week?"
               },
               {
                 "at": "2018-02-04T05:00:00.000Z",
@@ -9345,12 +9353,12 @@ export class StayService {
               "Ryokans"
             ],
             "statReviews": {
-              "Cleanliness": 4.2,
-              "Communication": 4,
-              "CheckIn": 4,
-              "Accuracy": 4.4,
-              "Location": 4.8,
-              "Value": 4.7
+              "cleanliness": 4.2,
+              "communication": 4,
+              "checkIn": 4,
+              "accuracy": 4.4,
+              "location": 4.8,
+              "value": 4.7
             }
           },
           {
@@ -9457,12 +9465,12 @@ export class StayService {
               "Minsus"
             ],
             "statReviews": {
-              "Cleanliness": 4.8,
-              "Communication": 4.3,
-              "CheckIn": 4.2,
-              "Accuracy": 4.5,
-              "Location": 4.4,
-              "Value": 4.4
+              "cleanliness": 4.8,
+              "communication": 4.3,
+              "checkIn": 4.2,
+              "accuracy": 4.5,
+              "location": 4.4,
+              "value": 4.4
             }
           },
           {
@@ -9548,7 +9556,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
                   "id": "11547925"
                 },
-                "txt": "Clean & still very new! Location is pretty good, it's about 10 mins walk to the MTR, but it's the major Hong Kong & Central stations, from which you can access many lines! Lots of great eateries & convenience stores nearby as well, including the famous Kau Kee Beef Brisket Noodles! Do note the small details like that there is (currently) no wifi & no lift, but we knew about these so we were prepared for it. One small thing, the curtains are quite sheer over the full-length windows which makes the whole place bright & airy, but if you're used to sleeping in darkness then I recommend bringing eyeshades."
+                "txt": "Clean & still very new! location is pretty good, it's about 10 mins walk to the MTR, but it's the major Hong Kong & Central stations, from which you can access many lines! Lots of great eateries & convenience stores nearby as well, including the famous Kau Kee Beef Brisket Noodles! Do note the small details like that there is (currently) no wifi & no lift, but we knew about these so we were prepared for it. One small thing, the curtains are quite sheer over the full-length windows which makes the whole place bright & airy, but if you're used to sleeping in darkness then I recommend bringing eyeshades."
               },
               {
                 "at": "2016-04-17T04:00:00.000Z",
@@ -9618,12 +9626,12 @@ export class StayService {
               "Casas particulares"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4.7,
-              "CheckIn": 4.3,
-              "Accuracy": 4.5,
-              "Location": 4.7,
-              "Value": 4.2
+              "cleanliness": 4.1,
+              "communication": 4.7,
+              "checkIn": 4.3,
+              "accuracy": 4.5,
+              "location": 4.7,
+              "value": 4.2
             }
           },
           {
@@ -9911,12 +9919,12 @@ export class StayService {
               "Play"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4,
-              "CheckIn": 5,
-              "Accuracy": 4.6,
-              "Location": 4.8,
-              "Value": 4.9
+              "cleanliness": 4.7,
+              "communication": 4,
+              "checkIn": 5,
+              "accuracy": 4.6,
+              "location": 4.8,
+              "value": 4.9
             }
           },
           {
@@ -10072,12 +10080,12 @@ export class StayService {
               "Top of the world"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 4.8,
-              "CheckIn": 4.4,
-              "Accuracy": 5,
-              "Location": 4.5,
-              "Value": 5
+              "cleanliness": 4.4,
+              "communication": 4.8,
+              "checkIn": 4.4,
+              "accuracy": 5,
+              "location": 4.5,
+              "value": 5
             }
           },
           {
@@ -10161,12 +10169,12 @@ export class StayService {
               "Casas particulares"
             ],
             "statReviews": {
-              "Cleanliness": 4.8,
-              "Communication": 4.9,
-              "CheckIn": 4.4,
-              "Accuracy": 4.9,
-              "Location": 4.9,
-              "Value": 5
+              "cleanliness": 4.8,
+              "communication": 4.9,
+              "checkIn": 4.4,
+              "accuracy": 4.9,
+              "location": 4.9,
+              "value": 5
             }
           },
           {
@@ -10282,12 +10290,12 @@ export class StayService {
               "Beachfront"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 4.9,
-              "CheckIn": 4.9,
-              "Accuracy": 4.9,
-              "Location": 4,
-              "Value": 4.4
+              "cleanliness": 5,
+              "communication": 4.9,
+              "checkIn": 4.9,
+              "accuracy": 4.9,
+              "location": 4,
+              "value": 4.4
             }
           },
           {
@@ -10404,12 +10412,12 @@ export class StayService {
               "Boats"
             ],
             "statReviews": {
-              "Cleanliness": 4.9,
-              "Communication": 4.3,
-              "CheckIn": 5,
-              "Accuracy": 4.2,
-              "Location": 4.1,
-              "Value": 4.7
+              "cleanliness": 4.9,
+              "communication": 4.3,
+              "checkIn": 5,
+              "accuracy": 4.2,
+              "location": 4.1,
+              "value": 4.7
             }
           },
           {
@@ -10685,12 +10693,12 @@ export class StayService {
               "Skiing"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4.8,
-              "CheckIn": 5,
-              "Accuracy": 4.3,
-              "Location": 4.3,
-              "Value": 4.5
+              "cleanliness": 4.7,
+              "communication": 4.8,
+              "checkIn": 5,
+              "accuracy": 4.3,
+              "location": 4.3,
+              "value": 4.5
             }
           },
           {
@@ -10788,7 +10796,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
                   "id": "18800697"
                 },
-                "txt": "This is a beautiful condo!  The unit is exactly as seen in the pictures.  Very nicely renovated with all the needed condiments and supplies.  Unit is on the 4th floor so it has a beautiful view.  Location is perfect.  Right in the middle of the island and central to all the things we wanted to see and do.  Building is nice and quiet.  Beach is beautiful for taking long walks and the breeze keeps things nice and cool.  Kathy was fantastic to work with.  She provided everything we needed in advance along with recommendations for things to see and do and places to eat.  She responded extremely quickly to any questions or concerns during our stay.  Would highly recommend and would definitely return!  Thank you for making our stay in Maui so enjoyable!"
+                "txt": "This is a beautiful condo!  The unit is exactly as seen in the pictures.  Very nicely renovated with all the needed condiments and supplies.  Unit is on the 4th floor so it has a beautiful view.  location is perfect.  Right in the middle of the island and central to all the things we wanted to see and do.  Building is nice and quiet.  Beach is beautiful for taking long walks and the breeze keeps things nice and cool.  Kathy was fantastic to work with.  She provided everything we needed in advance along with recommendations for things to see and do and places to eat.  She responded extremely quickly to any questions or concerns during our stay.  Would highly recommend and would definitely return!  Thank you for making our stay in Maui so enjoyable!"
               },
               {
                 "at": "2016-09-10T04:00:00.000Z",
@@ -10898,12 +10906,12 @@ export class StayService {
               "Private rooms"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 4.6,
-              "CheckIn": 4.3,
-              "Accuracy": 4.6,
-              "Location": 5,
-              "Value": 4.6
+              "cleanliness": 4.4,
+              "communication": 4.6,
+              "checkIn": 4.3,
+              "accuracy": 4.6,
+              "location": 5,
+              "value": 4.6
             }
           },
           {
@@ -10987,12 +10995,12 @@ export class StayService {
               "Casas particulares"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 4.2,
-              "CheckIn": 4.1,
-              "Accuracy": 4.8,
-              "Location": 4.5,
-              "Value": 4.6
+              "cleanliness": 5,
+              "communication": 4.2,
+              "checkIn": 4.1,
+              "accuracy": 4.8,
+              "location": 4.5,
+              "value": 4.6
             }
           },
           {
@@ -11229,7 +11237,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
                   "id": "31733837"
                 },
-                "txt": "Listing was just as described. Parking spot was just around the corner. Location is excellent- easy walk to both the green and orange metro lines. \r\nLoved our stay at Tyler's place! "
+                "txt": "Listing was just as described. Parking spot was just around the corner. location is excellent- easy walk to both the green and orange metro lines. \r\nLoved our stay at Tyler's place! "
               },
               {
                 "at": "2016-09-03T04:00:00.000Z",
@@ -11249,7 +11257,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
                   "id": "9017305"
                 },
-                "txt": "Tyler's place is perfectly located for a visit to Montreal.  Just off Rue St. Catherine and other major arteries of the city.  Parking just around the corner was short jaunt nothing to complain about.  \r\nCommunication with host and his associate Faizan was easy, swift and helpful.  \r\nOverall a steal of a deal, good people, great location, nice place...I think a pretty solid choice.\r\nBed was very comfortable, bedding was also clean and comfy, linens clean and plenty.  AC worked great but we barely used it.\r\nSupermarket around corner."
+                "txt": "Tyler's place is perfectly located for a visit to Montreal.  Just off Rue St. Catherine and other major arteries of the city.  Parking just around the corner was short jaunt nothing to complain about.  \r\ncommunication with host and his associate Faizan was easy, swift and helpful.  \r\nOverall a steal of a deal, good people, great location, nice place...I think a pretty solid choice.\r\nBed was very comfortable, bedding was also clean and comfy, linens clean and plenty.  AC worked great but we barely used it.\r\nSupermarket around corner."
               },
               {
                 "at": "2016-09-11T04:00:00.000Z",
@@ -11269,12 +11277,12 @@ export class StayService {
               "Top of the world"
             ],
             "statReviews": {
-              "Cleanliness": 4.2,
-              "Communication": 4,
-              "CheckIn": 4.2,
-              "Accuracy": 4.4,
-              "Location": 4.4,
-              "Value": 4.7
+              "cleanliness": 4.2,
+              "communication": 4,
+              "checkIn": 4.2,
+              "accuracy": 4.4,
+              "location": 4.4,
+              "value": 4.7
             }
           },
           {
@@ -11484,7 +11492,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
                   "id": "51677135"
                 },
-                "txt": "A very large home that can genuinely handle a larger group. Lots of retreat areas so people can spread out. Location is the quintessential waterfront Pittwater experience. The host was good on the communication and any issues or advice quickly addressed. Highly recommend this property"
+                "txt": "A very large home that can genuinely handle a larger group. Lots of retreat areas so people can spread out. location is the quintessential waterfront Pittwater experience. The host was good on the communication and any issues or advice quickly addressed. Highly recommend this property"
               },
               {
                 "at": "2017-03-04T05:00:00.000Z",
@@ -11524,7 +11532,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
                   "id": "25287772"
                 },
-                "txt": "Location is to die for and the beach perfect for regular visits. Great for little kids. The view from both living areas and many of the bedrooms is spectacular. Becuas each room is so beautiful, there were not arguments about who got which room. The living space is one of the most beautiful homely area for relaxing. All in all a most spectacular house. "
+                "txt": "location is to die for and the beach perfect for regular visits. Great for little kids. The view from both living areas and many of the bedrooms is spectacular. Becuas each room is so beautiful, there were not arguments about who got which room. The living space is one of the most beautiful homely area for relaxing. All in all a most spectacular house. "
               },
               {
                 "at": "2017-04-16T04:00:00.000Z",
@@ -11554,12 +11562,12 @@ export class StayService {
               "Luxe"
             ],
             "statReviews": {
-              "Cleanliness": 4.6,
-              "Communication": 4.5,
-              "CheckIn": 4.4,
-              "Accuracy": 4.1,
-              "Location": 5,
-              "Value": 4.5
+              "cleanliness": 4.6,
+              "communication": 4.5,
+              "checkIn": 4.4,
+              "accuracy": 4.1,
+              "location": 5,
+              "value": 4.5
             }
           },
           {
@@ -11705,7 +11713,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
                   "id": "22627156"
                 },
-                "txt": "We didn't meet Wilson but he made things easy the day before checking in Wilson had sent me a email with all the info I needed to get into his place which was awesome. The location was great it was close to the MTR/public transportation, restaurants, market, etc... The only con to the location is that it was a little hard to get a taxi because coming out of the building cars are not allowed to stop in that area so you would have to walk a bit when taking/coming from a taxi. This has nothing to do with wilson but I thought I would mention it anyways the elevator in this building is extremely slow. The apartment was decent, it didn't wow me or anything but as expected places in HK are small. For a group of 9 it was a bit tight but that didn't bother us since we were out most of the time. The apartment looks pretty much like the pictures there is one thing I would like to say is I wish Wilson would have taken pictures of the second bathroom to his place kus it was tiny. I'm a really tiny girl and even I had a hard time in there. So that probably would have changed my mind on picking his place to stay because we were really looking for a 2 bathroom place. I mean yes the small restroom is considered as 1 but it was so tiny that we didnt even use the shower in it kus it  was tiny but oh wells. Overall our stay was fine but I did feel like the floors could have been a bit more clean.  "
+                "txt": "We didn't meet Wilson but he made things easy the day before checkIng in Wilson had sent me a email with all the info I needed to get into his place which was awesome. The location was great it was close to the MTR/public transportation, restaurants, market, etc... The only con to the location is that it was a little hard to get a taxi because coming out of the building cars are not allowed to stop in that area so you would have to walk a bit when taking/coming from a taxi. This has nothing to do with wilson but I thought I would mention it anyways the elevator in this building is extremely slow. The apartment was decent, it didn't wow me or anything but as expected places in HK are small. For a group of 9 it was a bit tight but that didn't bother us since we were out most of the time. The apartment looks pretty much like the pictures there is one thing I would like to say is I wish Wilson would have taken pictures of the second bathroom to his place kus it was tiny. I'm a really tiny girl and even I had a hard time in there. So that probably would have changed my mind on picking his place to stay because we were really looking for a 2 bathroom place. I mean yes the small restroom is considered as 1 but it was so tiny that we didnt even use the shower in it kus it  was tiny but oh wells. Overall our stay was fine but I did feel like the floors could have been a bit more clean.  "
               },
               {
                 "at": "2016-10-06T04:00:00.000Z",
@@ -11835,12 +11843,12 @@ export class StayService {
               "Luxe"
             ],
             "statReviews": {
-              "Cleanliness": 4.8,
-              "Communication": 4,
-              "CheckIn": 4.4,
-              "Accuracy": 4.9,
-              "Location": 4,
-              "Value": 4.8
+              "cleanliness": 4.8,
+              "communication": 4,
+              "checkIn": 4.4,
+              "accuracy": 4.9,
+              "location": 4,
+              "value": 4.8
             }
           },
           {
@@ -11989,7 +11997,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
                   "id": "12002909"
                 },
-                "txt": "There are 2 types of AirBnBs - one feels like a hotel and the other is someone's actual home. This is the latter - do not expect a hotel experience. Location is great (Star St in Wanchai has boutique shops & nice restaurants, you're less than 5 min walk from the MTR and less than 30 min walk to Central). Building is more modern than most in the area, with a doorman and elevator. Apartment has an open view (not easy to come by on HK island!) Carmen keeps her place tidy and well equipped with everything you need. Bed is short (as others have noted) and the sofa is small too. Bathroom is basic but shower has hot water and ok pressure. Kitchen is tiny but there is plenty of space in the fridge and a water boiler. Carmen is friendly and super responsive! Bottom line: Great for a couple of nights only."
+                "txt": "There are 2 types of AirBnBs - one feels like a hotel and the other is someone's actual home. This is the latter - do not expect a hotel experience. location is great (Star St in Wanchai has boutique shops & nice restaurants, you're less than 5 min walk from the MTR and less than 30 min walk to Central). Building is more modern than most in the area, with a doorman and elevator. Apartment has an open view (not easy to come by on HK island!) Carmen keeps her place tidy and well equipped with everything you need. Bed is short (as others have noted) and the sofa is small too. Bathroom is basic but shower has hot water and ok pressure. Kitchen is tiny but there is plenty of space in the fridge and a water boiler. Carmen is friendly and super responsive! Bottom line: Great for a couple of nights only."
               },
               {
                 "at": "2019-01-03T05:00:00.000Z",
@@ -12009,12 +12017,12 @@ export class StayService {
               "Boats"
             ],
             "statReviews": {
-              "Cleanliness": 4.2,
-              "Communication": 4.7,
-              "CheckIn": 4.2,
-              "Accuracy": 4.3,
-              "Location": 4.7,
-              "Value": 4
+              "cleanliness": 4.2,
+              "communication": 4.7,
+              "checkIn": 4.2,
+              "accuracy": 4.3,
+              "location": 4.7,
+              "value": 4
             }
           },
           {
@@ -12242,7 +12250,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
                   "id": "65907283"
                 },
-                "txt": "I was happy to stay here. Apartment was big and clean. Location was also good, near cafes, beach, train station. Host helped with any questions."
+                "txt": "I was happy to stay here. Apartment was big and clean. location was also good, near cafes, beach, train station. Host helped with any questions."
               },
               {
                 "at": "2017-10-07T04:00:00.000Z",
@@ -12302,12 +12310,12 @@ export class StayService {
               "Casas particulares"
             ],
             "statReviews": {
-              "Cleanliness": 4.9,
-              "Communication": 4.7,
-              "CheckIn": 4.1,
-              "Accuracy": 4.9,
-              "Location": 4.5,
-              "Value": 4.2
+              "cleanliness": 4.9,
+              "communication": 4.7,
+              "checkIn": 4.1,
+              "accuracy": 4.9,
+              "location": 4.5,
+              "value": 4.2
             }
           },
           {
@@ -12402,7 +12410,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
                   "id": "83937366"
                 },
-                "txt": "The apartment is exactly like on the photos: clean, modern, right next to the beach and spacious enough for a family of four. The bathroom and bedrooms are very nice and big. Super market is two minutes walking from the apartment. Porto city center is a 15 minute bus ride away. Communication with the host was always fast and clear. We were even provided with a welcoming gift! \nThere are, however, two downsides: the apartment is not equipped with an airconditioner or fan (which is not disastrous, but it can get pretty hot if you're not used to Portugese summers), and sounds from upstairs neighbours and the busy road it lies on can be heard at night. If you're a light sleeper, I suggest taking soundproof earplugs with you. \nOtherwise, it's a beautiful apartment if you want to enjoy both the city center of Porto and the beach!"
+                "txt": "The apartment is exactly like on the photos: clean, modern, right next to the beach and spacious enough for a family of four. The bathroom and bedrooms are very nice and big. Super market is two minutes walking from the apartment. Porto city center is a 15 minute bus ride away. communication with the host was always fast and clear. We were even provided with a welcoming gift! \nThere are, however, two downsides: the apartment is not equipped with an airconditioner or fan (which is not disastrous, but it can get pretty hot if you're not used to Portugese summers), and sounds from upstairs neighbours and the busy road it lies on can be heard at night. If you're a light sleeper, I suggest taking soundproof earplugs with you. \nOtherwise, it's a beautiful apartment if you want to enjoy both the city center of Porto and the beach!"
               },
               {
                 "at": "2016-08-05T04:00:00.000Z",
@@ -12572,12 +12580,12 @@ export class StayService {
               "OMG"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4,
-              "CheckIn": 5,
-              "Accuracy": 4.9,
-              "Location": 4.6,
-              "Value": 4.8
+              "cleanliness": 4.3,
+              "communication": 4,
+              "checkIn": 5,
+              "accuracy": 4.9,
+              "location": 4.6,
+              "value": 4.8
             }
           },
           {
@@ -12776,7 +12784,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
                   "id": "89196995"
                 },
-                "txt": "Appartement propre et très bien situé pour visiter Porto en quelques jours ! Communication excellente de la part de l'hôte (réactivité). Le logement est conforme au descriptif, vous pouvez réserver en toute confiance. \n\nL'appartement est proche de tout : commerces, station de métro, bus, casa de musica (je vous y recommande un concert !), aéroport. \nTrès pratique pour pouvoir rayonner dans les différents endroits à visiter sur Porto ."
+                "txt": "Appartement propre et très bien situé pour visiter Porto en quelques jours ! communication excellente de la part de l'hôte (réactivité). Le logement est conforme au descriptif, vous pouvez réserver en toute confiance. \n\nL'appartement est proche de tout : commerces, station de métro, bus, casa de musica (je vous y recommande un concert !), aéroport. \nTrès pratique pour pouvoir rayonner dans les différents endroits à visiter sur Porto ."
               },
               {
                 "at": "2018-09-16T04:00:00.000Z",
@@ -12806,12 +12814,12 @@ export class StayService {
               "Skiing"
             ],
             "statReviews": {
-              "Cleanliness": 4.5,
-              "Communication": 4.2,
-              "CheckIn": 4.8,
-              "Accuracy": 4.6,
-              "Location": 4.3,
-              "Value": 4.9
+              "cleanliness": 4.5,
+              "communication": 4.2,
+              "checkIn": 4.8,
+              "accuracy": 4.6,
+              "location": 4.3,
+              "value": 4.9
             }
           },
           {
@@ -12988,7 +12996,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
                   "id": "2795457"
                 },
-                "txt": "Host: Kubilay is an easy-going & really nice guy! That translates to a host that's pretty much as relaxed & helpful as u want him to be. And he gives u space if u want it too.\r\n\r\nHouse and room: Kubilay pretty much opened the house to u. Room is basic.\r\n\r\nLocation: a good suburb about 30-40mins bus ride away from Taksim, depending on traffic. Pretty convenient; 1 direct bus to the Spice Bazaar. 1 direct bus to Taksim.\r\n\r\nHighly recommended to those who wants to experience local living."
+                "txt": "Host: Kubilay is an easy-going & really nice guy! That translates to a host that's pretty much as relaxed & helpful as u want him to be. And he gives u space if u want it too.\r\n\r\nHouse and room: Kubilay pretty much opened the house to u. Room is basic.\r\n\r\nlocation: a good suburb about 30-40mins bus ride away from Taksim, depending on traffic. Pretty convenient; 1 direct bus to the Spice Bazaar. 1 direct bus to Taksim.\r\n\r\nHighly recommended to those who wants to experience local living."
               },
               {
                 "at": "2014-03-04T05:00:00.000Z",
@@ -13088,12 +13096,12 @@ export class StayService {
               "OMG"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4.8,
-              "CheckIn": 4.9,
-              "Accuracy": 4.2,
-              "Location": 4.9,
-              "Value": 4.3
+              "cleanliness": 4.7,
+              "communication": 4.8,
+              "checkIn": 4.9,
+              "accuracy": 4.2,
+              "location": 4.9,
+              "value": 4.3
             }
           },
           {
@@ -13198,7 +13206,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
                   "id": "78509521"
                 },
-                "txt": "We had a really nice stay at Tarek's place. The room is very clean and cozy. Location is perfect too. It is close to McGill University and few minute walk from rue St Laurent. Bus stop is just around the corner too. Tarek is also an amazing host and really accommodating. Would highly recommend!"
+                "txt": "We had a really nice stay at Tarek's place. The room is very clean and cozy. location is perfect too. It is close to McGill University and few minute walk from rue St Laurent. Bus stop is just around the corner too. Tarek is also an amazing host and really accommodating. Would highly recommend!"
               },
               {
                 "at": "2016-07-08T04:00:00.000Z",
@@ -13248,7 +13256,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
                   "id": "1240894"
                 },
-                "txt": "Everything about Tarek's place was great.  Perfect location for checking out Montreal.  He was informative about what to eat/visit/check out and I would absolutely recommend this place to others.  A nice quiet apartment, very close to St/ Laurent!"
+                "txt": "Everything about Tarek's place was great.  Perfect location for checkIng out Montreal.  He was informative about what to eat/visit/check out and I would absolutely recommend this place to others.  A nice quiet apartment, very close to St/ Laurent!"
               },
               {
                 "at": "2016-08-20T04:00:00.000Z",
@@ -13318,12 +13326,12 @@ export class StayService {
               "Top of the world"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4.7,
-              "CheckIn": 4.6,
-              "Accuracy": 4.5,
-              "Location": 4.2,
-              "Value": 4.4
+              "cleanliness": 4,
+              "communication": 4.7,
+              "checkIn": 4.6,
+              "accuracy": 4.5,
+              "location": 4.2,
+              "value": 4.4
             }
           },
           {
@@ -13592,12 +13600,12 @@ export class StayService {
               "Ryokans"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4.1,
-              "CheckIn": 4.5,
-              "Accuracy": 4.1,
-              "Location": 4.9,
-              "Value": 4.1
+              "cleanliness": 4.7,
+              "communication": 4.1,
+              "checkIn": 4.5,
+              "accuracy": 4.1,
+              "location": 4.9,
+              "value": 4.1
             }
           },
           {
@@ -13676,12 +13684,12 @@ export class StayService {
               "Tropical"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4.2,
-              "CheckIn": 4.4,
-              "Accuracy": 4.9,
-              "Location": 5,
-              "Value": 4.5
+              "cleanliness": 4.3,
+              "communication": 4.2,
+              "checkIn": 4.4,
+              "accuracy": 4.9,
+              "location": 5,
+              "value": 4.5
             }
           },
           {
@@ -13761,12 +13769,12 @@ export class StayService {
               "Top of the world"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 5,
-              "CheckIn": 4.6,
-              "Accuracy": 4.7,
-              "Location": 4.6,
-              "Value": 4.4
+              "cleanliness": 4.4,
+              "communication": 5,
+              "checkIn": 4.6,
+              "accuracy": 4.7,
+              "location": 4.6,
+              "value": 4.4
             }
           },
           {
@@ -13916,12 +13924,12 @@ export class StayService {
               "Golfing"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4.8,
-              "CheckIn": 4.5,
-              "Accuracy": 4.8,
-              "Location": 4,
-              "Value": 4.5
+              "cleanliness": 4,
+              "communication": 4.8,
+              "checkIn": 4.5,
+              "accuracy": 4.8,
+              "location": 4,
+              "value": 4.5
             }
           },
           {
@@ -14042,7 +14050,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
                   "id": "129071160"
                 },
-                "txt": "Nancy and Ralph made our wedding and honeymoon stay great. We arrived at the apartment to have a wedding balloon, wine, and pineapple champagne waiting for us. Everything was very clean, organized and clear. All items needed for a comfortable stay are provided by the host. Communication was clear and immediate which made us very comfortable staying there. Thank you both gain for the amazing stay and location."
+                "txt": "Nancy and Ralph made our wedding and honeymoon stay great. We arrived at the apartment to have a wedding balloon, wine, and pineapple champagne waiting for us. Everything was very clean, organized and clear. All items needed for a comfortable stay are provided by the host. communication was clear and immediate which made us very comfortable staying there. Thank you both gain for the amazing stay and location."
               },
               {
                 "at": "2017-12-10T05:00:00.000Z",
@@ -14202,12 +14210,12 @@ export class StayService {
               "Adapted"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 4.9,
-              "CheckIn": 4.4,
-              "Accuracy": 4.5,
-              "Location": 4.7,
-              "Value": 4.1
+              "cleanliness": 4.4,
+              "communication": 4.9,
+              "checkIn": 4.4,
+              "accuracy": 4.5,
+              "location": 4.7,
+              "value": 4.1
             }
           },
           {
@@ -14300,7 +14308,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
                   "id": "106170384"
                 },
-                "txt": "Great place! As someone who has backpacked Europe and traveled all over the US, I can say this place is outstanding. Affordable price and it still feels like a hotel. You get your own cabin, so nice privacy. Everything feels like brand new, very clean. Les worked hard to attend my necessities and communication was never an issue. Beware that it's a very rainy place, so I'd recommend bringing your umbrella. Location is not prime, so you will need a car... But I kinda enjoyed being away from all the madness. Overall, you will get your money worth it."
+                "txt": "Great place! As someone who has backpacked Europe and traveled all over the US, I can say this place is outstanding. Affordable price and it still feels like a hotel. You get your own cabin, so nice privacy. Everything feels like brand new, very clean. Les worked hard to attend my necessities and communication was never an issue. Beware that it's a very rainy place, so I'd recommend bringing your umbrella. location is not prime, so you will need a car... But I kinda enjoyed being away from all the madness. Overall, you will get your money worth it."
               },
               {
                 "at": "2017-08-03T04:00:00.000Z",
@@ -14440,7 +14448,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
                   "id": "10032416"
                 },
-                "txt": "Rev. Les was a great host, greeting us upon arrival and available when needed. Communication throughout was great. The place was super clean and cozy. We would always come back and explore more of the northern part of the island."
+                "txt": "Rev. Les was a great host, greeting us upon arrival and available when needed. communication throughout was great. The place was super clean and cozy. We would always come back and explore more of the northern part of the island."
               },
               {
                 "at": "2017-12-29T05:00:00.000Z",
@@ -14470,12 +14478,12 @@ export class StayService {
               "Adapted"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 4.4,
-              "CheckIn": 5,
-              "Accuracy": 4.2,
-              "Location": 4,
-              "Value": 4.7
+              "cleanliness": 5,
+              "communication": 4.4,
+              "checkIn": 5,
+              "accuracy": 4.2,
+              "location": 4,
+              "value": 4.7
             }
           },
           {
@@ -14613,7 +14621,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
                   "id": "40099801"
                 },
-                "txt": "We really liked to stay here. Naz and her sister Gulcin are very good and friendly girls, always ready to help and gave a lot of useful information. Location is perfect, 5 minutes to big shopping mall, subway and other transport points. Thank you very much! Hope to see you again someday ;)"
+                "txt": "We really liked to stay here. Naz and her sister Gulcin are very good and friendly girls, always ready to help and gave a lot of useful information. location is perfect, 5 minutes to big shopping mall, subway and other transport points. Thank you very much! Hope to see you again someday ;)"
               },
               {
                 "at": "2015-10-24T04:00:00.000Z",
@@ -14643,12 +14651,12 @@ export class StayService {
               "Casas particulares"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4.5,
-              "CheckIn": 4.3,
-              "Accuracy": 4.8,
-              "Location": 4.7,
-              "Value": 4.9
+              "cleanliness": 4.3,
+              "communication": 4.5,
+              "checkIn": 4.3,
+              "accuracy": 4.8,
+              "location": 4.7,
+              "value": 4.9
             }
           },
           {
@@ -14879,7 +14887,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
                   "id": "114940818"
                 },
-                "txt": "Amazing! First time AB&B user and would have to say will be doing this again! Experience was nothing short of spectacular. Sherry's hospitality and attention to detail were phenomenal and the condo was immaculate and very cozy. Everything you needed to enjoy a great vacation was there. The accommodations were simply fantastic and would like to recommend this place to anyone who wants a stress-free, smooth and quiet environment. Location was key and Sherry's place makes you feel right at home! Will stay here again the next time we come to Maui...for sure! Thank you."
+                "txt": "Amazing! First time AB&B user and would have to say will be doing this again! Experience was nothing short of spectacular. Sherry's hospitality and attention to detail were phenomenal and the condo was immaculate and very cozy. Everything you needed to enjoy a great vacation was there. The accommodations were simply fantastic and would like to recommend this place to anyone who wants a stress-free, smooth and quiet environment. location was key and Sherry's place makes you feel right at home! Will stay here again the next time we come to Maui...for sure! Thank you."
               },
               {
                 "at": "2017-05-15T04:00:00.000Z",
@@ -14929,12 +14937,12 @@ export class StayService {
               "Beachfront"
             ],
             "statReviews": {
-              "Cleanliness": 4.6,
-              "Communication": 4.7,
-              "CheckIn": 4.1,
-              "Accuracy": 4.4,
-              "Location": 4.4,
-              "Value": 4.1
+              "cleanliness": 4.6,
+              "communication": 4.7,
+              "checkIn": 4.1,
+              "accuracy": 4.4,
+              "location": 4.4,
+              "value": 4.1
             }
           },
           {
@@ -15204,16 +15212,16 @@ export class StayService {
               "Tropical"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 4.9,
-              "CheckIn": 4.1,
-              "Accuracy": 4.8,
-              "Location": 4.9,
-              "Value": 4.4
+              "cleanliness": 4.7,
+              "communication": 4.9,
+              "checkIn": 4.1,
+              "accuracy": 4.8,
+              "location": 4.9,
+              "value": 4.4
             }
           },
           {
-            "name": "Sydney Hyde Park City Apartment (checkin from 6am)",
+            "name": "Sydney Hyde Park City Apartment (checkIn from 6am)",
             "type": "Amazing views",
             "imgUrls": [
               "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436793/httqod38otalkzp9kynq.jpg",
@@ -15410,7 +15418,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
                   "id": "25722890"
                 },
-                "txt": "Everything is perfect! Location is great. House was very clean and tidy. Desireé is a very kind, helpful and responsible. Our communication are very smooth, no problem at all. It must be one of my favourite airbnb stay! Thank you for the lovely flowers and chocolates. Highly recommend to stay in Desireé 's place for your next accommodation! "
+                "txt": "Everything is perfect! location is great. House was very clean and tidy. Desireé is a very kind, helpful and responsible. Our communication are very smooth, no problem at all. It must be one of my favourite airbnb stay! Thank you for the lovely flowers and chocolates. Highly recommend to stay in Desireé 's place for your next accommodation! "
               },
               {
                 "at": "2016-10-21T04:00:00.000Z",
@@ -15500,12 +15508,12 @@ export class StayService {
               "Ryokans"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4.6,
-              "CheckIn": 4,
-              "Accuracy": 4.3,
-              "Location": 4.2,
-              "Value": 4.1
+              "cleanliness": 4.1,
+              "communication": 4.6,
+              "checkIn": 4,
+              "accuracy": 4.3,
+              "location": 4.2,
+              "value": 4.1
             }
           },
           {
@@ -15582,12 +15590,12 @@ export class StayService {
               "Caves"
             ],
             "statReviews": {
-              "Cleanliness": 4.2,
-              "Communication": 4.6,
-              "CheckIn": 4.2,
-              "Accuracy": 4.8,
-              "Location": 4.5,
-              "Value": 4.2
+              "cleanliness": 4.2,
+              "communication": 4.6,
+              "checkIn": 4.2,
+              "accuracy": 4.8,
+              "location": 4.5,
+              "value": 4.2
             }
           },
           {
@@ -15858,12 +15866,12 @@ export class StayService {
               "Skiing"
             ],
             "statReviews": {
-              "Cleanliness": 4.7,
-              "Communication": 5,
-              "CheckIn": 4.3,
-              "Accuracy": 4.4,
-              "Location": 4.3,
-              "Value": 4.3
+              "cleanliness": 4.7,
+              "communication": 5,
+              "checkIn": 4.3,
+              "accuracy": 4.4,
+              "location": 4.3,
+              "value": 4.3
             }
           },
           {
@@ -15938,7 +15946,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
                   "id": "121240"
                 },
-                "txt": "The host was very responsive from checkin through to checkout. He waited for us to give us the keys and show us around though our train was two hours late. The place is as described new, modern, extremely clean. The building that the unit is small and quiet despite being extremely well situated. Would love to stay here again."
+                "txt": "The host was very responsive from checkIn through to checkout. He waited for us to give us the keys and show us around though our train was two hours late. The place is as described new, modern, extremely clean. The building that the unit is small and quiet despite being extremely well situated. Would love to stay here again."
               },
               {
                 "at": "2016-07-24T04:00:00.000Z",
@@ -16128,12 +16136,12 @@ export class StayService {
               "Caves"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4.3,
-              "CheckIn": 4.5,
-              "Accuracy": 4.6,
-              "Location": 4.9,
-              "Value": 4.1
+              "cleanliness": 4,
+              "communication": 4.3,
+              "checkIn": 4.5,
+              "accuracy": 4.6,
+              "location": 4.9,
+              "value": 4.1
             }
           },
           {
@@ -16236,7 +16244,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
                   "id": "92407487"
                 },
-                "txt": "Location of the codo is very convenient for the seekers of \"hub of attraction\"\nThe condo is as perfect as shown in the pics and even better.\nFlatbook made the stay very pleasant because of their 24/7 prompt responses and assistance.\nVery well recommeded.\n"
+                "txt": "location of the codo is very convenient for the seekers of \"hub of attraction\"\nThe condo is as perfect as shown in the pics and even better.\nFlatbook made the stay very pleasant because of their 24/7 prompt responses and assistance.\nVery well recommeded.\n"
               },
               {
                 "at": "2016-09-26T04:00:00.000Z",
@@ -16266,7 +16274,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
                   "id": "9311830"
                 },
-                "txt": "Logement parfaitement conforme à la description. Tres bien situé et tres bien desservi. Communication très facile avec le propriétaire. Je recommande fortement cet appartement pour decourvrir Montreal."
+                "txt": "Logement parfaitement conforme à la description. Tres bien situé et tres bien desservi. communication très facile avec le propriétaire. Je recommande fortement cet appartement pour decourvrir Montreal."
               },
               {
                 "at": "2016-11-07T05:00:00.000Z",
@@ -16316,7 +16324,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
                   "id": "106149258"
                 },
-                "txt": "We received lots of info prior to our stay and everything is well thought out. Location was great and the space was exactly what we were after.  Great!"
+                "txt": "We received lots of info prior to our stay and everything is well thought out. location was great and the space was exactly what we were after.  Great!"
               },
               {
                 "at": "2017-01-03T05:00:00.000Z",
@@ -16406,12 +16414,12 @@ export class StayService {
               "Beachfront"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 4.7,
-              "CheckIn": 4.2,
-              "Accuracy": 4.7,
-              "Location": 4.7,
-              "Value": 5
+              "cleanliness": 4.4,
+              "communication": 4.7,
+              "checkIn": 4.2,
+              "accuracy": 4.7,
+              "location": 4.7,
+              "value": 5
             }
           },
           {
@@ -16554,7 +16562,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
                   "id": "7277980"
                 },
-                "txt": "Alison immediately replied to my booking request and organised for her hubby to meet me as I was checking in late.\r\n\r\nThey were very helpful and gave me a bus card to use. The room was very spacious and the house was close to transport and restaurants.\r\n\r\nExcellent hosts in an excellent location.\r\n\r\n "
+                "txt": "Alison immediately replied to my booking request and organised for her hubby to meet me as I was checkIng in late.\r\n\r\nThey were very helpful and gave me a bus card to use. The room was very spacious and the house was close to transport and restaurants.\r\n\r\nExcellent hosts in an excellent location.\r\n\r\n "
               },
               {
                 "at": "2015-02-14T05:00:00.000Z",
@@ -16594,12 +16602,12 @@ export class StayService {
               "Luxe"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 4.4,
-              "CheckIn": 4.6,
-              "Accuracy": 4.6,
-              "Location": 4,
-              "Value": 4.4
+              "cleanliness": 5,
+              "communication": 4.4,
+              "checkIn": 4.6,
+              "accuracy": 4.6,
+              "location": 4,
+              "value": 4.4
             }
           },
           {
@@ -16732,12 +16740,12 @@ export class StayService {
               "Play"
             ],
             "statReviews": {
-              "Cleanliness": 4.8,
-              "Communication": 4,
-              "CheckIn": 5,
-              "Accuracy": 4.2,
-              "Location": 4.9,
-              "Value": 4.3
+              "cleanliness": 4.8,
+              "communication": 4,
+              "checkIn": 5,
+              "accuracy": 4.2,
+              "location": 4.9,
+              "value": 4.3
             }
           },
           {
@@ -17054,12 +17062,12 @@ export class StayService {
               "Countryside"
             ],
             "statReviews": {
-              "Cleanliness": 4.6,
-              "Communication": 4.8,
-              "CheckIn": 4.5,
-              "Accuracy": 4.9,
-              "Location": 4.8,
-              "Value": 4.5
+              "cleanliness": 4.6,
+              "communication": 4.8,
+              "checkIn": 4.5,
+              "accuracy": 4.9,
+              "location": 4.8,
+              "value": 4.5
             }
           },
           {
@@ -17158,7 +17166,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
                   "id": "17068668"
                 },
-                "txt": "The apartment is located at UES, one block from Central Park and within close proximity within several museums (The Met, Guggenheim, Copper Hewitt). Nearest subway station is on either 96th street (6 train) or 86th street (4,5,6 trains).\n\nThe apartment is on the third floor of the building. The neighbourhood is generally quiet with the exception of traffic noises and bus noises (there's a bus stop right below) but apart from that it's generally quiet at night. \n\nIt's a cosy apartment, and has everything you would typically need. The small refrigerator works well, however do note that the freezer section doesn't work, so avoid purchasing items that require freezing. Wifi and cable TV works well too.\n\nI had no problems with the hot water in the shower, but do note that it does take a few minutes for it to get hot. \n\nCommunication was great and the host, he was always quick to respond to questions or any problems. I found them incredibly communicative and helpful. \n\nI stayed for a period of two months. I am seldom around during the day as I am at work, and am usually only around at night. \n\nOverall I am satisfied with the apartment and my stay. \n\nThank you very much!"
+                "txt": "The apartment is located at UES, one block from Central Park and within close proximity within several museums (The Met, Guggenheim, Copper Hewitt). Nearest subway station is on either 96th street (6 train) or 86th street (4,5,6 trains).\n\nThe apartment is on the third floor of the building. The neighbourhood is generally quiet with the exception of traffic noises and bus noises (there's a bus stop right below) but apart from that it's generally quiet at night. \n\nIt's a cosy apartment, and has everything you would typically need. The small refrigerator works well, however do note that the freezer section doesn't work, so avoid purchasing items that require freezing. Wifi and cable TV works well too.\n\nI had no problems with the hot water in the shower, but do note that it does take a few minutes for it to get hot. \n\ncommunication was great and the host, he was always quick to respond to questions or any problems. I found them incredibly communicative and helpful. \n\nI stayed for a period of two months. I am seldom around during the day as I am at work, and am usually only around at night. \n\nOverall I am satisfied with the apartment and my stay. \n\nThank you very much!"
               },
               {
                 "at": "2018-09-30T04:00:00.000Z",
@@ -17198,12 +17206,12 @@ export class StayService {
               "Campers"
             ],
             "statReviews": {
-              "Cleanliness": 4.8,
-              "Communication": 4.3,
-              "CheckIn": 4.7,
-              "Accuracy": 4.1,
-              "Location": 4.2,
-              "Value": 4.5
+              "cleanliness": 4.8,
+              "communication": 4.3,
+              "checkIn": 4.7,
+              "accuracy": 4.1,
+              "location": 4.2,
+              "value": 4.5
             }
           },
           {
@@ -17403,7 +17411,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
                   "id": "6878692"
                 },
-                "txt": "What a find! Location location location.  This super lovely spot was right in the center of everything including right on top of a train station.  Natalie was a perfect host and I felt completely taken care of."
+                "txt": "What a find! location location location.  This super lovely spot was right in the center of everything including right on top of a train station.  Natalie was a perfect host and I felt completely taken care of."
               },
               {
                 "at": "2016-12-18T05:00:00.000Z",
@@ -17473,12 +17481,12 @@ export class StayService {
               "Beachfront"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 5,
-              "CheckIn": 4,
-              "Accuracy": 4.3,
-              "Location": 4.2,
-              "Value": 4.6
+              "cleanliness": 5,
+              "communication": 5,
+              "checkIn": 4,
+              "accuracy": 4.3,
+              "location": 4.2,
+              "value": 4.6
             }
           },
           {
@@ -17752,7 +17760,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
                   "id": "11885848"
                 },
-                "txt": "Location and price made this the ideal spot. We were able to get to all the tourist stops and hidden gems within minutes. The MRT is around the corner making transportation a breeze. Rooms small, but it's a room with a bed so what else do you need?\n\nIf you're on a budget and are looking for a \"local\" feel in the heart of Hong Kong, this is it. "
+                "txt": "location and price made this the ideal spot. We were able to get to all the tourist stops and hidden gems within minutes. The MRT is around the corner making transportation a breeze. Rooms small, but it's a room with a bed so what else do you need?\n\nIf you're on a budget and are looking for a \"local\" feel in the heart of Hong Kong, this is it. "
               }
             ],
             "likedByUsers": [],
@@ -17762,12 +17770,12 @@ export class StayService {
               "Top of the world"
             ],
             "statReviews": {
-              "Cleanliness": 4.9,
-              "Communication": 4.4,
-              "CheckIn": 4.7,
-              "Accuracy": 4.8,
-              "Location": 4.6,
-              "Value": 4.7
+              "cleanliness": 4.9,
+              "communication": 4.4,
+              "checkIn": 4.7,
+              "accuracy": 4.8,
+              "location": 4.6,
+              "value": 4.7
             }
           },
           {
@@ -18045,12 +18053,12 @@ export class StayService {
               "Campers"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4,
-              "CheckIn": 4,
-              "Accuracy": 4.4,
-              "Location": 4.9,
-              "Value": 4.9
+              "cleanliness": 4.1,
+              "communication": 4,
+              "checkIn": 4,
+              "accuracy": 4.4,
+              "location": 4.9,
+              "value": 4.9
             }
           },
           {
@@ -18340,12 +18348,12 @@ export class StayService {
               "Private rooms"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4.7,
-              "CheckIn": 4.4,
-              "Accuracy": 4.6,
-              "Location": 4.6,
-              "Value": 4.3
+              "cleanliness": 4.1,
+              "communication": 4.7,
+              "checkIn": 4.4,
+              "accuracy": 4.6,
+              "location": 4.6,
+              "value": 4.3
             }
           },
           {
@@ -18621,12 +18629,12 @@ export class StayService {
               "Private rooms"
             ],
             "statReviews": {
-              "Cleanliness": 4.5,
-              "Communication": 4.9,
-              "CheckIn": 4.7,
-              "Accuracy": 4.1,
-              "Location": 4.4,
-              "Value": 4.8
+              "cleanliness": 4.5,
+              "communication": 4.9,
+              "checkIn": 4.7,
+              "accuracy": 4.1,
+              "location": 4.4,
+              "value": 4.8
             }
           },
           {
@@ -18894,7 +18902,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
                   "id": "41242559"
                 },
-                "txt": "I havent met Cindy but her communication prior the checkin was perfect. I met Miki and her bf and they were really friendly and welcoming. I really enjoyed my chats with them and my stay was perfect. Highly recommend! I had a great time, 20 min walking distance only from Coogee beach and the start of the coastal walk. "
+                "txt": "I havent met Cindy but her communication prior the checkIn was perfect. I met Miki and her bf and they were really friendly and welcoming. I really enjoyed my chats with them and my stay was perfect. Highly recommend! I had a great time, 20 min walking distance only from Coogee beach and the start of the coastal walk. "
               }
             ],
             "likedByUsers": [],
@@ -18904,12 +18912,12 @@ export class StayService {
               "Off-the-grid"
             ],
             "statReviews": {
-              "Cleanliness": 4.8,
-              "Communication": 4.7,
-              "CheckIn": 4.8,
-              "Accuracy": 4.4,
-              "Location": 4.8,
-              "Value": 4.7
+              "cleanliness": 4.8,
+              "communication": 4.7,
+              "checkIn": 4.8,
+              "accuracy": 4.4,
+              "location": 4.8,
+              "value": 4.7
             }
           },
           {
@@ -19058,7 +19066,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
                   "id": "7764894"
                 },
-                "txt": "I exteneded my stay on Maui for a few days and wanted a simple, clean, comfortable place to stay in Paia and Mike's House suited my needs very well. Rina is very nice; very kind and helpful. I was able to leave my stuff in room on last day and picked it up early evening before catching flight home. Hana room is clean and comfortable with closed-in porch area with nice view of beach and mountains. Secure locks on doors with personalized codes. Well equipped, shared kitchen and living room. Opportunities to meet other nice travellers. Location is central and active with traffic on Baldwin Ave, roosters crowing and neighbours watching TV at night. Felt like every day, Hawaiian life and a nice way to end my visit."
+                "txt": "I exteneded my stay on Maui for a few days and wanted a simple, clean, comfortable place to stay in Paia and Mike's House suited my needs very well. Rina is very nice; very kind and helpful. I was able to leave my stuff in room on last day and picked it up early evening before catching flight home. Hana room is clean and comfortable with closed-in porch area with nice view of beach and mountains. Secure locks on doors with personalized codes. Well equipped, shared kitchen and living room. Opportunities to meet other nice travellers. location is central and active with traffic on Baldwin Ave, roosters crowing and neighbours watching TV at night. Felt like every day, Hawaiian life and a nice way to end my visit."
               },
               {
                 "at": "2014-04-08T04:00:00.000Z",
@@ -19178,12 +19186,12 @@ export class StayService {
               "Private rooms"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4.7,
-              "CheckIn": 4.4,
-              "Accuracy": 4.8,
-              "Location": 4.7,
-              "Value": 4.9
+              "cleanliness": 4,
+              "communication": 4.7,
+              "checkIn": 4.4,
+              "accuracy": 4.8,
+              "location": 4.7,
+              "value": 4.9
             }
           },
           {
@@ -19281,7 +19289,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
                   "id": "64937258"
                 },
-                "txt": "SUCIO Y MUY POCO RECOMENDABLE.\r\nBajo con difícil accesibilidad, absoluta falta de limpieza y con fuerte olor a humedad provocada por guardar las sábanas mojadas dentro del único armario de la casa, recubierto de moho por dentro. Falta de limpieza absoluta en toda la casa que hacía muy incómoda su estancia y más con niños pequeños. El sofá donde supuestamente se podía dormir, tenía una gran mancha que ni se habían molestado en intentar limpiarla. Solo había un único armario recubierto de moho para guardar la ropa, que evidentemente no pudimos utilizar. La ducha estaba negra, picada y oxidada, lo que nos tocó limpiar a nosotros y desinfectarla un poco para poderla utilizar. La cocina llena cubierta por una capa de grasa que la hacía inútil para cocinar cualquier cosa. Escaleras hacia abajo completamente empinadas y estrechas.  Nada más llegar ni rastro de Regina o Juan, nos atendió una persona que ni siquiera sabía hablar bien castellano, por lo que dudo mucho de la existencia de Juan y Regina. Es absolutamente indignante que cuando pagas el apartamento te cobran unos gastos de limpieza que no han efectuado. Para colmo nos cobraron 30 € en concepto de checking. La zona es tranquila aunque bastante alejada del metro, dado que tienes unas cuestas muy empinadas desde la parada más cernada de metro y luego toca subir cuesta arriba unos 15 minutos. De cara a los esfuerzos por parte del anfitrión, absolutamente ninguno. La persona que nos recibió ni siquiera sabía indicarnos donde estaba la tienda más cercana, un parking donde poder dejar el coche e incluso la parada de metro más cernada. Soy usuario de esta web desde hace tiempo, he visitado otros países de Europa usándola y ha sido con creces la peor experiencia que he tenido. Me siento completamente estafado."
+                "txt": "SUCIO Y MUY POCO RECOMENDABLE.\r\nBajo con difícil accesibilidad, absoluta falta de limpieza y con fuerte olor a humedad provocada por guardar las sábanas mojadas dentro del único armario de la casa, recubierto de moho por dentro. Falta de limpieza absoluta en toda la casa que hacía muy incómoda su estancia y más con niños pequeños. El sofá donde supuestamente se podía dormir, tenía una gran mancha que ni se habían molestado en intentar limpiarla. Solo había un único armario recubierto de moho para guardar la ropa, que evidentemente no pudimos utilizar. La ducha estaba negra, picada y oxidada, lo que nos tocó limpiar a nosotros y desinfectarla un poco para poderla utilizar. La cocina llena cubierta por una capa de grasa que la hacía inútil para cocinar cualquier cosa. Escaleras hacia abajo completamente empinadas y estrechas.  Nada más llegar ni rastro de Regina o Juan, nos atendió una persona que ni siquiera sabía hablar bien castellano, por lo que dudo mucho de la existencia de Juan y Regina. Es absolutamente indignante que cuando pagas el apartamento te cobran unos gastos de limpieza que no han efectuado. Para colmo nos cobraron 30 € en concepto de checkIng. La zona es tranquila aunque bastante alejada del metro, dado que tienes unas cuestas muy empinadas desde la parada más cernada de metro y luego toca subir cuesta arriba unos 15 minutos. De cara a los esfuerzos por parte del anfitrión, absolutamente ninguno. La persona que nos recibió ni siquiera sabía indicarnos donde estaba la tienda más cercana, un parking donde poder dejar el coche e incluso la parada de metro más cernada. Soy usuario de esta web desde hace tiempo, he visitado otros países de Europa usándola y ha sido con creces la peor experiencia que he tenido. Me siento completamente estafado."
               },
               {
                 "at": "2016-06-21T04:00:00.000Z",
@@ -19451,12 +19459,12 @@ export class StayService {
               "Iconic cities"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4,
-              "CheckIn": 4.6,
-              "Accuracy": 4,
-              "Location": 4.6,
-              "Value": 4.1
+              "cleanliness": 4.1,
+              "communication": 4,
+              "checkIn": 4.6,
+              "accuracy": 4,
+              "location": 4.6,
+              "value": 4.1
             }
           },
           {
@@ -19537,12 +19545,12 @@ export class StayService {
               "Caves"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4,
-              "CheckIn": 4.9,
-              "Accuracy": 5,
-              "Location": 4.9,
-              "Value": 4
+              "cleanliness": 4.1,
+              "communication": 4,
+              "checkIn": 4.9,
+              "accuracy": 5,
+              "location": 4.9,
+              "value": 4
             }
           },
           {
@@ -19802,7 +19810,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
                   "id": "72520219"
                 },
-                "txt": "Fantastic place! Location is excellent, and Angela is a great hostess. I really enjoyed staying there and would recommend it to anyone. "
+                "txt": "Fantastic place! location is excellent, and Angela is a great hostess. I really enjoyed staying there and would recommend it to anyone. "
               },
               {
                 "at": "2016-09-16T04:00:00.000Z",
@@ -19822,12 +19830,12 @@ export class StayService {
               "Boats"
             ],
             "statReviews": {
-              "Cleanliness": 4.6,
-              "Communication": 5,
-              "CheckIn": 4.9,
-              "Accuracy": 4.4,
-              "Location": 4.9,
-              "Value": 4.5
+              "cleanliness": 4.6,
+              "communication": 5,
+              "checkIn": 4.9,
+              "accuracy": 4.4,
+              "location": 4.9,
+              "value": 4.5
             }
           },
           {
@@ -19906,12 +19914,12 @@ export class StayService {
               "Top of the world"
             ],
             "statReviews": {
-              "Cleanliness": 4.2,
-              "Communication": 4.7,
-              "CheckIn": 4.6,
-              "Accuracy": 4.3,
-              "Location": 4.7,
-              "Value": 4
+              "cleanliness": 4.2,
+              "communication": 4.7,
+              "checkIn": 4.6,
+              "accuracy": 4.3,
+              "location": 4.7,
+              "value": 4
             }
           },
           {
@@ -20074,7 +20082,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
                   "id": "4577731"
                 },
-                "txt": "Great communication from the start - and host made us feel very welcome on arrival. Local points of interest, restaurants and bars where all pointed out. The place was exactly as it appears in the listing - very clean and new fittings, which kept noise out too. Location is as good as expected. We had a great stay and the host was brilliant. "
+                "txt": "Great communication from the start - and host made us feel very welcome on arrival. Local points of interest, restaurants and bars where all pointed out. The place was exactly as it appears in the listing - very clean and new fittings, which kept noise out too. location is as good as expected. We had a great stay and the host was brilliant. "
               },
               {
                 "at": "2016-06-07T04:00:00.000Z",
@@ -20194,12 +20202,12 @@ export class StayService {
               "Skiing"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4,
-              "CheckIn": 5,
-              "Accuracy": 4.9,
-              "Location": 4.4,
-              "Value": 4.4
+              "cleanliness": 4,
+              "communication": 4,
+              "checkIn": 5,
+              "accuracy": 4.9,
+              "location": 4.4,
+              "value": 4.4
             }
           },
           {
@@ -20407,7 +20415,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
                   "id": "120106245"
                 },
-                "txt": "Location is perfect, you can reach a lot of sightseeings, shops, restaurants within 10 minutes. Host was very friendly, ready to help 24 hours a day. Apartments itself really clean and cozy, you can find everything you need. Hardly recommend!"
+                "txt": "location is perfect, you can reach a lot of sightseeings, shops, restaurants within 10 minutes. Host was very friendly, ready to help 24 hours a day. Apartments itself really clean and cozy, you can find everything you need. Hardly recommend!"
               },
               {
                 "at": "2017-06-28T04:00:00.000Z",
@@ -20417,7 +20425,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg",
                   "id": "13892781"
                 },
-                "txt": "This apartment is beautiful, with old-world detailing and modern amenities. The Metro is literally a block away and there are supermarkets, restaurants and bakeries on the same block. We were glad to have a dishwasher and washing machine as well! Highly recommend this convenient and beautiful location. As others have said, it is corporate-owned so does not have the personal feel at checkin-in but the people that helped us were are very friendly and helpful."
+                "txt": "This apartment is beautiful, with old-world detailing and modern amenities. The Metro is literally a block away and there are supermarkets, restaurants and bakeries on the same block. We were glad to have a dishwasher and washing machine as well! Highly recommend this convenient and beautiful location. As others have said, it is corporate-owned so does not have the personal feel at checkIn-in but the people that helped us were are very friendly and helpful."
               },
               {
                 "at": "2017-07-20T04:00:00.000Z",
@@ -20477,12 +20485,12 @@ export class StayService {
               "Casas particulares"
             ],
             "statReviews": {
-              "Cleanliness": 4.5,
-              "Communication": 4.4,
-              "CheckIn": 4.6,
-              "Accuracy": 4.3,
-              "Location": 4.7,
-              "Value": 4
+              "cleanliness": 4.5,
+              "communication": 4.4,
+              "checkIn": 4.6,
+              "accuracy": 4.3,
+              "location": 4.7,
+              "value": 4
             }
           },
           {
@@ -20631,7 +20639,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
                   "id": "768770"
                 },
-                "txt": "Karen and Joshua were fantastic hosts! I staid a short three nights. They were flexible, kind, respectful and reliable. No problem for checking in, even if I was delayed because of the bus. No rush for the check out. The room and the bed were comfortable, clean, quite perfect for what I was looking for. And for sure, having groceries, a train station and restaurants near their place was great. Nothing to complain, I appreciated my stay."
+                "txt": "Karen and Joshua were fantastic hosts! I staid a short three nights. They were flexible, kind, respectful and reliable. No problem for checkIng in, even if I was delayed because of the bus. No rush for the check out. The room and the bed were comfortable, clean, quite perfect for what I was looking for. And for sure, having groceries, a train station and restaurants near their place was great. Nothing to complain, I appreciated my stay."
               },
               {
                 "at": "2013-08-17T04:00:00.000Z",
@@ -20771,12 +20779,12 @@ export class StayService {
               "Beachfront"
             ],
             "statReviews": {
-              "Cleanliness": 4.5,
-              "Communication": 4.1,
-              "CheckIn": 4.4,
-              "Accuracy": 4.7,
-              "Location": 4.5,
-              "Value": 4
+              "cleanliness": 4.5,
+              "communication": 4.1,
+              "checkIn": 4.4,
+              "accuracy": 4.7,
+              "location": 4.5,
+              "value": 4
             }
           },
           {
@@ -20845,7 +20853,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
                   "id": "1626887"
                 },
-                "txt": "Teodora was a great host! She contacted me before we arrived to prepare us for the checking in process. She was very accommodating our rushed arrival (we had dinner res.!) and had a great printout regarding any questions we might have about her home. \r\n\r\nWe really enjoyed her cat Tsitsou. I have a cat allergy but she was so friendly and hospitable that I even managed to give her a few good pats. Teodora's place is very clean, so my allergic reaction was minimal. \r\n\r\nThe location is great. It's less than a 10 min walk to the Metro and very easy to find street parking. We enjoyed the garden space very much. We sat out there one late afternoon and felt as though we were truly Montreal residents!\r\n\r\nOne suggestion I make (which is NOT a deal breaker) is perhaps a small fan in the guest room. The windows are not very big, and we kept the door closed, to keep Tsitsou out, and it got stuffy pretty quickly. \r\n\r\nI will be giving Teodora a 10/10 and we hope to come back to visit soon!"
+                "txt": "Teodora was a great host! She contacted me before we arrived to prepare us for the checkIng in process. She was very accommodating our rushed arrival (we had dinner res.!) and had a great printout regarding any questions we might have about her home. \r\n\r\nWe really enjoyed her cat Tsitsou. I have a cat allergy but she was so friendly and hospitable that I even managed to give her a few good pats. Teodora's place is very clean, so my allergic reaction was minimal. \r\n\r\nThe location is great. It's less than a 10 min walk to the Metro and very easy to find street parking. We enjoyed the garden space very much. We sat out there one late afternoon and felt as though we were truly Montreal residents!\r\n\r\nOne suggestion I make (which is NOT a deal breaker) is perhaps a small fan in the guest room. The windows are not very big, and we kept the door closed, to keep Tsitsou out, and it got stuffy pretty quickly. \r\n\r\nI will be giving Teodora a 10/10 and we hope to come back to visit soon!"
               },
               {
                 "at": "2016-09-14T04:00:00.000Z",
@@ -20895,12 +20903,12 @@ export class StayService {
               "Iconic cities"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 4.2,
-              "CheckIn": 4.6,
-              "Accuracy": 4.9,
-              "Location": 4.3,
-              "Value": 4.4
+              "cleanliness": 4.1,
+              "communication": 4.2,
+              "checkIn": 4.6,
+              "accuracy": 4.9,
+              "location": 4.3,
+              "value": 4.4
             }
           },
           {
@@ -21166,12 +21174,12 @@ export class StayService {
               "Amazing views"
             ],
             "statReviews": {
-              "Cleanliness": 4,
-              "Communication": 4.5,
-              "CheckIn": 4.6,
-              "Accuracy": 4.1,
-              "Location": 4.6,
-              "Value": 4.4
+              "cleanliness": 4,
+              "communication": 4.5,
+              "checkIn": 4.6,
+              "accuracy": 4.1,
+              "location": 4.6,
+              "value": 4.4
             }
           },
           {
@@ -21441,12 +21449,12 @@ export class StayService {
               "Beachfront"
             ],
             "statReviews": {
-              "Cleanliness": 4.4,
-              "Communication": 4.7,
-              "CheckIn": 4.4,
-              "Accuracy": 4.5,
-              "Location": 4.7,
-              "Value": 4.4
+              "cleanliness": 4.4,
+              "communication": 4.7,
+              "checkIn": 4.4,
+              "accuracy": 4.5,
+              "location": 4.7,
+              "value": 4.4
             }
           },
           {
@@ -21652,7 +21660,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
                   "id": "38711978"
                 },
-                "txt": "Vick's place was just as described in the pictures. We were so happy that the space was clean and in a decent neighborhood. I traveled with three other guest and we all had plenty of room to sretch out. The two living areas were used as additional sleeping place which we ended up using. Rooms in the house were on separate ends making for more privacy. \nMy flight had been delayed multiple times, Vick was nice enough to allow my guest to check in without me. He and his sister, Maria were very fast in responding to our needs and even checking on us to make sure we were okay. \nDue to late flight departure, both Vick and Maria allowed later check out times to accommodate us. I would recommend this spot for small groups and I would love to stay here again! \nThanks so much! Trip successful! "
+                "txt": "Vick's place was just as described in the pictures. We were so happy that the space was clean and in a decent neighborhood. I traveled with three other guest and we all had plenty of room to sretch out. The two living areas were used as additional sleeping place which we ended up using. Rooms in the house were on separate ends making for more privacy. \nMy flight had been delayed multiple times, Vick was nice enough to allow my guest to check in without me. He and his sister, Maria were very fast in responding to our needs and even checkIng on us to make sure we were okay. \nDue to late flight departure, both Vick and Maria allowed later check out times to accommodate us. I would recommend this spot for small groups and I would love to stay here again! \nThanks so much! Trip successful! "
               },
               {
                 "at": "2017-04-23T04:00:00.000Z",
@@ -21662,7 +21670,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/70.jpg",
                   "id": "7345743"
                 },
-                "txt": "Great Location with supermarkets close by and only 5-10 minutes walk to the subway station. Two bedrooms with comfy beds and towels. Good shower and a living room. Old building with little light but that was no problem for us. We enjoyed our stay very much."
+                "txt": "Great location with supermarkets close by and only 5-10 minutes walk to the subway station. Two bedrooms with comfy beds and towels. Good shower and a living room. Old building with little light but that was no problem for us. We enjoyed our stay very much."
               },
               {
                 "at": "2017-06-11T04:00:00.000Z",
@@ -21722,12 +21730,12 @@ export class StayService {
               "Beachfront"
             ],
             "statReviews": {
-              "Cleanliness": 4.5,
-              "Communication": 4,
-              "CheckIn": 4.4,
-              "Accuracy": 4,
-              "Location": 4.8,
-              "Value": 4.9
+              "cleanliness": 4.5,
+              "communication": 4,
+              "checkIn": 4.4,
+              "accuracy": 4,
+              "location": 4.8,
+              "value": 4.9
             }
           },
           {
@@ -22001,12 +22009,12 @@ export class StayService {
               "Campers"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 5,
-              "CheckIn": 4.7,
-              "Accuracy": 4.7,
-              "Location": 4.4,
-              "Value": 4.8
+              "cleanliness": 5,
+              "communication": 5,
+              "checkIn": 4.7,
+              "accuracy": 4.7,
+              "location": 4.4,
+              "value": 4.8
             }
           },
           {
@@ -22173,12 +22181,12 @@ export class StayService {
               "Amazing views"
             ],
             "statReviews": {
-              "Cleanliness": 5,
-              "Communication": 4.7,
-              "CheckIn": 4.1,
-              "Accuracy": 4.9,
-              "Location": 4.8,
-              "Value": 4
+              "cleanliness": 5,
+              "communication": 4.7,
+              "checkIn": 4.1,
+              "accuracy": 4.9,
+              "location": 4.8,
+              "value": 4
             }
           },
           {
@@ -22308,7 +22316,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
                   "id": "85975853"
                 },
-                "txt": "This condo was fantastic.  I love how the master has huge sliding doors that you can open up for more space or close for privacy.\n\nRajeev was a excellent and very personable host.  He gave us super recommendations.  I only wish we could have done them all.\n\nWe had a glitch with my name on checkin and he called me directly a short time after to check and make sure everything was taken care of.\n\nHe always responded very quickly after any email, text or phone call.  Such a great host.\n\nThe grounds were also fantastic, great pool and hot tub.  The cafe on the grounds was a great place to eat dinner or breakfast if you didn't want to drive anywhere and the beach is beautiful.\n\nBecause it's not part of the huge resorts it feels much more private, but only minutes away from great shops, restaurants and water fun.\n\nIf we ever get back to Maui, we will definitely be looking this one up again."
+                "txt": "This condo was fantastic.  I love how the master has huge sliding doors that you can open up for more space or close for privacy.\n\nRajeev was a excellent and very personable host.  He gave us super recommendations.  I only wish we could have done them all.\n\nWe had a glitch with my name on checkIn and he called me directly a short time after to check and make sure everything was taken care of.\n\nHe always responded very quickly after any email, text or phone call.  Such a great host.\n\nThe grounds were also fantastic, great pool and hot tub.  The cafe on the grounds was a great place to eat dinner or breakfast if you didn't want to drive anywhere and the beach is beautiful.\n\nBecause it's not part of the huge resorts it feels much more private, but only minutes away from great shops, restaurants and water fun.\n\nIf we ever get back to Maui, we will definitely be looking this one up again."
               },
               {
                 "at": "2017-02-05T05:00:00.000Z",
@@ -22468,12 +22476,12 @@ export class StayService {
               "Campers"
             ],
             "statReviews": {
-              "Cleanliness": 4.2,
-              "Communication": 4.7,
-              "CheckIn": 5,
-              "Accuracy": 4.6,
-              "Location": 4.7,
-              "Value": 4
+              "cleanliness": 4.2,
+              "communication": 4.7,
+              "checkIn": 5,
+              "accuracy": 4.6,
+              "location": 4.7,
+              "value": 4
             }
           },
           {
@@ -22735,7 +22743,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
                   "id": "1935727"
                 },
-                "txt": "Everything was excellent from the very beginning. We found the place very easily. It really is centrally located and has everything in it. We got the place polished. Manuela was very flexible with the checkin&out. The shower is fantastic, and the bed is perfect. Great place !!!"
+                "txt": "Everything was excellent from the very beginning. We found the place very easily. It really is centrally located and has everything in it. We got the place polished. Manuela was very flexible with the checkIn&out. The shower is fantastic, and the bed is perfect. Great place !!!"
               }
             ],
             "likedByUsers": [],
@@ -22745,12 +22753,12 @@ export class StayService {
               "Off-the-grid"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 5,
-              "CheckIn": 4.7,
-              "Accuracy": 4.8,
-              "Location": 4.1,
-              "Value": 4.8
+              "cleanliness": 4.1,
+              "communication": 5,
+              "checkIn": 4.7,
+              "accuracy": 4.8,
+              "location": 4.1,
+              "value": 4.8
             }
           },
           {
@@ -22921,12 +22929,12 @@ export class StayService {
               "New"
             ],
             "statReviews": {
-              "Cleanliness": 4.3,
-              "Communication": 4.3,
-              "CheckIn": 5,
-              "Accuracy": 4.5,
-              "Location": 4.8,
-              "Value": 4.2
+              "cleanliness": 4.3,
+              "communication": 4.3,
+              "checkIn": 5,
+              "accuracy": 4.5,
+              "location": 4.8,
+              "value": 4.2
             }
           },
           {
@@ -23197,12 +23205,12 @@ export class StayService {
               "Luxe"
             ],
             "statReviews": {
-              "Cleanliness": 4.1,
-              "Communication": 5,
-              "CheckIn": 5,
-              "Accuracy": 4.5,
-              "Location": 4.7,
-              "Value": 4.4
+              "cleanliness": 4.1,
+              "communication": 5,
+              "checkIn": 5,
+              "accuracy": 4.5,
+              "location": 4.7,
+              "value": 4.4
             }
           }
         ]
