@@ -7,11 +7,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { StayIndexComponent } from './pages/stay-index/stay-index.component';
 
 const routes: Routes = [
+  { path: 'home', component: HomeComponent },
   { path: ':stayId',
     component: StayDetailsComponent,
     resolve: { stay: StayResolver }},
   { path: '', component: StayIndexComponent},
-  { path: 'home', component: HomeComponent },
 ]
 
 @NgModule({

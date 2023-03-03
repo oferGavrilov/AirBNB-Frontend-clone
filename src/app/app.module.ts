@@ -22,7 +22,10 @@ import { StayDetailsComponent } from './pages/stay-details/stay-details.componen
     StayFilterComponent,
     StayListComponent,
     StayPreviewComponent,
-    ImgCarouselComponent
+    ImgCarouselComponent,
+    HomeComponent,
+    HomeHeaderComponent,
+    StayDetailsComponent
   ],
   imports: [
     BrowserModule,
