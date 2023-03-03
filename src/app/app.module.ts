@@ -10,6 +10,7 @@ import { StayListComponent } from './cmps/stay-list/stay-list.component';
 import { StayPreviewComponent } from './cmps/stay-preview/stay-preview.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ImgCarouselComponent } from './cmps/img-carousel/img-carousel.component';
+import { StayDetailsComponent } from './pages/stay-details/stay-details.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ImgCarouselComponent } from './cmps/img-carousel/img-carousel.component
     StayFilterComponent,
     StayListComponent,
     StayPreviewComponent,
-    ImgCarouselComponent
+    ImgCarouselComponent,
+    StayDetailsComponent
   ],
   imports: [
     BrowserModule,

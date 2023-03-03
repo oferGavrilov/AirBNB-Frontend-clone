@@ -1,5 +1,5 @@
 import { Injectable, OnInit } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, Observable, of, throwError } from 'rxjs';
 import { Stay } from '../models/stay.model';
 import { UtilService } from './util.service';
 
@@ -14,12 +14,19 @@ export class StayService {
   private _stays$ = new BehaviorSubject<Stay[]>([]);
   public stays$ = this._stays$.asObservable()
 
+  public getById(stayId: string): Observable<Stay> {
+    let stays = this.utilService.loadFromStorage(this.STAY_KEY)
+    const stay =  stays.find((stay: Stay) => stay._id === stayId)
+    return stay ? of(stay) : throwError(() => `Stay id ${stayId} not found!`)
+  }
+
   public loadStays() {
     let stays = this.utilService.loadFromStorage(this.STAY_KEY)
     if (!stays) {
       stays =
       [
         {
+          "_id": "s101",
           "name": "Westin Kaanapali KORVN 2BR",
           "type": "National parks",
           "imgUrls": [
@@ -220,6 +227,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s102",
             "name": "Belle chambre à côté Metro Papineau",
             "type": "Campers",
             "imgUrls": [
@@ -328,6 +336,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s103",
             "name": "M&M Space MM2  Apartamento no centro da cidade",
             "type": "Campers",
             "imgUrls": [
@@ -615,6 +624,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s104",
             "name": "Fresh and modern 1BR in Bed-Stuy",
             "type": "National parks",
             "imgUrls": [
@@ -888,6 +898,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s105",
             "name": "Habitación centro de Barcelona",
             "type": "Shared homes",
             "imgUrls": [
@@ -972,6 +983,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s107",
             "name": "DOUBLE ROOM IN THE HEART OF BCN",
             "type": "Amazing views",
             "imgUrls": [
@@ -1243,6 +1255,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s108",
             "name": "Home, Sweet, Harlem. Welcome!",
             "type": "Beach",
             "imgUrls": [
@@ -1523,6 +1536,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s109",
             "name": "Heroísmo IV",
             "type": "Castles",
             "imgUrls": [
@@ -1807,6 +1821,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s110",
             "name": "Monte dos Burgos - Cosy Room",
             "type": "Campers",
             "imgUrls": [
@@ -1929,6 +1944,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s111",
             "name": "Nice Cosy Room In Taksim",
             "type": "Islands",
             "imgUrls": [
@@ -2193,6 +2209,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s111",
             "name": "Penthouse Sands of Kahana Sandy Swimmable Beach",
             "type": "Caves",
             "imgUrls": [
@@ -2475,6 +2492,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s112",
             "name": "+Spacious Studio&Kitchenette near Blue Mosque+",
             "type": "OMG!",
             "imgUrls": [
@@ -2746,6 +2764,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s113",
             "name": "Grand apartment Sagrada Familia",
             "type": "Lakefront",
             "imgUrls": [
@@ -3019,6 +3038,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s114",
             "name": "Spacious and quiet duplex apartment in Poble Sec",
             "type": "Islands",
             "imgUrls": [
@@ -3324,6 +3344,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s115",
             "name": "*CoZy Private Williamsburg Home*",
             "type": "Beachfront",
             "imgUrls": [
@@ -3601,6 +3622,7 @@ export class StayService {
             }
           },
           {
+            "_id": "s116",
             "name": "Newly and comfortable apt",
             "type": "OMG!",
             "imgUrls": [
