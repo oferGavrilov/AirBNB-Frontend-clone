@@ -12,6 +12,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ImgCarouselComponent } from './cmps/img-carousel/img-carousel.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HomeHeaderComponent } from './cmps/home-header/home-header.component';
+import { StayDetailsComponent } from './pages/stay-details/stay-details.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +22,7 @@ import { HomeHeaderComponent } from './cmps/home-header/home-header.component';
     StayFilterComponent,
     StayListComponent,
     StayPreviewComponent,
-    ImgCarouselComponent,
-    HomeComponent,
-    HomeHeaderComponent
+    ImgCarouselComponent
   ],
   imports: [
     BrowserModule,

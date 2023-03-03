@@ -10,17 +10,19 @@ export interface Stay {
     labels: string[]
     host: Host
     loc: Loc
-    review: Review
+    reviews: Review[]
     likedByUser:string[]
     types: string[]
     roomType: string
-    statReviews: StatReviews
+    statReviews: StatReviews,
+    bathrooms: number,
+    bedrooms: number
 }
 
 export interface Host {
     _id: string
     fullname: string
-    imgUrl: string
+    pictureUrl: string
 }
 
 export interface Loc {

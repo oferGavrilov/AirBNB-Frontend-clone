@@ -1,0 +1,125 @@
+@import '../../../assets/styles/setup/mixins';
+@import '../../../assets/styles/setup/variables';
+
+.stay-details {
+  font-family: $main-font;
+  header {
+    @include center-flex;
+    justify-content: space-between;
+    color: $header-text-color;
+    padding-top: 24px;
+
+    .header-info {
+      h1 {
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 8px;
+      }
+
+      div {
+        display: flex;
+        font-weight: 500;
+      }
+
+      .point {
+        margin: 0 8px 0 8px;
+      }
+
+      .rate {
+        span {
+          margin-left: 4px;
+        }
+      }
+
+      .reviews, .loc {
+        cursor: pointer;
+        color: $header-text-color;
+        text-decoration: underline;
+      }
+    }
+
+    .share-save {
+      display: flex;
+      >* {
+        padding: 8px;
+        @include center-flex();
+        gap: 8px;
+        cursor: pointer;
+        border-radius: 6px;
+
+        &:hover {
+          background-color: $main-hover;
+        }
+
+        span {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .img-container {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 8px;
+    overflow: hidden;
+    border-radius: 8px;
+    grid-template-areas:
+    "image1 image2 image3"
+    "image1 image4 image5";
+    .img {
+      height: 100%;
+      object-fit: cover;
+    }
+    .img1 {
+      grid-area: image1;
+    }
+    .img2 {
+      grid-area: image2;
+    }
+    .img3 {
+      grid-area: image3;
+    }
+    .img4 {
+      grid-area: image4;
+    }
+    .img5 {
+      grid-area: image5;
+    }
+  }
+
+  .subtitle {
+    @include center-flex();
+    justify-content: space-between;
+    width: 50%;
+    padding: 48px 0 24px 0;
+
+    .subtitle-content {
+      h2 {
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        span.point {
+          @include center-flex();
+          height: 100%;
+        }
+      }
+    }
+
+    img{
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+    }
+  }
+}

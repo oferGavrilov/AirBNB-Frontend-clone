@@ -1,0 +1,48 @@
+<section class="stay-details">
+  <header>
+    <div class="header-info">
+      <h1>{{stay.name}}</h1>
+      <div>
+        <div class="rate">
+          <fa-icon [icon]="starIcon"></fa-icon>
+          <span>{{getRateAvg()}}</span>
+        </div>
+        <span class="point">.</span>
+        <a href="" class="reviews">{{stay.reviews.length}} reviews</a>
+        <span class="point">.</span>
+        <div class="loc">{{stay.loc.address}}</div>
+        <span class="point">.</span>
+      </div>
+    </div>
+    <div class="share-save">
+      <span class="share">
+        <fa-icon [icon]="shareIcon"></fa-icon>
+        <span>share</span>
+      </span>
+      <span class="save">
+        <fa-icon [icon]="heartIcon"></fa-icon>
+        <span>save</span>
+      </span>
+    </div>
+  </header>
+  <div class="img-container">
+    <div class="img1"><img class="img" [src]="stay.imgUrls[0]" alt=""></div>
+    <div class="img2"><img class="img" [src]="stay.imgUrls[1]" alt=""></div>
+    <div class="img3"><img class="img" [src]="stay.imgUrls[2]" alt=""></div>
+    <div class="img4"><img class="img" [src]="stay.imgUrls[3]" alt=""></div>
+    <div class="img5"><img class="img" [src]="stay.imgUrls[4]" alt=""></div>
+  </div>
+  <div class="subtitle">
+    <div class="subtitle-content">
+      <h2>{{stay.roomType}} hosted by {{stay.host.fullname}}</h2>
+      <div>
+       <span>2 guests</span>
+       <span class="point">.</span>
+       <span>{{stay.bathrooms}} bathroom</span>
+       <span class="point">.</span>
+       <span>{{stay.bedrooms}} bedroom</span>
+      </div>
+    </div>
+    <img [src]="stay.host.pictureUrl" alt="">
+  </div>
+</section>
