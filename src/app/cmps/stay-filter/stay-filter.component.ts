@@ -26,21 +26,21 @@ export class StayFilterComponent {
       "(min-width:700px)"
     ]).subscribe((result: BreakpointState) => {
       if (result.matches) {
-        this.itemsToShow = 6
+        this.itemsToShow = 4
       }
     })
     this.breakpointObserver.observe([
       "(min-width:960px)"
     ]).subscribe((result: BreakpointState) => {
       if (result.matches) {
-        this.itemsToShow = 9
+        this.itemsToShow = 7
       }
     })
     this.breakpointObserver.observe([
       "(min-width:1400px)"
     ]).subscribe((result: BreakpointState) => {
       if (result.matches) {
-        this.itemsToShow = 15
+        this.itemsToShow = 14
       }
     })
   }
@@ -50,7 +50,7 @@ export class StayFilterComponent {
   }
 
   checkRightArrow() {
-    return this.filters.length - 1 >= this.index + this.itemsToShow + 3
+    return this.filters.length - 1 >= this.index + this.itemsToShow
   }
 
   checkLeftArrow() {
@@ -72,15 +72,11 @@ export class StayFilterComponent {
     { txt: 'Private rooms', img: 'assets/img/filter-imgs/private-rooms.jpg' },
     { txt: 'Lakefront', img: 'assets/img/filter-imgs/lake-front.jpg' },
     { txt: 'Castles', img: 'assets/img/filter-imgs/castles.jpg' },
-    { txt: 'OMG!', img: 'assets/img/filter-imgs/omg.jpg' },
-    { txt: 'Amazing views', img: 'assets/img/filter-imgs/amazing-views.jpg' },
-    { txt: 'Trending', img: 'assets/img/filter-imgs/trending.jpg' },
-    { txt: 'Golfing', img: 'assets/img/filter-imgs/golfing.jpg' },
-    { txt: 'Surfing', img: 'assets/img/filter-imgs/surfing.jpg' },
-    { txt: 'Mansions', img: 'assets/img/filter-imgs/mansions.jpg' },
-    { txt: 'Luxe', img: 'assets/img/filter-imgs/luxe.jpg' },
-    { txt: 'Private rooms', img: 'assets/img/filter-imgs/private-rooms.jpg' },
-    { txt: 'Lakefront', img: 'assets/img/filter-imgs/lake-front.jpg' },
-    { txt: 'Castles', img: 'assets/img/filter-imgs/castles.jpg' },
+    { txt: 'Tiny homes', img: 'assets/img/filter-imgs/tiny-homes.jpg' },
+    { txt: 'Islands', img: 'assets/img/filter-imgs/islands.jpg' },
+    { txt: 'Boats', img: 'assets/img/filter-imgs/boats.jpg' },
+    { txt: 'Creative spaces', img: 'assets/img/filter-imgs/creative-spaces.jpg' },
+    { txt: 'Beach', img: 'assets/img/filter-imgs/beach.jpg' },
+    { txt: 'Design', img: 'assets/img/filter-imgs/design.jpg' },
   ]
 }
