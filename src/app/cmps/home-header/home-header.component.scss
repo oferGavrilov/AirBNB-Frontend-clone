@@ -1,0 +1,45 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+
+.home-header {
+    position: sticky;
+    top: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    img {
+        width: 32px;
+        cursor: pointer;
+    }
+
+    .login-container {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        .title{
+            color: $header-text-color;
+            font-weight: 500;
+        }
+
+        button{
+            @include center-flex();
+            background-color: $secondary-color;
+            border: none;
+            padding: 10px 16px;
+            width: 200px;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            gap: 6px;
+            border-radius: 12px;
+            cursor: pointer;
+
+            svg{
+                font-size: 22px;
+            }
+        }
+    }
+}
