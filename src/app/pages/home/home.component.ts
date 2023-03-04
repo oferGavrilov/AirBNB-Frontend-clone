@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Stay } from 'src/app/models/stay.model';
+import { StayService } from 'src/app/services/stay.service';
 
 @Component({
   selector: 'home',
@@ -6,8 +9,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  constructor() { }
+  constructor(private stayService: StayService) { }
   amount: number = 1250
+
+  stays$ !: Observable<Stay[]>
+
+  ngOnInit() {
+    this.stayService.loadStays()
+    this.stays$ = this.stayService.stays$;
+  }
 
   onChangeAmount(event: Event) {
     this.amount = Number((event.target as HTMLInputElement).value)
@@ -17,3 +27,6 @@ export class HomeComponent {
     return (this.amount / 193).toFixed(0)
   }
 }
+
+
+

@@ -31,6 +31,10 @@ export interface Loc {
     city: string
     address: string
     lat: number
+    lan: number
+}
+export interface googleMapLoc {
+    lat: number
     lng: number
 }
 
@@ -54,3 +58,7 @@ export interface StatReviews {
   value: number
 }
 
+export interface Marker {
+    // position: googleMapLoc,
+    label: string
+}
