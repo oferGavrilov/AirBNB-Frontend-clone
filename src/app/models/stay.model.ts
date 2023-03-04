@@ -12,7 +12,6 @@ export interface Stay {
     loc: Loc
     reviews: Review[]
     likedByUser:string[]
-    types: string[]
     roomType: string
     statReviews: StatReviews,
     bathrooms: number,
