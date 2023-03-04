@@ -4,8 +4,6 @@
             [center]="center"
             [zoom]="zoom"
             (mapClick)="moveMap($event)"
-            (mapMousemove)="move($event)">
+            (mapMousemove)="move($event)"
+            language="en">
 </google-map>
-
-<div>Latitude: {{display?.lat}}</div>
-<div>Longitude: {{display?.lng}}</div>

@@ -1,13 +1,16 @@
 @import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
 
 .home {
     height: 150vh;
 
     .teaser-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
 
         .teaser {
             margin-top: 160px;
-            text-align: center;
             color: $header-text-color;
             word-spacing: 4px;
 
@@ -37,7 +40,6 @@
 
                 a {
                     text-decoration: underline;
-
                 }
             }
 
@@ -46,6 +48,18 @@
                 height: 40px;
             }
 
+            
+            .teaser-description {
+                text-decoration: underline;
+                color: $main-color;
+                cursor: pointer;
+            }
         }
+
+        // @include for-normal-layout() {
+        //     &{
+        //         flex-direction: row;
+        //     }
+        // }
     }
 }
