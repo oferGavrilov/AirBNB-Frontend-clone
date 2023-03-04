@@ -1,9 +1,13 @@
 <!-- google-maps-demo.component.html -->
-<google-map height="400px"
+<google-map height="500px"
             width="100%"
             [center]="center"
             [zoom]="zoom"
             (mapClick)="moveMap($event)"
             (mapMousemove)="move($event)"
             language="en">
+            <map-marker *ngFor="let markerPosition of markerPositions"
+            [position]="markerPosition"
+            [options]="markerOptions"></map-marker>
 </google-map>
+<pre>{{markerPositions}}</pre>
