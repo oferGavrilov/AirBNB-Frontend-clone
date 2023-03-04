@@ -26,17 +26,17 @@
     </div>
   </header>
   <div class="img-container">
-    <div class="img1"><img class="img" [src]="stay.imgUrls[0]" alt=""></div>
-    <div class="img2"><img class="img" [src]="stay.imgUrls[1]" alt=""></div>
-    <div class="img3"><img class="img" [src]="stay.imgUrls[2]" alt=""></div>
-    <div class="img4"><img class="img" [src]="stay.imgUrls[3]" alt=""></div>
-    <div class="img5"><img class="img" [src]="stay.imgUrls[4]" alt=""></div>
+    <img class="img" [src]="stay.imgUrls[0]" alt="">
+    <img class="img" [src]="stay.imgUrls[1]" alt="">
+    <img class="img" [src]="stay.imgUrls[2]" alt="">
+    <img class="img" [src]="stay.imgUrls[3]" alt="">
+    <img class="img" [src]="stay.imgUrls[4]" alt="">
   </div>
   <div class="subtitle">
     <div class="subtitle-content">
       <h2>{{stay.roomType}} hosted by {{stay.host.fullname}}</h2>
       <div>
-       <span>2 guests</span>
+       <span>{{stay.capacity}} guests</span>
        <span class="point">.</span>
        <span>{{stay.bathrooms}} bathroom</span>
        <span class="point">.</span>
@@ -44,5 +44,32 @@
       </div>
     </div>
     <img [src]="stay.host.pictureUrl" alt="">
+  </div>
+  <div class="special-perks">
+    <div>
+      <img src="assets/img/special-perks/super-host.png" alt="">
+      <div>
+        <h2>{{stay.host.fullname}} is a Superhost</h2>
+        <p>Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.</p>
+      </div>
+    </div>
+      <div>
+        <img src="assets/img/special-perks/marker.png" alt="">
+        <div>
+          <h2>Great location</h2>
+          <p>100% of recent guests gave the location a 5-star rating.</p>
+      </div>
+    </div>
+      <div>
+        <img src="assets/img/special-perks/key.png" alt="">
+        <div>
+          <h2>Great check-in experience</h2>
+          <p>100% of recent guests gave the check-in process a 5-star rating.</p>
+      </div>
+    </div>
+  </div>
+  <div class="air-cover">
+    <h2><span>air</span>cover</h2>
+    <div>Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.</div>
   </div>
 </section>
