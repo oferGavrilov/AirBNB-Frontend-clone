@@ -13,6 +13,9 @@ import { ImgCarouselComponent } from './cmps/img-carousel/img-carousel.component
 import { HomeComponent } from './pages/home/home.component';
 import { HomeHeaderComponent } from './cmps/home-header/home-header.component';
 import { StayDetailsComponent } from './pages/stay-details/stay-details.component';
+import { GoogleMapComponent } from './cmps/google-map/google-map.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,14 +28,17 @@ import { StayDetailsComponent } from './pages/stay-details/stay-details.componen
     ImgCarouselComponent,
     HomeComponent,
     HomeHeaderComponent,
-    StayDetailsComponent
+    StayDetailsComponent,
+    GoogleMapComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule,
+    GoogleMapsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

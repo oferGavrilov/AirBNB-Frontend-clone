@@ -1,39 +1,51 @@
 @import '../../../assets/styles/setup/variables';
+
 .home {
     height: 150vh;
+
     .teaser-section {
 
-        .teaser{
+        .teaser {
             margin-top: 160px;
             text-align: center;
             color: $header-text-color;
             word-spacing: 4px;
-            h1{
+
+            h1 {
                 line-height: 52px;
                 line-break: strict;
                 font-size: 48px;
                 font-weight: 500;
                 margin-bottom: 24px;
 
-                p{
+                p {
                     color: $secondary-color;
                     margin: 0;
                 }
             }
-            .amount{
+
+            .amount {
                 margin-bottom: 24px;
                 font-size: 72px;
                 line-height: 72px;
                 letter-spacing: 5px;
             }
-            .teaser-info{
+
+            .teaser-info {
                 margin-bottom: 28px;
                 line-height: 22px;
-                a{
+
+                a {
                     text-decoration: underline;
 
                 }
             }
+
+            input {
+                width: 100%;
+                height: 40px;
+            }
+
         }
     }
 }
