@@ -23,6 +23,7 @@ import { AmenitiesPreviewComponent } from './cmps/details/amenities-preview/amen
 import { SpecialPerksComponent } from './cmps/details/special-perks/special-perks.component';
 import { ReviewListComponent } from './cmps/details/review-list/review-list.component';
 import { ReviewPreviewComponent } from './cmps/details/review-preview/review-preview.component';
+import { HostInfoComponent } from './cmps/details/host-info/host-info.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ReviewPreviewComponent } from './cmps/details/review-preview/review-pre
     AmenitiesPreviewComponent,
     SpecialPerksComponent,
     ReviewListComponent,
-    ReviewPreviewComponent
+    ReviewPreviewComponent,
+    HostInfoComponent
   ],
   imports: [
     BrowserModule,

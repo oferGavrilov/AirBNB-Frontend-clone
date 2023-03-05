@@ -27,7 +27,7 @@
         </span>
       </div>
     </header>
-    <div  class="img-container">
+    <div class="img-container">
       <img class="img" [src]="stay.imgUrls[0]" alt="">
       <img class="img" [src]="stay.imgUrls[1]" alt="">
       <img class="img" [src]="stay.imgUrls[2]" alt="">
@@ -67,5 +67,6 @@
       <stay-order [stay]="stay"></stay-order>
     </div>
     <review-list [stay]="stay"></review-list>
+    <host-info [stay]="stay"></host-info>
   </div>
 </section>
