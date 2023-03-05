@@ -1,58 +1,71 @@
 <section class="stay-details">
-  <header>
-    <div class="header-info">
-      <h1>{{stay.name}}</h1>
-      <div>
-        <div class="rate">
-          <fa-icon [icon]="starIcon"></fa-icon>
-          <span>{{getRateAvg()}}</span>
+  <app-header></app-header>
+  <div class="main-layout">
+    <header>
+      <div class="header-info">
+        <h1>{{stay.name}}</h1>
+        <div>
+          <div class="rate">
+            <fa-icon [icon]="starIcon"></fa-icon>
+            <span>{{getRateAvg()}}</span>
+          </div>
+          <span class="point">.</span>
+          <a href="" class="reviews">{{stay.reviews.length}} reviews</a>
+          <span class="point">.</span>
+          <div class="loc">{{stay.loc.address}}</div>
+          <span class="point">.</span>
         </div>
-        <span class="point">.</span>
-        <a href="" class="reviews">{{stay.reviews.length}} reviews</a>
-        <span class="point">.</span>
-        <div class="loc">{{stay.loc.address}}</div>
-        <span class="point">.</span>
       </div>
-    </div>
-    <div class="share-save">
-      <span class="share">
-        <fa-icon [icon]="shareIcon"></fa-icon>
-        <span>share</span>
-      </span>
-      <span class="save">
-        <fa-icon [icon]="heartIcon"></fa-icon>
-        <span>save</span>
-      </span>
-    </div>
-  </header>
-  <div class="img-container">
-    <img class="img" [src]="stay.imgUrls[0]" alt="">
-    <img class="img" [src]="stay.imgUrls[1]" alt="">
-    <img class="img" [src]="stay.imgUrls[2]" alt="">
-    <img class="img" [src]="stay.imgUrls[3]" alt="">
-    <img class="img" [src]="stay.imgUrls[4]" alt="">
-  </div>
-  <div class="subtitle">
-    <div class="subtitle-content">
-      <h2>{{stay.roomType}} hosted by {{stay.host.fullname}}</h2>
-      <div>
-       <span>{{stay.capacity}} guests</span>
-       <span class="point">.</span>
-       <span>{{stay.bathrooms}} bathroom</span>
-       <span class="point">.</span>
-       <span>{{stay.bedrooms}} bedroom</span>
+      <div class="share-save">
+        <span class="share">
+          <fa-icon [icon]="shareIcon"></fa-icon>
+          <span>share</span>
+        </span>
+        <span class="save">
+          <fa-icon [icon]="heartIcon"></fa-icon>
+          <span>save</span>
+        </span>
       </div>
+    </header>
+    <div  class="img-container">
+      <img class="img" [src]="stay.imgUrls[0]" alt="">
+      <img class="img" [src]="stay.imgUrls[1]" alt="">
+      <img class="img" [src]="stay.imgUrls[2]" alt="">
+      <img class="img" [src]="stay.imgUrls[3]" alt="">
+      <img class="img" [src]="stay.imgUrls[4]" alt="">
     </div>
-    <img [src]="stay.host.pictureUrl" alt="">
+    <div *ngIf="isShowHeader" class="sticky-header">
+      <h1>Header</h1>
+    </div>
+    <div #element class="stay-order-info">
+      <div class="stay-information">
+        <div class="subtitle">
+          <div class="subtitle-content">
+            <h2>{{stay.roomType}} hosted by {{stay.host.fullname}}</h2>
+            <div>
+              <span>{{stay.capacity}} guests</span>
+              <span class="point">.</span>
+              <span>{{stay.bathrooms}} bathroom</span>
+              <span class="point">.</span>
+              <span>{{stay.bedrooms}} bedroom</span>
+            </div>
+          </div>
+          <img [src]="stay.host.pictureUrl" alt="">
+        </div>
+        <special-perks [stay]="stay"></special-perks>
+        <div class="air-cover">
+          <h2><span>air</span>cover</h2>
+          <div>Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues
+            like
+            trouble checking in.</div>
+        </div>
+        <div class="des">
+          {{stay.summary}}
+        </div>
+        <amenities-list [stay]="stay"></amenities-list>
+      </div>
+      <stay-order [stay]="stay"></stay-order>
+    </div>
+    <review-list [stay]="stay"></review-list>
   </div>
-  <special-perks [stay]="stay"></special-perks>
-  <div class="air-cover">
-    <h2><span>air</span>cover</h2>
-    <div>Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.</div>
-  </div>
-  <div class="des">
-    {{stay.summary}}
-  </div>
-  <amenities-list [stay]="stay"></amenities-list>
-  <review-list [stay]="stay"></review-list>
 </section>

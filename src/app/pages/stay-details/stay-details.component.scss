@@ -95,15 +95,25 @@
             filter: brightness(0.7);
         }
     }
-
   }
+  
+  .sticky-header{
+    position: sticky;
+    top: 0;
+  }
+  
+  .stay-order-info{
+    display: flex;
+    padding-top: 48px;
+    gap: 10%;
+  }
+
 
   .subtitle {
     @include center-flex();
     justify-content: space-between;
     border-bottom: 1px solid $border-color;
-    width: 60%;
-    padding: 48px 0 24px 0;
+    padding-bottom: 24px;
 
     .subtitle-content {
       h2 {
@@ -134,7 +144,6 @@
   .air-cover {
     padding: 32px 0;
     border-bottom: 1px solid $border-color;
-    width: 60%;
     color: $header-text-color;
     h2 {
       font-size: 32px;
@@ -149,7 +158,6 @@
     font-size: 16px;
     color: $header-text-color;
     line-height: 20px;
-    width: 60%;
     padding: 32px 0;
     border-bottom: 1px solid $border-color;
   }

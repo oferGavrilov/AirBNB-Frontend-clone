@@ -13,14 +13,13 @@ import { faCircleMinus } from '@fortawesome/free-solid-svg-icons'
 })
 export class StayOrderComponent {
   constructor() { }
-  @Input() stays !: Stay[] | null
+  @Input() stay !: Stay 
 
   faCirclePlus = faCirclePlus
   faCircleMinus = faCircleMinus
   faChevronDown = faChevronDown
   faChevronUp = faChevronUp
   faStar = faStar
-  stay !: Stay
 
   date: string | null = null;
   checkIn: Date = new Date()
@@ -28,6 +27,7 @@ export class StayOrderComponent {
   totalDays!: any
   children: number = 0
   showGuestModal: boolean = false
+  
   guests: Guests[] = [
     {
       type: 'Adults',
@@ -46,9 +46,6 @@ export class StayOrderComponent {
       amount: 0
     }
   ]
-  ngOnInit() {
-    if (this.stays) this.stay = this.stays[0]
-  }
 
   get GetTotalDays() {
     return this.checkOut.getDate() - this.checkIn.getDate()
