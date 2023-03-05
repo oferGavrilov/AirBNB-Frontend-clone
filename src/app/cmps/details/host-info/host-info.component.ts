@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Stay } from 'src/app/models/stay.model';
+import { faArrowUpFromBracket, faHeart, faStar } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'host-info',
@@ -8,4 +9,5 @@ import { Stay } from 'src/app/models/stay.model';
 })
 export class HostInfoComponent {
   @Input() stay!: Stay
+  faStar = faStar
 }

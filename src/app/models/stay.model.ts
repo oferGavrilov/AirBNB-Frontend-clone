@@ -24,7 +24,7 @@ export interface Host {
     pictureUrl: string,
     createAt: number,
     isSuperhost: boolean,
-    'policy-number': number,
+    policyNumber: number,
     responseTime: string,
 }
 
