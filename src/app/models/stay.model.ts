@@ -38,6 +38,7 @@ export interface googleMapLoc {
 }
 
 export interface Review {
+    at: number
     id: string,
     txt: string,
     rate: number,

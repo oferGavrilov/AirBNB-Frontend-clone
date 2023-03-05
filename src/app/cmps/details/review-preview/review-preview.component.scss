@@ -1,0 +1,57 @@
+@import '../../../../assets/styles/setup/mixins';
+@import '../../../../assets/styles/setup/variables';
+
+
+.review-preview {
+  .title {
+    color: $header-text-color;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+
+    img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+
+      .name {
+        font-weight: 500;
+      }
+
+      .date {
+        color: $main-color;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+  .txt-container {
+    p {
+      color: $header-text-color;
+      font-weight: 400;
+    }
+
+    .show-more {
+      margin-top: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      span {
+        font-weight: 500;
+        text-decoration: underline;
+      }
+
+      .icon {
+        font-size: 14px;
+      }
+    }
+
+  }
+}
