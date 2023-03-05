@@ -4,6 +4,7 @@
 .stay-details {
   font-family: $main-font;
   padding-bottom: 50px;
+
   header {
     @include center-flex;
     justify-content: space-between;
@@ -33,7 +34,8 @@
         }
       }
 
-      .reviews, .loc {
+      .reviews,
+      .loc {
         cursor: pointer;
         color: $header-text-color;
         text-decoration: underline;
@@ -42,6 +44,7 @@
 
     .share-save {
       display: flex;
+
       >* {
         padding: 8px;
         @include center-flex();
@@ -77,32 +80,55 @@
 
     @include for-narrow-layout {
       height: 400px;
+
       :first-child {
-          grid-column: 1/3;
+        grid-column: 1/3;
       }
     }
 
     @include for-wide-layout {
-        height: 500px;
+      height: 500px;
     }
 
     img {
-        height: 100%;
-        object-fit: cover;
-        cursor: pointer;
+      height: 100%;
+      object-fit: cover;
+      cursor: pointer;
 
-        &:hover {
-            filter: brightness(0.7);
-        }
+      &:hover {
+        filter: brightness(0.7);
+      }
     }
   }
 
-  .sticky-header{
+  .sticky-header {
+    box-shadow: rgb(0 0 0 / 10%) 0px 1px 0px;
+    background-color: #fff;
+    z-index: 3;
     position: sticky;
-    top: 0;
+    top: -1px;
+    height: 79px;
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      nav {
+        display: flex;
+        gap: 24px;
+
+        a{
+          text-decoration: none;
+          color: $header-text-color;
+          font-weight: 500;
+          padding: 30px 0;
+          font-size: 14px;
+        }
+      }
+    }
   }
-  
-  .stay-order-info{
+
+  .stay-order-info {
     display: flex;
     padding-top: 48px;
     gap: 10%;
@@ -134,7 +160,7 @@
       }
     }
 
-    img{
+    img {
       width: 56px;
       height: 56px;
       border-radius: 50%;
@@ -145,16 +171,31 @@
     padding: 32px 0;
     border-bottom: 1px solid $border-color;
     color: $header-text-color;
+
     h2 {
       font-size: 32px;
       font-weight: 700;
       margin-bottom: 12px;
+
       span {
         color: $secondary-color;
       }
     }
   }
-  
+
+  .google-map{
+    color: $header-text-color;
+    padding: 48px 0;
+    border-bottom: 1px solid $border-color;
+    h2{
+      font-size: 22px;
+      font-weight: 600;
+      padding-bottom: 24px;
+    }
+    .address{
+      margin-bottom: 24px;
+    }
+  }
   .des {
     font-size: 16px;
     color: $header-text-color;

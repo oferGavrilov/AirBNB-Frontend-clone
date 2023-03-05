@@ -27,15 +27,25 @@
         </span>
       </div>
     </header>
-    <div class="img-container">
+    <div class="img-container" id="photos">
       <img class="img" [src]="stay.imgUrls[0]" alt="">
       <img class="img" [src]="stay.imgUrls[1]" alt="">
       <img class="img" [src]="stay.imgUrls[2]" alt="">
       <img class="img" [src]="stay.imgUrls[3]" alt="">
       <img class="img" [src]="stay.imgUrls[4]" alt="">
     </div>
-    <div *ngIf="isShowHeader" class="sticky-header">
-      <h1>Header</h1>
+    <div *ngIf="isShowHeader" class="sticky-header full">
+      <div class="main-layout">
+        <div class="header-content">
+          <nav>
+            <a href="#photos">Photos</a>
+            <a href="#amenities">Amenities</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#location">Location</a>
+          </nav>
+          <div *ngIf="isShowHeaderOrder" class="header-order">Order</div>
+        </div>
+      </div>
     </div>
     <div #element class="stay-order-info">
       <div class="stay-information">
@@ -62,11 +72,16 @@
         <div class="des">
           {{stay.summary}}
         </div>
-        <amenities-list [stay]="stay"></amenities-list>
+        <amenities-list id="amenities" [stay]="stay"></amenities-list>
       </div>
       <stay-order [stay]="stay"></stay-order>
     </div>
-    <review-list [stay]="stay"></review-list>
+    <review-list id="reviews" [stay]="stay"></review-list>
+    <div class="google-map">
+      <h2>Where you'll be</h2>
+      <span class="address">{{stay.loc.address}}</span>
+      <map></map>
+    </div>
     <host-info [stay]="stay"></host-info>
   </div>
 </section>

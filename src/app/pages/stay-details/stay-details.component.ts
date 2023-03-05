@@ -22,11 +22,15 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
   heartIcon = faHeart
   starIcon = faStar
   isShowHeader: boolean = false
+  isShowHeaderOrder: boolean = false
+
   ngOnInit(): void {
     window.addEventListener('scroll', () => {
-      // console.log('scroll',window.scrollY)
+      console.log('scroll',window.scrollY)
       if (window.scrollY >= this.element.nativeElement.offsetTop) this.isShowHeader = true
       else this.isShowHeader = false
+      if (window.scrollY >= 1651) this.isShowHeaderOrder = true
+      else this.isShowHeaderOrder = false
     })
     this.subscription = this.route.data.subscribe(data => {
       this.stay = data['stay']
