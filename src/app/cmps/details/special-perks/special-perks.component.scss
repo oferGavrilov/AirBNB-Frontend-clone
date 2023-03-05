@@ -1,0 +1,33 @@
+@import '../../../../assets/styles/setup/mixins';
+@import '../../../../assets/styles/setup/variables';
+
+.special-perks {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 24px;
+  padding: 32px 0;
+  border-bottom: 1px solid $border-color;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  >* {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  p {
+    color: $main-color;
+    font-size: 14px;
+  }
+}

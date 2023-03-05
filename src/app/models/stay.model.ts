@@ -1,18 +1,18 @@
 export interface Stay {
-    _id: string;
-    name: string;
-    type: string;
-    imgUrls: string[];
-    price: number;
-    summery: string
-    capacity: number
-    amenities: string[]
-    labels: string[]
-    host: Host
-    loc: Loc
-    reviews: Review[]
-    likedByUser:string[]
-    roomType: string
+    _id: string,
+    type: string,
+    name: string,
+    imgUrls: string[],
+    price: number,
+    summary: string,
+    capacity: number,
+    amenities: string[],
+    labels: string[],
+    host: Host,
+    loc: Loc,
+    reviews: Review[],
+    likedByUser:string[],
+    roomType: string,
     statReviews: StatReviews,
     bathrooms: number,
     bedrooms: number

@@ -1,0 +1,26 @@
+@import '../../../../assets/styles/setup/mixins';
+@import '../../../../assets/styles/setup/variables';
+
+.amenities-list {
+  padding: 32px 0;
+  width: 60%;
+  border-bottom: 1px solid $border-color;
+  ul {
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+
+    li {
+      width: 50%;
+    }
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 24px;
+  }
+}
