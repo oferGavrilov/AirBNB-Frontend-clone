@@ -70,6 +70,23 @@ export class StayOrderComponent {
     return (+this.Price + +this.CleanTax + +this.ServiceFee)
   }
 
+  checkMinusBtn(guestType:string) {
+    if(guestType === 'Adults' ) return this.guests[0].amount > 1
+    if(guestType === 'Children' ) return this.guests[1].amount > 0
+    if(guestType === 'Infants' ) return this.guests[2].amount > 0
+    if(guestType === 'Pets' ) return this.guests[3].amount > 0
+    return false
+  }
+  
+  checkPlusBtn(guestType:string) {
+    if(guestType === 'Adults' || guestType === 'Children') {
+      return this.guests[0].amount + this.guests[1].amount < this.stay.capacity
+    }
+    if(guestType === 'Infants') return this.guests[2].amount < 5
+    if(guestType === 'Pets') return this.stay.amenities.includes('Pets allowed') && this.guests[3].amount < 3 
+    return false
+  }
+
   getGuests() {
     let str = this.guests[0].amount + this.guests[1].amount > 0 ? (this.guests[0].amount + this.guests[1].amount) + ' guests, ' : ''
     str += this.guests[2].amount > 0 ? this.guests[2].amount + ' infants, ' : ''
