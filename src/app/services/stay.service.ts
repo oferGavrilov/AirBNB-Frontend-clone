@@ -60,6 +60,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-06-12T04:00:00.000Z",
               "fullname": "Patty And Beckett",
               "location": "Eureka, California, United States",
               "about": "Adventurous couple loves to travel :)",
@@ -211,6 +212,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-06-12T04:00:00.000Z",
               "fullname": "Angel",
               "location": "Montreal, Québec, Canada",
               "about": "",
@@ -354,6 +356,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "at": "2016-06-12T04:00:00.000Z",
               "fullname": "Maria",
               "location": "Porto, Porto District, Portugal",
               "about": "Simples, muito comunicativa, mas de elevado sentido de responsabilidade, de organização e de confiança.\r\nGosto muito de contacto humano, sem o qual não me sinto estável. Adoro conhecer pessoas de culturas diferentes.\r\nFaço várias viagens, mas de curta duração, pois tenho necessidade de sentir o lar e a família. Por ser assim, tento fazer tudo para que os meus hospedes se sintam confortáveis como em suas casas.",
@@ -590,6 +593,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-06-12T04:00:00.000Z",
               "fullname": "Shaila & Alex",
               "location": "New York, New York, United States",
               "about": "I'm a journalist from Texas and my husband is an artist from the Ukraine by way of Kansas City. We recently welcomed our son into the world. (Don't worry, he sleeps all night.)  We love exploring New York, especially Brooklyn, from the Brooklyn Flea to tiny taco joints to the Botanic Gardens to performance art in Bushwick storefronts (really). We've both spent a lot of time in the South, so hospitality is second nature to us. ",
@@ -856,6 +860,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-07-12T04:00:00.000Z",
               "fullname": "Marián",
               "location": "Barcelona, Catalonia, Spain",
               "about": "",
@@ -945,6 +950,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-07-12T04:00:00.000Z",
               "fullname": "Isabel",
               "location": "Barcelona, Catalonia, Spain",
               "about": "Mi nombre es Isabel, pero me llamo Isa. Nací en Vigo (Galicia). Con 20 años me fuí a vivir a Madrid con intención de ser actriz; ahora resido en Barcelona desde los 28. Soy una joven de 43 años, cantante de Jazz. Me gusta salir, pero también quedarme en casa a leer o ver alguna buena película.\r\nHe compartido piso muchos años, pero estas serán mis primeras experiencias como anfitriona.\r\n\r\n¡Sed bienvenidos!\r\n",
@@ -1206,6 +1212,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-07-12T04:00:00.000Z",
               "fullname": "Kevin",
               "location": "New York, New York, United States",
               "about": "Welcome Everyone! Thank you for stopping by. \r\n\r\nI was born and raised in Manhattan and I am here to help  share the New York City Experience with others through Airbnb!  I am easy to connect with and very reachable and always willing to interact with people. \r\n\r\nI am big on cleanliness and hospitality. I strive on making Guests feel as comfortable as possible. \r\n\r\nI hope you would like to get a chance to visit my location and enjoy the hosting I provide. If you have any questions/ comments, feel free to contact me. \r\n",
@@ -1471,6 +1478,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Apartments2Enjoy",
               "location": "Porto, Porto District, Portugal",
               "about": "Welcome!\r\nThe apartments has all the things to provide you a perfect days in Porto. It is located in a very central area, inside a typical oporto building. \r\nI will give you lots of informations about Porto, my personal tips, and I'll always be available to help you with anything. All I want is for you to go home knowing Porto and inevitably loving the city! :)\r\n\r\n",
@@ -1724,6 +1732,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Patrícia Sousa Casimiro",
               "location": "Senhora da Hora, Porto, Portugal",
               "about": "",
@@ -1834,6 +1843,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Nihat",
               "location": "Istanbul",
               "about": "I live alone in Taksim area and i work at bar.\r\nI like meet new friends from all of the world.\r\nI like to Travel a lot ofcourse if i have free time :) East Asia , Sun , Sea , Sand , Movie  :) ",
@@ -2127,6 +2137,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Cynthia",
               "location": "California, United States",
               "about": "My husband and I are Real Estate Investors.  We enjoy traveling and no matter where we go, we always find ourselves looking at properties.  Since we still have school age children I have found that a beach vacation is usually the most enjoyable for everyone.  Living on the West Coast, Hawaii continued to be a place that we would return to time and time again.",
@@ -2352,6 +2363,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Kadirga",
               "location": "Istanbul, İstanbul, Turkey",
               "about": "",
@@ -2606,6 +2618,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Alexandra Y Juan",
               "location": "Barcelona, Catalonia, Spain",
               "about": "Hola, \r\n\r\nSomos Alexandra y Juan dos amigos que estamos enamorados de Barcelona, nuestras pasiones son viajar y conocer gente por lo que nos encantaría compartir con vosotros nuestros espacios  para que disfrutéis a vuestro gusto de toda la cultura, actualidad y diversidad de ofertas que la ciudad os ofrece.\r\nPara nosotros lo mas importante es que nuestros huéspedes puedan aprovechar al máximo su estancia en Barcelona,  que viváis vuestra historia  reflejada en  rincones únicos de la ciudad y por supuesto nuestra mayor satisfacción es que os sintáis como en casa según lo que busquéis.\r\n\r\nHello, \r\n\r\nWe are Alexandra and Juan two friends who are in love with Barcelona, our passion is to travel and meet new people so we would love to share our spaces with you and that you can enjoy the culture, the present and the diversity of offers that the city has to offer. \r\nFor us the most important thing is that our guests can make the most of their stay in Barcelona, that you live our history full of unique places and of course our greatest satisfaction is that you feel as if you where at home according to what you are looking for.",
@@ -2892,6 +2905,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Cristina",
               "location": "Barcelona, Catalonia, Spain",
               "about": "(ES) Soy mujer, mamá y traductora. Me gusta tener tiempo para pensar, viajar, jugar con mis hijas y descubrir algo nuevo cada día. A veces por trabajo tengo que viajar, y entonces mi amiga Yamila, gran mujer y fantástica anfitriona, amante del campo y fotógrafa de profesión, me ayuda con los huéspedes.\r\n\r\n(EN) I am a woman, a mother and a translator. I like having time to think, to travel, to play with my daughters and to discover something new every day. Sometimes I have to travel because of my job: in those occasions my friend Yamila, great woman and fantastic host, outdoor lover and photographer, helps me out with guests.",
@@ -3150,6 +3164,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Sal",
               "location": "US",
               "about": "",
@@ -3399,6 +3414,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Michelle&May",
               "location": "Hong Kong",
               "about": "",
@@ -3685,6 +3701,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Kathy",
               "location": "Hawaii, United States",
               "about": "I am the owner of Maui Vision Rental. Maui Vision became a reality and a business starting with my personal condo at the Kihei Akahi Resort C618.\r\n\r\nMaui Vision is a business I love because I get to share the Aloha Spirit, the beauty of the land, and talk story with people from around the world. It is nice to know that we can contribute to someone’s Hawaiian vacation experience in a positive way. We love to hear back from our happy guests.\r\n\r\nI used to live on the island of Oahu with my US Navy family when I was young.  We later moved to Southern California.  I knew one day I would return to Hawaii, the place I fell in love with long ago. I took a leap of faith and purchased my Maui condo June 2002 this was the beginning of fulfilling her prophecy to once again return to Hawaii soil.\r\n\r\nI am a tropical expression artist who paints on canvas and etched metal.  My work is inspired by the beauty of the islands and has been displayed in several Maui art galleries over the years.  I am a writer and have my first book on Amazon.  I recently took up hula dancing and love to immerse myself in the culture and grace of this island.\r\n\r\nI have over 25 years of business administration and customer service experience working for large corporations and high tech startups.\r\n\r\nIf you are in need of a caring Realtor here on Maui, please contact Kathy McCartney RS#77317 of La Costa Realty Hawai’i, LLC Brokerage Lic #18349 .",
@@ -3816,6 +3833,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Lisah",
               "location": "New York, New York, United States",
               "about": "",
@@ -3926,6 +3944,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Luis",
               "location": "Barcelona, Catalonia, Spain",
               "about": "",
@@ -4069,6 +4088,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Pelin",
               "location": "Çalışıyorum",
               "about": "I live in Cihangir and love to meet people and share our lively neighbourhood with them.",
@@ -4218,6 +4238,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Patty And Beckett",
               "location": "Eureka, California, United States",
               "about": "Adventurous couple loves to travel :)",
@@ -4336,6 +4357,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Eser",
               "location": "Istanbul, İstanbul, Turkey",
               "about": "",
@@ -4602,6 +4624,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Sonder",
               "location": "San Francisco, California, United States",
               "about": "Sonder provides everything you need for an exceptional stay. Every booking is instantly confirmed. Every call or message is answered within minutes. Every home is equipped with crisp linens, high-speed Wi-Fi, and kitchen and bath essentials. And every experience is one-of-a-kind, thanks to our unique spaces and Neighborhood Guides.\r\n\r\nTo provide a better Sonder guest experience, we're creating local Airbnb accounts, and moving our listings to those new accounts. If you don't see a property you like here, there may be more on one of our new local profiles. Please reach out for more information!",
@@ -4853,6 +4876,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Chelsea",
               "location": "Sea Cliff, New York, United States",
               "about": "",
@@ -5010,6 +5034,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Orestes",
               "location": "New York, New York, United States",
               "about": "Photographer/Developer. \r\nI enjoy NYC tremendously but love traveling and have visited\r\nover 40 countries. My house is filled with artwork from those travels.\r\nI work my photography business from my home studio, in a restored 1890 landmark townhouse with all the modern amenities.\r\nMy house has been used for filming scenes for Sex & The City, The Sopranos, Gossip Girl & White Collar.\r\nMy photography column,\"Orestes'LIC\", appears every month in the local paper.\r\nI love Asian, Spanish & Cuban food, along with a good bottle of red wine.\r\nTalking about travel, art, design and photograph,is my favorite pastime. Sorry,I dont shop or know where the best electronics bargains are located ! \r\nI love giving great walking tour information of different parts of NYC, and info on non-touristy places to eat real food in the area.\r\nI will provide you the privacy level you require to make your stay here is as comfortable as possible.\r\nEnjoy a great, clean, stylish place to stay, only 7 minutes from Manhattan!\r\n",
@@ -5268,6 +5293,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Mariana & Ramón",
               "location": "Barcelona, Catalonia, Spain",
               "about": "Nos encanta Barcelona, conocemos la ciudad y algunos de sus secretos. Podemos ayudarte a planificar tu visita.",
@@ -5527,6 +5553,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Montserrat",
               "location": "Barcelona, Catalonia, Spain",
               "about": "\r\nI love traveling. Therefore, I am delighted to help travelers to discover the magical places of this incredible city. I am completely available to give any kind of suggestions, information and help on what they need to make the stay in Barcelona as pleasant as possible !!\r\n\r\n",
@@ -5787,6 +5814,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Jason",
               "location": "New South Wales, Australia",
               "about": "Hey I'm Jason. I enjoy travelling, photography and beer!\r\n\r\nWe have had a little girl!\r\nOur calender will be closed for a while. If you are a repeat guest send me a message and we might be able to open the calender for you.\r\n\r\nI spent many years living in England, Ireland and Italy; and have travelled to Andorra, Austria, Bali, Belgium, Bulgaria, France, Germany, Hungary, Malaysia, Portugal, Romania, Singapore, Spain, Switzerland, Thailand & Vietnam. \r\n\r\nMy partner Luana is from Verona, Italy. \r\n\r\nWe started hosting in Oct 2015 and enjoy meeting people from around the world and listening to stories about their country and travels.\r\n\r\nWe have a good knowledge of Sydney (sights, attractions, shopping, beaches, day treks, restaurants, pubs & night clubs) and various places around Australia. ",
@@ -5882,6 +5910,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Jen",
               "location": "Montreal, Quebec, Canada",
               "about": "Massage therapist, artist, writer, gardener, traveler, filmmaker and B&B Host.",
@@ -6159,6 +6188,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Dejanira",
               "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
               "about": "Moro no Rio de Janeiro, nascida em Salvador. Resolvi alugar este apartamento,  principalmente por que gosto muito de viajar e quando viajo, prefiro alugar um espaço para ficar. Alugar um apartamento em outra cidade, outro país, além de ser mais barato do que hotel, possibilita uma maior interação com os moradores locais e um maior conhecimento sobre o seu modo de vida. Como são os supermercados e as padarias, o que vendem ali ? qual é o dia a dia da população?  Além disto não há horário para o café da manhã e posso fazer um lanche ou almoço se não quiser ir a um restaurante.\r\nProcuro trazer as minhas experiências de hospedagem para o meu apartamento, pois quero que o hóspede se sinta confortável, em casa.\r\nAlém de gostar muito de viajar, adoro ler e ouvir música e pretendo com o dinheiro que ganho hospedando, poder me hospedar mais pelo mundo a fora. ",
@@ -6416,6 +6446,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Sonia",
               "location": "Barcelona, Catalonia, Spain",
               "about": "Soy una persona extrovertida, sociable, sencilla y me gusta conocer a gente nueva.\r\nEntre mis aficiones están el cine, el baile, los paseos por la playa y la montaña y viajar.",
@@ -6592,6 +6623,7 @@ export class StayService {
             "roomType": "Private room",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-02-06T05:00:00.000Z",
               "fullname": "Luana",
               "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
               "about": "Carioca, profissional de marketing, maquiadora e que ama viajar, conhecer lugares, culturas e pessoas! ",
@@ -6679,6 +6711,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-05-15T04:00:00.000Z",
               "fullname": "Simple Stay",
               "location": "Montreal, Quebec, Canada",
               "about": "",
@@ -6938,6 +6971,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-05-15T04:00:00.000Z",
               "fullname": "Barbara",
               "location": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
               "about": "My name is Barbara.\r\nI'm an administrator and real state manager. I study photography.\r\nI've always enjoyed showing Rio around and helping people take the most out of the city.\r\nIt has been seven years I share my love for Rio renting apartments for short period and helping my guests with hints on tourist spots.\r\nI love cooking and It will be a pleasure to be able to help with information about restaurants, bars and gastronomy in general.\r\nI love to make new friends and to know different cultures.\r\nMy husband Ricardo is  a chemical engeneer, a great companion, but not talkative as I'm.\r\nOur daughter Alice is 8 years-old. She is into dancing classical ballet, jazz and loves to exchange experiences with people in general.\r\nI look foward to having you at my place!\r\n\r\nSeja bem vindo (a)! Meu nome é Bárbara, sou administradora de empresas e estudante de fotografia.\r\nHá 7 anos eu compartilho o amor pela cidade do Rio de Janeiro alugando apartamentos por temporada e ajudando meus hóspedes com dicas sobre a cidade e pontos turísticos.\r\nUma das minhas paixões é cozinhar e será um prazer poder compartilhar dicas sobre restaurantes, bares e gastronomia em geral.\r\nAdoro viajar, fazer novos amigos e conhecer diferentes culturas.\r\nSe você ficar na minha casa também vai conhecer o meu marido Ricardo, que é engenheiro químico e meu grande parceiro na hospedagem, gente boa, mas não tão falante como eu. Nossa filha Alice tem 8 anos, dança ballet e jazz e  também adora conhecer novas pessoas e trocar experiências.\r\nTambém tenho apartamentos inteiros no Centro, Lapa e Zona Sul da cidade.\r\nSeja bem vindo a um cantinho para chamar de seu. :)",
@@ -7234,6 +7268,7 @@ export class StayService {
             "roomType": "Entire home/apt",
             "host": {
               "_id": "63dbac3c5705dc29556eae8d",
+              "createAt": "2016-05-15T04:00:00.000Z",
               "fullname": "Francesco",
               "location": "Rancho Palos Verdes, California, United States",
               "about": "I was born on the island of Ischia, Capri, Italy. Maui is my dream come true second home. Staying close to the ocean and enjoying the beaches and lush grounds makes life great.",

@@ -1,0 +1,9 @@
+<section class="host-info">
+  <div class="title">
+    <img [src]="stay.host.pictureUrl" alt="">
+    <div class="info">
+      <span class="name">{{stay.host.fullname}}</span>
+      <span class="date">{{stay.host.createAt | date: 'MMMM d, y'}}</span>
+    </div>
+  </div>
+</section>

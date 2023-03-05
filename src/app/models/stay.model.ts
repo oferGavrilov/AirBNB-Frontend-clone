@@ -19,9 +19,13 @@ export interface Stay {
 }
 
 export interface Host {
-    _id: string
-    fullname: string
-    pictureUrl: string
+    _id: string,
+    fullname: string,
+    pictureUrl: string,
+    createAt: number,
+    isSuperhost: boolean,
+    'policy-number': number,
+    responseTime: string,
 }
 
 export interface Loc {
