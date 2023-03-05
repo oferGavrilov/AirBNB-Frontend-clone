@@ -13,8 +13,9 @@ export class ImgCarouselComponent {
   faHeart = faHeart
   currIdx = 0
 
-  onClickArrow(diff: number) {
-   this.currIdx += diff
+  onClickArrow(ev: Event, diff: number) {
+    ev.stopPropagation()
+    this.currIdx += diff
   }
 
   checkRightArrow() {
