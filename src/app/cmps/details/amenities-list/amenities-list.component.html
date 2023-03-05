@@ -1,0 +1,9 @@
+<section class="amenities-list">
+  <h2>What this place offers</h2>
+  <ul>
+    <li *ngFor="let amenity of stay.amenities">
+      <amenities-preview [amenity]="amenity"></amenities-preview>
+    </li>
+  </ul>
+</section>
+

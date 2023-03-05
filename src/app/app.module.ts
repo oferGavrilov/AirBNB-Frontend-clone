@@ -16,6 +16,9 @@ import { StayDetailsComponent } from './pages/stay-details/stay-details.componen
 import { GoogleMapComponent } from './cmps/google-map/google-map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientModule } from '@angular/common/http';
+import { AmenitiesListComponent } from './cmps/details/amenities-list/amenities-list.component';
+import { AmenitiesPreviewComponent } from './cmps/details/amenities-preview/amenities-preview.component';
+import { SpecialPerksComponent } from './cmps/details/special-perks/special-perks.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     HomeHeaderComponent,
     StayDetailsComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    AmenitiesListComponent,
+    AmenitiesPreviewComponent,
+    SpecialPerksComponent
   ],
   imports: [
     BrowserModule,
