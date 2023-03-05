@@ -23,7 +23,7 @@
         <div class="guest-btn" (click)="showGuestModal=!showGuestModal">
             <button>
                 <span class="title">Guests</span>
-                <span>1 guest</span>
+                <span>{{getGuests()}}</span>
             </button>
             <fa-icon *ngIf="!showGuestModal" [icon]="faChevronDown"></fa-icon>
             <fa-icon *ngIf="showGuestModal" [icon]="faChevronUp"></fa-icon>
@@ -36,9 +36,9 @@
                         <span>Age 13+</span>
                     </div>
                     <div class="amount">
-                        <fa-icon class="star" [icon]="faCircleMinus"></fa-icon>
+                        <fa-icon class="star" [icon]="faCircleMinus" (click)="onAddGuests(guest.type, -1)"></fa-icon>
                         <span>{{guest.amount}}</span>
-                        <fa-icon class="star" [icon]="faCirclePlus"></fa-icon>
+                        <fa-icon class="star" [icon]="faCirclePlus" (click)="onAddGuests(guest.type, 1)"></fa-icon>
                     </div>
                 </div>
             </div>

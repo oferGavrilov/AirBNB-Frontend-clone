@@ -109,7 +109,8 @@
             padding: 0 12px;
 
             button {
-                @include center-flex();
+                display: flex;     
+                justify-content: center;           
                 flex-direction: column;
                 padding: 0;
                 text-align: left;

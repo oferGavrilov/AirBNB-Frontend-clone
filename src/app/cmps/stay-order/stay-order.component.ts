@@ -70,6 +70,18 @@ export class StayOrderComponent {
     return (+this.Price + +this.CleanTax + +this.ServiceFee)
   }
 
+  getGuests() {
+    let str = this.guests[0].amount + this.guests[1].amount > 0 ? (this.guests[0].amount + this.guests[1].amount) + ' guests, ' : ''
+    str += this.guests[2].amount > 0 ? this.guests[2].amount + ' infants, ' : ''
+    str += this.guests[3].amount > 0 ? this.guests[3].amount + ' pets, ' : ''
+    return str
+  }
+
+  onAddGuests(guestType: string, diff: number) {
+    const guest = this.guests.find(guest => guest.type === guestType) as Guests
+    guest.amount += diff
+  }
+
   onSetDate() {
     if (this.date) {
       const dates = this.date?.split('-')
