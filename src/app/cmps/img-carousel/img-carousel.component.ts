@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { faAngleRight, faAngleLeft, faHeart } from '@fortawesome/free-solid-svg-icons'
-
+import { faAngleRight, faAngleLeft, faHeart, faCircle } from '@fortawesome/free-solid-svg-icons'
 @Component({
   selector: 'img-carousel',
   templateUrl: './img-carousel.component.html',
@@ -11,6 +10,7 @@ export class ImgCarouselComponent {
   faAngleRight = faAngleRight
   faAngleLeft = faAngleLeft
   faHeart = faHeart
+  faCircle = faCircle
   currIdx = 0
 
   onClickArrow(ev: Event, diff: number) {
@@ -20,5 +20,16 @@ export class ImgCarouselComponent {
 
   checkRightArrow() {
     return this.currIdx < (this.imgs.length - 1)
+  }
+
+  setCurrIdx(ev: Event, idx: number) {
+    ev.stopPropagation()
+    this.currIdx = idx
+  }
+
+  getClassPagination(idx: number) {
+    console.log(this.currIdx === idx ? 'active' : '');
+
+    return this.currIdx === idx ? 'active' : ''
   }
 }

@@ -7,4 +7,11 @@
   <span class="arrow right-arrow" *ngIf="checkRightArrow()" (click)="onClickArrow($event, 1)">
     <fa-icon [icon]="faAngleRight"></fa-icon>
   </span>
+  <div class="carousel-pagination">
+    <fa-icon [ngClass]="getClassPagination(0)" (click)="setCurrIdx($event,0)" [icon]="faCircle"></fa-icon>
+    <fa-icon [ngClass]="getClassPagination(1)" (click)="setCurrIdx($event,1)" [icon]="faCircle"></fa-icon>
+    <fa-icon [ngClass]="getClassPagination(2)" (click)="setCurrIdx($event,2)" [icon]="faCircle"></fa-icon>
+    <fa-icon [ngClass]="getClassPagination(3)" (click)="setCurrIdx($event,3)" [icon]="faCircle"></fa-icon>
+    <fa-icon [ngClass]="getClassPagination(4)" (click)="setCurrIdx($event,4)" [icon]="faCircle"></fa-icon>
+  </div>
 </section>
