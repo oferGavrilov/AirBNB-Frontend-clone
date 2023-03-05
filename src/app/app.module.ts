@@ -21,6 +21,8 @@ import { StayOrderComponent } from './cmps/stay-order/stay-order.component';
 import { AmenitiesListComponent } from './cmps/details/amenities-list/amenities-list.component';
 import { AmenitiesPreviewComponent } from './cmps/details/amenities-preview/amenities-preview.component';
 import { SpecialPerksComponent } from './cmps/details/special-perks/special-perks.component';
+import { ReviewListComponent } from './cmps/details/review-list/review-list.component';
+import { ReviewPreviewComponent } from './cmps/details/review-preview/review-preview.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { SpecialPerksComponent } from './cmps/details/special-perks/special-perk
     StayOrderComponent,
     AmenitiesListComponent,
     AmenitiesPreviewComponent,
-    SpecialPerksComponent
+    SpecialPerksComponent,
+    ReviewListComponent,
+    ReviewPreviewComponent
   ],
   imports: [
     BrowserModule,

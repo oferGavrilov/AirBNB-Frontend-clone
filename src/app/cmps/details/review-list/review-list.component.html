@@ -1,0 +1,24 @@
+<section class="review-list">
+  <div class="reviews-header">
+    <div class="rate">
+      <fa-icon class="star" [icon]="faStar"></fa-icon>
+      <span>{{getRateAvg()}}</span>
+    </div>
+    <fa-icon class="point" [icon]="point"></fa-icon>
+    <div class="reviews-amount">{{stay.reviews.length}} reviews</div>
+  </div>
+  <ul class="rate-list">
+    <li *ngFor="let rateObj of getRateArr()">
+      <span>{{rateObj.rateName}}</span>
+      <div class="rate-percent">
+        <span class="line"><span [ngStyle]="{width: getRatePercent(rateObj.rate)}"></span></span>
+        <span>{{rateObj.rate}}</span>
+      </div>
+    </li>
+  </ul>
+  <ul class="reviews">
+    <li *ngFor="let review of getReviews()">
+      <review-preview [review]="review"></review-preview>
+    </li>
+  </ul>
+</section>

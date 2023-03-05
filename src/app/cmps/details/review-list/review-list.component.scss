@@ -1,0 +1,63 @@
+@import '../../../../assets/styles/setup/mixins';
+@import '../../../../assets/styles/setup/variables';
+
+.review-list {
+  padding: 32px 0;
+  .reviews-header {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    gap: 8px;
+    margin-bottom: 32px;
+    .point {
+      font-size: 4px;
+    }
+
+    .rate {
+      @include center-flex();
+      gap: 8px;
+      .star {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .rate-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    list-style: none;
+    gap: 8px;
+
+    li {
+      @include center-flex();
+      justify-content: space-between;
+      width: 40%;
+
+      .rate-percent {
+        @include center-flex();
+        gap: 8px;
+        .line {
+          width: 150px;
+          background-color: $border-color;
+          height: 4px;
+          border-radius: 8px;
+          span {
+            height: 4px;
+            background-color: $header-text-color;
+            height: 4px;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px 8%;
+  }
+}

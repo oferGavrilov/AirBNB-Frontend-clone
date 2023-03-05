@@ -1,0 +1,17 @@
+<article class="review-preview">
+  <div class="title">
+    <img [src]="review.by.imgUrl" alt="">
+    <div class="info">
+      <span class="name">{{review.by.fullname}}</span>
+      <span class="date">{{review.at | date: 'MMMM d, y'}}</span>
+    </div>
+  </div>
+  <div class="txt-container">
+    <p>{{getTxt()}}</p>
+    <div class="show-more" (click)="toggleIsShowAll()">
+      <span *ngIf="isShowAllBtn()">{{isShowAll ? 'Show less' : 'Show more'}}</span>
+      <fa-icon class="icon" [icon]="faAngleRight"></fa-icon>
+    </div>
+  </div>
+
+</article>
