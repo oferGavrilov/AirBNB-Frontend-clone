@@ -16,6 +16,8 @@ import { StayDetailsComponent } from './pages/stay-details/stay-details.componen
 import { GoogleMapComponent } from './cmps/google-map/google-map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientModule } from '@angular/common/http';
+import { StayOrderComponent } from './cmps/stay-order/stay-order.component';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     HomeHeaderComponent,
     StayDetailsComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    StayOrderComponent
   ],
   imports: [
     BrowserModule,

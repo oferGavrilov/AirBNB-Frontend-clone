@@ -1,0 +1,60 @@
+<section class="stay-order">
+    <div class="stay-order-header">
+        <h2 class="total">{{stay.price |currency}} USD<span> total</span></h2>
+        <div class="reviews">
+            <div class="rating">
+                <fa-icon class="star" [icon]="faStar"></fa-icon>
+                <span>4.93</span>
+            </div>
+            <span class="sum-of-reviews">{{stay.reviews.length}} reviews</span>
+        </div>
+    </div>
+    <div class="checkout-container">
+        <div (click)="onSetDate()" class="checkout-btns">
+            <button>
+                <span class="title">Check-in</span>
+                <span>{{checkIn | date}}</span>
+            </button>
+            <button>
+                <span class="title">Checkout</span>
+                <span>{{checkOut | date}}</span>
+            </button>
+        </div>
+        <div class="guest-btn">
+            <button>
+                <span class="title">Guests</span>
+                <span>1 guest</span>
+            </button>
+            <fa-icon [icon]="faChevronDown"></fa-icon>
+        </div>
+    </div>
+    <button class="order-btn">Reserve</button>
+    <div class="order-description">
+        <span>You won't be charged yet</span>
+        <p>Price shown is the total trip price, including additional fees and taxes.</p>
+    </div>
+    <div class="price-container">
+        <div class="price-line">
+            <span class="price-item">${{stay.price}} X {{GetTotalDays}} nights</span>
+            <span>${{Price}} </span>
+        </div>
+        <div class="price-line">
+            <span class="price-item">Cleaning fee</span>
+            <span>${{CleanTax}}</span>
+        </div>
+        <div class="price-line">
+            <span class="price-item">Service fee</span>
+            <span>${{ServiceFee}} </span>
+        </div>
+    </div>
+    <div class="total-price">
+        <span>Total</span>
+        <span>${{TotalPrice}}</span>
+    </div>
+    <!-- <pre>{{stay | json}}</pre> -->
+</section>
+
+<div class="order-type">
+    <p><span>This is a rare find.</span>Mega's place on Airbnb is usually fully booked.</p>
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 32px; width: 32px; fill: rgb(227, 28, 95); stroke: currentcolor;"><g stroke="none"><path d="m32.62 6 9.526 11.114-18.146 23.921-18.147-23.921 9.526-11.114z" fill-opacity=".2"></path><path d="m34.4599349 2 12.8243129 14.9616983-23.2842478 30.6928721-23.28424779-30.6928721 12.82431289-14.9616983zm-17.9171827 16h-12.52799999l18.25899999 24.069zm27.441 0h-12.528l-5.73 24.069zm-14.583 0h-10.802l5.4012478 22.684zm-15.92-12.86-9.30799999 10.86h11.89399999zm19.253-1.141h-17.468l2.857 12.001h11.754zm1.784 1.141-2.586 10.86h11.894z"></path></g></svg>
+</div>

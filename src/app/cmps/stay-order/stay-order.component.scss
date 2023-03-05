@@ -1,0 +1,186 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+
+.stay-order {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    // width: max-content;
+    width: 40%;
+    color: $header-text-color;
+
+
+    &-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 24px;
+
+        >* {
+            @include center-flex();
+            gap: 8px;
+        }
+
+        .total {
+            align-items: baseline;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 26px;
+
+            span {
+                font-weight: 400;
+                white-space: nowrap;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+        .reviews {
+            .rating {
+                @include center-flex();
+                gap: 2px;
+
+                .star {
+                    font-size: 12px;
+                }
+            }
+
+            .sum-of-reviews {
+                color: $main-color;
+                font-size: 14px;
+                text-decoration: underline;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .checkout-container {
+        border: 1px solid gray;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        cursor: pointer;
+
+        button {
+            display: flex;
+            flex-direction: column;
+            white-space: nowrap;
+            line-height: 18px;
+            font-size: 14px;
+            background-color: inherit;
+            border: none;
+            padding: 13px 12px 10px;
+            height: 56px;
+            color: $main-color;
+            cursor: pointer;
+
+        }
+
+        .title {
+            color: $header-text-color;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .checkout-btns {
+            display: flex;
+
+            >* {
+                width: 50%;
+                text-align: start;
+
+                &:first-child {
+                    border-right: 1px solid gray;
+                }
+            }
+            &:focus-visible {
+                border: 1px solid black;
+            }
+        }
+
+        .guest-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 12px;
+
+            button {
+                @include center-flex();
+                flex-direction: column;
+                padding: 0;
+                text-align: left;
+            }
+
+            border-top: 1px solid gray;
+            width: 100%;
+        }
+    }
+
+    .order-btn {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        border-radius:8px;
+        padding: 14px 24px;
+        transition: box-shadow 0.2s ease, transform 0.1s ease;
+        border: none;
+        background:  linear-gradient(to right,#E61E4D 0%,#E31C5F 50%,#D70466 100%);;
+    }
+    .order-description{
+        margin-top: 16px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 24px;
+        >*{
+            margin-top: 8px;
+        }
+    }
+    .price-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: $main-color;
+        border-bottom: 1px solid rgb(212, 203, 203);
+        padding-bottom: 20px;
+
+        .price-line {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .price-item {
+            text-decoration: underline;
+        }
+    }
+
+    .total-price {
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+}
+.order-type{
+    display: flex;
+    justify-content: space-between;
+    color: $main-color;
+    width: 40%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 24px;
+    p{
+        width: 80%;
+        span{
+            color: $header-text-color;
+            font-weight: 600;
+        }
+    }
+}
