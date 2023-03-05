@@ -26,7 +26,7 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     window.addEventListener('scroll', () => {
-      console.log('scroll',window.scrollY)
+      // console.log('scroll',window.scrollY)
       if (window.scrollY >= this.element.nativeElement.offsetTop) this.isShowHeader = true
       else this.isShowHeader = false
       if (window.scrollY >= 1651) this.isShowHeaderOrder = true
@@ -53,6 +53,7 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.subscription.unsubscribe()
+    // window.removeEventListener('scroll', , true)
   }
 }
 

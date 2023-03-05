@@ -1,7 +1,7 @@
 <section class="stay-details">
   <app-header></app-header>
   <div class="main-layout">
-    <header>
+    <header id="photos">
       <div class="header-info">
         <h1>{{stay.name}}</h1>
         <div>
@@ -27,7 +27,7 @@
         </span>
       </div>
     </header>
-    <div class="img-container" id="photos">
+    <div class="img-container">
       <img class="img" [src]="stay.imgUrls[0]" alt="">
       <img class="img" [src]="stay.imgUrls[1]" alt="">
       <img class="img" [src]="stay.imgUrls[2]" alt="">
