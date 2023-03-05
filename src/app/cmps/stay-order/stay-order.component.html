@@ -36,9 +36,9 @@
                         <span>Age 13+</span>
                     </div>
                     <div class="amount">
-                        <fa-icon class="star" [icon]="faCircleMinus" (click)="onAddGuests(guest.type, -1)"></fa-icon>
+                        <button [ngClass]="checkMinusBtn(guest.type) ? '' : 'disabled'"><fa-icon class="star" [icon]="faCircleMinus" (click)="onAddGuests(guest.type, -1)"></fa-icon></button>
                         <span>{{guest.amount}}</span>
-                        <fa-icon class="star" [icon]="faCirclePlus" (click)="onAddGuests(guest.type, 1)"></fa-icon>
+                        <button [ngClass]="checkPlusBtn(guest.type) ? '' : 'disabled'"><fa-icon class="star" [icon]="faCirclePlus" (click)="onAddGuests(guest.type, 1)"></fa-icon></button>
                     </div>
                 </div>
             </div>
