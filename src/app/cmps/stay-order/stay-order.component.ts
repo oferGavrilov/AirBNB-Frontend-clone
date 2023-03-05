@@ -1,7 +1,11 @@
 import { Component, Input } from '@angular/core';
-import { Stay } from 'src/app/models/stay.model';
+import { Guests, Stay } from 'src/app/models/stay.model';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
+import { faCirclePlus } from '@fortawesome/free-solid-svg-icons'
+import { faCircleMinus } from '@fortawesome/free-solid-svg-icons'
+
 @Component({
   selector: 'stay-order',
   templateUrl: './stay-order.component.html',
@@ -9,9 +13,12 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 })
 export class StayOrderComponent {
   constructor() { }
-
-  faChevronDown = faChevronDown
   @Input() stays !: Stay[] | null
+
+  faCirclePlus = faCirclePlus
+  faCircleMinus = faCircleMinus
+  faChevronDown = faChevronDown
+  faChevronUp = faChevronUp
   faStar = faStar
   stay !: Stay
 
@@ -20,7 +27,25 @@ export class StayOrderComponent {
   checkOut: Date = new Date(Date.now() + (3600 * 1000 * 72))
   totalDays!: any
   children: number = 0
-
+  showGuestModal: boolean = false
+  guests: Guests[] = [
+    {
+      type: 'Adults',
+      amount: 1
+    },
+    {
+      type: 'Children',
+      amount: 0
+    },
+    {
+      type: 'Infants',
+      amount: 0
+    },
+    {
+      type: 'Pets',
+      amount: 0
+    }
+  ]
   ngOnInit() {
     if (this.stays) this.stay = this.stays[0]
   }
