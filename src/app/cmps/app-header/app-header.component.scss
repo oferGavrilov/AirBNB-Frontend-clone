@@ -13,6 +13,7 @@ header {
         justify-content: space-between;
 
         .logo {
+            cursor: pointer;
             display: flex;
             align-items: center;
             color: $secondary-color;

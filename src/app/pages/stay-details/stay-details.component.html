@@ -80,7 +80,7 @@
     <div class="google-map">
       <h2>Where you'll be</h2>
       <span class="address">{{stay.loc.address}}</span>
-      <map></map>
+      <map [stay]="stay"></map>
     </div>
     <host-info [stay]="stay"></host-info>
   </div>

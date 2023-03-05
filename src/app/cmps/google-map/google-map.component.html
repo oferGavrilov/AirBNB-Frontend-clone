@@ -1,14 +1,8 @@
 <!-- google-maps-demo.component.html -->
-<google-map height="500px"
-            width="100%"
-            [center]="center"
-            [zoom]="zoom"
-            (mapClick)="moveMap($event)"
-            (mapMousemove)="move($event)"
-            language="en">
-            <map-marker *ngFor="let loc of locations"
-            [position]="loc"
-            [options]="markerOptions"
-            >
-        </map-marker>
+<google-map height="500px" width="100%" [center]="center" [zoom]="zoom" (mapClick)="moveMap($event)"
+    (mapMousemove)="move($event)" language="en">
+    <map-marker [position]="location" [options]="markerOptions">
+    </map-marker>
 </google-map>
+<div>Latitude: {{display?.lat}}</div>
+<div>Longitude: {{display?.lng}}</div>
