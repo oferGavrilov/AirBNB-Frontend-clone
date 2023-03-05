@@ -16,6 +16,8 @@ import { StayDetailsComponent } from './pages/stay-details/stay-details.componen
 import { GoogleMapComponent } from './cmps/google-map/google-map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientModule } from '@angular/common/http';
+import { StayOrderComponent } from './cmps/stay-order/stay-order.component';
+
 import { AmenitiesListComponent } from './cmps/details/amenities-list/amenities-list.component';
 import { AmenitiesPreviewComponent } from './cmps/details/amenities-preview/amenities-preview.component';
 import { SpecialPerksComponent } from './cmps/details/special-perks/special-perks.component';
@@ -35,6 +37,7 @@ import { ReviewPreviewComponent } from './cmps/details/review-preview/review-pre
     HomeHeaderComponent,
     StayDetailsComponent,
     GoogleMapComponent,
+    StayOrderComponent,
     AmenitiesListComponent,
     AmenitiesPreviewComponent,
     SpecialPerksComponent,

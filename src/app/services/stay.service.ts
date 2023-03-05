@@ -52,7 +52,8 @@ export class StayService {
               "Shampoo",
               "Hair dryer",
               "Hot water",
-              "Backyard"
+              "Backyard",
+              "Pets allowed"
             ],
             "bathrooms": 2,
             "bedrooms": 2,

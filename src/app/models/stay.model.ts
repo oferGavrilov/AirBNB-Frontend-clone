@@ -11,7 +11,7 @@ export interface Stay {
     host: Host,
     loc: Loc,
     reviews: Review[],
-    likedByUser:string[],
+    likedByUser: string[],
     roomType: string,
     statReviews: StatReviews,
     bathrooms: number,
@@ -50,15 +50,20 @@ export interface Review {
 }
 
 export interface StatReviews {
-  cleanliness: number,
-  communication: number,
-  checkIn: number,
-  accuracy: number,
-  location: number,
-  value: number
+    cleanliness: number,
+    communication: number,
+    checkIn: number,
+    accuracy: number,
+    location: number,
+    value: number
 }
 
 export interface Marker {
     // position: googleMapLoc,
     label: string
+}
+
+export interface Guests {
+    type: string,
+    amount: number
 }
