@@ -1,9 +1,33 @@
 <section class="host-info">
-  <div class="title">
-    <img [src]="stay.host.pictureUrl" alt="">
-    <div class="info">
-      <span class="name">{{stay.host.fullname}}</span>
-      <span class="date">{{stay.host.createAt | date: 'MMMM d, y'}}</span>
+  <div class="host-container">
+    <div class="title">
+      <img [src]="stay.host.pictureUrl" alt="">
+      <div class="info">
+        <span class="name">{{stay.host.fullname}}</span>
+        <span class="date">join in {{stay.host.createAt | date: 'MMMM, y'}}</span>
+      </div>
+    </div>
+    <div class="achievements">
+      <div>
+        <fa-icon class="icon" [icon]="faStar"></fa-icon>
+        <span>{{stay.reviews.length}} Reviews</span>
+      </div>
+      <div>
+        <img src='assets/img/special-perks/identity-verified.png' alt="">
+        <span>Identity verified</span>
+      </div>
+      <div *ngIf="stay.host.isSuperhost">
+        <img src='assets/img/special-perks/super-host.png' alt="">
+        <span>Superhost</span>
+      </div>
+    </div>
+    <div class="host-info-content">
+      <div *ngIf="stay.host.isSuperhost"  class="super-host">
+        <h2>{{stay.host.fullname}} is a Superhost</h2>
+        <p>Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests.</p>
+      </div>
+      <div>Policy number: {{stay.host.policyNumber}}</div>
+      <div>Response time: {{stay.host.responseTime}}</div>
     </div>
   </div>
 </section>

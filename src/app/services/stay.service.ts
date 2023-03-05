@@ -68,7 +68,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/542dba0c-eb1b-4ab3-85f3-94d3cc8f87a4.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "36133410"
+              "policyNumber": "36133410"
             },
             "loc": {
               "country": "United States",
@@ -219,7 +219,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/12be1141-74de-4f04-bf28-82c3ed589d11.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "80344827"
+              "policyNumber": "80344827"
             },
             "loc": {
               "country": "Canada",
@@ -364,7 +364,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/c9b876fc-b30e-4951-8f88-af9add00939e.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "78704763"
+              "policyNumber": "78704763"
             },
             "loc": {
               "country": "Portugal",
@@ -601,7 +601,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/6334250/profile_pic/1368287493/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "6334250"
+              "policyNumber": "6334250"
             },
             "loc": {
               "country": "United States",
@@ -867,7 +867,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/31635864/profile_pic/1429604852/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "31635864"
+              "policyNumber": "31635864"
             },
             "loc": {
               "country": "Spain",
@@ -958,7 +958,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/72a579ce-37d7-466e-9c25-9876ee8de037.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "35858044"
+              "policyNumber": "35858044"
             },
             "loc": {
               "country": "Spain",
@@ -1220,7 +1220,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/61b62b90-e38b-4609-a3c4-ff5ff06b5c08.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "24800102"
+              "policyNumber": "24800102"
             },
             "loc": {
               "country": "United States",
@@ -1486,7 +1486,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/f3e85f0c-e28d-4698-9da9-2f203aea1f3d.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "9320470"
+              "policyNumber": "9320470"
             },
             "loc": {
               "country": "Portugal",
@@ -1740,7 +1740,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/87b9ccba-154a-4546-8cbe-8bdb25ddb36c.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "80558077"
+              "policyNumber": "80558077"
             },
             "loc": {
               "country": "Portugal",
@@ -1851,7 +1851,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/6bf03261-e7ac-4e0e-8121-3828612bbb6a.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "5823933"
+              "policyNumber": "5823933"
             },
             "loc": {
               "country": "Turkey",
@@ -2145,7 +2145,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/07c98f2f-9ffe-4ed8-82ca-1e9cd00c673f.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "82827178"
+              "policyNumber": "82827178"
             },
             "loc": {
               "country": "United States",
@@ -2371,7 +2371,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/7620074d-86d6-49c3-b7fe-cafe084051dd.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "98780303"
+              "policyNumber": "98780303"
             },
             "loc": {
               "country": "Turkey",
@@ -2626,7 +2626,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/3fceba9a-ce84-4841-88df-b699105119b4.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "54320669"
+              "policyNumber": "54320669"
             },
             "loc": {
               "country": "Spain",
@@ -2913,7 +2913,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/6107595/profile_pic/1442432675/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "6107595"
+              "policyNumber": "6107595"
             },
             "loc": {
               "country": "Spain",
@@ -3172,7 +3172,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/217e78d8-bb65-46c5-af28-ecd1939e1945.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "62130666"
+              "policyNumber": "62130666"
             },
             "loc": {
               "country": "United States",
@@ -3422,7 +3422,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/37031267/profile_pic/1441373303/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "37031267"
+              "policyNumber": "37031267"
             },
             "loc": {
               "country": "Hong Kong",
@@ -3709,7 +3709,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/ddcc4146-9abc-4f4d-b347-8f30deb10f6c.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "733802"
+              "policyNumber": "733802"
             },
             "loc": {
               "country": "United States",
@@ -3841,7 +3841,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/24253453/profile_pic/1434065920/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "24253453"
+              "policyNumber": "24253453"
             },
             "loc": {
               "country": "United States",
@@ -3952,7 +3952,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/22076771/profile_pic/1415724202/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "22076771"
+              "policyNumber": "22076771"
             },
             "loc": {
               "country": "Spain",
@@ -4096,7 +4096,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/d741db02-7680-4a52-940e-52dae808cd1f.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "2769925"
+              "policyNumber": "2769925"
             },
             "loc": {
               "country": "Turkey",
@@ -4246,7 +4246,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/542dba0c-eb1b-4ab3-85f3-94d3cc8f87a4.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "36133410"
+              "policyNumber": "36133410"
             },
             "loc": {
               "country": "United States",
@@ -4365,7 +4365,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/fda23efa-e51c-40be-8cd8-3ab6ee05c140.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "57921954"
+              "policyNumber": "57921954"
             },
             "loc": {
               "country": "Turkey",
@@ -4632,7 +4632,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/c92b0b12-e019-4bb1-b0a8-c0b671096eb2.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "12243051"
+              "policyNumber": "12243051"
             },
             "loc": {
               "country": "Canada",
@@ -4883,7 +4883,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/4d361f57-f65e-4885-b934-0e92eebf288d.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "52004369"
+              "policyNumber": "52004369"
             },
             "loc": {
               "country": "United States",
@@ -5042,7 +5042,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/50124/profile_pic/1443072360/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "50124"
+              "policyNumber": "50124"
             },
             "loc": {
               "country": "United States",
@@ -5301,7 +5301,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/6544866/profile_pic/1400529085/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "6544866"
+              "policyNumber": "6544866"
             },
             "loc": {
               "country": "Spain",
@@ -5561,7 +5561,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/fdb58b71-1613-4905-8850-024dc23f1cb0.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "80740340"
+              "policyNumber": "80740340"
             },
             "loc": {
               "country": "Spain",
@@ -5821,7 +5821,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/440690bd-73f1-411a-8194-5e6a17bc39ff.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "9031139"
+              "policyNumber": "9031139"
             },
             "loc": {
               "country": "Australia",
@@ -5918,7 +5918,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/528512/profile_pic/1303510673/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "528512"
+              "policyNumber": "528512"
             },
             "loc": {
               "country": "Canada",
@@ -6196,7 +6196,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/8557006/profile_pic/1378865375/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "8557006"
+              "policyNumber": "8557006"
             },
             "loc": {
               "country": "Brazil",
@@ -6453,7 +6453,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/7df7595b-806c-46f4-a4d9-62f41a38393d.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "16022141"
+              "policyNumber": "16022141"
             },
             "loc": {
               "country": "Spain",
@@ -6631,7 +6631,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/ef5a70f4-27ad-4377-b5c6-90483ed8ac91.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "3026612"
+              "policyNumber": "3026612"
             },
             "loc": {
               "country": "Brazil",
@@ -6719,7 +6719,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/a4a32ba2-8d89-474a-adab-2c39c1bc0adb.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
-              "policy-number": "9998124"
+              "policyNumber": "9998124"
             },
             "loc": {
               "country": "Canada",
@@ -6979,7 +6979,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/users/2537111/profile_pic/1418360168/original.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "2537111"
+              "policyNumber": "2537111"
             },
             "loc": {
               "country": "Brazil",
@@ -7276,7 +7276,7 @@ export class StayService {
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/f1457fda-ca3a-427b-9fd2-8c864d35d156.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": true,
-              "policy-number": "104714699"
+              "policyNumber": "104714699"
             },
             "loc": {
               "country": "United States",

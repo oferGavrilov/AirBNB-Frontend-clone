@@ -3,33 +3,75 @@
 
 .host-info {
   padding: 32px 0;
-  .title {
+  border-bottom: 1px solid $border-color;
+  .host-container {
+    width: 500px;
     color: $header-text-color;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 16px;
-
-    img {
-      border-radius: 50%;
-      width: 64px;
-      height: 64px;
-    }
-
-    .info {
+    .title {
       display: flex;
-      flex-direction: column;
-      gap: 4px;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
 
-      .name {
-        font-size: 22px;
-        font-weight: 500;
+      img {
+        border-radius: 50%;
+        width: 64px;
+        height: 64px;
       }
 
-      .date {
-        color: $main-color;
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        .name {
+          font-size: 22px;
+          font-weight: 500;
+          margin-bottom: 8px;
+        }
+
+        .date {
+          color: $main-color;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .achievements {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      >* {
+        display: flex;
+        align-items: center;
+        gap: 4px;
         font-size: 14px;
         font-weight: 400;
+
+        .icon {
+          font-size: 18px;
+        }
+      }
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .host-info-content {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 12px;
+      line-height: 24px;
+
+      h2{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 8px;
       }
     }
   }
