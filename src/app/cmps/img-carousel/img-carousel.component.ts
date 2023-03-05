@@ -28,8 +28,6 @@ export class ImgCarouselComponent {
   }
 
   getClassPagination(idx: number) {
-    console.log(this.currIdx === idx ? 'active' : '');
-
     return this.currIdx === idx ? 'active' : ''
   }
 }
