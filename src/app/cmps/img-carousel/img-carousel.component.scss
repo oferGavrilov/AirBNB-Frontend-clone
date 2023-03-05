@@ -50,4 +50,26 @@
     }
   }
 
+  .carousel-pagination {
+    display: flex;
+    gap: 8px;
+    color: white;
+    font-size: 6px;
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+    right: 50%;
+
+    >* {
+      cursor: pointer;
+      opacity: .3;
+      &.active {
+        opacity: 1;
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+
 }

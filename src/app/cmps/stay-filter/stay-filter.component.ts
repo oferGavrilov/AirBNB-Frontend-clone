@@ -23,17 +23,24 @@ export class StayFilterComponent {
       }
     })
     this.breakpointObserver.observe([
-      "(min-width:700px)"
+      "(min-width:600px)"
     ]).subscribe((result: BreakpointState) => {
       if (result.matches) {
-        this.itemsToShow = 4
+        this.itemsToShow = 5
       }
     })
     this.breakpointObserver.observe([
-      "(min-width:960px)"
+      "(min-width:800px)"
     ]).subscribe((result: BreakpointState) => {
       if (result.matches) {
-        this.itemsToShow = 7
+        this.itemsToShow = 8
+      }
+    })
+    this.breakpointObserver.observe([
+      "(min-width:1050px)"
+    ]).subscribe((result: BreakpointState) => {
+      if (result.matches) {
+        this.itemsToShow = 9
       }
     })
     this.breakpointObserver.observe([
@@ -50,15 +57,21 @@ export class StayFilterComponent {
   }
 
   checkRightArrow() {
-    return this.filters.length - 1 >= this.index + this.itemsToShow
+    console.log('idx:',  this.index)
+    return this.filters.length - 1 >= this.index + 3 && this.itemsToShow + this.index + 3 <= this.filters.length
   }
 
   checkLeftArrow() {
-    return this.index - 3 > 0
+    return this.index - 3 >= 0
   }
 
   getFilters() {
     return this.filters.slice(this.index, this.index + this.itemsToShow)
+  }
+
+  getRightPos() {
+    if(this.itemsToShow > 8) return '116px'
+    return 0
   }
 
   filters = [
