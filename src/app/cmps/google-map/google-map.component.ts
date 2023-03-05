@@ -8,41 +8,43 @@ import { StayService } from 'src/app/services/stay.service';
   styleUrls: ['./google-map.component.scss']
 })
 export class GoogleMapComponent implements OnInit {
-  @Input() stays!: Stay[] | null;
+  @Input() stay!: Stay;
 
   constructor(private stayService: StayService) { }
-  locations !: googleMapLoc[]
+  location !: googleMapLoc
   display: any
-  center: google.maps.LatLngLiteral = { lat: 32.084, lng: 34.8 }
-  zoom = 11
+  center: google.maps.LatLngLiteral = { lat: 40.084, lng: 34.8 }
+  zoom = 10
   prices !: number[]
 
   markerOptions: google.maps.MarkerOptions = { draggable: false }
-  markerPositions: google.maps.LatLngLiteral[] = this.locations;
+  markerPositions: google.maps.LatLngLiteral[] = [];
   // marker !: Marker
   ngOnInit() {
-    // if (!this.stays) return
-    // for (let i = 0; i < this.stays.length; i++) {
-    //   this.marker = new google.maps.Marker({
-    //     position: this.getPositions(i),
-    //     label: 'home'
-    //   })
-    // }
-    // this.locations = this.stays.map(stay => {
-    //   const { lat, lan: lng } = stay.loc
-    //   return { lat, lng }
-    // })
+    console.log(this.stay.loc.lat)
+    console.log(this.stay.loc.lan)
+    this.center.lat = this.stay.loc.lan
+    this.center.lng = this.stay.loc.lat
+    this.markerPositions.push({
+      lat: this.stay.loc.lan,
+      lng: this.stay.loc.lat
+    })
+    this.location ={
+      lat: this.stay.loc.lan,
+      lng: this.stay.loc.lat,
+    }
+
   }
 
   getPositions(idx: number) {
-    if (!this.stays) return
-    const { lat, lan: lng } = this.stays[idx].loc
-    return { lat, lng }
+    // if (!this.stays) return
+    // const { lat, lan: lng } = this.stays[idx].loc
+    // return { lat, lng }
   }
 
   getMarkerPrice() {
-    if (this.stays) return this.prices = this.stays.map(stay => stay.price)
-    return ''
+    // if (this.stays) return this.prices = this.stays.map(stay => stay.price)
+    // return ''
   }
 
   addMarker(event: google.maps.MapMouseEvent) {

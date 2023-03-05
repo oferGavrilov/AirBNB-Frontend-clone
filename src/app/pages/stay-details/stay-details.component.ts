@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild, ElementRef, Renderer2 } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { Router, ActivatedRoute } from '@angular/router';
 import { StatReviews, Stay } from 'src/app/models/stay.model';
@@ -14,8 +14,10 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
 
   constructor(
     private router: Router,
+    private renderer2: Renderer2,
     private route: ActivatedRoute) { }
 
+  unlistener !: () => void
   stay!: Stay
   subscription!: Subscription
   shareIcon = faArrowUpFromBracket
@@ -25,20 +27,20 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
   isShowHeaderOrder: boolean = false
 
   ngOnInit(): void {
-    window.addEventListener('scroll', () => {
-      // console.log('scroll',window.scrollY)
-      if (window.scrollY >= this.element.nativeElement.offsetTop) this.isShowHeader = true
-      else this.isShowHeader = false
-      if (window.scrollY >= 1651) this.isShowHeaderOrder = true
-      else this.isShowHeaderOrder = false
-    })
     this.subscription = this.route.data.subscribe(data => {
       this.stay = data['stay']
     })
   }
 
   ngAfterViewInit(): void {
-    // console.log('element',this.element.nativeElement.offsetTop)
+    this.unlistener = this.renderer2.listen('window', 'scroll', () => this.onScroll(this.element))
+  }
+
+  onScroll(element: ElementRef) {
+    if (window.scrollY >= element.nativeElement.offsetTop) this.isShowHeader = true
+    else this.isShowHeader = false
+    if (window.scrollY >= 1651) this.isShowHeaderOrder = true
+    else this.isShowHeaderOrder = false
   }
 
   getRateAvg() {
@@ -53,8 +55,6 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
 
   ngOnDestroy(): void {
     this.subscription.unsubscribe()
-    // window.removeEventListener('scroll', , true)
+    this.unlistener()
   }
 }
-
-// 585
