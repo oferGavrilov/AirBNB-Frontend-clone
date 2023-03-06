@@ -3,6 +3,6 @@ export interface User {
     username: string
     fullname: string
     password: string
+    imgUrl: string
     favourites: string[]
-    isHost: boolean
 }

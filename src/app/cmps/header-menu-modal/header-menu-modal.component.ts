@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
+import { UserService } from 'src/app/services/user.service';
 
 @Component({
   selector: 'header-menu-modal',
@@ -7,6 +8,18 @@ import { Router } from '@angular/router';
   styleUrls: ['./header-menu-modal.component.scss']
 })
 export class HeaderMenuModalComponent {
-  constructor(private router: Router) { }
 
+  @Output() onToggleHeaderMenuModal = new EventEmitter()
+
+  constructor(private router: Router,
+    private userService: UserService) { }
+
+  isLoggedInUser() {
+    return this.userService.getUser() !== null
+  }
+
+  onLogout() {
+    this.userService.logout()
+    this.onToggleHeaderMenuModal.emit()
+  }
 }

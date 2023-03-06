@@ -1,4 +1,4 @@
-<section class="login">
+<!-- <section class="login">
     <app-header></app-header>
     <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
         <label for="fullname">Full name:
@@ -39,5 +39,114 @@
         </label>
         <button [disabled]="form.pristine || form.invalid">Save</button>
     </form>
+</section> -->
 
+<section class="login-page">
+    <div #container class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+                <h1 class="title">Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+
+                <input formControlName="fullname" id="fullname" class="form-control" placeholder="Full name">
+                <div *ngIf="form.controls['fullname'].invalid && (form.controls['fullname'].dirty || form.controls['fullname'].touched)"
+                    class="alert alert-danger">
+                    <div *ngIf="form.controls['fullname'].errors?.['required']">
+                        Full name is required.
+                    </div>
+                    <div *ngIf="form.controls['fullname'].errors?.['minlength']">
+                        Full name must be at least 3 characters long.
+                    </div>
+                </div>
+
+                <input formControlName="username" type="text" id="username" placeholder="User name" />
+                <div *ngIf="form.controls['username'].invalid && (form.controls['username'].dirty || form.controls['username'].touched)"
+                    class="alert alert-danger">
+                    <div *ngIf="form.controls['username'].errors?.['required']">
+                        Full name is required.
+                    </div>
+                    <div *ngIf="form.controls['username'].errors?.['minlength']">
+                        Full name must be at least 3 characters long.
+                    </div>
+                </div>
+
+                <input formControlName="password" id="password" placeholder="Password" required />
+                <div *ngIf="form.controls['password'].invalid && (form.controls['password'].dirty || form.controls['password'].touched)"
+                    class="alert alert-danger">
+                    <div *ngIf="form.controls['password'].errors?.['required']">
+                        Password is required.
+                    </div>
+                    <div *ngIf="form.controls['password'].errors?.['minlength']">
+                        Password must be at least 3 characters long.
+                    </div>
+                </div>
+
+                <div className="upload-preview">
+                    <div className='img-picker'>
+                        <label htmlFor="imgUpload">
+                            <img *ngIf="!imgData.imgUrl" class="guest-img" src="assets/img/guest.png" alt="" />
+                            <img *ngIf="imgData.imgUrl" class="user-img" [src]="imgData.imgUrl" alt="" />
+                        </label>
+                    </div>
+                    <input type="file" (change)="uploadImg($event)" accept="img/*" id="imgUpload" />
+                </div>
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+                <h1 class="title">Sign in</h1>
+                <div class="social-container">
+                    <a href="#" class="social"></a>
+                    <a href="#" class="social"></a>
+                    <a href="#" class="social"></a>
+                </div>
+                <span>or use your account</span>
+
+                <input formControlName="username" type="text" id="username" placeholder="User name" />
+                <div *ngIf="form.controls['username'].invalid && (form.controls['username'].dirty || form.controls['username'].touched)"
+                    class="alert alert-danger">
+                    <div *ngIf="form.controls['username'].errors?.['required']">
+                        Full name is required.
+                    </div>
+                    <div *ngIf="form.controls['username'].errors?.['minlength']">
+                        Full name must be at least 3 characters long.
+                    </div>
+                </div>
+
+                <input formControlName="password" id="password" placeholder="Password" required />
+                <div *ngIf="form.controls['password'].invalid && (form.controls['password'].dirty || form.controls['password'].touched)"
+                    class="alert alert-danger">
+                    <div *ngIf="form.controls['password'].errors?.['required']">
+                        Password is required.
+                    </div>
+                    <div *ngIf="form.controls['password'].errors?.['minlength']">
+                        Password must be at least 3 characters long.
+                    </div>
+                </div>
+
+                <a>Forgot your password?</a>
+                <button>Login</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn" (click)="onSigninPage()">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="title">Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp" (click)="onSignupPage()">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

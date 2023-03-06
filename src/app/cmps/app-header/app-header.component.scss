@@ -88,10 +88,10 @@ header {
             border:1px solid $border-color;
 
             transition: box-shadow .4s;
-            svg {
+            img {
+                border-radius: 2em;
                 width: 29px;
                 height: 29px;
-                color: gray;
             }
 
             &:hover {
@@ -100,3 +100,4 @@ header {
         }
     }
 }
+

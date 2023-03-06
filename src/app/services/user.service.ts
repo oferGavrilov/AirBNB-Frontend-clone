@@ -26,10 +26,12 @@ export class UserService {
     const users = this.getUsers()
     const loggedInUser = users.find((currUser: User) => currUser.password === user.password && currUser.username === user.username)
     if (loggedInUser) this.saveLocalUser(loggedInUser)
-    else {
-      user = this.save(user)
-      this.saveLocalUser(user)
-    }
+    else throw Error
+  }
+
+  public signup(user: User): void {
+    user = this.save(user)
+    this.saveLocalUser(user)
   }
 
   public getEmptyUser() {
@@ -38,8 +40,11 @@ export class UserService {
       fullname: '',
       password: '',
       favorites: [],
-      isHost: false
     }
+  }
+
+  public logout(): void {
+    sessionStorage.clear()
   }
 
   private save(user: User): User {

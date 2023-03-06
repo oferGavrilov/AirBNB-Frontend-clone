@@ -1,8 +1,6 @@
 @import '../../../assets/styles/setup/variables';
 
 .header-menu-modal {
-    display: flex;
-    flex-direction: column;
     position: absolute;
     z-index: 10;
     top: 67px;
@@ -12,17 +10,29 @@
     border-radius: 12px;
     padding: 12px 0;
     font-size: 14px;
-    gap: 12px;
     font-weight: 400;
-    width: 220px;
+    gap: 12px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+    div {
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid $border-color;
+        padding-bottom: 12px;
+    }
     
-    :first-child{
+    .bold {
         font-weight: 600;
     }
-    >* {
+    
+    span {
         cursor: pointer;
         padding: 12px;
-        &:hover{
+        
+        &:hover {
             background-color: $main-hover;
         }
     }
