@@ -11,7 +11,6 @@ import { StayService } from 'src/app/services/stay.service';
 export class HomeComponent {
   constructor(private stayService: StayService) { }
   amount: number = 1250
-
   stays$ !: Observable<Stay[]>
 
   ngOnInit() {
@@ -27,6 +26,3 @@ export class HomeComponent {
     return (this.amount / 193).toFixed(0)
   }
 }
-
-
-

@@ -24,6 +24,8 @@ import { SpecialPerksComponent } from './cmps/details/special-perks/special-perk
 import { ReviewListComponent } from './cmps/details/review-list/review-list.component';
 import { ReviewPreviewComponent } from './cmps/details/review-preview/review-preview.component';
 import { HostInfoComponent } from './cmps/details/host-info/host-info.component';
+import { AirbnbCalendarModule } from 'ngx-airbnb-calendar';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -53,6 +55,8 @@ import { HostInfoComponent } from './cmps/details/host-info/host-info.component'
     FontAwesomeModule,
     HttpClientModule,
     GoogleMapsModule,
+    AirbnbCalendarModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

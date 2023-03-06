@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="checkout-container">
-            <div (click)="onSetDate()" class="checkout-btns">
+            <!-- <div (click)="onSetDate()" class="checkout-btns">
                 <button>
                     <span class="title">Check-in</span>
                     <span>{{checkIn | date}}</span>
@@ -21,6 +21,18 @@
                     <span class="title">Checkout</span>
                     <span>{{checkOut | date}}</span>
                 </button>
+            </div> -->
+            <div class="checkout-btns">
+                <label for="calender" class="check-in">
+                  <span class="title">Check-in</span>
+                  <span>{{getCheckIn() | date}}</span>
+                </label>
+                <input id="calender" type="text" [(ngModel)]="date" name="date" airbnb-calendar
+                [options]="options" />
+              <label for="calender" class="check-out">
+                <span class="title">Checkout</span>
+                <span>{{getCheckOut() | date}}</span>
+              </label>
             </div>
             <div class="guest-btn" (click)="showGuestModal=!showGuestModal">
                 <button>

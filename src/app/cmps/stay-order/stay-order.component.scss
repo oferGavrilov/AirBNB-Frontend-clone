@@ -1,6 +1,36 @@
 @import '../../../assets/styles/setup/variables';
 @import '../../../assets/styles/setup/mixins';
 
+::ng-deep airbnb-calendar{
+  top: 60px;
+  right: 703px;
+  display: flex;
+  flex-direction: column;
+
+  // .airbnb-calendar-container{
+  // }
+
+  div {
+    padding: 0 0;
+  }
+  // :first-child {
+  //   width: 60%;
+  //   :first-child {
+  //     padding: 0;
+  //     border-radius: 8px;
+  //     >* {
+  //       float: right;
+  //       padding: unset;
+  //     }
+  //   }
+  // }
+}
+
+::ng-deep .airbnb-calendar-container[_ngcontent-utb-c73] {
+  background-color: #D70466;
+}
+
+
 .stay-order {
     position: sticky;
     top: 86px;
@@ -65,7 +95,22 @@
             margin-bottom: 16px;
             cursor: pointer;
 
-            button {
+            #calender {
+              opacity: 0;
+              width: 0;
+
+
+              [_nghost-bhy-c73] {
+                box-sizing: border-box;
+                display: block;
+                position: relative;
+                right: 591px;
+                z-index: 10;
+                top: 52px;
+            }
+            }
+
+            label, button {
                 display: flex;
                 flex-direction: column;
                 white-space: nowrap;
