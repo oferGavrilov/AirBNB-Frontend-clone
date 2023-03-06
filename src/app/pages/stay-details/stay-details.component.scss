@@ -113,16 +113,45 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+
       nav {
         display: flex;
         gap: 24px;
 
-        a{
+        a {
           text-decoration: none;
           color: $header-text-color;
           font-weight: 500;
           padding: 30px 0;
           font-size: 14px;
+        }
+      }
+    }
+
+    .header-order {
+      display: flex;
+      justify-content: space-between;
+
+      .order-info {
+        display: flex;
+        flex-direction: column;
+        margin-right: 16px;
+
+        .order-rate {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+
+          .point {
+            font-size: 3px;
+          }
+
+          .star {
+            font-size: 12px;
+          }
+          .reviews{
+            text-decoration: underline;
+          }
         }
       }
     }
@@ -183,19 +212,22 @@
     }
   }
 
-  .google-map{
+  .google-map {
     color: $header-text-color;
     padding: 48px 0;
     border-bottom: 1px solid $border-color;
-    h2{
+
+    h2 {
       font-size: 22px;
       font-weight: 600;
       padding-bottom: 24px;
     }
-    .address{
+
+    .address {
       margin-bottom: 24px;
     }
   }
+
   .des {
     font-size: 16px;
     color: $header-text-color;

@@ -27,6 +27,7 @@ import { HostInfoComponent } from './cmps/details/host-info/host-info.component'
 import { AirbnbCalendarModule } from 'ngx-airbnb-calendar';
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,

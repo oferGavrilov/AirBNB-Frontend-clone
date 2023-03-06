@@ -34,6 +34,7 @@
       <img class="img" [src]="stay.imgUrls[3]" alt="">
       <img class="img" [src]="stay.imgUrls[4]" alt="">
     </div>
+    <!-- TODO: Export to component -->
     <div *ngIf="isShowHeader" class="sticky-header full">
       <div class="main-layout">
         <div class="header-content">
@@ -43,10 +44,22 @@
             <a href="#reviews">Reviews</a>
             <a href="#location">Location</a>
           </nav>
-          <div *ngIf="isShowHeaderOrder" class="header-order">Order</div>
+          <div *ngIf="isShowHeaderOrder" class="header-order">
+            <div class="order-info">
+              <h5>{{stay.price |currency}} night</h5>
+              <div class="order-rate">
+                <fa-icon [icon]="starIcon" class="star"></fa-icon>
+                <span>{{getRateAvg()}}</span>
+                <fa-icon class="point" [icon]="point"></fa-icon>
+                <span href="" class="reviews">{{stay.reviews.length}} reviews</span>
+              </div>
+            </div>
+            <button class="main-btn" >Reserve</button>
+          </div>
         </div>
       </div>
     </div>
+    <!--  -->
     <div #element class="stay-order-info">
       <div class="stay-information">
         <div class="subtitle">
@@ -74,10 +87,10 @@
         </div>
         <amenities-list id="amenities" [stay]="stay"></amenities-list>
       </div>
-      <stay-order [stay]="stay"></stay-order>
+      <stay-order [guests]="guests" [stay]="stay"></stay-order>
     </div>
     <review-list id="reviews" [stay]="stay"></review-list>
-    <div class="google-map">
+    <div class="google-map" id="location">
       <h2>Where you'll be</h2>
       <span class="address">{{stay.loc.address}}</span>
       <map [stay]="stay"></map>

@@ -1,9 +1,31 @@
+
+.map{
+    -webkit-border-radius: 30px;
+    // -webkit-box-shadow: 8px 8px 16px #323834;
+    border-radius: 12px;
+}
 google-map {
 
-    .map-container{
+    .map-container {
         border-radius: 24px !important;
     }
-    .gmnoprint{
+
+    .gmnoprint {
         display: none;
+    }
+
+    .marker {
+        background-color: pink;
+        height: 30px;
+    }
+
+    .gm-style div[aria-hidden="true"] {
+        background-color: rgb(150, 35, 35) !important;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .gm-style {
+        background-color: red;
     }
 }
