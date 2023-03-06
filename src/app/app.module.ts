@@ -58,3 +58,4 @@ import { HostInfoComponent } from './cmps/details/host-info/host-info.component'
   bootstrap: [AppComponent],
 })
 export class AppModule { }
+
