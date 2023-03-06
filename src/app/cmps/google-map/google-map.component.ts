@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { googleMapLoc, Loc, Marker, Stay } from 'src/app/models/stay.model';
+import { Component, Input, OnInit, ViewChild, AfterViewInit } from '@angular/core';
+import { googleMapLoc, Stay } from 'src/app/models/stay.model';
 import { StayService } from 'src/app/services/stay.service';
 
 @Component({
@@ -14,21 +14,24 @@ export class GoogleMapComponent implements OnInit {
   location !: googleMapLoc
   display: any
   center: google.maps.LatLngLiteral = { lat: 40.084, lng: 34.8 }
-  zoom = 10
+  zoom = 12
   maxZoom = 15
   minZoom = 8
   prices !: number[]
 
   markerOptions: google.maps.MarkerOptions = {
+    optimized: false,
     draggable: false,
     icon: 'assets/img/home.png',
+    // icon: this.markerIcon,
   }
+
   options: google.maps.MapOptions = {
     scrollwheel: false,
     disableDoubleClickZoom: true,
     mapTypeId: 'roadmap',
     maxZoom: this.maxZoom,
-    minZoom: this.minZoom
+    minZoom: this.minZoom,
   }
   markerPositions: google.maps.LatLngLiteral[] = [];
   // marker !: Marker
@@ -39,8 +42,8 @@ export class GoogleMapComponent implements OnInit {
       lat: this.stay.loc.lan,
       lng: this.stay.loc.lat,
     }
-
   }
+
 
   getPositions(idx: number) {
     // if (!this.stays) return

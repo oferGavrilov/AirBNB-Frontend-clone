@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy, ViewChild, ElementRef, Renderer2 } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { Router, ActivatedRoute } from '@angular/router';
-import { StatReviews, Stay } from 'src/app/models/stay.model';
-import { faArrowUpFromBracket, faHeart, faStar } from '@fortawesome/free-solid-svg-icons'
+import { Guests, StatReviews, Stay } from 'src/app/models/stay.model';
+import { faArrowUpFromBracket, faHeart, faStar, faCircle } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'stay-details',
@@ -23,6 +23,7 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
   shareIcon = faArrowUpFromBracket
   heartIcon = faHeart
   starIcon = faStar
+  point = faCircle
   isShowHeader: boolean = false
   isShowHeaderOrder: boolean = false
 
@@ -32,6 +33,25 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     })
   }
 
+  guests: Guests[] = [
+    {
+      type: 'Adults',
+      amount: 1
+    },
+    {
+      type: 'Children',
+      amount: 0
+    },
+    {
+      type: 'Infants',
+      amount: 0
+    },
+    {
+      type: 'Pets',
+      amount: 0
+    }
+  ]
+
   ngAfterViewInit(): void {
     this.unlistener = this.renderer2.listen('window', 'scroll', () => this.onScroll(this.element))
   }
@@ -39,7 +59,7 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
   onScroll(element: ElementRef) {
     if (window.scrollY >= element.nativeElement.offsetTop) this.isShowHeader = true
     else this.isShowHeader = false
-    if (window.scrollY >= 1651) this.isShowHeaderOrder = true
+    if (window.scrollY >= 1378) this.isShowHeaderOrder = true
     else this.isShowHeaderOrder = false
   }
 

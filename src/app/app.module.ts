@@ -25,6 +25,7 @@ import { ReviewListComponent } from './cmps/details/review-list/review-list.comp
 import { ReviewPreviewComponent } from './cmps/details/review-preview/review-preview.component';
 import { HostInfoComponent } from './cmps/details/host-info/host-info.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +52,7 @@ import { HostInfoComponent } from './cmps/details/host-info/host-info.component'
     AppRoutingModule,
     FontAwesomeModule,
     HttpClientModule,
-    GoogleMapsModule
+    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
