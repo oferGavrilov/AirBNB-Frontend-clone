@@ -18,4 +18,6 @@ export class StayIndexComponent implements OnInit{
     this.stayService.loadStays()
     this.stays$ = this.stayService.stays$;
   }
+
+
 }

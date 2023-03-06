@@ -1,9 +1,26 @@
 @import '../../../assets/styles/setup/variables';
 @import '../../../assets/styles/setup/mixins';
+@import 'node_modules/@angular/material/prebuilt-themes/purple-green.css';
 
+::ng-deep .mat-mdc-form-field[_ngcontent-peh-c151] {
+  background-color: aliceblue;
+}
+.my-custom-class mat-form-field {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.my-custom-class .mat-date-range-input-fields {
+  color: #555;
+  font-weight: bold;
+}
+
+.my-custom-class .mat-date-range-input-divider {
+  color: #ccc;
+  font-size: 20px;
+}
 .home {
     height: 150vh;
-
     .teaser-section {
         display: flex;
         flex-direction: column;
@@ -48,7 +65,7 @@
                 height: 40px;
             }
 
-            
+
             .teaser-description {
                 text-decoration: underline;
                 color: $main-color;
