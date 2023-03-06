@@ -25,7 +25,9 @@ import { ReviewListComponent } from './cmps/details/review-list/review-list.comp
 import { ReviewPreviewComponent } from './cmps/details/review-preview/review-preview.component';
 import { HostInfoComponent } from './cmps/details/host-info/host-info.component';
 import { AirbnbCalendarModule } from 'ngx-airbnb-calendar';
-import { FormsModule } from '@angular/forms';
+import { FormsModule , ReactiveFormsModule } from '@angular/forms';
+import { HeaderMenuModalComponent } from './cmps/header-menu-modal/header-menu-modal.component';
+import { LoginComponent } from './cmps/login/login.component';
 
 
 @NgModule({
@@ -47,7 +49,9 @@ import { FormsModule } from '@angular/forms';
     SpecialPerksComponent,
     ReviewListComponent,
     ReviewPreviewComponent,
-    HostInfoComponent
+    HostInfoComponent,
+    HeaderMenuModalComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -56,9 +60,11 @@ import { FormsModule } from '@angular/forms';
     HttpClientModule,
     GoogleMapsModule,
     AirbnbCalendarModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule { }
+

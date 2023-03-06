@@ -57,7 +57,6 @@ export class StayFilterComponent {
   }
 
   checkRightArrow() {
-    console.log('idx:',  this.index)
     return this.filters.length - 1 >= this.index + 3 && this.itemsToShow + this.index + 3 <= this.filters.length
   }
 
