@@ -13,4 +13,9 @@ export class AppHeaderComponent {
   faMagnifyingGlass = faMagnifyingGlass
   faGlobe = faGlobe
   faBars = faBars
+  isShowHeaderMenuModal = false
+
+  onToggleHeaderMenuModal() {
+    this.isShowHeaderMenuModal = !this.isShowHeaderMenuModal 
+  }
 }

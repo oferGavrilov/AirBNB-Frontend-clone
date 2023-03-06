@@ -5,17 +5,21 @@ import { StayDetailsComponent } from './pages/stay-details/stay-details.componen
 import { StayResolver } from './services/stay.resolver';
 import { HomeComponent } from './pages/home/home.component';
 import { StayIndexComponent } from './pages/stay-index/stay-index.component';
+import { LoginComponent } from './cmps/login/login.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: ':stayId',
+  { path: 'login', component: LoginComponent },
+  {
+    path: ':stayId',
     component: StayDetailsComponent,
-    resolve: { stay: StayResolver }},
-  { path: '', component: StayIndexComponent},
+    resolve: { stay: StayResolver }
+  },
+  { path: '', component: StayIndexComponent },
 ]
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: environment?.production ,scrollPositionRestoration:'enabled'} )],
+  imports: [RouterModule.forRoot(routes, { useHash: environment?.production, scrollPositionRestoration: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    input {
+        width: 300px;
+        height: 30px;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+
+    button {
+        margin-top: 25px;
+        background-color: #457b9d;
+        margin-right: 10px;
+        width: 100px;
+        height: 30px;
+        border-radius: 4px;
+        font-size: 17px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.ng-valid[required], input.ng-valid  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.alert div {
+  background-color: #fed3d3;
+  color: #820000;
+  padding: 0.7rem;
+  margin-top: 10px;
+  width: 300px;
+  margin-left: auto;
+  border-radius: 8px;
+}

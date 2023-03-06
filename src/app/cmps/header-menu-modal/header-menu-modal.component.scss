@@ -1,0 +1,29 @@
+@import '../../../assets/styles/setup/variables';
+
+.header-menu-modal {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    top: 67px;
+    right: 86px;
+    background-color: #fff;
+    box-shadow: 0 2px 16px rgb(0 0 0 / 12%);
+    border-radius: 12px;
+    padding: 12px 0;
+    font-size: 14px;
+    gap: 12px;
+    font-weight: 400;
+    width: 220px;
+    
+    :first-child{
+        font-weight: 600;
+    }
+    >* {
+        cursor: pointer;
+        padding: 12px;
+        &:hover{
+            background-color: $main-hover;
+        }
+    }
+}

@@ -19,7 +19,7 @@
             <div class="language">
                 <fa-icon [icon]="faGlobe"></fa-icon>
             </div>
-            <div class="menu">
+            <div class="menu" (click)="onToggleHeaderMenuModal()">
                 <fa-icon [icon]="faBars"></fa-icon>
                 <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation"
                     focusable="false" style="display: block; fill: currentcolor;">
@@ -31,3 +31,4 @@
         </nav>
     </div>
 </header>
+<header-menu-modal *ngIf="isShowHeaderMenuModal"></header-menu-modal>

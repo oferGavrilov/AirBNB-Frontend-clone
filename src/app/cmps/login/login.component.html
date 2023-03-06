@@ -1,0 +1,43 @@
+<section class="login">
+    <app-header></app-header>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+        <label for="fullname">Full name:
+            <input formControlName="fullname" id="fullname" class="form-control" placeholder="Full name" />
+            <div *ngIf="form.controls['fullname'].invalid && (form.controls['fullname'].dirty || form.controls['fullname'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="form.controls['fullname'].errors?.['required']">
+                    Full name is required.
+                </div>
+                <div *ngIf="form.controls['fullname'].errors?.['minlength']">
+                    Full name must be at least 3 characters long.
+                </div>
+            </div>
+        </label>
+        <label for="username">User name:
+            <input formControlName="username" type="text" id="username" placeholder="User name" />
+            <div *ngIf="form.controls['username'].invalid && (form.controls['username'].dirty || form.controls['username'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="form.controls['username'].errors?.['required']">
+                    Full name is required.
+                </div>
+                <div *ngIf="form.controls['username'].errors?.['minlength']">
+                    Full name must be at least 3 characters long.
+                </div>
+            </div>
+        </label>
+        <label for="password">Password:
+            <input formControlName="password" id="password" placeholder="Password" required />
+            <div *ngIf="form.controls['password'].invalid && (form.controls['password'].dirty || form.controls['password'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="form.controls['password'].errors?.['required']">
+                    Password is required.
+                </div>
+                <div *ngIf="form.controls['password'].errors?.['minlength']">
+                    Password must be at least 3 characters long.
+                </div>
+            </div>
+        </label>
+        <button [disabled]="form.pristine || form.invalid">Save</button>
+    </form>
+
+</section>
