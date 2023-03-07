@@ -14,11 +14,11 @@ export class OrderService {
   private _orders$ = new BehaviorSubject<Order[]>([])
   public orders$ = this._orders$.asObservable()
 
-  private _contactFilter$ = new BehaviorSubject<FilterOrder>(this.getEmptyFilter());
-  public contactFilter$ = this._contactFilter$.asObservable()
+  private _orderFilter$ = new BehaviorSubject<FilterOrder>(this.getEmptyFilter());
+  public orderFilter$ = this._orderFilter$.asObservable()
 
   public loadOrders() {
-    const filterBy = this._contactFilter$.value
+    const filterBy = this._orderFilter$.value
     let orders = this.utilService.loadFromStorage(this.ORDER_STORAGE_KEY) || []
     if (filterBy) {
       orders = this._filter(orders, filterBy)

@@ -11,7 +11,7 @@ export interface Stay {
     host: Host,
     loc: Loc,
     reviews: Review[],
-    likedByUser: string[],
+    likedByUsers: string[],
     roomType: string,
     statReviews: StatReviews,
     bathrooms: number,
@@ -70,4 +70,11 @@ export interface Marker {
 export interface Guests {
     type: string,
     amount: number
+}
+
+export interface StayFilter {
+  likeByUser: string,
+  country: string,
+  label: string,
+  price: number,
 }

@@ -6,7 +6,7 @@
             <span (click)="pageNav = 'user-order'">Orders</span>
             <span (click)="pageNav = 'user-trips'">My trips</span>
             <span (click)="pageNav = 'user-stays'">My stays</span>
-            <span>Wishlist</span>
+            <span (click)="onClickWishList()">Wishlist</span>
             <span (click)="pageNav = 'edit-stay'">Add a stay</span>
         </nav>
         <div [ngSwitch]="pageNav" class="dynamic-cmp">
@@ -15,6 +15,7 @@
             <user-stays *ngSwitchCase="'user-stays'"></user-stays>
             <user-trips *ngSwitchCase="'user-trips'"></user-trips>
             <edit-stay *ngSwitchCase="'edit-stay'"></edit-stay>
+            <stay-list *ngSwitchCase="'wishlist'" [stays]="stays$ | async"></stay-list>
         </div>
     </main>
 

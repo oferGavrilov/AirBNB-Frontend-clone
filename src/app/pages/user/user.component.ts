@@ -1,5 +1,8 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy } from '@angular/core';
+import { Stay } from 'src/app/models/stay.model';
+import { Observable } from 'rxjs';
 import { User } from 'src/app/models/user.model';
+import { StayService } from 'src/app/services/stay.service';
 import { UserService } from 'src/app/services/user.service';
 
 @Component({
@@ -7,24 +10,33 @@ import { UserService } from 'src/app/services/user.service';
   templateUrl: './user.component.html',
   styleUrls: ['./user.component.scss']
 })
-export class UserComponent {
+export class UserComponent implements OnInit, OnDestroy{
 
-  constructor(private userService: UserService) { }
+  constructor(
+    private userService: UserService,
+    private stayService: StayService) { }
+
   user !: User
+  stays$ !: Observable<Stay[]>
 
   ngOnInit() {
     this.user = this.userService.getUser()
+    this.stays$ = this.stayService.stays$;
   }
   // @Input() pageNav: string = 'home'
 
   pageNav: string = 'user-order'
 
-  onSwitchPageNav() {
-    return 'home'
-    // switch (this.pageNav) {
-    //   case 'home':
-    //     return 'home'
-    // }
+  onClickWishList() {
+    const filter = this.stayService.getEmptyFilter()
+    filter.likeByUser = this.user._id
+    this.stayService.setFilter(filter)
+    this.pageNav = 'wishlist'
+  }
+
+  ngOnDestroy() {
+    const filter = this.stayService.getEmptyFilter()
+    this.stayService.setFilter(filter)
   }
 
 }

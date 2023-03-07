@@ -16,6 +16,10 @@
     color: #00000080;
     stroke-width: 40px;
     stroke: white;
+
+    &.active {
+      color: #FF385C;
+    }
   }
 
   img {
