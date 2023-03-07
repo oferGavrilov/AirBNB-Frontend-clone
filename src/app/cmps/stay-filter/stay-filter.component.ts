@@ -1,20 +1,20 @@
-import { Component } from '@angular/core';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
-
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
+import { StayFilter } from 'src/app/models/stay.model';
+import { StayService } from 'src/app/services/stay.service';
+
 @Component({
   selector: 'stay-filter',
   templateUrl: './stay-filter.component.html',
   styleUrls: ['./stay-filter.component.scss']
 })
-export class StayFilterComponent {
-  faChevronRight = faChevronRight
-  faChevronLeft = faChevronLeft
 
-  index = 0
-  itemsToShow = 3
-  constructor(private breakpointObserver: BreakpointObserver) {
+export class StayFilterComponent implements OnInit, OnDestroy {
+  constructor(
+    private breakpointObserver: BreakpointObserver,
+    private stayService: StayService) {
     this.breakpointObserver.observe([
       "(max-width:460px)"
     ]).subscribe((result: BreakpointState) => {
@@ -52,6 +52,24 @@ export class StayFilterComponent {
     })
   }
 
+  faChevronRight = faChevronRight
+  faChevronLeft = faChevronLeft
+  stayFilter !: StayFilter
+  subscription!: Subscription
+  index = 0
+  itemsToShow = 3
+
+  ngOnInit(): void {
+    this.subscription = this.stayService.stayFilter$.subscribe(stayFilter => {
+      this.stayFilter = stayFilter
+    })
+  }
+
+  onClickLabel(label: string): void {
+    this.stayFilter.label = label
+    this.stayService.setFilter({...this.stayFilter})
+  }
+
   onClickArrow(diff: number) {
     this.index += diff * 3
   }
@@ -71,6 +89,10 @@ export class StayFilterComponent {
   getRightPos() {
     if(this.itemsToShow > 8) return '116px'
     return 0
+  }
+
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe()
   }
 
   filters = [

@@ -4,9 +4,8 @@
             <fa-icon [icon]="faChevronLeft"></fa-icon>
         </div>
     </div>
-
     <div class="filter-container">
-        <div *ngFor="let filter of getFilters()">
+        <div *ngFor="let filter of getFilters()" (click)="onClickLabel(filter.txt)">
             <img src="{{filter.img}}" alt="">
             <span>{{filter.txt}}</span>
         </div>

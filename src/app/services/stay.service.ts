@@ -56,6 +56,7 @@ export class StayService {
 
   private _filter(stays: Stay[], filterBy: StayFilter) {
     if(filterBy.likeByUser) stays = stays.filter(stay => stay.likedByUsers.includes(filterBy.likeByUser))
+    if(filterBy.label) stays = stays.filter(stay => stay.labels?.includes(filterBy.label))
     return stays
   }
 
@@ -857,7 +858,7 @@ export class StayService {
             }
           ],
           "likedByUsers": [],
-          "types": [
+          "labels": [
             "Casas particulares",
             "Boats",
             "Skiing"
@@ -6970,6 +6971,7 @@ export class StayService {
           }
         },
         {
+          "_id": this.utilService.makeId(),
           "name": "Ipanema: moderno apê 2BR + garagem",
           "type": "Campers",
           "imgUrls": [
@@ -7512,7 +7514,7 @@ export class StayService {
             }
           ],
           "likedByUsers": [],
-          "label": [
+          "labels": [
             "Campers",
             "New",
             "Ryokans"
