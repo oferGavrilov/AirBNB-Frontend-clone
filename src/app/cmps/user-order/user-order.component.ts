@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { User } from 'src/app/models/user.model';
+import { faCircle } from '@fortawesome/free-solid-svg-icons'
+
 
 @Component({
   selector: 'user-order',
@@ -7,4 +10,6 @@ import { Component } from '@angular/core';
 })
 export class UserOrderComponent {
 
+  @Input() user!: User
+  faCircle = faCircle
 }

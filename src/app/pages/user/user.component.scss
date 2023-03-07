@@ -1,0 +1,32 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+
+.user {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 6px;
+        padding: 16px 0;
+
+        span {
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 6px;
+            padding: 10px 0;
+            min-width: 180px;
+            flex-grow: 1;
+            text-align: center;
+            color: $secondary-color;
+            transition: .2s;
+            text-transform: uppercase;
+            &:hover {
+                color: white;
+                background-color: $secondary-color;
+            }
+        }
+    }
+    .dynamic-cmp{
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,39 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+
+.user-order {
+    color: $header-text-color;
+    border: 2px solid #dad4d4bc ;
+    padding: 14px;
+    h2 {
+        letter-spacing: 1px;
+    }
+
+    .order-status-container {
+        margin: 16px auto;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        background-color: #efebeb;
+        padding: 12px 18px;
+        border-radius: 12px;
+        width: max-content;
+
+        div {
+            display: flex;
+            gap: 6px;
+
+            .icon-approved {
+                color: lightgreen;
+            }
+
+            .icon-pending {
+                color: yellow;
+            }
+
+            .icon-declined {
+                color: salmon;
+            }
+        }
+    }
+}

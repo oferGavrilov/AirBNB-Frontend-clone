@@ -1,17 +1,20 @@
-<section class="user ">
+<section class="user">
     <app-header></app-header>
 
     <main class="main-layout">
-        <nav >
-            <span>Orders</span>
-            <span>My trips</span>
-            <span>My stays</span>
+        <nav>
+            <span (click)="pageNav = 'user-order'">Orders</span>
+            <span (click)="pageNav = 'user-trips'">My trips</span>
+            <span (click)="pageNav = 'user-stays'">My stays</span>
             <span>Wishlist</span>
-            <span>Add a stay</span>
+            <span (click)="pageNav = 'edit-stay'">Add a stay</span>
         </nav>
-        <div [ngSwitch]="pageNav">
+        <div [ngSwitch]="pageNav" class="dynamic-cmp">
             <home *ngSwitchCase="'home'"></home>
-            <user-order *ngSwitchCase="'user-order'"></user-order>
+            <user-order [user]="user" *ngSwitchCase="'user-order'"></user-order>
+            <user-stays *ngSwitchCase="'user-stays'"></user-stays>
+            <user-trips *ngSwitchCase="'user-trips'"></user-trips>
+            <edit-stay *ngSwitchCase="'edit-stay'"></edit-stay>
         </div>
     </main>
 

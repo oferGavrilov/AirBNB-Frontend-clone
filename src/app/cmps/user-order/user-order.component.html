@@ -1,1 +1,21 @@
-<p>user-order works!</p>
+<section class="user-order">
+    <h2>Hi {{user.fullname}}, you have 2 pending orders</h2>
+    <div class="order-status-container">
+        <div>
+            <span>0/2</span>
+            <fa-icon class="icon-approved" [icon]="faCircle"></fa-icon>
+            <span>(Approved)</span>
+        </div>
+        <div>
+            <span>2/2</span>
+            <fa-icon class="icon-pending" [icon]="faCircle"></fa-icon>
+            <span>(Pending)</span>
+        </div>
+        <div>
+            <span>2/2</span>
+            <fa-icon class="icon-declined" [icon]="faCircle"></fa-icon>
+            <span>(Declined)</span>
+        </div>
+        <span>Total earning: $0.0</span>
+    </div>
+</section>
