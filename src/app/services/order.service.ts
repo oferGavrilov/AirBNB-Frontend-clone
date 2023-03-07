@@ -14,8 +14,36 @@ export class OrderService {
   private _orders$ = new BehaviorSubject<Order[]>([])
   public orders$ = this._orders$.asObservable()
 
+  private _order$ = new BehaviorSubject<Order>(this.getEmptyOrder() as Order)
+  public order$ = this._order$.asObservable()
+
   private _orderFilter$ = new BehaviorSubject<FilterOrder>(this.getEmptyFilter());
   public orderFilter$ = this._orderFilter$.asObservable()
+
+  public getEmptyOrder() {
+    return {
+      hostId: '',
+      buyer: {
+        _id: '',
+        fullname: ''
+      },
+      totalPrice: 0,
+      startDate: new Date(),
+      endDate: new Date(),
+      guests: {
+        adults: 1,
+        children: 0,
+        infants: 0,
+        pets: 0,
+      },
+      stay: {
+        _id: '',
+        name: '',
+        price: 0
+      },
+      status: 'pending'
+    }
+  }
 
   public loadOrders() {
     const filterBy = this._orderFilter$.value

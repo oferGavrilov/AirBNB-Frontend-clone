@@ -68,10 +68,10 @@
                 <div *ngIf="form.controls['username'].invalid && (form.controls['username'].dirty || form.controls['username'].touched)"
                     class="alert alert-danger">
                     <div *ngIf="form.controls['username'].errors?.['required']">
-                        Full name is required.
+                        User name is required.
                     </div>
                     <div *ngIf="form.controls['username'].errors?.['minlength']">
-                        Full name must be at least 3 characters long.
+                        User name must be at least 3 characters long.
                     </div>
                 </div>
 
@@ -86,16 +86,16 @@
                     </div>
                 </div>
 
-                <div className="upload-preview">
-                    <div className='img-picker'>
+                <div class="upload-preview">
+                    <div class='img-picker'>
                         <label htmlFor="imgUpload">
                             <img *ngIf="!imgData.imgUrl" class="guest-img" src="assets/img/guest.png" alt="" />
                             <img *ngIf="imgData.imgUrl" class="user-img" [src]="imgData.imgUrl" alt="" />
+                            <input type="file" (change)="uploadImg($event)" accept="img/*" id="imgUpload" />
                         </label>
                     </div>
-                    <input type="file" (change)="uploadImg($event)" accept="img/*" id="imgUpload" />
                 </div>
-                <button>Sign Up</button>
+                <button [disabled]="form.pristine || form.invalid">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
@@ -112,10 +112,10 @@
                 <div *ngIf="form.controls['username'].invalid && (form.controls['username'].dirty || form.controls['username'].touched)"
                     class="alert alert-danger">
                     <div *ngIf="form.controls['username'].errors?.['required']">
-                        Full name is required.
+                        User name is required.
                     </div>
                     <div *ngIf="form.controls['username'].errors?.['minlength']">
-                        Full name must be at least 3 characters long.
+                        User name must be at least 3 characters long.
                     </div>
                 </div>
 

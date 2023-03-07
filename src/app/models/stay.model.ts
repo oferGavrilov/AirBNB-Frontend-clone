@@ -62,16 +62,6 @@ export interface StatReviews {
     value: number
 }
 
-export interface Marker {
-    // position: googleMapLoc,
-    label: string
-}
-
-export interface Guests {
-    type: string,
-    amount: number
-}
-
 export interface StayFilter {
   likeByUser: string,
   country: string,

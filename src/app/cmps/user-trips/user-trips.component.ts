@@ -26,6 +26,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   orders !: Order[]
   user!: User
 
+
   ngOnInit(): void {
     const filter = this.orderService.getEmptyFilter()
     this.orderService.setFilter(filter)

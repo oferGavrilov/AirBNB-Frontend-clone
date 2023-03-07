@@ -43,7 +43,7 @@
                 <fa-icon *ngIf="showGuestModal" [icon]="faChevronUp"></fa-icon>
             </div>
             <section *ngIf="showGuestModal" class="stay-guest-modal">
-                <div *ngFor="let guest of guests">
+                <div *ngFor="let guest of Guests">
                     <div class="guest-container">
                         <div class="type">
                             <h5>{{guest.type}}</h5>

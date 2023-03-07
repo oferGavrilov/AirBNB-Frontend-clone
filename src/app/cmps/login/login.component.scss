@@ -25,23 +25,23 @@
 //     }
 // }
 
-// .ng-valid[required], input.ng-valid  {
-//   border-left: 5px solid #42A948; /* green */
-// }
+.ng-valid[required], input.ng-valid  {
+  border-left: 5px solid #42A948; /* green */
+}
 
-// .ng-invalid:not(form)  {
-//   border-left: 5px solid #a94442; /* red */
-// }
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
 
-// .alert div {
-//   background-color: #fed3d3;
-//   color: #820000;
-//   padding: 0.7rem;
-//   margin-top: 10px;
-//   width: 300px;
-//   margin-left: auto;
-//   border-radius: 8px;
-// }
+.alert div {
+  background-color: #fed3d3;
+  color: #820000;
+  padding: 10px;
+  width: 100%;
+  margin-left: auto;
+  border-radius: 8px;
+  font-size: 13px;
+}
 
 
 @import "https://fonts.googleapis.com/css?family=Montserrat:400,800";
@@ -54,29 +54,34 @@
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+	height: 100vh;
 }
-.title{
-    font-size: 40px;
-    color: #383030;
+
+.title {
+	font-size: 40px;
+	color: #383030;
 }
+
 p {
-    color: white;
+	color: white;
 	font-size: 18px;
 	font-weight: 100;
 	line-height: 20px;
 	letter-spacing: 0.5px;
 	margin: 20px 0 30px;
 }
+
 span {
 	font-size: 12px;
 }
+
 a {
 	color: #383030;
 	font-size: 14px;
 	text-decoration: none;
 	margin: 15px 0;
 }
+
 button {
 	border-radius: 20px;
 	border: 1px solid #FF4B2B;
@@ -88,18 +93,34 @@ button {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
-    cursor: pointer;
+	cursor: pointer;
+
 	&:active {
 		transform: scale(0.95);
 	}
+
 	&:focus {
 		outline: none;
 	}
 }
+
+button:disabled {
+	cursor: not-allowed;
+}
+
 button.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
 }
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
 form {
 	background-color: #FFFFFF;
 	display: flex;
@@ -110,63 +131,69 @@ form {
 	height: 100%;
 	text-align: center;
 }
-input {
-	background-color: #eee;
-	border: none;
-	padding: 12px 15px;
-	margin: 8px 0;
-	width: 100%;
-}
+
+
+
 .container {
 	background-color: #fff;
 	border-radius: 10px;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	position: relative;
 	overflow: hidden;
 	width: 60%;
 	max-width: 100%;
-	min-height:80vh;
+	min-height: 80vh;
 }
+
 .form-container {
 	position: absolute;
 	top: 0;
 	height: 100%;
 	transition: all 0.6s ease-in-out;
 }
+
 .sign-in-container {
 	left: 0;
 	width: 50%;
 	z-index: 2;
 }
+
 .container.right-panel-active {
 	.sign-in-container {
 		transform: translateX(100%);
 	}
+
 	.sign-up-container {
 		transform: translateX(100%);
 		opacity: 1;
 		z-index: 5;
 		animation: show 0.6s;
 	}
+
 	.overlay-container {
 		transform: translateX(-100%);
 	}
+
 	.overlay {
 		transform: translateX(50%);
 	}
+
 	.overlay-left {
 		transform: translateX(0);
 	}
+
 	.overlay-right {
 		transform: translateX(20%);
 	}
 }
+
 .sign-up-container {
 	left: 0;
 	width: 50%;
 	opacity: 0;
 	z-index: 1;
 }
+
 .overlay-container {
 	position: absolute;
 	top: 0;
@@ -177,6 +204,7 @@ input {
 	transition: transform 0.6s ease-in-out;
 	z-index: 100;
 }
+
 .overlay {
 	background: #FF416C;
 	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
@@ -192,6 +220,7 @@ input {
 	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
 }
+
 .overlay-panel {
 	position: absolute;
 	display: flex;
@@ -206,15 +235,19 @@ input {
 	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
 }
+
 .overlay-left {
 	transform: translateX(-20%);
 }
+
 .overlay-right {
 	right: 0;
 	transform: translateX(0);
 }
+
 .social-container {
 	margin: 20px 0;
+
 	a {
 		border: 1px solid #DDDDDD;
 		border-radius: 50%;
@@ -227,3 +260,18 @@ input {
 	}
 }
 
+// img uploader
+#imgUpload {
+	display: none;
+}
+
+.img-picker {
+	padding: 16px 0;
+
+	img {
+		cursor: pointer;
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+	}
+}

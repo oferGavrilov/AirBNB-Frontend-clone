@@ -1,20 +1,20 @@
-import { Component, Input } from '@angular/core';
-import { Guests, Stay } from 'src/app/models/stay.model';
-import { User } from 'src/app/models/user.model';
+import { Component, Input, OnInit, OnDestroy } from '@angular/core';
+import { Stay } from 'src/app/models/stay.model';
 import { faStar, faCircleMinus, faCirclePlus, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { CalendarOptions } from 'ngx-airbnb-calendar';
 import { OrderService } from 'src/app/services/order.service';
 import { UserService } from 'src/app/services/user.service';
+import { Guest, Order } from 'src/app/models/order.model';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'stay-order',
   templateUrl: './stay-order.component.html',
   styleUrls: ['./stay-order.component.scss']
 })
-export class StayOrderComponent {
+export class StayOrderComponent implements OnInit, OnDestroy {
   constructor(private orderService: OrderService, private userService: UserService) { }
   @Input() stay !: Stay
-  @Input() guests !: Guests[]
 
   faCirclePlus = faCirclePlus
   faCircleMinus = faCircleMinus
@@ -26,12 +26,18 @@ export class StayOrderComponent {
   totalDays!: any
   children: number = 0
   showGuestModal: boolean = false
+  order !: Order
+  subscription!: Subscription
 
   options: CalendarOptions = {
     format: "yyyy/LL/dd",
     formatDays: "eeeeee",
     firstCalendarDay: 1,
     closeOnSelected: true,
+  }
+
+  ngOnInit() {
+    this.subscription = this.orderService.order$.subscribe(order => this.order = order)
   }
 
   get GetTotalDays() {
@@ -54,39 +60,47 @@ export class StayOrderComponent {
     return (+this.Price + +this.CleanTax + +this.ServiceFee)
   }
 
-  checkMinusBtn(guestType: string) {
-    if (guestType === 'Adults') return this.guests[0].amount > 1
-    if (guestType === 'Children') return this.guests[1].amount > 0
-    if (guestType === 'Infants') return this.guests[2].amount > 0
-    if (guestType === 'Pets') return this.guests[3].amount > 0
-    return false
+  get Guests() {
+    const guests = []
+    let key: keyof Guest
+    for (key in this.order.guests) {
+      guests.push({ type: key, amount: this.order.guests[key] })
+    }
+    return guests
+  }
+
+  checkMinusBtn(guestType: keyof Guest) {
+    if (guestType === 'adults') return this.order.guests.adults > 1
+    return this.order.guests[guestType] > 0
   }
 
   checkPlusBtn(guestType: string) {
-    if (guestType === 'Adults' || guestType === 'Children') {
-      return this.guests[0].amount + this.guests[1].amount < this.stay.capacity
+    if (guestType === 'adults' || guestType === 'children') {
+      return this.order.guests.adults + this.order.guests.children < this.stay.capacity
     }
-    if (guestType === 'Infants') return this.guests[2].amount < 5
-    if (guestType === 'Pets') return this.stay.amenities.includes('Pets allowed') && this.guests[3].amount < 3
+    if (guestType === 'infants') return this.order.guests.infants < 5
+    if (guestType === 'pets') return this.stay.amenities.includes('Pets allowed') && this.order.guests.pets < 3
     return false
   }
 
   getGuests() {
-    let str = this.guests[0].amount + this.guests[1].amount > 0 ? (this.guests[0].amount + this.guests[1].amount) + ' guests, ' : ''
-    str += this.guests[2].amount > 0 ? this.guests[2].amount + ' infants, ' : ''
-    str += this.guests[3].amount > 0 ? this.guests[3].amount + ' pets, ' : ''
+    let str = this.order.guests.adults + this.order.guests.children > 0 ? (this.order.guests.adults + this.order.guests.children) + ' guests, ' : ''
+    str += this.order.guests.infants > 0 ? this.order.guests.infants + ' infants, ' : ''
+    str += this.order.guests.pets > 0 ? this.order.guests.pets + ' pets, ' : ''
     return str
   }
 
-  onAddGuests(guestType: string, diff: number) {
-    const guest = this.guests.find(guest => guest.type === guestType) as Guests
-    guest.amount += diff
+  onAddGuests(guestType: keyof Guest, diff: number) {
+    this.order.guests[guestType] += diff
   }
 
   getCheckIn() {
     if (this.date) {
       const dates = this.date?.split('-')
-      if (dates.length >= 1) return new Date(dates[0])
+      if (dates.length >= 1) {
+        this.order.startDate = new Date(dates[0])
+        return new Date(dates[0])
+      }
     }
     return new Date()
   }
@@ -94,8 +108,10 @@ export class StayOrderComponent {
   getCheckOut() {
     if (this.date) {
       const dates = this.date?.split('-')
-      if (dates.length === 2) return new Date(dates[1])
-
+      if (dates.length === 2) {
+        this.order.endDate = new Date(dates[1])
+        return new Date(dates[1])
+      }
     }
     return new Date(Date.now() + (3600 * 1000 * 72))
   }
@@ -103,33 +119,14 @@ export class StayOrderComponent {
   onAddOrder() {
     const user = this.userService.getUser()
     if (!user) return
-    const order = this.getOrderDetails(user)
-    this.orderService.save(order)
+    this.order.hostId = this.stay.host._id
+    this.order.buyer = { _id: user._id, fullname: user.fullname }
+    this.order.totalPrice = this.TotalPrice
+    this.order.stay = { _id: this.stay._id, name: this.stay.name, price: this.stay.price }
+    this.orderService.save(this.order)
   }
 
-  private getOrderDetails(user: User) {
-    return {
-      _id: '',
-      hostId: this.stay.host._id,
-      buyer: {
-        _id: user._id,
-        fullname: user.fullname
-      },
-      totalPrice: this.TotalPrice,
-      startDate: this.getCheckIn(),
-      endDate: this.getCheckOut(),
-      guests: {
-        adults: this.guests[0].amount,
-        children: this.guests[1].amount,
-        infants: this.guests[2].amount,
-        pets: this.guests[3].amount,
-      },
-      stay: {
-        _id: this.stay._id,
-        name: this.stay.name,
-        price: this.stay.price
-      },
-      status: 'pending'
-    }
+  ngOnDestroy() {
+    this.subscription.unsubscribe()
   }
 }

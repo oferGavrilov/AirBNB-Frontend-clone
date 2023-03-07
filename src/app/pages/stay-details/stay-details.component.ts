@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy, ViewChild, ElementRef, Renderer2 } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { Router, ActivatedRoute } from '@angular/router';
-import { Guests, StatReviews, Stay } from 'src/app/models/stay.model';
+import { ActivatedRoute } from '@angular/router';
+import { StatReviews, Stay } from 'src/app/models/stay.model';
 import { faArrowUpFromBracket, faHeart, faStar, faCircle } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
@@ -13,7 +13,6 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
   @ViewChild('element') element: any;
 
   constructor(
-    private router: Router,
     private renderer2: Renderer2,
     private route: ActivatedRoute) { }
 
@@ -32,25 +31,6 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
       this.stay = data['stay']
     })
   }
-
-  guests: Guests[] = [
-    {
-      type: 'Adults',
-      amount: 1
-    },
-    {
-      type: 'Children',
-      amount: 0
-    },
-    {
-      type: 'Infants',
-      amount: 0
-    },
-    {
-      type: 'Pets',
-      amount: 0
-    }
-  ]
 
   ngAfterViewInit(): void {
     this.unlistener = this.renderer2.listen('window', 'scroll', () => this.onScroll(this.element))

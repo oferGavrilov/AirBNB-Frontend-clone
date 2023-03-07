@@ -35,7 +35,6 @@ import { UserTripsComponent } from './cmps/user-trips/user-trips.component';
 import { UserStaysComponent } from './cmps/user-stays/user-stays.component';
 import { EditStayComponent } from './cmps/edit-stay/edit-stay.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

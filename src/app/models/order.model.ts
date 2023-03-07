@@ -8,12 +8,7 @@ export interface Order {
   totalPrice: number,
   startDate: Date,
   endDate: Date,
-  guests: {
-    adults: number,
-    children: number
-    infants: number,
-    pets: number
-  },
+  guests: Guest,
   stay: {
     _id: string,
     name: string,
@@ -28,3 +23,9 @@ export interface FilterOrder {
   status: string
 }
 
+export interface Guest {
+  adults: number
+  children: number
+  infants: number
+  pets: number
+}
