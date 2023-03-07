@@ -6,9 +6,12 @@ import { StayResolver } from './services/stay.resolver';
 import { HomeComponent } from './pages/home/home.component';
 import { StayIndexComponent } from './pages/stay-index/stay-index.component';
 import { LoginComponent } from './cmps/login/login.component';
+import { UserComponent } from './pages/user/user.component';
+import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
+  { path: 'user', component: UserComponent, canActivate: [AuthGuard] },
   { path: 'login', component: LoginComponent },
   {
     path: ':stayId',

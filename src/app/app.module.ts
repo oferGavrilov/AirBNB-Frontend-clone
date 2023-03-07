@@ -29,6 +29,7 @@ import { FormsModule , ReactiveFormsModule } from '@angular/forms';
 import { HeaderMenuModalComponent } from './cmps/header-menu-modal/header-menu-modal.component';
 import { LoginComponent } from './cmps/login/login.component';
 import { AppFooterComponent } from './cmps/app-footer/app-footer.component';
+import { UserComponent } from './pages/user/user.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { AppFooterComponent } from './cmps/app-footer/app-footer.component';
     HostInfoComponent,
     HeaderMenuModalComponent,
     LoginComponent,
-    AppFooterComponent
+    AppFooterComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,

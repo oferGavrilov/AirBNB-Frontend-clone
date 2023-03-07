@@ -1,12 +1,12 @@
 <section class="header-menu-modal">
     <div *ngIf="!isLoggedInUser()">
-        <span [routerLink]="['login']" class="bold">Sign up</span>
-        <span [routerLink]="['login']">Log in</span>
+        <span [routerLink]="['/login']" class="bold">Sign up</span>
+        <span [routerLink]="['/login']">Log in</span>
     </div>
     <div *ngIf="isLoggedInUser()">
-        <span class="bold">Trips</span>
-        <span class="bold">Wishlist</span>
+        <span [routerLink]="['/user']" class="bold">Trips</span>
+        <span [routerLink]="['/user']" class="bold">Wishlist</span>
     </div>
-    <span [routerLink]="['home']">Airbnb your home</span>
+    <span [routerLink]="['/home']">Airbnb your home</span>
     <span *ngIf="isLoggedInUser()" class="logout" (click)="onLogout()">Logout</span>
 </section>
