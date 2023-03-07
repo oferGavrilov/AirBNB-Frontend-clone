@@ -6,8 +6,8 @@ export interface Order {
     fullname: string
   },
   totalPrice: number,
-  startDate: number,
-  endDate: number,
+  startDate: Date,
+  endDate: Date,
   guests: {
     adults: number,
     children: number
@@ -19,7 +19,6 @@ export interface Order {
     name: string,
     price: number
   },
-  msgs: string[],
   status: string
 }
 
