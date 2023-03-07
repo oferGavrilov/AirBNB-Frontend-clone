@@ -1,5 +1,8 @@
-<section class="stay-index main-layout">
-    <app-header></app-header>
+<section class="stay-index">
+  <app-header></app-header>
+  <main class="main-layout">
     <stay-filter></stay-filter>
     <stay-list [stays]="stays$ | async"></stay-list>
+  </main>
+  <app-footer></app-footer>
 </section>

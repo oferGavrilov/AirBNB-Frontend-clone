@@ -28,6 +28,7 @@ import { AirbnbCalendarModule } from 'ngx-airbnb-calendar';
 import { FormsModule , ReactiveFormsModule } from '@angular/forms';
 import { HeaderMenuModalComponent } from './cmps/header-menu-modal/header-menu-modal.component';
 import { LoginComponent } from './cmps/login/login.component';
+import { AppFooterComponent } from './cmps/app-footer/app-footer.component';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { LoginComponent } from './cmps/login/login.component';
     ReviewPreviewComponent,
     HostInfoComponent,
     HeaderMenuModalComponent,
-    LoginComponent
+    LoginComponent,
+    AppFooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,36 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+
+.app-footer {
+	background-color: $main-hover;
+  border-top: 1px solid $border-color;
+  color: $header-text-color;
+  font-size: 14px;
+
+  .footer-content {
+    padding-top: 48px;
+    border-bottom: 1px solid $border-color;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding-bottom: 48px;
+      :first-child {
+        font-weight: 500;
+      }
+      li {
+        font-weight: 300;
+      }
+    }
+  }
+
+  .footer-credits {
+    height: 100px;
+    @include center-flex();
+  }
+
+}
