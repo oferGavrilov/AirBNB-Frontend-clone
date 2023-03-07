@@ -46,10 +46,15 @@ export class OrderService {
     }
   }
 
+  public setFilter(filter: FilterOrder) {
+    this._orderFilter$.next(filter)
+    this.loadOrders()
+  }
+
   private _filter(orders: Order[], filterBy: FilterOrder) {
-    if(filterBy.hostId) orders = orders.filter(order => order.hostId === filterBy.hostId)
-    if(filterBy.buyerId) orders = orders.filter(order => order.buyer._id === filterBy.buyerId)
-    if(filterBy.status) orders = orders.filter(order => order.status === filterBy.status)
+    if (filterBy.hostId) orders = orders.filter(order => order.hostId === filterBy.hostId)
+    if (filterBy.buyerId) orders = orders.filter(order => order.buyer._id === filterBy.buyerId)
+    if (filterBy.status) orders = orders.filter(order => order.status === filterBy.status)
     return orders
   }
 }

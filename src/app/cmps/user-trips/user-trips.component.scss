@@ -1,0 +1,16 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+
+.user-trips {
+    color: $header-text-color;
+    border: 2px solid #dad4d4bc;
+    padding: 14px;
+
+    h2 {
+        letter-spacing: 1px;
+    }
+
+    .trips-details {
+        @include user-details-container()
+    }
+}
