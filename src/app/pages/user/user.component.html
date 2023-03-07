@@ -1,7 +1,7 @@
 <section class="user ">
     <app-header></app-header>
 
-    <main [ngSwitch]="pageNav" class="main-layout">
+    <main class="main-layout">
         <nav >
             <span>Orders</span>
             <span>My trips</span>
@@ -9,7 +9,10 @@
             <span>Wishlist</span>
             <span>Add a stay</span>
         </nav>
-        <home *ngSwitchCase="pageNav === 'home'"></home>
+        <div [ngSwitch]="pageNav">
+            <home *ngSwitchCase="'home'"></home>
+            <user-order *ngSwitchCase="'user-order'"></user-order>
+        </div>
     </main>
 
     <app-footer></app-footer>

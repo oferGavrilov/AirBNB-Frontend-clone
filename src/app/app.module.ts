@@ -30,6 +30,8 @@ import { HeaderMenuModalComponent } from './cmps/header-menu-modal/header-menu-m
 import { LoginComponent } from './cmps/login/login.component';
 import { AppFooterComponent } from './cmps/app-footer/app-footer.component';
 import { UserComponent } from './pages/user/user.component';
+import { UserOrderComponent } from './cmps/user-order/user-order.component';
+import { UserTripsComponent } from './cmps/user-trips/user-trips.component';
 
 
 @NgModule({
@@ -55,7 +57,9 @@ import { UserComponent } from './pages/user/user.component';
     HeaderMenuModalComponent,
     LoginComponent,
     AppFooterComponent,
-    UserComponent
+    UserComponent,
+    UserOrderComponent,
+    UserTripsComponent
   ],
   imports: [
     BrowserModule,

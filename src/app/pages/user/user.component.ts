@@ -7,8 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class UserComponent {
 
-  @Input() pageNav!: string
+  // @Input() pageNav: string = 'home'
 
+  pageNav: string = 'user-order'
 
   onSwitchPageNav() {
     return 'home'
