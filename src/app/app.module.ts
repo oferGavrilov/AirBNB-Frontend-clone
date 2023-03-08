@@ -68,11 +68,7 @@ import { SearchPlaceModalComponent } from './cmps/header-filter-folder/search-pl
     UserTripsComponent,
     UserStaysComponent,
     EditStayComponent,
-    HeaderFilterComponent,
-    HeaderFilterModalComponent,
-    DateModalComponent,
-    RegionModalComponent,
-    SearchPlaceModalComponent
+    HeaderFilterComponent
   ],
   imports: [
     BrowserModule,

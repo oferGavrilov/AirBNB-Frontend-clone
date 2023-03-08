@@ -6,14 +6,16 @@
     color: $header-text-color;
     border: 2px solid #dad4d4bc;
     padding: 18px 20px 0 20px;
-
+    position: relative;    
 
     .user-header {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         h2 {
             letter-spacing: 1px;
+            font-family: system-ui;
         }
 
         .tools {
@@ -64,7 +66,7 @@
             span,
             h4 {
                 text-align: center;
-                width: 80px;
+                width: 100px;
             }
 
             img {

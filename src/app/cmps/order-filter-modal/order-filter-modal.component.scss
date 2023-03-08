@@ -1,0 +1,20 @@
+@import '../../../assets/styles/setup/variables';
+
+.order-filter-modal {
+    position: absolute;
+    background-color: #fff;
+    z-index: 5;
+    right: 0;
+    padding: 24px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    .header-modal {
+        display: flex;
+        gap: 16px;
+        text-transform: uppercase;
+
+        .reset-btn {
+            cursor: pointer;
+            color: #1976d2;
+        }
+    }
+}
