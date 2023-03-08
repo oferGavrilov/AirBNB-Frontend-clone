@@ -8,6 +8,7 @@ import { UserService } from 'src/app/services/user.service';
 import { faHourglass } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faCircle } from '@fortawesome/free-solid-svg-icons'
+import { ngxCsv } from 'ngx-csv';
 
 @Component({
   selector: 'user-trips',
@@ -25,6 +26,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   subscription!: Subscription
   orders !: Order[]
   user!: User
+  data: any = []
 
   ngOnInit(): void {
     const filter = this.orderService.getEmptyFilter()
@@ -38,9 +40,41 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   getOrderStatusAmount(type: string) {
     return this.orders.filter(order => order.status === type).length
   }
+  downloadCSV() {
+    new ngxCsv(this.getData(), "orders", this.getOptions());
+  }
 
   ngOnDestroy(): void {
     this.subscription.unsubscribe()
   }
-}
 
+  // Private function for CSV files
+  private getData() {
+    for (const order of this.orders) {
+      this.data.push(
+        {
+          "Stay name": order.stay.name,
+          "Host name": order.hostName,
+          "Check in": order.startDate,
+          "Check out": order.endDate,
+          "Total": '$' + order.totalPrice,
+          "Order status": order.status
+        }
+      )
+    }
+    return this.data
+  }
+  private getOptions() {
+    return {
+      title: 'User Details',
+      fieldSeparator: ',',
+      quoteStrings: '"',
+      decimalseparator: '.',
+      showLabels: false,
+      noDownload: false,
+      showTitle: false,
+      useBom: false,
+      headers: ['Stay name', 'Host name', 'Check in', 'Check out', 'Total', 'Order status']
+    };
+  }
+}

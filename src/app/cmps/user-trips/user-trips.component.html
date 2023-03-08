@@ -3,19 +3,19 @@
         <h2>Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
         <div class="tools">
             <div>
-                <span title="Download CSV" class="material-symbols-outlined">search</span>
+                <span title="Search" class="material-symbols-outlined">search</span>
+            </div>
+            <div (click)="downloadCSV()">
+                <span title="Download CSV" class="material-symbols-outlined">cloud_download</span>
             </div>
             <div>
-                <span class="material-symbols-outlined">cloud_download</span>
+                <span title="Print" class="material-symbols-outlined">print</span>
             </div>
             <div>
-                <span class="material-symbols-outlined">print</span>
+                <span title="View Columns" class="material-symbols-outlined">view_week</span>
             </div>
             <div>
-                <span class="material-symbols-outlined">view_week</span>
-            </div>
-            <div>
-                <span class="material-symbols-outlined">filter_alt</span>
+                <span title="Filter Table" class="material-symbols-outlined">filter_alt</span>
             </div>
         </div>
     </div>
