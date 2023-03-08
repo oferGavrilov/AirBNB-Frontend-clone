@@ -1,0 +1,71 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+@import '../../../assets/styles/setup/function';
+
+.header-filter {
+  @include center-flex();
+  &.active {
+    height: 160px;
+  }
+
+  >* {
+    display: flex;
+    align-items: center;
+    border: 1px solid $border-color;
+    border-radius: 40px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+    transition: box-shadow 0.2s ease;
+    padding: 7px 10px;
+    font-size: rem(14px);
+  }
+  .header-filter-close {
+    min-width: 348px;
+    height: 48px;
+
+    >* {
+        cursor: pointer;
+        padding: 0 16px;
+        font-weight: 600;
+
+        &:nth-child(2) {
+            border-right: 1px solid $border-color;
+            border-left: 1px solid $border-color;
+        }
+
+        &:nth-child(3) {
+            color: $main-color;
+            font-weight: 400;
+        }
+    }
+
+    .icon-container {
+        @include center-flex();
+        background-color: $secondary-color;
+        border-radius: 50%;
+        height: 32px;
+        width: 32px;
+        color: #ffffff;
+    }
+  }
+
+  .header-filter-active {
+    align-self: flex-end;
+    >* {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      padding: 4px 17px;
+      border-right: 1px solid $border-color;
+      color: $main-color;
+      font-size: 14px;
+
+      .title {
+        color: $header-text-color;
+        font-size: 12px;
+        font-weight: 600;
+        padding-bottom: 6px;
+      }
+    }
+
+  }
+}

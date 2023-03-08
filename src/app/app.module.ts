@@ -34,6 +34,7 @@ import { UserOrderComponent } from './cmps/user-order/user-order.component';
 import { UserTripsComponent } from './cmps/user-trips/user-trips.component';
 import { UserStaysComponent } from './cmps/user-stays/user-stays.component';
 import { EditStayComponent } from './cmps/edit-stay/edit-stay.component';
+import { HeaderFilterComponent } from './cmps/header-filter/header-filter.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { EditStayComponent } from './cmps/edit-stay/edit-stay.component';
     UserOrderComponent,
     UserTripsComponent,
     UserStaysComponent,
-    EditStayComponent
+    EditStayComponent,
+    HeaderFilterComponent
   ],
   imports: [
     BrowserModule,

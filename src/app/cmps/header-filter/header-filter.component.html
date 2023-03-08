@@ -1,0 +1,34 @@
+<section [ngClass]="isHeaderFilterActive ? 'header-filter active' : 'header-filter'">
+  <div (click)="onToggleHeaderFilter()" class="header-filter-close" *ngIf="!isHeaderFilterActive">
+    <span>Anywhere</span>
+    <span>Any week</span>
+    <span>Add guests</span>
+    <span class="icon-container">
+        <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
+    </span>
+  </div>
+  <div class="header-filter-active" *ngIf="isHeaderFilterActive">
+  <div>
+    <span class="title">Where</span>
+      <input type="text" placeholder="Search destination" />
+  </div>
+  <div>
+      <span class="title">Check-in</span>
+      <span>Add dates</span>
+  </div>
+  <div>
+      <span class="title">Checkout</span>
+      <span>Add dates</span>
+  </div>
+  <div class="who-guests">
+    <div>
+      <span class="title">who</span>
+      <span>Add guests</span>
+    </div>
+    <div class="search">
+      <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
+      <span>search</span>
+    </div>
+  </div>
+  </div>
+</section>
