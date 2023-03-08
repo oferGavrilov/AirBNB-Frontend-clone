@@ -14,17 +14,32 @@
         justify-content: space-between;
         align-items: center;
 
+        .icon{
+            cursor: pointer;
+            &:hover {
+                color: #1976d2;
+            }
+        }
         h2 {
             letter-spacing: 1px;
             font-family: system-ui;
         }
 
         .search-input{
-            outline: none;
-            border: none;
-            border-bottom: 1px solid black;
-            width: 300px;
-            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            input{
+                outline: none;
+                border: none;
+                border-bottom: 2px solid black;
+                width: 300px;
+                font-size: 16px;
+                
+                &:focus-visible {
+                    border-bottom: 2px solid #1976d2;
+                }
+            }
         }
         .tools {
             display: flex;

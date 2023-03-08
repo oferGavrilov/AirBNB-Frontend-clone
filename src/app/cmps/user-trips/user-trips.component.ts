@@ -31,6 +31,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   ordersToShow!: Order[]
   isSearchActive: boolean = false
 
+  // TODO:GET USER FROM GUARD
   ngOnInit(): void {
     this.user = this.userService.getUser()
     this.orderFilter = this.orderService.getEmptyFilter()
