@@ -1,0 +1,26 @@
+@import '../../../../assets/styles/setup/variables';
+
+.region-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 14px;
+  color: $header-text-color;
+  h2 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .img-container {
+    display: flex;
+    gap: 12px;
+    .name {
+      margin-top: 4px;
+      font-weight: 300;
+    }
+    img {
+      border-radius: 8px;
+      width: 122px;
+      height: 122px;
+    }
+  }
+}

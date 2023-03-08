@@ -10,8 +10,20 @@ export class HeaderFilterComponent {
   faMagnifyingGlass = faMagnifyingGlass
   @Input() isHeaderFilterActive!: boolean
   @Output() toggleHeaderFilter = new EventEmitter<void>()
+  modalNav = ''
+  searchFilter = ''
+
 
   onToggleHeaderFilter() {
     this.toggleHeaderFilter.emit()
+  }
+
+  setModalNav(val: string) {
+    this.modalNav = val
+  }
+
+  onWhereClick() {
+    if(this.searchFilter)  this.setModalNav('search-place-modal')
+    else this.setModalNav('region-modal')
   }
 }

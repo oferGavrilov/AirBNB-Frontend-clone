@@ -1,6 +1,6 @@
-@import '../../../assets/styles/setup/variables';
-@import '../../../assets/styles/setup/mixins';
-@import '../../../assets/styles/setup/function';
+@import '../../../../assets/styles/setup/variables';
+@import '../../../../assets/styles/setup/mixins';
+@import '../../../../assets/styles/setup/function';
 
 .header-filter {
   @include center-absolute();
@@ -48,6 +48,7 @@
     }
 
   .header-filter-active {
+    position: relative;
     >*{
       display: flex;
       cursor: pointer;
@@ -55,10 +56,13 @@
       font-size: 14px;
     }
 
-    >*:not(:last-child) {
+    >*:not(.who-guests, :last-child) {
       flex-direction: column;
       border-right: 1px solid $border-color;
       padding: 4px 24px;
+    }
+
+    .date {
       width: 160px;
     }
 
