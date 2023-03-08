@@ -2,6 +2,11 @@
 @import '../../../../assets/styles/setup/mixins';
 @import '../../../../assets/styles/setup/function';
 
+::ng-deep airbnb-calendar{
+  top: 32px;
+  right: 410px;
+}
+
 .header-filter {
   @include center-absolute();
   &.active {
@@ -56,7 +61,7 @@
       font-size: 14px;
     }
 
-    >*:not(.who-guests, :last-child) {
+    >*:not(.who-guests, #calender, :last-child) {
       flex-direction: column;
       border-right: 1px solid $border-color;
       padding: 4px 24px;
@@ -66,12 +71,20 @@
       width: 160px;
     }
 
+    #calender {
+      width: 0;
+      opacity: 0;
+    }
+
     .where {
       width: 250px;
       input {
         font-size: 14px;
         color: $main-color;
         border: none;
+        &:focus-visible {
+          outline: none;
+        }
       }
     }
 

@@ -7,29 +7,30 @@
         <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
     </span>
   </div>
-  <div class="header-filter-active" *ngIf="isHeaderFilterActive">
+  <div *ngIf="isHeaderFilterActive" tabindex="-1" (blur)="onBlur()" (window:scroll)="onToggleHeaderFilter()" class="header-filter-active">
     <div class="where" (click)="onWhereClick()">
       <span class="title">Where</span>
         <input (change)="onWhereClick()" type="text" placeholder="Search destination" [(ngModel)]="searchFilter"/>
     </div>
-    <div class="date">
+    <label for="calender" class="date" (click)="onClickDate()">
         <span class="title">Check in</span>
         <span>Add dates</span>
-    </div>
-    <div class="date">
+    </label>
+    <input id="calender" type="text" [(ngModel)]="date" name="date" airbnb-calendar [options]="options" />
+    <label for="calender" class="date" (click)="onClickDate()">
         <span class="title">Check out</span>
         <span>Add dates</span>
-    </div>
+    </label>
     <div class="who-guests">
-      <div class="add-guests">
+      <div class="add-guests" (click)="setModalNav('guests-modal')">
         <span class="title">who</span>
         <span>Add guests</span>
       </div>
-      <div class="search">
+      <div class="search" (click)="onSetFilter()">
         <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
         <span>search</span>
       </div>
     </div>
-    <header-filter-modal *ngIf="modalNav" [modalNav]="modalNav" (setModalNav)="setModalNav"></header-filter-modal>
+    <header-filter-modal *ngIf="modalNav" [modalNav]="modalNav" (setModalNav)="setModalNav" [order]="order"></header-filter-modal>
   </div>
 </section>

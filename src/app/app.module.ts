@@ -36,7 +36,6 @@ import { HeaderFilterComponent } from './cmps/header-filter-folder/header-filter
 import { MatSelectModule } from '@angular/material/select';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderFilterModalComponent } from './cmps/header-filter-folder/header-filter-modal/header-filter-modal.component';
-import { DateModalComponent } from './cmps/header-filter-folder/date-modal/date-modal.component';
 import { RegionModalComponent } from './cmps/header-filter-folder/region-modal/region-modal.component';
 import { SearchPlaceModalComponent } from './cmps/header-filter-folder/search-place-modal/search-place-modal.component';
 import { OrderFilterModalComponent } from './cmps/order-filter-modal/order-filter-modal.component';
@@ -72,7 +71,6 @@ import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
     EditStayComponent,
     HeaderFilterComponent,
     HeaderFilterModalComponent,
-    DateModalComponent,
     SearchPlaceModalComponent,
     RegionModalComponent,
     OrderFilterModalComponent,
