@@ -22,6 +22,9 @@ export interface FilterOrder {
   hostId: string
   buyerId: string
   status: string
+  stayName: string
+  hostName: string
+  totalPrice: number
 }
 
 export interface Guest {

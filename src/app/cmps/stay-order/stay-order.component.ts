@@ -102,6 +102,7 @@ export class StayOrderComponent implements OnInit, OnDestroy {
     this.order.totalPrice = this.TotalPrice
     this.order.stay = { _id: this.stay._id, name: this.stay.name, price: this.stay.price }
     this.orderService.save(this.order)
+    this.orderService.setOrder(this.orderService.getEmptyOrder() as Order)
   }
 
   ngOnDestroy() {

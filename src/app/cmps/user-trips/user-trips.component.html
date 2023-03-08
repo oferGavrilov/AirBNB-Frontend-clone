@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <order-filter-modal (toggleFilterModal)="toggleFilterModal()" [orders]="orders" *ngIf="isShowFilterModal"></order-filter-modal>
+    <order-filter-modal (setOrdersToShow)="setOrdersToShow($event)" [ordersToShow]="ordersToShow" [filter]="orderFilter" (toggleFilterModal)="toggleFilterModal()" [orders]="orders" *ngIf="isShowFilterModal"></order-filter-modal>
 
     <div class="trips-details">
         <span class="title">Trips:</span>
@@ -54,7 +54,7 @@
             <h4>Order status</h4>
             <h4>Status</h4>
         </div>
-        <div *ngFor="let order of orders" class="trips-content">
+        <div *ngFor="let order of ordersToShow" class="trips-content">
             <input type="checkbox">
             <span>{{order.stay.name}}</span>
             <span>{{order.hostName}}</span>

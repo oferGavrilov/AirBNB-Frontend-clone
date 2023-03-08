@@ -1,5 +1,6 @@
-import { Component, Input , Output , EventEmitter} from '@angular/core';
-import { Order } from 'src/app/models/order.model';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Order, FilterOrder } from 'src/app/models/order.model';
+import { OrderService } from 'src/app/services/order.service';
 
 @Component({
   selector: 'order-filter-modal',
@@ -8,11 +9,24 @@ import { Order } from 'src/app/models/order.model';
 })
 export class OrderFilterModalComponent {
 
+  constructor(private orderService: OrderService) { }
+
+  @Input() ordersToShow !: Order[]
   @Input() orders !: Order[]
+  @Input() filter !: FilterOrder
   @Output() toggleFilterModal = new EventEmitter()
+  @Output() setOrdersToShow = new EventEmitter<Order[]>()
 
   ngOnInit() {
-    console.log(this.orders)
+  }
+
+  onSetFilter($ev: any) {
+    let option = $ev.target.options[$ev.target.options.selectedIndex].value
+    const type  = $ev.target.name as keyof FilterOrder
+    if (type === 'totalPrice') this.filter.totalPrice = +option
+    if (type !== 'totalPrice') this.filter[type] = option
+    this.ordersToShow = this.orderService.query(this.filter)
+    this.setOrdersToShow.emit(this.ordersToShow)
   }
 
   onToggleFilterModal() {

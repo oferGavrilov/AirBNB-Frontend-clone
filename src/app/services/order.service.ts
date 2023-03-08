@@ -54,10 +54,19 @@ export class OrderService {
     this._orders$.next(orders)
   }
 
+  public query(filter: FilterOrder) {
+    let orders = this.utilService.loadFromStorage(this.ORDER_STORAGE_KEY) || []
+    if (filter) {
+      orders = this._filter(orders, filter)
+    }
+    return orders
+  }
+
   public save(order: Order) {
     let orders = this.utilService.loadFromStorage(this.ORDER_STORAGE_KEY) || []
     if (order._id) orders = orders.map((currOrder: Order) => currOrder._id === order._id ? order : currOrder)
     else {
+      console.log('new')
       order._id = this.utilService.makeId()
       orders.push(order)
     }
@@ -68,9 +77,14 @@ export class OrderService {
 
   public getEmptyFilter() {
     return {
+      stayName: '',
+      hostName: '',
+      checkIn: new Date(),
+      checkOut: new Date(),
+      totalPrice: 0,
+      status: '',
       hostId: '',
       buyerId: '',
-      status: '',
     }
   }
 
@@ -84,9 +98,13 @@ export class OrderService {
   }
 
   private _filter(orders: Order[], filterBy: FilterOrder) {
+    console.log(filterBy)
     if (filterBy.hostId) orders = orders.filter(order => order.hostId === filterBy.hostId)
     if (filterBy.buyerId) orders = orders.filter(order => order.buyer._id === filterBy.buyerId)
     if (filterBy.status) orders = orders.filter(order => order.status === filterBy.status)
+    if (filterBy.stayName) orders = orders.filter(order => order.stay.name === filterBy.stayName)
+    if (filterBy.hostName) orders = orders.filter(order => order.hostName === filterBy.hostName)
+    if (filterBy.totalPrice) orders = orders.filter(order => order.totalPrice === filterBy.totalPrice)
     return orders
   }
 }
