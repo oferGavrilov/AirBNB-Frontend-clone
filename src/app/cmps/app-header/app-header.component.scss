@@ -8,6 +8,7 @@ header {
     color: $header-text-color;
     border-bottom: 1px solid $border-color;
     color: $header-text-color;
+    position: relative;
 
     .header-content {
         display: flex;
@@ -16,6 +17,7 @@ header {
 
         &.filter-active {
           align-items: start;
+          height: 160px;
         }
 
         .logo {

@@ -4,7 +4,6 @@
             <img src="assets/img/logo.png" alt="">
             <h2>airbnb</h2>
         </div>
-        <header-filter [isHeaderFilterActive]="isHeaderFilterActive" (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
         <nav>
             <div class="home-nav" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
                 <span>Airbnb your home</span>
@@ -18,5 +17,6 @@
             </div>
         </nav>
     </div>
+    <header-filter [isHeaderFilterActive]="isHeaderFilterActive" (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
 </header>
 <header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" *ngIf="isShowHeaderMenuModal"></header-menu-modal>
