@@ -39,8 +39,9 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   getOrderStatusAmount(type: string) {
     return this.orders.filter(order => order.status === type).length
   }
+
   onDownloadCSV() {
-    new ngxCsv(this.getData(), "orders", this.getOptions());
+    new ngxCsv(this.getData(), "orders", this.getOptions())
   }
 
   onPrint() {

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app-root/app.component';
 import { AppHeaderComponent } from './cmps/app-header/app-header.component';
@@ -17,7 +16,6 @@ import { GoogleMapComponent } from './cmps/google-map/google-map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientModule } from '@angular/common/http';
 import { StayOrderComponent } from './cmps/stay-order/stay-order.component';
-
 import { AmenitiesListComponent } from './cmps/details/amenities-list/amenities-list.component';
 import { AmenitiesPreviewComponent } from './cmps/details/amenities-preview/amenities-preview.component';
 import { SpecialPerksComponent } from './cmps/details/special-perks/special-perks.component';
@@ -34,10 +32,14 @@ import { UserOrderComponent } from './cmps/user-order/user-order.component';
 import { UserTripsComponent } from './cmps/user-trips/user-trips.component';
 import { UserStaysComponent } from './cmps/user-stays/user-stays.component';
 import { EditStayComponent } from './cmps/edit-stay/edit-stay.component';
-import { HeaderFilterComponent } from './cmps/header-filter/header-filter.component';
+import { HeaderFilterComponent } from './cmps/header-filter-folder/header-filter/header-filter.component';
+import { MatSelectModule } from '@angular/material/select';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderFilterModalComponent } from './cmps/header-filter-folder/header-filter-modal/header-filter-modal.component';
+import { DateModalComponent } from './cmps/header-filter-folder/date-modal/date-modal.component';
+import { RegionModalComponent } from './cmps/header-filter-folder/region-modal/region-modal.component';
+import { SearchPlaceModalComponent } from './cmps/header-filter-folder/search-place-modal/search-place-modal.component';
 
-import {MatSelectModule} from '@angular/material/select';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -66,7 +68,11 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     UserTripsComponent,
     UserStaysComponent,
     EditStayComponent,
-    HeaderFilterComponent
+    HeaderFilterComponent,
+    HeaderFilterModalComponent,
+    DateModalComponent,
+    RegionModalComponent,
+    SearchPlaceModalComponent
   ],
   imports: [
     BrowserModule,
