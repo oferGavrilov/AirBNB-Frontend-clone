@@ -17,9 +17,6 @@ export class OrderFilterModalComponent {
   @Output() toggleFilterModal = new EventEmitter()
   @Output() setOrdersToShow = new EventEmitter<Order[]>()
 
-  ngOnInit() {
-  }
-
   onSetFilter($ev: any) {
     let option = $ev.target.options[$ev.target.options.selectedIndex].value
     const type  = $ev.target.name as keyof FilterOrder

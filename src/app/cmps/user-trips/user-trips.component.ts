@@ -27,8 +27,9 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   orders !: Order[]
   user!: User
   orderFilter!: FilterOrder
-  isShowFilterModal: boolean = true
+  isShowFilterModal: boolean = false
   ordersToShow!: Order[]
+  isSearchActive: boolean = false
 
   ngOnInit(): void {
     this.user = this.userService.getUser()
@@ -37,11 +38,11 @@ export class UserTripsComponent implements OnInit, OnDestroy {
     this.orderService.setFilter(this.orderFilter)
     this.subscription = this.orderService.orders$.subscribe(orders => {
       this.orders = orders
-      this.ordersToShow =[...orders]
+      this.ordersToShow = [...orders]
     })
   }
-  
-  setOrdersToShow(orders:Order[]) {
+
+  setOrdersToShow(orders: Order[]) {
     console.log(this.ordersToShow)
     this.ordersToShow = orders
   }

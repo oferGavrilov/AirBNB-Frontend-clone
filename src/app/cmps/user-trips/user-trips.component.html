@@ -1,8 +1,11 @@
 <section class="user-trips">
     <div class="user-header">
-        <h2>Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
+        <h2 *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
+        <div *ngIf="isSearchActive" class="search-input">
+            <input  type="text">
+        </div>
         <div class="tools">
-            <div>
+            <div (click)="isSearchActive = !isSearchActive">
                 <span title="Search" class="material-symbols-outlined">search</span>
             </div>
             <div (click)="onDownloadCSV()">
@@ -20,7 +23,8 @@
         </div>
     </div>
 
-    <order-filter-modal (setOrdersToShow)="setOrdersToShow($event)" [ordersToShow]="ordersToShow" [filter]="orderFilter" (toggleFilterModal)="toggleFilterModal()" [orders]="orders" *ngIf="isShowFilterModal"></order-filter-modal>
+    <order-filter-modal (setOrdersToShow)="setOrdersToShow($event)" [ordersToShow]="ordersToShow" [filter]="orderFilter"
+        (toggleFilterModal)="toggleFilterModal()" [orders]="orders" *ngIf="isShowFilterModal"></order-filter-modal>
 
     <div class="trips-details">
         <span class="title">Trips:</span>
