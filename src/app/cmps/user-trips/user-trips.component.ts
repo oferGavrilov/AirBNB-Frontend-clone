@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { Order } from 'src/app/models/order.model';
+import { FilterOrder, Order } from 'src/app/models/order.model';
 import { User } from 'src/app/models/user.model';
 import { OrderService } from 'src/app/services/order.service';
 import { UserService } from 'src/app/services/user.service';
@@ -26,15 +26,24 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   subscription!: Subscription
   orders !: Order[]
   user!: User
+  orderFilter!: FilterOrder
   isShowFilterModal: boolean = true
+  ordersToShow!: Order[]
 
   ngOnInit(): void {
-    const filter = this.orderService.getEmptyFilter()
-    this.orderService.setFilter(filter)
+    this.user = this.userService.getUser()
+    this.orderFilter = this.orderService.getEmptyFilter()
+    this.orderFilter.buyerId = this.user._id
+    this.orderService.setFilter(this.orderFilter)
     this.subscription = this.orderService.orders$.subscribe(orders => {
       this.orders = orders
+      this.ordersToShow =[...orders]
     })
-    this.user = this.userService.getUser()
+  }
+  
+  setOrdersToShow(orders:Order[]) {
+    console.log(this.ordersToShow)
+    this.ordersToShow = orders
   }
 
   getOrderStatusAmount(type: string) {
