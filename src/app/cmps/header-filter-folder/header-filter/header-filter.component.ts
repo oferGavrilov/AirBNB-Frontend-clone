@@ -4,6 +4,8 @@ import { Order } from 'src/app/models/order.model';
 import { OrderService } from 'src/app/services/order.service';
 import { Subscription } from 'rxjs';
 import { CalendarOptions } from 'ngx-airbnb-calendar';
+import { StayFilter } from 'src/app/models/stay.model';
+import { StayService } from 'src/app/services/stay.service';
 
 @Component({
   selector: 'header-filter',
@@ -11,16 +13,20 @@ import { CalendarOptions } from 'ngx-airbnb-calendar';
   styleUrls: ['./header-filter.component.scss']
 })
 export class HeaderFilterComponent implements OnInit, OnDestroy {
-  constructor(private orderService: OrderService) { }
+  constructor(
+    private orderService: OrderService,
+    private stayService: StayService) { }
   @Input() isHeaderFilterActive!: boolean
   @Output() toggleHeaderFilter = new EventEmitter<void>()
   faMagnifyingGlass = faMagnifyingGlass
   modalNav = ''
   searchFilter = ''
   order !: Order
-  subscription!: Subscription
+  subscriptionOrder!: Subscription
+  subscriptionStayFilter!: Subscription
   date: string | null = null
-  isDateOpen: boolean = false
+  isBlur: boolean = false
+  stayFilter!: StayFilter
 
   options: CalendarOptions = {
     format: "yyyy/LL/dd",
@@ -29,9 +35,9 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
     closeOnSelected: false,
   }
 
-
   ngOnInit() {
-    this.subscription = this.orderService.order$.subscribe(order => this.order = order)
+    this.subscriptionOrder = this.orderService.order$.subscribe(order => this.order = order)
+    this.subscriptionStayFilter =  this.stayService.stayFilter$.subscribe(stayFilter => this.stayFilter = stayFilter)
   }
 
   onToggleHeaderFilter() {
@@ -40,17 +46,18 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
 
   setModalNav(val: string) {
     this.modalNav = val
-    this.isDateOpen = false
+    this.isBlur = false
   }
 
-  onWhereClick() {
-    if(this.searchFilter)  this.setModalNav('search-place-modal')
-    else this.setModalNav('region-modal')
+  onSetWhereSearch(val: string) {
+    console.log('val:', val)
+    this.searchFilter = val
+    this.setModalNav('search-place-modal')
   }
 
   onClickDate() {
     this.setModalNav('')
-    this.isDateOpen = true
+    this.isBlur = true
   }
 
   onClickGuests(val: string) {
@@ -58,7 +65,7 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
   }
 
   onBlur() {
-    if(!this.isDateOpen) this.onToggleHeaderFilter()
+    if(!this.isBlur) this.onToggleHeaderFilter()
   }
 
   onSetFilter() {
@@ -66,6 +73,7 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.subscription.unsubscribe()
+    this.subscriptionOrder.unsubscribe()
+    this.subscriptionStayFilter.unsubscribe()
   }
 }

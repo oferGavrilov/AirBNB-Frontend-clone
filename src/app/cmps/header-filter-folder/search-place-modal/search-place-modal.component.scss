@@ -1,0 +1,29 @@
+@import '../../../../assets/styles/setup/variables';
+@import '../../../../assets/styles/setup/mixins';
+
+.search-place-modal {
+  max-height: 425px;
+  overflow-y: auto;
+  li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0 10px 20px;
+    border-radius: 8px;
+    &:hover {
+      background-color: $main-hover;
+    }
+    .place {
+      color: $header-text-color;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    .icon-container {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      @include center-flex();
+      background-color: #ebebeb;
+    }
+  }
+}

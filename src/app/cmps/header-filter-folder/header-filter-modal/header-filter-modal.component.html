@@ -1,4 +1,4 @@
 <section class="header-filter-modal" [ngSwitch]="modalNav">
   <region-modal *ngSwitchCase="'region-modal'"></region-modal>
-  <search-place-modal *ngSwitchCase="'search-place-modal'"></search-place-modal>
+  <search-place-modal *ngSwitchCase="'search-place-modal'" [stayFilter]="stayFilter" [placeNameFilter]="placeNameFilter"></search-place-modal>
 </section>
