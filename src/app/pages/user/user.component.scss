@@ -21,16 +21,26 @@
             color: $secondary-color;
             transition: .2s;
             text-transform: uppercase;
+
             &:hover {
                 background-color: lightgray;
             }
-            &.active{
+
+            &.active {
                 color: white;
                 background-color: $secondary-color;
             }
         }
     }
-    .dynamic-cmp{
+
+    .dynamic-cmp {
         margin-bottom: 24px;
     }
+
+    @media print {
+        nav {
+            display: none;
+        }
+    }
+
 }

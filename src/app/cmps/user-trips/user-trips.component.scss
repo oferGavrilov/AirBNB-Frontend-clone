@@ -1,10 +1,12 @@
 @import '../../../assets/styles/setup/variables';
 @import '../../../assets/styles/setup/mixins';
+@import '../../../assets/styles/setup/layout';
 
 .user-trips {
     color: $header-text-color;
     border: 2px solid #dad4d4bc;
     padding: 18px 20px 0 20px;
+
 
     .user-header {
         display: flex;
@@ -16,6 +18,7 @@
 
         .tools {
             display: flex;
+            height: 50%;
 
             >* {
                 cursor: pointer;
@@ -26,6 +29,7 @@
                 border-radius: 50%;
                 color: #0000008a;
                 transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
                 &:hover {
                     color: #1976d2;
                     background-color: #0000000a
@@ -91,6 +95,19 @@
         .material-symbols-outlined {
             cursor: pointer;
             margin: 5px;
+        }
+    }
+
+    @media print {
+        & {
+            margin-top: 30px;
+
+            .user-header,
+            .trips-details,
+            .paging,
+            input {
+                display: none;
+            }
         }
     }
 }

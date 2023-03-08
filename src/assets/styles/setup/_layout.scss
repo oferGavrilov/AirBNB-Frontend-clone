@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 20px 1fr 20px;
     padding: 0;
-    > * {
+
+    >* {
         grid-column: 2;
 
         &.full {
@@ -11,34 +12,28 @@
     }
 
     @include for-tablet-layout {
-        grid-template-columns: 
-            minmax(20px, 1fr)
-            minmax(auto, $mobile-breakpoint)
-            minmax(20px, 1fr);
+        grid-template-columns:
+            minmax(20px, 1fr) minmax(auto, $mobile-breakpoint) minmax(20px, 1fr);
     }
+
     @include for-narrow-layout {
-        grid-template-columns: 
-            minmax(20px, 1fr)
-            minmax(auto, $tablet-breakpoint)
-            minmax(20px, 1fr);
+        grid-template-columns:
+            minmax(20px, 1fr) minmax(auto, $tablet-breakpoint) minmax(20px, 1fr);
     }
+
     @include for-normal-layout {
-        grid-template-columns: 
-            minmax(20px, 1fr)
-            minmax(auto, $narrow-breakpoint)
-            minmax(20px, 1fr);
+        grid-template-columns:
+            minmax(20px, 1fr) minmax(auto, $narrow-breakpoint) minmax(20px, 1fr);
     }
+
     @include for-wide-layout {
-        grid-template-columns: 
-            minmax(20px, 1fr)
-            minmax(auto, $normal-breakpoint)
-            minmax(20px, 1fr);
+        grid-template-columns:
+            minmax(20px, 1fr) minmax(auto, $normal-breakpoint) minmax(20px, 1fr);
     }
+
     @include for-desktop-layout {
-        grid-template-columns: 
-            minmax(20px, 1fr)
-            minmax(auto, $wide-breakpoint)
-            minmax(20px, 1fr);
+        grid-template-columns:
+            minmax(20px, 1fr) minmax(auto, $wide-breakpoint) minmax(20px, 1fr);
     }
 }
 
@@ -46,4 +41,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
+}
+
+@media print {
+    .main-layout {
+        display: unset;
+    }
 }

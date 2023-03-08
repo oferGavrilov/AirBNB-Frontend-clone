@@ -26,7 +26,6 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   subscription!: Subscription
   orders !: Order[]
   user!: User
-  data: any = []
 
   ngOnInit(): void {
     const filter = this.orderService.getEmptyFilter()
@@ -40,8 +39,12 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   getOrderStatusAmount(type: string) {
     return this.orders.filter(order => order.status === type).length
   }
-  downloadCSV() {
+  onDownloadCSV() {
     new ngxCsv(this.getData(), "orders", this.getOptions());
+  }
+
+  onPrint() {
+    window.print()
   }
 
   ngOnDestroy(): void {
@@ -50,8 +53,9 @@ export class UserTripsComponent implements OnInit, OnDestroy {
 
   // Private function for CSV files
   private getData() {
+    let data = []
     for (const order of this.orders) {
-      this.data.push(
+      data.push(
         {
           "Stay name": order.stay.name,
           "Host name": order.hostName,
@@ -62,7 +66,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
         }
       )
     }
-    return this.data
+    return data
   }
   private getOptions() {
     return {

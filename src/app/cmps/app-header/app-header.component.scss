@@ -16,8 +16,8 @@ header {
         justify-content: space-between;
 
         &.filter-active {
-          align-items: start;
-          height: 160px;
+            align-items: start;
+            height: 160px;
         }
 
         .logo {
@@ -32,12 +32,14 @@ header {
             }
         }
     }
+
     nav {
         display: flex;
         justify-content: space-between;
         font-size: rem(14px);
         font-weight: 600;
         height: 42px;
+
         >* {
             cursor: pointer;
             padding: 12px;
@@ -54,9 +56,10 @@ header {
             justify-content: space-between;
             padding: 5px 5px 5px 12px;
             width: 76px;
-            border:1px solid $border-color;
+            border: 1px solid $border-color;
 
             transition: box-shadow .4s;
+
             img {
                 border-radius: 2em;
                 width: 29px;
@@ -68,5 +71,10 @@ header {
             }
         }
     }
-}
 
+    @media print {
+        & {
+            display: none;
+        }
+    }
+}
