@@ -79,6 +79,10 @@ export class OrderService {
     this.loadOrders()
   }
 
+  public setOrder(order: Order) {
+    this._order$.next(order)
+  }
+
   private _filter(orders: Order[], filterBy: FilterOrder) {
     if (filterBy.hostId) orders = orders.filter(order => order.hostId === filterBy.hostId)
     if (filterBy.buyerId) orders = orders.filter(order => order.buyer._id === filterBy.buyerId)
