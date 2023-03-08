@@ -1,4 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { lastValueFrom } from 'rxjs';
 import { Order, FilterOrder } from 'src/app/models/order.model';
 import { OrderService } from 'src/app/services/order.service';
 
@@ -17,15 +18,12 @@ export class OrderFilterModalComponent {
   @Output() toggleFilterModal = new EventEmitter()
   @Output() setOrdersToShow = new EventEmitter<Order[]>()
 
-  ngOnInit() {
-  }
-
-  onSetFilter($ev: any) {
+  async onSetFilter($ev: any) {
     let option = $ev.target.options[$ev.target.options.selectedIndex].value
     const type  = $ev.target.name as keyof FilterOrder
     if (type === 'totalPrice') this.filter.totalPrice = +option
     if (type !== 'totalPrice') this.filter[type] = option
-    this.ordersToShow = this.orderService.query(this.filter)
+    this.ordersToShow = await lastValueFrom(this.orderService.query(this.filter))
     this.setOrdersToShow.emit(this.ordersToShow)
   }
 

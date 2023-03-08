@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject, of, throwError } from 'rxjs';
 import { FilterOrder, Order } from '../models/order.model';
 import { UtilService } from './util.service';
 
@@ -59,7 +59,7 @@ export class OrderService {
     if (filter) {
       orders = this._filter(orders, filter)
     }
-    return orders
+    return orders ? of(orders) : throwError(() => 'Cant load orders')
   }
 
   public save(order: Order) {
