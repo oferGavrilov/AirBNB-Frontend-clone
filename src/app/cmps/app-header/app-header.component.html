@@ -1,16 +1,8 @@
 <header class="main-layout full">
-    <div class="header-content">
+    <div [ngClass]="isHeaderFilterActive ? 'header-content filter-active' : 'header-content'">
         <div class="logo" routerLink="/">
             <img src="assets/img/logo.png" alt="">
             <h2>airbnb</h2>
-        </div>
-        <div class="header-filter">
-            <span>Anywhere</span>
-            <span>Any week</span>
-            <span>Add guests</span>
-            <span class="icon-container">
-                <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
-            </span>
         </div>
         <nav>
             <div class="home-nav" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
@@ -25,5 +17,6 @@
             </div>
         </nav>
     </div>
+    <header-filter [isHeaderFilterActive]="isHeaderFilterActive" (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
 </header>
 <header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" *ngIf="isShowHeaderMenuModal"></header-menu-modal>

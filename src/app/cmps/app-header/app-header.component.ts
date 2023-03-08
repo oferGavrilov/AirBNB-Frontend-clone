@@ -1,7 +1,5 @@
 import { Component } from '@angular/core'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
 import { UserService } from 'src/app/services/user.service'
 
 @Component({
@@ -13,14 +11,18 @@ export class AppHeaderComponent {
 
   constructor(private userService: UserService) { }
 
-  faMagnifyingGlass = faMagnifyingGlass
   faGlobe = faGlobe
   faBars = faBars
   isShowHeaderMenuModal = false
+  isHeaderFilterActive = false
 
   onToggleHeaderMenuModal() {
     this.isShowHeaderMenuModal = !this.isShowHeaderMenuModal
     console.log(this.isShowHeaderMenuModal)
+  }
+
+  toggleHeaderFilter() {
+    this.isHeaderFilterActive = !this.isHeaderFilterActive
   }
 
   getUserImg() {
