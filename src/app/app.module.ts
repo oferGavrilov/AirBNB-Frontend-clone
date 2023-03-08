@@ -38,6 +38,8 @@ import { HeaderFilterComponent } from './cmps/header-filter/header-filter.compon
 
 import {MatSelectModule} from '@angular/material/select';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { OrderFilterModalComponent } from './cmps/order-filter-modal/order-filter-modal.component';
+import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -66,7 +68,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     UserTripsComponent,
     UserStaysComponent,
     EditStayComponent,
-    HeaderFilterComponent
+    HeaderFilterComponent,
+    OrderFilterModalComponent,
+    GuestModalComponent
   ],
   imports: [
     BrowserModule,

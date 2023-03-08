@@ -1,0 +1,78 @@
+.stay-guest-modal {
+    margin-top: 1px;
+    width: 86%;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 6px, rgb(0 0 0 / 7%) 0px 0px 0px 1px;
+    padding: 16px;
+    cursor: default;
+
+    .guest-container {
+        display: flex;
+        justify-content: space-between;
+
+        >* {
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        .type {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h5 {
+                text-align: left;
+                font-size: 16px;
+            }
+
+            span {
+                font-size: 14px;
+            }
+        }
+
+        .amount {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+
+            button {
+                border: none;
+                color: rgb(34, 34, 34);
+                border-color: rgb(34, 34, 34);
+                background: rgb(255, 255, 255);
+            }
+
+            button.disabled {
+                color: rgb(235, 235, 235);
+                border-color: rgb(235, 235, 235);
+                background: rgb(255, 255, 255);
+                cursor: not-allowed;
+
+                fa-icon {
+                    pointer-events: none;
+                }
+            }
+
+            fa-icon {
+                cursor: pointer;
+                font-size: 32px;
+            }
+        }
+    }
+
+    .stay-capacity {
+        font-size: 14px;
+        margin: 16px 0;
+    }
+
+    .close-btn {
+        cursor: pointer;
+        text-decoration: underline;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-weight: bold;
+    }
+}

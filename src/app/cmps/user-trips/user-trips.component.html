@@ -14,14 +14,16 @@
             <div>
                 <span title="View Columns" class="material-symbols-outlined">view_week</span>
             </div>
-            <div>
+            <div (click)="isShowFilterModal = !isShowFilterModal">
                 <span title="Filter Table" class="material-symbols-outlined">filter_alt</span>
             </div>
         </div>
     </div>
 
+    <!-- <order-filter-modal [orders]="orders" *ngIf="isShowFilterModal"></order-filter-modal> -->
+
     <div class="trips-details">
-        <span>Trips:</span>
+        <span class="title">Trips:</span>
         <div>
             <span>{{getOrderStatusAmount('approved')}}/{{orders.length}}</span>
             <fa-icon class="icon-approved" [icon]="faCircle"></fa-icon>

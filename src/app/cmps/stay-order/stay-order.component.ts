@@ -40,6 +40,10 @@ export class StayOrderComponent implements OnInit, OnDestroy {
     this.subscription = this.orderService.order$.subscribe(order => this.order = order)
   }
 
+  public toggleGuestModal() {
+    this.showGuestModal = !this.showGuestModal
+  }
+
   get GetTotalDays() {
     return this.getCheckOut().getDate() - this.getCheckIn().getDate()
   }
@@ -60,38 +64,11 @@ export class StayOrderComponent implements OnInit, OnDestroy {
     return (+this.Price + +this.CleanTax + +this.ServiceFee)
   }
 
-  get Guests() {
-    const guests = []
-    let key: keyof Guest
-    for (key in this.order.guests) {
-      guests.push({ type: key, amount: this.order.guests[key] })
-    }
-    return guests
-  }
-
-  checkMinusBtn(guestType: keyof Guest) {
-    if (guestType === 'adults') return this.order.guests.adults > 1
-    return this.order.guests[guestType] > 0
-  }
-
-  checkPlusBtn(guestType: string) {
-    if (guestType === 'adults' || guestType === 'children') {
-      return this.order.guests.adults + this.order.guests.children < this.stay.capacity
-    }
-    if (guestType === 'infants') return this.order.guests.infants < 5
-    if (guestType === 'pets') return this.stay.amenities.includes('Pets allowed') && this.order.guests.pets < 3
-    return false
-  }
-
   getGuests() {
     let str = this.order.guests.adults + this.order.guests.children > 0 ? (this.order.guests.adults + this.order.guests.children) + ' guests, ' : ''
     str += this.order.guests.infants > 0 ? this.order.guests.infants + ' infants, ' : ''
     str += this.order.guests.pets > 0 ? this.order.guests.pets + ' pets, ' : ''
     return str
-  }
-
-  onAddGuests(guestType: keyof Guest, diff: number) {
-    this.order.guests[guestType] += diff
   }
 
   getCheckIn() {

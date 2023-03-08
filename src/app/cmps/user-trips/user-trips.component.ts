@@ -26,6 +26,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   subscription!: Subscription
   orders !: Order[]
   user!: User
+  isShowFilterModal: boolean = true
 
   ngOnInit(): void {
     const filter = this.orderService.getEmptyFilter()

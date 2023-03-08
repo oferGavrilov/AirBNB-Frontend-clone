@@ -1,0 +1,20 @@
+<section class="stay-guest-modal">
+    <div *ngFor="let guest of Guests">
+        <div class="guest-container">
+            <div class="type">
+                <h5>{{guest.type}}</h5>
+                <span>Age 13+</span>
+            </div>
+            <div class="amount">
+                <button [ngClass]="checkMinusBtn(guest.type) ? '' : 'disabled'"><fa-icon class="star"
+                        [icon]="faCircleMinus" (click)="onAddGuests(guest.type, -1)"></fa-icon></button>
+                <span>{{guest.amount}}</span>
+                <button [ngClass]="checkPlusBtn(guest.type) ? '' : 'disabled'"><fa-icon class="star"
+                        [icon]="faCirclePlus" (click)="onAddGuests(guest.type, 1)"></fa-icon></button>
+            </div>
+        </div>
+    </div>
+    <p class="stay-capacity">This place has a maximum of {{stay.capacity}} guests, not including infants.
+        Pets aren't allowed.</p>
+    <span (click)="onToggleGuestModal()" class="close-btn">Close</span>
+</section>

@@ -24,15 +24,14 @@
             </div> -->
             <div class="checkout-btns">
                 <label for="calender" class="check-in">
-                  <span class="title">Check-in</span>
-                  <span>{{getCheckIn() | date}}</span>
+                    <span class="title">Check-in</span>
+                    <span>{{getCheckIn() | date}}</span>
                 </label>
-                <input id="calender" type="text" [(ngModel)]="date" name="date" airbnb-calendar
-                [options]="options" />
-              <label for="calender" class="check-out">
-                <span class="title">Checkout</span>
-                <span>{{getCheckOut() | date}}</span>
-              </label>
+                <input id="calender" type="text" [(ngModel)]="date" name="date" airbnb-calendar [options]="options" />
+                <label for="calender" class="check-out">
+                    <span class="title">Checkout</span>
+                    <span>{{getCheckOut() | date}}</span>
+                </label>
             </div>
             <div class="guest-btn" (click)="showGuestModal=!showGuestModal">
                 <button>
@@ -42,28 +41,9 @@
                 <fa-icon *ngIf="!showGuestModal" [icon]="faChevronDown"></fa-icon>
                 <fa-icon *ngIf="showGuestModal" [icon]="faChevronUp"></fa-icon>
             </div>
-            <section *ngIf="showGuestModal" class="stay-guest-modal">
-                <div *ngFor="let guest of Guests">
-                    <div class="guest-container">
-                        <div class="type">
-                            <h5>{{guest.type}}</h5>
-                            <span>Age 13+</span>
-                        </div>
-                        <div class="amount">
-                            <button [ngClass]="checkMinusBtn(guest.type) ? '' : 'disabled'"><fa-icon class="star"
-                                    [icon]="faCircleMinus" (click)="onAddGuests(guest.type, -1)"></fa-icon></button>
-                            <span>{{guest.amount}}</span>
-                            <button [ngClass]="checkPlusBtn(guest.type) ? '' : 'disabled'"><fa-icon class="star"
-                                    [icon]="faCirclePlus" (click)="onAddGuests(guest.type, 1)"></fa-icon></button>
-                        </div>
-                    </div>
-                </div>
-                <p class="stay-capacity">This place has a maximum of {{stay.capacity}} guests, not including infants.
-                    Pets aren't allowed.</p>
-                <span (click)="showGuestModal=false" class="close-btn">Close</span>
-            </section>
+            <guest-modal (toggleGuestModal)="toggleGuestModal()" [order]="order" [stay]="stay" *ngIf="showGuestModal"></guest-modal>
         </div>
-        <button class="order-btn"(click)="onAddOrder()">Reserve</button>
+        <button class="order-btn" (click)="onAddOrder()">Reserve</button>
         <div class="order-description">
             <span>You won't be charged yet</span>
             <p>Price shown is the total trip price, including additional fees and taxes.</p>
