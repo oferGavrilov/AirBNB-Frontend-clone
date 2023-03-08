@@ -1,6 +1,7 @@
 export interface Order {
   _id: string,
   hostId: string,
+  hostName: string,
   buyer: {
     _id: string,
     fullname: string

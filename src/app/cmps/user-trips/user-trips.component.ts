@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { Order } from 'src/app/models/order.model';
 import { User } from 'src/app/models/user.model';
@@ -18,14 +18,13 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   constructor(private orderService: OrderService
     , private userService: UserService) { }
 
-  faHourglass = faHourglass
+  Pending = faHourglass
   faCheck = faCheck
   faCircle = faCircle
 
   subscription!: Subscription
   orders !: Order[]
   user!: User
-
 
   ngOnInit(): void {
     const filter = this.orderService.getEmptyFilter()
@@ -44,3 +43,4 @@ export class UserTripsComponent implements OnInit, OnDestroy {
     this.subscription.unsubscribe()
   }
 }
+

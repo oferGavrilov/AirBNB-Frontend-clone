@@ -120,6 +120,7 @@ export class StayOrderComponent implements OnInit, OnDestroy {
     const user = this.userService.getUser()
     if (!user) return
     this.order.hostId = this.stay.host._id
+    this.order.hostName = this.stay.host.fullname
     this.order.buyer = { _id: user._id, fullname: user.fullname }
     this.order.totalPrice = this.TotalPrice
     this.order.stay = { _id: this.stay._id, name: this.stay.name, price: this.stay.price }

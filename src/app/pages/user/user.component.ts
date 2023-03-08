@@ -25,7 +25,7 @@ export class UserComponent implements OnInit, OnDestroy{
   }
   // @Input() pageNav: string = 'home'
 
-  pageNav: string = 'user-order'
+  pageNav: string = 'user-trips'
 
   onClickWishList() {
     const filter = this.stayService.getEmptyFilter()

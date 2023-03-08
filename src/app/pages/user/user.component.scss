@@ -6,10 +6,11 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 6px;
+        gap: 8px;
         padding: 16px 0;
 
         span {
+            cursor: pointer;
             font-size: 14px;
             font-weight: 600;
             border-radius: 6px;
@@ -21,6 +22,9 @@
             transition: .2s;
             text-transform: uppercase;
             &:hover {
+                background-color: lightgray;
+            }
+            &.active{
                 color: white;
                 background-color: $secondary-color;
             }

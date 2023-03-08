@@ -35,6 +35,8 @@ import { UserTripsComponent } from './cmps/user-trips/user-trips.component';
 import { UserStaysComponent } from './cmps/user-stays/user-stays.component';
 import { EditStayComponent } from './cmps/edit-stay/edit-stay.component';
 
+import {MatSelectModule} from '@angular/material/select';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -73,6 +75,8 @@ import { EditStayComponent } from './cmps/edit-stay/edit-stay.component';
     AirbnbCalendarModule,
     FormsModule,
     ReactiveFormsModule,
+    MatSelectModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

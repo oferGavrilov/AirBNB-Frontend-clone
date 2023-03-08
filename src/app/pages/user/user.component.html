@@ -3,11 +3,11 @@
 
     <main class="main-layout">
         <nav>
-            <span (click)="pageNav = 'user-order'">Orders</span>
-            <span (click)="pageNav = 'user-trips'">My trips</span>
-            <span (click)="pageNav = 'user-stays'">My stays</span>
-            <span (click)="onClickWishList()">Wishlist</span>
-            <span (click)="pageNav = 'edit-stay'">Add a stay</span>
+            <span (click)="pageNav = 'user-order'" class="{{pageNav === 'user-order' ? 'active' : ''}}">Orders</span>
+            <span (click)="pageNav = 'user-trips'" class="{{pageNav === 'user-trips' ? 'active' : ''}}">My trips</span>
+            <span (click)="pageNav = 'user-stays'" class="{{pageNav === 'user-stays' ? 'active' : ''}}">My stays</span>
+            <span (click)="onClickWishList()" class="{{pageNav === 'wishlist' ? 'active' : ''}}">Wishlist</span>
+            <span (click)="pageNav = 'edit-stay'" class="{{pageNav === 'edit-stay' ? 'active' : ''}}">Add a stay</span>
         </nav>
         <div [ngSwitch]="pageNav" class="dynamic-cmp">
             <home *ngSwitchCase="'home'"></home>

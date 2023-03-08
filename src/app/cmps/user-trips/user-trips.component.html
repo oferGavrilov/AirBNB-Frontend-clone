@@ -1,5 +1,24 @@
 <section class="user-trips">
-    <h2>Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
+    <div class="user-header">
+        <h2>Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
+        <div class="tools">
+            <div>
+                <span title="Download CSV" class="material-symbols-outlined">search</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">cloud_download</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">print</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">view_week</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">filter_alt</span>
+            </div>
+        </div>
+    </div>
 
     <div class="trips-details">
         <span>Trips:</span>
@@ -20,5 +39,48 @@
         </div>
     </div>
 
-    <div class="trips-table"></div>
+
+
+    <div class="trips">
+        <div class="titles">
+            <input type="checkbox">
+            <h4>Stay name</h4>
+            <h4>Host name</h4>
+            <h4>Check in</h4>
+            <h4>Check out</h4>
+            <h4>Total</h4>
+            <h4>Order status</h4>
+            <h4>Status</h4>
+        </div>
+        <div *ngFor="let order of orders" class="trips-content">
+            <input type="checkbox">
+            <span>{{order.stay.name}}</span>
+            <span>{{order.hostName}}</span>
+            <span>{{order.startDate | date}}</span>
+            <span>{{order.endDate | date}}</span>
+            <span>{{order.totalPrice}}</span>
+            <span>{{order.status}}</span>
+            <span>
+                <img src="assets/img/{{order.status}}.png" alt="">
+            </span>
+        </div>
+        <div class="paging">
+            <div>
+                <label for="rows">Rows per page:</label>
+                <select name="rows" id="rows">
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="30">30</option>
+                </select>
+            </div>
+            <div>
+                <span>1-1 of 1</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">chevron_left</span>
+                <span class="material-symbols-outlined">chevron_right</span>
+            </div>
+        </div>
+    </div>
+
 </section>
