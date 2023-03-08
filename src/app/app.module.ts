@@ -39,6 +39,8 @@ import { HeaderFilterModalComponent } from './cmps/header-filter-folder/header-f
 import { DateModalComponent } from './cmps/header-filter-folder/date-modal/date-modal.component';
 import { RegionModalComponent } from './cmps/header-filter-folder/region-modal/region-modal.component';
 import { SearchPlaceModalComponent } from './cmps/header-filter-folder/search-place-modal/search-place-modal.component';
+import { OrderFilterModalComponent } from './cmps/order-filter-modal/order-filter-modal.component';
+import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,13 @@ import { SearchPlaceModalComponent } from './cmps/header-filter-folder/search-pl
     UserTripsComponent,
     UserStaysComponent,
     EditStayComponent,
-    HeaderFilterComponent
+    HeaderFilterComponent,
+    HeaderFilterModalComponent,
+    DateModalComponent,
+    SearchPlaceModalComponent,
+    RegionModalComponent,
+    OrderFilterModalComponent,
+    GuestModalComponent
   ],
   imports: [
     BrowserModule,
