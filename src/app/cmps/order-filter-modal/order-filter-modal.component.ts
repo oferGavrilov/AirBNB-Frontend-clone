@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input , Output , EventEmitter} from '@angular/core';
 import { Order } from 'src/app/models/order.model';
 
 @Component({
@@ -8,5 +8,14 @@ import { Order } from 'src/app/models/order.model';
 })
 export class OrderFilterModalComponent {
 
-  // @Input() order !: Order
+  @Input() orders !: Order[]
+  @Output() toggleFilterModal = new EventEmitter()
+
+  ngOnInit() {
+    console.log(this.orders)
+  }
+
+  onToggleFilterModal() {
+    this.toggleFilterModal.emit()
+  }
 }

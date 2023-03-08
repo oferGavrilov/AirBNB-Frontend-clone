@@ -3,13 +3,48 @@
         <span class="title">Filters</span>
         <span class="reset-btn">Reset</span>
     </div>
-    <span class="material-symbols-outlined close-btn">close</span>
+    <span (click)="onToggleFilterModal()" class="material-symbols-outlined close-btn">close</span>
     <ul class="filter-list">
         <li>
-            <span>Stay name</span>
+            <label>Stay name</label>
             <select name="name" id="name">
                 <option value="">All</option>
-                <option value="">option1</option>
+                <option *ngFor="let order of orders" value="order.name">{{order.stay.name}}</option>
+            </select>
+        </li>
+        <li>
+            <label>Host name</label>
+            <select name="hostName" id="hostName">
+                <option value="">All</option>
+                <option *ngFor="let order of orders" value="order.hostName">{{order.hostName}}</option>
+            </select>
+        </li>
+        <li>
+            <label>Check in</label>
+            <select name="check-in" id="check-in">
+                <option value="">All</option>
+                <option *ngFor="let order of orders" value="order.startDate">{{order.startDate | date}}</option>
+            </select>
+        </li>
+        <li>
+            <label>Check out</label>
+            <select name="check-out" id="check-out">
+                <option value="">All</option>
+                <option *ngFor="let order of orders" value="order.startDate">{{order.endDate | date}}</option>
+            </select>
+        </li>
+        <li>
+            <label>Total</label>
+            <select name="total" id="total">
+                <option value="">All</option>
+                <option *ngFor="let order of orders" value="order.totalPrice">{{order.totalPrice}}</option>
+            </select>
+        </li>
+        <li>
+            <label>Status</label>
+            <select name="status" id="status">
+                <option value="">All</option>
+                <option *ngFor="let order of orders" value="order.status">{{order.status}}</option>
             </select>
         </li>
     </ul>
