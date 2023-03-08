@@ -44,6 +44,10 @@ export class UserTripsComponent implements OnInit, OnDestroy {
     new ngxCsv(this.getData(), "orders", this.getOptions());
   }
 
+  toggleFilterModal() {
+    this.isShowFilterModal = !this.isShowFilterModal
+  }
+
   onPrint() {
     window.print()
   }

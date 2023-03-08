@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <!-- <order-filter-modal [orders]="orders" *ngIf="isShowFilterModal"></order-filter-modal> -->
+    <order-filter-modal (toggleFilterModal)="toggleFilterModal()" [orders]="orders" *ngIf="isShowFilterModal"></order-filter-modal>
 
     <div class="trips-details">
         <span class="title">Trips:</span>

@@ -6,7 +6,10 @@
     z-index: 5;
     right: 0;
     padding: 24px;
-    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    border-radius: 8px;
+    width: 60%;
+    box-shadow: rgb(0 0 0 / 12%) 2px 1px 15px 0px;
+
     .header-modal {
         display: flex;
         gap: 16px;
@@ -15,6 +18,43 @@
         .reset-btn {
             cursor: pointer;
             color: #1976d2;
+        }
+    }
+
+    .close-btn {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    .filter-list {
+        padding: 24px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+
+        li {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 45%;
+            min-width: 180px;
+            gap: 4px;
+
+            label {
+                font-size: 12px;
+                opacity: .7;
+            }
+
+            select {
+                padding: 6px 0;
+                outline: none;
+                border: none;
+                border-bottom: 1px solid black;
+            }
         }
     }
 }
