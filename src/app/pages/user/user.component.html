@@ -15,7 +15,14 @@
             <user-stays *ngSwitchCase="'user-stays'"></user-stays>
             <user-trips *ngSwitchCase="'user-trips'"></user-trips>
             <edit-stay *ngSwitchCase="'edit-stay'"></edit-stay>
-            <stay-list *ngSwitchCase="'wishlist'" [stays]="stays$ | async"></stay-list>
+            <div class="wishlist"  *ngSwitchCase="'wishlist'">
+              <h2>Wishlists</h2>
+              <stay-list *ngIf="stays.length" [stays]="stays"></stay-list>
+              <div *ngIf="!stays.length" class="empty-wishlist">
+                <h3>Create your first wishlist</h3>
+                <p>As you search, tap the heart icon to save your favorite places to stay or things to do to a wishlist.</p>
+              </div>
+            </div>
         </div>
     </main>
 

@@ -1,6 +1,6 @@
 import { Component, Input, OnInit, OnDestroy } from '@angular/core';
 import { Stay } from 'src/app/models/stay.model';
-import { Observable } from 'rxjs';
+import { Observable, Subscription } from 'rxjs';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UserService } from 'src/app/services/user.service';
@@ -17,11 +17,12 @@ export class UserComponent implements OnInit, OnDestroy{
     private stayService: StayService) { }
 
   user !: User
-  stays$ !: Observable<Stay[]>
+  stays !: Stay[]
+  subscription!: Subscription
 
   ngOnInit() {
     this.user = this.userService.getUser()
-    this.stays$ = this.stayService.stays$;
+    this.subscription =  this.stayService.stays$.subscribe(stays => this.stays = stays)
   }
   // @Input() pageNav: string = 'home'
 
@@ -37,6 +38,7 @@ export class UserComponent implements OnInit, OnDestroy{
   ngOnDestroy() {
     const filter = this.stayService.getEmptyFilter()
     this.stayService.setFilter(filter)
+    this.subscription.unsubscribe()
   }
 
 }

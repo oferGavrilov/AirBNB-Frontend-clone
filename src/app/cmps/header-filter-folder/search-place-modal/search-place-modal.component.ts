@@ -32,7 +32,5 @@ export class SearchPlaceModalComponent implements OnInit {
 
     const regex = new RegExp(this.placeNameFilter, 'i')
     this.places = this.places.filter(place => regex.test(place))
-    console.log('places:', this.places
-    )
   }
 }
