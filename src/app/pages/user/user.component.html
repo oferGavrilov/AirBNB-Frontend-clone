@@ -14,7 +14,7 @@
             <user-order [user]="user" *ngSwitchCase="'user-order'"></user-order>
             <user-stays *ngSwitchCase="'user-stays'"></user-stays>
             <user-trips *ngSwitchCase="'user-trips'"></user-trips>
-            <edit-stay *ngSwitchCase="'edit-stay'"></edit-stay>
+            <edit-stay [user]="user" *ngSwitchCase="'edit-stay'"></edit-stay>
             <div class="wishlist"  *ngSwitchCase="'wishlist'">
               <h2>Wishlists</h2>
               <stay-list *ngIf="stays.length" [stays]="stays"></stay-list>
