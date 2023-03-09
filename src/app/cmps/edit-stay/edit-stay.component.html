@@ -40,49 +40,69 @@
                   </label>
             </div>
             <div class="stay-info">
-                  <label for="capacity">Capacity:
-                        <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.capacity" name="capacity"
-                              id="capacity">
-                  </label>
-                  <label for="stay-type">Stay type:
-                        <select name="stay-type" id="stay-type" [(ngModel)]="stay.roomType" required>
-                              <option value="national parks">National parks</option>
-                              <option value="shared homes">Shared homes</option>
-                              <option value="islands">Islands</option>
-                              <option value="beach">Beach</option>
-                              <option value="city">City</option>
-                              <option value="desert">Desert</option>
-                              <option value="mounted">Mounted</option>
-                        </select>
-                  </label>
-                  <label for="property-type">Property type:
-                        <select name="property-type" id="property-type" [(ngModel)]="stay.type">
-                              <option value="stay">Stay</option>
-                              <option value="apartment">Apartment</option>
-                              <option value="guest stay">Guest stay</option>
-                              <option value="hotel">Hotel</option>
-                        </select>
-                  </label>
-                  <label for="price">Price:
-                        <input type="number" [(ngModel)]="stay.price" name="price" id="price" required>
-                        / night
-                  </label>
-                  <label htmlFor="imgUpload" class="user-img-upload">
-                        <img *ngIf="!user.imgUrl" class="guest-img" src="assets/img/guest.png" alt="" />
-                        <img *ngIf="user.imgUrl" class="user-img" [src]="user.imgUrl" alt="" />
-                        <input type="file" (change)="uploadUserImg($event)" accept="img/*" id="user-img" />
-                  </label>
+                  <div class="numeric-inputs">
+                        <label for="capacity">Capacity:
+                              <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.capacity" name="capacity"
+                                    id="capacity">
+                        </label>
+                        <label for="bedrooms">Bad rooms:
+                              <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.bedrooms" name="bedrooms"
+                                    id="bedrooms">
+                        </label>
+                        <label for="bathrooms">Bath rooms:
+                              <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.bathrooms"
+                                    name="bathrooms" id="bathrooms">
+                        </label>
+                        <label for="price">Price:
+                              <input type="number" [(ngModel)]="stay.price" name="price" id="price" required>
+                              / night
+                        </label>
+                  </div>
+                  <div class="select-inputs">
+                        <label for="stay-type">Stay type:
+                              <select name="stay-type" id="stay-type" [(ngModel)]="stay.type" required>
+                                    <option value="national parks">National parks</option>
+                                    <option value="shared homes">Shared homes</option>
+                                    <option value="islands">Islands</option>
+                                    <option value="beach">Beach</option>
+                                    <option value="city">City</option>
+                                    <option value="desert">Desert</option>
+                                    <option value="mounted">Mounted</option>
+                                    <option value="castle">Castle</option>
+                              </select>
+                        </label>
+                        <label for="property-type">Property type:
+                              <select name="property-type" id="property-type" [(ngModel)]="stay.roomType">
+                                    <option value="stay">Stay</option>
+                                    <option value="apartment">Apartment</option>
+                                    <option value="guest stay">Guest stay</option>
+                                    <option value="hotel">Hotel</option>
+                              </select>
+                        </label>
+                        <label htmlFor="imgUpload" class="user-img-upload">
+                              <img *ngIf="!user.imgUrl" class="guest-img" src="assets/img/guest.png" alt="" />
+                              <img *ngIf="user.imgUrl" class="user-img" [src]="user.imgUrl" alt="" />
+                              <input type="file" (change)="uploadUserImg($event)" accept="img/*" id="user-img" />
+                        </label>
+                  </div>
             </div>
             <div class="stay-description">
                   <span class="title">Description</span>
                   <textarea name="summary" [(ngModel)]="stay.summary" id="summary" cols="94" rows="10"></textarea>
             </div>
             <div class="amenities">
-                  <span class="title">Amenities</span>
+                  <!-- <span class="title">Amenities</span>
                   <label for="tv">TV
-                        <input type="checkbox" value="tv" name="tv" id="tv" [(ngModel)]="stay.amenities">
-                  </label>
+                        <input type="checkbox" value="tv" name="tv" id="tv" (change)="toggleCheckbox($event)">
+                  </label> -->
             </div>
             <button>Save</button>
       </form>
 </section>
+
+<!-- label multi select -->
+<!-- room type like hotel -->
+
+<!-- // country
+// address
+// city -->

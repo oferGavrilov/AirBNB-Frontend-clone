@@ -15,10 +15,11 @@ export class EditStayComponent {
   stay = this.stayService.getEmptyStay()
   imgData = new Array(5).fill({ imgUrl: '', height: 500, width: 500 })
 
+
   ngOnInit() {
-    console.log(this.imgData)
     console.log(this.stay)
   }
+
 
   onAddStay() {
     console.log(this.stay)
@@ -27,6 +28,13 @@ export class EditStayComponent {
   async uploadUserImg(ev: Event) {
     const { secure_url } = await this.uploadImgService.uploadImg(ev)
     this.user.imgUrl = secure_url
+  }
+
+  toggleCheckbox(ev: any) {
+    const amenity = ev.target.value
+    if (ev.target.checked) {
+      // this.stay.amenities.push(amenity)
+    }
   }
 
   async uploadImg(ev: Event, index: number) {
