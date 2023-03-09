@@ -46,8 +46,6 @@ export class ImgCarouselComponent implements OnInit {
   }
 
   isUserPage() {
-    console.log('this.router.url:', this.router.url)
-    console.log('this.router.url.includes("user"):', this.router.url.includes("user"))
     return this.router.url.includes('user')
   }
 
