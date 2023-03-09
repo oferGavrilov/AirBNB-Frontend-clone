@@ -38,6 +38,10 @@ export class SearchPlaceModalComponent implements OnInit {
     else this.onSetIsPlacesEmpty(true)
   }
 
+  setFilter(place: string) {
+    this.stayFilter.place = place
+  }
+
   // Expression has changed after it was checked
   onSetIsPlacesEmpty(value: boolean) {
     setTimeout(() => {

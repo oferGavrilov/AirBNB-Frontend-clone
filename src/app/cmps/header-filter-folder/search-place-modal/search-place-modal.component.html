@@ -1,5 +1,5 @@
 <ul class="search-place-modal">
-  <li *ngFor="let place of places">
+  <li *ngFor="let place of places" (click)="setFilter(place)">
     <div class="icon-container">
       <span class="material-symbols-outlined">
         location_on

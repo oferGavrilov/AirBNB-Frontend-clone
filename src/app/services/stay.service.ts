@@ -56,7 +56,7 @@ export class StayService {
   public getEmptyFilter() {
     return {
       likeByUser: '',
-      country: '',
+      place: '',
       label: '',
       price: 0
     }
@@ -65,6 +65,10 @@ export class StayService {
   private _filter(stays: Stay[], filterBy: StayFilter) {
     if(filterBy.likeByUser) stays = stays.filter(stay => stay.likedByUsers.includes(filterBy.likeByUser))
     if(filterBy.label) stays = stays.filter(stay => stay.labels?.includes(filterBy.label))
+    if(filterBy.place) {
+      const regex = new RegExp(filterBy.place, 'i')
+      stays = stays.filter(stay => regex.test(stay.loc.address))
+    }
     return stays
   }
 
