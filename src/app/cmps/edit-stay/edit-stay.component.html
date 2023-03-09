@@ -1,1 +1,88 @@
-<p>edit-stay works!</p>
+<section class="edit-stay">
+      <form (submit)="onAddStay()">
+            <input type="text" [(ngModel)]="stay.name" name="name" placeholder="Stay name..">
+
+            <div class='img-picker'>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[0].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[0].imgUrl" class="user-img" [src]="imgData[0].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event , 0)" accept="img/*" id="imgUpload" />
+                  </label>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[1].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[1].imgUrl" class="user-img" [src]="imgData[1].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event, 1)" accept="img/*" id="imgUpload" />
+                  </label>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[2].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[2].imgUrl" class="user-img" [src]="imgData[2].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event, 2)" accept="img/*" id="imgUpload" />
+                  </label>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[3].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[3].imgUrl" class="user-img" [src]="imgData[3].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event,3)" accept="img/*" id="imgUpload" />
+                  </label>
+                  <label htmlFor="imgUpload">
+                        <div *ngIf="!imgData[4].imgUrl" class="upload-img-btn">
+                              <span class="material-symbols-outlined">upload</span>
+                        </div>
+                        <img *ngIf="imgData[4].imgUrl" class="user-img" [src]="imgData[4].imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event, 4)" accept="img/*" id="imgUpload" />
+                  </label>
+            </div>
+            <div class="stay-info">
+                  <label for="capacity">Capacity:
+                        <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.capacity" name="capacity"
+                              id="capacity">
+                  </label>
+                  <label for="stay-type">Stay type:
+                        <select name="stay-type" id="stay-type" [(ngModel)]="stay.roomType" required>
+                              <option value="national parks">National parks</option>
+                              <option value="shared homes">Shared homes</option>
+                              <option value="islands">Islands</option>
+                              <option value="beach">Beach</option>
+                              <option value="city">City</option>
+                              <option value="desert">Desert</option>
+                              <option value="mounted">Mounted</option>
+                        </select>
+                  </label>
+                  <label for="property-type">Property type:
+                        <select name="property-type" id="property-type" [(ngModel)]="stay.type">
+                              <option value="stay">Stay</option>
+                              <option value="apartment">Apartment</option>
+                              <option value="guest stay">Guest stay</option>
+                              <option value="hotel">Hotel</option>
+                        </select>
+                  </label>
+                  <label for="price">Price:
+                        <input type="number" [(ngModel)]="stay.price" name="price" id="price" required>
+                        / night
+                  </label>
+                  <label htmlFor="imgUpload" class="user-img-upload">
+                        <img *ngIf="!user.imgUrl" class="guest-img" src="assets/img/guest.png" alt="" />
+                        <img *ngIf="user.imgUrl" class="user-img" [src]="user.imgUrl" alt="" />
+                        <input type="file" (change)="uploadUserImg($event)" accept="img/*" id="user-img" />
+                  </label>
+            </div>
+            <div class="stay-description">
+                  <span class="title">Description</span>
+                  <textarea name="summary" [(ngModel)]="stay.summary" id="summary" cols="94" rows="10"></textarea>
+            </div>
+            <div class="amenities">
+                  <span class="title">Amenities</span>
+                  <label for="tv">TV
+                        <input type="checkbox" value="tv" name="tv" id="tv" [(ngModel)]="stay.amenities">
+                  </label>
+            </div>
+            <button>Save</button>
+      </form>
+</section>

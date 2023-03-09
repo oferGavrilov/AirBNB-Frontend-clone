@@ -102,8 +102,7 @@ export class OrderService {
     console.log(filterBy)
     if (filterBy.term) {
       const regex = new RegExp(filterBy.term, 'i')
-      orders = orders.filter(order => regex.test(order.stay.name))
-      // orders = orders.filter(order => regex.test(order.hostName))
+      orders = orders.filter(order => regex.test(order.stay.name ) || regex.test(order.hostName))
     }
     if (filterBy.hostId) orders = orders.filter(order => order.hostId === filterBy.hostId)
     if (filterBy.buyerId) orders = orders.filter(order => order.buyer._id === filterBy.buyerId)

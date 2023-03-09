@@ -10,4 +10,9 @@ import { StayService } from 'src/app/services/stay.service';
 export class StayListComponent {
   constructor(private stayService: StayService) { }
   @Input() stays!: Stay[] | null;
+
+
+  ngOnInit() {
+      this.stays?.map(stay => console.log(stay.type))
+  }
 }

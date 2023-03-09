@@ -9,7 +9,7 @@ import { UtilService } from './util.service';
 export class StayService {
   constructor(private utilService: UtilService) {
     this._createStays()
-   }
+  }
 
   STAY_KEY: string = 'stayDB';
 
@@ -38,11 +38,11 @@ export class StayService {
 
   public getById(stayId: string): Observable<Stay> {
     let stays = this.utilService.loadFromStorage(this.STAY_KEY)
-    const stay =  stays.find((stay: Stay) => stay._id === stayId)
+    const stay = stays.find((stay: Stay) => stay._id === stayId)
     return stay ? of(stay) : throwError(() => `Stay id ${stayId} not found!`)
   }
 
-  public save(stay: Stay){
+  public save(stay: Stay) {
     let stays = this.utilService.loadFromStorage(this.STAY_KEY)
     if (stay._id) stays = stays.map((currStay: Stay) => currStay._id === stay._id ? stay : currStay)
     else {
@@ -77,10 +77,55 @@ export class StayService {
     this.loadStays()
   }
 
+  public getEmptyStay() {
+    return {
+      name: '',
+      type: '',
+      imgUrls: new Array<string>(0),
+      price: 0,
+      summary: '',
+      capacity: 0,
+      amenities: [],
+      bathrooms: 0,
+      bedrooms: 0,
+      roomType: '',
+      host: {
+        createAt: Date.now(),
+        fullname: '',
+        location: '',
+        about: '',
+        responseTime: '',
+        thumbnailUrl: "https://a0.muscache.com/im/pictures/542dba0c-eb1b-4ab3-85f3-94d3cc8f87a4.jpg?aki_policy=profile_small",
+        pictureUrl: "https://xsgames.co/randomusers/avatar.php?g=male",
+        isSuperhost: true,
+        policyNumber: "36133410"
+      },
+      loc: {
+        country: '',
+        countryCode: '',
+        city: '',
+        address: '',
+        lat: -156.6917,
+        lan: 20.93792
+      },
+      reviews: [],
+      likedByUsers: [],
+      labels: [],
+      statReviews: {
+        cleanliness: 0,
+        communication: 4.3,
+        checkIn: 0,
+        accuracy: 0,
+        location: 0,
+        value: 0
+      }
+    }
+  }
+
   private _createStays() {
     let stays = this.utilService.loadFromStorage(this.STAY_KEY)
-    if(!stays) {
-      stays =  [
+    if (!stays) {
+      stays = [
         {
           "_id": "s101",
           "name": "Westin Kaanapali KORVN 2BR",
