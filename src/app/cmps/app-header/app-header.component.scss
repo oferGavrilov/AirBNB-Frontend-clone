@@ -9,7 +9,7 @@ header {
     border-bottom: 1px solid $border-color;
     color: $header-text-color;
     position: relative;
-    z-index: 3;
+    z-index: 7;
 
     .header-content {
         display: flex;

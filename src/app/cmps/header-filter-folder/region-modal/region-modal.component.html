@@ -1,29 +1,29 @@
 <section class="region-modal">
   <h2>Search by region</h2>
   <div class="img-container">
-    <div>
+    <div (click)="setFilter('')">
        <img src="assets/img/region/flex.jpg" alt="">
        <div class="name">I’m flexible</div>
     </div>
-    <div>
+    <div (click)="setFilter('Brazil')">
        <img src="assets/img/region/brazil.jpg" alt="">
        <div class="name">Brazil</div>
     </div>
-    <div>
+    <div (click)="setFilter('Italy')">
       <img src="assets/img/region/italy.webp" alt="">
       <div class="name">Italy</div>
     </div>
   </div>
   <div class="img-container">
-    <div>
+    <div (click)="setFilter('France')">
       <img src="assets/img/region/france.webp" alt="">
       <div class="name">France</div>
     </div>
-    <div>
+    <div (click)="setFilter('United States')">
       <img src="assets/img/region/usa.webp" alt="">
       <div class="name">United States</div>
     </div>
-    <div>
+    <div (click)="setFilter('Norway')">
       <img src="assets/img/region/norway.jpg" alt="">
       <div class="name">Norway</div>
     </div>

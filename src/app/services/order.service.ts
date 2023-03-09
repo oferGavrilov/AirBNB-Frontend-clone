@@ -28,8 +28,8 @@ export class OrderService {
         fullname: ''
       },
       totalPrice: 0,
-      startDate: new Date(),
-      endDate: new Date(),
+      startDate: new Date(0),
+      endDate: new Date(0),
       guests: {
         adults: 1,
         children: 0,

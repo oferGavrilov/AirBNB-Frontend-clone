@@ -39,6 +39,7 @@ export class StayOrderComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.subscription = this.orderService.order$.subscribe(order => this.order = order)
+    this.date = this.dateFromOrder
   }
 
   public toggleGuestModal() {
@@ -65,10 +66,15 @@ export class StayOrderComponent implements OnInit, OnDestroy {
     return (+this.Price + +this.CleanTax + +this.ServiceFee)
   }
 
+  get dateFromOrder() {
+    if(!this.order.startDate.getMilliseconds() || !this.order.endDate.getMilliseconds()) return ''
+    return this.order.startDate.toDateString() + '-' + this.order.endDate.toDateString()
+  }
+
   getGuests() {
-    let str = this.order.guests.adults + this.order.guests.children > 0 ? (this.order.guests.adults + this.order.guests.children) + ' guests, ' : ''
-    str += this.order.guests.infants > 0 ? this.order.guests.infants + ' infants, ' : ''
-    str += this.order.guests.pets > 0 ? this.order.guests.pets + ' pets, ' : ''
+    let str = this.order.guests.adults + this.order.guests.children > 0 ? (this.order.guests.adults + this.order.guests.children) + ' guests ' : ''
+    str += this.order.guests.infants > 0 ? ' ,' + this.order.guests.infants + ' infants ' : ''
+    str += this.order.guests.pets > 0 ? ' ,' + this.order.guests.pets + ' pets ' : ''
     return str
   }
 

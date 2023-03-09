@@ -11,6 +11,7 @@ export class HeaderFilterModalComponent {
   @Input() modalNav!: string
   @Input() order !: Order
   @Output() setModalNav = new EventEmitter()
+  @Output() setSearchFilter = new EventEmitter()
   @Input() stayFilter!: StayFilter
   @Input() placeNameFilter!: string
   isPlacesEmpty!: boolean
@@ -25,5 +26,10 @@ export class HeaderFilterModalComponent {
 
   get className() {
     return `header-filter-modal ${this.modalNav === 'guests-modal' ? ' right' : ''}`
+  }
+
+  get isNeedToShow() {
+    const isPlacesEmpty = !(this.modalNav === 'search-place-modal' && this.isPlacesEmpty)
+    return isPlacesEmpty && !(this.modalNav === 'start-date' || this.modalNav === 'end-date')
   }
 }

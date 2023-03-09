@@ -1,5 +1,5 @@
-<section [ngClass]="className" [ngSwitch]="modalNav" *ngIf="!(modalNav === 'search-place-modal' && isPlacesEmpty)">
-  <region-modal *ngSwitchCase="'region-modal'"></region-modal>
+<section [ngClass]="className" [ngSwitch]="modalNav" *ngIf="isNeedToShow">
+  <region-modal *ngSwitchCase="'region-modal'" [stayFilter]="stayFilter" (setSearchFilter)="setSearchFilter.emit($event)"></region-modal>
   <search-place-modal *ngSwitchCase="'search-place-modal'" [stayFilter]="stayFilter" [placeNameFilter]="placeNameFilter" (setIsPlacesEmpty)="setIsPlacesEmpty($event)"></search-place-modal>
   <header-filter-guest-modal *ngSwitchCase="'guests-modal'" [order]="order"></header-filter-guest-modal>
 </section>

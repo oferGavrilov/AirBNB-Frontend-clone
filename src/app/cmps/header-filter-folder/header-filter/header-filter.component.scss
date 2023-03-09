@@ -9,6 +9,7 @@
 
 .header-filter {
   @include center-absolute();
+  transition: .4s;
   &.active {
     top: 135px;
   }
@@ -20,7 +21,7 @@
     border-radius: 40px;
     box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
     transition: box-shadow 0.2s ease;
-    padding: 7px 10px;
+    // padding: 7px 10px;
     font-size: rem(14px);
   }
   .header-filter-close {
@@ -53,18 +54,34 @@
     }
 
   .header-filter-active {
+    height: 64px;
     position: relative;
+    background-color: #ebebeb;
+    height: 100%;
     >*{
       display: flex;
       cursor: pointer;
       color: $main-color;
       font-size: 14px;
+      height: 100%;
+
     }
 
-    >*:not(.who-guests, #calender, :last-child) {
+    >*:not(.who-guests, #calender, :last-child, .border) {
       flex-direction: column;
-      border-right: 1px solid $border-color;
-      padding: 4px 24px;
+      padding: 11px 34px;
+    }
+
+    .active {
+      background-color: #fff;
+      box-shadow: 0 23px 28px #b4b3b3;
+      border-radius: 40px;
+    }
+
+    .border {
+      width: 1px;
+      background-color: darken($border-color, 5%) ;
+      height: 60%;
     }
 
     .date {
@@ -82,6 +99,7 @@
         font-size: 14px;
         color: $main-color;
         border: none;
+        background-color: inherit;
         &:focus-visible {
           outline: none;
         }
@@ -89,11 +107,14 @@
     }
 
     .who-guests {
+      width: 300px;
+      display: flex;
+      justify-content: space-between;
       .add-guests {
         display: flex;
-        padding: 4px 24px;
+        padding: 11px 10px 11px 24px;
         flex-direction: column;
-        width: 160px;
+        min-width: 160px;
       }
 
       .search {
@@ -101,6 +122,7 @@
         font-size: 16px;
         font-weight: 500;
         color: #ffffff;
+        margin: 7px 10px;
         padding: 16px 24px;
         gap: 8px;
         background-color: $secondary-color;

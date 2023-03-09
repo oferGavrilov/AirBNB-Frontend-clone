@@ -38,6 +38,7 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.subscriptionOrder = this.orderService.order$.subscribe(order => this.order = order)
     this.subscriptionStayFilter =  this.stayService.stayFilter$.subscribe(stayFilter => this.stayFilter = stayFilter)
+    this.date = this.dateFromOrder
   }
 
   onToggleHeaderFilter() {
@@ -55,8 +56,8 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
     else this.setModalNav('region-modal')
   }
 
-  onClickDate() {
-    this.setModalNav('')
+  onClickDate(val: string) {
+    this.modalNav = val
     this.isBlur = true
   }
 
@@ -68,12 +69,52 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
     if(!this.isBlur) this.onToggleHeaderFilter()
   }
 
-  onSetFilter() {
+  onClickSearch() {
     this.orderService.setOrder(this.order)
+    this.stayService.setFilter(this.stayFilter)
+    this.onToggleHeaderFilter()
+  }
+
+  get dateFromOrder() {
+    if(!this.order.startDate.getMilliseconds() || !this.order.endDate.getMilliseconds()) return ''
+    return this.order.startDate.toDateString() + '-' + this.order.endDate.toDateString()
+  }
+
+  getGuests() {
+    let str = this.order.guests.adults + this.order.guests.children > 0 ? (this.order.guests.adults + this.order.guests.children) + ' guests ' : ''
+    str += this.order.guests.infants > 0 ? ' ,' + this.order.guests.infants + ' infants ' : ''
+    str += this.order.guests.pets > 0 ? ' ,' + this.order.guests.pets + ' pets ' : ''
+    return str
+  }
+
+  getCheckIn() {
+    if (this.date) {
+      const dates = this.date?.split('-')
+      if (dates.length >= 1) {
+        this.order.startDate = new Date(dates[0])
+        return new Date(dates[0])
+      }
+    }
+    return
+  }
+
+  getCheckOut() {
+    if (this.date) {
+      const dates = this.date?.split('-')
+      if (dates.length === 2) {
+        this.order.endDate = new Date(dates[1])
+        return new Date(dates[1])
+      }
+    }
+    return
   }
 
   ngOnDestroy() {
     this.subscriptionOrder.unsubscribe()
     this.subscriptionStayFilter.unsubscribe()
+  }
+
+  setSearchFilter(place: string) {
+    this.searchFilter = place
   }
 }

@@ -64,7 +64,7 @@ export interface StatReviews {
 
 export interface StayFilter {
   likeByUser: string,
-  country: string,
+  place: string,
   label: string,
   price: number,
 }
