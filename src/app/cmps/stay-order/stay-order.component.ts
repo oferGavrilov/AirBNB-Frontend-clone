@@ -4,8 +4,9 @@ import { faStar, faCircleMinus, faCirclePlus, faChevronUp, faChevronDown } from 
 import { CalendarOptions } from 'ngx-airbnb-calendar';
 import { OrderService } from 'src/app/services/order.service';
 import { UserService } from 'src/app/services/user.service';
-import { Guest, Order } from 'src/app/models/order.model';
+import { Order } from 'src/app/models/order.model';
 import { Subscription } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'stay-order',
@@ -13,7 +14,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./stay-order.component.scss']
 })
 export class StayOrderComponent implements OnInit, OnDestroy {
-  constructor(private orderService: OrderService, private userService: UserService) { }
+  constructor(private orderService: OrderService, private userService: UserService, private router: Router,) { }
   @Input() stay !: Stay
 
   faCirclePlus = faCirclePlus
@@ -101,8 +102,15 @@ export class StayOrderComponent implements OnInit, OnDestroy {
     this.order.buyer = { _id: user._id, fullname: user.fullname }
     this.order.totalPrice = this.TotalPrice
     this.order.stay = { _id: this.stay._id, name: this.stay.name, price: this.stay.price }
-    this.orderService.save(this.order)
-    this.orderService.setOrder(this.orderService.getEmptyOrder() as Order)
+    try {
+      this.orderService.save(this.order)
+      this.orderService.setOrder(this.orderService.getEmptyOrder() as Order)
+    } catch (err) {
+      console.log(err)
+    }
+    finally {
+      this.router.navigateByUrl('')
+    }
   }
 
   ngOnDestroy() {

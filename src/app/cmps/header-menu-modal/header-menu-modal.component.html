@@ -4,8 +4,8 @@
         <span [routerLink]="['/login']">Log in</span>
     </div>
     <div *ngIf="isLoggedInUser()">
-        <span [routerLink]="['/user']" class="bold">Trips</span>
-        <span [routerLink]="['/user']" class="bold">Wishlist</span>
+        <span [routerLink]="['/user']" (click)="toggleMenuModal()" class="bold">Trips</span>
+        <span [routerLink]="['/user']" (click)="toggleMenuModal()" class="bold">Wishlist</span>
     </div>
     <span [routerLink]="['/home']">Airbnb your home</span>
     <span *ngIf="isLoggedInUser()" class="logout" (click)="onLogout()">Logout</span>

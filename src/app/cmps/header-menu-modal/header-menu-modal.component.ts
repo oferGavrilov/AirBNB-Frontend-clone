@@ -18,8 +18,12 @@ export class HeaderMenuModalComponent {
     return this.userService.getUser() !== null
   }
 
+  toggleMenuModal() {
+    this.onToggleHeaderMenuModal.emit()
+  }
+
   onLogout() {
     this.userService.logout()
-    this.onToggleHeaderMenuModal.emit()
+    this.toggleMenuModal()
   }
 }
