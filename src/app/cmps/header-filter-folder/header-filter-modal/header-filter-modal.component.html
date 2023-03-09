@@ -1,4 +1,4 @@
-<section class="header-filter-modal" [ngSwitch]="modalNav">
+<section class="header-filter-modal" [ngSwitch]="modalNav" *ngIf="!(modalNav === 'search-place-modal' && isPlacesEmpty)">
   <region-modal *ngSwitchCase="'region-modal'"></region-modal>
-  <search-place-modal *ngSwitchCase="'search-place-modal'" [stayFilter]="stayFilter" [placeNameFilter]="placeNameFilter"></search-place-modal>
+  <search-place-modal *ngSwitchCase="'search-place-modal'" [stayFilter]="stayFilter" [placeNameFilter]="placeNameFilter" (setIsPlacesEmpty)="setIsPlacesEmpty($event)"></search-place-modal>
 </section>

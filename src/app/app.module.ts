@@ -40,6 +40,7 @@ import { RegionModalComponent } from './cmps/header-filter-folder/region-modal/r
 import { SearchPlaceModalComponent } from './cmps/header-filter-folder/search-place-modal/search-place-modal.component';
 import { OrderFilterModalComponent } from './cmps/order-filter-modal/order-filter-modal.component';
 import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
+import { HeaderFilterGuestModalComponent } from './cmps/header-filter-folder/header-filter-guest-modal/header-filter-guest-modal.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
     SearchPlaceModalComponent,
     RegionModalComponent,
     OrderFilterModalComponent,
-    GuestModalComponent
+    GuestModalComponent,
+    HeaderFilterGuestModalComponent
   ],
   imports: [
     BrowserModule,
