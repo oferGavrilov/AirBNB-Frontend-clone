@@ -22,4 +22,8 @@ export class HeaderFilterModalComponent {
   ngOnChanges(changes: SimpleChanges) {
     this.setIsPlacesEmpty(false)
   }
+
+  get className() {
+    return `header-filter-modal ${this.modalNav === 'guests-modal' ? ' right' : ''}`
+  }
 }

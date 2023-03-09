@@ -1,0 +1,79 @@
+@import '../../../../assets/styles/setup/variables';
+@import '../../../../assets/styles/setup/mixins';
+
+.header-filter-guest-modal {
+  min-width: 330px;
+  cursor: default;
+
+  ul {
+    >*:not(:first-child, :last-child) {
+      padding: 24px 0;
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    li:first-child {
+      padding-bottom: 24px;
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    li:last-child {
+      padding-top: 24px;
+    }
+  }
+
+  .guest-container {
+      display: flex;
+      justify-content: space-between;
+
+      .type {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 6px;
+
+          h5 {
+              text-align: left;
+              font-size: 16px;
+              line-height: 20px;
+              font-weight: 500;
+          }
+
+          span {
+              font-size: 14px;
+              color: $main-color;
+          }
+      }
+
+      .amount {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+
+          fa-icon {
+            stroke-width: 12px;
+            stroke: #b0b0b0;
+          }
+
+          button {
+            border: none;
+            color: white;
+            background-color: white;
+          }
+
+          button.disabled {
+            color: white;
+            cursor: not-allowed;
+
+            fa-icon {
+                pointer-events: none;
+                stroke: #dedcdc;
+            }
+          }
+
+          fa-icon {
+              cursor: pointer;
+              font-size: 32px;
+          }
+      }
+  }
+}

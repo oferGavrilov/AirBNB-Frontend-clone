@@ -14,4 +14,9 @@
   color: $header-text-color;
   min-width: 350px;
   background-color: #ffffff;
+
+  &.right {
+    right: 0;
+    left: unset;
+  }
 }
