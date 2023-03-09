@@ -46,13 +46,13 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
 
   setModalNav(val: string) {
     this.modalNav = val
-    this.isBlur = false
+    this.isBlur = true
   }
 
   onSetWhereSearch(val: string) {
-    console.log('val:', val)
     this.searchFilter = val
-    this.setModalNav('search-place-modal')
+    if(val) this.setModalNav('search-place-modal')
+    else this.setModalNav('region-modal')
   }
 
   onClickDate() {

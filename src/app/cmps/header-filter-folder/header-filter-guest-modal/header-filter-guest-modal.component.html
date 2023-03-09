@@ -1,0 +1,17 @@
+<section class="header-filter-guest-modal">
+  <ul>
+    <li *ngFor="let guest of Guests" class="guest-container">
+        <div class="type">
+            <h5>{{guest.type}}</h5>
+            <span>{{GuestTypeSubTitle(guest.type)}}</span>
+        </div>
+        <div class="amount">
+            <button [ngClass]="checkMinusBtn(guest.type) ? '' : 'disabled'"><fa-icon class="star"
+                    [icon]="faCircleMinus" (click)="onAddGuests(guest.type, -1)"></fa-icon></button>
+            <span>{{guest.amount}}</span>
+            <button [ngClass]="checkPlusBtn(guest.type) ? '' : 'disabled'"><fa-icon class="star"
+                    [icon]="faCirclePlus" (click)="onAddGuests(guest.type, 1)"></fa-icon></button>
+        </div>
+    </li>
+  </ul>
+</section>

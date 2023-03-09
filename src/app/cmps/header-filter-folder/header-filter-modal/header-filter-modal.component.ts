@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, SimpleChanges } from '@angular/core';
 import { Order } from 'src/app/models/order.model';
 import { StayFilter } from 'src/app/models/stay.model';
 
@@ -13,4 +13,17 @@ export class HeaderFilterModalComponent {
   @Output() setModalNav = new EventEmitter()
   @Input() stayFilter!: StayFilter
   @Input() placeNameFilter!: string
+  isPlacesEmpty!: boolean
+
+  setIsPlacesEmpty(value: boolean) {
+    this.isPlacesEmpty = value
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    this.setIsPlacesEmpty(false)
+  }
+
+  get className() {
+    return `header-filter-modal ${this.modalNav === 'guests-modal' ? ' right' : ''}`
+  }
 }
