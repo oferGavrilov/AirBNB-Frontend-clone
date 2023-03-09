@@ -2,25 +2,35 @@
 @import '../../../assets/styles/setup/mixins';
 
 .edit-stay {
-      input , select{
+      color: #373333;
+
+      input,
+      select {
             padding: 6px;
             outline: none;
             border: none;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid #2c2929;
             border-top-right-radius: 8px;
             border-top-left-radius: 8px;
-            &:focus-visible{
+
+            &:focus-visible {
                   background-color: #f2f8ff;
                   border-bottom: 1px solid #1976d2;
             }
       }
+
+      textarea {
+            width: 100%;
+            resize: vertical;
+      }
+
       .img-picker {
             display: grid;
             grid-template-columns: 1fr .5fr .5fr;
             gap: 10px;
             height: 416px;
             width: 100%;
-            padding: 16px;
+            padding: 16px 0;
 
             label {
                   @include center-flex();
@@ -61,22 +71,41 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 24px 16px;
-            label{
+            padding: 24px 0;
+
+            label {
                   display: flex;
                   align-items: center;
                   justify-content: center;
                   gap: 4px;
             }
-            .user-img-upload{
-                  input{
+
+            .user-img-upload {
+                  input {
                         display: none;
                   }
+
                   .user-img {
                         cursor: pointer;
                         border-radius: 50%;
                         width: 45px;
                         height: 45px;
+                  }
+            }
+      }
+
+      .stay-description {
+            border-top: 1px solid $border-color;
+            border-bottom: 1px solid $border-color;
+            padding: 24px 0;
+
+            textarea {
+                  border: 2px solid $border-color;
+                  margin-top: 24px;
+                  outline: none;
+
+                  &:focus-visible {
+                        border: 2px solid #1976d2;
                   }
             }
       }

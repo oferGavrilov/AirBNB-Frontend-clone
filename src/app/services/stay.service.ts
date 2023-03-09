@@ -86,7 +86,7 @@ export class StayService {
       bedrooms: 0,
       roomType: '',
       host: {
-        createAt: 0,
+        createAt: Date.now(),
         fullname: '',
         location: '',
         about: '',
