@@ -85,6 +85,7 @@ export class OrderService {
       status: '',
       hostId: '',
       buyerId: '',
+      term: ''
     }
   }
 
@@ -99,6 +100,11 @@ export class OrderService {
 
   private _filter(orders: Order[], filterBy: FilterOrder) {
     console.log(filterBy)
+    if (filterBy.term) {
+      const regex = new RegExp(filterBy.term, 'i')
+      orders = orders.filter(order => regex.test(order.stay.name)) 
+      // orders = orders.filter(order => regex.test(order.hostName))
+    }
     if (filterBy.hostId) orders = orders.filter(order => order.hostId === filterBy.hostId)
     if (filterBy.buyerId) orders = orders.filter(order => order.buyer._id === filterBy.buyerId)
     if (filterBy.status) orders = orders.filter(order => order.status === filterBy.status)

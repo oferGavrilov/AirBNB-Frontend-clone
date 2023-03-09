@@ -1,14 +1,13 @@
-import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { Subscription } from 'rxjs';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ngxCsv } from 'ngx-csv';
+
 import { FilterOrder, Order } from 'src/app/models/order.model';
 import { User } from 'src/app/models/user.model';
 import { OrderService } from 'src/app/services/order.service';
 import { UserService } from 'src/app/services/user.service';
 
-import { faHourglass } from '@fortawesome/free-solid-svg-icons';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import { faCircle } from '@fortawesome/free-solid-svg-icons'
-import { ngxCsv } from 'ngx-csv';
+import { faCheck, faCircle } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'user-trips',
@@ -19,7 +18,6 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   constructor(private orderService: OrderService
     , private userService: UserService) { }
 
-  Pending = faHourglass
   faCheck = faCheck
   faCircle = faCircle
 
@@ -42,7 +40,14 @@ export class UserTripsComponent implements OnInit, OnDestroy {
       this.ordersToShow = [...orders]
     })
   }
+  onSetFilter() {
+    this.orderService.setFilter(this.orderFilter)
+  }
 
+  onClearSearch() {
+    this.orderService.setFilter(this.orderService.getEmptyFilter())
+    this.isSearchActive = false
+  }
   setOrdersToShow(orders: Order[]) {
     console.log(this.ordersToShow)
     this.ordersToShow = orders
@@ -52,14 +57,14 @@ export class UserTripsComponent implements OnInit, OnDestroy {
     return this.orders.filter(order => order.status === type).length
   }
 
-  onDownloadCSV() {
-    new ngxCsv(this.getData(), "orders", this.getOptions())
-  }
-
   toggleFilterModal() {
     this.isShowFilterModal = !this.isShowFilterModal
   }
 
+  onDownloadCSV() {
+    new ngxCsv(this.getData(), "orders", this.getOptions())
+  }
+  
   onPrint() {
     window.print()
   }

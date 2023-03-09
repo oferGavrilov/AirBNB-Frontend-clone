@@ -25,6 +25,7 @@ export interface FilterOrder {
   stayName: string
   hostName: string
   totalPrice: number
+  term:string
 }
 
 export interface Guest {

@@ -2,9 +2,9 @@
     <div class="user-header">
         <h2 *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
         <div *ngIf="isSearchActive" class="search-input">
-            <span class="icon material-symbols-outlined">search</span>
-            <input type="text" name="term" [(ngModel)]="orderFilter.stayName" placeholder="Search an order here..">
-            <span class="icon material-symbols-outlined">close</span>
+            <input type="text" name="term" [(ngModel)]="orderFilter.term" (ngModelChange)="onSetFilter()" autofocus
+                autocomplete="off" placeholder="Search an order here..">
+            <span class="icon material-symbols-outlined" (click)="onClearSearch()">close</span>
         </div>
         <div class="tools">
             <div (click)="isSearchActive = !isSearchActive">
