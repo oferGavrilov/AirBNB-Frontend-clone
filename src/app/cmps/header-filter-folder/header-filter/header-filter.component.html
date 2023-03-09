@@ -1,9 +1,8 @@
 <section [ngClass]="isHeaderFilterActive ? 'header-filter active' : 'header-filter'">
   <div (click)="onToggleHeaderFilter()" class="header-filter-close" *ngIf="!isHeaderFilterActive">
-    <span *ngIf="!searchFilter">Anywhere</span>
-    <span *ngIf="searchFilter">{{searchFilter}}</span>
-    <span>Any week</span>
-    <span>Add guests</span>
+    <span>{{Anywhere}}</span>
+    <span>{{AnyWeek}}</span>
+    <span>{{addGuest}}</span>
     <span class="icon-container">
         <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
     </span>

@@ -13,6 +13,7 @@ export class SearchPlaceModalComponent implements OnInit {
   @Input() stayFilter!: StayFilter
   @Input() placeNameFilter!: string
   @Output() setIsPlacesEmpty = new EventEmitter<boolean>()
+  @Output() setSearchFilter = new EventEmitter()
   stays!: Stay[]
   places: string[] = []
 
@@ -39,6 +40,7 @@ export class SearchPlaceModalComponent implements OnInit {
   }
 
   setFilter(place: string) {
+    this.setSearchFilter.emit(place)
     this.stayFilter.place = place
   }
 

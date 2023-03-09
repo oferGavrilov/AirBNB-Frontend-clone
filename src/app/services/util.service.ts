@@ -8,8 +8,8 @@ export class UtilService {
   constructor() { }
 
   public getMonthName(time: number) {
-    const monthNames = ["Jan`", "Feb`", "March", "April", "May", "June",
-      "July", "Aug`", "Sep`", "Oct`", "Nov`", "Dec`"
+    const monthNames = ["Jan", "Feb", "March", "April", "May", "June",
+      "July", "Aug", "Sep", "Oct", "Nov", "Dec"
     ]
     const date = new Date(time)
     return monthNames[date.getMonth()]

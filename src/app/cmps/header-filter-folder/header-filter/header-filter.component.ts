@@ -6,6 +6,7 @@ import { Subscription } from 'rxjs';
 import { CalendarOptions } from 'ngx-airbnb-calendar';
 import { StayFilter } from 'src/app/models/stay.model';
 import { StayService } from 'src/app/services/stay.service';
+import { UtilService } from 'src/app/services/util.service';
 
 @Component({
   selector: 'header-filter',
@@ -15,7 +16,9 @@ import { StayService } from 'src/app/services/stay.service';
 export class HeaderFilterComponent implements OnInit, OnDestroy {
   constructor(
     private orderService: OrderService,
-    private stayService: StayService) { }
+    private stayService: StayService,
+    private utilService: UtilService) {
+     }
   @Input() isHeaderFilterActive!: boolean
   @Output() toggleHeaderFilter = new EventEmitter<void>()
   faMagnifyingGlass = faMagnifyingGlass
@@ -39,6 +42,27 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
     this.subscriptionOrder = this.orderService.order$.subscribe(order => this.order = order)
     this.subscriptionStayFilter =  this.stayService.stayFilter$.subscribe(stayFilter => this.stayFilter = stayFilter)
     this.date = this.dateFromOrder
+  }
+
+  get Anywhere() {
+    return this.stayFilter.place ? this.stayFilter.place : 'Anywhere'
+  }
+
+  get AnyWeek() {
+    if(!this.order.startDate || !this.order.endDate || !this.date) return 'Any week'
+    if(this.order.startDate.getMonth() === this.order.endDate.getMonth()){
+      const monthName = this.utilService.getMonthName(this.order.endDate.getMilliseconds())
+      return `${monthName} ${this.order.startDate.getDate()} - ${this.order.endDate.getDate()}`
+    }
+    const month1 = this.utilService.getMonthName(this.order.endDate.getMilliseconds())
+    const month2 = this.utilService.getMonthName(this.order.endDate.getMilliseconds())
+    return `${month1} ${this.order.startDate.getDate()} - ${month2} ${this.order.endDate.getDate()}  `
+  }
+
+  get addGuest() {
+    const guests = this.order.guests
+    if(guests.adults === 1 && guests.children === 0 && guests.infants === 0 && guests.pets === 0) return 'Add guests'
+    return this.getGuests()
   }
 
   onToggleHeaderFilter() {
