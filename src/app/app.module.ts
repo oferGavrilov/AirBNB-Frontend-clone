@@ -23,7 +23,7 @@ import { ReviewListComponent } from './cmps/details/review-list/review-list.comp
 import { ReviewPreviewComponent } from './cmps/details/review-preview/review-preview.component';
 import { HostInfoComponent } from './cmps/details/host-info/host-info.component';
 import { AirbnbCalendarModule } from 'ngx-airbnb-calendar';
-import { FormsModule , ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderMenuModalComponent } from './cmps/header-menu-modal/header-menu-modal.component';
 import { LoginComponent } from './cmps/login/login.component';
 import { AppFooterComponent } from './cmps/app-footer/app-footer.component';
@@ -41,7 +41,6 @@ import { SearchPlaceModalComponent } from './cmps/header-filter-folder/search-pl
 import { OrderFilterModalComponent } from './cmps/order-filter-modal/order-filter-modal.component';
 import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
 import { HeaderFilterGuestModalComponent } from './cmps/header-filter-folder/header-filter-guest-modal/header-filter-guest-modal.component';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -88,7 +87,7 @@ import { HeaderFilterGuestModalComponent } from './cmps/header-filter-folder/hea
     FormsModule,
     ReactiveFormsModule,
     MatSelectModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
