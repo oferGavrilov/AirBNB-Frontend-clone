@@ -28,6 +28,14 @@ export class StayService {
     this._stays$.next(stays)
   }
 
+  public query(filterBy: StayFilter) {
+    let stays = this.utilService.loadFromStorage(this.STAY_KEY) || []
+    if (filterBy) {
+      stays = this._filter(stays, filterBy)
+    }
+    return stays ? of(stays) : throwError(() => `Cant load stay!`)
+  }
+
   public getById(stayId: string): Observable<Stay> {
     let stays = this.utilService.loadFromStorage(this.STAY_KEY)
     const stay =  stays.find((stay: Stay) => stay._id === stayId)
