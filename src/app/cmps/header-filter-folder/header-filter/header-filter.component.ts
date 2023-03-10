@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output, OnInit, OnDestroy } from '@angular/core';
+import { Component, EventEmitter, Input, Output, OnInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { Order } from 'src/app/models/order.model';
 import { OrderService } from 'src/app/services/order.service';
@@ -18,7 +18,7 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
     private orderService: OrderService,
     private stayService: StayService,
     private utilService: UtilService) {
-     }
+    }
   @Input() isHeaderFilterActive!: boolean
   @Output() toggleHeaderFilter = new EventEmitter<void>()
   faMagnifyingGlass = faMagnifyingGlass
@@ -90,6 +90,7 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
   }
 
   onBlur() {
+    console.log('out:')
     if(!this.isBlur) this.onToggleHeaderFilter()
   }
 
@@ -133,12 +134,13 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
     return
   }
 
+  setSearchFilter(place: string) {
+    this.searchFilter = place
+  }
+
   ngOnDestroy() {
     this.subscriptionOrder.unsubscribe()
     this.subscriptionStayFilter.unsubscribe()
   }
 
-  setSearchFilter(place: string) {
-    this.searchFilter = place
-  }
 }
