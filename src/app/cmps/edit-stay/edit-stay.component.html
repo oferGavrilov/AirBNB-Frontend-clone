@@ -79,10 +79,21 @@
                                     <option value="hotel">Hotel</option>
                               </select>
                         </label>
-                        <label htmlFor="imgUpload" class="user-img-upload">
+                        <!-- <label htmlFor="imgUpload" class="user-img-upload">
                               <img *ngIf="!user.imgUrl" class="guest-img" src="assets/img/guest.png" alt="" />
                               <img *ngIf="user.imgUrl" class="user-img" [src]="user.imgUrl" alt="" />
                               <input type="file" (change)="uploadUserImg($event)" accept="img/*" id="user-img" />
+                        </label> -->
+                  </div>
+                  <div class="location">
+                        <label for="country">Country:
+                              <input type="text" name="country" id="country" [(ngModel)]="stay.loc.country">
+                        </label>
+                        <label for="country">City:
+                              <input type="text" name="city" id="city" [(ngModel)]="stay.loc.city">
+                        </label>
+                        <label for="country">Address:
+                              <input type="text" name="address" id="address" [(ngModel)]="stay.loc.address">
                         </label>
                   </div>
             </div>

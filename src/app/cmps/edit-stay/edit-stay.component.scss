@@ -72,17 +72,14 @@
             justify-content: space-between;
             padding: 24px 0;
             flex-direction: column;
-            
-            .numeric-inputs{
+            gap: 10px;
+
+            >* {
                   display: flex;
                   align-items: center;
                   justify-content: space-between;
             }
-            .select-inputs{
-                  display: flex;
-                  align-items: center;
-                  justify-content: space-between;
-            }
+
             label {
                   display: flex;
                   align-items: center;
