@@ -41,6 +41,7 @@ import { SearchPlaceModalComponent } from './cmps/header-filter-folder/search-pl
 import { OrderFilterModalComponent } from './cmps/order-filter-modal/order-filter-modal.component';
 import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
 import { HeaderFilterGuestModalComponent } from './cmps/header-filter-folder/header-filter-guest-modal/header-filter-guest-modal.component';
+import { PurchaseIndicationComponent } from './cmps/details/purchase-indication/purchase-indication.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -75,7 +76,8 @@ import { HeaderFilterGuestModalComponent } from './cmps/header-filter-folder/hea
     RegionModalComponent,
     OrderFilterModalComponent,
     GuestModalComponent,
-    HeaderFilterGuestModalComponent
+    HeaderFilterGuestModalComponent,
+    PurchaseIndicationComponent
   ],
   imports: [
     BrowserModule,

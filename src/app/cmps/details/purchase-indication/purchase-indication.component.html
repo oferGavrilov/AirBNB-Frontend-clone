@@ -1,0 +1,43 @@
+<section class="purchase-indication">
+  <div class="title">
+    <h2>One last step</h2>
+    <p>Dir guest,</p>
+    <p>In order to complete your reservation, please confirm your trip details</p>
+  </div>
+  <div class="content">
+    <div class="detailes">
+      <h3>Reservation details</h3>
+      <h4>Trip dates:</h4>
+      <div class="dates">
+        <span>{{order?.startDate | date }}</span>
+        <span>-</span>
+        <span>{{order?.endDate | date }}</span>
+      </div>
+      <h4>Guests</h4>
+      <div>{{getGuests}}</div>
+      <div class="price-details">
+        <h4>Price details</h4>
+        <div class="price-night">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="service">
+          <span>Service fee</span>
+          <span>$0</span>
+        </div>
+      </div>
+      <div class="price-total">
+        <span>Total</span>
+        <span>{{order.totalPrice}}</span>
+      </div>
+    </div>
+    <div class="img-container">
+      <img [src]="stay.imgUrls[0]" alt="">
+      <div>{{stay.loc.address}}</div>
+    </div>
+  </div>
+  <div class="btn-container">
+    <button>Back</button>
+    <button>Confirm</button>
+  </div>
+</section>

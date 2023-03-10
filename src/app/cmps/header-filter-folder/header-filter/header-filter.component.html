@@ -36,6 +36,6 @@
         <span *ngIf="getGuests().length < 11">Search</span>
       </div>
     </div>
-    <header-filter-modal *ngIf="modalNav" [modalNav]="modalNav" (setModalNav)="setModalNav" [order]="order" [stayFilter]="stayFilter" [placeNameFilter]="searchFilter" (setSearchFilter)="setSearchFilter($event)"></header-filter-modal>
+    <header-filter-modal (focusout)="onBlur()" *ngIf="modalNav" [modalNav]="modalNav" (setModalNav)="setModalNav" [order]="order" [stayFilter]="stayFilter" [placeNameFilter]="searchFilter" (setSearchFilter)="setSearchFilter($event)"></header-filter-modal>
   </div>
 </section>

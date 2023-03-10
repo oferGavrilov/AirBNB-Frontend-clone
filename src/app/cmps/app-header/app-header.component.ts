@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener } from '@angular/core'
+import { Component } from '@angular/core'
 import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
 import { UserService } from 'src/app/services/user.service'
 
