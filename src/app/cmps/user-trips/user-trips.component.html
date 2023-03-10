@@ -1,6 +1,6 @@
 <section class="user-trips">
     <div class="user-header">
-        <h2 *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
+        <h2 typingAnimation *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
         <div *ngIf="isSearchActive" class="search-input">
             <input type="text" name="term" [(ngModel)]="orderFilter.term" (ngModelChange)="onSetFilter()" autofocus
                 autocomplete="off" placeholder="Search an order here..">

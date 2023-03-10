@@ -20,6 +20,8 @@ export class UserTripsComponent implements OnInit, OnDestroy {
 
   faCheck = faCheck
   faCircle = faCircle
+  start:boolean = false
+  stringInterpolation: string = "Angular 4 Typing Animation Directive (string interpolation)"
 
   subscription!: Subscription
   orders !: Order[]
@@ -31,6 +33,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
 
   // TODO:GET USER FROM GUARD
   ngOnInit(): void {
+    setTimeout(() => this.start = true, 1000)
     this.user = this.userService.getUser()
     this.orderFilter = this.orderService.getEmptyFilter()
     this.orderFilter.buyerId = this.user._id

@@ -10,7 +10,6 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^15.2.2",
     "@angular/cdk": "^15.2.1",
     "@angular/common": "^15.1.0",
     "@angular/compiler": "^15.1.0",
@@ -24,6 +23,7 @@
     "@fortawesome/angular-fontawesome": "^0.12.1",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@googlemaps/js-api-loader": "^1.15.1",
+    "angular-typing-animation": "^0.5.4",
     "ngx-airbnb-calendar": "^0.5.0",
     "ngx-csv": "^0.3.2",
     "rxjs": "~7.8.0",

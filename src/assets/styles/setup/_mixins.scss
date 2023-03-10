@@ -80,3 +80,15 @@
         }
     }
 }
+
+@mixin main-btn  {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    padding: 14px 24px;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+    border: none;
+    background: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
+}

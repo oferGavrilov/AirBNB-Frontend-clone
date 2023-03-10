@@ -110,10 +110,17 @@
                   border: 2px solid $border-color;
                   margin-top: 24px;
                   outline: none;
+                  min-height: 200px;
 
                   &:focus-visible {
                         border: 2px solid #1976d2;
                   }
             }
+      }
+
+      .save-btn {
+            @include main-btn();
+            margin: 24px 0;
+            padding: 10px 24px;
       }
 }
