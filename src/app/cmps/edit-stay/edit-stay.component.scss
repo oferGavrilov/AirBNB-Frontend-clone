@@ -72,12 +72,14 @@
             justify-content: space-between;
             padding: 24px 0;
             flex-direction: column;
-            gap: 10px;
+            gap: 30px;
 
             >* {
                   display: flex;
                   align-items: center;
-                  justify-content: space-between;
+                  gap: 40px;
+                  padding-bottom: 20px ;
+                  border-bottom: 1px solid $border-color;
             }
 
             label {
@@ -102,13 +104,12 @@
       }
 
       .stay-description {
-            border-top: 1px solid $border-color;
             border-bottom: 1px solid $border-color;
             padding: 24px 0;
 
             textarea {
                   border: 2px solid $border-color;
-                  margin-top: 24px;
+                  margin-top: 16px;
                   outline: none;
                   min-height: 200px;
 

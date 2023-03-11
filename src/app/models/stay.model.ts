@@ -1,4 +1,5 @@
 export interface Stay {
+    
     _id: string,
     type: string,
     name: string,
