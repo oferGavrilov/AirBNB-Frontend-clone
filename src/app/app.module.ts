@@ -43,6 +43,12 @@ import { OrderFilterModalComponent } from './cmps/order-filter-modal/order-filte
 import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
 import { HeaderFilterGuestModalComponent } from './cmps/header-filter-folder/header-filter-guest-modal/header-filter-guest-modal.component';
 import { PurchaseIndicationComponent } from './cmps/details/purchase-indication/purchase-indication.component';
+
+import { MatMenuModule } from '@angular/material/menu'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar'
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -90,6 +96,9 @@ import { PurchaseIndicationComponent } from './cmps/details/purchase-indication/
     FormsModule,
     ReactiveFormsModule,
     MatSelectModule,
+    MatMenuModule,
+    BrowserAnimationsModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent],

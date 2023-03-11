@@ -39,6 +39,12 @@ export class StayOrderComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.subscription = this.orderService.order$.subscribe(order => this.order = order)
+    console.log(this.order)
+    if (!this.order.startDate.getTime()){
+      console.log(this.order.startDate.getTime())
+      this.order.startDate = new Date()
+    }
+    if (!this.order.endDate.getTime()) this.order.endDate = new Date(Date.now() + (3600 * 1000 * 72))
     this.date = this.dateFromOrder
   }
 
@@ -67,7 +73,7 @@ export class StayOrderComponent implements OnInit, OnDestroy {
   }
 
   get dateFromOrder() {
-    if(!this.order.startDate.getMilliseconds() || !this.order.endDate.getMilliseconds()) return ''
+    if (!this.order.startDate.getMilliseconds() || !this.order.endDate.getMilliseconds()) return ''
     return this.order.startDate.toDateString() + '-' + this.order.endDate.toDateString()
   }
 
@@ -86,7 +92,7 @@ export class StayOrderComponent implements OnInit, OnDestroy {
         return new Date(dates[0])
       }
     }
-    return new Date()
+    return this.order.startDate
   }
 
   getCheckOut() {
@@ -97,7 +103,7 @@ export class StayOrderComponent implements OnInit, OnDestroy {
         return new Date(dates[1])
       }
     }
-    return new Date(Date.now() + (3600 * 1000 * 72))
+    return this.order.endDate
   }
 
   onAddOrder() {

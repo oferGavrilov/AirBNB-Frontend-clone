@@ -1,4 +1,4 @@
-<section class="purchase-indication">
+<!-- <section *ngIf="order" class="purchase-indication">
   <div class="title">
     <h2>One last step</h2>
     <p>Dir guest,</p>
@@ -9,9 +9,9 @@
       <h3>Reservation details</h3>
       <h4>Trip dates:</h4>
       <div class="dates">
-        <span>{{order?.startDate | date }}</span>
+        <span>{{order.startDate | date }}</span>
         <span>-</span>
-        <span>{{order?.endDate | date }}</span>
+        <span>{{order.endDate | date }}</span>
       </div>
       <h4>Guests</h4>
       <div>{{getGuests}}</div>
@@ -40,4 +40,7 @@
     <button>Back</button>
     <button>Confirm</button>
   </div>
-</section>
+</section> -->
+<mat-menu #menu="matMenu">
+  <div>hey</div>
+</mat-menu>

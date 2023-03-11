@@ -18,24 +18,23 @@ export class PurchaseIndicationComponent implements OnInit {
   @Input() stay !: Stay
   order!: Order
 
- async ngOnInit() {
+  async ngOnInit() {
     this.loadOrder()
   }
 
   async loadOrder() {
     try {
-      this.order = await lastValueFrom(this.orderService.order$)
-      console.log('this.order:', this.order)
+      this.order = await this.orderService.getCurrOrder()
     } catch (err) {
       console.log('err:', err)
     }
   }
   get getGuests() {
-    console.log('this.order:', this.order)
+    if(!this.order) return 
     let str = this.order?.guests.adults + this.order.guests.children > 0 ? (this.order.guests.adults + this.order.guests.children) + ' guests ' : ''
     str += this.order?.guests.infants > 0 ? ' ,' + this.order.guests.infants + ' infants ' : ''
     str += this.order?.guests.pets > 0 ? ' ,' + this.order.guests.pets + ' pets ' : ''
-    return str
+    return ''
   }
 
 

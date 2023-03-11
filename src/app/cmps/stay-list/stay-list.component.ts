@@ -13,6 +13,6 @@ export class StayListComponent {
 
 
   ngOnInit() {
-      this.stays?.map(stay => console.log(stay.type))
+      // this.stays?.map(stay => console.log(stay.type))
   }
 }
