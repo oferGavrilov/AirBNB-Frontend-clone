@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Stay } from 'src/app/models/stay.model';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UploadImgService } from 'src/app/services/upload-img.service';
@@ -22,19 +23,17 @@ export class EditStayComponent {
 
 
   onAddStay() {
-    console.log(this.stay)
+    const country = this.stay.loc.country
+    const city = this.stay.loc.city
+    const address = this.stay.loc.address
+    this.stay.loc.address = `${address}, ${city}, ${country}`
+    const stay = this.stay
+    // this.stayService.save(this.stay as Stay)
   }
 
   async uploadUserImg(ev: Event) {
     const { secure_url } = await this.uploadImgService.uploadImg(ev)
     this.user.imgUrl = secure_url
-  }
-
-  toggleCheckbox(ev: any) {
-    const amenity = ev.target.value
-    if (ev.target.checked) {
-      // this.stay.amenities.push(amenity)
-    }
   }
 
   async uploadImg(ev: Event, index: number) {
