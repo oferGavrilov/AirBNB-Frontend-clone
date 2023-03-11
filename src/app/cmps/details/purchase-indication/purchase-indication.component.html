@@ -1,4 +1,4 @@
-<!-- <section *ngIf="order" class="purchase-indication">
+<section *ngIf="order" class="purchase-indication">
   <div class="title">
     <h2>One last step</h2>
     <p>Dir guest,</p>
@@ -7,28 +7,36 @@
   <div class="content">
     <div class="detailes">
       <h3>Reservation details</h3>
-      <h4>Trip dates:</h4>
       <div class="dates">
-        <span>{{order.startDate | date }}</span>
-        <span>-</span>
-        <span>{{order.endDate | date }}</span>
+        <h4>Trip dates:</h4>
+        <div>
+          <span>{{order.startDate | date: 'M/d/yy'}}</span>
+          <span>-</span>
+          <span>{{order.endDate | date: 'M/d/yy'}}</span>
+        </div>
       </div>
-      <h4>Guests</h4>
-      <div>{{getGuests}}</div>
+      <div class="guests">
+        <h4>Guests</h4>
+        <div>{{getGuests}}</div>
+      </div>
       <div class="price-details">
         <h4>Price details</h4>
         <div class="price-night">
-          <span></span>
-          <span></span>
+          <div>
+            <span>{{order.stay.price | currency}}</span>
+            <span>X</span>
+            <span>{{GetTotalDays}} nights</span>
+          </div>
+          <span>{{Price | currency}}</span>
         </div>
         <div class="service">
           <span>Service fee</span>
-          <span>$0</span>
+          <span>{{ServiceFee | currency}}</span>
         </div>
       </div>
       <div class="price-total">
         <span>Total</span>
-        <span>{{order.totalPrice}}</span>
+        <span>{{order.totalPrice | currency}}</span>
       </div>
     </div>
     <div class="img-container">
@@ -37,10 +45,7 @@
     </div>
   </div>
   <div class="btn-container">
-    <button>Back</button>
+    <button class="back">Back</button>
     <button>Confirm</button>
   </div>
-</section> -->
-<mat-menu #menu="matMenu">
-  <div>hey</div>
-</mat-menu>
+</section>

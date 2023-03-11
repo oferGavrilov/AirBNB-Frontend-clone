@@ -5,6 +5,11 @@
   font-family: $main-font;
   padding-bottom: 50px;
 
+  &.reserve-click {
+    filter: blur(2px);
+    cursor: not-allowed;
+  }
+
   header {
     @include center-flex;
     justify-content: space-between;

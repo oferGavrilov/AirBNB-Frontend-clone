@@ -25,11 +25,16 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
   point = faCircle
   isShowHeader: boolean = false
   isShowHeaderOrder: boolean = false
+  isReserveClick: boolean = true
 
   ngOnInit(): void {
     this.subscription = this.route.data.subscribe(data => {
       this.stay = data['stay']
     })
+  }
+
+  setIsReserveClick(val: boolean) {
+    this.isReserveClick = val
   }
 
   ngAfterViewInit(): void {

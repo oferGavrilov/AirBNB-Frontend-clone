@@ -19,24 +19,25 @@ export class PurchaseIndicationComponent implements OnInit {
   order!: Order
 
   async ngOnInit() {
-    this.loadOrder()
+    this.order = await this.orderService.getCurrOrder()
   }
 
-  async loadOrder() {
-    try {
-      this.order = await this.orderService.getCurrOrder()
-    } catch (err) {
-      console.log('err:', err)
-    }
+  get GetTotalDays() {
+    return this.order.endDate.getDate() - this.order.startDate.getDate()
   }
+
+  get Price() {
+    return this.stay.price * this.GetTotalDays
+  }
+
+  get ServiceFee() {
+    return (this.Price * 0.17).toFixed()
+  }
+
   get getGuests() {
-    if(!this.order) return 
     let str = this.order?.guests.adults + this.order.guests.children > 0 ? (this.order.guests.adults + this.order.guests.children) + ' guests ' : ''
     str += this.order?.guests.infants > 0 ? ' ,' + this.order.guests.infants + ' infants ' : ''
     str += this.order?.guests.pets > 0 ? ' ,' + this.order.guests.pets + ' pets ' : ''
-    return ''
+    return str
   }
-
-
-
 }

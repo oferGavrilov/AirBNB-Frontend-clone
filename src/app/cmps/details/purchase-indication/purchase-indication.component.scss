@@ -3,13 +3,14 @@
 
 .purchase-indication {
   @include center-absolute();
+  position: fixed;
   z-index: 2;
   border: 1px solid rgb(221, 221, 221);
   border-radius: 12px;
   padding: 24px;
   box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
   color: $header-text-color;
-  min-width: 350px;
+  min-width: 500px;
   background-color: #ffffff;
 
   .title {
@@ -26,8 +27,71 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 12px;
-    h3 {
-      margin-bottom: 12px;
+
+    .detailes {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .price-details {
+      padding: 10px 0;
+      border-bottom: 1px solid $border-color;
+      border-top: 1px solid $border-color;
+
+      .price-night {
+        div {
+          display: flex;
+          gap: 4px;
+        }
+      }
+    }
+
+    .price-total, .service, .price-night  {
+      @include center-flex();
+      justify-content: space-between;
+    }
+
+    .dates {
+      div {
+        display: flex;
+        gap: 4px;
+      }
+    }
+    .img-container {
+      padding: 24px;
+      box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+      background-color: white;
+      border-radius: 12px;
+      font-weight: 500;
+      img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 8px
+      }
+    }
+
+  }
+
+
+  .btn-container {
+    @include center-flex();
+    gap: 24px;
+    margin-top: 24px;
+
+    button {
+      width: 150px;
+      color: white;
+      height: 30px;
+      background-color: $secondary-color;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .back {
+      background-color: $main-color;
     }
   }
 }

@@ -1,4 +1,4 @@
-<section class="stay-details">
+<section [ngClass]="isReserveClick ? 'reserve-click ' : ''" class="stay-details">
   <app-header></app-header>
   <div class="main-layout">
     <header id="photos">
@@ -87,7 +87,7 @@
         </div>
         <amenities-list id="amenities" [stay]="stay"></amenities-list>
       </div>
-      <stay-order [stay]="stay"></stay-order>
+      <stay-order (setIsReserveClick)="setIsReserveClick($event)" [stay]="stay"></stay-order>
     </div>
     <review-list id="reviews" [stay]="stay"></review-list>
     <div class="google-map" id="location">
@@ -97,5 +97,5 @@
     </div>
     <host-info [stay]="stay"></host-info>
   </div>
-  <purchase-indication [stay]="stay"></purchase-indication>
 </section>
+<purchase-indication *ngIf="isReserveClick" [stay]="stay"></purchase-indication>

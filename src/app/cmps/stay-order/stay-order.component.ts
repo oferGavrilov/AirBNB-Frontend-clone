@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, OnDestroy } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
 import { Stay } from 'src/app/models/stay.model';
 import { faStar, faCircleMinus, faCirclePlus, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { CalendarOptions } from 'ngx-airbnb-calendar';
@@ -16,6 +16,7 @@ import { Router } from '@angular/router';
 export class StayOrderComponent implements OnInit, OnDestroy {
   constructor(private orderService: OrderService, private userService: UserService, private router: Router,) { }
   @Input() stay !: Stay
+  @Output() setIsReserveClick = new EventEmitter<boolean>()
 
   faCirclePlus = faCirclePlus
   faCircleMinus = faCircleMinus
@@ -39,11 +40,7 @@ export class StayOrderComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.subscription = this.orderService.order$.subscribe(order => this.order = order)
-    console.log(this.order)
-    if (!this.order.startDate.getTime()){
-      console.log(this.order.startDate.getTime())
-      this.order.startDate = new Date()
-    }
+    if (!this.order.startDate.getTime()) this.order.startDate = new Date()
     if (!this.order.endDate.getTime()) this.order.endDate = new Date(Date.now() + (3600 * 1000 * 72))
     this.date = this.dateFromOrder
   }
@@ -114,15 +111,16 @@ export class StayOrderComponent implements OnInit, OnDestroy {
     this.order.buyer = { _id: user._id, fullname: user.fullname }
     this.order.totalPrice = this.TotalPrice
     this.order.stay = { _id: this.stay._id, name: this.stay.name, price: this.stay.price }
-    try {
-      this.orderService.save(this.order)
-      this.orderService.setOrder(this.orderService.getEmptyOrder() as Order)
-    } catch (err) {
-      console.log(err)
-    }
-    finally {
-      this.router.navigateByUrl('')
-    }
+    this.setIsReserveClick.emit(true)
+    // try {
+    //   this.orderService.save(this.order)
+    //   this.orderService.setOrder(this.orderService.getEmptyOrder() as Order)
+    // } catch (err) {
+    //   console.log(err)
+    // }
+    // finally {
+    //   this.router.navigateByUrl('')
+    // }
   }
 
   ngOnDestroy() {
