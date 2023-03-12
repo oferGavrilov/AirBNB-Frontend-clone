@@ -68,8 +68,8 @@
                 <img src="assets/img/{{order.status}}.png" alt="">
             </span>
             <span class="actions-btns">
-                <button (click)="onChangeStatus('approve' , order)">Approve</button>
-                <button (click)="onChangeStatus('decline', order)">Decline</button>
+                <button class="approve" (click)="onChangeStatus('approve' , order)">Approve</button>
+                <button class="decline" (click)="onChangeStatus('decline', order)">Decline</button>
             </span>
         </div>
         <div class="paging">

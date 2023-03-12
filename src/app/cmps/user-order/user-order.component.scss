@@ -6,7 +6,7 @@
     color: $header-text-color;
     border: 2px solid #dad4d4bc;
     padding: 18px 20px 0 20px;
-    position: relative;    
+    position: relative;
     font-size: 14px;
 
     .user-header {
@@ -14,33 +14,37 @@
         justify-content: space-between;
         align-items: center;
 
-        .icon{
+        .icon {
             cursor: pointer;
+
             &:hover {
                 color: #1976d2;
             }
         }
+
         h2 {
             letter-spacing: 1px;
             font-family: system-ui;
         }
 
-        .search-input{
+        .search-input {
             display: flex;
             align-items: center;
             gap: 6px;
-            input{
+
+            input {
                 outline: none;
                 border: none;
                 border-bottom: 2px solid black;
                 width: 300px;
                 font-size: 16px;
-                
+
                 &:focus-visible {
                     border-bottom: 2px solid #1976d2;
                 }
             }
         }
+
         .tools {
             display: flex;
             height: 50%;
@@ -89,7 +93,7 @@
             span,
             h4 {
                 text-align: center;
-                width: 100px;
+                width: 110px;
             }
 
             img {
@@ -97,8 +101,40 @@
                 height: 25px;
             }
 
-            .actions-btns{
+            :last-child:not(img) {
                 display: flex;
+                gap: 4px;
+                justify-content: center;
+                width: 150px;
+
+                button {
+                    border: 1px solid $border-color;
+                    background-color: inherit;
+                    padding: 4px 6px;
+                    border-radius: 1em;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: .2s color, .2s background-color;
+
+                    &.approve {
+                        color: lightgreen;
+
+                        &:hover {
+                            color: white;
+                            background-color: lightgreen;
+                        }
+                    }
+
+                    &.decline {
+                        color: lightcoral;
+
+                        &:hover {
+                            color: white;
+                            background-color: lightcoral;
+                        }
+                    }
+
+                }
             }
         }
     }
@@ -136,6 +172,10 @@
             .paging,
             input {
                 display: none;
+            }
+
+            .actions-btns{
+                flex-direction: column;
             }
         }
     }
