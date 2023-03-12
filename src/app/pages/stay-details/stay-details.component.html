@@ -21,8 +21,8 @@
           <fa-icon [icon]="shareIcon"></fa-icon>
           <span>share</span>
         </span>
-        <span class="save">
-          <fa-icon [icon]="heartIcon"></fa-icon>
+        <span class="save" (click)="onClickLike($event)">
+          <fa-icon [ngClass]="isLikeByUser ? 'active like' : 'like'" [icon]="heartIcon"></fa-icon>
           <span>save</span>
         </span>
       </div>
@@ -54,7 +54,7 @@
                 <span href="" class="reviews">{{stay.reviews.length}} reviews</span>
               </div>
             </div>
-            <button class="main-btn" >Reserve</button>
+            <button class="main-btn">Reserve</button>
           </div>
         </div>
       </div>
@@ -98,4 +98,5 @@
     <host-info [stay]="stay"></host-info>
   </div>
 </section>
-<purchase-indication *ngIf="isReserveClick" (setIsReserveClick)="setIsReserveClick($event)" [stay]="stay"></purchase-indication>
+<purchase-indication *ngIf="isReserveClick" (setIsReserveClick)="setIsReserveClick($event)"
+  [stay]="stay"></purchase-indication>

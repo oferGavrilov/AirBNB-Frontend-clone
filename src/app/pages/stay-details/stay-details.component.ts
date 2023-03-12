@@ -3,6 +3,10 @@ import { Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { StatReviews, Stay } from 'src/app/models/stay.model';
 import { faArrowUpFromBracket, faHeart, faStar, faCircle } from '@fortawesome/free-solid-svg-icons'
+import { UserService } from 'src/app/services/user.service';
+import { User } from 'src/app/models/user.model';
+import { StayService } from 'src/app/services/stay.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'stay-details',
@@ -14,9 +18,13 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
 
   constructor(
     private renderer2: Renderer2,
-    private route: ActivatedRoute) { }
+    private route: ActivatedRoute,
+    private userService: UserService,
+    private stayService: StayService,
+    private snackBar: MatSnackBar) { }
 
   unlistener !: () => void
+  user!: User
   stay!: Stay
   subscription!: Subscription
   shareIcon = faArrowUpFromBracket
@@ -26,11 +34,14 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
   isShowHeader: boolean = false
   isShowHeaderOrder: boolean = false
   isReserveClick: boolean = false
+  isLikeByUser: boolean = false
 
   ngOnInit(): void {
     this.subscription = this.route.data.subscribe(data => {
       this.stay = data['stay']
     })
+    this.user = this.userService.getUser()
+    this.isLikeActive()
   }
 
   setIsReserveClick(val: boolean) {
@@ -56,6 +67,28 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     }
 
     return (rate / 6).toFixed(2)
+  }
+
+  isLikeActive() {
+    if (!this.user) this.isLikeByUser = false
+    else this.isLikeByUser = this.stay.likedByUsers.includes(this.user._id)
+  }
+
+  onClickLike(ev: Event) {
+    ev.stopPropagation()
+    try {
+      if (!this.user) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
+      else {
+        if (this.isLikeByUser) this.stay.likedByUsers = this.stay.likedByUsers.filter(userId => userId !== this.user._id)
+        else this.stay.likedByUsers.push(this.user._id)
+        this.stayService.save(this.stay)
+        this.isLikeByUser = !this.isLikeByUser
+        const msg = this.isLikeByUser ? 'Stay added to wishlist' : 'Stay removed from wishlist'
+        this.snackBar.open(msg, 'Close', { duration: 3000 })
+      }
+    } catch (err) {
+      console.log('err:', err)
+    }
   }
 
   ngOnDestroy(): void {

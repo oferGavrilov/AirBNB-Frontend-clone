@@ -4,29 +4,34 @@ import { Observable, Subscription } from 'rxjs';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UserService } from 'src/app/services/user.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'user',
   templateUrl: './user.component.html',
   styleUrls: ['./user.component.scss']
 })
-export class UserComponent implements OnInit, OnDestroy{
+export class UserComponent implements OnInit, OnDestroy {
 
   constructor(
     private userService: UserService,
-    private stayService: StayService) { }
+    private stayService: StayService,
+    private route: ActivatedRoute,
+  ) { }
 
   user !: User
   stays !: Stay[]
   subscription!: Subscription
+  pageNav: string = 'user-stays'
 
   ngOnInit() {
     this.user = this.userService.getUser()
-    this.subscription =  this.stayService.stays$.subscribe(stays => this.stays = stays)
+    this.subscription = this.stayService.stays$.subscribe(stays => this.stays = stays)
+    const urlArr = window.location.href.split('/')
+    console.log(urlArr[urlArr.length - 1])
   }
   // @Input() pageNav: string = 'home'
 
-  pageNav: string = 'user-stays'
 
   onClickWishList() {
     const filter = this.stayService.getEmptyFilter()

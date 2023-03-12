@@ -7,6 +7,7 @@ import { UserService } from 'src/app/services/user.service';
 import { Order } from 'src/app/models/order.model';
 import { Subscription } from 'rxjs';
 import { Router } from '@angular/router';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'stay-order',
@@ -14,7 +15,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./stay-order.component.scss']
 })
 export class StayOrderComponent implements OnInit, OnDestroy {
-  constructor(private orderService: OrderService, private userService: UserService, private router: Router,) { }
+  constructor(private orderService: OrderService,
+    private userService: UserService,
+    private snackBar: MatSnackBar) { }
+    
   @Input() stay !: Stay
   @Output() setIsReserveClick = new EventEmitter<boolean>()
 
@@ -105,13 +109,15 @@ export class StayOrderComponent implements OnInit, OnDestroy {
 
   onAddOrder() {
     const user = this.userService.getUser()
-    if (!user) return
-    this.order.hostId = this.stay.host._id
-    this.order.hostName = this.stay.host.fullname
-    this.order.buyer = { _id: user._id, fullname: user.fullname }
-    this.order.totalPrice = this.TotalPrice
-    this.order.stay = { _id: this.stay._id, name: this.stay.name, price: this.stay.price }
-    this.setIsReserveClick.emit(true)
+    if (!user) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
+    else {
+      this.order.hostId = this.stay.host._id
+      this.order.hostName = this.stay.host.fullname
+      this.order.buyer = { _id: user._id, fullname: user.fullname }
+      this.order.totalPrice = this.TotalPrice
+      this.order.stay = { _id: this.stay._id, name: this.stay.name, price: this.stay.price }
+      this.setIsReserveClick.emit(true)
+    }
   }
 
   ngOnDestroy() {
