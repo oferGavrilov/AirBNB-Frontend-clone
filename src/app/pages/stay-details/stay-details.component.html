@@ -98,4 +98,4 @@
     <host-info [stay]="stay"></host-info>
   </div>
 </section>
-<purchase-indication *ngIf="isReserveClick" [stay]="stay"></purchase-indication>
+<purchase-indication *ngIf="isReserveClick" (setIsReserveClick)="setIsReserveClick($event)" [stay]="stay"></purchase-indication>

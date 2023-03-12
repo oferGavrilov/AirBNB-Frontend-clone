@@ -25,7 +25,7 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
   point = faCircle
   isShowHeader: boolean = false
   isShowHeaderOrder: boolean = false
-  isReserveClick: boolean = true
+  isReserveClick: boolean = false
 
   ngOnInit(): void {
     this.subscription = this.route.data.subscribe(data => {
