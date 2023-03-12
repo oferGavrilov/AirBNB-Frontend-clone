@@ -18,7 +18,7 @@
         background-color: #A6A5A5;
         cursor: pointer;
     }
-  }
+}
 
 body {
     font-family: $main-font;
@@ -45,4 +45,43 @@ ul {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+.cdk-overlay-container {
+    position: fixed !important;
+    top: 10px;
+    right: 31%;
+    color: white;
+    z-index: 100;
+
+    .mat-mdc-snack-bar-container .mdc-snackbar__surface {
+        background-color: $secondary-color;
+    }
+
+    span {
+        color: white;
+    }
+
+}
+
+.green-snackbar {
+    background: rgb(65, 252, 134);
+    color: white;
+}
+
+.green-snackbar button {
+    background-color: rgb(65, 252, 134);
+    color: white;
+    border: none;
+}
+
+.red-snackbar {
+    background: #F44336;
+    color: white;
+}
+
+.red-snackbar button {
+    background-color: #F44336;
+    color: white !important;
+    border: none;
 }

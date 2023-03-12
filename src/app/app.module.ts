@@ -42,12 +42,13 @@ import { OrderFilterModalComponent } from './cmps/order-filter-modal/order-filte
 import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
 import { HeaderFilterGuestModalComponent } from './cmps/header-filter-folder/header-filter-guest-modal/header-filter-guest-modal.component';
 import { PurchaseIndicationComponent } from './cmps/details/purchase-indication/purchase-indication.component';
+import { UserWishlistComponent } from './cmps/user-wishlist/user-wishlist.component'
 
 import { MatMenuModule } from '@angular/material/menu'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
-import { UserWishlistComponent } from './cmps/user-wishlist/user-wishlist.component'
+import { MatSnackBarModule } from '@angular/material/snack-bar'
 
 @NgModule({
   declarations: [
@@ -88,20 +89,21 @@ import { UserWishlistComponent } from './cmps/user-wishlist/user-wishlist.compon
     UserWishlistComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
     HttpClientModule,
+    NgMultiSelectDropDownModule,
     GoogleMapsModule,
     AirbnbCalendarModule,
-    FormsModule,
-    NgMultiSelectDropDownModule,
     ReactiveFormsModule,
     MatSelectModule,
     MatMenuModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     ReactiveFormsModule,
+    MatSnackBarModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
