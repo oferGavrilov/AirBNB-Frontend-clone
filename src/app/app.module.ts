@@ -1,10 +1,9 @@
-import { NgModule } from '@angular/core';
+import { NgModule , CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientModule } from '@angular/common/http';
 import { MatSelectModule } from '@angular/material/select';
-
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app-root/app.component';
@@ -47,7 +46,8 @@ import { PurchaseIndicationComponent } from './cmps/details/purchase-indication/
 import { MatMenuModule } from '@angular/material/menu'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'
-
+import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
+import { UserWishlistComponent } from './cmps/user-wishlist/user-wishlist.component'
 
 @NgModule({
   declarations: [
@@ -84,7 +84,8 @@ import { MatToolbarModule } from '@angular/material/toolbar'
     OrderFilterModalComponent,
     GuestModalComponent,
     HeaderFilterGuestModalComponent,
-    PurchaseIndicationComponent
+    PurchaseIndicationComponent,
+    UserWishlistComponent
   ],
   imports: [
     BrowserModule,
@@ -94,12 +95,15 @@ import { MatToolbarModule } from '@angular/material/toolbar'
     GoogleMapsModule,
     AirbnbCalendarModule,
     FormsModule,
+    NgMultiSelectDropDownModule,
     ReactiveFormsModule,
     MatSelectModule,
     MatMenuModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    ReactiveFormsModule,
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent],
 })

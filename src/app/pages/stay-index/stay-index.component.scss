@@ -1,0 +1,18 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+
+.scroller-up {
+      position: fixed;
+      @include center-flex();
+      bottom: 30px;
+      right: 30px;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      cursor: pointer;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      box-shadow: 1px 1px 20px 10px #e1b4b4;
+      background-color: $secondary-color;
+}

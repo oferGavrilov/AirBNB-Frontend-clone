@@ -1,3 +1,4 @@
+
 export interface Order {
   _id: string,
   hostId: string,
@@ -17,7 +18,6 @@ export interface Order {
   },
   status: string
 }
-
 export interface FilterOrder {
   hostId: string
   buyerId: string

@@ -3,16 +3,18 @@
 
     <main class="main-layout">
         <nav>
-            <span (click)="pageNav = 'user-order'" class="{{pageNav === 'user-order' ? 'active' : ''}}">Orders</span>
-            <span (click)="pageNav = 'user-trips'" class="{{pageNav === 'user-trips' ? 'active' : ''}}">My trips</span>
-            <span (click)="pageNav = 'user-stays'" class="{{pageNav === 'user-stays' ? 'active' : ''}}">My stays</span>
-            <span (click)="onClickWishList()" class="{{pageNav === 'wishlist' ? 'active' : ''}}">Wishlist</span>
-            <span (click)="pageNav = 'edit-stay'" class="{{pageNav === 'edit-stay' ? 'active' : ''}}">Add a stay</span>
+            <span routerLink="orders" class="{{pageNav === 'user-order' ? 'active' : ''}}">Orders</span>
+            <span routerLink="trips"  class="{{pageNav === 'user-trips' ? 'active' : ''}}">My trips</span>
+            <span routerLink="stays" class="{{pageNav === 'user-stays' ? 'active' : ''}}">My stays</span>
+            <span routerLink="wishlist" class="{{pageNav === 'wishlist' ? 'active' : ''}}">Wishlist</span>
+            <span routerLink="edit" class="{{pageNav === 'edit-stay' ? 'active' : ''}}">Add a stay</span>
         </nav>
-        <div [ngSwitch]="pageNav" class="dynamic-cmp">
+        <router-outlet [user]="user"></router-outlet>
+
+        <!-- <div [ngSwitch]="pageNav" class="dynamic-cmp">
             <home *ngSwitchCase="'home'"></home>
             <user-order [user]="user" *ngSwitchCase="'user-order'"></user-order>
-            <user-stays *ngSwitchCase="'user-stays'"></user-stays>
+            <user-stays [stays]="stays" [user]="user" *ngSwitchCase="'user-stays'"></user-stays>
             <user-trips *ngSwitchCase="'user-trips'"></user-trips>
             <edit-stay [user]="user" *ngSwitchCase="'edit-stay'"></edit-stay>
             <div class="wishlist"  *ngSwitchCase="'wishlist'">
@@ -23,7 +25,7 @@
                 <p>As you search, tap the heart icon to save your favorite places to stay or things to do to a wishlist.</p>
               </div>
             </div>
-        </div>
+        </div> -->
     </main>
 
     <app-footer></app-footer>
