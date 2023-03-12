@@ -266,6 +266,7 @@ export class StayService {
           "labels": [
             "Campers",
             "New",
+            "Amazing views",
             "OMG"
           ],
           "statReviews": {
@@ -364,9 +365,8 @@ export class StayService {
           ],
           "likedByUsers": [],
           "labels": [
-            "Iconic cities",
-            "Countryside",
-            "Luxe"
+            "Amazing views",
+            "Lakefront"
           ],
           "statReviews": {
             "cleanliness": 5,
@@ -593,9 +593,9 @@ export class StayService {
           ],
           "likedByUsers": [],
           "labels": [
-            "Ryokans",
             "OMG",
-            "Private rooms"
+            "Private rooms",
+            'Mansions'
           ],
           "statReviews": {
             "cleanliness": 4.3,
@@ -946,8 +946,8 @@ export class StayService {
           "likedByUsers": [],
           "labels": [
             "Campers",
-            "Luxe",
-            "Casas particulares"
+            "Design",
+            "Creative spaces"
           ],
           "statReviews": {
             "cleanliness": 4.4,
@@ -1194,7 +1194,8 @@ export class StayService {
           "labels": [
             "Skiing",
             "Top of the world",
-            "Golfing"
+            "Golfing",
+           " Tiny homes"
           ],
           "statReviews": {
             "cleanliness": 4.1,
@@ -1441,7 +1442,8 @@ export class StayService {
           "labels": [
             "Amazing views",
             "Casas particulares",
-            "Tropical"
+            "Beach",
+            "Boats"
           ],
           "statReviews": {
             "cleanliness": 4.9,
