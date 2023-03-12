@@ -1,5 +1,9 @@
-<ul class="stay-list">
+<ul *ngIf="stays?.length" class="stay-list">
   <li *ngFor="let stay of stays">
     <stay-preview [routerLink]="['' , stay._id]" [stay]="stay"></stay-preview>
   </li>
 </ul>
+<div *ngIf="!stays?.length" class="empty-list">
+  <h2>No results were found for this search</h2>
+  <img src="../../../assets/img/empty-list.webp" alt="">
+</div>

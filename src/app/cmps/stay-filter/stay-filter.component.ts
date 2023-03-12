@@ -37,10 +37,10 @@ export class StayFilterComponent implements OnInit, OnDestroy {
       }
     })
     this.breakpointObserver.observe([
-      "(min-width:1050px)"
+      "(min-width:960px)"
     ]).subscribe((result: BreakpointState) => {
       if (result.matches) {
-        this.itemsToShow = 9
+        this.itemsToShow = 12
       }
     })
     this.breakpointObserver.observe([
@@ -86,10 +86,10 @@ export class StayFilterComponent implements OnInit, OnDestroy {
     return this.filters.slice(this.index, this.index + this.itemsToShow)
   }
 
-  getRightPos() {
-    if(this.itemsToShow > 8) return '116px'
-    return 0
-  }
+  // getRightPos() {
+  //   if(this.itemsToShow > 8) return '116px'
+  //   return 0
+  // }
 
   ngOnDestroy(): void {
     this.subscription.unsubscribe()
