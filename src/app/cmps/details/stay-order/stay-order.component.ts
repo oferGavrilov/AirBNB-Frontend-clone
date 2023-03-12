@@ -109,7 +109,7 @@ export class StayOrderComponent implements OnInit, OnDestroy {
 
   onAddOrder() {
     const user = this.userService.getUser()
-    if (!user) this.snackBar.open('Please login first', 'Close', { duration: 300000 })
+    if (!user) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
     else {
       this.order.hostId = this.stay.host._id
       this.order.hostName = this.stay.host.fullname

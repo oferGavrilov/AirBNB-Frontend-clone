@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
 import { Order } from 'src/app/models/order.model';
 import { Stay } from 'src/app/models/stay.model';
@@ -13,7 +14,8 @@ import { OrderService } from 'src/app/services/order.service';
 export class PurchaseIndicationComponent implements OnInit {
   constructor(
     private orderService: OrderService,
-    private router: Router) { }
+    private router: Router,
+    private snackBar: MatSnackBar) { }
   @Input() stay !: Stay
   @Output() setIsReserveClick = new EventEmitter()
   order!: Order
@@ -51,6 +53,7 @@ export class PurchaseIndicationComponent implements OnInit {
     try {
       this.orderService.save(this.order)
       this.orderService.setOrder(this.orderService.getEmptyOrder() as Order)
+      this.snackBar.open('Your order sent successfully', 'Close', { duration: 3000 })
     } catch (err) {
       console.log(err)
     }

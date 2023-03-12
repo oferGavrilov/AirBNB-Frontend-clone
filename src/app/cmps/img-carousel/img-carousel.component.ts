@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
 import { faAngleRight, faAngleLeft, faHeart, faCircle } from '@fortawesome/free-solid-svg-icons'
 import { Stay } from 'src/app/models/stay.model';
@@ -13,7 +14,8 @@ export class ImgCarouselComponent implements OnInit {
   constructor(
     private stayService: StayService,
     private userService: UserService,
-    private router: Router ) {}
+    private router: Router,
+    private snackBar: MatSnackBar) { }
 
   @Input() stay !: Stay
   isLikeByUser: boolean = false
@@ -51,7 +53,7 @@ export class ImgCarouselComponent implements OnInit {
 
   isLikeActive() {
     const user = this.userService.getUser()
-    if(!user) this.isLikeByUser = false
+    if (!user) this.isLikeByUser = false
     else this.isLikeByUser = this.stay.likedByUsers.includes(user._id)
   }
 
@@ -59,12 +61,14 @@ export class ImgCarouselComponent implements OnInit {
     ev.stopPropagation()
     try {
       const user = this.userService.getUser()
-      if(!user) return
-      if(this.isLikeByUser) this.stay.likedByUsers = this.stay.likedByUsers.filter(userId => userId !== user._id)
+      if (!user) return
+      if (this.isLikeByUser) this.stay.likedByUsers = this.stay.likedByUsers.filter(userId => userId !== user._id)
       else this.stay.likedByUsers.push(user._id)
       this.stayService.save(this.stay)
       this.isLikeByUser = !this.isLikeByUser
-      if(this.isUserPage()) this.stayService.loadStays()
+      const msg = this.isLikeByUser ? 'Stay added to wishlist' : 'Stay removed from wishlist'
+      if (this.isUserPage()) this.stayService.loadStays()
+      this.snackBar.open(msg, 'Close', { duration: 3000 })
     } catch (err) {
       console.log('err:', err)
     }
