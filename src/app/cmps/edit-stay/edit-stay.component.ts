@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { Observable } from 'rxjs';
-import { Stay } from 'src/app/models/stay.model';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { ActivatedRoute, Router } from '@angular/router';
+import { lastValueFrom} from 'rxjs';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UploadImgService } from 'src/app/services/upload-img.service';
@@ -14,7 +15,10 @@ import { UserService } from 'src/app/services/user.service';
 export class EditStayComponent {
   constructor(private stayService: StayService,
     private uploadImgService: UploadImgService,
-    private userService: UserService) { }
+    private userService: UserService,
+    private route: ActivatedRoute,
+    private router: Router,
+    private snackBar: MatSnackBar) { }
 
   @Input() user!: User
   stay = this.stayService.getEmptyStay()
@@ -23,25 +27,52 @@ export class EditStayComponent {
   amenities = this.Amenities
   labels = this.Labels
 
-  ngOnInit() {
-    this.selectSettings = {
-      singleSelection: false,
-      idField: 'item_id',
-      textField: 'item_text',
-      selectAllText: 'Select All',
-      unSelectAllText: 'UnSelect All'
+  async ngOnInit() {
+    this.selectSettings = this.Settings
+    const stayId = this.route.snapshot.paramMap.get('id')
+    if (stayId) this.loadStay(stayId)
+  }
+
+  async loadStay(stayId: string) {
+    try {
+      this.stay = await lastValueFrom(this.stayService.getById(stayId)) as any
+      this.loadImg()
+    } catch (err) {
+      console.log(err)
     }
   }
 
-  onAddStay() {
+  loadImg(): void {
+    this.imgData = this.imgData.map((_, idx) => {
+      return { imgUrl: this.stay.imgUrls?.[idx], height: 500, width: 500 }
+    })
+  }
+
+  async onAddStay() {
     const user = this.userService.getUser()
     const country = this.stay.loc.country
     const city = this.stay.loc.city
     const address = this.stay.loc.address
-
     this.stay.host = { ...this.stay.host, _id: user._id, pictureUrl: user.imgUrl }
     this.stay.loc.address = `${address}, ${city}, ${country}`
-    this.stayService.save(this.stay)
+    if (this.checkValidation()) return
+    try {
+      this.stayService.save(this.stay)
+      this.snackBar.open('Stay saved successfully', 'Close', { duration: 3000 })
+      this.router.navigate(['/user/stays'])
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
+  checkValidation() {
+    const stay = this.stay
+    if (stay.imgUrls.length < 5) return this.snackBar.open('You must add 5 images', 'Close', { duration: 3000 })
+    if (stay.capacity < 1) return this.snackBar.open('You must add at least 1 capacity', 'Close', { duration: 3000 })
+    if (stay.name === '') return this.snackBar.open('You must add stay name', 'Close', { duration: 3000 })
+    if (stay.price < 1) return this.snackBar.open('You must add valid price', 'Close', { duration: 3000 })
+    if (!stay.loc.country && !stay.loc.city && !stay.loc.address) return this.snackBar.open('You must add location', 'Close', { duration: 3000 })
+    return ''
   }
 
   async uploadImg(ev: Event, index: number) {
@@ -89,5 +120,14 @@ export class EditStayComponent {
       "Backyard",
       "Pets allowed"
     ]
+  }
+  get Settings() {
+    return {
+      singleSelection: false,
+      idField: 'item_id',
+      textField: 'item_text',
+      selectAllText: 'Select All',
+      unSelectAllText: 'UnSelect All'
+    }
   }
 }
