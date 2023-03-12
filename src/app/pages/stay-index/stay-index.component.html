@@ -1,8 +1,9 @@
 <section class="stay-index">
-  <app-header></app-header>
+  <app-header id="header"></app-header>
   <main class="main-layout">
     <stay-filter></stay-filter>
     <stay-list [stays]="stays$ | async"></stay-list>
   </main>
+  <a *ngIf="isShowScroller" href="#header" class="scroller-up"><span class="material-symbols-outlined">expand_less</span></a>
   <app-footer></app-footer>
 </section>

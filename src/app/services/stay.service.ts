@@ -42,7 +42,7 @@ export class StayService {
     return stay ? of(stay) : throwError(() => `Stay id ${stayId} not found!`)
   }
 
-  public save(stay: Stay) {
+  public save(stay: any) {
     let stays = this.utilService.loadFromStorage(this.STAY_KEY)
     if (stay._id) stays = stays.map((currStay: Stay) => currStay._id === stay._id ? stay : currStay)
     else {
@@ -90,6 +90,7 @@ export class StayService {
       bedrooms: 0,
       roomType: '',
       host: {
+        _id:'',
         createAt: Date.now(),
         fullname: '',
         location: '',

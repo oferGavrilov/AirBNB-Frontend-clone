@@ -1,5 +1,4 @@
-export interface Stay {
-    
+ export interface Stay {
     _id: string,
     type: string,
     name: string,
@@ -18,7 +17,6 @@ export interface Stay {
     bathrooms: number,
     bedrooms: number
 }
-
 export interface Host {
     _id: string,
     fullname: string,

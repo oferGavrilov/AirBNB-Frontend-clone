@@ -1,0 +1,8 @@
+<section class="user-wishlist">
+      <h2>Wishlists</h2>
+      <stay-list *ngIf="stays.length" [stays]="stays"></stay-list>
+      <div *ngIf="!stays.length" class="empty-wishlist">
+            <h3>Create your first wishlist</h3>
+            <p>As you search, tap the heart icon to save your favorite places to stay or things to do to a wishlist.</p>
+      </div>
+</section>

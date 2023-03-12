@@ -15,25 +15,34 @@ export class EditStayComponent {
   @Input() user!: User
   stay = this.stayService.getEmptyStay()
   imgData = new Array(5).fill({ imgUrl: '', height: 500, width: 500 })
-
+  selectSettings = {}
+  amenities = this.Amenities
+  labels = this.Labels
 
   ngOnInit() {
-    console.log(this.stay)
+    this.selectSettings = {
+      singleSelection: false,
+      idField: 'item_id',
+      textField: 'item_text',
+      selectAllText: 'Select All',
+      unSelectAllText: 'UnSelect All'
+    }
   }
-
-
+  
   onAddStay() {
+    console.log(this.stay)
     const country = this.stay.loc.country
     const city = this.stay.loc.city
     const address = this.stay.loc.address
-    this.stay.loc.address = `${address}, ${city}, ${country}`
-    const stay = this.stay
-    // this.stayService.save(this.stay as Stay)
-  }
+    // let geocoder = new google.maps.Geocoder()
+    // geocoder.geocode({
+    //   'address': address
+    // })
 
-  async uploadUserImg(ev: Event) {
-    const { secure_url } = await this.uploadImgService.uploadImg(ev)
-    this.user.imgUrl = secure_url
+    // console.log(geocoder)
+    this.stay.host = {...this.stay.host , _id:this.user._id , pictureUrl:this.user.imgUrl}
+    this.stay.loc.address = `${address}, ${city}, ${country}`
+    this.stayService.save(this.stay)
   }
 
   async uploadImg(ev: Event, index: number) {
@@ -41,5 +50,45 @@ export class EditStayComponent {
     this.imgData[index] = { imgUrl: secure_url, width, height }
     const imgUrl = this.imgData[index].imgUrl
     this.stay.imgUrls.push(imgUrl)
+  }
+
+  get Labels () {
+    return [
+      'OMG!',
+      'Amazing views', ,
+      'Trending',
+      'Golfing',
+      'Surfing',
+      'Mansions',
+      'Luxe',
+      'Private rooms', ,
+      'Lakefront', ,
+      'Castles',
+      'Tiny homes', ,
+      'Islands',
+      'Boats',
+      'Creative spaces', ,
+      'Beach',
+      'Design',
+    ]
+  }
+
+  get Amenities() {
+    return [
+      '32" HDTV with Disney+, standard cable',
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer",
+      "Hot water",
+      "Backyard",
+      "Pets allowed"
+    ]
   }
 }

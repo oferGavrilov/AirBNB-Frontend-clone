@@ -35,32 +35,6 @@
         }
       }
 
-
-      .dynamic-cmp {
-        margin-bottom: 24px;
-        min-height: 50vh;
-        .wishlist {
-          color: $header-text-color;
-          h2 {
-            font-size: 32px;
-            font-weight: 500;
-            margin-bottom: 32px;
-          }
-          h3 {
-            font-size: 22px;
-            font-weight: 500;
-            margin-bottom: 16px;
-          }
-          p {
-            color: $main-color;
-            font-size: 14px;
-            font-weight: 400;
-            width: 490px;
-            line-height: 20px;
-          }
-        }
-    }
-
     @media print {
         nav {
             display: none;

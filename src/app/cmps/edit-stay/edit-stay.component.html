@@ -1,7 +1,6 @@
 <section class="edit-stay">
-      <form (submit)="onAddStay()">
+      <form (submit)="onAddStay()" standalone>
             <input type="text" [(ngModel)]="stay.name" name="name" placeholder="Stay name..">
-
             <div class='img-picker'>
                   <label htmlFor="imgUpload">
                         <div *ngIf="!imgData[0].imgUrl" class="upload-img-btn">
@@ -45,7 +44,7 @@
                               <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.capacity" name="capacity"
                                     id="capacity">
                         </label>
-                        <label for="bedrooms">Bad rooms:
+                        <label for="bedrooms">Bed rooms:
                               <input type="number" max="8" min="0" value="0" [(ngModel)]="stay.bedrooms" name="bedrooms"
                                     id="bedrooms">
                         </label>
@@ -54,22 +53,15 @@
                                     name="bathrooms" id="bathrooms">
                         </label>
                         <label for="price">Price:
-                              <input type="number" [(ngModel)]="stay.price" name="price" id="price" required>
+                              <input type="number" min="0" [(ngModel)]="stay.price" name="price" id="price" required>
                               / night
                         </label>
                   </div>
                   <div class="select-inputs">
-                        <label for="stay-type">Stay type:
-                              <select name="stay-type" id="stay-type" [(ngModel)]="stay.type" required>
-                                    <option value="national parks">National parks</option>
-                                    <option value="shared homes">Shared homes</option>
-                                    <option value="islands">Islands</option>
-                                    <option value="beach">Beach</option>
-                                    <option value="city">City</option>
-                                    <option value="desert">Desert</option>
-                                    <option value="mounted">Mounted</option>
-                                    <option value="castle">Castle</option>
-                              </select>
+                        <label for="stay-type">Stay types:
+                              <ng-multiselect-dropdown class="label-picker" [data]="labels" [settings]="selectSettings"
+                                    [placeholder]="'Labels'" [(ngModel)]="stay.labels"
+                                    name="labels"></ng-multiselect-dropdown>
                         </label>
                         <label for="property-type">Property type:
                               <select name="property-type" id="property-type" [(ngModel)]="stay.roomType">
@@ -79,11 +71,6 @@
                                     <option value="hotel">Hotel</option>
                               </select>
                         </label>
-                        <!-- <label htmlFor="imgUpload" class="user-img-upload">
-                              <img *ngIf="!user.imgUrl" class="guest-img" src="assets/img/guest.png" alt="" />
-                              <img *ngIf="user.imgUrl" class="user-img" [src]="user.imgUrl" alt="" />
-                              <input type="file" (change)="uploadUserImg($event)" accept="img/*" id="user-img" />
-                        </label> -->
                   </div>
                   <div class="location">
                         <label for="country">Country:
@@ -102,11 +89,8 @@
                   <textarea name="summary" [(ngModel)]="stay.summary" id="summary" cols="94" rows="10"></textarea>
             </div>
             <div class="amenities">
-                  <!-- TODO:Add multiselect -->
-                  <!-- <span class="title">Amenities</span>
-                  <label for="tv">TV
-                        <input type="checkbox" value="tv" name="tv" id="tv" (change)="toggleCheckbox($event)">
-                  </label> -->
+                  <ng-multiselect-dropdown [data]="amenities" [settings]="selectSettings" [placeholder]="'Amenities'"
+                        [(ngModel)]="stay.amenities" name="amenities"></ng-multiselect-dropdown>
             </div>
             <button class="save-btn">Save</button>
       </form>
