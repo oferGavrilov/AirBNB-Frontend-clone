@@ -167,7 +167,6 @@ export class StayService {
             "location": "Eureka, California, United States",
             "about": "Adventurous couple loves to travel :)",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/542dba0c-eb1b-4ab3-85f3-94d3cc8f87a4.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "36133410"
@@ -293,21 +292,16 @@ export class StayService {
           "summary": "Chambre dans un bel appartement moderne avec balcon, ascenseur et terrasse. Private room in a beautiful modern apartment  with balcony, elevator and patio. La chambre est fermée avec une lit double. Vous aurez accès à une salle de bain avec une douche, terrasse. L'appartement est climatisé.  Votre chambre est équipé d'une connexion Wi-Fi illimité. Vous serez proche du centre ville, au pied du pont Jacques Cartier et à distance de marche de toutes les commodités (métro, supermarché, pharmacie",
           "capacity": 2,
           "amenities": [
-            "TV",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Elevator",
-            "Buzzer/wireless intercom",
-            "Heating",
-            "Family/kid friendly",
-            "Washer",
-            "Dryer",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "Essentials",
-            "Iron",
-            "translation missing: en.hosting_amenity_50"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -318,7 +312,6 @@ export class StayService {
             "fullname": "Angel",
             "location": "Montreal, Québec, Canada",
             "about": "",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/12be1141-74de-4f04-bf28-82c3ed589d11.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "80344827"
@@ -399,59 +392,18 @@ export class StayService {
           "summary": "O apartamento fica perto de arte e cultura e dos mais belos monumentos da cidade. Belos jardins e paisagens da cidade e do rio Douro ficam perto e podem ser apreciadas.  Existem restaurantes típicos e de comida internacional ao redor do apartamento.   O espaço fica numa rua típica da cidade, cheia da sua magia e magnetismo e é muito pratico e confortável. O espaço é excelente para quem pretende visitar e conhecer a zona histórica e turística do Porto. Transportes públicos ficam próximos.",
           "capacity": 4,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Paid parking off premises",
-            "Free street parking",
-            "Buzzer/wireless intercom",
-            "Family/kid friendly",
-            "Washer",
-            "Smoke detector",
-            "First aid kit",
-            "Fire extinguisher",
-            "Essentials",
-            "Shampoo",
-            "Lock on bedroom door",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "Private entrance",
-            "Crib",
-            "Room-darkening shades",
+            "Free parking on premises",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "Patio or balcony",
-            "Luggage dropoff allowed",
-            "Long term stays allowed",
-            "Wide doorway",
-            "Well-lit path to entrance",
-            "Step-free access",
-            "Wide doorway",
-            "Accessible-height bed",
-            "Step-free access",
-            "Wide doorway",
-            "Accessible-height toilet",
-            "Step-free access",
-            "Wide entryway",
-            "Host greets you",
-            "Handheld shower head",
-            "Paid parking on premises",
-            "Fixed grab bars for shower"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
           ],
           "bathrooms": 1,
           "bedrooms": 2,
@@ -463,7 +415,6 @@ export class StayService {
             "location": "Porto, Porto District, Portugal",
             "about": "Simples, muito comunicativa, mas de elevado sentido de responsabilidade, de organização e de confiança.\r\nGosto muito de contacto humano, sem o qual não me sinto estável. Adoro conhecer pessoas de culturas diferentes.\r\nFaço várias viagens, mas de curta duração, pois tenho necessidade de sentir o lar e a família. Por ser assim, tento fazer tudo para que os meus hospedes se sintam confortáveis como em suas casas.",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/c9b876fc-b30e-4951-8f88-af9add00939e.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "78704763"
@@ -670,25 +621,18 @@ export class StayService {
           "summary": "A spacious, art-filled one-bedroom apartment near the express train (28 minutes to Times Square) and a Citibike station. Sample Bed-Stuy life at a nearby French restaurant,  a sunny Haitian cafe, a boutique grocery and more. We do NOT discriminate based on race, religion or sexual orientation.",
           "capacity": 2,
           "amenities": [
-            "Internet",
-            "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Heating",
-            "Family/kid friendly",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "Fire extinguisher",
-            "Essentials",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
             "Shampoo",
-            "24-hour check-in",
-            "Hangers",
             "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_49",
-            "Self check-in",
-            "Lockbox"
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -700,7 +644,6 @@ export class StayService {
             "location": "New York, New York, United States",
             "about": "I'm a journalist from Texas and my husband is an artist from the Ukraine by way of Kansas City. We recently welcomed our son into the world. (Don't worry, he sleeps all night.)  We love exploring New York, especially Brooklyn, from the Brooklyn Flea to tiny taco joints to the Botanic Gardens to performance art in Bushwick storefronts (really). We've both spent a lot of time in the South, so hospitality is second nature to us. ",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/6334250/profile_pic/1368287493/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "6334250"
@@ -945,17 +888,19 @@ export class StayService {
           "summary": "Mi piso está en el centro de Barcelona. Cerca del metro, las ramblas, los museos, el Portal del Ángel, Plaza Cataluña. Mi alojamiento es bueno para turistas, aventureros, y viajeros de negocios....y tiene ascensor.",
           "capacity": 2,
           "amenities": [
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Kitchen",
-            "Doorman",
-            "Elevator",
-            "Buzzer/wireless intercom",
-            "Heating",
-            "Essentials",
-            "Hangers",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
             "Hair dryer",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50"
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -966,7 +911,6 @@ export class StayService {
             "fullname": "Marián",
             "location": "Barcelona, Catalonia, Spain",
             "about": "",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/31635864/profile_pic/1429604852/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "31635864"
@@ -1029,23 +973,18 @@ export class StayService {
           "summary": "Lit room with balcony. The apartment is in the center, just meters from the Palau de la Musica Catalana. Well connected, a few minutes from Las Ramblas and the Born. Very close to the beach and Ciutadella Park",
           "capacity": 2,
           "amenities": [
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Paid parking off premises",
-            "Smoking allowed",
-            "Heating",
-            "Washer",
-            "Essentials",
-            "Shampoo",
-            "Lock on bedroom door",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50",
+            "Free parking on premises",
             "Hot water",
-            "Bed linens",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -1057,7 +996,6 @@ export class StayService {
             "location": "Barcelona, Catalonia, Spain",
             "about": "Mi nombre es Isabel, pero me llamo Isa. Nací en Vigo (Galicia). Con 20 años me fuí a vivir a Madrid con intención de ser actriz; ahora resido en Barcelona desde los 28. Soy una joven de 43 años, cantante de Jazz. Me gusta salir, pero también quedarme en casa a leer o ver alguna buena película.\r\nHe compartido piso muchos años, pero estas serán mis primeras experiencias como anfitriona.\r\n\r\n¡Sed bienvenidos!\r\n",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/72a579ce-37d7-466e-9c25-9876ee8de037.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "35858044"
@@ -1282,32 +1220,18 @@ export class StayService {
           "summary": "Welcome! Upgrades Added as of January 2018 This listing is located in the Spanish Harlem Section of Manhattan. I offer a cozy apartment that has great transportation in and out the city! The area has a lot of ethnic restaurants and a lot of local, active residents. This residence is great for a quick, inexpensive stay in New York whether its for business, travel, or personal purposes. I am glad to welcome all guests!",
           "capacity": 3,
           "amenities": [
-            "TV",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Free street parking",
-            "Heating",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "Essentials",
-            "Shampoo",
-            "Lock on bedroom door",
-            "Hangers",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50",
-            "Private living room",
+            "Free parking on premises",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Refrigerator",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -1319,7 +1243,6 @@ export class StayService {
             "location": "New York, New York, United States",
             "about": "Welcome Everyone! Thank you for stopping by. \r\n\r\nI was born and raised in Manhattan and I am here to help  share the New York City Experience with others through Airbnb!  I am easy to connect with and very reachable and always willing to interact with people. \r\n\r\nI am big on cleanliness and hospitality. I strive on making Guests feel as comfortable as possible. \r\n\r\nI hope you would like to get a chance to visit my location and enjoy the hosting I provide. If you have any questions/ comments, feel free to contact me. \r\n",
             "responseTime": "within a few hours",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/61b62b90-e38b-4609-a3c4-ff5ff06b5c08.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "24800102"
@@ -1544,36 +1467,18 @@ export class StayService {
           "summary": "If the dates you wish are not available, we have other options in the same location. You can find them on my profile. My goal is for you to have your days with the most comfort i can propose. I want you to taste all the feelings in Porto, as our food, as our best places, our best pointviews. I just love to help you enjoying this beautiful city :)",
           "capacity": 2,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Free street parking",
-            "Heating",
-            "First aid kit",
-            "Safety card",
-            "Fire extinguisher",
-            "Essentials",
-            "Shampoo",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50",
-            "Room-darkening shades",
+            "Free parking on premises",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Microwave",
-            "Refrigerator",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Stove",
-            "Single level home",
-            "Long term stays allowed",
-            "Host greets you",
-            "Handheld shower head"
+            "Heating - split type ductless system",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 0,
@@ -1585,7 +1490,6 @@ export class StayService {
             "location": "Porto, Porto District, Portugal",
             "about": "Welcome!\r\nThe apartments has all the things to provide you a perfect days in Porto. It is located in a very central area, inside a typical oporto building. \r\nI will give you lots of informations about Porto, my personal tips, and I'll always be available to help you with anything. All I want is for you to go home knowing Porto and inevitably loving the city! :)\r\n\r\n",
             "responseTime": "within a day",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/f3e85f0c-e28d-4698-9da9-2f203aea1f3d.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "9320470"
@@ -1810,24 +1714,18 @@ export class StayService {
           "summary": "The neighbourhood is a quiet, family residential area, 20 minutes by bus from the historic center of Porto and 20 minutes from the beach (Matosinhos - where you may eat very GOOD fish!). You will love to stay in a very spacious, familiar and bright room, where you can enjoy a large and flowery garden, comfortable kitchen and laundry with washer and dryer machine. My space is good for couples, solo adventures, and business travelers!",
           "capacity": 2,
           "amenities": [
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
             "Free parking on premises",
-            "Pets live on this property",
-            "Cat(s)",
-            "Washer",
-            "Dryer",
-            "First aid kit",
-            "Fire extinguisher",
-            "Essentials",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
             "Shampoo",
-            "Lock on bedroom door",
-            "Hangers",
             "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50"
+            "Hot water",
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -1839,7 +1737,6 @@ export class StayService {
             "location": "Senhora da Hora, Porto, Portugal",
             "about": "",
             "responseTime": "a few days or more",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/87b9ccba-154a-4546-8cbe-8bdb25ddb36c.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "80558077"
@@ -1929,16 +1826,13 @@ export class StayService {
           "summary": "Welcome if you want to stay at a cozy flat with local experience.:) It is in the center of Istanbul.The neighborhood is safe and close to attractions.Transportation is easy. I will help you always.",
           "capacity": 2,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Kitchen",
-            "Heating",
-            "Washer",
-            "Essentials",
-            "Shampoo"
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -1950,7 +1844,6 @@ export class StayService {
             "location": "Istanbul",
             "about": "I live alone in Taksim area and i work at bar.\r\nI like meet new friends from all of the world.\r\nI like to Travel a lot ofcourse if i have free time :) East Asia , Sun , Sea , Sand , Movie  :) ",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/6bf03261-e7ac-4e0e-8121-3828612bbb6a.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "5823933"
@@ -2175,64 +2068,20 @@ export class StayService {
           "summary": "Price includes nightly rate & 14.42% tax.  Our fully remodeled 9th floor Penthouse unit offers the most amazing views.  The entire front of the condo is windows offering you a fantastic view of beautiful Pacific Ocean, Molokai & Lana'i.  Perfect location for watching beautiful sunsets, see our resident sea turtles & an excellent place for spotting whales during the whale migration season. This spacious two level 3 bedroom and 3 full bath Penthouse unit has over 2,050 sq ft of living space w/ AC.",
           "capacity": 9,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Pool",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
             "Free parking on premises",
-            "Gym",
-            "Elevator",
-            "Hot tub",
-            "Family/kid friendly",
-            "Washer",
-            "Dryer",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "First aid kit",
-            "Safety card",
-            "Fire extinguisher",
-            "Essentials",
-            "Shampoo",
-            "Lock on bedroom door",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "Self check-in",
-            "Building staff",
-            "Private entrance",
-            "Bathtub",
-            "Baby bath",
-            "High chair",
-            "Children’s books and toys",
-            "Crib",
-            "Pack ’n Play/travel crib",
-            "Children’s dinnerware",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "BBQ grill",
-            "Patio or balcony",
-            "Beach essentials",
-            "Step-free access",
-            "Disabled parking spot",
-            "Step-free access",
-            "Step-free access",
-            "Step-free access",
-            "Beachfront",
-            "Pool with pool hoist"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 3,
           "bedrooms": 3,
@@ -2244,7 +2093,6 @@ export class StayService {
             "location": "California, United States",
             "about": "My husband and I are Real Estate Investors.  We enjoy traveling and no matter where we go, we always find ourselves looking at properties.  Since we still have school age children I have found that a beach vacation is usually the most enjoyable for everyone.  Living on the West Coast, Hawaii continued to be a place that we would return to time and time again.",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/07c98f2f-9ffe-4ed8-82ca-1e9cd00c673f.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "82827178"
@@ -2442,23 +2290,18 @@ export class StayService {
           "summary": "A spacious, private studio with high speed Wi-Fi wireless internet. It is located in historical district of Sultanahmet oldcity center. It's Only 10 minutes (by walking) away from Sultanahmet  Blue Mosque, Hagia Sophia, Topkapı Palace, Underground Cistern and Hippodrome. This area is called Kadirga and it's famous with it's local restaurants. There are more gorcery stores and supermarkets in this are since it's not %100 touristic area. There is children playground right in front of the building.",
           "capacity": 5,
           "amenities": [
-            "TV",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Kitchen",
-            "Paid parking off premises",
-            "Heating",
-            "Family/kid friendly",
-            "Fire extinguisher",
-            "Essentials",
-            "Shampoo",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
+            "AC - split type ductless system",
+            "Free parking on premises",
             "Hot water",
-            "Microwave",
-            "Refrigerator",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 0,
@@ -2470,7 +2313,6 @@ export class StayService {
             "location": "Istanbul, İstanbul, Turkey",
             "about": "",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/7620074d-86d6-49c3-b7fe-cafe084051dd.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "98780303"
@@ -2695,25 +2537,15 @@ export class StayService {
           "summary": "4 rooms apartment in the heart of the right “Eixample” broadening. Perfect location in the notorious area of Sagrada Familia that will ensure and unforgettable stay in Barcelona. HUTB-003275",
           "capacity": 8,
           "amenities": [
-            "TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Paid parking off premises",
-            "Smoking allowed",
-            "Buzzer/wireless intercom",
-            "Family/kid friendly",
-            "Washer",
-            "Dryer",
-            "Essentials",
-            "Shampoo",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
+            "Free parking on premises",
             "Hot water",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
           ],
           "bathrooms": 2,
           "bedrooms": 4,
@@ -2725,7 +2557,6 @@ export class StayService {
             "location": "Barcelona, Catalonia, Spain",
             "about": "Hola, \r\n\r\nSomos Alexandra y Juan dos amigos que estamos enamorados de Barcelona, nuestras pasiones son viajar y conocer gente por lo que nos encantaría compartir con vosotros nuestros espacios  para que disfrutéis a vuestro gusto de toda la cultura, actualidad y diversidad de ofertas que la ciudad os ofrece.\r\nPara nosotros lo mas importante es que nuestros huéspedes puedan aprovechar al máximo su estancia en Barcelona,  que viváis vuestra historia  reflejada en  rincones únicos de la ciudad y por supuesto nuestra mayor satisfacción es que os sintáis como en casa según lo que busquéis.\r\n\r\nHello, \r\n\r\nWe are Alexandra and Juan two friends who are in love with Barcelona, our passion is to travel and meet new people so we would love to share our spaces with you and that you can enjoy the culture, the present and the diversity of offers that the city has to offer. \r\nFor us the most important thing is that our guests can make the most of their stay in Barcelona, that you live our history full of unique places and of course our greatest satisfaction is that you feel as if you where at home according to what you are looking for.",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/3fceba9a-ce84-4841-88df-b699105119b4.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "54320669"
@@ -2950,57 +2781,16 @@ export class StayService {
           "summary": "Spacious apartment in a peculiar building in the central neighbourhood of Poble Sec, with patio and terrace, ideal for families with children or groups. Walking distance from center, Montjuïc, Plaza España, Fira Montjuïc/Gran Vía, Sant Antoni, Raval.",
           "capacity": 7,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Paid parking off premises",
-            "Buzzer/wireless intercom",
-            "Heating",
-            "Family/kid friendly",
-            "Washer",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "First aid kit",
-            "Safety card",
-            "Fire extinguisher",
-            "Essentials",
-            "Shampoo",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "Outlet covers",
-            "Bathtub",
-            "High chair",
-            "Stair gates",
-            "Children’s books and toys",
-            "Crib",
-            "Pack ’n Play/travel crib",
-            "Room-darkening shades",
-            "Children’s dinnerware",
+            "Free parking on premises",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Ethernet connection",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "Patio or balcony",
-            "Luggage dropoff allowed",
-            "Long term stays allowed",
-            "Wide doorway",
-            "Well-lit path to entrance",
-            "Wide entryway",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
           ],
           "bathrooms": 2,
           "bedrooms": 3,
@@ -3012,7 +2802,6 @@ export class StayService {
             "location": "Barcelona, Catalonia, Spain",
             "about": "(ES) Soy mujer, mamá y traductora. Me gusta tener tiempo para pensar, viajar, jugar con mis hijas y descubrir algo nuevo cada día. A veces por trabajo tengo que viajar, y entonces mi amiga Yamila, gran mujer y fantástica anfitriona, amante del campo y fotógrafa de profesión, me ayuda con los huéspedes.\r\n\r\n(EN) I am a woman, a mother and a translator. I like having time to think, to travel, to play with my daughters and to discover something new every day. Sometimes I have to travel because of my job: in those occasions my friend Yamila, great woman and fantastic host, outdoor lover and photographer, helps me out with guests.",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/6107595/profile_pic/1442432675/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "6107595"
@@ -3237,29 +3026,18 @@ export class StayService {
           "summary": "*NO PARTIES OR EVENTS* **Minutes From MANHATTAN / NYC BY TRAIN* 1 BLOCK FROM GRAND ST. First Floor Newly Renovated And Furnished Williamsburg Apartment Duplex  Back yard access. Wood Floors. Wifi. Marble & Granite Bathroom. *NEW-CLEAN* *BAKYARD PATIO* *CABLE TV*",
           "capacity": 4,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Kitchen",
-            "Smoking allowed",
-            "Hot tub",
-            "Buzzer/wireless intercom",
-            "Heating",
-            "Family/kid friendly",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "First aid kit",
-            "Safety card",
-            "Fire extinguisher",
-            "Essentials",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
             "Shampoo",
-            "24-hour check-in",
-            "Hangers",
             "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace"
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 2,
@@ -3271,7 +3049,6 @@ export class StayService {
             "location": "US",
             "about": "",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/217e78d8-bb65-46c5-af28-ecd1939e1945.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "62130666"
@@ -3496,20 +3273,20 @@ export class StayService {
           "summary": "The comfortable apartment at the heart of busy Tsim Sha Tsui.2minutes walk to the MTR/Subway station.There are many biggest shopping mall around here:K-11,The One,Harbour city ect.",
           "capacity": 2,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Wheelchair accessible",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Doorman",
-            "Elevator",
-            "First aid kit",
-            "Essentials",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
             "Shampoo",
             "Hair dryer",
-            "Iron"
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 0,
@@ -3521,7 +3298,6 @@ export class StayService {
             "location": "Hong Kong",
             "about": "",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/37031267/profile_pic/1441373303/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "37031267"
@@ -3746,57 +3522,19 @@ export class StayService {
           "summary": "Welcome to Kana'i A Nalu a quiet resort that sits on the ocean away from the road. This property has the BEST ocean front views of Molokini Crater and Kaho'Olawe Island. There is a resort swimming pool and BBQs next to the ocean. This gorgeous 2 bed 2 bath unit is on the third floor look over the Pacific Ocean with views of Sugar Beach and Mount Haleakalea!  The condo is light and bright with all the creature comforts of home.  The beds are very comfortable.",
           "capacity": 6,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Pool",
+            "AC - split type ductless system",
             "Kitchen",
             "Free parking on premises",
-            "Elevator",
-            "Free street parking",
-            "Family/kid friendly",
-            "Washer",
-            "Dryer",
-            "Smoke detector",
-            "First aid kit",
-            "Essentials",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "Self check-in",
-            "Lockbox",
-            "Babysitter recommendations",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "Single level home",
-            "BBQ grill",
-            "Patio or balcony",
-            "Garden or backyard",
-            "Beach essentials",
-            "Long term stays allowed",
-            "Wide hallway clearance",
-            "Step-free access",
-            "Wide doorway",
-            "Flat path to front door",
-            "Well-lit path to entrance",
-            "Disabled parking spot",
-            "Step-free access",
-            "Step-free access",
-            "Step-free access",
-            "Waterfront",
-            "Beachfront"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 2,
           "bedrooms": 2,
@@ -3808,7 +3546,6 @@ export class StayService {
             "location": "Hawaii, United States",
             "about": "I am the owner of Maui Vision Rental. Maui Vision became a reality and a business starting with my personal condo at the Kihei Akahi Resort C618.\r\n\r\nMaui Vision is a business I love because I get to share the Aloha Spirit, the beauty of the land, and talk story with people from around the world. It is nice to know that we can contribute to someone’s Hawaiian vacation experience in a positive way. We love to hear back from our happy guests.\r\n\r\nI used to live on the island of Oahu with my US Navy family when I was young.  We later moved to Southern California.  I knew one day I would return to Hawaii, the place I fell in love with long ago. I took a leap of faith and purchased my Maui condo June 2002 this was the beginning of fulfilling her prophecy to once again return to Hawaii soil.\r\n\r\nI am a tropical expression artist who paints on canvas and etched metal.  My work is inspired by the beauty of the islands and has been displayed in several Maui art galleries over the years.  I am a writer and have my first book on Amazon.  I recently took up hula dancing and love to immerse myself in the culture and grace of this island.\r\n\r\nI have over 25 years of business administration and customer service experience working for large corporations and high tech startups.\r\n\r\nIf you are in need of a caring Realtor here on Maui, please contact Kathy McCartney RS#77317 of La Costa Realty Hawai’i, LLC Brokerage Lic #18349 .",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/ddcc4146-9abc-4f4d-b347-8f30deb10f6c.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "733802"
@@ -3916,19 +3653,20 @@ export class StayService {
           "summary": "Spacious, sunny room in owner occupied house in the heart of Park Slope. Shared  bathroom with shower/bath tub. Steps away from restaurants/bars and shopping. Within walking distance of major subway lines, Prospect Park, BAM and Barclay Center.",
           "capacity": 2,
           "amenities": [
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Heating",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "First aid kit",
-            "Fire extinguisher",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
             "Shampoo",
-            "Lock on bedroom door",
-            "Hangers",
             "Hair dryer",
-            "Iron"
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -3940,7 +3678,6 @@ export class StayService {
             "location": "New York, New York, United States",
             "about": "",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/24253453/profile_pic/1434065920/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "24253453"
@@ -3994,52 +3731,18 @@ export class StayService {
           "summary": "Apartamento en el centro del casco antiguo de Barcelona, a 50 mts del mar, a 1 minuto de Las Ramblas, Borne, Plaza Real y Barceloneta.",
           "capacity": 4,
           "amenities": [
-            "TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Paid parking off premises",
-            "Buzzer/wireless intercom",
-            "Heating",
-            "Family/kid friendly",
-            "Washer",
-            "Dryer",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "First aid kit",
-            "Safety card",
-            "Fire extinguisher",
-            "Essentials",
-            "Shampoo",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "High chair",
-            "Crib",
-            "Room-darkening shades",
+            "Free parking on premises",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "Luggage dropoff allowed",
-            "Long term stays allowed",
-            "Cleaning before checkout",
-            "Wide doorway",
-            "Step-free access",
-            "Wide clearance to bed",
-            "Step-free access",
-            "Host greets you",
-            "Handheld shower head"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
           ],
           "bathrooms": 1,
           "bedrooms": 3,
@@ -4051,7 +3754,6 @@ export class StayService {
             "location": "Barcelona, Catalonia, Spain",
             "about": "",
             "responseTime": "within a few hours",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/22076771/profile_pic/1415724202/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "22076771"
@@ -4159,31 +3861,18 @@ export class StayService {
           "summary": "A part of a famous Poet Orhan Veli Kanık's poem: I am listening to Istanbul, intent, my eyes closed.  The Grand Bazaar is serene and cool,  A hubbub at the hub of the market,  Mosque yards are brimful of pigeons,  At the docks while hammers bang and clang  I am listening to Istanbul, intent, my eyes closed.  In the heart of Istanbul, and a step back from Bosphorus, our flat is ideal for a guest looking for to visit magical corners to listen epic Istanbul.",
           "capacity": 2,
           "amenities": [
-            "TV",
-            "Cable TV",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Paid parking off premises",
-            "Smoking allowed",
-            "Heating",
-            "Family/kid friendly",
-            "Washer",
-            "Essentials",
-            "Shampoo",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_50",
+            "Free parking on premises",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -4195,7 +3884,6 @@ export class StayService {
             "location": "Çalışıyorum",
             "about": "I live in Cihangir and love to meet people and share our lively neighbourhood with them.",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/d741db02-7680-4a52-940e-52dae808cd1f.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "2769925"
@@ -4267,73 +3955,18 @@ export class StayService {
           "summary": "Westin Kaanapali Ocean Resort Villas South timeshare - Pay resort: $14-20/day, stays under 7 night $38/res - Inquire about availability, I review then offer/approve if available :) - READ \"The Space\" for cleaning/etc AND brief explanation about timeshare reservations - Guaranteed view MUST BE 7 nights (mult weeks avail), check-in Fri/Sat/Sun. More/Less nights @ higher cost - Wheelchair accessible / ADA, call resort directly to ensure U receive. If U need ADA U MUST inform us BEFORE booking.",
           "capacity": 8,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Wheelchair accessible",
-            "Pool",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
             "Free parking on premises",
-            "Doorman",
-            "Gym",
-            "Elevator",
-            "Hot tub",
-            "Heating",
-            "Family/kid friendly",
-            "Suitable for events",
-            "Washer",
-            "Dryer",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "First aid kit",
-            "Safety card",
-            "Fire extinguisher",
-            "Essentials",
-            "Shampoo",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "Self check-in",
-            "Building staff",
-            "Private entrance",
-            "Room-darkening shades",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Ethernet connection",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "Single level home",
-            "BBQ grill",
-            "Patio or balcony",
-            "Garden or backyard",
-            "Luggage dropoff allowed",
-            "Long term stays allowed",
-            "Wide hallway clearance",
-            "Step-free access",
-            "Wide doorway",
-            "Flat path to front door",
-            "Well-lit path to entrance",
-            "Disabled parking spot",
-            "Step-free access",
-            "Wide doorway",
-            "Wide clearance to bed",
-            "Step-free access",
-            "Wide doorway",
-            "Step-free access",
-            "Wide entryway",
-            "Waterfront",
-            "Beachfront"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 2,
           "bedrooms": 2,
@@ -4345,7 +3978,6 @@ export class StayService {
             "location": "Eureka, California, United States",
             "about": "Adventurous couple loves to travel :)",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/542dba0c-eb1b-4ab3-85f3-94d3cc8f87a4.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "36133410"
@@ -4435,24 +4067,20 @@ export class StayService {
           "summary": "Yeşillikler ve tipik ada evleri arasında yürüyüş yapmak, bisiklete binmek, yüzmek, S.F.Abasıyanık Müzesini gezmek, İstanbul un en güzel gün batımına şahit Kalpazankaya da yemek yemek, baharda mimoza toplamak, Marta yı anlamak koyunda yüzerken",
           "capacity": 4,
           "amenities": [
-            "TV",
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Heating",
-            "Family/kid friendly",
-            "Washer",
-            "First aid kit",
-            "Essentials",
-            "Shampoo",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "Children’s books and toys",
+            "Free parking on premises",
             "Hot water",
-            "Luggage dropoff allowed",
-            "Long term stays allowed",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 2,
@@ -4464,7 +4092,6 @@ export class StayService {
             "location": "Istanbul, İstanbul, Turkey",
             "about": "",
             "responseTime": "within a day",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/fda23efa-e51c-40be-8cd8-3ab6ee05c140.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "57921954"
@@ -4689,37 +4316,17 @@ export class StayService {
           "summary": "At this Sonder, you'll love the bright and airy decor, expansive living area, and beautiful fully-equipped kitchen with modern appliances. Located in the Le Plateau, known for its assortment of delicious restaurants and relaxed cafes.",
           "capacity": 8,
           "amenities": [
-            "TV",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Kitchen",
-            "Free street parking",
-            "Heating",
-            "Washer",
-            "Dryer",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "Fire extinguisher",
-            "Essentials",
-            "Shampoo",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "Self check-in",
-            "Lockbox",
-            "Private living room",
+            "AC - split type ductless system",
             "Hot water",
-            "Bed linens",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "Long term stays allowed"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 4,
@@ -4731,7 +4338,6 @@ export class StayService {
             "location": "San Francisco, California, United States",
             "about": "Sonder provides everything you need for an exceptional stay. Every booking is instantly confirmed. Every call or message is answered within minutes. Every home is equipped with crisp linens, high-speed Wi-Fi, and kitchen and bath essentials. And every experience is one-of-a-kind, thanks to our unique spaces and Neighborhood Guides.\r\n\r\nTo provide a better Sonder guest experience, we're creating local Airbnb accounts, and moving our listings to those new accounts. If you don't see a property you like here, there may be more on one of our new local profiles. Please reach out for more information!",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/c92b0b12-e019-4bb1-b0a8-c0b671096eb2.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "12243051"
@@ -4956,22 +4562,18 @@ export class StayService {
           "summary": "Near 70th and 1st.  A very nice 6th floor walk-up with true 2 bedrooms and one bath. Full Kitchen. One bedroom has a queen and the other a double.  Living room has a couch you could sleep on too. New powerful air conditioner cools whole apt. Great area with restaurants, shopping and walk to Central Park Please contact us first if reserving on same day, we might need time to arrange for keys. Holiday weekends we prefer 3 night stays. Thank you!",
           "capacity": 5,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Pets allowed",
-            "Pets live on this property",
-            "Buzzer/wireless intercom",
-            "Heating",
-            "Family/kid friendly",
-            "Essentials",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
             "Shampoo",
             "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace"
+            "Hot water",
           ],
           "bathrooms": 1,
           "bedrooms": 2,
@@ -4982,7 +4584,6 @@ export class StayService {
             "fullname": "Chelsea",
             "location": "Sea Cliff, New York, United States",
             "about": "",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/4d361f57-f65e-4885-b934-0e92eebf288d.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "52004369"
@@ -5108,28 +4709,20 @@ export class StayService {
           "summary": "Private room, dedicated bath and a separate entrance. Totally renovated Queen Anne Historic Townhouse Home on a safe, Landmark Block. Only one stop from Midtown Manhattan! Enjoy the rear private Garden at breakfast time. Beautiful tree lined,quiet street. 4 subway lines ( E, M, 7 and G ) are one block away! Great restaurants, supermarket and cafes nearby.",
           "capacity": 4,
           "amenities": [
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Pets live on this property",
-            "Dog(s)",
-            "Heating",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "Essentials",
-            "Shampoo",
-            "Lock on bedroom door",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Luggage dropoff allowed",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -5141,7 +4734,6 @@ export class StayService {
             "location": "New York, New York, United States",
             "about": "Photographer/Developer. \r\nI enjoy NYC tremendously but love traveling and have visited\r\nover 40 countries. My house is filled with artwork from those travels.\r\nI work my photography business from my home studio, in a restored 1890 landmark townhouse with all the modern amenities.\r\nMy house has been used for filming scenes for Sex & The City, The Sopranos, Gossip Girl & White Collar.\r\nMy photography column,\"Orestes'LIC\", appears every month in the local paper.\r\nI love Asian, Spanish & Cuban food, along with a good bottle of red wine.\r\nTalking about travel, art, design and photograph,is my favorite pastime. Sorry,I dont shop or know where the best electronics bargains are located ! \r\nI love giving great walking tour information of different parts of NYC, and info on non-touristy places to eat real food in the area.\r\nI will provide you the privacy level you require to make your stay here is as comfortable as possible.\r\nEnjoy a great, clean, stylish place to stay, only 7 minutes from Manhattan!\r\n",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/50124/profile_pic/1443072360/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "50124"
@@ -5366,29 +4958,18 @@ export class StayService {
           "summary": "Cozy apartment with wooden floors, two bedrooms, one with double bed, the second with two single beds, two bathrooms and equipped kitchen.",
           "capacity": 4,
           "amenities": [
-            "TV",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Smoking allowed",
-            "Heating",
-            "Family/kid friendly",
-            "Washer",
-            "Dryer",
-            "Essentials",
+            "Free parking on premises",
+            "Hot water",
             "Shampoo",
-            "Hangers",
             "Hair dryer",
-            "Iron",
-            "Bathtub",
-            "Bed linens",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Oven",
-            "Patio or balcony"
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 2,
           "bedrooms": 2,
@@ -5400,7 +4981,6 @@ export class StayService {
             "location": "Barcelona, Catalonia, Spain",
             "about": "Nos encanta Barcelona, conocemos la ciudad y algunos de sus secretos. Podemos ayudarte a planificar tu visita.",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/6544866/profile_pic/1400529085/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "6544866"
@@ -5625,30 +5205,18 @@ export class StayService {
           "summary": "Very quite and sunny room with private shower room My place is in Poble Sec, one of the most charming neighborhood in Barcelona. Located in the shadow of Montjuic's hill,the biggest and most beautiful parc in the city Just 2min far from  metro station and 15min from the airport bus stop Poble Sec is sizzling with open air bars and  quite streets ,pretty squares and friendly locals make it worthy The flat is in the 5th FLOOR NO LIFT  There's a lovely fat cat living",
           "capacity": 2,
           "amenities": [
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Pets live on this property",
-            "Cat(s)",
-            "Buzzer/wireless intercom",
-            "Heating",
-            "Washer",
-            "First aid kit",
-            "Essentials",
-            "Shampoo",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50",
+            "Free parking on premises",
             "Hot water",
-            "Bed linens",
-            "Refrigerator",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Stove"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -5660,7 +5228,6 @@ export class StayService {
             "location": "Barcelona, Catalonia, Spain",
             "about": "\r\nI love traveling. Therefore, I am delighted to help travelers to discover the magical places of this incredible city. I am completely available to give any kind of suggestions, information and help on what they need to make the stay in Barcelona as pleasant as possible !!\r\n\r\n",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/fdb58b71-1613-4905-8850-024dc23f1cb0.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "80740340"
@@ -5885,31 +5452,18 @@ export class StayService {
           "summary": "Our home is located in Darlington, a small niche suburb of Sydney with a relaxed, friendly and safe atmosphere. We are located a 10 min walk to Broadway, Glebe, Newtown, The University, surrounded by fantastic restaurants, cafes, pubs, markets and public transport. It is a 20 min walk to the city centre.",
           "capacity": 4,
           "amenities": [
-            "TV",
-            "Internet",
-            "Wifi",
+            '32" HDTV with Disney+, standard cable',
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Paid parking off premises",
-            "Smoking allowed",
-            "Free street parking",
-            "Heating",
-            "Washer",
-            "Dryer",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "First aid kit",
-            "Fire extinguisher",
-            "Essentials",
-            "Shampoo",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50",
+            "Free parking on premises",
             "Hot water",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 2,
@@ -5920,7 +5474,6 @@ export class StayService {
             "fullname": "Jason",
             "location": "New South Wales, Australia",
             "about": "Hey I'm Jason. I enjoy travelling, photography and beer!\r\n\r\nWe have had a little girl!\r\nOur calender will be closed for a while. If you are a repeat guest send me a message and we might be able to open the calender for you.\r\n\r\nI spent many years living in England, Ireland and Italy; and have travelled to Andorra, Austria, Bali, Belgium, Bulgaria, France, Germany, Hungary, Malaysia, Portugal, Romania, Singapore, Spain, Switzerland, Thailand & Vietnam. \r\n\r\nMy partner Luana is from Verona, Italy. \r\n\r\nWe started hosting in Oct 2015 and enjoy meeting people from around the world and listening to stories about their country and travels.\r\n\r\nWe have a good knowledge of Sydney (sights, attractions, shopping, beaches, day treks, restaurants, pubs & night clubs) and various places around Australia. ",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/440690bd-73f1-411a-8194-5e6a17bc39ff.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "9031139"
@@ -5992,20 +5545,20 @@ export class StayService {
           "summary": "A lovely room with a queen sized bed, chair, dresser, lamp and closet. This room has AC for the hotter months. Guests are welcome to use the kitchen, living room and study.",
           "capacity": 1,
           "amenities": [
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Free street parking",
-            "Heating",
-            "Smoke detector",
-            "First aid kit",
-            "Fire extinguisher",
-            "Essentials",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
             "Shampoo",
-            "Lock on bedroom door",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50",
-            "Host greets you"
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -6017,7 +5570,6 @@ export class StayService {
             "location": "Montreal, Quebec, Canada",
             "about": "Massage therapist, artist, writer, gardener, traveler, filmmaker and B&B Host.",
             "responseTime": "within a few hours",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/528512/profile_pic/1303510673/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "528512"
@@ -6242,48 +5794,17 @@ export class StayService {
           "summary": "Studio in modernized building with games room, gym, computer room, ballroom and rooftop pool. The studio with modern, cheerful decor, with light vintage feel is divided into bedroom and living room with kitchen.",
           "capacity": 2,
           "amenities": [
-            "TV",
-            "Cable TV",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Wheelchair accessible",
-            "Pool",
-            "Kitchen",
-            "Paid parking off premises",
-            "Doorman",
-            "Gym",
-            "Elevator",
-            "Buzzer/wireless intercom",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "Essentials",
+            "AC - split type ductless system",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
             "Shampoo",
-            "24-hour check-in",
-            "Hangers",
             "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50",
-            "Self check-in",
-            "Building staff",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "BBQ grill",
-            "Patio or balcony",
-            "Garden or backyard",
-            "Luggage dropoff allowed",
-            "Long term stays allowed",
-            "Wide hallway clearance",
-            "Wide doorway",
-            "Flat path to front door",
-            "Well-lit path to entrance",
-            "Accessible-height bed",
-            "Step-free access"
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -6295,7 +5816,6 @@ export class StayService {
             "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
             "about": "Moro no Rio de Janeiro, nascida em Salvador. Resolvi alugar este apartamento,  principalmente por que gosto muito de viajar e quando viajo, prefiro alugar um espaço para ficar. Alugar um apartamento em outra cidade, outro país, além de ser mais barato do que hotel, possibilita uma maior interação com os moradores locais e um maior conhecimento sobre o seu modo de vida. Como são os supermercados e as padarias, o que vendem ali ? qual é o dia a dia da população?  Além disto não há horário para o café da manhã e posso fazer um lanche ou almoço se não quiser ir a um restaurante.\r\nProcuro trazer as minhas experiências de hospedagem para o meu apartamento, pois quero que o hóspede se sinta confortável, em casa.\r\nAlém de gostar muito de viajar, adoro ler e ouvir música e pretendo com o dinheiro que ganho hospedando, poder me hospedar mais pelo mundo a fora. ",
             "responseTime": "within a few hours",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/8557006/profile_pic/1378865375/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "8557006"
@@ -6520,28 +6040,18 @@ export class StayService {
           "summary": "Double room on the second floor of a new constructed duplex of modern design. There are a wardrobe, a small table and its own air conditioner that could be used  for winter as well as for summer. Large family size bed of 135 x 190 cm. Inside the apartment you could freely use large kitchen with dining table and a lot of modern kitchen devices. Itºs located in a quiet neighborhood just in  15 min by train or metro (the train or metro station are just in 5 min by foot from apartment).",
           "capacity": 2,
           "amenities": [
-            "TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Elevator",
-            "Buzzer/wireless intercom",
-            "Heating",
-            "Family/kid friendly",
-            "Washer",
-            "First aid kit",
-            "Essentials",
-            "Shampoo",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_50",
+            "Free parking on premises",
             "Hot water",
-            "Luggage dropoff allowed",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -6552,7 +6062,6 @@ export class StayService {
             "fullname": "Sonia",
             "location": "Barcelona, Catalonia, Spain",
             "about": "Soy una persona extrovertida, sociable, sencilla y me gusta conocer a gente nueva.\r\nEntre mis aficiones están el cine, el baile, los paseos por la playa y la montaña y viajar.",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/7df7595b-806c-46f4-a4d9-62f41a38393d.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "16022141"
@@ -6705,20 +6214,18 @@ export class StayService {
           "summary": "Quarto exclusivo com armário e sofá cama de casal, possui ainda um colchão de casal. Apartamento localizado próximo a estação do BRT - Aracy Cabral - Bairro da Taquara - Jacarepaguá de fácil acesso aos bairros da Barra da Tijuca, Recreio, etc.",
           "capacity": 2,
           "amenities": [
-            "Cable TV",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
-            "Smoking allowed",
-            "Elevator",
-            "Buzzer/wireless intercom",
-            "Family/kid friendly",
-            "Washer",
-            "Essentials",
-            "Lock on bedroom door",
-            "24-hour check-in",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_50"
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
           ],
           "bathrooms": 1,
           "bedrooms": 1,
@@ -6730,7 +6237,6 @@ export class StayService {
             "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
             "about": "Carioca, profissional de marketing, maquiadora e que ama viajar, conhecer lugares, culturas e pessoas! ",
             "responseTime": "a few days or more",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/ef5a70f4-27ad-4377-b5c6-90483ed8ac91.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "3026612"
@@ -6784,29 +6290,19 @@ export class StayService {
           "summary": "NICE AND COZY APARTMENT WITH 2 BEDROOMS ON A TOP FLOOR. LOCATED ON ST-LAURENT BOULEVARD. WALKING DISTANCE TO MANY GOOD RESTAURANTS, BARS, SHOPPING AND OTHER SERVICES.",
           "capacity": 4,
           "amenities": [
-            "TV",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
             "Kitchen",
-            "Heating",
-            "Washer",
-            "Dryer",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "First aid kit",
-            "Fire extinguisher",
-            "Essentials",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
             "Shampoo",
-            "24-hour check-in",
-            "Hangers",
             "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "translation missing: en.hosting_amenity_49",
-            "translation missing: en.hosting_amenity_50",
-            "Self check-in",
-            "Lockbox",
-            "Hot water"
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 2,
@@ -6818,7 +6314,6 @@ export class StayService {
             "location": "Montreal, Quebec, Canada",
             "about": "",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/a4a32ba2-8d89-474a-adab-2c39c1bc0adb.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": false,
             "policyNumber": "9998124"
@@ -7043,31 +6538,15 @@ export class StayService {
           "summary": "Moderno apartamento de 2 quartos com garagem em bucólica rua de Ipanema, a poucos metros da Lagoa Rodrigo de Freitas.",
           "capacity": 4,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
             "Free parking on premises",
-            "Smoking allowed",
-            "Doorman",
-            "Elevator",
-            "Buzzer/wireless intercom",
-            "Family/kid friendly",
-            "Washer",
-            "Dryer",
-            "Essentials",
-            "Shampoo",
-            "24-hour check-in",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
             "Hot water",
-            "Luggage dropoff allowed",
-            "Long term stays allowed",
-            "Host greets you"
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
           ],
           "bathrooms": 2,
           "bedrooms": 2,
@@ -7079,7 +6558,6 @@ export class StayService {
             "location": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
             "about": "My name is Barbara.\r\nI'm an administrator and real state manager. I study photography.\r\nI've always enjoyed showing Rio around and helping people take the most out of the city.\r\nIt has been seven years I share my love for Rio renting apartments for short period and helping my guests with hints on tourist spots.\r\nI love cooking and It will be a pleasure to be able to help with information about restaurants, bars and gastronomy in general.\r\nI love to make new friends and to know different cultures.\r\nMy husband Ricardo is  a chemical engeneer, a great companion, but not talkative as I'm.\r\nOur daughter Alice is 8 years-old. She is into dancing classical ballet, jazz and loves to exchange experiences with people in general.\r\nI look foward to having you at my place!\r\n\r\nSeja bem vindo (a)! Meu nome é Bárbara, sou administradora de empresas e estudante de fotografia.\r\nHá 7 anos eu compartilho o amor pela cidade do Rio de Janeiro alugando apartamentos por temporada e ajudando meus hóspedes com dicas sobre a cidade e pontos turísticos.\r\nUma das minhas paixões é cozinhar e será um prazer poder compartilhar dicas sobre restaurantes, bares e gastronomia em geral.\r\nAdoro viajar, fazer novos amigos e conhecer diferentes culturas.\r\nSe você ficar na minha casa também vai conhecer o meu marido Ricardo, que é engenheiro químico e meu grande parceiro na hospedagem, gente boa, mas não tão falante como eu. Nossa filha Alice tem 8 anos, dança ballet e jazz e  também adora conhecer novas pessoas e trocar experiências.\r\nTambém tenho apartamentos inteiros no Centro, Lapa e Zona Sul da cidade.\r\nSeja bem vindo a um cantinho para chamar de seu. :)",
             "responseTime": "within a few hours",
-            "thumbnailUrl": "https://a0.muscache.com/im/users/2537111/profile_pic/1418360168/original.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "2537111"
@@ -7304,67 +6782,18 @@ export class StayService {
           "summary": "A spectacular oceanfront ground level condo. 10 feet away from the ocean.  Enjoy an unobstructed 180% Amazing Ocean Views, of Molokai & Lanai Islands with awesome sunsets & whale watching in season while sipping your favorite wine from your living room or lanai. Explore & swim  2 reefs just outside your lanai. You have got it all from this renovated private unit. Your backyard is the ocean. In walking distance to town, children friendly, protected by 2 reefs. FREE parking 12 steps to front door.",
           "capacity": 6,
           "amenities": [
-            "TV",
-            "Cable TV",
-            "Internet",
+            '32" HDTV with Disney+, standard cable',
             "Wifi",
-            "Air conditioning",
-            "Wheelchair accessible",
-            "Pool",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
             "Kitchen",
             "Free parking on premises",
-            "Free street parking",
-            "Family/kid friendly",
-            "Washer",
-            "Dryer",
-            "Smoke detector",
-            "Carbon monoxide detector",
-            "First aid kit",
-            "Essentials",
-            "Shampoo",
-            "Lock on bedroom door",
-            "Hangers",
-            "Hair dryer",
-            "Iron",
-            "Laptop friendly workspace",
-            "Self check-in",
-            "Lockbox",
-            "Private entrance",
-            "Bathtub",
-            "High chair",
-            "Stair gates",
-            "Children’s books and toys",
-            "Window guards",
-            "Pack ’n Play/travel crib",
-            "Room-darkening shades",
             "Hot water",
-            "Bed linens",
-            "Extra pillows and blankets",
-            "Microwave",
-            "Coffee maker",
-            "Refrigerator",
-            "Dishwasher",
-            "Dishes and silverware",
-            "Cooking basics",
-            "Oven",
-            "Stove",
-            "Single level home",
-            "BBQ grill",
-            "Patio or balcony",
-            "Garden or backyard",
-            "Beach essentials",
-            "Luggage dropoff allowed",
-            "Long term stays allowed",
-            "Step-free access",
-            "Flat path to front door",
-            "Well-lit path to entrance",
-            "Step-free access",
-            "Wide clearance to bed",
-            "Step-free access",
-            "Bathtub with bath chair",
-            "Step-free access",
-            "Waterfront",
-            "Beachfront"
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
           ],
           "bathrooms": 1,
           "bedrooms": 2,
@@ -7376,7 +6805,6 @@ export class StayService {
             "location": "Rancho Palos Verdes, California, United States",
             "about": "I was born on the island of Ischia, Capri, Italy. Maui is my dream come true second home. Staying close to the ocean and enjoying the beaches and lush grounds makes life great.",
             "responseTime": "within an hour",
-            "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/f1457fda-ca3a-427b-9fd2-8c864d35d156.jpg?aki_policy=profile_small",
             "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
             "isSuperhost": true,
             "policyNumber": "104714699"
@@ -7586,6 +7014,2618 @@ export class StayService {
             "value": 4.7
           }
         },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "East Village Sanctuary",
+          "type": "National parks",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436578/y1fshh0nppk5nxbfzqoz.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437262/ifklqhihs1qinbmap5hd.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436562/aflmntpgocp5l2zxikhl.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436301/etz0n0umubahfkgmmwt8.jpg"
+          ],
+          "price": 200,
+          "summary": "Walking distance to NYU. Large one bedroom with full kitchen and living room. In the hustle and bustle of the east village night, hide away in this green oasis to recharge and reset. Right next to the L, 4, 5, 6, N,R, W and F lines this apartment is the perfect central location for anywhere you want to go in NYC as well as just walking a block or two for a cheap amazing meal.",
+          "capacity": 2,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+          ],
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Molly",
+            "location": "New York, New York, United States",
+            "about": "I love a good adventure.",
+            "responseTime": "within an hour",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "id": "57107571"
+          },
+          "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "New York",
+            "address": "New York, NY, United States",
+            "lat": -73.98763,
+            "lan": 40.72808
+          },
+          "reviews": [
+            {
+              "at": "2016-10-03T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb27a",
+                "fullname": "Jean-Marie",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
+              },
+              "txt": "Amazing apartment! I had a great time and it was easy to deal with Molly. Thank you so much! Jean-Marie"
+            },
+            {
+              "at": "2016-10-10T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb0b4",
+                "fullname": "Saundra",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg",
+              },
+              "txt": "Everything was great! Nice clean apartment, bedrooms were both a good size. Host was generous and offered us toiletries throughout the place, hope to stay there again "
+            },
+            {
+              "at": "2017-01-01T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbc32",
+                "fullname": "Manuel",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
+              },
+              "txt": "Amazing flat , excellent situation!! I recommend this place !! "
+            },
+            {
+              "at": "2017-09-11T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fb9f3",
+                "fullname": "Sindre",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
+              },
+              "txt": "Molly was very welcoming, accesible and flexible. She made our stay a pleasant experience."
+            },
+            {
+              "at": "2017-09-19T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbf57",
+                "fullname": "Roger",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
+              },
+              "txt": "Molly's place was clean and beautifully decorated. We had the apartment to ourselves for the three days we were in New York, and the whole experience was perfect. It's located within a quick walking distance of a 24-hour CVS, plenty of restaurants, a Metro Station, local markets and parks, and we always felt safe walking around together, even late at night. She's a very pleasant host and was quick to communicate with us whenever we had questions during our stay. I would absolutely book here again! Thank you, Molly!"
+            },
+            {
+              "at": "2017-10-30T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbba5",
+                "fullname": "Eliza",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/70.jpg",
+              },
+              "txt": "Great location. Everything was lovely and as described. Molly was a super accommodating and friendly host."
+            },
+            {
+              "at": "2017-12-04T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fba3b",
+                "fullname": "Ant",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
+              },
+              "txt": "Really nice apartment. Easy communications with host. Great area. value for money. Highly, highly recommended."
+            },
+            {
+              "at": "2018-07-07T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fc05b",
+                "fullname": "James",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
+              },
+              "txt": "Amazing and quirky place. Excellent location and an amazing host."
+            },
+            {
+              "at": "2018-08-03T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb6d8",
+                "fullname": "Arno",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
+              },
+              "txt": "The host canceled this reservation 29 days before arrival. This is an automated posting."
+            },
+            {
+              "at": "2018-08-16T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbe91",
+                "fullname": "Sophie",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
+              },
+              "txt": "The host canceled this reservation 5 days before arrival. This is an automated posting."
+            },
+            {
+              "at": "2018-08-17T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb2fe",
+                "fullname": "Anna",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
+              },
+              "txt": "The host canceled this reservation 13 days before arrival. This is an automated posting."
+            },
+            {
+              "at": "2018-09-17T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164faec8",
+                "fullname": "Logan",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
+              },
+              "txt": "Molly's space was a lovely spot to visit in NY and was much better than expected. There were many places nearby to eat, shop and explore. Access to the subway was perfect. Could not have asked for better accommodations. Would definitely stay here again!"
+            },
+            {
+              "at": "2018-09-23T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fba62",
+                "fullname": "Mark",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
+              },
+              "txt": "Great location! Plenty to do around the apartment. CVS/Walgreen nearby, bars, restaurants (check out Ippudo for ramen, or Ray’s for a 24h slice after a long night out!) and subway access. Check in was a breeze and Molly was very accommodating and available for questions the few times we messaged her. Also, the apartment is wonderfully decorated (pics don’t do it justice!). Highly recommend!"
+            },
+            {
+              "at": "2018-10-14T04:00:00.000Z",
+              "by": {
+                "_id": "622f3408e36c59e6164fc083",
+                "fullname": "Lisi",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg",
+              },
+              "txt": "Perfect Place to Star in NYC!Many Young People!"
+            },
+            {
+              "at": "2018-10-21T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fad64",
+                "fullname": "Mallory",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
+              },
+              "txt": "Looking to adventure in New York City? This is a good home base.  Local to several culture experiences of NYC.  Molly’s space is very homey and decorated with vintage pieces and art. Would love to stay again for future trips I’ll be making to NYC."
+            },
+            {
+              "at": "2018-10-28T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb354",
+                "fullname": "Tatiana",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
+              },
+              "txt": "You expect all what Molly offers at her place. Lovely clean apartment. Definitely coming back to it ❤️"
+            },
+            {
+              "at": "2018-11-23T05:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164faccc",
+                "fullname": "思言",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
+              },
+              "txt": "Perfect location!! Lots of nice Japanese restaurants and bubble tea downstairs. Real room decorating is better than photos. Cozy and romantic little apartment. Molly is nice. Good place to live in east village(๑˙ｰ˙๑)"
+            },
+            {
+              "at": "2019-01-13T05:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fac9a",
+                "fullname": "Jacquii",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
+              },
+              "txt": "Molly’s place is wonderful! The apartment is cozy and comfortable, but oozes character and a great vibe. \nThe location is fantastic for exploring different delicious cuisines, and quirky bars. \nMolly was quick to communicate and flexible with our check-in time. \nMolly’s place is an awesome base for exploring the lower east side, and NYC generally. Would highly recommend!"
+            },
+            {
+              "at": "2019-02-16T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbc0a",
+                "fullname": "陳",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
+              },
+              "txt": "Definitely a must-stay place for ppl who want to enjoy the city in NY style. The neighborhood is great and close to metro. Molly is super lovely and always in contact. The place is gorgeous and laidback. Will come back again!"
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Caves",
+            "OMG",
+            "Play"
+          ],
+          "statReviews": {
+            "cleanliness": 4.9,
+            "communication": 4.4,
+            "checkIn": 4.1,
+            "accuracy": 4.1,
+            "location": 4.4,
+            "value": 4.4
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "2017 , férias no Rio",
+          "type": "National parks",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436281/doubvhbpwjfx81yfzpxq.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437045/dmquvficldi8ssfdlrrx.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436942/cfa0wa2uwfyunrhgp4mt.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436509/rii32aibnhkoeejsohie.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg"
+          ],
+          "price": 250,
+          "summary": "Casa com excelente espaço, localizada no meio da natureza, próximo ao um dos acessos do Parque Estadual da Pedra Branca, que conta com cachoeiras e trilhas na Mata Atlântica e a 10 minutos de carro ou 35 minutos a pé do Parque Olímpico (3.5km) e 3 minutos de carro ou 12 minutos a pé da Vila Olímpica. A casa pricipal conta com 2 quartos com suíte, 2 salas, cozinha, 1 banheiro social e área de serviço.Também contamos com um anexo com 1 quarto com suíte. Os quartos poderão ser compartilhados!",
+          "capacity": 2,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+          ],
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "roomType": "Private room",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Maria Alice",
+            "location": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
+            "about": "",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "createAt": "2016-05-15T04:00:00.000Z",
+            "responseTime": "within an hour",
+            "policyNumber": "99981241"
+          },
+          "loc": {
+            "country": "Brazil",
+            "countryCode": "BR",
+            "city": "Rio De Janeiro",
+            "address": "Rio de Janeiro, RJ, Brazil",
+            "lat": -43.4186896742968,
+            "lan": -22.96840021041473
+          },
+          "reviews": [
+            {
+              "at": "2017-03-09T05:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb972",
+                "fullname": "Andrea",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
+              },
+              "txt": "Ótimo para relaxar! O espaço de Alice é confortável e tranquilo, onde podemos caminhar com segurança desfrutando de uma linda paisagem com serras.Uma vegetação exuberante. Além da possibilidade de fazer uma trilha para cachoeiras.  Alice e sua família foram bastante prestativas e nos ajudaram no que precisamos. Grata por tudo!"
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Countryside",
+            "Luxe",
+            "Luxe"
+          ],
+          "statReviews": {
+            "cleanliness": 4.7,
+            "communication": 4.6,
+            "checkIn": 5,
+            "accuracy": 4,
+            "location": 5,
+            "value": 4.6
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "One bdrm apt in Central/Sheung Wan next to Soho",
+          "type": "National parks",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436287/my8eunlgiiflc2ohslgx.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437287/mns2lapesdourab6dn7u.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436787/gcz7mgmxb6dcl4vz6h0a.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436456/aazeb5pemja3ddxauatd.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436772/nplkpwclhrdvvspkpmbg.jpg"
+          ],
+          "price": 416,
+          "summary": "Located between Hollywood and Caine Road, just down from Soho bars/restaurants and not far from Wyndham St. and LKF nightlife. 5 minute walk to the escalator. Good for travelling couples, solo adventurers, and business travellers.",
+          "capacity": 2,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 2,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Daniel",
+            "location": "Hong Kong",
+            "about": "Hello, I'm originally from the LA area but have been back in Hong Kong for about 6 years. I also spent some time on the east coast of the U.S. in the Washington, D.C. area. I teach middle school math at an international school here in Hong Kong and have enjoyed the lifestyle of living and working in this vibrant city. \r\n\r\nHong Kong has always had plenty of options to stay active. I've played in an expat softball league here for many years and still try to get out as much as I can. When I first arrived, I did a few of the popular hikes, but not so much anymore unfortunately. There are still some places in Hong Kong that I would like to explore and I also find the city to be a great hub for travelling throughout southeast Asia. \r\n\r\nI'm new to Airbnb and open to suggestions on making your stay in Hong Kong an enjoyable experience. Nice to meet you!",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "createAt": "2016-05-15T04:00:00.000Z",
+            "responseTime": "within an hour",
+            "policyNumber": "37153965",
+          },
+          "loc": {
+            "country": "Hong Kong",
+            "countryCode": "HK",
+            "city": "Hong Kong",
+            "address": "Hong Kong, Hong Kong Island, Hong Kong",
+            "lat": 114.15096,
+            "lan": 22.284
+          },
+          "reviews": [
+            {
+              "at": "2016-07-10T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb564",
+                "fullname": "Patrick",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
+              },
+              "txt": "Daniel's apt was in a great location to explore the city. It was close to the Soho area which have bars and lots of nightlife. I would recommend Daniel's place to anyone interested in making the most out of Hong Kong."
+            },
+            {
+              "at": "2016-12-10T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fba20",
+                "fullname": "Rory",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
+              },
+              "txt": "Very accommodating host, made the experience very easy. Located in a great part of the City!"
+            },
+            {
+              "at": "2016-12-26T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbace",
+                "fullname": "Sabrina",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
+              },
+              "txt": "it was a comfortable stay at a good location."
+            },
+            {
+              "at": "2016-12-28T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbed4",
+                "fullname": "J",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
+              },
+              "txt": "Great location, super clean and quite. There is also a door (wo)man in the lobby who is friendly and helpful. Check in and out were more than easy. \n\nWould def stay here again. 17 min walk from Hong Kong Station for airport connection. Plenty of nightlife close by in Lan Kwai Fong.\n\nIt is located in Mid Levels, so...prepare for the steep incline!"
+            },
+            {
+              "at": "2016-12-29T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb49b",
+                "fullname": "Benjamin",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
+              },
+              "txt": "The host canceled this reservation the day before arrival. This is an automated posting."
+            },
+            {
+              "at": "2017-05-02T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbfcd",
+                "fullname": "Jianwei",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
+              },
+              "txt": "Very well maintained place. In the middle of soho. Only downside is the number of steps to get to the apartment, but that's the same for most apartments on HK island. Great value, will stay again. "
+            },
+            {
+              "at": "2017-06-26T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb324",
+                "fullname": "Jingjing",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
+              },
+              "txt": "Daniel's place is located in Central Hong Kong, close to restaurants, shops and bars. The flat is spacious and comfortable! I highly recommend it for your stay in HK!"
+            },
+            {
+              "at": "2017-07-03T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbdb1",
+                "fullname": "Justin",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
+              },
+              "txt": "Fantastic place with a great location. The unit is located right between Sheung Wan and SoHo with a number of good restaurants on the same street.\nIf you're new to the island or want easy, walkable access to the area around Central, then I highly recommend this place.  "
+            },
+            {
+              "at": "2017-12-26T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb41b",
+                "fullname": "Salomon",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
+              },
+              "txt": "Besides the myriad of stairs and steps, the apartment is located within a walking distance to both sights and shopping, as well as to the Central subway station that connects a handful of lines. \n\nThe apartment was quite big by Hong Kong standards, and everything was clean and tidy on top of that. The stay went smoothly without any problems."
+            },
+            {
+              "at": "2018-01-02T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbc4e",
+                "fullname": "Freyja",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
+              },
+              "txt": "Highly recommend!!\n\nDaniel was great at communicating and gave us lots of tips before we arrived.\n\nArriving was very straight forward (although it was surprising when the Doorman asked for our passport!) Daniel very kindly let us check in early - what a star!\n\nThe place is spacious (for Hong Kong), though if you're planning on cooking you'll likely have to spread out into the living room. Bed is comfy, shower is hot - what more could you want :)\n\nIf you don't mind walking up lots of steps and steep hills, you can easily see many of the main HK Island sights on foot. If walking isn't your thing, there's plenty of public transport options reasonably close.\n\nThis place is really slap bang in the middle of things - close to restaurants, bars, cafes, supermarkets, shopping centres.\n\nIt's a great place to base yourself, particularly if you're only there for a short trip, like were.\n\nWarning though: the area is very steep! You'll feel it in your calves :)"
+            },
+            {
+              "at": "2018-07-30T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb520",
+                "fullname": "Kiran",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
+              },
+              "txt": "Great place to stay if you are visiting Hong Kong. Very close to restaurants and night life. Would highly recommend and would stay again if back in the area."
+            },
+            {
+              "at": "2018-12-30T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbd93",
+                "fullname": "Dandelion",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
+              },
+              "txt": "This modern apartment is located between Sheng Wan MTR & Central MTR. PMQ mall is across the street & visible through the window. Lots of food & drinks nearby, Lan Kwai Fong included (10 min walk). \n\nAlthough conveniently located, it is quiet as party-goers are found wandering in the streets starting one block away. For a straight-shot to the Sheng Wan station, take a couple long flights of stairs. If you have luggage & want to avoid that, use the Central station (or Uber) but keep in mind it is always very crowded there. \n\nApartment was spacious for Hong Kong standards. Shower pressure was strong & stayed hot through long hair washing. Living room has surround sound system & English channels to watch TV. There's an extra closet room for hanging clothes. \n\nOverall, great place to stay as compared to other HK apartments. \n\nAlso note, not all amenities at Dan's place are for communal use. This was not listed under House Rules nor noted anywhere. I was surprised to receive a note after check-out that an already open beverage was not for share although fridge was listed as an amenity. Through dozens of stays on Airbnb, this was my first experience encountering such an issue. Just use caution here."
+            },
+            {
+              "at": "2019-01-03T05:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fae20",
+                "fullname": "Tom",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
+              },
+              "txt": "Perfect place in the middle of Hong Kong to explore the city!"
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Play",
+            "Luxe",
+            "Top of the world"
+          ],
+          "statReviews": {
+            "cleanliness": 5,
+            "communication": 4.7,
+            "checkIn": 4.6,
+            "accuracy": 4.1,
+            "location": 4.2,
+            "value": 4.6
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Center of Istanbul, comfortable for family house",
+          "type": "Castles",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436978/mhqf1tttzqr33ecrrwb2.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437344/r4w6s3af55tdt5y1lrcc.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436390/om97cgufeacwlric2r5w.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437021/cw6mtrxza5fzmmgxen4j.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436394/kscsvxyn0uro9tjhefeb.jpg"
+          ],
+          "price": 200,
+          "summary": "This house is very special house. The area is amazing. Personally I live here. So this house is not a commercial house. I love the area of this house. It is really really in the center of Istanbul. The house is like 100m2 but I will lock one room for my personal belongings.",
+          "capacity": 3,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Erdem",
+            "location": "Istanbul, Turkey",
+            "about": "",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "15863875",
+            "createAt": "2016-05-15T04:00:00.000Z",
+            "responseTime": "within an hour",
+          },
+          "loc": {
+            "country": "Turkey",
+            "countryCode": "TR",
+            "city": "Istanbul",
+            "address": "Şişli, İstanbul, Turkey",
+            "lat": 29.01145,
+            "lan": 41.06423
+          },
+          "reviews": [
+            {
+              "at": "2018-10-16T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbc71",
+                "fullname": "Ilia",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
+              },
+              "txt": "Erdem is really nice guy, helped with a lot of things, location is good, safe and comfortable for travel. Apartment itself is quite good too and fine for the value."
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Minsus",
+            "Play",
+            "Earth homes"
+          ],
+          "statReviews": {
+            "cleanliness": 4.4,
+            "communication": 4.3,
+            "checkIn": 4,
+            "accuracy": 4.4,
+            "location": 4.1,
+            "value": 4.4
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Spacious 3bdrm. Artsy and Perfect location!",
+          "type": "Castles",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436306/be2v9wssznxs4hebudb4.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436582/vv0y7twjl7zcj9g71sjf.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436539/jy85me6y4bcsgfjvytwv.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436837/fyczvvyuelceouxja8yy.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436372/d32ktdsaqfoiogz5dpvf.jpg"
+          ],
+          "price": 1146,
+          "summary": "Welcome to stay in my 3bed apartment. Its a rare gem in HK,  as its Huge compared to other Hk apts! Perfect for a few friends sharing or a family. Walk everywhere in Central in  few min. Soho, Escalator, Hollywood road, MTR. It’s walk up building! please check my profile, I have many reviews :)",
+          "capacity": 5,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+          ],
+          "bathrooms": 1,
+          "bedrooms": 3,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Melanie",
+            "location": "Seattle, Washington, United States",
+            "about": "Raised in the west, I decided to travel and work abroad for a few years. Working and backpacking away from home has helped me gain so much experience and insight from living away from home, I think everyone should try it! \r\n\r\nI love hosting! And I put my heart into it and always think about how I can make my place enjoyable and comfy.\r\nif you have any feedback I'd love to hear and learn how to grow from it.\r\n\r\nI can speak English and hope to make your stay as pleasant as possible :) We can definitely give you suggestions for eating, shopping, art and museums and also night life. Just ask!",
+            "responseTime": "within a few hours",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "930612",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "Hong Kong",
+            "countryCode": "HK",
+            "city": "Hong Kong",
+            "address": "Hong Kong, Hong Kong Island, Hong Kong",
+            "lat": 114.15202,
+            "lan": 22.28582
+          },
+          "reviews": [
+            {
+              "at": "2016-02-01T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbd26",
+                "fullname": "Veronica",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
+              },
+              "txt": "Melanie was an amazing and friendly host! Super friendly, accommodating and quick to answer all my questions.\r\n\r\nThe location of her place is very convenient...only about a 5 min walk to the MTR, Soho and LKF. The space itself is extremely spacious for Hong Kong and not to mention super cute with a very artsy vibe. Absolutely loved the decor and you can really get a sense of who Melanie is from her lovely finishing touches. "
+            },
+            {
+              "at": "2016-02-10T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb34a",
+                "fullname": "Eunji",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/68.jpg",
+              },
+              "txt": "위치는 소호에서 도보 3분거리. 숙소자체는 좋으나 동네 자체가 오래되서 밤에 귀가할 때 조금 어두웠음. 홍콩에서 보기 드물게 방3개인 집이라 가족들과 좁지 않게 지낼 수 있어 좋았음. 다만 뜨거운 물 쓰는게 조금 불편했고 건물이 오래되어서 바깥 소음이나 방음이 잘 안되는 게 단점이었으나 전반적으로 가격대비 너무 깔끔하고 좋은 숙소였음! \n\nWe checked in late at night but Melanie gave us all the information before arrival so we could check in easily on our own. If you once find this place, you will relalise how close it is from Soho, but getting here for the first time wasn't very easy for us. I stayed here with my husband and my brother's family and the place was spacious enough (considering its hongkong) for us all to hang around. You need to walk up to the 4th floor but wasn't a problme at all to us. \nWe had some issue about electricity but Melanie responded quickly and helped us sort out the problem. One thing we felt inconvenient was hot shower but we got used to it later. And, it was very considerate of Melanie to prepare three heaters for us. \nI highly recommend this place for a family or groups of 4-5 ppl and especially those who wish to enjoy the atmosphere of Soho area and lankwaifong. I and my husband went out for a drink every night and found awesome bars and restaurants. We could have done it easily as the place is so close to it. \n"
+            },
+            {
+              "at": "2016-02-12T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb4bc",
+                "fullname": "Sergio",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/62.jpg",
+              },
+              "txt": "The apartment itself is nicely decorated and in good condition, with two good sized bedrooms, one bedroom with a tatami and also a sofa bed.  It is very centrally located so you can stroll to Central and Lan Kwai Fong very easily. We would recommend it."
+            },
+            {
+              "at": "2016-02-14T05:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb929",
+                "fullname": "Lusy",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/32.jpg",
+              },
+              "txt": "We had SUCH a lovely stay at Melanie's apartment! This home is so clean and kept very nicely, we particularly loved the attention to detail with umbrellas, books, candles, hairdryers, etc. to make sure we felt at home! Thank you so much for letting us enjoy your place for the weekend :]]"
+            },
+            {
+              "at": "2016-02-18T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbbd3",
+                "fullname": "Anthony",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
+              },
+              "txt": "Mel was extremely responsive with my super late booking. \r\nThe set of instructions she provided were more than adequate, but she even reached out on (Hidden by Airbnb) to ensure everything was understood. Would highly recommend Mel, and hope to stay in her huge place again soon"
+            },
+            {
+              "at": "2016-02-28T05:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb68b",
+                "fullname": "Salvatore",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
+              },
+              "txt": "Melanie welcomed me promptly and timely providing me all the needed info to enjoy my staying at her place. She replied all of my questions and let me feel welcome.\r\n\r\nThe apartment is spacious (rare size in HK!) and really clean (not usual too), comfortable for families.\r\nFurthermore, it's strategically located in the heart of Soho and HK.\r\n\r\ncleanliness of the main gate and stairs could be improved.\r\n\r\nGreat experience overall.\r\n"
+            },
+            {
+              "at": "2016-03-15T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164facd8",
+                "fullname": "Riikka",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
+              },
+              "txt": "Melanie oli ystävällinen ja avulias majoittaja. Hän antoi kohteesta tarkan kuvauksen ja lähetti etukäteen tarkan ja äärimmäisen kattavan tietopaketin. Asunto vastasi odotuksia täydellisesti ja oli todellakin tilava Hong Kongin mittakaavassa. Sijainti oli mitä loistavin!!!!! Asunto oli siisti, miellyttävä ja hyvin varusteltu. Internet toimi moitteettomasti. Suosittelen Melanien majoitusta lämpimästi kaikille. "
+            },
+            {
+              "at": "2016-03-20T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb228",
+                "fullname": "David",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
+              },
+              "txt": "Melanie's home in Hong Kong is wonderful! Very convenient and accommodating - it was a great experience. Not to mention, Melanie is extremely helpful and provided some solid tips about seeing the city.  Her place is also very close to some delicious dim sum. I would recommend her place to anybody staying in the city. Thanks Melanie!"
+            },
+            {
+              "at": "2016-04-11T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb620",
+                "fullname": "Paul",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
+              },
+              "txt": "Melanie was very helpful when arriving and gave clear instructions on how to access the apartment. The apartment was clean and comfortable and as shown in the photos. The place was very spacious for four of us and the location was perfect. Would definitely consider staying here again."
+            },
+            {
+              "at": "2016-04-24T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fabd9",
+                "fullname": "Maria",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
+              },
+              "txt": "Melanie's home was the nicest place we stayed in Hong Kong, she was thorough and gave us excellent directions for easy access to her apartment. Neighborhood is full of trendy and great restaurants and bars and easy access to the MTR to explore other areas of the city. Highly recommend and would stay again on my next visit."
+            },
+            {
+              "at": "2016-05-09T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fae68",
+                "fullname": "Jing",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
+              },
+              "txt": "房间离上环地铁站很近,不管是往返机场还是市内出行都很方便｡房间装修和设施虽然简陋,但需要的东西基本都有｡最大的缺点是房间位于五楼,对于我这样家庭出游不太合适,抬着几个行李箱和宝宝推车爬楼梯的经历像一场噩梦｡推荐结伴出游的年轻人居住,性价比蛮高｡"
+            },
+            {
+              "at": "2016-05-22T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb790",
+                "fullname": "Dx",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
+              },
+              "txt": "The bed caused skin itches, could hardly sleep. \n\nApartment is very artistic, looks very comfortable. Good location. Toilets and showers in great condition. "
+            },
+            {
+              "at": "2016-05-27T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb412",
+                "fullname": "Simon",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
+              },
+              "txt": "I would highly recommend staying at Melanie's apartment in Sheung Wan, near the famous Lang Kwai Fong area of Hong Kong island. I've stayed in many overpriced, cramped hotels and hostels in Hong Kong over the years and this was my first time opting for AirBnB instead. I was not disappointed. Melanie's apartment is very very spacious, has a lot of character and is super comfortable. It's also fantastic value for money if a few of you are sharing. Her instructions of how to find and access the building were spot on, very helpful indeed. \r\n\r\nWe'll be back for sure!"
+            },
+            {
+              "at": "2016-06-13T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbbcf",
+                "fullname": "Rachel",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
+              },
+              "txt": "The check in instructions were clear and easy to get, I found my way there easily. The climb up wasn't that bad. When I checked in, the house was in a huge mess as the previous guest had trashed the listing and looked like they had a party there. Melanie was easily reachable and wasn't fazed much when I showed her pictures. Instead, she took it like a champ and pulled a miracle by getting her cleaner to come at midnight. I was calling Airbnb to move my reservation elsewhere but her ability to rectify everything in record time was all I could ask for. The apartment looked great for photos after the massive cleanup! Thank you!"
+            },
+            {
+              "at": "2016-06-19T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbd55",
+                "fullname": "Alex",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
+              },
+              "txt": "Fantastic apartment decorated with taste. BUT unfortunately experience was spoilt by deafening construction noise from the apartment on 3rd floor. If you don't plan on spending time in the apartment from 8am to 5pm you'll prob love your time."
+            },
+            {
+              "at": "2016-07-10T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb802",
+                "fullname": "嘉楠",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
+              },
+              "txt": "It really has a perfect location,and the rooms are very clean and tidy.Thanks,Melanie!"
+            },
+            {
+              "at": "2016-07-13T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb8f1",
+                "fullname": "Dan",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
+              },
+              "txt": "Melanie's place was great! The location is superb and her directions were very accurate and easy to follow. communication was great. Construction site nearby was a bit noisy but we all slept fine. Convenience store on the corner very handy.\n\nThe place was spacious and clean. Shower had good flow and no trouble with hot water. Fridge small but all we needed. Plenty of markets and eateries around and the MTR (train) station is only a short walk and one stop to central.\n\nWe're able to drop our bags slightly earlier which was also very helpful in the heat.\n\nI would definitely stay at Melanie's place again.\n\nCheers for having us."
+            },
+            {
+              "at": "2016-07-17T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb83d",
+                "fullname": "Brad",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
+              },
+              "txt": "Melanie's place was great, and as advertised. Very spacious for Hong Kong and close to everything. Had a bit of trouble getting in with the key missing from the lock box upon arrival but her assistant Elvie came to the rescue and it was a non issue. Would definitely stay there again given how convenient and spacious it was.  "
+            },
+            {
+              "at": "2016-07-29T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fba77",
+                "fullname": "Jirat-Orn",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
+              },
+              "txt": "It was easy to find, not far from E2 exit of the MTR, but the place was on 5 floor (first floor has no room so actually didn't count but you have to gone up 5 floor by stair). The place was quite and nice, clean and comfy just like the picture. Have a bit problems with the light inside the room but she response quick and ask for the helper to come. Thanks to the place we have a nice sleep. P.S. The shop of King fish ball was right beside in front the corner of the place, not bad to have a try."
+            },
+            {
+              "at": "2016-07-31T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb68b",
+                "fullname": "Salvatore",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
+              },
+              "txt": "Melanie was super supporting in sharing all the needed details to make our experience just great! \r\n\r\n"
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Earth homes",
+            "OMG",
+            "Off-the-grid"
+          ],
+          "statReviews": {
+            "cleanliness": 4,
+            "communication": 4.2,
+            "checkIn": 4.6,
+            "accuracy": 4.5,
+            "location": 4.9,
+            "value": 4.9
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Ocean View Hawaiian Bungalow on a private ranch",
+          "type": "Castles",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437221/wczn7rdpbtjbcvgspakp.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436281/doubvhbpwjfx81yfzpxq.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436852/y3scgbn8d6evumdpwdp4.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437009/zuu2udtrkcs6sxjiym40.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436912/xle8ueqxjeazbs4bp09p.jpg"
+          ],
+          "price": 469,
+          "summary": "Miles Away is a plantation era bungalow that we lovingly restored to host visiting guests from all around the world. The ranch has 4 cottages available. Each are very private and separated.",
+          "capacity": 4,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 2,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Christie",
+            "location": "Hawi, HI & Santa Monica Ca United States",
+            "about": "I'm the creator of Puakea Ranch in Hawi, HI.  We purchased the ranch in 2006 and restored all the historic homes and brought the property back to life. Now people can enjoy a more authentic and unique Hawaiian vacation. My vision was to create a relaxing, comfortable & eco friendly environment in this rugged Hawaiian landscape.  We are a great fit for adventurous travelers who also appreciate life's little luxires, like pressed sheets, sharp knives and farm fresh eggs. ",
+            "responseTime": "within a day",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "4967433",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "Maui",
+            "address": "Hawi, HI, United States",
+            "lat": -155.87199,
+            "lan": 20.23256
+          },
+          "reviews": [
+            {
+              "at": "2017-07-29T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbc5c",
+                "fullname": "Anna Lis",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
+              },
+              "txt": "For adventurous spirits.  \nPluses: beautiful cottage and property (thoughtful landscaping and layout, unique design of outdoor bathroom), fruit and veggies from the garden, close to small town gift shops and restaurants, happy animals, quiet/peaceful atmosphere, bigger shared pool is nice. \nMinuses: centipedes, flying roaches indoors, shallow private pool (for wading only) and limited guest services.\nOverall: I had a memorable happy birthday at Puakea."
+            },
+            {
+              "at": "2018-09-04T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fae01",
+                "fullname": "Anna Marie",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/68.jpg",
+              },
+              "txt": "Dear Christie,\nSitting on the bed in the front bedroom at Miles Away with late afternoon light and a breeze I want to tell you how much we’ve loved it here. The pool has been perfect for our grandson who is turning 4- he can go underwater and still stand up! We’ve all taken the kitchen scraps to the pig and watched him dominate, used the swings, clothesline, and have great praise for the outside bathroom. There is a high minded curatorial process going on here. Everything feels as if it were chosen for a use in this dreamy world of a bygone time. Thank you for making it possible for us to be here for 6 nights. I am so appreciative of your vision, this feeling of old Hawaii.\nSincerely and with Aloha,\nAnna Marie Hamilton"
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Boats",
+            "Caves",
+            "Campers"
+          ],
+          "statReviews": {
+            "cleanliness": 4.3,
+            "communication": 4.5,
+            "checkIn": 4.9,
+            "accuracy": 4.7,
+            "location": 5,
+            "value": 4.9
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Nuevo espacioso apartamento en BCN",
+          "type": "National parks",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437045/dmquvficldi8ssfdlrrx.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436902/cidqzea6jlj827teokyg.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436975/hx9ravtjop3uqv4giupt.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436397/nde7l2hrwezdfzbvhczj.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436372/d32ktdsaqfoiogz5dpvf.jpg"
+          ],
+          "price": 320,
+          "summary": "If you like to stay in a beautiful local area but still close to all the tourist attractions we have a place for you. Spacious and renovated three bedrooms Apartment in the magnificent district of Barcelona, with a capacity of a group up to 8 people.",
+          "capacity": 8,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 3,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Dimitry",
+            "location": "Barcelona, Cataluña, Spain",
+            "about": "PROVENZA MBS, a  small company managing an apartment building at nice centric neighborhood one block away from central hospital, a polytechnic university and a Ninot Market. Centric but safe surroundings.",
+            "responseTime": "within a day",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "2201772",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "Spain",
+            "countryCode": "ES",
+            "city": "Barcelona",
+            "address": "Barcelona, Catalonia, Spain",
+            "lat": 2.15307,
+            "lan": 41.3866
+          },
+          "reviews": [
+            {
+              "at": "2014-01-03T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbd6c",
+                "fullname": "Alexandre",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
+              },
+              "txt": "It was great on every point"
+            },
+            {
+              "at": "2014-06-16T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbc3f",
+                "fullname": "Chrizz",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
+              },
+              "txt": "The accommodation was perfect for us! Dimitry was a very friendly, uncomplicated and reliable host and the apartment was very clean and well equipped. We were seven people and it offers enough space for us. It was situated in the 6th floor and when we open the windows a fresh breeze blows throw the rooms. The neighborhood was save, even at night and the next metro station is 5 minutes to walk. \r\n\r\nThanks for the nice apartment. We had an amazing time in Barcelona!"
+            },
+            {
+              "at": "2014-07-22T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb4b3",
+                "fullname": "Sergey",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
+              },
+              "txt": "Классная большая квартира почти в центре"
+            },
+            {
+              "at": "2014-09-16T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb558",
+                "fullname": "Wiktor",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
+              },
+              "txt": "Dimitry is a great host, very friendly. The place is great for bigger group of people. The apartament is clean, well prepared. "
+            },
+            {
+              "at": "2014-09-22T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fba86",
+                "fullname": "Margaret",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
+              },
+              "txt": "We did not see Dimitry during our stay but his assistant in the office was exceptionally helpful and friendly.  \r\nThere were many cafes, bars and restaurants nearby and there was a metro station and bus stops in close proximity."
+            },
+            {
+              "at": "2016-10-08T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbe53",
+                "fullname": "Emmas",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
+              },
+              "txt": "One bedroom had a light glaring in all night from outside neighbouring apartment block and was unusable. A dryer should be provided. Bathrooms should be restocked and cleaned at least every second day."
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Ryokans",
+            "Ryokans",
+            "Private rooms"
+          ],
+          "statReviews": {
+            "cleanliness": 4.9,
+            "communication": 4.9,
+            "checkIn": 4.1,
+            "accuracy": 4.2,
+            "location": 4,
+            "value": 4.2
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Modern Beachside Apartment with Balcony",
+          "type": "OMG!",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436385/sorbz7rdtxacu1ds9vel.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436556/mb70fifvvpvde8jub5cg.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436942/cfa0wa2uwfyunrhgp4mt.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436928/ouvft4oeavr7ceeha4gk.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436933/ysvap4wzv8ziwtpbznf8.jpg"
+          ],
+          "price": 90,
+          "summary": "Wind down in an elegant designer apartment just steps from the beach. Indulge in the laid back lifestyle of this space featuring thoughtfully curated furnishings and decor, soothing earth tones throughout, and a private balcony.",
+          "capacity": 6,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+          ],
+          "bathrooms": 1,
+          "bedrooms": 2,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "David",
+            "location": "Barcelona, Catalonia, Spain",
+            "about": "I was born in Barcelona, and love my city and Catalonia.\r\nI have a background in Security and HSE, and as hobbies, I like cinema, computers, electronics and sports, and above all meeting people from all around the world and showing them my hospitality!\r\nI have been hosting guests for years at Tripadvisor, and probably I am number one in reviews in Barcelona!",
+            "responseTime": "within an hour",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": true,
+            "policyNumber": "50345502",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "Spain",
+            "countryCode": "ES",
+            "city": "Barcelona",
+            "address": "Barcelona, Catalunya, Spain",
+            "lat": 2.21291,
+            "lan": 41.40308
+          },
+          "reviews": [
+            {
+              "at": "2017-03-30T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb091",
+                "fullname": "Darmo",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
+              },
+              "txt": "David's large, modern, cozy, clean and comfortable apartment is located in the newer section of Barcelona, in a quiet neighbourhood. The large underground parking is well lit, clean and roomy making manouvering our car very easy. It has direct elevator access to the apartment above, so unloading and loading the car was very convenient.\n\nThe area around the apartment has stores, restaurants, a Mercadona Supermarket, and many smaller grocery stores. The sidewalks are broad and evenly graded which makes for easy walking, and clean.\n\nPublic buses are frequent and easy to use, and there is an underground Metro station nearby within easy walking distance.\n\nDavid was what I would call a super host. His apartment was well equipped with every modern convenience and very clean. It was also very well stocked with food; bread, milk, juice, fresh fruit, butter, coking oil, etc., including a bottle of wine.\n\nHe patiently and carefully explained the works of every appliance in the apartment, including the use of the television features, and he made sure you are aware that he is available for any question later on. Communicating in English was not a problem.\n\nWe greatly appreciated the considerable time he spent providing us with detailed explanation of all the major attractions of Barcelona and how to get there. His Guest Guidebook includes all the details one could possibly ever need while in Barcelona, from managing emergency situations, using public transport, maps, to restaurants, shops, museums and all major attractions. Our visit to Barcelona was made much easier because of the book, and we learned a lot more.\n\nWe would recommend anyone visiting Barcelona to use David's place. We will definitely return to David's apartment if we should want to visit Barcelona again. The five days we were there were not enough.\n"
+            },
+            {
+              "at": "2017-04-02T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb880",
+                "fullname": "Samuel",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
+              },
+              "txt": "David a un accueil convivial et très précis avec toutes les informations dont vous avez besoins.L'appartement est bien placé, agréable et chaleureux.Nous y retournerons sans hésiter."
+            },
+            {
+              "at": "2017-04-09T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb264",
+                "fullname": "Laurie",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
+              },
+              "txt": "Nous avons passé un agréable séjour dans l'appartement de David. Il est très bien aménagé et confortable. L'appartement se situe à environ 20 minutes à pied de bars et discothèques pour sortir le soir et proche des transports en commun pour rejoindre le centre-ville. \nL'appartement est très propre et bien équipé (serviettes, plaids, petit déjeuner, savon, etc.)\nDavid nous a donné beaucoup d'informations (attention à ne pas être trop long ;-) ) pour se restaurer (très bonnes adresses), visiter et sortir!\nJe recommande cet appartement. "
+            },
+            {
+              "at": "2017-07-10T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbca6",
+                "fullname": "Valentina",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
+              },
+              "txt": "Nuestra estadía de 16 días en el departamento de David fue fabulosa. El departamento era espectacular y limpio, con una muy buena ubicación en una zona moderna y silenciosa de Barcelona. \nDavid es gentil, empático, correcto y por sobretodo, amable. Siempre disponible 24 horas ante cualquier duda o circunstancia. Nos recibió con comida, vino y muchos otros artefactos que fueron indispensables en nuestra estadía allí (shampoo, pasta de dientes, elementos de limpieza). No solo eso sino que también, se tomó el tiempo para explicarnos los lugares que no nos podíamos perder, y los restaurantes a cuales ir.  Fue un placer para nosotros poder conocerlo, y estamos seguros que en nuestros próximos viajes a Barcelona, contactar a David será nuestra primera opción. \n\nEn fin, nuestra estadía en Barcelona fue asombrosa, y gran parte fue gracias a David. Nos hizo sentir en casa. Muchas gracias!!"
+            },
+            {
+              "at": "2017-07-15T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbb21",
+                "fullname": "Samuele",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
+              },
+              "txt": "Excelente todo!! David además es muy atento, si quieres te ahorras dinero en guías y libros sobre Barcelona y Cataluña ya que te lo explica todo. Inclusive se ofrece para llevarte a ver sitios que nadie ve. El apartamento a dos pasos de la playa, del Mall y del Metro con el cual podes ir al Centro Histórico, mucho mejor que quedarte en el mismo ya que ni dormirías... Recomendable !!!!"
+            },
+            {
+              "at": "2017-08-12T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb75f",
+                "fullname": "Etienne",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
+              },
+              "txt": "David est un hôte particulièrement accueillant et arrangeant. Il nous a grandement conseillé mes amis et moi sur la ville de Barcelone. Son appartement est très propre et cocooning. Merci encore à lui pour ce séjour je le recommande."
+            },
+            {
+              "at": "2017-08-22T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fad9f",
+                "fullname": "Vivienne",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
+              },
+              "txt": "Booking a holiday at this lovely apartment affords the luxury of two vacations rolled into one -- to easily explore the vibrant city of Barcelona, plus relax and unwind at the beach.  That's reason enough to chose to stay at Centric Boutique at the Beach.  What comes as a bonus is David, a host who takes pride in what he does and who understands that \"goodwill is everything\".  It is no surprise that the owner has been awarded the Tripadvisor Certificate of Excellence.  \n\nDavid keeps in touch, checkIng in to see if/what there is anything we need, in addition to recommending places to visit.  It's not just lip service.  For example, we suggested he consider adding a mat in the bathtub, which could be a bit slippery.  Later that day, DONE.\n\nFor example, when it was was time to vacate after our ten-day stay, we asked if would do us the favour of arranging for a mini-van to pick us up at 5:30am, as we were taking a train on to San Sebastian, and couldn't risk any misunderstanding if we tried booking this ourselves.  After checkIng around, David came back with an answer.  The going rate was too high and he was still looking to find us much more reasonable transportation.  He DID.\n\nThis beautifully decorated, two-bedroom apartment is everything as described, well-equipped, well-stocked, clean and comfortable with a lovely balcony and close to all amenities.  \n\nDo we recommend it, most definitely YES."
+            },
+            {
+              "at": "2017-08-29T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb917",
+                "fullname": "Glenn",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
+              },
+              "txt": "Our stay at David's apartment was everything it was supposed to be and so much more.  One of the main reasons we chose the apartment was the great reviews that David received as a host.  It turned out that those reviews didn't do him justice.  From the moment I booked, David made sure to stay in contact with us to ensure that we would be fully prepared for our Barcelona experience.  He even offered to pick us up at the airport!  Upon arrival, David gave us a car tour of the city and took us to some out of the way sights that we would have otherwise missed.  The day before we were leaving, I received a message from David offering to drop us back at the  airport.   He went above and beyond to make sure that our time in Barcelona was as wonderful as possible.  David is the ultimate host and I can't recommend him highly enough."
+            },
+            {
+              "at": "2017-09-16T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbaf8",
+                "fullname": "Abdulrhman",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
+              },
+              "txt": "Tout d'abord \nL'appartement été très propre dans un endroit calme  a côté de la plage ça traversant un rue pour arriver à la plage ,,\n\nDans l'appartement y'a tous ce qu'il faut pour la cuisine,,\nLe toilette aussi y'a tous ce qu'il faut de Serviettes et savon ،، \nJe me sentais comme si je suis  dans mon appartement.\n \nDavid est un personne  merveilleuse il a bien nos accueillir dans son appartement,, il a nous donné toutes les informations touristiques sur la ville.\nEt il était en contact avec nous Pendant notre séjour pour savoir si on besoin de qqch ou pas ."
+            },
+            {
+              "at": "2017-10-29T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb92e",
+                "fullname": "Laura",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
+              },
+              "txt": "David is truly a wonderful host. He really took his time to make sure we had all information about the apartment, the area, restaurants, public transport etc. That was wonderful. We felt David was there to help if anything. We had a great weekend!"
+            },
+            {
+              "at": "2017-11-09T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb495",
+                "fullname": "Tony",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
+              },
+              "txt": "David is a fantastic host.  Not only did he explain everything about his wonderful apartment, but really covered a lot of detail about the surrounding area - places to eat, drink, avoid!!!  \n\nThe apartment is lovely.  Everything works fantastically well. \n\nIf you are going to the CCIB or beach, this is perfect.\n\nThank you David.  Fantastic host and fantastic apartment.\nTony"
+            },
+            {
+              "at": "2017-11-20T05:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164faf6d",
+                "fullname": "Dale",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
+              },
+              "txt": "Lovely place in between Barcelona and badalona. Great location for shops and a beautiful beach just a few minutes walk. David is a great host and this is his full time job so reply’s within a few minutes and is always on call.  He asked us for 2 and a half hours of our time on arrival to explain the apartment and area which isn’t really needed and can be abit over helpful at times which some people might find annoying but overall 5/5 from me."
+            },
+            {
+              "at": "2018-01-20T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb5cd",
+                "fullname": "Tanya",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
+              },
+              "txt": "Large apartment within close distance to the city of Barcelona. Good for families or couples as the apartment has two bedrooms with a double bed in one and a queen size in the main. Good sized kitchen with all amenities including a washing machine and dryer. Even supplies such as butter, jam, milk, tea, coffee, wine, olive oil, etc available. Good sized lounge room with views of the courtyard in the middle of the apartment complex. Train station only a 5 minute walk with the underground being a great way to get around. David provided very in depth details and maps of things to do and see in Barcelona and details of the best ways to get around. He was available to answer questions prior to our arrival and during our stay. Check in and out was easy as David was very flexible and able to work in with our flight schedules. "
+            },
+            {
+              "at": "2018-01-28T05:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fac82",
+                "fullname": "Anna",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+              },
+              "txt": "Where to begin? Yeah! David, the owner. It's really hard to described how helpful and awesome he is. The best host in all our life. Very kind, friendly. You can always count on him, in every details. He took care of us before we even arrived. He explained how to get to the apartment in the best way. And he was there when we came. Ready to tell us everything. You can ask him about even unexpected things about your stay and be sure he will find an answer in a very short time. How to get to any museum or tourist attraction, where to go in Barcelona,  what to do with kids, where to go to a whole day journey outside the town etc. He's knowledge about Catalonia's history and Catalan architecture is unbelievable. We spending a whole week in Barcelona with our little daughter. She was so happy possessing her own room so she would not go outside. She told us every day she find herself as a princess. She's eight and believe me, she will never said this in our flat. The apartment is amazing. Full of every conveniences you need. Honestly, we haven't got in our own kitchen so many stuff. The apartment is stylish and cosy. So you could feel very comfortable here during your stay. If you need coffee you could make it in many ways, you could cooked here, prepared a dishes, and what it's really really awesome, you could spend a whole evening or night on a lovely terrace. But who wants to stayed on a terrace in Barcelona? If you decided to explore a town, you will find in David's apartment a special guide book which he prepared for his guests. You can't miss it. It's huge as an Encyclopedia Britannica. Neighbours are friendly, you will find a nice bakery and full equipped stores just around the corner. location is just excellent. Lovely beach is a few blocks from your apartment, underground station just five minutes by walk. Bus stop is on the same corner as a David's apartment. It's hard to believe, but yes. You will find there everything what every high-maintenance resident need. So, if you really want to enjoy your stay at Barcelona, choose this unusual opportunity for living. You will not regret. We are sure! We fell in love with Barcelona, we fell in love with David and we plan to go back as soon as we can. What about next week?"
+            },
+            {
+              "at": "2018-02-04T05:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb17e",
+                "fullname": "Fiona",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
+              },
+              "txt": "David is an excellent host, very knowledgable.  His apartment is in a quiet block and looks as good as the photos.  We were attending a conference at the CCIB and it was a 15 min walk along by the sea. It is also about a 10-15 min walk to selva de mare tube station.  Just over an hour from the airport."
+            },
+            {
+              "at": "2018-02-11T05:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fac1a",
+                "fullname": "Neil",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
+              },
+              "txt": "It is hard to write a review which should be full of superlatives, without making it sound false, but I must try!  \nDavid is truly the perfect host: his love for his city and his dedication to hosting, means he is incredibly generous with his time- the check in is amazing...  The flat is lovely with lots of style, and very well furnished, the location a stone's throw away from easy and quick connections into tow is fantastic.\nI would recommend anyone visiting Barcelona to stay at David's: i simply could not rate him high enough!"
+            },
+            {
+              "at": "2018-02-17T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbf3e",
+                "fullname": "Shu",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
+              },
+              "txt": "David is a very nice guy, everything is perfect."
+            },
+            {
+              "at": "2018-03-12T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbbf4",
+                "fullname": "Natasha",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
+              },
+              "txt": "David was the perfect host. He was there to meet my friend before I even reached Barcelona, and helped us when we lost a passport. He offered such great insight into all the best things to do and see around Barcelona, advising us on the best routes to get to the popular destinations. The flat was beautiful, with a big kitchen. Walking distance from the metro, we found it very easy to get into the City, without having to pay for a taxi."
+            },
+            {
+              "at": "2018-03-17T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbb04",
+                "fullname": "Jiaxin",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
+              },
+              "txt": "David is a very nice person. On our first day in Barcelona, our car has some problems, none of us can speak Spanish so we call David and he came and help us and solve problems. Also, his apartment is very good and tidy. It is good choice for 4 or 5 friend or family to live. Only 5 mins to the beach and shopping mall very convince. We really enjoy the day in Barcelona. Last, David will give you a lot advices for traveling in Barcelona. His apartment is the best choice"
+            },
+            {
+              "at": "2018-04-02T04:00:00.000Z",
+              "by": {
+                "_id": "622f3401e36c59e6164fab54",
+                "fullname": "Fernanda",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg",
+              },
+              "txt": "Espaço incrível, localização maravilhosa e uma super hospitalidade. Barcelona é SENSACIONAL. Espero voltar em breve!"
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Tropical",
+            "Off-the-grid",
+            "Ryokans"
+          ],
+          "statReviews": {
+            "cleanliness": 4.2,
+            "communication": 4,
+            "checkIn": 4,
+            "accuracy": 4.4,
+            "location": 4.8,
+            "value": 4.7
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Clean, comfortable and convenient",
+          "type": "Shared homes",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436236/ctnbnqazpqhotjcauqwp.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436204/wzbrvr4mcsuub6gvwbry.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437344/r4w6s3af55tdt5y1lrcc.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437021/cw6mtrxza5fzmmgxen4j.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436823/af6elioxovkhvp6cg1un.jpg"
+          ],
+          "price": 1099,
+          "summary": "Great apartment centrally located within 5 mins walking distance to Causeway Bay and Tin Hau MTR's.  Times Square, SOGO Dept store and various other shops within walking distance. Lots of restaurants to choose from in the area.",
+          "capacity": 6,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+          ],
+          "bathrooms": 1,
+          "bedrooms": 2,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Dominique",
+            "location": "Hong Kong",
+            "about": "I am a 33 year old Australian expat living with another 31 year old female. Have lived in Hong Kong for 13 years. As we are both teachers, we usually travel during the school holidays therefore will be renting our flat during these times. ",
+            "responseTime": "within an hour",
+            "thumbnailUrl": "https://a0.muscache.com/im/pictures/1a5f6a5e-6bf2-458d-8772-9c7e0cc75d49.jpg?aki_policy=profile_small",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "26586136",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "Hong Kong",
+            "countryCode": "HK",
+            "city": "Hong Kong",
+            "address": "Hong Kong , Causeway Bay, Hong Kong",
+            "lat": 114.18976,
+            "lan": 22.27983
+          },
+          "reviews": [
+            {
+              "at": "2016-07-15T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb72d",
+                "fullname": "Paul",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg",
+              },
+              "txt": "Dominique's flat was fantastic. The welcome book was full of wonderful information on Causeway Bay as well as everything Hong Kong had to offer. The flat was much bigger than we had anticipated and had all the amenities required for a medium term stay.  Although we didn't actually get to meet Dominique, she answered all our queries and was very helpful. I would highly recommend Dominique's place for anyone looking for a place in Hong Kong."
+            },
+            {
+              "at": "2016-12-26T05:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fad8d",
+                "fullname": "Michelle",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
+              },
+              "txt": "The apartment was at a very convenient location. It was a very safe neighbourhood and we had many choices of food/cafes around Causeway Bay area. Transportation like tram/bus/MTR a stone's throw away. \r\n\r\nThank you Dominique, it had been a pleasant stay! "
+            },
+            {
+              "at": "2017-01-31T05:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb8bc",
+                "fullname": "Kenelynn",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
+              },
+              "txt": "The place is accessible to all public transportation. It is spacious and good enough for big family to stay. The host was accommodating and we didn't have a hard time looking for the place and communicating with them. I would definitely recommend this place for an enjoyable and stress-free trip in Hong Kong!"
+            },
+            {
+              "at": "2019-02-09T05:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb841",
+                "fullname": "Beatrix",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
+              },
+              "txt": "Dominique's place is very clean and spacious. It's got everything you need. She was very helpful and thoughtful. I was travelling with two elders and one child and the location made it easy for us to move around."
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Amazing views",
+            "Beachfront",
+            "Minsus"
+          ],
+          "statReviews": {
+            "cleanliness": 4.8,
+            "communication": 4.3,
+            "checkIn": 4.2,
+            "accuracy": 4.5,
+            "location": 4.4,
+            "value": 4.4
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Beautiful 1 Bedroom Apartment",
+          "type": "Beach",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436236/ctnbnqazpqhotjcauqwp.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436219/yida7pxwpup9rtgnguhv.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437017/gjyzgdjngyrhfrj2loxz.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437301/af9yuihshv3wh24bu07u.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"
+          ],
+          "price": 997,
+          "summary": "This one bedroom apartment in Sheung Wan/Central is the perfect hideaway for a young couple or single person looking to explore everything that Hong Kong has to offer.",
+          "capacity": 2,
+          "amenities": [
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Mai-Britt",
+            "location": "Hong Kong",
+            "about": "Hong Kong is a beautiful city, so vibrant and diverse. I have been living in Hong Kong since 2010. I enjoy traveling and use my personal experience to point you to fantastic restaurants, exciting cafes and bars, the best shopping areas and of course to the local grocer and great supermarkets.",
+            "responseTime": "within a few hours",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "36481278",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "Hong Kong",
+            "countryCode": "HK",
+            "city": "Hong Kong",
+            "address": "Sheung Wan, Hong Kong Island, Hong Kong",
+            "lat": 114.15241,
+            "lan": 22.28351
+          },
+          "reviews": [
+            {
+              "at": "2016-01-26T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb2d3",
+                "fullname": "William",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
+              },
+              "txt": "The host canceled this reservation 7 days before arrival. This is an automated posting."
+            },
+            {
+              "at": "2016-02-01T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbd59",
+                "fullname": "Kevin",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
+              },
+              "txt": "Mai's apartment is really nice. Lovely decor. Nice and bright with lots of natural sunlight.. and the balcony is cool :) The location is great. Very close to both Sheung Wan and Central. Mai responded quickly to all messages. Thank you Mai!"
+            },
+            {
+              "at": "2016-02-11T05:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb1e1",
+                "fullname": "Chuying",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
+              },
+              "txt": "Mai-Britt's flat is so lovely and clean. I can find everything in her flat. I prefer to stay in Mai-Britt's house than hotel. And the bed is so comfortable i can have a deep sleep. I never seen Mai in person but she send message and take some pictures. I can easily connect with her and easily find her place. the flat is located on Gough street. From central about 7mins to walk. close to SheungWan. Everything is perfect. And this nice flat i can't easily find in HK. If i back to HK, i will stay in her flat again. thank you so much!  "
+            },
+            {
+              "at": "2016-03-02T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbd58",
+                "fullname": "Sophie",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
+              },
+              "txt": "Clean & still very new! location is pretty good, it's about 10 mins walk to the MTR, but it's the major Hong Kong & Central stations, from which you can access many lines! Lots of great eateries & convenience stores nearby as well, including the famous Kau Kee Beef Brisket Noodles! Do note the small details like that there is (currently) no wifi & no lift, but we knew about these so we were prepared for it. One small thing, the curtains are quite sheer over the full-length windows which makes the whole place bright & airy, but if you're used to sleeping in darkness then I recommend bringing eyeshades."
+            },
+            {
+              "at": "2016-04-17T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb7ac",
+                "fullname": "Rodion",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
+              },
+              "txt": "Mai was a super friendly host the apt was clean had everything you needed to make for a comfortable stay - can't beat the location close to everything you want to be near in Hong Kong.\r\n\r\n"
+            },
+            {
+              "at": "2016-09-05T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb293",
+                "fullname": "Anna",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
+              },
+              "txt": "The host canceled this reservation 23 days before arrival. This is an automated posting."
+            },
+            {
+              "at": "2016-11-18T05:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164faf6a",
+                "fullname": "Mark",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
+              },
+              "txt": "Fantastic location with a couple of renowned local eateries a stone's throw away, Airport Express and Central MTR station within easy walking distance, yet quietly nestled away from the hustle and bustle of the nearby financial district. Apartment itself is spacious enough for one (and I reckon up to two) and has most essentials required - although this being HK, didn't get to spend much time in it. The lack of a lift in this block means legging it up several flights of stairs (as host has made known to her credit) but even that is a perfect antidote to the great food and drink the city has to offer. Mai-Britt was most friendly and welcoming, and the whole experience (as a first-time user) was smoother than I'd expected."
+            },
+            {
+              "at": "2016-12-03T05:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb64a",
+                "fullname": "Erin",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
+              },
+              "txt": "Located in the heart of Hong Kong, this apartment is perfect for a weekend in Hong Kong. Mai-Britt is the perfect host, and her apartment is set up to feel spacious and bright despite the tight space common in Hong Kong.\r\n\r\nThe spot is close to restaurants, shops and the MTR. "
+            },
+            {
+              "at": "2016-12-29T05:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb08d",
+                "fullname": "William",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
+              },
+              "txt": "Super stay at Mai-Britt's place. Great and clear communication through out. The tasteful apartment is quiet, yet in the middle of the hippest neighborhood, in the center of everything. \nThank you for a wonderful stay."
+            },
+            {
+              "at": "2017-12-29T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb48c",
+                "fullname": "Brittney",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
+              },
+              "txt": "I couldn’t ask for more Perfect location and accommodations for living like a hip local!"
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Play",
+            "Tropical",
+            "Casas particulares"
+          ],
+          "statReviews": {
+            "cleanliness": 4.1,
+            "communication": 4.7,
+            "checkIn": 4.3,
+            "accuracy": 4.5,
+            "location": 4.7,
+            "value": 4.2
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "PORTO DOWNTOWN FLATS-RIBEIRA STUDIO",
+          "type": "Lakefront",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437002/rfon5llzyvk94eilgk5r.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436562/aflmntpgocp5l2zxikhl.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437336/u9ttr09gqo3hmfumwdww.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436306/be2v9wssznxs4hebudb4.jpg"
+          ],
+          "price": 55,
+          "summary": "Porto Downtown Flats RIBEIRA STUDIO is a newly remodelled apartment, located in the most beautiful area of Porto. It is situated in Rua São Joao, in the old Ribeira of Porto, an area classified as World´s heritage. Fully equiped kitchen and wi-fi.",
+          "capacity": 4,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 0,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Tim",
+            "location": "Porto, Porto District, Portugal",
+            "about": "I´M EAGER TO BE YOUR HOST\r\nANSIOSO POR SER O SEU ANFITRIÃO",
+            "responseTime": "within an hour",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": true,
+            "policyNumber": "35484736",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "Portugal",
+            "countryCode": "PT",
+            "city": "Porto",
+            "address": "Porto, Porto, Portugal",
+            "lat": -8.61279,
+            "lan": 41.14106
+          },
+          "reviews": [
+            {
+              "at": "2016-02-03T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbc1c",
+                "fullname": "Tina",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
+              },
+              "txt": "Teresa was very welcoming and took time to explain whatever was necessary and answer questions about Porto.  The apartment was very nice - just like the photos.  When I mentioned that the apartment hadn't warmed up as much as I'd hoped, she had an additional heater brought by within hours.  The location was so easy, a block and a half from the waterfront restaurant scene, and almost as close to one of the train stations.  We were really happy with our stay!"
+            },
+            {
+              "at": "2016-02-22T05:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164faf63",
+                "fullname": "Diogo",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
+              },
+              "txt": "Apartamento conforme descrito, muito bom.\nFomos bem recebidos e aconselha-se a quem queira conhecer o Porto"
+            },
+            {
+              "at": "2016-03-10T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb4b6",
+                "fullname": "Andrei",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
+              },
+              "txt": "This is a very good location for exploring Porto. The studio is excellent - close to all the important city attractions as well to good restaurants and bars. Teresa is a great host. Although we did not meet her personally she made sure that we have everything we need plus we got excellent advice for what to do and see in Porto."
+            },
+            {
+              "at": "2016-03-15T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fad33",
+                "fullname": "Anu",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
+              },
+              "txt": "Very functional studio, great location, warm welcoming from the host."
+            },
+            {
+              "at": "2016-04-09T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164faec1",
+                "fullname": "Charly",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+              },
+              "txt": "Très bon accueil, logement agréable et très bien situé dans le centre de porto, à quelques mètres du Douro ! Super appartement pour passer un we prolongé, voir une semaine à deux !"
+            },
+            {
+              "at": "2016-04-15T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbb71",
+                "fullname": "Joost",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
+              },
+              "txt": "We have had an excellent stay in this apartment. \n\nIt is situated just a few steps from the lively historic heart of the beautiful city of Porto. Most of the things you'd like to do are within walking distance: a lot of cultural highlights, shopping, bus/metro/train and of course many Port-houses.\n\nThe apartment sits in a somewhat old building which is a contrast to the apartment itself. It has been nicely renovated and has the comfort you would want. It's spacious for a stay with two people. Most of the interior is new and functions properly. This is complemented by nice (and some antique) decorative details.\nA pleasant surprise was the smell of freshly baked bread every morning in the staircase. The downstairs neighbour is a bakery where you can get good and cheap bread and your morning espresso.\n\nWe have had contact with Teresa through AirBNB, she has been helpful and kind. Tim welcomed us with a gastronomic surprise and even a list of suggestions for our stay in Porto. They are a very hospitable and helpful couple!\n\nThank you Teresa and Tim!"
+            },
+            {
+              "at": "2016-04-24T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb84c",
+                "fullname": "Markus",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
+              },
+              "txt": "Teresa and her friend were very kind and welcomed us with a delicate surprise. They were helpful with telling us the best places to visit. The flat is very nice furnished, well equipped an next to a lively street direct in the city centre. We enjoyed our stay and would like to comeback somewhen. "
+            },
+            {
+              "at": "2016-04-28T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb5f4",
+                "fullname": "Florence",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
+              },
+              "txt": "Great place, so clean, great host, easy to reach and happy to please us !"
+            },
+            {
+              "at": "2016-05-02T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fb9c2",
+                "fullname": "Antony",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
+              },
+              "txt": "This place is awesome!!\r\nThe location is great. Just a couple of mins walk downhill to Cai da Riberia on the river and all the great restaurants and bars there.\r\nThe flat itself was spotless and spacious. Perfect for the 2 of us.\r\nTeresa's partner was there to meet us it 12.30am. Let us in, showed us around and offered us a small glass of port and a pastille de nada as a welcome. Very nice.\r\nThe bed is extremely comfortable too. Always a bonus. \r\nLoved this place!\r\nOne small drawback was the noise of passing partygoers in the small hours as the flat is on the a bit of a thoroughfare but seriously not a real problem as the bed was so comfortable we just dozed straight off again.\r\nThe owners checked in with us via test several times over our 3 day stay to make sure we had everything we needed and were all ok.\r\nCan't fault it. We had a great time here. Hope to come back and stay here again sometime very soon\r\n"
+            },
+            {
+              "at": "2016-05-10T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb02b",
+                "fullname": "Marcos",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
+              },
+              "txt": "El departamento es hermoso, la ubicacion privilegiada y el trato de los anfitriones excelente. No se puede pedir mas cuando alguien contrata este servicio. Si alguien piensa viajar a Oporto no dude en que el departamento de Teresa sea una de las mejores opciones para contratar."
+            },
+            {
+              "at": "2016-05-14T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbe08",
+                "fullname": "Nathalie",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
+              },
+              "txt": "Nous avons été très bien accueilli par Tim, l'ami de Teresa, qui nous avait préparé du Porto et des pasteis de nata! L'appartement est exactement conforme aux photos, très agréable, spacieux et bien décoré (le lit est vraiment très confortable, bravo! ).  L'appartement est idéalement situé à côté de Ribeira et des quais pour les balades nocturnes...Nous reviendrons avec plaisir à Porto, cette ville est magnifique. Merci encore pour tout, Tim et Teresa. "
+            },
+            {
+              "at": "2016-05-19T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb2b3",
+                "fullname": "Julia",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",              },
+              "txt": "We absolutely loved our stay in Porto. The appartement is very well located and beautifully furnished. Also, it was very (!) clean and tidy and the kitchenette is well equipped. Teresa's friend waited for us in front of the house and it was a warm welcome - they even had prepared a small surprise!\r\nThank you so much - we would love to visit again!"
+            },
+            {
+              "at": "2016-05-22T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb19e",
+                "fullname": "Sandra",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
+              },
+              "txt": "Receção impecável por parte do anfitrião. Extremamente simpático e prestável, fez-nos sentir em casa! A casa está muito bem localizada, perfeita para quem quer passar um fim-de-semana a passear no Porto"
+            },
+            {
+              "at": "2016-05-29T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbf70",
+                "fullname": "Anna",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
+              },
+              "txt": " Tim's apartment has everything needed for a comfortable stay. The location is great just a few steps to the river over which life goes on:) Tim  was still available for us. He provided every essentials - for example feeding chair for my lilltle one:) We were greeted with a glass of Porto and delicious sweets which was very nice suprise;)\r\nI can certainly recommend Tim as a hoster!\r\nKind Regards\r\nAnna"
+            },
+            {
+              "at": "2016-06-30T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fac88",
+                "fullname": "Seungbin",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
+              },
+              "txt": "Tim was so kind host.\r\nHe showed everything what we need, and he asked our feeling during our trip.\r\nFlat was so close to river, which is so main area in Porto.\r\nFlat was clean and neat. Shortly, perfect flat!"
+            },
+            {
+              "at": "2016-07-22T04:00:00.000Z",
+              "by": {
+                "_id": "622f3401e36c59e6164fab62",
+                "fullname": "Jack",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
+              },
+              "txt": "Tim was so kind when he showed us around the apartment.  We loved talking with him about Porto.  The location was perfect, and the views out the windows are spectacular.  We loved our time here.  The apartment had everything we needed, and we hope to be lucky enough to come back one day."
+            },
+            {
+              "at": "2016-07-30T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb875",
+                "fullname": "Simon",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/69.jpg",
+              },
+              "txt": "very nice place, in the heart of the old Porto. Tim is really reactive if you have any problem and really nice.\r\nIt was sometimes difficult at night because of the noise of nightlife outside especially because we had a baby, but then you are in the center so that's normal."
+            },
+            {
+              "at": "2016-08-13T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fafe3",
+                "fullname": "Gianni",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
+              },
+              "txt": "Appartement parfait, proche des centres d'Interets, confortable et propre. Tim nous laisse un mémo de ce qu'il faut voir et faire à Porto. "
+            },
+            {
+              "at": "2016-08-17T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb0dd",
+                "fullname": "Sergio",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
+              },
+              "txt": "A localização é excelente, o apartamento muito aconchegante e agradável, tem todos os utensílios para você preparar sua refeição.\nDa janela você tem vista para rio Douro, por lá pode desfrutar\nde muitos restaurantes, bares\num lindo por do sol ...\nPor fim estamos agradecidos pela recepção e todo o suporte \noferecidos pelo anfitrião Tim.\nAbs.\nSergio"
+            },
+            {
+              "at": "2016-09-03T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb5f7",
+                "fullname": "Raquel",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
+              },
+              "txt": "El apartamento era tal cual le esperábamos. Amplio, luminoso y limpio. Tim ha sido un anfitrión genial, nos facilitó todo lo que necesitamos, y eso que viajamos con dos bebés, y tuvimos que solicitarle dos cunas. La zona es totalmente céntrica, a unos pocos metros del Duero y una gran variedad de restauración. Hay supermercado cercano. Si tuviéramos que ponerle una pega, es que al estar en pleno centro, el barrio es un poco ruidoso, pero bastante llevadero.\r\n"
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Ryokans",
+            "Adapted",
+            "Play"
+          ],
+          "statReviews": {
+            "cleanliness": 4.7,
+            "communication": 4,
+            "checkIn": 5,
+            "accuracy": 4.6,
+            "location": 4.8,
+            "value": 4.9
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Large well-lit & quiet room in the Plateau",
+          "type": "Lakefront",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436481/tqwkxtbalipudzhivoag.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436301/etz0n0umubahfkgmmwt8.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437006/kcsenznwf3pnka6hjwoh.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437013/gz1hfzv47xzfwcmosadc.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436556/mb70fifvvpvde8jub5cg.jpg"
+          ],
+          "price": 35,
+          "summary": "Fully furnished.  The room has lots of natural light through the day New windows = great insulation from the cold Meshed windows = almost no bugs Each room has its own heating The kitchen has its own balcony and fire exit Anything you need, please don't hesitate to ask!",
+          "capacity": 3,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "roomType": "Private room",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Yannick",
+            "location": "Montreal, Quebec, Canada",
+            "about": "Hello, my housemate Naomi and I are looking forward to hosting you! Montreal has been our home for atleast few years now so we know Montreal very well to be able to give you insider suggestions ;).We can communicate in French, English, German, Hindi. We love to travel and move around ourselves, and understand your needs as a visitor. Search for us on Face book and Couchsurfing if you would like to know more. We are involved in Science, Psychology, Engineering and Entrepreneurship and are familiar with different labels of dance, martial arts, sports, and music. We are easygoing although we like being active, and can easily find a way to relate to you!  If you need anything at all, please don't hesitate to let us know during your stay, and we'd be happy to provide it.",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "8579366",
+            "createAt": "2016-05-15T04:00:00.000Z",
+            "responseTime": "within an hour",
+          },
+          "loc": {
+            "country": "Canada",
+            "countryCode": "CA",
+            "city": "Montreal",
+            "address": "Montréal, Québec, Canada",
+            "lat": -73.58359,
+            "lan": 45.52143
+          },
+          "reviews": [
+            {
+              "at": "2016-10-05T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb403",
+                "fullname": "Louis-Étienne",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
+              },
+              "txt": "Yannick était en voyage donc nous avons rencontré ses colocataires. Elles sont fort sympathiques. Draps et  serviettes étaient fournies. L'appartement est propre, silencieux et bien placé. On a même eu droit à une part de gâteau de pendaison de crémaillère ! Je recommande."
+            },
+            {
+              "at": "2016-10-07T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fafc9",
+                "fullname": "Melanie",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/69.jpg",
+              },
+              "txt": "the time in yannick's place was really nice. his roommates welcomed us perfectly and his room had lots of space for all our luggage. the area has a lot to offer, shops, bars and restaurants and the park is close by. we can only recommend the place."
+            },
+            {
+              "at": "2016-10-20T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb19b",
+                "fullname": "Miriam",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
+              },
+              "txt": "Yannick's roommates were perfect hosts! The area was great as it was walking distance to Mont Royal with tons of coffee shops and everything you can imagine. It was also only a 5 min walk to the Mont Royal subway station so it was very easy to get around to anywhere. The apartment was exactly as described on the photos."
+            },
+            {
+              "at": "2016-10-23T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbb12",
+                "fullname": "Julie",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
+              },
+              "txt": "Le logement est super bien placé à 5/10 min du métro Mont Royal au coeur du Plateau ! Audrey et Johanna les colloques de Yannick nous ont super bien accueilli et mis à l'aise."
+            },
+            {
+              "at": "2017-05-20T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb534",
+                "fullname": "Aline & Félix",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
+              },
+              "txt": "Nous avons fait 3 airbnb à Montréal avant d'arriver chez Yannick et nous pouvons dire qu'une chose : c'est définitivement le meilleur !"
+            },
+            {
+              "at": "2017-06-12T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb95b",
+                "fullname": "Jennifer",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
+              },
+              "txt": "Yannick is a helpful host for local events, eateries and getting around. The apt is a classic third floor walk up in the \"Plateau\", on the rise near Mt Royal. Great location. Easy access to metro subways, buses and very walkable.  Close to restaurants and shopping. He is on a one way, quiet street. If youre driving parking can be limited or unavailable so scope the neighborhood and watch the signs! There is a Montreal parking app and Metro Transit app that are very helpful, and Yannick can help you strategize for a spot."
+            },
+            {
+              "at": "2018-07-07T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb164",
+                "fullname": "Gary",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
+              },
+              "txt": "Yannick is a helpful, warm host, and responds to queries quickly. The location is great - walking to cafes, restaurants and shops and there is lots of character in this part of Montreal. The bed is comfortable and the apartment is tasteful and interesting. Highly recommend."
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Amazing views",
+            "Earth homes",
+            "Top of the world"
+          ],
+          "statReviews": {
+            "cleanliness": 4.4,
+            "communication": 4.8,
+            "checkIn": 4.4,
+            "accuracy": 5,
+            "location": 4.5,
+            "value": 5
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Luxury 1-Bdrm in Downtown Brooklyn",
+          "type": "Design",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436827/znh7gqzbwb4wm6bdziy7.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436550/mqmwpqdel4nxrmogeawh.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436837/fyczvvyuelceouxja8yy.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436998/atpmgujjvdqnlfwfrntf.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437327/epcnh2tzpafwmvi3srcp.jpg"
+          ],
+          "price": 144,
+          "summary": "A perfect blend of one of BKLYN's hippest areas with a new, high-rise apartment building. You'll be hard pressed to find a corner unit like this closer the the City. Almost 800 sf of living space with luxury amenities & modern but comfy furnishings.",
+          "capacity": 2,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+          ],
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Ashley",
+            "location": "New York, New York, United States",
+            "about": "I'm an executive at a wellness company in New York City. Educated in Fashion at Parsons, I'm into fitness and nutrition. I've lived in the city since enrolling at Parsons in the late 90s.\r\n\r\nIf you're looking for restaurant reservations, boutique fitness studios, or things to do in the city, then just let me know what you're interested in. I'd love to offer some suggestions and help you have a wonderful stay in New York City.",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "10099253",
+            "createAt": "2016-05-15T04:00:00.000Z",
+            "responseTime": "within an hour",
+          },
+          "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "New York",
+            "address": "Brooklyn, NY, United States",
+            "lat": -73.98102,
+            "lan": 40.69406
+          },
+          "reviews": [
+            {
+              "at": "2016-02-21T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbe55",
+                "fullname": "Francesco",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
+              },
+              "txt": "The host canceled this reservation 2 days before arrival. This is an automated posting."
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Off-the-grid",
+            "Beachfront",
+            "Casas particulares"
+          ],
+          "statReviews": {
+            "cleanliness": 4.8,
+            "communication": 4.9,
+            "checkIn": 4.4,
+            "accuracy": 4.9,
+            "location": 4.9,
+            "value": 5
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Modern West Kowloon Based Apartment",
+          "type": "Castles",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436787/gcz7mgmxb6dcl4vz6h0a.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436266/num9wnb6uzdsvqr6nyuu.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437017/gjyzgdjngyrhfrj2loxz.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436876/bskkmribzul6cjzbprvi.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436315/nyglbkkyaednuygn6eik.jpg"
+          ],
+          "price": 502,
+          "summary": "single bedroom available for rent. Good for people on business or have lay overs in Hong Kong or family holidays Safe, Convenient, Accessible, Cosy apartment.  This apartment is located in west Kowloon Tai Kok Tsui Area. it is very easy to access the MTR (Train) stations and get to Hong Kong Island or the new territories, also great to relax in doors. can provide a list of help items if required.",
+          "capacity": 1,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "roomType": "Private room",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Govinda",
+            "location": "Hong Kong",
+            "about": "",
+            "responseTime": "within an hour",
+            "thumbnailUrl": "https://a0.muscache.com/im/pictures/5bbd9579-1d7c-4f95-9f3b-85d24b159ce6.jpg?aki_policy=profile_small",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "70727802",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "Hong Kong",
+            "countryCode": "HK",
+            "city": "Hong Kong",
+            "address": "Tai Kok Tsui, Kowloon, Hong Kong",
+            "lat": 114.15992,
+            "lan": 22.32324
+          },
+          "reviews": [
+            {
+              "at": "2017-01-01T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbaa3",
+                "fullname": "Gloria",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
+              },
+              "txt": "this was my first experience to visit Hongkong with my family. wr are 3 person includr a toddler... we really enjoyed our stay in Govinda's apartment during our trip in HK... this room maybe not spacious, but already good enough for us since you cant meet such a comfortable place if you stay in hotel at HK.... there are 2 rooms but unfortunately I can only use 1 room since the weather is really cold there on december so I decided to sleep on the living room. the room is really cool since its near to the window, but still we still so happy coz we can put our things on that empty room. there are also a kitchen with very complete utensil and ingredients, and the owner are generous enough to let us use them. the bathroom is quite small but it's doesnt matter at all coz there are hot water so we can warm up our body. my conclusion is we are so happy to live there and hope we can stay there again if we come back to HK. the neighbourhood is really good too, you can put your laundry on the shopping mall neat the apartment. there are some nice restaurants too nearby and dont worry the transportation is really easy too. there are so many stand by taxis in front of the lobby of the apartment."
+            },
+            {
+              "at": "2017-10-05T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164faf69",
+                "fullname": "Estella",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
+              },
+              "txt": "Apart from the two hiccups involving the metal gate that locked me out (since govinda didn't mention any instructions on how to open it i assumed it was going to remain unlocked) the rest of the stay was ok. Govinda was friendly and the place comfortable."
+            },
+            {
+              "at": "2018-01-01T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbe50",
+                "fullname": "Jiatong",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
+              },
+              "txt": "Quite and beautiful"
+            },
+            {
+              "at": "2018-09-21T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbcc5",
+                "fullname": "Shashi Kanth",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
+              },
+              "txt": "Amazing host! Recommend for short stays."
+            },
+            {
+              "at": "2018-10-29T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164faf45",
+                "fullname": "Anurag Swarup",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg",
+              },
+              "txt": "Govinda was gracious to accept my request for accommodation at a very short notice. In spite of his busy schedule he also took out some time to spend with me and helped me in getting around. \nThe building is very nice with a lot of security for the safety and comfort of the residents. There’s a nice park right outside the building for relaxing and for walking. A small Thai restaurant across the park serves very good food. Must try. A convenience store next to the building and availability of taxi and public transport close by makes it very easy to commute. Over all a nice neighbourhood to stay."
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Off-the-grid",
+            "Beachfront",
+            "Beachfront"
+          ],
+          "statReviews": {
+            "cleanliness": 5,
+            "communication": 4.9,
+            "checkIn": 4.9,
+            "accuracy": 4.9,
+            "location": 4,
+            "value": 4.4
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Vista magnifica mar,lagoa,montanha.",
+          "type": "Beachfront",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436359/abuiyexl2xyemq8uon4s.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437040/oarfkdxx7gyyvcynvwko.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436801/mcuu1w2188ndpd6hezzt.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436310/acidri8oahpcoxa0idns.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437330/mmhkmfvg8o3freucyekc.jpg"
+          ],
+          "price": 209,
+          "summary": "Sol da manhã,andar alto, aconchegante,cheio de charme , perto aos eventos Rio 2016 e shoppings como Barra Shopping, New York e casas de show. Rodoviaria BRT.Metrô direto para Copacabana.Onibus na porta para Zona Sul.Predio com total seguranca.",
+          "capacity": 4,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Ana Cristina",
+            "location": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
+            "about": "",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": false,
+            "policyNumber": "63618115",
+            "createAt": "2016-05-15T04:00:00.000Z",
+            "responseTime": "within an hour",
+          },
+          "loc": {
+            "country": "Brazil",
+            "countryCode": "BR",
+            "city": "Rio De Janeiro",
+            "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
+            "lat": -43.364530263111185,
+            "lan": -23.008791637258927
+          },
+          "reviews": [
+            {
+              "at": "2016-08-12T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbb6a",
+                "fullname": "Eric",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
+              },
+              "txt": "I stayed for the Olympics, and the apartment was great.  I mostly just slept there, but it was very comfortable.  The host and her family were very welcoming.  I would recommend staying here!"
+            },
+            {
+              "at": "2016-08-14T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb993",
+                "fullname": "Daniel",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
+              },
+              "txt": "Aluguei o apartamento da Ana durante as olimpíadas e foi super bacana a experiência. Ana e Wladimir são pessoas muito queridas,  de fácil trato e sempre dispostos a ajudar no que fosse preciso. A vista do apto é deslumbrante e a localização ótima, na beira da praia. fiquei super satisfeito! Recomendo a todos que quiserem um espaço acolhedor na barra! "
+            },
+            {
+              "at": "2016-08-18T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164facd6",
+                "fullname": "Luciano",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
+              },
+              "txt": "El departamento de Ana es muy amplio y cómodo. Mis 3 amigos y yo pasamos una estadía excelente. Ana y su esposo contestaron inmediatamente todas nuestras dudas y fueron muy amables. /// Ana's apartment its so big and  confortable. Muy 3 friends and i spend an exelent time there. Ana and her husband answered our request inmediatly anda they were kind."
+            },
+            {
+              "at": "2016-08-21T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fae71",
+                "fullname": "Egle",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
+              },
+              "txt": "Otima localizacao, limpo e conveniente. "
+            },
+            {
+              "at": "2017-03-01T05:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb163",
+                "fullname": "Lindinalva",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
+              },
+              "txt": "Apartamento funcional, caprichoso na decoração e de fato com uma vista incrível. Está no posto 8 da Barra, só atravessar a avenida para praia. Para ir à região mais badalada da Barra é necessário o carro. Anfitriões simpáticos e comunicação fluida."
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "New",
+            "Iconic cities",
+            "Boats"
+          ],
+          "statReviews": {
+            "cleanliness": 4.9,
+            "communication": 4.3,
+            "checkIn": 5,
+            "accuracy": 4.2,
+            "location": 4.1,
+            "value": 4.7
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Elegance and Peace in Potts Point",
+          "type": "Lakefront",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436496/ihozxprafjzuhil9qhh4.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436559/sbtoepvxxobkogznuiw4.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437339/qgs3hrnx0accbjkzuh9s.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436266/num9wnb6uzdsvqr6nyuu.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436600/rt3ldgx1xfqct3961yjz.jpg"
+          ],
+          "price": 125,
+          "summary": "My beautifully renovated Art Deco studio apartment is in the heart of Kings Cross, yet so peaceful and quiet. New bathroom and modern kitchen, in the Art Deco tradition, are stunning to be in. A Sleeping Duck queen bed which is absolutely fabulous, 4G unlimited wifi, high quality washer/dryer and dishwasher. Fully self contained!",
+          "capacity": 2,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Kitchen",
+            "Free parking on premises",
+            "Hot water",
+            "Heating - split type ductless system",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 1,
+          "bedrooms": 0,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Mariana",
+            "location": "Elizabeth Bay, New South Wales, Australia",
+            "about": "I love Sydney and all her natural beauty.  I immigrated here many years ago and still get excited every time I step out the door. I know this city well and can help you with information and tips. Bird watching and snorkelling are high on my list of things to do. I also love hosting people and making sure they feel at home in my home. Mi casa es su casa.",
+            "responseTime": "within an hour",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": true,
+            "policyNumber": "14073279",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "Australia",
+            "countryCode": "AU",
+            "city": "Sydney",
+            "address": "Elizabeth Bay, NSW, Australia",
+            "lat": 151.22674,
+            "lan": -33.87226
+          },
+          "reviews": [
+            {
+              "at": "2016-11-28T05:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fabce",
+                "fullname": "Chieko",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
+              },
+              "txt": "Mariana was a great host.She was kind,warm, and always helpful.\r\nI had a great 3 month stay at Mariana's (Website hidden by Airbnb) location,it was clean,well equipped,everything was well prepared.And clean big bathtub,I was enjoyed every bath time. "
+            },
+            {
+              "at": "2016-12-08T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbd77",
+                "fullname": "Racheal",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
+              },
+              "txt": "The studio apartment was exactly what I needed. It was quiet, and had a very comfy new bed. Thank you Mariana for your assistance and the flowers throughout the apartment made it so homely. "
+            },
+            {
+              "at": "2016-12-16T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb31a",
+                "fullname": "Frances",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
+              },
+              "txt": "Mariana's place is great!  It's in a fantastic location off Macleay Street with lots of cafes and restaurants on the doorstep as well as easy access to the City via train at KingsX and buses.  It also is an easy walk down to Rushcutters Bay park and the water if you're looking for a bit of peace and tranquility. The apartment itself is very quiet  at the back of the buildings and well away from the buzz of Macleay St.  It has also been brilliantly and neatly designed by Mariana with a great bathroom and kitchen with high quality appliances and a really comfortable bed as well as lots of nice  Art Deco touches.  Mariana is a fantastic host - really open and friendly,  and generously invited us to use anything in the kitchen and bathroom cupboards.  We would highly recommend Mariana's apartment and Mariana as a host - and would definitely stay here again."
+            },
+            {
+              "at": "2017-01-01T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbe92",
+                "fullname": "Trupti",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
+              },
+              "txt": "Great central location of the apartment. It's perfect for two people for a few nights. It's truly a studio but Mariana has done a great job putting all the basics in."
+            },
+            {
+              "at": "2017-01-06T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbc80",
+                "fullname": "Andrew",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
+              },
+              "txt": "Well decorated studio apartment great for couples or single travelers. The apartment is newer and has a great efficiency kitchen with all appliances you need in addition to a nice bathroom.\n\nThe view looks into an inner space in between apartments and you can see into the neighbors kitchen, but nothing new if you have stayed in big city airbnbs.\n\nThe apartment did not have A/C at the time of stay, I would recommend this place as long as it's cooler outside or more fans were brought in.\n\nThe location is phenomenal. Lots of restaurants and a few coffee shops nearby with easy access to Kings Cross Station for your metro needs.\n\nGreat stay overall!"
+            },
+            {
+              "at": "2017-01-13T05:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb957",
+                "fullname": "Ben",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
+              },
+              "txt": "Great find in a charming building. The apartment is well appointed and the communication and service was fantastic. Will definitely stay again!"
+            },
+            {
+              "at": "2017-01-23T05:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb729",
+                "fullname": "Louise",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
+              },
+              "txt": "Beautiful apartment, very central location (I walked to the city one day) in fabulous Potts Point. The apartment had everything I needed (including a bathtub!) and the host was delightful. Highly recommended and I would definitely come back here."
+            },
+            {
+              "at": "2017-02-01T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb43f",
+                "fullname": "Gosia",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
+              },
+              "txt": "the apartment is perfectly located. It is located within walking distance of the city center. public transport is also very close to the apartment. everything that was needed was a in the equipment flat. everything was very well organized. I would heartily recommend!"
+            },
+            {
+              "at": "2017-02-07T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb608",
+                "fullname": "Petrus",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
+              },
+              "txt": "Beautiful place close to everything, quiet and clean with very nice touches and a super comfortable bed. Really enjoyed our stay!"
+            },
+            {
+              "at": "2017-02-13T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fba17",
+                "fullname": "Norliza",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
+              },
+              "txt": "Mariana is a fantastic host. She is very friendly and it was very easy to communicate with her.  We love her (Website hidden by Airbnb) is  well equipped and very clean.  There were many cafes nearby and King Cross Stn was a short walk away. We highly recommend this apartment."
+            },
+            {
+              "at": "2017-02-18T05:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb941",
+                "fullname": "Joe And Melanie",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
+              },
+              "txt": "What a terrific little place to stay. Its freshly renovated and homely. The location is excellent with some of Sydney's best restaurants literally around the corner. Also easy access for Uber pick ups etc. Thanks so much for hosting us Mariana, it was lovely to meet you."
+            },
+            {
+              "at": "2017-02-23T05:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fabb1",
+                "fullname": "Michelle",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
+              },
+              "txt": "The boutique apartment is nice, got everything in it, like cooking stuff and washing machine.  Maybe a bit stuffed during summer cos not quite convenient to open windows in the living room, but it’s around 20+ degrees during our stay, so it’s ok for us. The apt is on 1/F, so need to walk few steps with your luggage. Mariana is very nice and helpful as well."
+            },
+            {
+              "at": "2017-02-25T05:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb2a7",
+                "fullname": "Mari",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
+              },
+              "txt": "Although it was only for two nights, I had a wonderful time at Mariana's apartment. It is a beautifully renovated room, very clean and the location is great. Definitely recommend it!"
+            },
+            {
+              "at": "2017-03-04T05:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fba71",
+                "fullname": "Richard",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
+              },
+              "txt": "This is a great place to stay for a couple visiting Sydney. It is not large but very well equipped with high quality fittings and furnished to a high standard. Kings Cross station is within easy walking distance as are plenty of good eateries and a supermarket."
+            },
+            {
+              "at": "2017-03-12T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb3ba",
+                "fullname": "Bree",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg",
+              },
+              "txt": "Mariana was a fabulous host, very easy to contact. Brilliant location beautifully laid out apartment!"
+            },
+            {
+              "at": "2017-03-20T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbcbf",
+                "fullname": "Antonette",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
+              },
+              "txt": "Mariana is such a great host..welcomes and bids goodbye to her guest personally. She responds quickly and has created a comfortable & beautiful abode for guest. Her flat is close to Kings cross station, bus stops and hop on/off stop. Close to grocery, market, restaurants and bars...including ice cream shops :). Her apartment is very reflective of Sydney...its a combination of a sense of culture & vintage with the comforts of whats new & functional. I LOVE the fact that we come home to a very comfy bed and bath tub + epsom salt after a very tiring touristy walking day. :) "
+            },
+            {
+              "at": "2017-03-22T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb060",
+                "fullname": "Rob",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
+              },
+              "txt": "Lovely location, very well appointed homely feel and great value. "
+            },
+            {
+              "at": "2017-03-25T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb69e",
+                "fullname": "Helen",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
+              },
+              "txt": "We loved our stay here in Pott's Point! It is walking distance to King's Cross station and very accessible to the city center. Mariana's apartment is clean, well-equipped, and elegant. Best for couples as it might be a little tight for a family! "
+            },
+            {
+              "at": "2017-03-30T04:00:00.000Z",
+              "by": {
+                "_id": "622f3406e36c59e6164fbc19",
+                "fullname": "Alexander",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg",
+              },
+              "txt": "Great little completely self-contained studio."
+            },
+            {
+              "at": "2017-04-02T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbf89",
+                "fullname": "Felicia",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
+              },
+              "txt": "Mariana's apartment is centrally located, done up to a high standard (she installed a Miele dishwasher and induction hob) and is exactly as described in the description. The kitchen is also well equipped should you need to cook. It's clean, convenient and comfortable. Public transport is all within a few minutes walk which is always great. Check-in went smoothly too and we would like to thank Mariana for the wonderful stay. We wouldn't hesitate to recommend her apartment to other guests and would return to stay there during our next visit to Sydney."
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Earth homes",
+            "Caves",
+            "Skiing"
+          ],
+          "statReviews": {
+            "cleanliness": 4.7,
+            "communication": 4.8,
+            "checkIn": 5,
+            "accuracy": 4.3,
+            "location": 4.3,
+            "value": 4.5
+          }
+        },
+        {
+          "_id": this.utilService.makeId(),
+          "name": "Unit 414 Luxurious Top Floor Condo Great Views",
+          "type": "Campers",
+          "imgUrls": [
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436912/xle8ueqxjeazbs4bp09p.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436872/i3jblqgpdttpwvshbffo.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436338/oifgxuovghbgnabppike.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436922/ytr7znhbuqnxnotutplv.jpg",
+            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436893/pkhxv5j90ubdzbpgdbdb.jpg"
+          ],
+          "price": 385,
+          "summary": "If you prefer high-end living, this condo is for you!  It is fully renovated and gorgeous with amazing ocean and courtyard views!   Kana'i A Nalu is a quiet resort on the ocean front away from the road.  This complex sits  on a 3-mile stretch of white sand beach that spans almost the entire Ma'alaea Bay. Wonderful for romantic sunset strolls or for a beach run.   This property is located less than a mile walking distance to Ma'alaea Harbor and centrally located between South and North Maui.",
+          "capacity": 4,
+          "amenities": [
+            '32" HDTV with Disney+, standard cable',
+            "Wifi",
+            "AC - split type ductless system",
+            "Private outdoor pool - available all year, open 24 hours, lap pool",
+            "Indoor fireplace: wood-burning",
+            "Shampoo",
+            "Hair dryer",
+            "Hot water",
+            "Backyard",
+            "Pets allowed"
+          ],
+          "bathrooms": 2,
+          "bedrooms": 2,
+          "roomType": "Entire home/apt",
+          "host": {
+            "_id": "63dbac3c5705dc29556eae8d",
+            "fullname": "Kathy",
+            "location": "Hawaii, United States",
+            "about": "I am the owner of Maui Vision Rental. Maui Vision became a reality and a business starting with my personal condo at the Kihei Akahi Resort C618.\r\n\r\nMaui Vision is a business I love because I get to share the Aloha Spirit, the beauty of the land, and talk story with people from around the world. It is nice to know that we can contribute to someone’s Hawaiian vacation experience in a positive way. We love to hear back from our happy guests.\r\n\r\nI used to live on the island of Oahu with my US Navy family when I was young.  We later moved to Southern California.  I knew one day I would return to Hawaii, the place I fell in love with long ago. I took a leap of faith and purchased my Maui condo June 2002 this was the beginning of fulfilling her prophecy to once again return to Hawaii soil.\r\n\r\nI am a tropical expression artist who paints on canvas and etched metal.  My work is inspired by the beauty of the islands and has been displayed in several Maui art galleries over the years.  I am a writer and have my first book on Amazon.  I recently took up hula dancing and love to immerse myself in the culture and grace of this island.\r\n\r\nI have over 25 years of business administration and customer service experience working for large corporations and high tech startups.\r\n\r\nIf you are in need of a caring Realtor here on Maui, please contact Kathy McCartney RS#77317 of La Costa Realty Hawai’i, LLC Brokerage Lic #18349 .",
+            "responseTime": "within an hour",
+            "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
+            "isSuperhost": true,
+            "policyNumber": "733802",
+            "createAt": "2016-05-15T04:00:00.000Z",
+          },
+          "loc": {
+            "country": "United States",
+            "countryCode": "US",
+            "city": "Maui",
+            "address": "Wailuku, HI, United States",
+            "lat": -156.50456,
+            "lan": 20.79559
+          },
+          "reviews": [
+            {
+              "at": "2016-08-20T04:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbdd8",
+                "fullname": "Richard",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
+              },
+              "txt": "This is a beautiful condo!  The unit is exactly as seen in the pictures.  Very nicely renovated with all the needed condiments and supplies.  Unit is on the 4th floor so it has a beautiful view.  location is perfect.  Right in the middle of the island and central to all the things we wanted to see and do.  Building is nice and quiet.  Beach is beautiful for taking long walks and the breeze keeps things nice and cool.  Kathy was fantastic to work with.  She provided everything we needed in advance along with recommendations for things to see and do and places to eat.  She responded extremely quickly to any questions or concerns during our stay.  Would highly recommend and would definitely return!  Thank you for making our stay in Maui so enjoyable!"
+            },
+            {
+              "at": "2016-09-10T04:00:00.000Z",
+              "by": {
+                "_id": "622f3403e36c59e6164fb184",
+                "fullname": "Catalin",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
+              },
+              "txt": "Description was spot on, quiet building, excellent aminities. Will stay again!"
+            },
+            {
+              "at": "2017-05-10T04:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fabee",
+                "fullname": "Marta",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
+              },
+              "txt": "The house is simply amazing. The location is perfect, in the middle of th Island, and the condo is literally by he ocean. The sound of the ocean at night... We'll miss that! \n\nIt's also fully equipped. I can't think of anything we needed that wasn't already there: beach towels, swimming pool noodles, picnic bag, kickboards... You name it! \n\nSame thing with the kitchen. High-end appliances and enough pans and tableware to cook and serve a full thanksgiving meal.\n\n100% recommended!  "
+            },
+            {
+              "at": "2017-05-19T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb667",
+                "fullname": "Cynthia",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
+              },
+              "txt": "Beautiful condo, location is great for anything you want to do on Maui, kitchen has everything you could possibly need to prepare meals.  We had extra towels and blankets.  Towels for the beach and pool.  Kathy has thought of everything.  Wifi access and TV were also awesome when we returned from  a fun filled day to relax.  "
+            },
+            {
+              "at": "2017-06-07T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb6e0",
+                "fullname": "Kris",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
+              },
+              "txt": "Excellent Property and Excellent location.  I secured this property for a client.  They enjoyed their stay immensely.  Host reported a carpet stain afterward, however I cannot pursue compensation without photos.  So other than that----excellent experience."
+            },
+            {
+              "at": "2017-06-21T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb925",
+                "fullname": "Adam",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
+              },
+              "txt": "This was my first trip to Hawaii and having used Airbnb successfully before, I was looking forward to our stay! While I can usually overlook most shortcomings, the list was too many to ignore here. Wide angle pictures & professionally written listing descriptions will impress most - however, here are some takes from my REAL customer experience at the 414 condo:\n\n\"We will provide you with a special code to access the condo after you are booked and paid in full.\"\n\n- After a 13 day stay, we were charged a \"half day rate\" for a late checkout for 5 hours over our contracted stay. During our last day, we ended up being locked out of the condo. Thankfully the late checkout fee was refunded due to this situation. Not quite the goodbye from our paradise as we hoped for.\n\n\"This unit includes a window A/C in the living room should you need it although we find it is rarely needed because the tradewinds keep you comfortable.\"\n\n- The AC unit is a measly 12\" by 32\" window unit that had trouble keeping even the living room & kitchen areas cool. If 86 degrees in your bedroom while sleeping is \"comfortable\", then this might be the place for you.\n\n\"This setting is wonderful for romantic sunset strolls. For the more active person this is a great beach to run on as you can do so for miles in peace away from the crowds.\"  -- \"Three miles of quiet sandy beach will entice you to walk, run, or build sand castles.\"\n\n- Haycraft Park is roughly 500 feet away from the beach directly in front of this condo, and it was filled with people every day. Half the time we were here, there were campers there who stayed all day and over night with big fish lines across the entire beach. There may be other listings with better seclusion. \n\n\"This unit is spacious and bright.\"\n\n- Spacious? That's a stretch. But bright? You're absolutely spot on. If you enjoy sleeping in the dark, this place might NOT be for you. Waking up at 530am is ideal for the lighting of this condo, ever with the window shades (which many times had trouble coming down since they are on automatic motors). \n\nA POSITIVE NOTE:\nOne thing I cannot get over is the real Mahalo spirit of everyone staying and living at the Kana'i A Nalu resort. While my mother in law and 16 month old daughter got locked out on the last day, many guests there offered help, water, and to hang in their condos while we tried to wait patiently to get back in. The resort has an amazing location and even better spirit within its guests. \n"
+            },
+            {
+              "at": "2017-12-31T05:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb471",
+                "fullname": "Sue",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
+              },
+              "txt": "Beautiful condo. Fully renovated. Very responsive. Wonderfully stay"
+            },
+            {
+              "at": "2018-01-19T05:00:00.000Z",
+              "by": {
+                "_id": "622f3402e36c59e6164fad3b",
+                "fullname": "Ryan",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
+              },
+              "txt": "I thoroughly enjoyed my stay. It is just as pictured and so much more!  I couldn’t imagine staying anywhere else when visiting Maui. The location is convenient to get to many of the must-sees in Maui. The beds are amazingly comfortable. Kathy was great to work with. I highly recommend you consider staying here."
+            },
+            {
+              "at": "2018-07-28T04:00:00.000Z",
+              "by": {
+                "_id": "622f3405e36c59e6164fb8cb",
+                "fullname": "Rachel",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
+              },
+              "txt": "This unit was very cozy and had a great location.  It has been updated and was very nice in the accommodations!  The host was great to work with and the overall experience was a vacation of a life-time!"
+            },
+            {
+              "at": "2018-10-22T04:00:00.000Z",
+              "by": {
+                "_id": "622f3404e36c59e6164fb2f4",
+                "fullname": "Dirk",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
+              },
+              "txt": "The condo is set up very nice. The kitchen is equipped very well and has all amenities. Bedrooms and bathrooms have a good size for a vacation. It would be nice to have a full size dining table, but we've used the kitchen counter instead, which worked for us.\nNote that Maalaea is probably the most windy spot on the island and you'll have wind noises from the trees all day and night long. The condo complex features a nice courtyard with grass and a small pool and direct access to the beach and ocean."
+            },
+            {
+              "at": "2018-12-12T05:00:00.000Z",
+              "by": {
+                "_id": "622f3407e36c59e6164fbd15",
+                "fullname": "Jessica",
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
+              },
+              "txt": "Beautiful space in a nice quiet location to unwind and relax.  Our family had a very nice time unwinding and relaxing at Kathy's place.  Beds are very comfortable, the updated kitchen is beautiful and accommodating for preparing meals.  The condo and the building are well maintained and very clean.  The easy access to the beach is a plus.  In condo washer and dryer is also a plus for light packing.  Host was very responsive when there was an issue with the cable box.  You can't go wrong with booking Kathy's place."
+            }
+          ],
+          "likedByUsers": [],
+          "labels": [
+            "Iconic cities",
+            "Beachfront",
+            "Private rooms"
+          ],
+          "statReviews": {
+            "cleanliness": 4.4,
+            "communication": 4.6,
+            "checkIn": 4.3,
+            "accuracy": 4.6,
+            "location": 5,
+            "value": 4.6
+          }
+        },
       ]
     }
     this.utilService.saveToStorage(this.STAY_KEY, stays)
@@ -7594,10915 +9634,6 @@ export class StayService {
 }
 
 /*      [
-        {
-          "_id": "s101",
-          "name": "Westin Kaanapali KORVN 2BR",
-          "type": "National parks",
-          "imgUrls": [
-            "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436975/hx9ravtjop3uqv4giupt.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436294/mvhb3iazpiar6duvy9we.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436496/ihozxprafjzuhil9qhh4.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436952/aef9ajipinpjhkley1e3.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436948/vgfxpvmcpd2q40qxtuv3.jpg"
-            ],
-            "price": 595,
-            "summary": "Westin Kaanapali Ocean Resort Villas North timeshare - Pay resort: $14-20/day, stays under 7 night $38/res - Inquire about availability, I review then offer/approve if available :) - READ \"The Space\" for cleaning/etc AND brief explanation about timeshare reservations - Want guaranteed view for additional cost? Must be weekly rental, other restrictions - Wheelchair accessible / ADA, call resort directly to ensure U receive. If U need ADA U MUST inform us BEFORE booking.",
-            "capacity": 8,
-            "amenities": [
-              '32" HDTV with Disney+, standard cable',
-              "Wifi",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Pool",
-              "Kitchen",
-              "Free parking on premises",
-              "Doorman",
-              "Gym",
-              "Elevator",
-              "Hot tub",
-              "Heating",
-              "Family/kid friendly",
-              "Suitable for events",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Safety card",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Self check-in",
-              "Building staff",
-              "Private entrance",
-              "Room-darkening shades",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Ethernet connection",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Ground floor access",
-              "Wide hallway clearance",
-              "Step-free access",
-              "Wide doorway",
-              "Flat path to front door",
-              "Well-lit path to entrance",
-              "Disabled parking spot",
-              "Step-free access",
-              "Wide doorway",
-              "Wide clearance to bed",
-              "Step-free access",
-              "Wide doorway",
-              "Step-free access",
-              "Wide entryway",
-              "Waterfront",
-              "Beachfront"
-            ],
-            "bathrooms": 2,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Patty And Beckett",
-              "location": "Eureka, California, United States",
-              "about": "Adventurous couple loves to travel :)",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/542dba0c-eb1b-4ab3-85f3-94d3cc8f87a4.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "36133410"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "Maui",
-              "address": "Lahaina, HI, United States",
-              "lat": -156.6917,
-              "lan": 20.93792
-            },
-            "reviews": [
-              {
-                "at": "2016-06-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc004",
-                  "fullname": "Kiesha",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/73.jpg",
-                  "id": "10711825"
-                },
-                "txt": "I had a great experience working with Patty and Peter.  Both were very attentive in sorting out the booking details and following up directly when I had questions.  I rented a 2 bedroom unit at the Westin Villas  in Maui and both the unit and property was absolutely amazing.  I think we had the best unit on the resort complete with 2 outdoor patios with direct access  to  the  beach.  I would HIGHLY recommend renting with Patty and Peter."
-              },
-              {
-                "at": "2016-07-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb204",
-                  "fullname": "Chris",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
-                  "id": "70072865"
-                },
-                "txt": "Peter quickly responded to any questions I had before, and during the trip. Will use again, highly recommend. "
-              },
-              {
-                "at": "2016-09-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb703",
-                  "fullname": "Kim",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
-                  "id": "71179725"
-                },
-                "txt": "We had the perfect location for a room, first floor right in front of the pool. The resort is beautiful, and the staff is so friendly! I enjoyed it so much, we talked about buying a timeshare ourselves."
-              },
-              {
-                "at": "2017-01-07T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb37f",
-                  "fullname": "Tracy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "65593239"
-                },
-                "txt": "Beautiful location. Patty & Peter were super helpful and easy to work with!"
-              },
-              {
-                "at": "2017-04-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb105",
-                  "fullname": "Duyen",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg",
-                  "id": "26215688"
-                },
-                "txt": "Great spot for the kids and family and close to beach and everything at the resort. We will definitely be back."
-              },
-              {
-                "at": "2017-05-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fabbe",
-                  "fullname": "Binh",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
-                  "id": "117390236"
-                },
-                "txt": "The unit and the Westin offer variety of amenities you can possibly ask for. Sofa beds are very comfortable to sleep in. But there is charge for ocean view upgrade. Overall, I highly recommend to book with Patty and Peter. "
-              },
-              {
-                "at": "2018-02-24T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4af",
-                  "fullname": "Samy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "15143517"
-                },
-                "txt": "We spent a great week at Patty and Peter's place. The place was exactly as shown in the pictures, very comfortable, nice view, with all amenities. The resort is great with several pools, a long beach, many restaurants, and of course a lot of great activities all around."
-              },
-              {
-                "at": "2018-06-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb87b",
-                  "fullname": "Breanne",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
-                  "id": "78173091"
-                },
-                "txt": "This place was perfect for my family. We had plenty of room to spread out and the service could not have been any better"
-              },
-              {
-                "at": "2018-06-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb713",
-                  "fullname": "Kimberly",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
-                  "id": "100535039"
-                },
-                "txt": "We love Westin Kaanapalli"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Campers",
-              "New",
-              "OMG"
-            ],
-            "statReviews": {
-              "cleanliness": 4.7,
-              "communication": 4.3,
-              "checkIn": 4.4,
-              "accuracy": 4.9,
-              "location": 4.1,
-              "value": 4.4
-            }
-          },
-          {
-            "_id": "s102",
-            "name": "Belle chambre à côté Metro Papineau",
-            "type": "Campers",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437045/dmquvficldi8ssfdlrrx.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437033/rhw6gycttaimzocc1poz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437330/mmhkmfvg8o3freucyekc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436867/yocip4igdbruuh2grzpf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436993/yzxnnw83e9qyas022au4.jpg"
-            ],
-            "price": 30,
-            "summary": "Chambre dans un bel appartement moderne avec balcon, ascenseur et terrasse. Private room in a beautiful modern apartment  with balcony, elevator and patio. La chambre est fermée avec une lit double. Vous aurez accès à une salle de bain avec une douche, terrasse. L'appartement est climatisé.  Votre chambre est équipé d'une connexion Wi-Fi illimité. Vous serez proche du centre ville, au pied du pont Jacques Cartier et à distance de marche de toutes les commodités (métro, supermarché, pharmacie",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "Essentials",
-              "Iron",
-              "translation missing: en.hosting_amenity_50"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Angel",
-              "location": "Montreal, Québec, Canada",
-              "about": "",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/12be1141-74de-4f04-bf28-82c3ed589d11.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "80344827"
-            },
-            "loc": {
-              "country": "Canada",
-              "countryCode": "CA",
-              "city": "Montreal",
-              "address": "Montréal, QC, Canada",
-              "lat": -73.54985,
-              "lan": 45.52797
-            },
-            "reviews": [
-              {
-                "at": "2016-07-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc058",
-                  "fullname": "Rowan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "81703602"
-                },
-                "txt": "The place was great, as was the host! I would recommend staying here."
-              },
-              {
-                "at": "2016-07-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb274",
-                  "fullname": "Adriana",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
-                  "id": "64310987"
-                },
-                "txt": "J'ai adoré rester là. Très acceuillant."
-              },
-              {
-                "at": "2016-07-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb87c",
-                  "fullname": "Emma",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "23709900"
-                },
-                "txt": "Angel est un hôte très sympa et arrangeant ! L'appartement est agréable à vivre et propre. Proche du métro et du centre ville. Nous avons passé un très bon séjour !"
-              },
-              {
-                "at": "2016-08-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3408e36c59e6164fc082",
-                  "fullname": "Jeffery",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "44882622"
-                },
-                "txt": "Angel was warm and welcoming and has a beautiful apartment. I'd recommend his place to anyone visiting downtown Montreal!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Iconic cities",
-              "Countryside",
-              "Luxe"
-            ],
-            "statReviews": {
-              "cleanliness": 5,
-              "communication": 4.2,
-              "checkIn": 4.4,
-              "accuracy": 4.9,
-              "location": 4.5,
-              "value": 4.4
-            }
-          },
-          {
-            "_id": "s103",
-            "name": "M&M Space MM2  Apartamento no centro da cidade",
-            "type": "Campers",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436861/xrxhgsif3ekhxgn8irlm.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437017/gjyzgdjngyrhfrj2loxz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436556/mb70fifvvpvde8jub5cg.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437241/wt0seud4ot4cmdrztdzz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437308/p80ndulkcghpcfsnvjdo.jpg"
-            ],
-            "price": 65,
-            "summary": "O apartamento fica perto de arte e cultura e dos mais belos monumentos da cidade. Belos jardins e paisagens da cidade e do rio Douro ficam perto e podem ser apreciadas.  Existem restaurantes típicos e de comida internacional ao redor do apartamento.   O espaço fica numa rua típica da cidade, cheia da sua magia e magnetismo e é muito pratico e confortável. O espaço é excelente para quem pretende visitar e conhecer a zona histórica e turística do Porto. Transportes públicos ficam próximos.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Paid parking off premises",
-              "Free street parking",
-              "Buzzer/wireless intercom",
-              "Family/kid friendly",
-              "Washer",
-              "Smoke detector",
-              "First aid kit",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Private entrance",
-              "Crib",
-              "Room-darkening shades",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Patio or balcony",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Wide doorway",
-              "Well-lit path to entrance",
-              "Step-free access",
-              "Wide doorway",
-              "Accessible-height bed",
-              "Step-free access",
-              "Wide doorway",
-              "Accessible-height toilet",
-              "Step-free access",
-              "Wide entryway",
-              "Host greets you",
-              "Handheld shower head",
-              "Paid parking on premises",
-              "Fixed grab bars for shower"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Maria",
-              "location": "Porto, Porto District, Portugal",
-              "about": "Simples, muito comunicativa, mas de elevado sentido de responsabilidade, de organização e de confiança.\r\nGosto muito de contacto humano, sem o qual não me sinto estável. Adoro conhecer pessoas de culturas diferentes.\r\nFaço várias viagens, mas de curta duração, pois tenho necessidade de sentir o lar e a família. Por ser assim, tento fazer tudo para que os meus hospedes se sintam confortáveis como em suas casas.",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/c9b876fc-b30e-4951-8f88-af9add00939e.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "78704763"
-            },
-            "loc": {
-              "country": "Portugal",
-              "countryCode": "PT",
-              "city": "Porto",
-              "address": "Porto, Porto, Portugal",
-              "lat": -8.60154,
-              "lan": 41.14834
-            },
-            "reviews": [
-              {
-                "at": "2016-07-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb090",
-                  "fullname": "Lina & Alexis",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
-                  "id": "19177194"
-                },
-                "txt": "Mes parents ont passé un excellent séjour à Porto dans l'appartement de Maria qui est bien équipé, confortable et très propre. Il est situé au coeur du centre ville et tout est accessible à pied. Si vous venez en voiture, prévoir de se garer dans le parking souterrain payant juste à côté. Mes parents remercient chaudement Maria et son mari qui ont été adorables, notamment par leur accueil chaleureux."
-              },
-              {
-                "at": "2016-08-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4e7",
-                  "fullname": "Mario R.",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "81211152"
-                },
-                "txt": "El apartamento es perfecto para una  estancia, esta perfectamente dotado para cubrir las necesidades de un viaje de recreo, situado perfectamente para acceder a pie a las zonas más interesantes de Oporto. María una perfecta anfitriona que te facilitará una inolvidable estancia en Oporto. Ha sido una gran experiencia."
-              },
-              {
-                "at": "2016-08-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb110",
-                  "fullname": "Patricia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "16580426"
-                },
-                "txt": "Thierry, Patricia, Anaïs et Manon,\r\nMaria et son mari nous attendaient avec gentillesse et sourires, Maria a toujours répondu à mes mails et SMS en cours de voyage.   Ils nous ont aidé à monter les valises, Il y avait une bouteille d'eau au frais, très appréciable ainsi que des petits gâteaux et une bouteille de vin dans le frigo...L'appartement était très propre rien ne manquait, conforme à la description, bien situé, nous avons tout fait à pieds ...Très à l'écoute de nos demandes Maria et son mari sont charmants, nous nous sommes sentis en famille, nous reviendrons et je recommande fortement ce logement ...Nous avons pu apprécier notre séjour sans tracas.  "
-              },
-              {
-                "at": "2016-09-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab5b",
-                  "fullname": "Ingrid",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
-                  "id": "40501338"
-                },
-                "txt": "Thanks Maria for your warm welcome. The appartement was really clean. It has everything that we needed for our stay and is really well located. It was easy to park for free near the appartement. Thanks!"
-              },
-              {
-                "at": "2017-05-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb27c",
-                  "fullname": "Marie Odile",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "110925120"
-                },
-                "txt": "L appartement de Maria est tres bien situe, propre et surtout tres calme. Il ne manque rien . Maria nous a tres bien recus . Je recommande cet appartement."
-              },
-              {
-                "at": "2017-06-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd3c",
-                  "fullname": "Anne",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
-                  "id": "23040000"
-                },
-                "txt": "Maria is a great host and we loved this apartment! It was bright, clean, airy and well-equipped and Maria gave us a thorough introduction to how everything worked. The bed was comfortable (it is not made for tall people though) and nights were quiet as both living room and bedroom are facing the backyard, not the street. Only in the morning we could not sleep in as there was loud construction noise during the day. The metro station is only a few minutes walk away and the city center is at walking distance. We also got a sweet welcome with Portuguese wine."
-              },
-              {
-                "at": "2017-06-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd39",
-                  "fullname": "Armelle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
-                  "id": "113337848"
-                },
-                "txt": "Appartement très bien situé, tout le vieux porto se fait à pied. Très propre, indépendant et fonctionnel. Metro au pied en venant de l'aéroport, ligne directe 15 minutes environ.\nRestaurants et épiceries typiques au pied de l'immeuble. Climatisation et télé dans toutes les pièces, calme et quartier pittoresque. À recommander pour 3 ou 4. Accueil simple, gentil et efficace comme Maria la propriétaire.\n"
-              },
-              {
-                "at": "2017-08-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc52",
-                  "fullname": "Domingo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
-                  "id": "114367498"
-                },
-                "txt": "apartamento bien situado, agradable, bonito, muy limpio y con una anfitriona maravillosa dispuesta a resolver cualquier inconveniente que se pueda presentar. lo recomiendo sin lugar a dudas.\ngracias Mariapor su gentileza"
-              },
-              {
-                "at": "2017-08-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb3f",
-                  "fullname": "Estelle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
-                  "id": "123999116"
-                },
-                "txt": "Appartement très propre et très bien situé, bien agencé. Quartier très vivant mais appartement calme car ne donne pas sur la rue. Nous avons passé un très bon séjour chez Maria qui nous a très bien accueilli."
-              },
-              {
-                "at": "2017-09-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb06f",
-                  "fullname": "Alfredo Julio Leandro",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
-                  "id": "148979666"
-                },
-                "txt": "Apartamento agradable, muy limpio y muy bien equipado, en zona tranquila pero accesible para llegar a todos lados de a pie. Maria y Arturo nos recibieron con un rico vino del Douro y galletitas y muy buenas recomendaciones para pasear y comer."
-              },
-              {
-                "at": "2017-10-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb78f",
-                  "fullname": "Nataliia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "137603514"
-                },
-                "txt": "Нам очень понравилась квартира,светлая,уютная,на 3-м этаже,с большим балконом,в квартире есть все самое необходимое,стиральная машина,утюг,кровати очень удобные,красивое постельное белье,вся обстановка в квартире сделана с душой,все время прибывания чувствовали себя как дома.\nМария по приезду подарила нам бутылку вина из долины реки Дору,из красивых бокалов мы его с удовольствием выпили,спасибо за презент.\nВ этой маленькой уютной квартире -3 телевизора!!!!Смотреть было некогда,наслаждались красивым городом и окрестностями Порту."
-              },
-              {
-                "at": "2017-12-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad62",
-                  "fullname": "Liz",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
-                  "id": "144054479"
-                },
-                "txt": "Muy contentos con todo. El piso estaba bastante cerca del centro, Maria y su marido estaban incluso antes de la hora de nuestra llegada. El piso esta muy bien equipado: cafetera, botiquín, lavadora etc. Super super limpio todo y las camas muy comodas y acogedores. Y al ser un piso interior, no se oia nada de ruido. Recomendable!"
-              },
-              {
-                "at": "2018-01-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1c3",
-                  "fullname": "Ariadne",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
-                  "id": "151785573"
-                },
-                "txt": "Eu e minha amiga ficamos um mês no apartamento e foi uma otima experiencia!\nMuito bem localizado, perto de tudo! Não tivemos nenhuma dificuldade em encontrar o local, que fica a minutos da estação do metrô e é muito perto da região central.\nÓtima infraestrutura, limpeza e organização.\nFomos muito bem recebidas e bem auxiliadas pela Maria, que com certeza é uma ótima anfitriã!\nRecomendo muito a estadia, não poderia ter sido melhor!"
-              },
-              {
-                "at": "2018-02-27T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5f5",
-                  "fullname": "Bruno",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "169584809"
-                },
-                "txt": "Respostas sempre rápidas; excelente recepção ; sempre simpática e disponível."
-              },
-              {
-                "at": "2018-06-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad10",
-                  "fullname": "João",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "43281546"
-                },
-                "txt": "Clean, quiet and centrally located. Very welcoming host as well."
-              },
-              {
-                "at": "2018-07-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3408e36c59e6164fc075",
-                  "fullname": "Alcides",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/32.jpg",
-                  "id": "22956972"
-                },
-                "txt": "O Espaço de Maria é de extremo bom gosto. Tudo extremamente limpo, pratico e organizado nos mínimos detalhes.  Boa localização perto de tudo.  Sem falar na Simpatia e disponibilidade da Maria que com suas dicas tornou nossa estadia em Porto melhor do que esperávamos. Recomendadíssimo !"
-              },
-              {
-                "at": "2018-12-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbad8",
-                  "fullname": "Miguel Angel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
-                  "id": "3708225"
-                },
-                "txt": "Alojamiento coqueto y acogedor, muy limpio y bien ubicado, tiene 2 habitaciones y todo lo necesario para poder pasar unos días en Oporto, buena ubicación cerca de Sta Catarina. Nos ha gustado mucho la estancia, la atención de María inmejorable. Muchas gracias por su atención y amabilidad"
-              },
-              {
-                "at": "2018-12-29T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbede",
-                  "fullname": "Alessandro",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "38271990"
-                },
-                "txt": "buena ubicación, piso acogedor, reformado, excelente servicio y recomendaciones"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Ryokans",
-              "OMG",
-              "Private rooms"
-            ],
-            "statReviews": {
-              "cleanliness": 4.3,
-              "communication": 4.2,
-              "checkIn": 4.8,
-              "accuracy": 4.5,
-              "location": 4.6,
-              "value": 4.3
-            }
-          },
-          {
-            "_id": "s104",
-            "name": "Fresh and modern 1BR in Bed-Stuy",
-            "type": "National parks",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436912/xle8ueqxjeazbs4bp09p.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436481/tqwkxtbalipudzhivoag.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436855/khyvb5q3yzcqaoscuppz.jpg"
-            ],
-            "price": 79,
-            "summary": "A spacious, art-filled one-bedroom apartment near the express train (28 minutes to Times Square) and a Citibike station. Sample Bed-Stuy life at a nearby French restaurant,  a sunny Haitian cafe, a boutique grocery and more. We do NOT discriminate based on race, religion or sexual orientation.",
-            "capacity": 2,
-            "amenities": [
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Heating",
-              "Family/kid friendly",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "Self check-in",
-              "Lockbox"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Shaila & Alex",
-              "location": "New York, New York, United States",
-              "about": "I'm a journalist from Texas and my husband is an artist from the Ukraine by way of Kansas City. We recently welcomed our son into the world. (Don't worry, he sleeps all night.)  We love exploring New York, especially Brooklyn, from the Brooklyn Flea to tiny taco joints to the Botanic Gardens to performance art in Bushwick storefronts (really). We've both spent a lot of time in the South, so hospitality is second nature to us. ",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/6334250/profile_pic/1368287493/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "6334250"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "New York",
-              "address": "Brooklyn, NY, United States",
-              "lat": -73.92922,
-              "lan": 40.68683
-            },
-            "reviews": [
-              {
-                "at": "2013-05-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfd2",
-                  "fullname": "Nicolas",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
-                  "id": "4523027"
-                },
-                "txt": "Shaila's place is amazing! It's new, it's clean and it's big! And Shaila is very accommodating, we found everything we needed (cooking, coffee) and more. Given that we were the first guests she hosted through airbnb I can say that she did an amazing job! \r\n"
-              },
-              {
-                "at": "2013-06-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb048",
-                  "fullname": "Jeff",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "6443424"
-                },
-                "txt": "Great, quiet place to stay. It is great having Shaila just upstairs to answer any questions, and especially to give great tips on places to go. "
-              },
-              {
-                "at": "2013-06-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba55",
-                  "fullname": "Carla",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
-                  "id": "6121036"
-                },
-                "txt": "Shaila and Alex are wonderful hosts really, they helped us every time we needed with directions, the internet, the supermarket, the post office !!! (thank you guys !!!).The place and the neighbord are great, 8 blocks far from the apartment you have the subway and 30 min. later you are in the island, we moved early in the morning, late at night (sometimes we came back at 2am) and everything turned out great.Definetly I would come back to their apartment, It's bigger than ours in Argentina !!! I look forward to stay there again and, next time, go out with you guys and have a beer or anything.\r\nBye !!! - Guido and Carla - "
-              },
-              {
-                "at": "2013-06-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf76",
-                  "fullname": "Dan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "6460525"
-                },
-                "txt": "Shaila and Alex were incredibly accommodating and me and my girlfriend enjoyed our stay thoroughly. Highly recommended. The place was very private and homely. I didn't really know anything about New York and was nervous about staying in bed stuy but it was safe and friendly everywhere I went. Very easy to get to the airport and manhattan by train."
-              },
-              {
-                "at": "2013-06-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe9d",
-                  "fullname": "Ariane",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "6825718"
-                },
-                "txt": "Great place to stay in Brooklyn! Alex gave us a really useful list of nice restaurants and coffee places near the place (We are very happy to have discovered, the restaurant \"Saraghina\", thanks to Alex's map!).  The apartment is vast, furnished with taste and very convenient. We highly recommend!"
-              },
-              {
-                "at": "2013-07-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad91",
-                  "fullname": "Ilka",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
-                  "id": "5823882"
-                },
-                "txt": "I can recommend to everyone to come to this beautiful apartment, Shaila and Alex are great hosts and the neighbourhood is very friendly everywhere we go.\r\nIt really felt like home."
-              },
-              {
-                "at": "2013-07-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab81",
-                  "fullname": "Kristy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
-                  "id": "5729991"
-                },
-                "txt": "My sister and I loved staying here! The apartment is very spacious and recently renovated so it looks amazing. The kitchen has everything you need with Alex and Shalia stocking it with a few basics. The neighbourhood is a little shabby, especially compared to the home we stayed in. We were told by some people in Manhattan that the neighbour of Bed-Stuy used to be very dangerous and just to be careful walking around at night. Walking from the subway after dark was a little daunting but we remained safe. We did catch a cab a few times from Manhattan as it was very late. Overall, it was a positive experience with Alex and Shalia being very helpful, even going out of their way to let us store our luggage at Shalia's work the day we were to fly out. They were great hosts."
-              },
-              {
-                "at": "2013-07-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb785",
-                  "fullname": "Barbara",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "6063814"
-                },
-                "txt": "We just met Alex when we checked in, but anyhow he had been a very friendly and helpful host. He was reachable anytime and answered my mails prompt.\r\nThe apartment was great! It was really beautiful and big. It has a perfectly equipped kitchen and there are also a few basics for breakfast and cooking. The bed is very comfortable. It is not that soundproofed as we are accustomed to (the steps from upstairs waked me every day - my son slept well, he did not hear it), but I think that is normal for american houses. But apart from this it is very quiet.\r\nThe neighbourhood is great! It is very authentic, people are friendly and helpful if required, no problems even late at night. We loved staying there!\r\nIn any case: apartment, host and neighbourhood are high recommended! If we are in New York again, we certainly return to this place!"
-              },
-              {
-                "at": "2013-07-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb515",
-                  "fullname": "Gloria",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
-                  "id": "97251"
-                },
-                "txt": "Hello! \n\nWe just spent 5 days in the big apple and we drove in to this Brooklyn location.  The host where incredibly attentive and just wonderful, the apartment spotless, hip & modern and really comfortable. \n\nDo not be intimidated by the transitioning neighborhood as we encountered that many residents are very friendly and helpful (directions) and this particular street has a real interest in making a real change hence empowering their community.\n\nThe subway is a little ways (12 to 15 min.) walk. We would use our vehicle to drive to the subway station (there are two corresponding)  and park nearby to facilitate the to and from.  If you need quick access to the subway at all hours of the day and night this may not be the place for you.\n\nThe apt. is an excellent value  for the money (as per  many  manhattan locations offer around  the same nightly  $$ rate but have to share their apt ).\n\n\n\n"
-              },
-              {
-                "at": "2013-09-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb079",
-                  "fullname": "Javier",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
-                  "id": "7055720"
-                },
-                "txt": "We really had a wonderful time in NYC thanks to Alex’s house. It’s just as big, beautiful and clean as it seems in the pictures. Alex has an incredible apartment in the basement that makes you feel like home after being out all day knowing the big city. All the furniture and the kitchen appliances are new.\r\n\r\nThe location is perfect for visiting Brooklyn and Manhattan (only 15-20 to Brooklyn Bridge and South Manhattan or 25-30 min to Times Square in the underground).\r\n\r\nAlso, Alex gave us some good advices the first day for having all we needed in the neighbourhood. Don’t miss Saraghina’s brunch (10 minutes walking from the house)! He even let us to keep our luggage in the house until we left to the airport in the evening on our last day in the city."
-              },
-              {
-                "at": "2013-10-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fabc4",
-                  "fullname": "Ivan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "8866660"
-                },
-                "txt": "The appartment was really clean, pretty spacious and kitchen was very well equipped! Its totally in line with all the information posted. \r\n\r\nAlex was very nice host, even allowed us to keep the luggage  after check out as we had a flight in the evening. Thank you once again for that! \r\n\r\nThe neighboorhood itself was safe, we had no issues at all, however I`d prefer staying   in Brooklyn districts closer to Manhattan area next time as  we were travelling to Midtown up to 1h. Being a citizen of the huge city too (Moscow, Russia) , underground is not our favorite place to be  :) \r\n\r\nOverall , it was a great stay. \r\n\r\n\r\n\r\n"
-              },
-              {
-                "at": "2013-11-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fada2",
-                  "fullname": "India",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "228580"
-                },
-                "txt": "communication with Alex was spot on.  He happily answered any questions and made it easy for me to arrive late at night and went above and beyond to help me have a good stay. \r\nThe apartment has been tastefully refurbished.  Extremely clean, and with all you could need for cooking.  The bed is so comfy.  The apartment is peaceful at night and I slept so well.   Some noise travels from Alex' apartment upstairs but it is only a little during the day.\r\nThe area is a bit out of the main hub of Williamsburg and Bushwick but everything is easily accessible with a short walk or the subway about 8 mins walk away.\r\nAlex left me a list of great stores, cafes and restaurants in the immediate area.  \r\nSome people may be concerned about the area at face value as it is a white minority but I felt safe at all times.  People seemed friendly.\r\n\r\n"
-              },
-              {
-                "at": "2013-11-10T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fb9f9",
-                  "fullname": "Pamela",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "8145538"
-                },
-                "txt": "Was an amazing stay, we charm your apartment and were very friendly. Thank you for all your attentions."
-              },
-              {
-                "at": "2013-11-14T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae8c",
-                  "fullname": "Lindsay",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
-                  "id": "979464"
-                },
-                "txt": "Shaila and Alex are wonderful hosts - very accommodating, friendly, and easy to communicate with. We found it fairly easy to get around the city from Bed-Stuy, even with the weekend subway schedule. The apartment is lovely, bright, and very clean, and overall it was a pleasure to stay for a few nights. It's been recently renovated and thoughtfully decorated - we felt quite comfortable during our stay and appreciated the art and other nice touches throughout. I'd highly recommend staying with Shaila and Alex."
-              },
-              {
-                "at": "2013-12-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf31",
-                  "fullname": "Nadia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "1133198"
-                },
-                "txt": "Great apartment, really spacious & has a lovely homely feel to it. Alex & Shaila were very helpful & welcoming, bed was really comfortable, good transport links, only a 20 min subway ride into manhattan, the area is really nice & quiet, unlike manhattan.\r\n\r\nThanks Alex & Shaila for having us ! Enjoy the Gin !! "
-              },
-              {
-                "at": "2014-01-04T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdab",
-                  "fullname": "Barbara",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
-                  "id": "8310069"
-                },
-                "txt": "The apartment is spacious and well furnished, the kitchen very well equipped and the bed very confortable. Sheila and alex were friendly and the comunication with them was easy.the neighborhood is very nice with typical town house, and very quite. Also the people Who lives there was very kind and helped us on many occasion. \nDefinitely raccommend you to spend your holidays in NY in the lovely apartment of sheila&alex! "
-              },
-              {
-                "at": "2014-03-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2c1",
-                  "fullname": "Chris",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "9935301"
-                },
-                "txt": "We had a great time staying with Alex & Shaila. The apartment is just as depicted in the photos. Lots of space and very comfortable.  The house is located really close to buses and subway which was very convenient. The neighbourhood is fine with a couple of nice places to eat nearby.\r\n\r\nShaila and alex were really friendly and easy to communicate with if needed.  \r\n\r\nWe stayed for 2 months and would recommend it to others who are looking for a place in Brooklyn."
-              },
-              {
-                "at": "2014-03-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb8fc",
-                  "fullname": "Melody",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/73.jpg",
-                  "id": "11278447"
-                },
-                "txt": "Upon arriving, Alex was very helpful giving directions to the location. , he gave us a brief overview of everything, and let us settle in. It was a very cozy place to come back to after long days out exploring New York. The subways are very close. We preferred heading up to broadway to catch our trains (Depending where we were going) only because it was much more pleasant on sunny days to be above grounds if we could. It was great to have all amenities available, and at such a reasonable price.The only thing I will mention is that if you do plan on sleeping in- it might not happen as they do have a newborn who you can sometimes hear in the morning if you are a light sleeper.\r\nOverall,  I would recommend you stay at Alex & Shailas airbnb! It was a great and pleasant environment."
-              },
-              {
-                "at": "2014-04-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb41e",
-                  "fullname": "Carlos",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
-                  "id": "13281573"
-                },
-                "txt": "We felt very happy those days at the home of Alex and Shaila. It is a very warm and comfortable place, it was like being at home."
-              },
-              {
-                "at": "2014-04-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb087",
-                  "fullname": "Sergei",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/69.jpg",
-                  "id": "13487808"
-                },
-                "txt": "Great host. Very clean, nice place and friendly people. Thanks again!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Casas particulares",
-              "Boats",
-              "Skiing"
-            ],
-            "statReviews": {
-              "cleanliness": 4.7,
-              "communication": 4.3,
-              "checkIn": 4.4,
-              "accuracy": 4.9,
-              "location": 4.1,
-              "value": 4.4
-            }
-          },
-          {
-            "_id": "s105",
-            "name": "Habitación centro de Barcelona",
-            "type": "Shared homes",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436983/pivldxmrxssnhyzixhes.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436394/kscsvxyn0uro9tjhefeb.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436281/doubvhbpwjfx81yfzpxq.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436376/phpltehcr6uq9lh5jlax.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436571/fvqbazrysqpymjlhhdqu.jpg"
-            ],
-            "price": 40,
-            "summary": "Mi piso está en el centro de Barcelona. Cerca del metro, las ramblas, los museos, el Portal del Ángel, Plaza Cataluña. Mi alojamiento es bueno para turistas, aventureros, y viajeros de negocios....y tiene ascensor.",
-            "capacity": 2,
-            "amenities": [
-              "Wifi",
-              "Kitchen",
-              "Doorman",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Essentials",
-              "Hangers",
-              "Hair dryer",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Marián",
-              "location": "Barcelona, Catalonia, Spain",
-              "about": "",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/31635864/profile_pic/1429604852/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "31635864"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, Catalunya, Spain",
-              "lat": 2.16685,
-              "lan": 41.38371
-            },
-            "reviews": [
-              {
-                "at": "2016-07-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbebb",
-                  "fullname": "Rafaela",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "65117711"
-                },
-                "txt": "Host: Marian gave us a warm welcome and treated us kindly from the very beginning. She offered us help, told us what to visit and even put water, milk and orange juice in the fridge! We could have breakfast at her place which was perfect because she has a little sweet balcony! \r\nlocation: calmly situated in a side street, very near to the Placa Catalunya, the Rambla and the gothic area of Barcelona (very beautiful:)) so you have the old cultural center as well as all the restaurants and bars just nearby.\r\nHouse/Room: the appartment is not a huge, but I think you have everything you need (beautiful sitting room, balcony, kitchen) in it. You have to share the appartment with Marian so pay attention and don't be too loud in the evening!!\r\ndisadvantage: the heat is terrible in summer and there is no air-condition..\r\n\r\nI would overall recommend it to everybody!! But if you want to party and stay up late, take a hostel or another appartment."
-              },
-              {
-                "at": "2016-08-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf56",
-                  "fullname": "Pauline",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/69.jpg",
-                  "id": "50303773"
-                },
-                "txt": "Nous avons passé un bon séjour, l'appartement est très bien situé. La chambre est agréable et plus grande que sur la photo. Seul point négatif pas de volets dans la chambre. "
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Campers",
-              "Luxe",
-              "Casas particulares"
-            ],
-            "statReviews": {
-              "cleanliness": 4.4,
-              "communication": 4.4,
-              "checkIn": 4.9,
-              "accuracy": 4.1,
-              "location": 4.2,
-              "value": 5
-            }
-          },
-          {
-            "_id": "s107",
-            "name": "DOUBLE ROOM IN THE HEART OF BCN",
-            "type": "Amazing views",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436793/httqod38otalkzp9kynq.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436236/ctnbnqazpqhotjcauqwp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436937/mkbcjfockxezgrvimska.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436553/hbkx9lwxjd0wabqk0bmo.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436852/y3scgbn8d6evumdpwdp4.jpg"
-            ],
-            "price": 25,
-            "summary": "Lit room with balcony. The apartment is in the center, just meters from the Palau de la Musica Catalana. Well connected, a few minutes from Las Ramblas and the Born. Very close to the beach and Ciutadella Park",
-            "capacity": 2,
-            "amenities": [
-              "Wifi",
-              "Kitchen",
-              "Paid parking off premises",
-              "Smoking allowed",
-              "Heating",
-              "Washer",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Hot water",
-              "Bed linens",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Isabel",
-              "location": "Barcelona, Catalonia, Spain",
-              "about": "Mi nombre es Isabel, pero me llamo Isa. Nací en Vigo (Galicia). Con 20 años me fuí a vivir a Madrid con intención de ser actriz; ahora resido en Barcelona desde los 28. Soy una joven de 43 años, cantante de Jazz. Me gusta salir, pero también quedarme en casa a leer o ver alguna buena película.\r\nHe compartido piso muchos años, pero estas serán mis primeras experiencias como anfitriona.\r\n\r\n¡Sed bienvenidos!\r\n",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/72a579ce-37d7-466e-9c25-9876ee8de037.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "35858044"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, Catalonia, Spain",
-              "lat": 2.17561,
-              "lan": 41.38701
-            },
-            "reviews": [
-              {
-                "at": "2016-02-24T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb95e",
-                  "fullname": "Pierre",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "58999873"
-                },
-                "txt": "Una instancia muy céntrica en uno de estos edificios antiguos del Barri Gotic. No es poco haber conseguido estar en el centro de Barcelona en la misma semana del Mobile World Congress. Isabel es un encanto de anfitrión."
-              },
-              {
-                "at": "2016-03-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafa6",
-                  "fullname": "Isabelle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
-                  "id": "26247027"
-                },
-                "txt": "The host canceled this reservation 2 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2016-04-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbaf2",
-                  "fullname": "Hélène",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/70.jpg",
-                  "id": "46103953"
-                },
-                "txt": "Chambre très bien située et hôtesse très sympathique. Merci encore Isabel pour l'accueil !"
-              },
-              {
-                "at": "2016-04-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdc3",
-                  "fullname": "Daniel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
-                  "id": "25801559"
-                },
-                "txt": "Sheets weren't clean... Shower has very low water pressure. Room is only good for sleeping. It's in a good location but that's about it. Isabel could've provided more information about what's around the house during check in... Overall just decent enough to sleep"
-              },
-              {
-                "at": "2016-04-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fabad",
-                  "fullname": "Maria Isabel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg",
-                  "id": "60712702"
-                },
-                "txt": "Isabel est accueillante. L'appartement est charmant, correspond aux images. Très bien situé, à côté de Palau de la musica, dans un vieil immeuble plein de charme un peu désuet. Amateurs de confort et décor \"tendance\" s'abstenir. Chez Isabel on se trouve dans une authentique ambiance d'artiste. Merci beaucoup, je garderai le souvenir de cet accueil lié aux souvenirs de Barcelone."
-              },
-              {
-                "at": "2016-05-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb967",
-                  "fullname": "Aitana",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
-                  "id": "53206905"
-                },
-                "txt": "Es un piso con mucho encanto, muy tranquilo y en un lugar inmejorable. La anfitriona, Isabel, es amable y facilitadora. El piso es una construcción antigua, lo que le da un ambiente genial pero también hace que el agua de la ducha salga con poquísima presión y sea un poco incómodo a veces. A parte de esto, si tuviese que poner alguna queja sería la hora del chekout, ya que las diez de la mañana me parece un poco pronto. \r\nEn conjunto tuvimos una muy buena experiencia y repetiríamos sin duda."
-              },
-              {
-                "at": "2016-05-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb88",
-                  "fullname": "Valentina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
-                  "id": "69740054"
-                },
-                "txt": "Isabel was a wonderful host even if she was not there. She was in touch with me by mobile constantly. Thank you so much!\r\nThe house it's nice and was very clean and quite in the night.Perfect location. All you need for few days in Barcelona!"
-              },
-              {
-                "at": "2016-05-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb715",
-                  "fullname": "Jeremy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "53581405"
-                },
-                "txt": "Isabel's place was perfect. It was cozy, clean and quiet. She was a very gracious host and was always there to answer my questions about getting around Barcelona. "
-              },
-              {
-                "at": "2016-05-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0b2",
-                  "fullname": "Mei-Lin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "40994614"
-                },
-                "txt": "Great room with lots of sunlight in a charming apartment. Fantastic location."
-              },
-              {
-                "at": "2016-06-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1f7",
-                  "fullname": "Taneli",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "8010736"
-                },
-                "txt": "Isa was a kind and gracious host with a lovely appartment in a centric and vibrant area. We loved our stay and surely will visit again."
-              },
-              {
-                "at": "2016-06-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb623",
-                  "fullname": "Natasha",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
-                  "id": "25592253"
-                },
-                "txt": "SUPER cute place with lots of charm!! Perfect for my first trip to Barcelona:) Amazing location! Gracias Isabel for helping me find last minute accommodations! \r\n"
-              },
-              {
-                "at": "2016-06-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc013",
-                  "fullname": "Elizabeth",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "78467282"
-                },
-                "txt": "Isabel was a great host. She met me at the local bar where she worked and took me to her home a street away. The flight of stairs up to here place was a bit daunting but I can see why she lives up there.. It was beautiful! The room and whole place was clean, tidy and very welcoming. I saw Isabel twice, when I arrived and when I left, but it was perfect. \n\nThe facilities were great. The pressure in the shower was weak but it didn't bother me one bit. It is a bit noisy being in the heart of the city, but I can imagine it would be anywhere in this area. It was lovely to have a balcony, and the location was very convenient. Thanks.x"
-              },
-              {
-                "at": "2016-06-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0af",
-                  "fullname": "Monika",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
-                  "id": "11966400"
-                },
-                "txt": "Isabel was good host. location is perfect."
-              },
-              {
-                "at": "2016-07-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb23a",
-                  "fullname": "Margaux",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
-                  "id": "78589438"
-                },
-                "txt": "Super piso, super barrio! \r\nThe guest welcomed us well."
-              },
-              {
-                "at": "2016-07-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb21c",
-                  "fullname": "Elisabeth",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "4965921"
-                },
-                "txt": "It was really nice to stay at Isabels place. She is very uncomplicated and nice and the flat is super located for exploring bcn. For me it was perfect!:)"
-              },
-              {
-                "at": "2016-07-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd7f",
-                  "fullname": "Ingrid",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "6058273"
-                },
-                "txt": "IT was the perfect stay to Discover the city-a super location with sometimes noisy tourists (even we we're tourists but hopefully not so noisy) but that's part of the location i guess :-). We loved the colourful house and we Will Be go back for a next stay. thank you!"
-              },
-              {
-                "at": "2016-07-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1ac",
-                  "fullname": "Liliane",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "27060110"
-                },
-                "txt": "Isa is a very lovely, sensitive, artistic and gorgeous person. She is respectful of one's privacy but always ready to give support when asked upon. Be it in spoken or written form I always got my answers from her within no times. She also proofed to be very flexible in terms of arrival and departure times which I appreciated a great deal. If you are a fan of jazz music (like I am), make sure to double check ahead of time about her current concert dates so as not to miss your hostess on stage like I did (grumble ;-)).\n\nThe room I occupied was the smaller one of two that Isabel rents out. So if her flat is fully rented out there can be a maximum of 4 guests plus your hostess in the flat, which can cause some bathroom jam, especially during the hot and humid summer times, when the need for a cool shower is inherent to everyone's desire. \nMy room was as depicted. If you plan on using it for double occupancy, I recommend taking Isa's larger room (unless the two of you are very much in love and want to cuddle up close ;-)). Also, if you need a table for writing, ask for the larger room as well, which comes along with one.\nThe flat itself is absolutely enchanting and furnished with love and an artistic eye to details. It's location is a dream for touristic explorations with anything within walking distance. \nTherefore, I can easily recommend both Isabel and her flat to anyone wishing to immerge himself into the local customs and get a good doze of what it is like \"to live like a true Barcelonian\".  \n\nQuerida Isa, muchas gracias por tu hospedalid génial! Volveré a ciencia cierta!\nSaludos y besos\nLiliana"
-              },
-              {
-                "at": "2016-08-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb8e1",
-                  "fullname": "Murat",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
-                  "id": "35246459"
-                },
-                "txt": "The apartment is very centrally located, in the heart of the gothic part of the city and a couple of blocks from the Placa de Catalunya which makes transportation and sightseeing very easy. It's a 20 minute walk from the beach which is a plus. It's located in a very old building on the top floor, so it is rather stuffy and warm in the apartment. The room overlooks a very narrow street/alley so it's rather dark and it's easy to hear the noise coming from the street and the neighboring apartments. There are a few other rooms in the house that are being rented out, so other people will be staying in the house which makes it a necessity to lock the room when you leave the apartment. \n\nIt's important to note that this place has a very strict check out time. On our last day, we had an evening flight but had to check out in the morning. When we asked if we could check out late, Isa told us to take our stuff to the train station and use the lockers there, but the train station does not have lockers. We ended up renting a locker  at a place called \"Barcelona lockers\". That, I would say changed all the plans for the last day. \n\n"
-              },
-              {
-                "at": "2016-08-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbcb4",
-                  "fullname": "Mina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "121053"
-                },
-                "txt": "I was happy to experience Isabels home as described here. It was spacious, bright and original, with lovely colours and beautiful artwork surrounding me in every room. Isabel is a creative, sensitive and respectful person, with an open mind- yet she has the necessary boundaries that are required to organize an environment where so many different people are going to stay and hopefully enjoy. \nThe street itself is very lively, but the noises didn't bother me at all as i could easily block them out with earplugs. The location could not have been more sentral, still it's on \"the right side\" of the Rambla, where you can find more independent shops, restaurants, cafes and bars compared to the same leveled streets towards Raval. It is an old and very charming building, so if you want an minimalistic experience with cold, stainless steel and elevators this is not the place for you! And perhaps you are not the right person for this place either ;) I had to leave earlier due to illness, and was so sorry i couldn't stay throughout the whole month as planned. Hope to be seeing Isabel and her welcoming surroundings again one day "
-              },
-              {
-                "at": "2016-09-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb85f",
-                  "fullname": "Jessy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
-                  "id": "2935800"
-                },
-                "txt": "Isabel was an amazing host. She is incredible and super considerate. The apartment was by no means the best location in Barcelona, I walked everywhere and never needed a map or a taxi. Arriving late at night was always fine and there was never any disturbing street noise. The block is super cute with awesome little shops that are open during the day. Best neighborhood to be in and incredible city ! Muchísima gracias Isabel, estas invitada a visitar Los Ángeles, todo fue increíble !❤️"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Skiing",
-              "Top of the world",
-              "Golfing"
-            ],
-            "statReviews": {
-              "cleanliness": 4.1,
-              "communication": 4.5,
-              "checkIn": 5,
-              "accuracy": 4.9,
-              "location": 4.9,
-              "value": 4.3
-            }
-          },
-          {
-            "_id": "s108",
-            "name": "Home, Sweet, Harlem. Welcome!",
-            "type": "Beach",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436390/om97cgufeacwlric2r5w.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436827/znh7gqzbwb4wm6bdziy7.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436334/nqgdwv3ljfkrbvynoetv.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436376/phpltehcr6uq9lh5jlax.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436937/mkbcjfockxezgrvimska.jpg"
-            ],
-            "price": 110,
-            "summary": "Welcome! Upgrades Added as of January 2018 This listing is located in the Spanish Harlem Section of Manhattan. I offer a cozy apartment that has great transportation in and out the city! The area has a lot of ethnic restaurants and a lot of local, active residents. This residence is great for a quick, inexpensive stay in New York whether its for business, travel, or personal purposes. I am glad to welcome all guests!",
-            "capacity": 3,
-            "amenities": [
-              "TV",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Free street parking",
-              "Heating",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "Hangers",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Private living room",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Refrigerator",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Kevin",
-              "location": "New York, New York, United States",
-              "about": "Welcome Everyone! Thank you for stopping by. \r\n\r\nI was born and raised in Manhattan and I am here to help  share the New York City Experience with others through Airbnb!  I am easy to connect with and very reachable and always willing to interact with people. \r\n\r\nI am big on cleanliness and hospitality. I strive on making Guests feel as comfortable as possible. \r\n\r\nI hope you would like to get a chance to visit my location and enjoy the hosting I provide. If you have any questions/ comments, feel free to contact me. \r\n",
-              "responseTime": "within a few hours",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/61b62b90-e38b-4609-a3c4-ff5ff06b5c08.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "24800102"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "New York",
-              "address": "New York, NY, United States",
-              "lat": -73.93955,
-              "lan": 40.79733
-            },
-            "reviews": [
-              {
-                "at": "2016-03-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb8b4",
-                  "fullname": "Christine",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg",
-                  "id": "47877926"
-                },
-                "txt": "Kevin was very welcoming and thorough with all information. The description of the property was accurate. It's also near the MTA if you want to get to another part of the city. Kevin got in touch before I arrived, and his brother was there to meet me and show me where everything was, which was great. Last but not least, he had provided a great information on the local area with recommendations for places to eat, etc., which I found really useful.\r\n"
-              },
-              {
-                "at": "2016-04-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdb9",
-                  "fullname": "Hector",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "36832696"
-                },
-                "txt": "Kevin was nice. And he was very responsive via text, which I appreciate. The listing is in East Harlem, which isn't for everyone. The area is not very posh, but, for me, it feels like home, so I tend to stay there whenever I go to New York. The listing description was accurate enough, with respect to the way the apartment looks. If you can't deal with noise at night, however, this might not be the place for you. The neighbors were surprisingly noisy in the wee hours of the night and virtually silent during the day. This apartment is close to the subway, which was very useful."
-              },
-              {
-                "at": "2016-04-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdca",
-                  "fullname": "Jaime",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "37244180"
-                },
-                "txt": "Kevin was very helpful and communicative during the whole time. The apartment is very nice, and within walking distance to the subway. Would definitely stay there again."
-              },
-              {
-                "at": "2016-04-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae69",
-                  "fullname": "Anan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "30380132"
-                },
-                "txt": "I had a wonderful stay at Kevin's apartment. The apartment is very close to the six train line. Everything in the apartment was spotless clean. I definitely recommend this apartment to others. Thank you Kevin for hosting me!"
-              },
-              {
-                "at": "2016-05-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf23",
-                  "fullname": "Yamilis",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
-                  "id": "5684819"
-                },
-                "txt": "Kevin fue excelente anfitrión. Se mantuvo en contacto con nosotros y fue muy comprensivo aún cuando llegamos más tarde de la hora acordada para el check in porque nos perdimos en el subway. También fue muy comprensivo para acordar el check out de acuerdo a la hora que fue más conveniente para nosotros, aún cuando también se nos hizo tarde. Nos proveyó de un matress de aire para nuestra amiga que vino de M.A. y se quedó una noche con nosotros. El barrio nos pareció bien, no tuvimos ningún incidente. Muchos puertoriqueños y Dominicanos, así que nos sentimos como en casa. Todo fue muy cómodo y limpio. Los vecinos hicieron mucho ruido en las noches, pero no fue problema para nosotros. Una sugerencia sería poner un espejo de cuerpo completo en alguna parte del apartento. En resumen, el apartamento fue perfecto para nosotros, nos volveríamos a quedar y claro que lo recomendaría! Muchas Gracias Kevin por tu ayuda!"
-              },
-              {
-                "at": "2016-05-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb6a4",
-                  "fullname": "Leonam",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "44604680"
-                },
-                "txt": "Kevin was really thoughtful about everything. He gave me all information needed while staying on his house. The house was very clean."
-              },
-              {
-                "at": "2016-05-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc063",
-                  "fullname": "Amy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
-                  "id": "4923470"
-                },
-                "txt": "Kevin is a really nice host, flexible and very responsive. The apartment is a 4th-floor walk up, well-maintained and exactly as advertised in the listing. The apartment has all the basic things--it's especially nice to have a kitchen and comfy sofa. There's no TV and wifi, but you probably don't need it anyway since you are here to see New York city! It is just a short 5-min walk from the subway station, so very convenient. Street noise is not a problem although you can hear the neighbors at times (the kids next door can be noisy). East Harlem is a bustling Latino neighborhood with many local eateries and shops. The food selection is supposed to be great (too bad we didn't get to try any). There is a grocery store right outside the building. There're always locals hanging out in front but we were never bothered. All and all, a good choice if you are looking to stay in this part of the city."
-              },
-              {
-                "at": "2016-05-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab7d",
-                  "fullname": "Vlad",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/73.jpg",
-                  "id": "61270769"
-                },
-                "txt": "Kevin was an excellent host. Everything was absolutely as described. The apartment is lovely and very clean. There are numerous windows in every room and there is plenty of light! Would definitely stay again!"
-              },
-              {
-                "at": "2016-05-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe7b",
-                  "fullname": "Derick",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg",
-                  "id": "63351088"
-                },
-                "txt": "Great experience, we enjoyed ourselves for the night we stayed, only issue really were the neighbors being loud all night made it hard to sleep."
-              },
-              {
-                "at": "2016-05-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbefb",
-                  "fullname": "Derek",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
-                  "id": "794527"
-                },
-                "txt": "Kevin's place is exactly as other reviewers describe it:  nice and clean, spacious and very convenient as a base to explore and enjoy NYC. \r\n\r\nThe Neighborhood is definitely classic East Harlem.  Very real NYC vibe. Not a tourist area.  \r\n\r\nThe neighbors are noisy sometimes, so if you are a light sleeper, that could be a problem. But I didn't have any trouble. \r\n\r\nIt would have been nice to have wireless, but I didn't come to NYC to play online, so I didn't mind that too much.  \r\n\r\nKevin was a very nice, responsive host! "
-              },
-              {
-                "at": "2016-05-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb484",
-                  "fullname": "Shiann",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg",
-                  "id": "26290842"
-                },
-                "txt": "Kevin made my friend and I feel really welcomed. The apartment was very clean!"
-              },
-              {
-                "at": "2016-05-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb208",
-                  "fullname": "Stephanie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
-                  "id": "73751485"
-                },
-                "txt": "Me and my husband stayed in the apartment this was our first time using this site and Kevin made us feel like we are regulars. We stayed one night and it was wonderful. Kevin contacted us right away and was really good with getting us whatever we need to stay there. The area is the only bad thing but when we went in the apartment you really forget about the outside."
-              },
-              {
-                "at": "2016-05-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb52c",
-                  "fullname": "Virginie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "8842288"
-                },
-                "txt": "Kevin is easy to get in touch with and waited for us to arrive Even if it was already late in the evening. He even asked if everything was fine during our stay.\nThe appartment is perfectly situated to visit Manhattan island. Just note the neighbours are noisy if it is important to you."
-              },
-              {
-                "at": "2016-06-06T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb803",
-                  "fullname": "Ada",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg",
-                  "id": "65358522"
-                },
-                "txt": "Kevin was absolutely wonderful. He was very responsive and communicative and I could tell he takes great pride in being an exceptional host. His place was exactly as described, as shown in the pictures and also very clean. The neighborhood is great and the room is a great price for someone looking to stay in the city and explore. It's right next to the trains, neighborhood gems but also commonly known stores for anyone who isn't familiar with the area. "
-              },
-              {
-                "at": "2016-06-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc21",
-                  "fullname": "Fernando",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "75294316"
-                },
-                "txt": "everything was correct , very good condition to this price"
-              },
-              {
-                "at": "2016-06-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdfe",
-                  "fullname": "Francesca",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
-                  "id": "56355386"
-                },
-                "txt": "This is my first time using Airbnb. Kevin responded quickly to my inquiry about booking his apartment. Once booked he was very easy to reach via phone or text if I needed to. His one bedroom apartment was very clean and nicely furnished. It is central to a lot of restaurants and neighborhood shopping should you need something and a couple blocks from the subway and buses. Kevin was a great host. He was there to greet me, show me around the apartment and tell me a bit about the area. He also has maps and booklets about what to visit while in New York City. There is wifi in the apartment which is great. Kevin checked in with me just to make sure everything was ok during my trip. I had a wonderful stay at his apartment and would book it again! "
-              },
-              {
-                "at": "2016-06-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4de",
-                  "fullname": "Alex",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
-                  "id": "45975680"
-                },
-                "txt": "Kevin was a phenomenal host, he was very accommodating about arrival and check out times and provided me with a ton of useful information to navigate the area and make my stay as pleasant as possible. The apartment is two blocks from the subway and easy to navigate from. I would definitely recommend staying at Kevin's for all those considering a trip to New York."
-              },
-              {
-                "at": "2016-06-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd08",
-                  "fullname": "Johanna",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
-                  "id": "75777207"
-                },
-                "txt": "The apartment is as described. Kevin is very pleasant and was kind to helped me bring my belongings to the apartment. The apartment is cozy in a great location. I will definitely be using this apartment again"
-              },
-              {
-                "at": "2016-07-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb7a6",
-                  "fullname": "Bandele",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "5357325"
-                },
-                "txt": "Kevin's a great guy, but if you're looking for a hotel-like experience, this is NOT it... This however, IS a genuine NYC experience. Noisy & inconsiderate neighbors, dirty streets, dangerous vibes... All in all your safe, and anyone you actually talk to will be cool... Kevin was also very considerate and did everything he could to add comfort to my stay, he even warned me of the noisy neighbors in advance... This place is good for people who already know NYC, and need an affordable, SHORT-TERM (like 1-2days), place to crash uptown..."
-              },
-              {
-                "at": "2016-07-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb80a",
-                  "fullname": "Bryan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg",
-                  "id": "73430217"
-                },
-                "txt": "This place was cozy, comfortable and very clean. The AC was very helpful during the heat waves. Good shower and great WiFi connection as well."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Amazing views",
-              "Casas particulares",
-              "Tropical"
-            ],
-            "statReviews": {
-              "cleanliness": 4.9,
-              "communication": 4.6,
-              "checkIn": 4.4,
-              "accuracy": 4.3,
-              "location": 4.2,
-              "value": 4.4
-            }
-          },
-          {
-            "_id": "s109",
-            "name": "Heroísmo IV",
-            "type": "Castles",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436823/af6elioxovkhvp6cg1un.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437327/epcnh2tzpafwmvi3srcp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437310/tus71yfpnvgulenrli6a.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436453/ndl8odasqgnyquvsbalp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436821/b4ejulqdhsvyseyfnfr0.jpg"
-            ],
-            "price": 29,
-            "summary": "If the dates you wish are not available, we have other options in the same location. You can find them on my profile. My goal is for you to have your days with the most comfort i can propose. I want you to taste all the feelings in Porto, as our food, as our best places, our best pointviews. I just love to help you enjoying this beautiful city :)",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Kitchen",
-              "Free street parking",
-              "Heating",
-              "First aid kit",
-              "Safety card",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Room-darkening shades",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Microwave",
-              "Refrigerator",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Stove",
-              "Single level home",
-              "Long term stays allowed",
-              "Host greets you",
-              "Handheld shower head"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 0,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Apartments2Enjoy",
-              "location": "Porto, Porto District, Portugal",
-              "about": "Welcome!\r\nThe apartments has all the things to provide you a perfect days in Porto. It is located in a very central area, inside a typical oporto building. \r\nI will give you lots of informations about Porto, my personal tips, and I'll always be available to help you with anything. All I want is for you to go home knowing Porto and inevitably loving the city! :)\r\n\r\n",
-              "responseTime": "within a day",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/f3e85f0c-e28d-4698-9da9-2f203aea1f3d.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "9320470"
-            },
-            "loc": {
-              "country": "Portugal",
-              "countryCode": "PT",
-              "city": "Porto",
-              "address": "Porto, Porto, Portugal",
-              "lat": -8.59275,
-              "lan": 41.1462
-            },
-            "reviews": [
-              {
-                "at": "2016-02-06T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb449",
-                  "fullname": "Tejovra",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
-                  "id": "41111599"
-                },
-                "txt": "Nuno and Francisca were extremely kind and helpful people. They made us feel very welcome and the house is surprisingly spacious. The wifi connection did struggle in our room but maybe we just had bad luck. They were even kind enough to extend our stay last minute. The service was top quality and the shower was amazing. Highly recommend staying here."
-              },
-              {
-                "at": "2016-02-21T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafcc",
-                  "fullname": "Sara",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "52749020"
-                },
-                "txt": "Muito simpáticos e atenciosos. O apartamento é muito confortável e com pequenos detalhes que fazem a diferença. Muito perto do metro, o que é óptimo para deslocações necessárias."
-              },
-              {
-                "at": "2016-03-06T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf68",
-                  "fullname": "Jennifer",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/59.jpg",
-                  "id": "55700681"
-                },
-                "txt": "Bonjour, Notre séjour a été très agréable. Nous avons été très bien accueillies. Nuno nous a donné de nombreux conseils, lieux de visites... Le logement était également très bien. Nous avons vraiment pu profiter de Porto. Le métro est tout proche du logement. C'était vraiment un très bon séjour. Merci encore. "
-              },
-              {
-                "at": "2016-03-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5b1",
-                  "fullname": "Irune",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "13478831"
-                },
-                "txt": "Our stay at Heroísmo IV was the perfect Airbnb experience. When we got there, Francisca was waiting for us. She was extremely nice and accommodating, she showed us the apartment and gave us a map of the city and plenty of tips about what to visit, where to eat, etc. The apartment is really small but has absolutely everything you need. It's clean, new, has a really nice kitchen, a very comfortable bed and is near the city center (we walked everyday). I highly recommend staying at Nuno's place. ¡Gracias por todo, Francisca! Porto is a beautiful city, we hope to come back soon!"
-              },
-              {
-                "at": "2016-04-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0c1",
-                  "fullname": "Marlene",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg",
-                  "id": "61125497"
-                },
-                "txt": "A nice litte appartement. We arrived very late but were kindly greeted by the host. She showed us arround and gave us very useful tips (where to go/ where to eat/ etc.). The appartement is located directly to a metro station and has a Lidl and other grocery stores very near by.  It was a perfect stay!"
-              },
-              {
-                "at": "2016-05-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae67",
-                  "fullname": "Елизавета",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "20996941"
-                },
-                "txt": "Квартира не большая и очень уютная. В ней есть все необходимое. Отличное расположение рядом с метро. Я получила много полезной информации при заселении. Во время сильного дождя в ней сыро, но это не испортило отдых."
-              },
-              {
-                "at": "2016-08-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb3e7",
-                  "fullname": "Teresa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "5868654"
-                },
-                "txt": "Desde o primeiro contacto, a comunicação foi muito fácil e clara. Colocaram à nossa disposição uma série de hipóteses de transporte a partir do aeroporto, bem como a possibilidade de termos em casa cabazes de alimentos. Assim que chegamos, com toda a sua simpatia, tinhamos a Mariana à nossa espera, recebeu-nos explicando os vários  pontos importantes para quem chega: locais a visitar, restaurantes, transportes...\r\nGostámos muito do espaço, do Porto, fazemos questão de voltar em breve. Local excelente!"
-              },
-              {
-                "at": "2016-08-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf5b",
-                  "fullname": "Joyce",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "39810791"
-                },
-                "txt": "Francisca was very friendly and was waiting for us, she took the time to explain us everything about the flat, she even let us good adresses of restaurants, coffees and places to visit in Porto.\r\nThe flat is 10 minutes by foot from the center, with no stairs to climb, good for our heavy luggages! It is very calm and we even had a table outside where we took our breakfasts. The flat is tiny but very functional, clean, and well equipped.\r\nIt is perfect for a short time in Porto."
-              },
-              {
-                "at": "2016-08-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbaad",
-                  "fullname": "Jess",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "35186577"
-                },
-                "txt": "The apartment is great value for money and the location is fantastic. We arrived before the check in time but were greeted promptly and could leave our luggage to explore the city straight away. Francisca gave us a lot of good advice and recommendations for the city, which was very helpful. "
-              },
-              {
-                "at": "2016-09-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faeed",
-                  "fullname": "Jennifer",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
-                  "id": "34970659"
-                },
-                "txt": "Thank you for hosting us Nuno. Our trip was perfect. The host was very kind. And the apartment is beautiful, near the center and is well think : it has everything for a few days."
-              },
-              {
-                "at": "2016-12-11T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab65",
-                  "fullname": "Joana",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "60496781"
-                },
-                "txt": "Estúdio muito simpático e limpo. Ideal para uma ou duas pessoas, para explorar o Porto durante um par de dias. Estação de metro à porta. Perto da zona histórica do Porto — faz-se bem a pé. Pastelaria ideal para pequeno almoço mesmo à porta."
-              },
-              {
-                "at": "2017-01-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb749",
-                  "fullname": "Nicolas",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg",
-                  "id": "106998486"
-                },
-                "txt": "L'emplacement est parfait, dans un quartier calme et à proximité immédiate du métro et du centre-ville. Seul bémol: l'absence d'eau chaude à la douche (un seul ballon d'eau chaude disponible pour plusieurs appartements), franchement regrettable en plein coeur de l'hiver. Ce qui du coup entraîne un rapport qualité-prix un peu cher"
-              },
-              {
-                "at": "2017-03-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb10c",
-                  "fullname": "Marina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "115887917"
-                },
-                "txt": "El apartamento esta genial, es pequeño pero tiene todo lo necesario, cama super grande y cómoda, el apartamento está en general como nuevo y se ve exactamente como las fotos, estaba todo suuuuper limpio y tienen un radiador que calienta el habitáculo en muy poco tiempo. Nos recibió Rita, y de maravilla, nos dio un montón de información sobre Porto en un momento y nos dejó un montón de mapas e info útil. la zona es tranquila y tiene un montos de aparcamiento seguro en la misma calle. Aun que no está en el mismo centro de la ciudad se llega a el en un paseo de poco más de 10 mins, además en la misma puerta hay una parada de metro. Ha sido una experiencia genial quedarnos aquí para visitar la ciudad. Muchas gracias por la amabilidad, si volvemos a la ciudad no dudaríamos en volver a quedarnos aquí."
-              },
-              {
-                "at": "2017-04-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad5b",
-                  "fullname": "Diogo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "122269906"
-                },
-                "txt": "Gostamos muito do espaco, pequeno mas muito agradavel. Excelente para passar apenas uns dias. Obrigada ao Nuno que esperou por nos ate tarde e que ainda tirou um tempinho para nos explicar e dar umas dicas sobre a cidade! Aconselho!"
-              },
-              {
-                "at": "2017-06-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb79e",
-                  "fullname": "Anastasia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "9456078"
-                },
-                "txt": "Небольшая, но очень уютная квартирка со всем необходимым! Завтракать на свежем воздухе очень приятно, в кухне можно приготовить все, что захочешь! Очень гостеприимная хозяйка, рассказала много интересного о местах поблизости и в городе!"
-              },
-              {
-                "at": "2017-06-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab70",
-                  "fullname": "Raphael",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
-                  "id": "32418543"
-                },
-                "txt": "Excelente Studio, muito bem localizado e com todas as comodidades necessárias para uma pequena estadia."
-              },
-              {
-                "at": "2017-06-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc99",
-                  "fullname": "Judith",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
-                  "id": "47537690"
-                },
-                "txt": "The flat is situated right next to a metro station. Also perfect, if you arrive by car - free parking just in front. 15 mins walk to downtown but lot of cheap cafes and restaurants full of locals around.\nThe check-in was perfect. We got lots of information, what to do/see/where to eat. Thanks for that. \nThe Apartement is very small but for a short city visit, big enough. If you stay for a week or so, I would recommend a larger Apartement.  "
-              },
-              {
-                "at": "2017-07-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb694",
-                  "fullname": "Marta",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
-                  "id": "20010340"
-                },
-                "txt": "Fantástica estancia en Oporto. Apartamento pequeño pero suficiente para pasar unos días en  Oporto una pareja. Situado un poco a las afueras pero muy buena comunicación  con el centro (parada de metro y autobús enfrente del apartamento).\nAtención inmejorable del anfitrión, respondiendo muy rápido a nuestras consultas y gestionando nuestra llegada. El único fallo es que la lavadora no se podía utilizar. Muy recomendable para pasar unos días en Oporto relación calidad-precio.\n"
-              },
-              {
-                "at": "2017-07-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fadc4",
-                  "fullname": "Aron",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg",
-                  "id": "31601157"
-                },
-                "txt": "We had a very nice welcome where we received tips about the neighbourhood. Those we tried turned out excellent. It's a 15 to 20 minute walk to the centre, the room is small but it has everything you need and is well maintained. Very close to the subway, a small outdoor area where you can sit. \nTip: sandwiches (pork with cheese) from casa guedes"
-              },
-              {
-                "at": "2017-11-15T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba79",
-                  "fullname": "Márcio",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "50134628"
-                },
-                "txt": "Excelente relação preço qualidade, muito boa comodidade e excelentes acessos. Muitas opções para as refeições por perto e metro à porta. Recomendo."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "New",
-              "Adapted",
-              "Play"
-            ],
-            "statReviews": {
-              "cleanliness": 4.8,
-              "communication": 4.8,
-              "checkIn": 4.7,
-              "accuracy": 4.2,
-              "location": 4.2,
-              "value": 4.6
-            }
-          },
-          {
-            "_id": "s110",
-            "name": "Monte dos Burgos - Cosy Room",
-            "type": "Campers",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436993/yzxnnw83e9qyas022au4.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436329/cvylwkta0uannbxm3zns.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437168/vbmfmdmwrxt7xfwbsw7c.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436821/b4ejulqdhsvyseyfnfr0.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436553/hbkx9lwxjd0wabqk0bmo.jpg"
-            ],
-            "price": 26,
-            "summary": "The neighbourhood is a quiet, family residential area, 20 minutes by bus from the historic center of Porto and 20 minutes from the beach (Matosinhos - where you may eat very GOOD fish!). You will love to stay in a very spacious, familiar and bright room, where you can enjoy a large and flowery garden, comfortable kitchen and laundry with washer and dryer machine. My space is good for couples, solo adventures, and business travelers!",
-            "capacity": 2,
-            "amenities": [
-              "Wifi",
-              "Kitchen",
-              "Free parking on premises",
-              "Pets live on this property",
-              "Cat(s)",
-              "Washer",
-              "Dryer",
-              "First aid kit",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Patrícia Sousa Casimiro",
-              "location": "Senhora da Hora, Porto, Portugal",
-              "about": "",
-              "responseTime": "a few days or more",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/87b9ccba-154a-4546-8cbe-8bdb25ddb36c.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "80558077"
-            },
-            "loc": {
-              "country": "Portugal",
-              "countryCode": "PT",
-              "city": "Porto",
-              "address": "Porto, Porto District, Portugal",
-              "lat": -8.63082,
-              "lan": 41.18075
-            },
-            "reviews": [
-              {
-                "at": "2016-08-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad68",
-                  "fullname": "Celeste",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/68.jpg",
-                  "id": "38181630"
-                },
-                "txt": "We had a very nice stay in the house and felt at home. The room is big and light, we had a private bathroom, could use the kitchen and the nice garden. Patricia picked us up at the station of the metro, the bus is near. Patricia and Chris are very open and welcoming people, we talked about Portugal, Fado, Porto ... Also, they gave us several tips to see in Porto. When we are in Porto again we will come back!! We really recommand to stay here. Thanks Patricia and Casimiro!"
-              },
-              {
-                "at": "2016-08-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fadf0",
-                  "fullname": "Martin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/32.jpg",
-                  "id": "32511082"
-                },
-                "txt": "Patricia and Chris has been wonderful hosts. They help us very much with all questions we had. We enjoyed our stay very much."
-              },
-              {
-                "at": "2016-08-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faedf",
-                  "fullname": "Sandra",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
-                  "id": "66617047"
-                },
-                "txt": "Une chambre très spacieuse et une salle de bain privée : au top ! \r\nChristian et Patricia ont été très accueillants et nous nous sommes tout de suite sentis comme chez nous ! "
-              },
-              {
-                "at": "2016-08-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb3ed",
-                  "fullname": "Erika",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg",
-                  "id": "78636529"
-                },
-                "txt": "Des hôtes très accueillant et à l'écoute de leurs invités! De supers adresses à conseiller. \r\nUne maison décorée avec goût et avec une sublime salle de bain privée.\r\nLe centre est très facile d'accès en bus car inaccessible en voiture. \r\nTrès facile de se garer dans la rue de nos hôtes.\r\nUn excellent rapport qualité prix!"
-              },
-              {
-                "at": "2016-08-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb9bd",
-                  "fullname": "Guy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "88496638"
-                },
-                "txt": "Patricia et Casimir ont été très accueillants et nous ont donné toutes les informations pratiques pour se rendre au centre de Porto en bus. La chambre est spacieuse et la salle de bain privée est juste à coté. Le quartier est très calme et le séjour était très agréable."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Ryokans",
-              "Off-the-grid",
-              "Skiing"
-            ],
-            "statReviews": {
-              "cleanliness": 4.8,
-              "communication": 4.4,
-              "checkIn": 4.4,
-              "accuracy": 4.8,
-              "location": 4.7,
-              "value": 4
-            }
-          },
-          {
-            "_id": "s111",
-            "name": "Nice Cosy Room In Taksim",
-            "type": "Islands",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437241/wt0seud4ot4cmdrztdzz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436867/yocip4igdbruuh2grzpf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436261/hwqt72njlhf9hkqou9ka.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437040/oarfkdxx7gyyvcynvwko.jpg"
-            ],
-            "price": 105,
-            "summary": "Welcome if you want to stay at a cozy flat with local experience.:) It is in the center of Istanbul.The neighborhood is safe and close to attractions.Transportation is easy. I will help you always.",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Heating",
-              "Washer",
-              "Essentials",
-              "Shampoo"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Nihat",
-              "location": "Istanbul",
-              "about": "I live alone in Taksim area and i work at bar.\r\nI like meet new friends from all of the world.\r\nI like to Travel a lot ofcourse if i have free time :) East Asia , Sun , Sea , Sand , Movie  :) ",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/6bf03261-e7ac-4e0e-8121-3828612bbb6a.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "5823933"
-            },
-            "loc": {
-              "country": "Turkey",
-              "countryCode": "TR",
-              "city": "Istanbul",
-              "address": "Taksim, Cihangir, Istanbul , Beyoğlu, Turkey",
-              "lat": 28.98648,
-              "lan": 41.03376
-            },
-            "reviews": [
-              {
-                "at": "2014-04-06T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbcc7",
-                  "fullname": "Quentin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "12424603"
-                },
-                "txt": "I greatly appreciated both the location of the place (very central) and the appartment per se (clean and comfortable, with a very cosy room and with Wi-Fi). \r\n\r\nNihat was perfect host, quite welcoming and helpful about places to go (or avoid) and things to do in town. \r\n\r\nHosça kal!\r\n\r\n\r\n"
-              },
-              {
-                "at": "2015-04-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb7f6",
-                  "fullname": "Steve",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
-                  "id": "10300292"
-                },
-                "txt": "Nice room in a flat well located. Nihat is very nce and helpful. Good experience."
-              },
-              {
-                "at": "2015-05-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb624",
-                  "fullname": "Jess",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg",
-                  "id": "8641944"
-                },
-                "txt": "We had a fantastic stay in this charming apartment. The location was perfect and Nihat welcomed us even when we made a late reservation and arrived early. He works at a bar no far from there- a great place to have a drink after seeing the sites! I highly recommend this place!"
-              },
-              {
-                "at": "2015-08-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbcb6",
-                  "fullname": "Irina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "42110174"
-                },
-                "txt": "The flat is clean and and very good located, 3 minutes walk to Taksim Square. The bedroom is quiet at night, even though there is a crowded area next to the flat. Nihat was always extremely quick in answering our emails and let us feel comfortable. He is really kind and discrete, we met him few times cause he works in the evening. "
-              },
-              {
-                "at": "2015-09-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae1a",
-                  "fullname": "Matthew",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
-                  "id": "40562632"
-                },
-                "txt": "Nihat went out of his way to accommodate our very early arrival and some unforeseeable challenges.  A great host!"
-              },
-              {
-                "at": "2015-11-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc03f",
-                  "fullname": "Valon",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
-                  "id": "47981428"
-                },
-                "txt": "Nice place and host, very good location :)"
-              },
-              {
-                "at": "2015-12-28T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb7a0",
-                  "fullname": "Amanda",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg",
-                  "id": "29625938"
-                },
-                "txt": "Everything was great about the room and the location."
-              },
-              {
-                "at": "2016-01-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb3fe",
-                  "fullname": "Mathieu & Hilal",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "50390021"
-                },
-                "txt": "The stay at Nihat's place was really pleasant. The apartment is very clean and confortable, and located in a very vibrant and animated neighborhood with many restaurants, cafes, bars, shops just nearby. Just a 5 min walk to the Taksim Metro station makes it easy to access any other parts of the city pretty quickly. Nihat was also a great and welcoming host. We totally recommend this place for your stay in Istanbul, especially if you want to experience the local life to the fullest ! "
-              },
-              {
-                "at": "2016-03-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb225",
-                  "fullname": "Christie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "48957037"
-                },
-                "txt": "The host canceled this reservation 30 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2017-05-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad81",
-                  "fullname": "Vanessa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "551888"
-                },
-                "txt": "I stayed at Nihat's for a week. It was exactly as the pics, very nice room. A little bit cold but he offers heating and AC. The apt is cozy and central, close to nice restaurants and bars. Have in mind is on the 4th fl no elevator. Nihat is a very easygoing guy who's open to help with any question or tip about the city. Totally recommend! thanks Nihat! "
-              },
-              {
-                "at": "2017-05-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2d1",
-                  "fullname": "Florentin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "75066050"
-                },
-                "txt": "Nihat is a very nice host, he is very helpful and creates an agreeable atmosphere inside the flat. Thank you :)"
-              },
-              {
-                "at": "2017-08-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae29",
-                  "fullname": "Harshak",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
-                  "id": "19784722"
-                },
-                "txt": "Nice cozy place very close to Taksim Square. Nihat is helpful and informative."
-              },
-              {
-                "at": "2017-09-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc70",
-                  "fullname": "Haytham",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
-                  "id": "10741329"
-                },
-                "txt": "nice apartment with good location. the room was clean and neat. Nihat was helpful and supportive. totally recommend his accommodation"
-              },
-              {
-                "at": "2017-10-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5fd",
-                  "fullname": "Vural",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
-                  "id": "14053758"
-                },
-                "txt": "Nihat is a very friendly host and makes you really feel comfortable. I have had a great stay and recommend it to anyone who wants to stay very central (Cihangir), the hip and modern part of the city with cozy venues and great cafes just a 3min walk. The place is very close to Taksim Square, etc...everything as described in the prior conments. I will definitely come again! Cheers vural"
-              },
-              {
-                "at": "2017-12-03T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba05",
-                  "fullname": "Wasseem",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "2072593"
-                },
-                "txt": "I totally recommend this place. Great experience staying at Nihat’s apartment. To start with, Nihat is a wonderful friendly person who I was happy to meet. He was very friendly at house, and we had the chance to spend time together outside. Staying with him reflects the true meaning of this website, which is living as a local with a local person. Thank you Nihat. \nRegarding the apartment, it is exactly as described. The room is nice and bed is comfortable. It was clean and well prepared for us. \nRegarding the neighborhood, it is very close to Taksim square and Istiklal Street with few minutes walk. As normal as it is in Istanbul, there is a short hill you need to walk to get to the square, which was totally fine with us. \n\nIn general, next time I visit Istanbul I would first check the availability with Nihat before searching others."
-              },
-              {
-                "at": "2018-02-23T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac4c",
-                  "fullname": "Mr Joseph",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
-                  "id": "10668432"
-                },
-                "txt": "Nihat was an amazing host. He picked me up from the bus stop, gave me some great tips on what to do in Istanbul and just an all round great guy. If you're looking for somewhere close to Taksim then Nihat's place is great. Highly recommend him! Thanks Nihat."
-              },
-              {
-                "at": "2018-03-05T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb8b8",
-                  "fullname": "Gökçe",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/70.jpg",
-                  "id": "64172965"
-                },
-                "txt": "Nihat is so hospitable person. Me and My boyfriend stayed 6 days in Nihat's place and everything was perfect. Nihat is so tactful person despite he was working so hard, he all the time asked us 'do we need anything?' he was so clean and his house is exactly same with the pictures.\nI'm highly recommend his place! \nthank you Nihat!"
-              },
-              {
-                "at": "2018-04-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb952",
-                  "fullname": "Bruno",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "6316350"
-                },
-                "txt": "Very helping and welcoming host. Perfect location for a few days in Istanbul."
-              },
-              {
-                "at": "2018-04-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb73d",
-                  "fullname": "Vichapas",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg",
-                  "id": "68234834"
-                },
-                "txt": "Nihat was very nice, polite and very helpful to us. He let us drop our baggages off in the morning and left them for a little longer when we checked out. The location is great as it is near Taksim Square. There are local grocery shops nearby if you want to buy some food or snacks."
-              },
-              {
-                "at": "2018-04-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0fe",
-                  "fullname": "Show",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
-                  "id": "107816748"
-                },
-                "txt": "Nihat is very nice host, and came to wait for me in the shuttle bus station near Taksim squre, His house is very convenient for travel. He is very experirenced and warm host, the room super clean and warm, and house has everything, next time i will choose his house again in istanbul. miss you nihat. see you next time."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Caves",
-              "Luxe",
-              "Campers"
-            ],
-            "statReviews": {
-              "cleanliness": 4.1,
-              "communication": 4.7,
-              "checkIn": 5,
-              "accuracy": 4.5,
-              "location": 4.2,
-              "value": 4.8
-            }
-          },
-          {
-            "_id": "s111",
-            "name": "Penthouse Sands of Kahana Sandy Swimmable Beach",
-            "type": "Caves",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436917/mqkfjmfpmyqpqmzmqgau.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436204/wzbrvr4mcsuub6gvwbry.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436523/ptcgbydjsamgf67a0npw.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg"
-            ],
-            "price": 800,
-            "summary": "Price includes nightly rate & 14.42% tax.  Our fully remodeled 9th floor Penthouse unit offers the most amazing views.  The entire front of the condo is windows offering you a fantastic view of beautiful Pacific Ocean, Molokai & Lana'i.  Perfect location for watching beautiful sunsets, see our resident sea turtles & an excellent place for spotting whales during the whale migration season. This spacious two level 3 bedroom and 3 full bath Penthouse unit has over 2,050 sq ft of living space w/ AC.",
-            "capacity": 9,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Pool",
-              "Kitchen",
-              "Free parking on premises",
-              "Gym",
-              "Elevator",
-              "Hot tub",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Safety card",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Self check-in",
-              "Building staff",
-              "Private entrance",
-              "Bathtub",
-              "Baby bath",
-              "High chair",
-              "Children’s books and toys",
-              "Crib",
-              "Pack ’n Play/travel crib",
-              "Children’s dinnerware",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "BBQ grill",
-              "Patio or balcony",
-              "Beach essentials",
-              "Step-free access",
-              "Disabled parking spot",
-              "Step-free access",
-              "Step-free access",
-              "Step-free access",
-              "Beachfront",
-              "Pool with pool hoist"
-            ],
-            "bathrooms": 3,
-            "bedrooms": 3,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Cynthia",
-              "location": "California, United States",
-              "about": "My husband and I are Real Estate Investors.  We enjoy traveling and no matter where we go, we always find ourselves looking at properties.  Since we still have school age children I have found that a beach vacation is usually the most enjoyable for everyone.  Living on the West Coast, Hawaii continued to be a place that we would return to time and time again.",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/07c98f2f-9ffe-4ed8-82ca-1e9cd00c673f.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "82827178"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "Maui",
-              "address": "Lahaina, HI, United States",
-              "lat": -156.68034,
-              "lan": 20.97104
-            },
-            "reviews": [
-              {
-                "at": "2016-12-08T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfd3",
-                  "fullname": "Therese",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
-                  "id": "5536819"
-                },
-                "txt": "We have just returned from a fabulous holiday at Cynthia's condo on Maui. Everything was fantastic. From the moment we booked Cynthia could not have been more helpful with everything and was always ready and willing to answer all of our queries. Cynthia provided us with an extensive list of recommendations for our stay on Maui and we were not disappointed. The condo is located in a quiet but convenient neighbourhood and close to many amenities. We found the condo extremely spacious and it accommodated our party of 3 adults and two teenaged children with no problem at all. Cynthia's condo is the penthouse and is set right on the beach so we were treated to gorgeous Hawaiian sunsets every night, as well as being able to see turtles and whales from our balcony. The condo is beautifully presented and very well equipped - we could not have asked for anything more for our nine day stay. \r\nMahalo Cynthia "
-              },
-              {
-                "at": "2017-03-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb9b",
-                  "fullname": "Alexandra",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "29101218"
-                },
-                "txt": "The location was great and the view was incredible! You are right on the beach and it is a great place for families with kids. Highly recommend staying here!"
-              },
-              {
-                "at": "2017-04-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb19f",
-                  "fullname": "Daisy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
-                  "id": "111663869"
-                },
-                "txt": "This place was beyond my expectations. There were no hidden surprises. Knew exactly what to expect, and Cynthia was always there to answer any quesions. The view is spectacular. Beautiful location. I highly recommend this place."
-              },
-              {
-                "at": "2017-07-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac44",
-                  "fullname": "Peter",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
-                  "id": "54509004"
-                },
-                "txt": "Very nice location with good beach. Penthouse is nice sized and comfortable. Amenities are good. location is very good with close proximity to Lahaina and Kapalua."
-              },
-              {
-                "at": "2017-11-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb70f",
-                  "fullname": "Megan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg",
-                  "id": "5818782"
-                },
-                "txt": "If you want a one-stop, stress-free vacation, in a beautiful location with all the amenities you need....this is it!  We lucked out with perfect weather too.  Cynthia provides basic amenities, pool towels, bookie boards, snorkeling gear, and the comfort of being in a cozy home.  It was really easy to run up to the Condo for my 9-month old nap times or a quick snack, without being too separated from the family.  The onsite pools, restaurant and of course restaurant/bar became our home bases for the week.  Miso Phat Sushi (across the street) and Maui Brewing were awesome near-by/within walking distance restaurants.  My family and I can't stop bragging about our trip and what a wonderful family/group set-up this Condo is!  We recommend renting a car due to the distance from the airport, but the Condo/Resort has onsite parking."
-              },
-              {
-                "at": "2018-01-30T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae2f",
-                  "fullname": "Brenda",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "151153465"
-                },
-                "txt": "Such a beautiful location in Paradise! The amazing balconies provided us with gathering spots for our morning coffee to watch the whales and gorgeous sunsets each evening. During our week long stay, we decided to visit Costco, the local fish market and the farmers market and ate 4 dinners in the condo.  The kitchen has everything you need, and the barbques downstairs were perfect for grilling.  Cynthia left us plenty of information for dining in the vicinity, so we had 3 nice dinners out. The guide she sent us before our visit was very informative and helped us to plan our outings while in Maui. Cynthia also checked in with us during our visit, making sure we had everything we needed. We are already planning a return visit to #391 at the Sands of Kahana in the near future!"
-              },
-              {
-                "at": "2018-03-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb04f",
-                  "fullname": "Daria",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "38292402"
-                },
-                "txt": "We had such a great time at Cynthia's condo.  Everything was sparkling clean. The check in and check out were seamless.  We loved that the condo came with some beach gear for our use (snorkels, boogie boards, water shoes...).  The views from the balconies are outstanding.  There is a nice and swimmable beach right downstairs, as well as a volleyball court and a casual restaurant. Great location with easy access to beach rentals, groceries, and anything else you might need during your stay.  Cynthia was very quick to respond to any questions we had. Loved the place! Would definitely stay again."
-              },
-              {
-                "at": "2018-04-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faec7",
-                  "fullname": "Amy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
-                  "id": "95449574"
-                },
-                "txt": "This place was incredible. From the views to the thoughtfulness in everything in the condo. While climbing nine flights of stairs during an unexpected elevator renovation (that ends in May!) does not sound fun, it was actually not bad at all for the adults in our party, as well as the 3 sub-8 year old children, and allowed us to think we were earning all the delicious calories we ate and drank.\n\nI cannot rave enough about the amenities that are incredibly family friendly, including a full sized high chair, travel crib, toddler (and big kid) friendly toys for both indoors and at the beach. Cynthia is very quick to respond to communication and is clear as to what she can provide as a host, as well as her expectation of guests. She was as incredible as her Kahana home was and we'd highly recommend this place for anyone, including those with small children."
-              },
-              {
-                "at": "2018-05-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba90",
-                  "fullname": "Stacey",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
-                  "id": "69659100"
-                },
-                "txt": "This place is amazing. We will be back!"
-              },
-              {
-                "at": "2018-06-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb28",
-                  "fullname": "Rebekah",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/70.jpg",
-                  "id": "154101405"
-                },
-                "txt": "What an amazing place to stay with a spectacular view!! The beach out front is awesome and we saw turtles daily! Cynthia was great with communication and making our stay feel just like home. Hope to stay here again!!"
-              },
-              {
-                "at": "2018-08-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbda0",
-                  "fullname": "Chris",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
-                  "id": "170664766"
-                },
-                "txt": "Fantastic unit. Amazing sunsets."
-              },
-              {
-                "at": "2018-09-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc74",
-                  "fullname": "Esther",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "4059349"
-                },
-                "txt": "Enjoyed our stay very much! The condo was clean, spacious and with all the amenities of a home away from home. Cynthia was very responsive, even checkIng up on us when the tropical storm warnings went out. Thankfully, the storm didn’t dampen our stay. Enjoyed many beautiful Maui sunsets from the home!"
-              },
-              {
-                "at": "2018-10-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb016",
-                  "fullname": "Elaine",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
-                  "id": "73108150"
-                },
-                "txt": "The place has amazing ocean views!!! Cynthia provided beach chairs, gears, and toys for the kids. The entire condo is well organized and our family had such a great time. Appreciate all the little touches you provided for your guests. Will definitely stay there again when we return on Maui! :)"
-              },
-              {
-                "at": "2019-01-11T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb239",
-                  "fullname": "Dan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "217281282"
-                },
-                "txt": "This condo was very spacious.  We had eight people (ages 5-85) and there was plenty of space for everyone.  Cynthia was readily accessible if we needed anything.  The view from the lanai was breathtaking and we watched whales every morning.  The condo was stocked with plenty of snorkel gear, boogie boards, beach chairs, sand toys for the kids, board games, puzzles, etc.  The kitchen had plenty of pots, pans, dishes, utensils, etc.  Thanks for the great stay!"
-              },
-              {
-                "at": "2019-01-22T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf7d",
-                  "fullname": "Jess",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
-                  "id": "20450315"
-                },
-                "txt": "Very clean. Cleanest Airbnb we have stayed at. Beautiful home and beautiful view of the sunset from the apartment. Loved that they had binoculars to see the whales jumping out in the distance."
-              },
-              {
-                "at": "2019-02-14T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1af",
-                  "fullname": "Anna-Mae",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg",
-                  "id": "76192807"
-                },
-                "txt": "If you are wanting a beautiful place right on the beach when you visit Kaanapali with your family , then this is the place for you ! Gorgeous full ocean view from the large deck ,large spacious rooms, super clean, lots of extras and great communication with Cynthia! We came here with our 3 adult kids and their spouses and loved everything about this place .. well stocked kitchen , lots of towels, beach toys (boogie boards were a hit ) comfortable beds ..and then there is outside !  Beautiful clean beach right outfront, nice pool and grounds , very helpful staff and amenities close by ... we watched whales and turtles right from our beach and deck, amazing !! This condo made our trip to Maui a real treat ..chose Cynthia's condo , you will not be disappointed !!"
-              },
-              {
-                "at": "2019-02-27T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb766",
-                  "fullname": "Lj",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
-                  "id": "69116372"
-                },
-                "txt": "I cannot say enough good things about this condo. There was more than enough space for my friends and I to spread out. Each room was beautifully decorated. the bathrooms we're impeccably remodeled, I even took inspiration pictures! Cynthia thought of everything to make this a home away from home. AC was in every room, but with the trade winds, we never needed it. Don't hesitate, book this place now!!!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "New",
-              "Iconic cities",
-              "New"
-            ],
-            "statReviews": {
-              "cleanliness": 4,
-              "communication": 4,
-              "checkIn": 4.3,
-              "accuracy": 4.1,
-              "location": 4.4,
-              "value": 4.7
-            }
-          },
-          {
-            "_id": "s112",
-            "name": "+Spacious Studio&Kitchenette near Blue Mosque+",
-            "type": "OMG!",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436321/g2cs1w7tkxsx58penq9j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436542/e96nrbkjz8mecvsbzukk.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436957/ehhcyscwtvxw55mptkok.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436294/mvhb3iazpiar6duvy9we.jpg"
-            ],
-            "price": 264,
-            "summary": "A spacious, private studio with high speed Wi-Fi wireless internet. It is located in historical district of Sultanahmet oldcity center. It's Only 10 minutes (by walking) away from Sultanahmet  Blue Mosque, Hagia Sophia, Topkapı Palace, Underground Cistern and Hippodrome. This area is called Kadirga and it's famous with it's local restaurants. There are more gorcery stores and supermarkets in this are since it's not %100 touristic area. There is children playground right in front of the building.",
-            "capacity": 5,
-            "amenities": [
-              "TV",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Paid parking off premises",
-              "Heating",
-              "Family/kid friendly",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Hot water",
-              "Microwave",
-              "Refrigerator",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 0,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Kadirga",
-              "location": "Istanbul, İstanbul, Turkey",
-              "about": "",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/7620074d-86d6-49c3-b7fe-cafe084051dd.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "98780303"
-            },
-            "loc": {
-              "country": "Turkey",
-              "countryCode": "TR",
-              "city": "Istanbul",
-              "address": "Fatih, İstanbul, Turkey",
-              "lat": 28.96755,
-              "lan": 41.00488
-            },
-            "reviews": [
-              {
-                "at": "2016-11-06T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5a5",
-                  "fullname": "Sime",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "65556580"
-                },
-                "txt": "地点很方便,房间也很大,有好多张床,如果是家庭出游将是不错的选择｡"
-              },
-              {
-                "at": "2016-11-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbcdd",
-                  "fullname": "Liberato",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
-                  "id": "77131064"
-                },
-                "txt": "The room was great. I was able to get the much needed Rest and relaxation I was looking for. What stood out for me was Emre's concern for my piece of mind. I approached him with a few minor concerns and he went to great lengths to ensure that I would have a restful stay at his hotel. He was extremely helpful in helping me secure ground transportation to my next destination, as I had failed miserably ha in get attempted to do it on my own. Stay here, the neighborhood will give you a true taste of Istanbul, a healthy step away from the too touristy neighborhoods."
-              },
-              {
-                "at": "2016-12-10T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb72",
-                  "fullname": "Tash",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
-                  "id": "3276660"
-                },
-                "txt": "Great place, very friendly host, I would recommend this place to anyone."
-              },
-              {
-                "at": "2017-01-26T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3408e36c59e6164fc07f",
-                  "fullname": "Magdi",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "65666427"
-                },
-                "txt": "With a good honest people everything is great, thanks boys "
-              },
-              {
-                "at": "2017-02-06T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1d3",
-                  "fullname": "Daria",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
-                  "id": "109484218"
-                },
-                "txt": "Thanks for your nice guest house"
-              },
-              {
-                "at": "2017-02-26T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb406",
-                  "fullname": "Ziying",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
-                  "id": "40753110"
-                },
-                "txt": "这个房间性价比真的很好呀!位置也ok,离景点不远｡但是离metro有点远,去交通点上坡好累｡洗手间还是有点脏,去的时候地上有小虫｡厕所马桶有点摇摇欲坠,厕所门锁不上｡但是看在这价钱,休息几晚能接受｡"
-              },
-              {
-                "at": "2017-03-12T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0da",
-                  "fullname": "Florianne",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
-                  "id": "117885577"
-                },
-                "txt": "The flat is perfect for preople who want to visit Istanbul! thanks"
-              },
-              {
-                "at": "2017-04-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb843",
-                  "fullname": "Zakiuddin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/69.jpg",
-                  "id": "116676576"
-                },
-                "txt": "place is closer to main attractions and at the same time in quite locality. i recomend fellow travellers to try kadirga park when visiting istanbul. good for families."
-              },
-              {
-                "at": "2017-04-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbebe",
-                  "fullname": "Kristy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "66755882"
-                },
-                "txt": "Emre wad a great host. His communication before and during our stay had been absolutely top notch. He was very helpful and accommodating and we would stay with him again,  no question! "
-              },
-              {
-                "at": "2017-06-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfdf",
-                  "fullname": "Bas",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "4966099"
-                },
-                "txt": "I had a great time staying here. Emre has a wealth of local useful information. Ask him anything and he'll basically plan your holiday for you :) I was greeted when I arrived by one of his staff and quickly shown to my room. The room was basic but spacious, clean and safe - great value for money. Istanbul is incredibly beautiful and very exciting. There's a supermarket literally across the road, as is the Istanbul photography museum. The Hagia Sophia and Blue Mosque are a stone throw away. Lots of restaurants and cafes in the area. Easy to walk everywhere and public transport is easy, cheap, mosern, safe and fast - speak to Emre and he'll quickly help you get your head around it. Stay here, you won't regret it. "
-              },
-              {
-                "at": "2017-06-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb299",
-                  "fullname": "Mahgrine",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "6629816"
-                },
-                "txt": "The place is near to the tram, around 8-10 mins walk. The room is clean, big, and comfy. The only drawback is that I didn't expect that I need to go uphill every time I'm going out from the house. Nevertheless, it's a great location. You can reach the Grand Bazar, Blue Mosque, Hagia Sophia and TopKapi Palace by walking, approx. 20mins.  "
-              },
-              {
-                "at": "2017-08-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd57",
-                  "fullname": "Tolga",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
-                  "id": "48053238"
-                },
-                "txt": "Nice apartment overall. Its located at the bottom of a hill so expect a hike whenever you want to go anywhere. There's a supermarket just down the road which stocks things you'll need on a daily basis which is very handy. The park across the road does get very loud and stays busy well after midnight so keep that in mind."
-              },
-              {
-                "at": "2017-09-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4ad",
-                  "fullname": "Öner",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
-                  "id": "29635802"
-                },
-                "txt": "+ :\nBien situé, je n'ai pas eu du mal à visiter les lieux proches. \n\n- : \n* Tous les équipements n'y étaient pas (sèche cheveux, lave linge...)\n\n* la porte d'entrée est juste au niveau de la porte d'entrée du bâtiment. On entend donc tous les gens qui passent avec le claquement de porte. Pas super la nuit. \n\n* wifi ne capte pas bien. \n\n* la lumière de salle de bain fonctionne avec un détecteur de mouvement qui ne capte pas si vous êtes dans la douche. Il faut donc utiliser le flash de son portable."
-              },
-              {
-                "at": "2017-10-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb129",
-                  "fullname": "Med Zied",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "36523012"
-                },
-                "txt": "Good location"
-              },
-              {
-                "at": "2017-10-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb01",
-                  "fullname": "Danielle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "70117115"
-                },
-                "txt": "Fantastic little apartment, ideal for a weekend break in Istanbul. Located on a road with lots of good cheap street food, only ten minutes walk from the main tourist spots of Sultanahmet including the blue mosque and Hagia Sophia. Great road of restaurants just three minutes away with great atmosphere and decent prices - although everyone will try and lure you in! It's a very steep climb up a hill to public transport but not a problem if you enjoy a walk!\n\nApartment has everything you need for a comfortable stay. Only problem is the noise. The doorbell is loud and people coming in and out kept us awake one night!"
-              },
-              {
-                "at": "2017-10-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae6a",
-                  "fullname": "Arifur",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
-                  "id": "154348770"
-                },
-                "txt": "Ganz bequem und guter Lage. Jederzeit kann ich Empfehlen. Emre ist nette man und freundlich. Die Zimmer ist preiswert. Blaue Moschee nur 6-7 min zu fuss."
-              },
-              {
-                "at": "2017-10-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad87",
-                  "fullname": "Nass",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
-                  "id": "22615931"
-                },
-                "txt": "Appartement simple, des lits un frigo,\nLes - :  pas toujours le nécessaire de cuisine, plaque vieille..pas de machine a laver, assez froid (pas de chauffage, la clim chauffe mal) fortes odeurs dans la salle de bain, et les draps sont pas changé de la semaine...les serviette retiré mais pas rajouter...\n\nLes + : \nBon emplacement loin du tumulte de la ville mais dans le centre historique de Sulthanamey.Emre est réactif,plein de petits boui boui autour, restaurants, ménage fait durant le séjour, et quartier calme !"
-              },
-              {
-                "at": "2017-11-06T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab5f",
-                  "fullname": "Fadi",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "152749523"
-                },
-                "txt": "Mr Emre was very helpful and friendly with us help us showing around especially being Turkish interpter when needed.\nHighly recommended place to stay in Old Istanbul "
-              },
-              {
-                "at": "2017-11-19T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb185",
-                  "fullname": "Igor",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
-                  "id": "5445704"
-                },
-                "txt": "Удобное расположение до основных достопримечательностей (пешая доступность). Оперативные ответы и помощь от хозяина квартиры."
-              },
-              {
-                "at": "2018-01-03T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faca0",
-                  "fullname": "Sarah",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "103139094"
-                },
-                "txt": "L'appartement d'Emre est davantage une petite chambre d’hôtel où l'on a les équipements attendus sauf la machine à laver. L'appartement est globalement assez propre.\nIl est très bien placé (à 10 min à pied de la mosquée bleue et de sainte Sophie) et dans un quartier authentique. Nous avons aussi apprécié qu'il y ait en face un supérette où nous avons pu faire des courses.\nEmre est très réactif et très sympa. Nous recommandons cet appartement."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Iconic cities",
-              "Earth homes",
-              "Amazing views"
-            ],
-            "statReviews": {
-              "cleanliness": 5,
-              "communication": 4.2,
-              "checkIn": 4.4,
-              "accuracy": 4.1,
-              "location": 4.1,
-              "value": 4.3
-            }
-          },
-          {
-            "_id": "s113",
-            "name": "Grand apartment Sagrada Familia",
-            "type": "Lakefront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436811/ym5nh1anownexsyzgbqq.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436772/nplkpwclhrdvvspkpmbg.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437033/rhw6gycttaimzocc1poz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436897/iz1ik9nibj3sobzrqomf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436353/wqah1dfim6hcosaq0ve3.jpg"
-            ],
-            "price": 169,
-            "summary": "4 rooms apartment in the heart of the right “Eixample” broadening. Perfect location in the notorious area of Sagrada Familia that will ensure and unforgettable stay in Barcelona. HUTB-003275",
-            "capacity": 8,
-            "amenities": [
-              "TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Paid parking off premises",
-              "Smoking allowed",
-              "Buzzer/wireless intercom",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Essentials",
-              "Shampoo",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Hot water",
-              "Host greets you"
-            ],
-            "bathrooms": 2,
-            "bedrooms": 4,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Alexandra Y Juan",
-              "location": "Barcelona, Catalonia, Spain",
-              "about": "Hola, \r\n\r\nSomos Alexandra y Juan dos amigos que estamos enamorados de Barcelona, nuestras pasiones son viajar y conocer gente por lo que nos encantaría compartir con vosotros nuestros espacios  para que disfrutéis a vuestro gusto de toda la cultura, actualidad y diversidad de ofertas que la ciudad os ofrece.\r\nPara nosotros lo mas importante es que nuestros huéspedes puedan aprovechar al máximo su estancia en Barcelona,  que viváis vuestra historia  reflejada en  rincones únicos de la ciudad y por supuesto nuestra mayor satisfacción es que os sintáis como en casa según lo que busquéis.\r\n\r\nHello, \r\n\r\nWe are Alexandra and Juan two friends who are in love with Barcelona, our passion is to travel and meet new people so we would love to share our spaces with you and that you can enjoy the culture, the present and the diversity of offers that the city has to offer. \r\nFor us the most important thing is that our guests can make the most of their stay in Barcelona, that you live our history full of unique places and of course our greatest satisfaction is that you feel as if you where at home according to what you are looking for.",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/3fceba9a-ce84-4841-88df-b699105119b4.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "54320669"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, Catalunya, Spain",
-              "lat": 2.18146,
-              "lan": 41.39716
-            },
-            "reviews": [
-              {
-                "at": "2016-03-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faec0",
-                  "fullname": "Lenny",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg",
-                  "id": "36457037"
-                },
-                "txt": "L'accès au logement est pratique. Il y a un parking à 10 mètres (20€ par jour).\r\nLa résidence est bien tenue. Deux ascenseurs pour accéder au 6ème étage. L'appartement est parfaitement silencieux, pas de bruit sur la rue.\r\nLe logement est idéal pour les groupes, il est propre, en très bon état. Deux jeux de clés sont à disposition. Je recommande vivement ce logement.\r\nPour se rendre en ville, il est situé à 15 minutes de sites à voir, les taxis passent dans la rue, tout est pratique.\r\nEnfin la terrasse est superbe, avec vue sur la tour AGBAR.\r\n\r\nMerci pour votre accueil, on revient bientôt!"
-              },
-              {
-                "at": "2016-04-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb082",
-                  "fullname": "Albe Birio",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "33200324"
-                },
-                "txt": "The apartment is really amazing, in the city centre and with everything we needed. Regina was really helpful we our needs."
-              },
-              {
-                "at": "2016-04-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faeeb",
-                  "fullname": "Daniel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "9256716"
-                },
-                "txt": "Great stay, very nice flat as described. Nice balcony and well located! Host was nice and easy to communicate to"
-              },
-              {
-                "at": "2016-04-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad11",
-                  "fullname": "Bram",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
-                  "id": "64345234"
-                },
-                "txt": "Everything was fine.\r\nApartment was clean.\r\nA couple useful items weren't available, like a trash can or a drying rack fro the dishes. But obviously thats an easy thing to buy.\r\nOverall a nice place.\r\n\r\nNothing to do with the host, but the walls are paper thin. You can hear what the neighbours are doing on every side of the flat."
-              },
-              {
-                "at": "2016-05-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbcec",
-                  "fullname": "Joel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "16946925"
-                },
-                "txt": "Bon accueil et appartement propre et conforme à la description"
-              },
-              {
-                "at": "2016-05-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb73f",
-                  "fullname": "Paul",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "64496561"
-                },
-                "txt": "Superbe appartement! Un parking à deux pas qui nous a été d'une grande utilité. Regina est très accueillante, je recommande cet appartement. "
-              },
-              {
-                "at": "2016-05-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba01",
-                  "fullname": "Daniel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "29800397"
-                },
-                "txt": "We has a great time at Regina's place. The flat is clean and as shown on the pictures.\r\n"
-              },
-              {
-                "at": "2016-07-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb75",
-                  "fullname": "Guowei",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "45005783"
-                },
-                "txt": "The apartment and the location is good, but the service is not as good as expect. \n\nI have booked a pick-up service from the householder, but there are some problems happened about the plane causing the flight delayed. I have informed the householder at once. When we arrived at the airport, we could not find the driver waiting for us at the arrival with our name. Then, I tried to ask for the help from the householder to meet the driver at the airport. After almost one-hour waiting, we are refused by the driver to meet at the airport and He asked us to find his car at the park. How ridiculous! This service costs 20 euro each person but we cannot even have the right to be picked up. We were so angry and chose to take the taxi. At the same time, I texted the householder that we were tired of waiting for the driver and we were on the way to ur apartment by taxi.\n\nThe householder didn't tell me that I should phone another guy to tell him that we were on the way to the apartment until We arrived. What all she talked about were the money of the pick-up service. We spent another 45 minutes to wait for the guy to send the key. Again, when he came, he talked about the money. We asked for the service, but u did not provide it with us. How dare u to ask for the payment? Besides, do u know what? We are totally seven people, so this service should cost 140 euro totally. But two taxis only cost us 70 euro. The driver knows the guy and the householder. I doubt that they are on the business to play trick with me.\n\nBarcelona is a really nice city to travel, but this experience does make a bad impression on me. \n "
-              },
-              {
-                "at": "2016-07-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf02",
-                  "fullname": "Glen",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "47750495"
-                },
-                "txt": "The apartment has a good location convenient to metro and walking distance to Sagrada Familia and many good eating options. Spacious with a nice balcony. Air conditioning units are in the main hallway and the dining/living room, but the rooms are hard to cool down (it was hot when we were there). "
-              },
-              {
-                "at": "2016-07-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd6b",
-                  "fullname": "Andrea",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "77802327"
-                },
-                "txt": "Hola todo muy bien, excelente ubicacion y el trato my amable. El unico comentario es el de reparar la "
-              },
-              {
-                "at": "2016-07-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad90",
-                  "fullname": "Jacob",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "12803690"
-                },
-                "txt": "What an amazing place to stay! It is a very roomy and comfortable place, that is in a great location. The deck area is amazing and we spent most of our time there just hanging out taking in the views. Reginan had great communication and made it very simple for us to arrive. If i ever go back to Barcelona, i would 100% stay here again! "
-              },
-              {
-                "at": "2016-08-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0e3",
-                  "fullname": "Yuri",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
-                  "id": "67801763"
-                },
-                "txt": "Tutto andava molto bene ,l'appartamento corrispondeva esattamente alle foto del sito. Le stanze ed i bagni erano puliti , come pure la cucina. La terrazza era molto bella e la vista era apprezzabile. Oltre ai vari letti vi era anche la possibilità di dormire su un divano letto particolarmente comodo. L'aria condizionata funzionava e rinfrescava bene tutto l'appartamento. L'unico problemino c'è stato con la porta del bagno che è stato facile chiudere, ma non più riaprire, ma c'è stato subito un pronto intervento da parte dei responsabili dell'appartamento, che hanno aiutato ad uscire la persona che era rimasta chiusa all'interno. Salvo questo però Il quartiere era tranquillo , c'erano vari baretti attorno e anche dei piccoli centri commerciali ( di tipo alimentare ). Era in oltre possibile raggiungere a piedi vari bar dove potersi divertire. I taxi per arrivare nel centro della movida variano con i prezzi dai 5 ai 7 euro a corsa. La fermata della metro era a 5 min a piedi dall'appartamento. Dal centro partiva una navetta che portava direttamente all'aeroporto per soli 4 euro e 90. "
-              },
-              {
-                "at": "2016-08-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc92",
-                  "fullname": "Anne-Sophie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "11856961"
-                },
-                "txt": "Regina is a really nice host and the apartment is perfect for big group due to its perfect location, 5 min drive or 15 min walk for the beach and near the perfect tourist places !\nI recommend 100% this clean and well decorated apartment !\n"
-              },
-              {
-                "at": "2016-09-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb647",
-                  "fullname": "Julie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
-                  "id": "3087963"
-                },
-                "txt": "Regina was a great host- first she replied very quickly to my booking inquiry, and was always very responsive with queries/ messages.\r\nThe flat is HUGE and very well located, very modern and nicely decorated. Regina had organised someone to meet us on arrival so check in was easy. Check out was easy  llew as we just had to leave the flat at the agreed time. I would only say that the check out time of 11am is a bit early, especially for a city when you can have dinner quite late... although upon our request, Regina allowed us nicely to stay until 12pm.\r\nThey were two sets of keys which was very convenient for a big group. \r\nI have suggested to regina that it would be great to have a few more amenities provided such as toilet paper and coffee/tea for example, but overall we were very pleased with our stay at Regina's place. Thank you Regina!\r\n\r\n"
-              },
-              {
-                "at": "2016-09-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb09e",
-                  "fullname": "Manuel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
-                  "id": "46225617"
-                },
-                "txt": "El departamento es fantástico y tiene una terraza bastante amplia para disfrutar. Tanto los anfitriones como Maks (el concierge) fueron muy amables y dispuestos a ayudar."
-              },
-              {
-                "at": "2016-10-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3408e36c59e6164fc065",
-                  "fullname": "Maxim",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
-                  "id": "6800997"
-                },
-                "txt": "Very good location.\r\n\r\nReally close to all major attractions. Plenty of shops and restaurants nearby. ( BTW you can go to the sushi bar - 5 minutes walk - Kyoka II, with unlimited food. Menu in Spanish only :) )\r\n\r\nApartments are comfortable and clean. I think it should be really good for a family vacations.\r\n\r\nIMHO some minimal improvements must be made (broken shower hose support, etc) but it's truly minor. \r\n\r\nOverall - pleasant experience."
-              },
-              {
-                "at": "2016-10-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab87",
-                  "fullname": "Rebecca",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/68.jpg",
-                  "id": "29589939"
-                },
-                "txt": "Regina's apartment was as listed on her profile - there was sufficient space for all 8 of us, and had all of the amenities listed on the page. It was a very good area. I would recommend anyone in a bigger group looking to stay in a central location. "
-              },
-              {
-                "at": "2016-10-31T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfe5",
-                  "fullname": "Luke",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
-                  "id": "44480371"
-                },
-                "txt": "Great apartment if you are a larger group and need more space. The bedrooms are all great and as described, plus having two bathrooms was good. The terrace is a fantastic bonus, with amazing views! "
-              },
-              {
-                "at": "2016-11-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafc3",
-                  "fullname": "Karla",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "22279916"
-                },
-                "txt": "El apartamento es incluso mejor a como aparece en las fotos. La ubicación excelente. Queda cerca de todo y se puede ir caminando a diferentes puntos de interes como la sagrada familia y la marina o para los que prefieren el metro tiene cerca varias paradas de metro lo que resulta muy conveniente.  Lo recomendamos cien por ciento. Si volvemos a Barcelona definitivamente nos quedariamos nuevamente aqui."
-              },
-              {
-                "at": "2016-11-14T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf4f",
-                  "fullname": "Katherine",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "12265394"
-                },
-                "txt": "We stayed here with 8 people for a fun weekend in Barcelona and this apartment was a great home base for us. The apartment is exactly what the pictures showed and Regina and Juan were great hosts. location is a little bit out of the way if you want to be central but proximity to la Sagrada Familia was nice!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Top of the world",
-              "Ryokans",
-              "Amazing views"
-            ],
-            "statReviews": {
-              "cleanliness": 4.7,
-              "communication": 4.5,
-              "checkIn": 4,
-              "accuracy": 4.1,
-              "location": 4.2,
-              "value": 4.4
-            }
-          },
-          {
-            "_id": "s114",
-            "name": "Spacious and quiet duplex apartment in Poble Sec",
-            "type": "Islands",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436397/nde7l2hrwezdfzbvhczj.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436539/jy85me6y4bcsgfjvytwv.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436948/vgfxpvmcpd2q40qxtuv3.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436801/mcuu1w2188ndpd6hezzt.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436907/abikktroqknzhch6b9ly.jpg"
-            ],
-            "price": 130,
-            "summary": "Spacious apartment in a peculiar building in the central neighbourhood of Poble Sec, with patio and terrace, ideal for families with children or groups. Walking distance from center, Montjuïc, Plaza España, Fira Montjuïc/Gran Vía, Sant Antoni, Raval.",
-            "capacity": 7,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Paid parking off premises",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "Washer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Safety card",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Outlet covers",
-              "Bathtub",
-              "High chair",
-              "Stair gates",
-              "Children’s books and toys",
-              "Crib",
-              "Pack ’n Play/travel crib",
-              "Room-darkening shades",
-              "Children’s dinnerware",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Ethernet connection",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Patio or balcony",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Wide doorway",
-              "Well-lit path to entrance",
-              "Wide entryway",
-              "Host greets you"
-            ],
-            "bathrooms": 2,
-            "bedrooms": 3,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Cristina",
-              "location": "Barcelona, Catalonia, Spain",
-              "about": "(ES) Soy mujer, mamá y traductora. Me gusta tener tiempo para pensar, viajar, jugar con mis hijas y descubrir algo nuevo cada día. A veces por trabajo tengo que viajar, y entonces mi amiga Yamila, gran mujer y fantástica anfitriona, amante del campo y fotógrafa de profesión, me ayuda con los huéspedes.\r\n\r\n(EN) I am a woman, a mother and a translator. I like having time to think, to travel, to play with my daughters and to discover something new every day. Sometimes I have to travel because of my job: in those occasions my friend Yamila, great woman and fantastic host, outdoor lover and photographer, helps me out with guests.",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/6107595/profile_pic/1442432675/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "6107595"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, Catalunya, Spain",
-              "lat": 2.15566,
-              "lan": 41.37479
-            },
-            "reviews": [
-              {
-                "at": "2013-05-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb132",
-                  "fullname": "Jean-Pierre",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
-                  "id": "768849"
-                },
-                "txt": "Yamila appartement was just perfect for us!\r\nThe location in Poble sec is very close to BCN city center and the neighborhood is so quiet without any traffic like everywhere else in the city\r\nThe appartement is very clean, well equipped with very recent furniture, 2 bathrooms, 3 bedrooms, 2 balconies, 1 terrace, large kitchen and lounge.\r\nYamila was a perfect host with us also.\r\nI fully recommend this appartment"
-              },
-              {
-                "at": "2013-06-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fadce",
-                  "fullname": "Ove M.",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "6146923"
-                },
-                "txt": "El piso esta muy guay, en una zona muy bien comunicada y con muchos restaurantes y bares cerca. Lo hemos pasado muy bien en este piso y volveriamos a alquilarlo."
-              },
-              {
-                "at": "2013-07-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb078",
-                  "fullname": "Andrew",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "6597264"
-                },
-                "txt": "Awesome accommodations! Huge apartment that was obviously recently renovated and well maintained. The building is in a residential (read: non-touristy) part of Spain so if you are looking for a real taste of local culture this is the place to stay. 2 blocks from the subway and we were downtown in just a couple stops. The apartment is in building with a common courtyard (common for the style). The other people that live in the building were very friendly and helpful answering any questions we had. My son was even able to play with the other children (despite the language barrier). Awesome experience -- would definietly rent again."
-              },
-              {
-                "at": "2013-08-06T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbce7",
-                  "fullname": "Juan Daniel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
-                  "id": "6259139"
-                },
-                "txt": "Experiencia bastante agradable, puntuales, el piso muy limpio, ordenado y esta genial, muy bien situado, muy recomendable."
-              },
-              {
-                "at": "2013-08-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba44",
-                  "fullname": "Carey",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "7317566"
-                },
-                "txt": "The apartment is exactly as pictured. Very spacious, comfortable, and clean with a well equipped kitchen and nice terraces on both levels. The neighborhood is well situated - it is not at all touristy but close to transportation at Plaza España and Poble Sec metro stops so you can easily get to all the places you want to visit. We stayed here for 3 nights with our two children and found it perfect. We were able to walk or take the metro everywhere we wanted to go, but have a quieter place to sleep and relax. There is a park down the street and a supermarket directly across. Xavi met us on arrival and was very nice and helpful throughout our stay. When my husband accidentally left a few things in the apartment, Xavi collected them and met us upon our return to Barcelona a few days later to return them. Thanks, Xavi! It was a great stay in Barcelona and I would definitely recommend the apartment to anyone looking for space and comfort in a close but quieter neighborhood. "
-              },
-              {
-                "at": "2013-08-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfa0",
-                  "fullname": "Julie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
-                  "id": "3129321"
-                },
-                "txt": "Great flat in a very good location, very close from subway which brings you to wherever you want in a few minutes. Xabi has been really nice and we didn't miss anything in the flat. Thank you"
-              },
-              {
-                "at": "2013-09-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae47",
-                  "fullname": "Ron",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "8464703"
-                },
-                "txt": "Yamila is a great hostess, the apartment is very comfortable.\r\nVery close to the metro. And a convenient store. A tv was missed, otherwise everything was great."
-              },
-              {
-                "at": "2013-10-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc002",
-                  "fullname": "Christine",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg",
-                  "id": "3185553"
-                },
-                "txt": "Appartement conforme aux indications, très propre. Le quartier est calme mais tout de même assez proche de tout (2 stations de métro de la rambla et des plages...). Super Bon séjour !\r\n"
-              },
-              {
-                "at": "2013-11-05T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb814",
-                  "fullname": "Jeremie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
-                  "id": "9083747"
-                },
-                "txt": "Una estancia perfecta, el piso es muy grande y muy bien equipado. La descripción corresponde perfectamente a la casa. 100% recomendable."
-              },
-              {
-                "at": "2014-02-27T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb306",
-                  "fullname": "Kirstin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "10268141"
-                },
-                "txt": "Super apartement, clean, spacios, great located and pretty quiet. Yamila is very nice, polite and helpful. I strongly can recommend the apartement. "
-              },
-              {
-                "at": "2014-03-04T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbbcc",
-                  "fullname": "Oliver",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
-                  "id": "3385007"
-                },
-                "txt": "A very nice place and a great host!\r\nThe apartment is exactly as you can see in the pictures, everthing is clean and Yamila is just a call (or e-mail) away if you need help."
-              },
-              {
-                "at": "2014-03-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb476",
-                  "fullname": "Okan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "10270886"
-                },
-                "txt": "EVERYTHING WAS GREAT. Yamila is very hospitable, very helpful. You can find everything you need at home.We will rent this House again barcelona 2015 Marathon."
-              },
-              {
-                "at": "2014-03-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb510",
-                  "fullname": "Lisa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "13007630"
-                },
-                "txt": "Cristina and her friend Yamilia did a wonderful job of making us feel at home and were also very helpful with other miscellaneous necessities (calling us a taxi to take us to the airport on departure).  The duplex was very nice and spacious, clean, charming, outfitted with everything we needed, with comfortable beds and a very nice kitchen (with an induction cooktop!).  The property is older and there was some remodeling noise for a few hours from the neighboring apartment, which we could hear through what seemed to be a shared skylight, but it was very brief and not a concern (unless noise privacy is a very high priority, which it wasn't for us).  We didn't even use the third bedroom with bunk beds, but it would be ideal for a family.  The metro was close enough, and the bakery just downstairs, together with the grocery store literally across the street, were a wonderful convenience.  We went nearly everywhere by metro, and the location was central enough that at the end of the day, if we were too tired to make our way back by metro, an easy cab ride back to the apartment never exceeded 8 euros (which would've been the cost of the metro for all four of us anyway).  Overall, the apartment was a nice, comfortable bargain for family travel - not the most modern, but charming and fully met our needs."
-              },
-              {
-                "at": "2014-04-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5a8",
-                  "fullname": "Danielle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg",
-                  "id": "10549520"
-                },
-                "txt": "Appartement trés agréable et trés bien situé à 2 pas d'une station de métro et de la place d'Espagne.\r\nToutes les pièces sont très agréables et les terrasses aussi.\r\nSupermarché en face et excellente boulangerie au pied de l'immeuble.\r\nImmeuble très calme.\r\nPas de cafetière électrique ni d'essoreuse à salade mais l'électroménager est top.\r\nDéco soignée.\r\nMerci, nous avons passé une excellente semaine !  "
-              },
-              {
-                "at": "2014-04-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc22",
-                  "fullname": "Henrik",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "7244993"
-                },
-                "txt": "We stayed at Christina´s place for two weeks and were happy with the flat. The location is good: close to metro, and also bakery, convenience store etc is near.\r\nExcellent restaurants also nearby.  "
-              },
-              {
-                "at": "2014-05-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb07b",
-                  "fullname": "Marie-Pierre",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "5115465"
-                },
-                "txt": "Magnifique appartement, très calme dans un quartier sympathique. Boulangerie juste à côté, idéale le matin. Les enfants ont adoré!  Cristina et Yamila toujours à l'écoute par mail ou par tel. Nous gardons un excellent souvenir de ces vacances en famille à Barcelone. Un grand merci à nos hôtes. \r\nMarie-Pierre, Arnaud, Pierre et Benjamin"
-              },
-              {
-                "at": "2014-05-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb13",
-                  "fullname": "Céline",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/69.jpg",
-                  "id": "4125966"
-                },
-                "txt": "Espectacular!\r\nEl piso era grande, confortable, limpio, y muy bien equipado, sobre todo en la cocina. Es un piso luminoso con terracitas perfectas para comer fuera, y un silencia muy apreciable durante la noche, una maravilla.\r\nEl piso está super bien situado, hay un supermercado en frente y una panadería muy buena justo al lado, la acogida fue perfecta y la logística (entrega y recogida de la llave...) muy sencilla. Muy recomendable."
-              },
-              {
-                "at": "2014-05-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb401",
-                  "fullname": "Véronique",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg",
-                  "id": "11540553"
-                },
-                "txt": "Réactive et bon contact téléphonique."
-              },
-              {
-                "at": "2014-06-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faf30",
-                  "fullname": "Thorsten",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg",
-                  "id": "9056447"
-                },
-                "txt": "The Hous is great. It´s a super cosy place in a nice neighborhood. You find evrerything you need in the House, plus you got two terraces and a padio.\r\nIt is super located, everything you need is close, Supermarket, Bakery and Restaurants just in front of the Door. Metro station around the corner also the placa espanya Montjuïc a few minutes walk away.\r\nYamila (friend of Christina) is a great host, she was super nice and open for every question we had. She also called us a taxi to take us to the airport at 5! in the morning.\r\nWe will for sure come back and book that place again.\r\nWould totally recommend that House for a great stay in Barcelona.\r\nThank you.\r\n \r\n"
-              },
-              {
-                "at": "2014-06-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf72",
-                  "fullname": "Birgit",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
-                  "id": "16129927"
-                },
-                "txt": "GREAT!!! Christina and Yamila are very hospitable and very helpful. \r\nThe flat was very nice and spacious, clean and outfitted with everything we needed. The flat is super located (metro station, supermarket, bakery, ...).\r\n\r\nWe will come back : )\r\nThank you!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Boats",
-              "Play",
-              "Skiing"
-            ],
-            "statReviews": {
-              "cleanliness": 4.1,
-              "communication": 4.3,
-              "checkIn": 4,
-              "accuracy": 4.8,
-              "location": 4.9,
-              "value": 4.3
-            }
-          },
-          {
-            "_id": "s115",
-            "name": "*CoZy Private Williamsburg Home*",
-            "type": "Beachfront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436394/kscsvxyn0uro9tjhefeb.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437269/u6wxkpazgvqdxiceky9l.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436978/mhqf1tttzqr33ecrrwb2.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436811/ym5nh1anownexsyzgbqq.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436453/ndl8odasqgnyquvsbalp.jpg"
-            ],
-            "price": 225,
-            "summary": "*NO PARTIES OR EVENTS* **Minutes From MANHATTAN / NYC BY TRAIN* 1 BLOCK FROM GRAND ST. First Floor Newly Renovated And Furnished Williamsburg Apartment Duplex  Back yard access. Wood Floors. Wifi. Marble & Granite Bathroom. *NEW-CLEAN* *BAKYARD PATIO* *CABLE TV*",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Smoking allowed",
-              "Hot tub",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Safety card",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Sal",
-              "location": "US",
-              "about": "",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/217e78d8-bb65-46c5-af28-ecd1939e1945.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "62130666"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "New York",
-              "address": "Brooklyn, NY, United States",
-              "lat": -73.94854,
-              "lan": 40.70998
-            },
-            "reviews": [
-              {
-                "at": "2016-03-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164facca",
-                  "fullname": "Franz",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
-                  "id": "3010632"
-                },
-                "txt": "The host canceled this reservation the day before arrival. This is an automated posting."
-              },
-              {
-                "at": "2016-05-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf76",
-                  "fullname": "Shanna",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "23181786"
-                },
-                "txt": "Fantastic place. Clean and convenient to all of Williamsburg. My parents actually stayed here and the host was great to them, checkIng in all the time and making sure they had everything they needed. "
-              },
-              {
-                "at": "2016-05-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2cc",
-                  "fullname": "Agustin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
-                  "id": "60482808"
-                },
-                "txt": "Todo perfecto, ningun problema. Departamento muy lindo en una zona muy buena."
-              },
-              {
-                "at": "2016-05-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2d9",
-                  "fullname": "Raymond",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "27629646"
-                },
-                "txt": "everything nice and easy and good neighborhood too.\r\nI enjoyed my trim to NYC.\r\nThanks!"
-              },
-              {
-                "at": "2016-05-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac18",
-                  "fullname": "Robert",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
-                  "id": "5008015"
-                },
-                "txt": "Great apartment and backyard patio in a great location!!\nWalk to anything you could want in Willimsburg or a short subway or uber ride to NYC for everything else. Nicely updated apartment with easy on street parking and wonderful hosts and recommendations. Highly recommend!!"
-              },
-              {
-                "at": "2016-06-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe19",
-                  "fullname": "Jack",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg",
-                  "id": "75277003"
-                },
-                "txt": "This place was awesome. Huge space in a perfect location close to bars and restaurants etc. The owner was very nice and accommodating. Took me a while to pick out an Air bnb in NYC because they were all too \"lived in\" this one didnt feel like i was invading somebody's home. Kind of like a two story hotel- i loved it. Also great backyard"
-              },
-              {
-                "at": "2016-06-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad2e",
-                  "fullname": "Nick",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "14272400"
-                },
-                "txt": "Everything was wonderful! Sal was very easy to work with and made sure that we had a great stay. We had a great stay; I'll definitely be back soon!"
-              },
-              {
-                "at": "2016-07-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb6dc",
-                  "fullname": "Rocio",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "76415018"
-                },
-                "txt": "neighborhood is pleasant and host was excellent"
-              },
-              {
-                "at": "2016-09-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf07",
-                  "fullname": "Marek",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/73.jpg",
-                  "id": "2752452"
-                },
-                "txt": "Great place for NY trip. Subway nearby. The host is on every call, very helpful. There was a plumbing problem during our stay, fixed immidetly by Sal. \nDefinitly can recomend the place"
-              },
-              {
-                "at": "2016-09-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb092",
-                  "fullname": "Eric",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "74173817"
-                },
-                "txt": "The hosting was taken care of by Luis, who was fantastic and went out of his way to make me feel welcome.  He was terrific.  \r\n\r\nNeighborhood was good and the L train was easy to get to and the place was super clean."
-              },
-              {
-                "at": "2016-09-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb12b",
-                  "fullname": "Micheal",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
-                  "id": "51661745"
-                },
-                "txt": "The apartment is on the ground floor it's a 2BR-1B with a living room kitchen combo. One bedroom downstairs. It was very comfortable, newly remodeled, modern and Luis is a jewel (he even went so far as to go get us some canoli and sfoglitella from the best Italian bakery in Williamsbug when my Italian wife asked him about them). Fairly close to the L & M subway lines. Maybe 10 minutes to Union Square hub in Manhattan. \r\n\r\nHighly recommended. "
-              },
-              {
-                "at": "2016-09-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae81",
-                  "fullname": "Carolyn",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
-                  "id": "91512091"
-                },
-                "txt": "We had a great stay! The host was very flexible about check-in and check-out time, and made it clear he was available if we needed anything (we didn't.) location was perfect, 5 minutes to L train into Manhattan, but on a quiet street. Spacious enough to sleep four friends very comfortably (two beds + two futon-style couches). We really enjoyed sitting out on the back patio as well. "
-              },
-              {
-                "at": "2016-10-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb40c",
-                  "fullname": "Stuart",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
-                  "id": "35311290"
-                },
-                "txt": "Sal was most helpful and reafy to help with anything.  The apartment is in a super location close to all Williamsburg smenities and the L line. I would recommrnd jt to anyone and would certainly stay there again if I had the chance."
-              },
-              {
-                "at": "2016-10-06T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb327",
-                  "fullname": "Martin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
-                  "id": "12765279"
-                },
-                "txt": "The host was Great! Very helpful, even with my elderly father. My son lives nearby, so I knew it was a great neighborhood! Free bottled water and coffee was nice. Beautiful patio and the apartment was clean, beautifully furnished and so comfortable. I would definitely stay there again!,"
-              },
-              {
-                "at": "2016-10-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb779",
-                  "fullname": "Gianna",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
-                  "id": "4143463"
-                },
-                "txt": "Really good experience. We didn't spend much time hanging out in the apartment (though the patio was tempting) but it was close to friends, train, and plenty of good food. Will certainly book again!"
-              },
-              {
-                "at": "2016-10-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb762",
-                  "fullname": "Lene",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "12285705"
-                },
-                "txt": "We arrived late at night, but Louis was waiting for us. He even showed us a place to buy dinner, although it was after midnight.\r\nThe neighbourhood is great and you can be in Manhattan in 20 minutes.\r\nThe appartemt was really nice and suited us well (2 adults and 2 teenagers). Louis was only a phone call away if we had questions and he popped by a few times to chek on us.\r\nWould definitely stay again."
-              },
-              {
-                "at": "2016-11-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbffb",
-                  "fullname": "Jacques",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg",
-                  "id": "51298937"
-                },
-                "txt": "Le duplex est parfaitement situé dans Brooklyn, à 5 minutes à pied du métro et du centre de Williamsburg, quartier le plus en vogue de Brooklyn. L'appartment n'est qu'à 15 minutes en métro du cœur de Manhattan.\nNous remercions tout particulièrement Luis pour son accueil et ses conseils."
-              },
-              {
-                "at": "2016-11-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb378",
-                  "fullname": "Erin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
-                  "id": "5143901"
-                },
-                "txt": "Sal was an excellent host. The apartment was really great and also he was really responsive and accommodating!"
-              },
-              {
-                "at": "2016-11-14T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfc7",
-                  "fullname": "Barry",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "30950396"
-                },
-                "txt": "We had a great time staying here. Host was waiting for us upon arrival. Super friendly guy, real NYer. Apartment was spotless when we arrived and had everything you would need. Truth be told the pictures on the site don't do it justice. Great location walking distance to nice bars, restaurants etc. I'll be staying here next time i'm back in NY for sure. 10/10"
-              },
-              {
-                "at": "2016-12-12T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb439",
-                  "fullname": "Adam",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
-                  "id": "48672348"
-                },
-                "txt": "Sal was great! I booked his place to house two trainees coming in to nyc from las vegas for work and he was super helpful with meeting up with them to get the keys to the place. The apartment was great, located in a safe part of williamsburg, very convenient to trains, restaurant and bars! He checked in with the two ladies during their stay to ensure that everything was going well. I would recommend this place to anyone who is looking for a friendly host and a nice place to stay in williamsburg brooklyn! "
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Amazing views",
-              "Play",
-              "Off-the-grid"
-            ],
-            "statReviews": {
-              "cleanliness": 4.3,
-              "communication": 4.1,
-              "checkIn": 4.9,
-              "accuracy": 4.7,
-              "location": 4.7,
-              "value": 5
-            }
-          },
-          {
-            "_id": "s116",
-            "name": "Newly and comfortable apt",
-            "type": "OMG!",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436867/yocip4igdbruuh2grzpf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437017/gjyzgdjngyrhfrj2loxz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437330/mmhkmfvg8o3freucyekc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437025/haliwehueqfkmxo1tv7j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436978/mhqf1tttzqr33ecrrwb2.jpg"
-            ],
-            "price": 463,
-            "summary": "The comfortable apartment at the heart of busy Tsim Sha Tsui.2minutes walk to the MTR/Subway station.There are many biggest shopping mall around here:K-11,The One,Harbour city ect.",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Kitchen",
-              "Doorman",
-              "Elevator",
-              "First aid kit",
-              "Essentials",
-              "Shampoo",
-              "Hair dryer",
-              "Iron"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 0,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Michelle&May",
-              "location": "Hong Kong",
-              "about": "",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/37031267/profile_pic/1441373303/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "37031267"
-            },
-            "loc": {
-              "country": "Hong Kong",
-              "countryCode": "HK",
-              "city": "Hong Kong",
-              "address": "香港, 九龍, Hong Kong",
-              "lat": 114.17545,
-              "lan": 22.29643
-            },
-            "reviews": [
-              {
-                "at": "2016-03-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf0f",
-                  "fullname": "Sindy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/70.jpg",
-                  "id": "43746884"
-                },
-                "txt": "It's a very warm and cosy room, where gives me some \"home feeling\"! There has very convenient transportation around, for going everywhere you want to go in Hong Kong.Most importantly, the owner Michelle is a nice person, who prepared everything of daily use for me. It was a great experience to live here."
-              },
-              {
-                "at": "2016-04-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4da",
-                  "fullname": "William",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg",
-                  "id": "24502983"
-                },
-                "txt": "The room is as picture posted, not roomy at all, with compact washroom and kitchen and sofa and everything (but all works well). Although it is not quite spacious, that is how a typical simple Hong Kong apartment for 2 looks like. \r\nThe location of the room is at the heart of TST, easy to get around to everywhere, so convenient to shopping and everything. Michelle is reasonable, helpful and resourceful. She is with much hospitality and send us some local pastry as gift on leaving."
-              },
-              {
-                "at": "2016-04-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb903",
-                  "fullname": "Molinta",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "64694281"
-                },
-                "txt": "這是一段非常完美的民俗體驗｡Michelle非常的和善真誠｡APT在尖沙咀的中心,離最近的地鐵站不到五分鐘｡交通非常的便利,所以購物和遊玩都有很好的體驗｡Michelle非常熱情的為我們介紹了附近一些很好的購物點和回答了我們一些問題｡APT裡的家具陳設都很有家的感覺,這是一個很適合兩個人居住的公寓｡"
-              },
-              {
-                "at": "2016-04-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbda8",
-                  "fullname": "丹琳",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "66007064"
-                },
-                "txt": "帮老爸老妈订的住宿｡他们第一次去香港 什么都不通 老板担心他们找不到 在地铁站去接应 并且给了很多帮助｡游玩两天要离开的时候得知他俩未去太平山 又主动提出免费帮忙管理行李 建议他们去游玩 晚上两个人开心地回到了深圳｡感谢Michelle的服务 让他们的行程更加完美｡"
-              },
-              {
-                "at": "2016-04-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1b4",
-                  "fullname": "Daniel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
-                  "id": "10915734"
-                },
-                "txt": "Cozy and clean. Everything was provided, including towels and drinks. A++"
-              },
-              {
-                "at": "2016-04-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb68f",
-                  "fullname": "Kally",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "14973175"
-                },
-                "txt": "麻雀虽小,五脏俱全!很干净也很舒适,感觉有如在自己家似的｡下次如果想尝试在九龍岛住还会想要和 Michelle&May 定香港住宿｡谢谢她的亲切友善与小礼物｡(Hope I'm using the appropriate chinese words!)\r\n\r\nIt was a very pleasant first experience with Airbnb with Michelle&May. Before the trip, we were given immediate and friendly response from host and on the day of our arrival, she came to pick us up at the nearest bus stop, where we took a direct cityflyer bus from the Airport as per our host's guidance.\r\n\r\nApt was tidy, clean, cosy and comfortable for our three nights stay. Host even provided snacks/tidbits and several drink mix. There were bedroom slippers, electric kettle, microwave, cups, bowls and utensils, TV, basic toiletries and hairdryer. We were told that the temperature of the aircon could not be adjusted but that did not affect us at all because the temperature was just right throughout our stay during the rainy season period. \r\n\r\nWe were also given a precise mini tour of what was in the apt and how we could use the very convenient sofa bed (which we didn't use in the end because the third person did not stay with us). There's wifi in the apt as well. However, we did experience some connection issues with the TV on one night which we gave up after awhile when we couldn't watch the few channels we wanted to. \r\n\r\nIt's a very quiet building located extremely convenient to the MTR, just 2 minutes walk to the nearest exit (and probably another 5-8 mins walk before you reach the MTR gantry). Right across the building on the ground floor there are two popular cafes and one ice cream shop that I would highly recommend and they need no introduction, just (Hidden by Airbnb) it if you're a fellow cafehopper/dessert person. \r\n\r\nIt is also very near the k11 mall, an art mall that I loved a lot and even managed to check out the Urban Sense art exhibition for free! (Because we snapped a photo of the exhibition board and posted it on our social media accounts but thankfully we went in for free as there were nothing much in there and we were basically out in 15 minutes. But still, do check it out if you happen to be there and follow the instructions to get the free entrance!)\r\n\r\nAt the end of our stay, our host even surprised with a little gift - a box of Jenny Bakery cookies, which we really appreciated a lot :)\r\n\r\nOverall, it's a nice, cosy little apt for 2-3 pax accommodation in Hong Kong and definitely cheaper but value-for-money alternative compared to hotel stay. It was smaller than I had imagined since I have only stayed in hotel during all my trips to HK located on the Hong Kong island but truth be told, I wouldn't mind heading back to book my stay with Michelle&May, probably check out their other listings which are all also located on Kowloon :)"
-              },
-              {
-                "at": "2016-04-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc83",
-                  "fullname": "Phan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "30073582"
-                },
-                "txt": "The location is great. 7eleven and Wellcome are just in front of your flat. The french cafe across the street serves tasty breakfasts with reasonable prices. The TST MTR station is just around the corner. The host responded  swiftly and was very helpful."
-              },
-              {
-                "at": "2016-05-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb653",
-                  "fullname": "J",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "63877505"
-                },
-                "txt": "Although the room is small, which is a norm in HK, this place was not claustrophobic at all. The water heater wasn't really working well and the wifi had issue but Michelle went out of her way to solve the problems. Pantry was well stocked with fruits & snacks which was a pleasant touch. \r\n\r\nThanks for being a wonderful host and making our short stay enjoyable. Definitely recommended."
-              },
-              {
-                "at": "2016-05-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae4b",
-                  "fullname": "Mengdi",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "68860932"
-                },
-                "txt": "所在位置很方便,离地铁站离机场往返的A21大巴都很近,步行两分钟左右｡ 房间很小,浴室更小,不过房东人很好,感觉很斯文,房间也布置得很温馨｡ 虽然4个人也能睡,但是建议还是别超过2个人吧｡"
-              },
-              {
-                "at": "2016-05-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae1d",
-                  "fullname": "Cat",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
-                  "id": "66711682"
-                },
-                "txt": "Great experience! Michelle was a wonderful host, told us what station exit to use, and met us in the rain to walk us to the unit. She assured us we could contact her anytime for additional questions (we didn't end up having any). She even had some basic drinks and snacks available in the fridge. \r\n\r\nThe place is exactly as advertised. A tiny but comfortable place to stay in a great part of town. It's super close to Tsim Sha Tsui Station/East Tsim Sha Tsui Station, which gets you anywhere else you want to go. "
-              },
-              {
-                "at": "2016-06-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb701",
-                  "fullname": "小芳",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg",
-                  "id": "29140869"
-                },
-                "txt": "hk房间都很小,这次住的算大的了｡房东每天都会来做卫生,房间干净整理的宜家风格｡住处离地铁站很近,两分钟就到｡周边步行就可以购物了｡房东人很nice,那天到的时候hk很热,房东已经先把房间的空调打开了｡还准备了零食水果｡离开的时候,还为我们准备了水｡"
-              },
-              {
-                "at": "2016-06-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4bf",
-                  "fullname": "Yan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "64015503"
-                },
-                "txt": "龙小姐人超级好,到巴士站接我们去公寓,而且还贴心的准备了纯净水小食还有水果｡公寓小巧而干净,地理位置非常好,走路几分钟就是尖东尖沙咀地铁站｡走的时候还送了小熊饼干作为礼物,下次来HK还会选择入住,多谢"
-              },
-              {
-                "at": "2016-06-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb009",
-                  "fullname": "Sally",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
-                  "id": "74979918"
-                },
-                "txt": "Chic but clean. Water, snacks prepared. Max two ppl. Very near to MRT. "
-              },
-              {
-                "at": "2016-06-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb33d",
-                  "fullname": "Maggie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
-                  "id": "26939502"
-                },
-                "txt": "Michelle was an awesome host. She was easy to communicate with and always replied to messages promptly. She was there to meet us both times that we stayed with her and went above and beyond to make our stays comfortable. The apartment is smallish but is to be expected in HK. Plus with so much to do in HK, you'll hardly be home anyway! The location is great and close to East TST and TST MTR stations, making it easy to get around to other areas. It is close to the heart of TST with great food and shopping options within walking distance. I would definitely recommend Michelle's apartment!"
-              },
-              {
-                "at": "2016-06-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faff9",
-                  "fullname": "萌",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg",
-                  "id": "76027622"
-                },
-                "txt": "Michelle人超级好,特别幸运可以连着两天都选到这个房子!房子地理位置很好,就在尖沙咀地铁站对面,市中心的位置｡房子很棒的就是干净又舒适,各种设备都很齐全,而且Michelle为我们准备了水果还有一些零食｡很棒的一次住宿,如果有机会,下次还要选这里!"
-              },
-              {
-                "at": "2016-06-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb719",
-                  "fullname": "Miaoqi",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "30519401"
-                },
-                "txt": "Small but cozy apartment:) the host is so nice!! She prepared fruits and tidbits for us which makes us feel like at home:) location is also great! 1min walk to TST MTR with a lot good food nearby."
-              },
-              {
-                "at": "2016-06-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1e6",
-                  "fullname": "Rosa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
-                  "id": "74309040"
-                },
-                "txt": "Michelle的回覆很快速,我們抵達時找不到地方,她馬上過來接我們,很親切｡到了房間,她已經將冷氣打開,冰箱也準備了飲料｡雖然我們中間有一天去其他地方玩,沒有住在她那裡,但她把鑰匙交給我們,還讓我們把行李放在房內,隔天回來冰箱裡有好吃的櫻桃,感覺很窩心｡房間靠近地鐵站,很方便｡"
-              },
-              {
-                "at": "2016-07-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb16f",
-                  "fullname": "Kaye",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
-                  "id": "69583573"
-                },
-                "txt": "I traveled with my family, 3 adults and a toddler. Our stay with Michelle & May was enjoyable and hassle-free. Michelle assisted us in every way, from fetching us from Hyatt Regency Hotel (since we took the free ride from Airport Express), printing out vouchers, answering all our requests and queries and providing us complimentary fruits and drinks. She also gave my 3-year old daughter Mrs. Fields cookies as an advanced birthday gift! The location is accessible to TST MTR, 7 eleven, restos and shopping centers. We will definitely go back! \n❤"
-              },
-              {
-                "at": "2016-07-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbac7",
-                  "fullname": "Lilia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "13023286"
-                },
-                "txt": "We had a wonderful stay and Michelle was a great host!"
-              },
-              {
-                "at": "2016-07-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb404",
-                  "fullname": "Weiwei",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "78390668"
-                },
-                "txt": "因为看BigBang演唱会所以有缘住进姐姐的房子 虽然只住了一晚但是感觉很温馨 房子虽小 但是五脏俱全 姐姐非常贴心 来地铁口接我们 又教我们怎么坐车去亚洲博览馆 还为我们准备了饮料和水果 房子很干净 床也很舒服 下次来香港旅游还会住姐姐的房子哈"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Beachfront",
-              "Private rooms",
-              "Campers"
-            ],
-            "statReviews": {
-              "cleanliness": 4.1,
-              "communication": 4.4,
-              "checkIn": 4.5,
-              "accuracy": 5,
-              "location": 4.4,
-              "value": 4.3
-            }
-          },
-          {
-            "name": "302 Kanai A Nalu Ocean front/view",
-            "type": "Beachfront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437013/gz1hfzv47xzfwcmosadc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437168/vbmfmdmwrxt7xfwbsw7c.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436582/vv0y7twjl7zcj9g71sjf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437033/rhw6gycttaimzocc1poz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437361/h7fdhfrwoo9jtcgwqzn7.jpg"
-            ],
-            "price": 400,
-            "summary": "Welcome to Kana'i A Nalu a quiet resort that sits on the ocean away from the road. This property has the BEST ocean front views of Molokini Crater and Kaho'Olawe Island. There is a resort swimming pool and BBQs next to the ocean. This gorgeous 2 bed 2 bath unit is on the third floor look over the Pacific Ocean with views of Sugar Beach and Mount Haleakalea!  The condo is light and bright with all the creature comforts of home.  The beds are very comfortable.",
-            "capacity": 6,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Pool",
-              "Kitchen",
-              "Free parking on premises",
-              "Elevator",
-              "Free street parking",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "First aid kit",
-              "Essentials",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Self check-in",
-              "Lockbox",
-              "Babysitter recommendations",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Single level home",
-              "BBQ grill",
-              "Patio or balcony",
-              "Garden or backyard",
-              "Beach essentials",
-              "Long term stays allowed",
-              "Wide hallway clearance",
-              "Step-free access",
-              "Wide doorway",
-              "Flat path to front door",
-              "Well-lit path to entrance",
-              "Disabled parking spot",
-              "Step-free access",
-              "Step-free access",
-              "Step-free access",
-              "Waterfront",
-              "Beachfront"
-            ],
-            "bathrooms": 2,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Kathy",
-              "location": "Hawaii, United States",
-              "about": "I am the owner of Maui Vision Rental. Maui Vision became a reality and a business starting with my personal condo at the Kihei Akahi Resort C618.\r\n\r\nMaui Vision is a business I love because I get to share the Aloha Spirit, the beauty of the land, and talk story with people from around the world. It is nice to know that we can contribute to someone’s Hawaiian vacation experience in a positive way. We love to hear back from our happy guests.\r\n\r\nI used to live on the island of Oahu with my US Navy family when I was young.  We later moved to Southern California.  I knew one day I would return to Hawaii, the place I fell in love with long ago. I took a leap of faith and purchased my Maui condo June 2002 this was the beginning of fulfilling her prophecy to once again return to Hawaii soil.\r\n\r\nI am a tropical expression artist who paints on canvas and etched metal.  My work is inspired by the beauty of the islands and has been displayed in several Maui art galleries over the years.  I am a writer and have my first book on Amazon.  I recently took up hula dancing and love to immerse myself in the culture and grace of this island.\r\n\r\nI have over 25 years of business administration and customer service experience working for large corporations and high tech startups.\r\n\r\nIf you are in need of a caring Realtor here on Maui, please contact Kathy McCartney RS#77317 of La Costa Realty Hawai’i, LLC Brokerage Lic #18349 .",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/ddcc4146-9abc-4f4d-b347-8f30deb10f6c.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "733802"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "Maui",
-              "address": "Wailuku, HI, United States",
-              "lat": -156.5039,
-              "lan": 20.79664
-            },
-            "reviews": [
-              {
-                "at": "2016-09-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf63",
-                  "fullname": "Mony",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
-                  "id": "61858124"
-                },
-                "txt": "We were the group of five, each of us was so in love with this place, great view and so peaceful , looking forward to come back soon."
-              },
-              {
-                "at": "2016-12-25T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1f2",
-                  "fullname": "Jerome",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "100887637"
-                },
-                "txt": "Great place to stay and enjoy the whales view"
-              },
-              {
-                "at": "2016-12-30T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbcf9",
-                  "fullname": "Chris",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
-                  "id": "11906819"
-                },
-                "txt": "Everything was great, the waves put us to sleep every night and the deck/porch was very nice and relaxing.  Plenty of amenities for pina coladas and other fun island cocktails to make in the kitchen.  Along with cooking appliances to make some easy meals if you don't want to eat out every night.  Easy walk down to grass field and beach access right there.  Perfect for how many guest we had (5-6). Price was fair especially for the holiday week rates.  Left some extra body boards for future guests to enjoy.  Thank you Kathy for sharing your home.  Aloha "
-              },
-              {
-                "at": "2017-01-02T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbbfa",
-                  "fullname": "Anne",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "21501714"
-                },
-                "txt": "Very clear communications, good sleeping arrangements for (4). Comfortable and clean place to stay."
-              },
-              {
-                "at": "2017-01-05T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb64e",
-                  "fullname": "Tiffany",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "1557287"
-                },
-                "txt": "The condo was PERFECT for 4 people: myself, my husband, my mother and her sister. The view was beautiful, the kitchen was fantastically equipped, the condo community went very quiet at night and the lovely sounds of the ocean waves rocked you to sleep each night. We were there in January and it was quite pleasant all day, but I think during the hotter months the front bedroom could get warmer. All bedrooms had windows that would open and most of time there was a strong breeze blowing through the entire condo. The general location, central Maui, was perfect as well. Just an excellent place to vacation."
-              },
-              {
-                "at": "2018-06-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb888",
-                  "fullname": "Lindsay",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
-                  "id": "36764427"
-                },
-                "txt": "Great place! Would definitely book here again!"
-              },
-              {
-                "at": "2018-08-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf97",
-                  "fullname": "Ryan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
-                  "id": "69311677"
-                },
-                "txt": "Book this place.... seriously!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Luxe",
-              "Countryside",
-              "Private rooms"
-            ],
-            "statReviews": {
-              "cleanliness": 4.8,
-              "communication": 4.8,
-              "checkIn": 4.6,
-              "accuracy": 4.8,
-              "location": 4,
-              "value": 4.3
-            }
-          },
-          {
-            "name": "Spacious, Sunny Room in Park Slope",
-            "type": "Amazing pools",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436380/ez5caladc00mgsssl6ws.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436597/l90ukcpzpv6yvv6vhsnd.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436937/mkbcjfockxezgrvimska.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436266/num9wnb6uzdsvqr6nyuu.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437358/cy8kzj8jeofwkev6tlq9.jpg"
-            ],
-            "price": 85,
-            "summary": "Spacious, sunny room in owner occupied house in the heart of Park Slope. Shared  bathroom with shower/bath tub. Steps away from restaurants/bars and shopping. Within walking distance of major subway lines, Prospect Park, BAM and Barclay Center.",
-            "capacity": 2,
-            "amenities": [
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Heating",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Fire extinguisher",
-              "Shampoo",
-              "Lock on bedroom door",
-              "Hangers",
-              "Hair dryer",
-              "Iron"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Lisah",
-              "location": "New York, New York, United States",
-              "about": "",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/24253453/profile_pic/1434065920/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "24253453"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "New York",
-              "address": "Brooklyn, NY, United States",
-              "lat": -73.98057,
-              "lan": 40.67549
-            },
-            "reviews": [
-              {
-                "at": "2016-06-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb74c",
-                  "fullname": "Francesca",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "66322625"
-                },
-                "txt": "Lisa's house was beautiful and in an incredible location. The room was comfortable and immaculate. Lisa was a very relaxed and gracious host with lots of useful local knowledge.  I recommend her highly."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Golfing",
-              "Ryokans",
-              "Minsus"
-            ],
-            "statReviews": {
-              "cleanliness": 4.1,
-              "communication": 4.5,
-              "checkIn": 4.6,
-              "accuracy": 4.4,
-              "location": 4.3,
-              "value": 4.4
-            }
-          },
-          {
-            "name": "Apartamento en casco antiguo",
-            "type": "Islands",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436509/rii32aibnhkoeejsohie.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437006/kcsenznwf3pnka6hjwoh.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436801/mcuu1w2188ndpd6hezzt.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436385/sorbz7rdtxacu1ds9vel.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436993/yzxnnw83e9qyas022au4.jpg"
-            ],
-            "price": 55,
-            "summary": "Apartamento en el centro del casco antiguo de Barcelona, a 50 mts del mar, a 1 minuto de Las Ramblas, Borne, Plaza Real y Barceloneta.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Paid parking off premises",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Safety card",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "High chair",
-              "Crib",
-              "Room-darkening shades",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Cleaning before checkout",
-              "Wide doorway",
-              "Step-free access",
-              "Wide clearance to bed",
-              "Step-free access",
-              "Host greets you",
-              "Handheld shower head"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 3,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Luis",
-              "location": "Barcelona, Catalonia, Spain",
-              "about": "",
-              "responseTime": "within a few hours",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/22076771/profile_pic/1415724202/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "22076771"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, Catalunya, Spain",
-              "lat": 2.17877,
-              "lan": 41.37903
-            },
-            "reviews": [
-              {
-                "at": "2016-06-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb3db",
-                  "fullname": "Tim",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
-                  "id": "65247543"
-                },
-                "txt": "Amazing condo, great host. The perfect air BnB experience "
-              },
-              {
-                "at": "2016-07-31T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbeae",
-                  "fullname": "Danny",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
-                  "id": "61819754"
-                },
-                "txt": "We had a phenomenal time and full experience at this apartment. Luis is a wonderful host, an excellent guy and was overly helpful whenever he could lend a recommendation or helpful hand. The apartment itself is spacious, clean, a great place to live in a perfect location. You're in the heart of the Gothic neighborhood close to culture, architecture, supermarkets and restaurants. We spent two months here and enjoyed every minute of it. "
-              },
-              {
-                "at": "2017-02-19T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe8c",
-                  "fullname": "Artea",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "99456012"
-                },
-                "txt": "Muy buen piso, muy recomendable. El piso esta muy bien equipado y es muy acogedor. Bien situado. El dueño Luis es encantador, nos ha ayudado mucho y ha estado disponible todo el rato. Muy atento con nosotras."
-              },
-              {
-                "at": "2017-09-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb058",
-                  "fullname": "Andrew",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
-                  "id": "21779441"
-                },
-                "txt": "Great friendly Host in a clean and very spacious apartment. Good location - great stay."
-              },
-              {
-                "at": "2017-10-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4c6",
-                  "fullname": "Kar",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
-                  "id": "3254062"
-                },
-                "txt": "The Apartment is centrally located.  Its close to Las Ramblas and the beach.  The unit is updated and clean.  The bathroom and the kitchen have a small window opening to the outside.  The windows in the Living room open into the stairwell.  Two bedrooms have a small balcony opening up into the alleyway.  Mariatchi Bar is downstairs.  Its great to get a drink just downstairs but it can get a bit noisy at night on the weekends.  (Because the buildings are so close together, any normal conversation seems loud as the sound bounces off the buildings)  Overall, Luis has an awesome place and I would definitely come back next year when I visit Barcelona."
-              },
-              {
-                "at": "2018-01-13T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb3d0",
-                  "fullname": "Rosario",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "39147990"
-                },
-                "txt": "Sobre todo q hay mucho ruido de noche y los colchones (Website hidden by Airbnb) calle de noche está muy fea pero no se mete nadie contigo pero si da miedo y hay mucho escándalo y gente bebida en la calle"
-              },
-              {
-                "at": "2018-02-06T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba64",
-                  "fullname": "Александр",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "146599846"
-                },
-                "txt": "The host canceled this reservation 174 days before arrival. This is an automated posting."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Earth homes",
-              "Play",
-              "New"
-            ],
-            "statReviews": {
-              "cleanliness": 4.2,
-              "communication": 5,
-              "checkIn": 4,
-              "accuracy": 4.6,
-              "location": 4.6,
-              "value": 4.7
-            }
-          },
-          {
-            "name": "Elegant Flat in the Center",
-            "type": "Islands",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437330/mmhkmfvg8o3freucyekc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436453/ndl8odasqgnyquvsbalp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436402/jtsg0m0t0x0ciyuzvbun.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436948/vgfxpvmcpd2q40qxtuv3.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436306/be2v9wssznxs4hebudb4.jpg"
-            ],
-            "price": 190,
-            "summary": "A part of a famous Poet Orhan Veli Kanık's poem: I am listening to Istanbul, intent, my eyes closed.  The Grand Bazaar is serene and cool,  A hubbub at the hub of the market,  Mosque yards are brimful of pigeons,  At the docks while hammers bang and clang  I am listening to Istanbul, intent, my eyes closed.  In the heart of Istanbul, and a step back from Bosphorus, our flat is ideal for a guest looking for to visit magical corners to listen epic Istanbul.",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Wifi",
-              "Kitchen",
-              "Paid parking off premises",
-              "Smoking allowed",
-              "Heating",
-              "Family/kid friendly",
-              "Washer",
-              "Essentials",
-              "Shampoo",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_50",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Pelin",
-              "location": "Çalışıyorum",
-              "about": "I live in Cihangir and love to meet people and share our lively neighbourhood with them.",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/d741db02-7680-4a52-940e-52dae808cd1f.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "2769925"
-            },
-            "loc": {
-              "country": "Turkey",
-              "countryCode": "TR",
-              "city": "Istanbul",
-              "address": "Istanbul, Istanbul, Turkey",
-              "lat": 28.98158,
-              "lan": 41.0314
-            },
-            "reviews": [
-              {
-                "at": "2017-01-08T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc04e",
-                  "fullname": "Jorge",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "29441821"
-                },
-                "txt": "The apartment is as shown in the pictures, it is very clean and in a nice location. The host is superb! "
-              },
-              {
-                "at": "2017-10-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf34",
-                  "fullname": "Rene",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
-                  "id": "83313833"
-                },
-                "txt": "Pelin’s cosy apartment lies in a quiet street in a vivid part of Istanbul. It has all the amenities to make you feel at home. The bed was good. And the apartment was very clean. T1 to the airport is 5 min walk. Pelin is a wonderful host too."
-              },
-              {
-                "at": "2017-11-17T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0e7",
-                  "fullname": "Elizabeth",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
-                  "id": "49307542"
-                },
-                "txt": "Comfy and charming apartment with 20+ foot high ceilings. The flat is in a great neighborhood. There are hip cafes and restaurants, and little markets all around, and a terrific bakery right across the street sells some of the best simit and other small breads in town. It is also easy to walk to the center of Cihangir, Karikoy, or Taxsim. Pelin is an attentive and helpful host. Great stay in my favorite Istanbul neighborhood!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Skiing",
-              "OMG",
-              "Amazing views"
-            ],
-            "statReviews": {
-              "cleanliness": 4.5,
-              "communication": 4,
-              "checkIn": 4.4,
-              "accuracy": 4.3,
-              "location": 4.4,
-              "value": 4.9
-            }
-          },
-          {
-            "name": "Westin Kaanapali KORVS 2BR OCEAN VIEW",
-            "type": "Amazing views",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437349/thl7eoxar7dc7kpbahhj.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436236/ctnbnqazpqhotjcauqwp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436571/fvqbazrysqpymjlhhdqu.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436811/ym5nh1anownexsyzgbqq.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436948/vgfxpvmcpd2q40qxtuv3.jpg"
-            ],
-            "price": 799,
-            "summary": "Westin Kaanapali Ocean Resort Villas South timeshare - Pay resort: $14-20/day, stays under 7 night $38/res - Inquire about availability, I review then offer/approve if available :) - READ \"The Space\" for cleaning/etc AND brief explanation about timeshare reservations - Guaranteed view MUST BE 7 nights (mult weeks avail), check-in Fri/Sat/Sun. More/Less nights @ higher cost - Wheelchair accessible / ADA, call resort directly to ensure U receive. If U need ADA U MUST inform us BEFORE booking.",
-            "capacity": 8,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Pool",
-              "Kitchen",
-              "Free parking on premises",
-              "Doorman",
-              "Gym",
-              "Elevator",
-              "Hot tub",
-              "Heating",
-              "Family/kid friendly",
-              "Suitable for events",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Safety card",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Self check-in",
-              "Building staff",
-              "Private entrance",
-              "Room-darkening shades",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Ethernet connection",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Single level home",
-              "BBQ grill",
-              "Patio or balcony",
-              "Garden or backyard",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Wide hallway clearance",
-              "Step-free access",
-              "Wide doorway",
-              "Flat path to front door",
-              "Well-lit path to entrance",
-              "Disabled parking spot",
-              "Step-free access",
-              "Wide doorway",
-              "Wide clearance to bed",
-              "Step-free access",
-              "Wide doorway",
-              "Step-free access",
-              "Wide entryway",
-              "Waterfront",
-              "Beachfront"
-            ],
-            "bathrooms": 2,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Patty And Beckett",
-              "location": "Eureka, California, United States",
-              "about": "Adventurous couple loves to travel :)",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/542dba0c-eb1b-4ab3-85f3-94d3cc8f87a4.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "36133410"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "Maui",
-              "address": "Lahaina, HI, United States",
-              "lat": -156.69171,
-              "lan": 20.936890000000002
-            },
-            "reviews": [
-              {
-                "at": "2016-12-31T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb43d",
-                  "fullname": "Darren",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "48633690"
-                },
-                "txt": "Wonderful hotel in a great location. Very family friendly and responsive.  We have traveled much through our life and always enjoy a hotel room that feels more day-to-day livable and  offers more of a home away from home feeling.   If you're looking for more than just a hotel room this is a great choice."
-              },
-              {
-                "at": "2017-04-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb506",
-                  "fullname": "Charles",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
-                  "id": "90247377"
-                },
-                "txt": "The beach and snorkeling directly out from the resort are fabulous!  We saw more sea turtles in front of the resort than on snorkeling tours."
-              },
-              {
-                "at": "2017-12-30T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb32c",
-                  "fullname": "Kerrin (Kerri)",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
-                  "id": "33758490"
-                },
-                "txt": "Great location, excellent property, fun vacation!"
-              },
-              {
-                "at": "2018-03-31T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf6d",
-                  "fullname": "Stacy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "63107049"
-                },
-                "txt": "We were very happy with our stay.  The place is a great location on Maui with awesome snorkeling right out in front. We also enjoyed the pools and restaurants on the property."
-              },
-              {
-                "at": "2019-02-23T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafc0",
-                  "fullname": "Kyle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/68.jpg",
-                  "id": "101675353"
-                },
-                "txt": "Lovely space! Cozy, clean with everything you need to relax and settle in quick. Very safe for kids and great resources to explore the surrounding area. Walking distance to the lodge and shuttle which is great!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "OMG",
-              "Earth homes",
-              "Minsus"
-            ],
-            "statReviews": {
-              "cleanliness": 4.1,
-              "communication": 5,
-              "checkIn": 5,
-              "accuracy": 4.8,
-              "location": 4.4,
-              "value": 4.2
-            }
-          },
-          {
-            "name": "Burgazada da çarşıya yakın daire",
-            "type": "OMG!",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436886/cvc2yfmhfg9dabfkyiqw.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437321/lb1j83rv5xox1ovn5pgz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436397/nde7l2hrwezdfzbvhczj.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436978/mhqf1tttzqr33ecrrwb2.jpg"
-            ],
-            "price": 348,
-            "summary": "Yeşillikler ve tipik ada evleri arasında yürüyüş yapmak, bisiklete binmek, yüzmek, S.F.Abasıyanık Müzesini gezmek, İstanbul un en güzel gün batımına şahit Kalpazankaya da yemek yemek, baharda mimoza toplamak, Marta yı anlamak koyunda yüzerken",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Kitchen",
-              "Heating",
-              "Family/kid friendly",
-              "Washer",
-              "First aid kit",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Children’s books and toys",
-              "Hot water",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Eser",
-              "location": "Istanbul, İstanbul, Turkey",
-              "about": "",
-              "responseTime": "within a day",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/fda23efa-e51c-40be-8cd8-3ab6ee05c140.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "57921954"
-            },
-            "loc": {
-              "country": "Turkey",
-              "countryCode": "TR",
-              "city": "Istanbul",
-              "address": "TR, Turkey",
-              "lat": 29.06648,
-              "lan": 40.87794
-            },
-            "reviews": [
-              {
-                "at": "2016-04-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faed0",
-                  "fullname": "Ayşegül",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
-                  "id": "17653239"
-                },
-                "txt": "Eser hanım harika bir ev sahibi.. Çok ilgili. Evinin yeri de harika. 3 kişi oldukça keyifli zaman geçirdik. Bizim için havlularımıza kadar her şeyi düşündü. Kendisine tekrar tekrar teşekkürler ve çok sevgiler.."
-              },
-              {
-                "at": "2016-04-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbde4",
-                  "fullname": "Elif",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "9489557"
-                },
-                "txt": "The host canceled this reservation 74 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2016-04-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdc1",
-                  "fullname": "Emre",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
-                  "id": "17797651"
-                },
-                "txt": "Eser Hanım, bize evi teslim ederken her ayrıntıyı açıkladı ve çok yardımcı oldu. Evin konumu çarşıya 3-4 dakika. Herşey çok güzeldi. Balkonda kahvaltı gerçekten çok (Website hidden by Airbnb) evde 2 çift kaldık. Yatak odasındaki yatakta hiçbir sorun yoktu fakat salondaki çekyatta kalan arkadaşlar,çekyatın eğiminden dolayı pek rahat uyuyamadıklarını söylediler. Eser hanım ilerde çekyatı değiştirmeyi düşünebilir.Onun haricinde herkese tavsiye ederim. "
-              },
-              {
-                "at": "2016-05-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb267",
-                  "fullname": "Erdinç",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
-                  "id": "6438210"
-                },
-                "txt": "Konum olarak çok uygun bir yerde. Ev temiz ve (Website hidden by Airbnb) 2 çift kaldık bize kurada çekyat düştü :) çok rahat olmasada pek sorun olmadı.Ev sahibi de her konuda çok yardımcı. (Bu arada ağaçtan da bir kaç tane erik yedik :) )"
-              },
-              {
-                "at": "2016-05-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc34",
-                  "fullname": "A Uygur",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
-                  "id": "51517088"
-                },
-                "txt": "Burgazadaya ilk defa gitmiştim ve sanirim şansliydim eser hanim çok ince zarif nezaketi ile bizimle çok ilgilendi birde ev çok hoş keyifliydi , tatil keyfi yaşamak için burgazada ve esere misafir olmak harikaydi sadece evde bir eksik vardi internet yoktu ama diblenmeye gelenler için internetsiz dünya daha güzel oluyormuş "
-              },
-              {
-                "at": "2016-05-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafc1",
-                  "fullname": "Eralp",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
-                  "id": "2932006"
-                },
-                "txt": "Harika bir ev. Birebir resimlerde olduğu gibi. Adanin merkezine çok yakin."
-              },
-              {
-                "at": "2016-05-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fb9d4",
-                  "fullname": "Gokcen",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "29469697"
-                },
-                "txt": "Eser Hanım, çok hoş, duyarlı ve düşünceli biri. Evinin zevkle döşenmiş olduğunu ve lokasyonun da hem sakinlik hem de merkezi olma açısından avantajını belirtmek isterim."
-              },
-              {
-                "at": "2016-05-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164facb8",
-                  "fullname": "Jing Yi",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "25578184"
-                },
-                "txt": "The apartment was lovely, nicely arranged and in a great location near the pier. Perfect for a quiet peaceful time with nature on the islands. Eser is a lovely host as well. "
-              },
-              {
-                "at": "2017-03-05T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb7e",
-                  "fullname": "Murat",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
-                  "id": "68115673"
-                },
-                "txt": "Eser Hanım gayet misafir perver, ev fotoğraflarda görüldüğü gibi, küçük bir ada tatili için kesinlikle konaklanılabilir, Teşekkürler Eser Hanım..."
-              },
-              {
-                "at": "2017-04-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba9c",
-                  "fullname": "Zeynep",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
-                  "id": "37248028"
-                },
-                "txt": "Adanın güzel bir köşesinde, yeşillikler içinde bir ev. İhtiyacınız olan her şeyi bulacaksınız. Balkonda oturmak da ayrıca keyifli. Eser Hanım çok yardımsever ve iyi bir ev sahibi."
-              },
-              {
-                "at": "2017-08-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbef2",
-                  "fullname": "Deniz",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
-                  "id": "135815076"
-                },
-                "txt": "Kendisinden memnun kaldik.Bazi ufak aksilikler yasasak ta elinden geldigince bize yardimci olmaya calisti."
-              },
-              {
-                "at": "2018-01-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba8a",
-                  "fullname": "Nazire",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
-                  "id": "162188655"
-                },
-                "txt": "Yılbaşını geçirmek için eser hanımın evinde kaldık. Havanın soğuk olması ve evin doğal olarak geç ısınması dışında çok güzeldi. Eser hanım da sağolsun sabahtan kombiyi yakıp evin soğuğunu kırmıştı. Gerçekten çok iyi niyetli bir ev sahibi, teşekkürler."
-              },
-              {
-                "at": "2018-02-18T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb290",
-                  "fullname": "Emre",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
-                  "id": "172873450"
-                },
-                "txt": "Eser hanım anlayışlı, ilgili ve samimi. Ev merkeze çok yakın. Sayesinde keyifli bir ada tatili geçirdik. Teşekkür ederiz!"
-              },
-              {
-                "at": "2018-05-06T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba50",
-                  "fullname": "Larissa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "16137228"
-                },
-                "txt": "Eser Hanım çok nazik ve yardımsever. Ada hakkında müthiş şeyler anlattı, sayesinde gezdiğimiz yerlerin hikayesini bilerek gezdik. Evin yeri de kendisi çok güzel, ayrıca ev çok temiz. Balkon çok keyifli, biz en kısa zamanda tekrar gelmeyi düşünüyoruz :)"
-              },
-              {
-                "at": "2018-05-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf6f",
-                  "fullname": "Christophe",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "3365496"
-                },
-                "txt": "Eser's place was absolutely perfect. Hidden away but with easy access to all amenities. The place is fully furnished and feels completely like home. Eser was by far one of the best hosts ever - she stayed late on the island to make sure she could  welcome us, and made sure we had absolutely everything we needed. Of course the island itself was also so lovely. Definitely recommended."
-              },
-              {
-                "at": "2018-06-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb74b",
-                  "fullname": "Nefise",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
-                  "id": "66703539"
-                },
-                "txt": "location is very good and it was joyful to spend time at flats nice balconies"
-              },
-              {
-                "at": "2018-06-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb7f5",
-                  "fullname": "Edip",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "129145696"
-                },
-                "txt": "Konumu güzel tavsiye ederim"
-              },
-              {
-                "at": "2018-06-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb775",
-                  "fullname": "Şilan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
-                  "id": "193851087"
-                },
-                "txt": "Eser Hanım oldukça iyi ve ilgili bir ev sahibiydi. Evin konumu çok güzeldi ve ev 4 kişinin konaklaması için gayet uygundu. Her şey için teşekkür ederiz :)"
-              },
-              {
-                "at": "2018-07-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad5c",
-                  "fullname": "Cemre",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "199746151"
-                },
-                "txt": "Konumu ve Eser Hanımın bizi adayla ilgili bilgilendirmesi güzeldi. Ev çok temiz değildi. Adada olmasından dolayı tabi ki bazı böcek sinek vardı. Fakat yerler fazla tozluydu. Genel olarak iyiydi"
-              },
-              {
-                "at": "2018-07-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164facff",
-                  "fullname": "Ayça",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "167325591"
-                },
-                "txt": "Dört arkadaş iki gece kaldık Eser Hanım'ın evinde ve çok memnun kaldık. Ev fotoğraflarda göründüğünden daha güzel, daha tatlı bir yer ve konumu da çok iyi. Her şey tertemizdi. Eser Hanım bize adayla ilgili ihtiyacımız olan bütün bilgileri verdi, güzel önerilerde bulundu. Burgaz'da tatil yapacak olanlara tavsiye ederim. "
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Skiing",
-              "Beachfront",
-              "Ryokans"
-            ],
-            "statReviews": {
-              "cleanliness": 4,
-              "communication": 4.7,
-              "checkIn": 4.2,
-              "accuracy": 4,
-              "location": 4.1,
-              "value": 4.5
-            }
-          },
-          {
-            "name": "Artsy 4BR in Plateau by Sonder",
-            "type": "Beachfront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436509/rii32aibnhkoeejsohie.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437025/haliwehueqfkmxo1tv7j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436310/acidri8oahpcoxa0idns.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436372/d32ktdsaqfoiogz5dpvf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437049/gpanmdffbwd9crhnzswa.jpg"
-            ],
-            "price": 152,
-            "summary": "At this Sonder, you'll love the bright and airy decor, expansive living area, and beautiful fully-equipped kitchen with modern appliances. Located in the Le Plateau, known for its assortment of delicious restaurants and relaxed cafes.",
-            "capacity": 8,
-            "amenities": [
-              "TV",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Free street parking",
-              "Heating",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Self check-in",
-              "Lockbox",
-              "Private living room",
-              "Hot water",
-              "Bed linens",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Long term stays allowed"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 4,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Sonder",
-              "location": "San Francisco, California, United States",
-              "about": "Sonder provides everything you need for an exceptional stay. Every booking is instantly confirmed. Every call or message is answered within minutes. Every home is equipped with crisp linens, high-speed Wi-Fi, and kitchen and bath essentials. And every experience is one-of-a-kind, thanks to our unique spaces and Neighborhood Guides.\r\n\r\nTo provide a better Sonder guest experience, we're creating local Airbnb accounts, and moving our listings to those new accounts. If you don't see a property you like here, there may be more on one of our new local profiles. Please reach out for more information!",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/c92b0b12-e019-4bb1-b0a8-c0b671096eb2.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "12243051"
-            },
-            "loc": {
-              "country": "Canada",
-              "countryCode": "CA",
-              "city": "Montreal",
-              "address": "Montreal, QC, Canada",
-              "lat": -73.58256,
-              "lan": 45.51664
-            },
-            "reviews": [
-              {
-                "at": "2016-07-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb212",
-                  "fullname": "Lawrence",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "63098509"
-                },
-                "txt": "This is a ground-level apartment (actually a few steps up from the street) on Rue St. Urbain. It's very spacious and newly renovated. Beds are comfortable and brand-new. Contrary to the description, there is actually a full-size washer and dryer in the apartment.\r\n\r\nTwo bedrooms are near the street and can be noisy when the windows are open. The other 2 bedrooms are in the back and are quieter. You will hear the neighbors upstairs when they walk around, but this was not a problem at night.\r\n\r\nThe neighborhood is lively and has lots of restaurants. There is a supermarket 2 blocks away. Metro stops are a 10-15 minute walk. Parc Jeanne-Mance is a block away and great for an evening picnic.\r\n\r\nFlatbook was very responsive via phone and email (though email sometimes took several hours to be answered)."
-              },
-              {
-                "at": "2016-08-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbffc",
-                  "fullname": "Christopher",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "2973169"
-                },
-                "txt": "Great location.  Clean.  Comfy beds.  On street level, so be ready to close and lock windows when not at home.  One room right on a noisy street.  Two are tucked away quietly in the back.  Great kitchen, though bring everything you need for cooking.  There are no knives for cutting other than basic perforated bread knives (ie. no chef's knife or paring knife).  The space feels somewhat cold (more like a staged house than a warm home)."
-              },
-              {
-                "at": "2016-08-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdbd",
-                  "fullname": "Neil",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
-                  "id": "18421104"
-                },
-                "txt": "The host was very responsive and provided keys for all of us (4 guests). They installed an AC during the first night that helped a lot with the hot Montreal summer. The apartment was very clean, and the furniture, bathroom, and kitchen were new. It was a great value, and it has a fantastic location opposite a church and a block away from a beautiful park."
-              },
-              {
-                "at": "2016-08-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164facd1",
-                  "fullname": "Diego & Amy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
-                  "id": "276725"
-                },
-                "txt": "I visited Montreal and spent 3 nights here with my husband and his parents.  The flat was as pictured, setup and perfectly decorated. It was spotless and had everything we needed for our stay.  The kitchen had all of the utensils and dishes necessary to prepare meals in if wanted.  The appliances were all new and the apartment in general was in great condition.  There are 4 separate bedrooms each with a desk, closet and drawers.  The apartment is in a great neighborhood with easy access to anything you want to do.  We LOVED the area and I enjoyed running in the nearby park daily.  The neighborhood is very safe and we all felt immediately \"at home.\" I cannot say enough about the customer service provided by Flatbook.  Upon check we had an issue with the lockbox.  Erika was over within 5 minutes to assist us.  She was kind, personable and professional.  We had a small issue with one the beds that had not been properly assembled.  We sent a message and within hours someone came and delivered a new bed. There was a minor issue with front door of the building as it appeared someone had broken a hinge. This didn't really compromise security but I let them know as I thought it would polite.  It was fixed before I saw it again.  I have stayed at hotels with maintenance teams on site that could not provide this level of customer service.  They truly deliver on their promise of 5 star 24 hour service.  I would be thrilled to have future booking accompanied with Flatbook service and can't wait to use them again!!!!"
-              },
-              {
-                "at": "2017-06-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab60",
-                  "fullname": "Bolivar",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/73.jpg",
-                  "id": "26478551"
-                },
-                "txt": "Great stay in Montreal!  Would reccomend to others."
-              },
-              {
-                "at": "2017-07-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4e1",
-                  "fullname": "Owni",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "83192378"
-                },
-                "txt": "Sonder was a great host this place is in a great location in the Le Plateau. We ended up walking to a lot of places. The check-in process was very easy. I would recommend this place."
-              },
-              {
-                "at": "2017-07-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb987",
-                  "fullname": "Nichole",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
-                  "id": "133711310"
-                },
-                "txt": "Our stay was great. The space was true to pictures, very modern and simple in a way that felt like a hotel! I stayed with 5 other friends, each of us was left a towel, shampoo soap etc. The kitchen was fully stocked with anything you might need! Everything was extremely clean, organized, and the size was great for 6 or even 8 guests. All in all an amazing experience. "
-              },
-              {
-                "at": "2017-08-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc3a",
-                  "fullname": "Ahmed",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "147231648"
-                },
-                "txt": "A great affordable place to stay."
-              },
-              {
-                "at": "2018-06-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0df",
-                  "fullname": "Courtney",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
-                  "id": "8464235"
-                },
-                "txt": "Very clean, comfortable place in a new building. location was s fantastic. Walking distance to the main drag in the plateau."
-              },
-              {
-                "at": "2018-08-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5f1",
-                  "fullname": "Anne Patricia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "107849903"
-                },
-                "txt": "Beautiful place!"
-              },
-              {
-                "at": "2018-08-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbec7",
-                  "fullname": "Cynthia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
-                  "id": "21296444"
-                },
-                "txt": "The host canceled this reservation the day before arrival. This is an automated posting."
-              },
-              {
-                "at": "2018-09-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbbef",
-                  "fullname": "Ivan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
-                  "id": "64924338"
-                },
-                "txt": "Place is just as beautiful as you can see in the pictures. The house is equipped with everything you need, such as extra towels, soap, conditioner, shampoo, plates, cups, silverware, cooking utensils and coffee! The house Is located in a great neighborhood very close to restaurants and stores. The house was very clean and you can tell the host is on top of their game in making sure you walk out of their place with a wonderful experience. I will definitely book again in the future."
-              },
-              {
-                "at": "2018-09-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0e8",
-                  "fullname": "Léa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "180516024"
-                },
-                "txt": "bel appartement"
-              },
-              {
-                "at": "2018-10-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac36",
-                  "fullname": "Juan Pablo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/32.jpg",
-                  "id": "1149610"
-                },
-                "txt": "Amazing place in a great part of town. large, modern, and well laid out. quick response, self check-in was easy. it's a managed property, so not a personal touch, but professional and pleasant. only complaint is that the place is a bit loud: you can hear walking (stomping?) from upstairs, and the front room let's in all the noise from the traffic. otherwise super great!"
-              },
-              {
-                "at": "2018-11-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb273",
-                  "fullname": "Melanie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/62.jpg",
-                  "id": "1250868"
-                },
-                "txt": "Amazing location and value in Plateau, great for groups. Since the building is older, the floors/walls are quite thin so light sleepers should bring earplugs. Host was great and easy to communicate with."
-              },
-              {
-                "at": "2018-11-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2f5",
-                  "fullname": "Puck",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "188098543"
-                },
-                "txt": "We had a great stay at this lovely appartment in Le Plateau! Very nice and spacious, very comfy couch and a great location. communication went well and all necessary amenities were provided. The only thing we struggled with was finding a spot for the car, but apart from that everything was great."
-              },
-              {
-                "at": "2018-11-25T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe3d",
-                  "fullname": "Shawn",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
-                  "id": "77474124"
-                },
-                "txt": "We were very happy with this apartment: it's very spacious and located in the heart of Le Plateau."
-              },
-              {
-                "at": "2018-12-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf94",
-                  "fullname": "Sebastian",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "5361563"
-                },
-                "txt": "Where were 4 guests, and pleasantly surprised that there were also four sets of keys available! The flat has a dishwasher and a laundry machine, detergents were supplied.\n\nIts about 30min walking for downtown (conference center), or 10 minutes by bus (bus stop just outside the house). We did not use the kitchen much, but there is a (filter) coffee machine, a big fridge, microwave and stove."
-              },
-              {
-                "at": "2019-01-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb346",
-                  "fullname": "Brendan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "111566906"
-                },
-                "txt": "Sonder was extremely supportive and available throughout my stay. I reached out to ask some questions about the area and was helped out in just minutes. Everything was as described and super clean. \n\nI will be booking with Sonder again, next time I come to Montreal."
-              },
-              {
-                "at": "2019-01-04T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe63",
-                  "fullname": "Craig",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
-                  "id": "225150072"
-                },
-                "txt": "Great place in a great location. Bus stop outside the door to get you to Old Montreal in minutes. On a nice day you can walk and it was an $8 Uber. \nThe host responded right away and was helpful. The parking suggested worked great and the person came in on the Holiday to open up when all the other garages were closed. \nThe place was clean and had all the amenities needed. Would recommend this place."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Private rooms",
-              "Play",
-              "Ryokans"
-            ],
-            "statReviews": {
-              "cleanliness": 5,
-              "communication": 4.6,
-              "checkIn": 4.4,
-              "accuracy": 4.3,
-              "location": 4.6,
-              "value": 4
-            }
-          },
-          {
-            "name": "2 bedroom Upper east side",
-            "type": "Beach",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436525/wdod0zfzsipkigajueda.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436844/vowx18k0arro8jyekcap.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436385/sorbz7rdtxacu1ds9vel.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436897/iz1ik9nibj3sobzrqomf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436864/ww1gixcmzwryfe1amps1.jpg"
-            ],
-            "price": 275,
-            "summary": "Near 70th and 1st.  A very nice 6th floor walk-up with true 2 bedrooms and one bath. Full Kitchen. One bedroom has a queen and the other a double.  Living room has a couch you could sleep on too. New powerful air conditioner cools whole apt. Great area with restaurants, shopping and walk to Central Park Please contact us first if reserving on same day, we might need time to arrange for keys. Holiday weekends we prefer 3 night stays. Thank you!",
-            "capacity": 5,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Pets allowed",
-              "Pets live on this property",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "Essentials",
-              "Shampoo",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Chelsea",
-              "location": "Sea Cliff, New York, United States",
-              "about": "",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/4d361f57-f65e-4885-b934-0e92eebf288d.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "52004369"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "New York",
-              "address": "New York, NY, United States",
-              "lat": -73.95854,
-              "lan": 40.7664
-            },
-            "reviews": [
-              {
-                "at": "2016-05-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0e2",
-                  "fullname": "Danielle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
-                  "id": "49207437"
-                },
-                "txt": "The host canceled this reservation the day before arrival. This is an automated posting."
-              },
-              {
-                "at": "2016-08-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae96",
-                  "fullname": "Kelly",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "9967305"
-                },
-                "txt": "Beautiful home.  Quiet. clean.  amazing time."
-              },
-              {
-                "at": "2016-10-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb551",
-                  "fullname": "William",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
-                  "id": "96994191"
-                },
-                "txt": "We had an excellent experience at Chelsea's apartment. The host was always available to answer any questions we had about the apartment or the surrounding area and made some great recommendations for restaurants in the area. We had no issues with the apartment or the amenities."
-              },
-              {
-                "at": "2016-10-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac59",
-                  "fullname": "Harry",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/70.jpg",
-                  "id": "33610061"
-                },
-                "txt": "Chelsea was in constant contact with me since we booked. We needed a place to stay inside Manhattan and this place was perfect. You cant beat the location of this apartment anywhere in the city. Just enough distance away from the tourists, and easy walk to subway, bars, and great restaurants. Will definitely book this place again. "
-              },
-              {
-                "at": "2016-10-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafbd",
-                  "fullname": "Kayla",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "56867841"
-                },
-                "txt": "Chelsea was a great host! We arrived a little later than expected but had no trouble arranging to pick up keys. The apartment is in a nice location. It is far enough out to be relaxing but still close enough to go to Time Square and many other attractions. The apartment was nice and a great fit for my family of 3. Would recommend staying here."
-              },
-              {
-                "at": "2016-11-26T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbca1",
-                  "fullname": "Kristin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "102526576"
-                },
-                "txt": "Chelsea provided amazing communication, was super friendly and very accomodating with check-in and check-out! She was just a text away at any time & checked in to be sure we got in/out with ease. That made our stay very pleasant. The location is in walking distance from Rockefeller, Central Park & public transport is easily accessible too. We walked with a stroller & 3 young kids to both those places more than once and anything we needed was right around the block. Thanks so much Chelsea!"
-              },
-              {
-                "at": "2016-12-30T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac95",
-                  "fullname": "Alex",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg",
-                  "id": "44715535"
-                },
-                "txt": "Chelsea was the best and so understanding. The apartment was fantastic. Everything I expected and more. Easy access to the subway and a great easy walk to Central Park. Highly recommended. Again Chelsea is simply amazing and super great."
-              },
-              {
-                "at": "2017-06-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb879",
-                  "fullname": "Mateus",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
-                  "id": "107443841"
-                },
-                "txt": "It's a nice place, near of subway stations and restaurants. Chelsea is an amazing person, gave us a lot of tips and was so gentle. Our biggest problems was: 6th floor walk (brazilians buy a lot of things in USA, that's why it was a thuf mission go up carrying everything lol), the small bathroom (but with the time you fits with it) and the dust (one of us have allergic rhinitis and sneezed a lot). But it was a great stay, we certainly return if we can."
-              },
-              {
-                "at": "2017-08-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb70d",
-                  "fullname": "Francesco",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "125308610"
-                },
-                "txt": "Lo sconsigliamo vivamente. Abbiamo avuto una pessima esperienza. Mia moglie, io e i tre bambini non abbiamo potuto fermarci neanche un minuto per le pessime condizioni in cui abbiamo trovato l'appartamento. Non corrisponde alle foto, perchè le stanze da letto sono molto più piccole di quello che appaiono, piene di suppellettili polverose e in disordine. Il sofa bed è praticamente un divano sporco dove abbiamo dovuto chiedere lenzuola e ci è stato dato un solo lenzuolo. Il bagno è una latrina minuscola tanto è vero che non appare nelle foto pubblicate. Non abbiamo potuto dormire neanche una notte perché non c'è neanche un cassetto o un armadio vuoto in cui poter stipare i propri effetti. Abbiamo pagato per tre notti oltre 800 euro, non abbiamo passato neanche venti minuti in quella casa, abbiamo dovuto trovare all'1 di notte un'altra sistemazione a New YorK - per cinque persone, compresi due bambini minori - e Chelsea non ci ha risarcito neanche un euro. Veramente un comportamento deprecabile da parte sua."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Tropical",
-              "Minsus",
-              "Skiing"
-            ],
-            "statReviews": {
-              "cleanliness": 4,
-              "communication": 4.2,
-              "checkIn": 5,
-              "accuracy": 4.1,
-              "location": 4,
-              "value": 4.5
-            }
-          },
-          {
-            "name": "1 Stop fr. Manhattan! Private Suite,Landmark Block",
-            "type": "Islands",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436456/aazeb5pemja3ddxauatd.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437282/qy0p7yyaukasripzwc7w.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436886/cvc2yfmhfg9dabfkyiqw.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437049/gpanmdffbwd9crhnzswa.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436310/acidri8oahpcoxa0idns.jpg"
-            ],
-            "price": 130,
-            "summary": "Private room, dedicated bath and a separate entrance. Totally renovated Queen Anne Historic Townhouse Home on a safe, Landmark Block. Only one stop from Midtown Manhattan! Enjoy the rear private Garden at breakfast time. Beautiful tree lined,quiet street. 4 subway lines ( E, M, 7 and G ) are one block away! Great restaurants, supermarket and cafes nearby.",
-            "capacity": 4,
-            "amenities": [
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Pets live on this property",
-              "Dog(s)",
-              "Heating",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Luggage dropoff allowed",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Orestes",
-              "location": "New York, New York, United States",
-              "about": "Photographer/Developer. \r\nI enjoy NYC tremendously but love traveling and have visited\r\nover 40 countries. My house is filled with artwork from those travels.\r\nI work my photography business from my home studio, in a restored 1890 landmark townhouse with all the modern amenities.\r\nMy house has been used for filming scenes for Sex & The City, The Sopranos, Gossip Girl & White Collar.\r\nMy photography column,\"Orestes'LIC\", appears every month in the local paper.\r\nI love Asian, Spanish & Cuban food, along with a good bottle of red wine.\r\nTalking about travel, art, design and photograph,is my favorite pastime. Sorry,I dont shop or know where the best electronics bargains are located ! \r\nI love giving great walking tour information of different parts of NYC, and info on non-touristy places to eat real food in the area.\r\nI will provide you the privacy level you require to make your stay here is as comfortable as possible.\r\nEnjoy a great, clean, stylish place to stay, only 7 minutes from Manhattan!\r\n",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/50124/profile_pic/1443072360/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "50124"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "New York",
-              "address": "Queens, NY, United States",
-              "lat": -73.9474,
-              "lan": 40.74771
-            },
-            "reviews": [
-              {
-                "at": "2010-06-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb351",
-                  "fullname": "Andre",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg",
-                  "id": "70051"
-                },
-                "txt": "I had an excellent time at Orestes' place in NYC.\r\n\r\nQuiet place with a private entrance to come back home at whatever time you want without disturbing anyone.\r\n\r\nLaundromat around the corner and the closest subway is literally one block away, where the 7 train goes all the way into Times Square. Also two blocks away you have the E train that also goes into Manhattan and the G train that goes into Brooklyn.\r\n\r\nIn the area there's still a cozy and cheap diner that's open 24/7, a few stores to get supplies and a few other places of interest. location was excellent, 10 minutes away from everything.\r\n\r\nThe room was great and packed with a mini fridge, coffee maker, TV, a sofa, full size bed and walk-in closet. There was also a private bathroom that had everything you needed and a very good shower.\r\n\r\nThere's also a garden out back where you can go outside in the mornings and just relax, eat breakfast, etc.\r\n\r\nOrestes was a great host and gave me a lot of good spots to go sightseeing. Good person to chat with and quite knowledgeable about the city.\r\n\r\nI think that for the price, you simply can't get any better."
-              },
-              {
-                "at": "2010-09-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb97a",
-                  "fullname": "Sharinne",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "232362"
-                },
-                "txt": "Orestes was a great host and a nice guy.  The room was clean, comfortable, and cozy.  Also, his historic home is gorgeously decorated, really reflecting the level of detail that Orestes has in ensuring a nice experience for his guests.  The location was very convenient - easy parking and 1 block away from the subway.  We had a great time staying here and I would definitely recommend it! "
-              },
-              {
-                "at": "2010-10-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fb9ce",
-                  "fullname": "Virginia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
-                  "id": "239469"
-                },
-                "txt": "This is very upscale and chic lodging in Hunters Point.  Everything about the room is positive, especially the warmth and friendliness of the host.  It is convenient (less than 2 blocks) to the subway and I was in the city in 10 minutes.  Lots of restaurants within walking distance and small coffee shops, laundromat, delis, etc.  It is a safe area, and you will especially love the totally restored units to the 1880s feeling, but with modern conveniences."
-              },
-              {
-                "at": "2010-10-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbca2",
-                  "fullname": "Jean",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
-                  "id": "211550"
-                },
-                "txt": "Great space, fabulous garden and very private.  My visiting inlaws stayed there and were very comfortable.  I would recommend to anyone."
-              },
-              {
-                "at": "2010-10-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc01",
-                  "fullname": "Susan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg",
-                  "id": "254021"
-                },
-                "txt": "My stay with Orestes couldn't have been better. He is a warm, kind and gentle person with a fabulous place and a sweet dog. I enjoyed being surrounded by beautiful artwork in a serene and rich environment that was created in Orestes' vision. If the weather had been warmer, I would have spent some time in his garden oasis. The location is convenient to midtown and Brooklyn without the Manhattan price tag. Plus, there's a great coffee shop/restaurant around the corner and an authentic 24hr. diner in the neighborhood."
-              },
-              {
-                "at": "2010-10-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1f8",
-                  "fullname": "Cassie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
-                  "id": "258322"
-                },
-                "txt": "The host canceled my reservation 10 days before arrival."
-              },
-              {
-                "at": "2010-10-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafde",
-                  "fullname": "Lydia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
-                  "id": "247922"
-                },
-                "txt": "I had a great time staying here with my family. Orestes was extremely nice and thoughtful of us as guests. The room is lovely and the bathroom is great. As a whole it was a relaxing week here. With a beautiful garden and access to everything we need regarding accommodation. Better than any hotel I would say. And Orestes I thought I left my shoes there. They are pretty old anyway so you can throw them out! Thanks!!"
-              },
-              {
-                "at": "2010-12-21T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba37",
-                  "fullname": "James",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
-                  "id": "203342"
-                },
-                "txt": "Great host,great location. I hope to stay there again very very soon!"
-              },
-              {
-                "at": "2011-05-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae19",
-                  "fullname": "Delia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "11736083"
-                },
-                "txt": "We wanted a place to stay close to everything but quiet and comfortable and we got it.   Orestes is a great guy and his place is beautiful.  We could be  in central Manhatten in10 minutes, the 7 line is a 2 minute walk just around the corner.  But when we were tired we could relax here, in perfect peace and quiet.    We always felt safe and welcome.   Thanks Orestes- we'll definitely come back."
-              },
-              {
-                "at": "2011-10-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb226",
-                  "fullname": "Mandy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "1004803"
-                },
-                "txt": "What a wonderful holiday and a wonderful place to stay! We were unsure about staying in Queens is opposed to Manhattan, worried that we might feel slightly out of the way, but we had absolutely no need to worry at all - the subway is round the corner (next to the best chinese take-away ever!) and really does take you to the thick of it within ten minutes. There is also a lovely river walk about 15 minutes away which give you the most wonderful views of Manhattan, and there are loungers to relax on at the waters edge!\r\nThe house is absolutely beautiful (you can tell Orestes is an architect), you have your own front door and the room is plenty big enough (I stayed with a friend - she slept on the double futon which was very comfy). It also has air conditioning. The bathroom is stunning, with a huge steam room/shower, and it is not shared with anyone else. We were given plenty of fresh towels most days. Orestes' office is on the same floor and then the back garden is just lovely - a great place to sit and eat a takeaway or, as we did, sit and have breakfast.\r\nAs a host Orestes was faultless really! He was very friendly and helpful, and we enjoyed telling him about our day - he was happy to recommend places to see and to eat, but also totally respected our privacy and we felt would have probably left us totally to our own devices if we'd wanted. He also had a lovely little dog called Kiki!\r\nThere was no weird faff with deposits or cleaning fees, everything was simple and wonderful. I honestly can't wait to go back and I want to take all of my friends. Don't hesitate to stay here.\r\nThanks Orestes, it was fabulous x"
-              },
-              {
-                "at": "2012-01-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb020",
-                  "fullname": "Jenny",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
-                  "id": "1486914"
-                },
-                "txt": "My husband and I stayed for a week in January; the room and bathroom were warm, very clean, visually appealing, and comfortable.  We met Orestes briefly, as he was out of town most of the time, and he is extremely hospitable and helpful.  Chris, who was around the rest of the time, was also kind and available for any questions.\r\nThe location is convenient to a grocery store, decent diner, and several subway lines; it's pretty simple to get to Queens, Brooklyn, or Manhattan.\r\nFuture guests should be aware that while the guest room itself might be non-smoking, the rest of the house isn't.  Most of the evenings the cigarette smoke was unavoidable, though not too bad if you kept the door to the guest room shut.  (Being first-trimester-pregnant, my nose and nausea levels felt sensitive to this, but I imagine it wouldn't be an issue for most folks, unless you had asthma or some other sensitivity.)\r\nOn whole, it was a good home base for our week in New York; everyone was friendly and the accommodations were nice."
-              },
-              {
-                "at": "2012-03-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbad5",
-                  "fullname": "Mistie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
-                  "id": "1795764"
-                },
-                "txt": "Orestes was a great host!  He was very helpful with any questions I asked him, and I had a lot :)  It was my first time in NYC, and he definitely made it easier with his recommendations (especially when it came to public transportation.)  He has a beautiful home.  I wanted to take that shower home with me!  Heaven!  Great location too!  The E train and 7 train were about a block away, and there is a 24 hour diner right around the corner!"
-              },
-              {
-                "at": "2012-03-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faf2b",
-                  "fullname": "Cleo & Laure",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
-                  "id": "1602938"
-                },
-                "txt": "We stayed two nights at Orestes' and it was, from far, our best AirBnB experience ever. The very spacious room is in a Queens historic district (very close to 5ptz, PS1 Moma and a typical American Diner...). We had everything we needed (wifi, clean and big private bathroom, comfortable  bed...). We absolutely recommend this place (which is only one stop from Manhattan - Lexington Av. /49th). "
-              },
-              {
-                "at": "2012-04-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbbeb",
-                  "fullname": "Morten",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "1392061"
-                },
-                "txt": "In the beginning we wanted to stay at a hotel in central Manhattan, but fortunately for us we saw Orestes room on the internet and it was an even better place to stay. It was great to be able to withdraw to the Queens peace and quiet after a long day in Manhattan - and only one subway stop away. Orestes house is located in a historically beautiful street and the room is comfortably furnished with a touch of creative people. Nice bathroom with a shower big enough for two and the sunny garden was beautiful.\r\n\r\nIt was nice to meet Orestes and Cristiàns hospitality, helpfulness and kindness and Kikki, the dog of the house, always greeted us welcome. We felt very welcome and our expectations were fully met. We will certainly return to this place again when we visit New York next time and can only give our warmest recommendations to this place.\r\n"
-              },
-              {
-                "at": "2012-06-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb783",
-                  "fullname": "Francois",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
-                  "id": "2185519"
-                },
-                "txt": "A dream week in a fantastic place and a great guy named Orestes. Everything was much more than expected including the location just one stop from Manhattan by the airtrain/subway. Hope to go back there as soon as possible. Thank you Orestes."
-              },
-              {
-                "at": "2012-06-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc87",
-                  "fullname": "Oliver",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "308976"
-                },
-                "txt": "Great host, very nice and understanding. location was fantastic and interior photos don't do the place justice, its even nicer than it looks. Lots of good restaurants in the area too. "
-              },
-              {
-                "at": "2012-06-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb619",
-                  "fullname": "Vince",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
-                  "id": "2341365"
-                },
-                "txt": "Orestes was an amazing host.  Very welcoming and warm and was able to give us advice for train routes to take and restaurants to visit!  His house and the room were amazing.  His place is very clean, comfortable, and extremely well decorated!  We loved the amazing shower and the adorable dog!\r\n\r\nI can say without a doubt, that we'll be referring some friends to him and if we have the opportunity to come back to New York again we will definitely be staying here again.\r\n\r\nHighly recommended!"
-              },
-              {
-                "at": "2012-07-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe54",
-                  "fullname": "James",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "305811"
-                },
-                "txt": "Orestes is a great host.  His place is amazing.  The room is more like a suite in that it has a couch to watch TV in addition to a very comfotable bed.  There is also a small fridge  and coffee machine.  During our stay the temp was over 100 degrees outside but the room has great A/C so we were very comfortable.  Also, the room is super quiet.  The bathroom is fantasic....huge!  Great dog named KIKI too.\r\n\r\nThe location is 1 block away from the 7 train.  You can't beat this.  10 min to Grand Central Station and Central Park....15 min to Times Square.  The neighbor hood has many great places to eat.  I highly recommend LIC Cafe which is 1 block away.  \r\n\r\nThis is the ONLY place to stay in NYC!!!"
-              },
-              {
-                "at": "2012-07-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb3e4",
-                  "fullname": "Yat & René",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "2460937"
-                },
-                "txt": "Orestes is a very friendly and helpful host. We felt very welcome at his place.\r\nThe location is very convenient for a city break in NYC and especially Manhattan with 5 subway lines only a couple of walking minutes away.\r\nThe room has all you need and the bed was very comfortable.\r\n\r\nThank you Orestes - we will come back!"
-              },
-              {
-                "at": "2012-08-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb55d",
-                  "fullname": "Hagay",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "2994498"
-                },
-                "txt": "About location:\r\nGreat location! 5 min from Manhattan. Great neighborhood with laundry service, few market places to provide us all we needed and an Indian restaurant right over the corner. 3 minute walk to the subway!\r\n\r\nAbout the house:\r\nGreat room! big. with A/C, T.V, fridge and coffee table. Towels available in the room and in the shower. All clean and neat. Big private shower. Big beautiful yard to enjoy breakfast.  Perfect. We really enjoyed staying there.\r\n\r\nAbout the owner:\r\nWe had a nice conversation over the phone. I felt comfortable with my decision to book his place .Orestes the owner had his friend Gabbi waiting for us when we arrived. She guided us through out our visit and made us feel at  home.  She was kind enough to spend time on the computer, explaining us where to go and how to get there, as well as many important tips that made the difference in our trip. We were lucky to have her.\r\n\r\n"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Golfing",
-              "Earth homes",
-              "Skiing"
-            ],
-            "statReviews": {
-              "cleanliness": 4.3,
-              "communication": 4,
-              "checkIn": 4.6,
-              "accuracy": 4.4,
-              "location": 5,
-              "value": 4.5
-            }
-          },
-          {
-            "name": "Two bedroom apartment",
-            "type": "Amazing pools",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437025/haliwehueqfkmxo1tv7j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436886/cvc2yfmhfg9dabfkyiqw.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436867/yocip4igdbruuh2grzpf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436390/om97cgufeacwlric2r5w.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436983/pivldxmrxssnhyzixhes.jpg"
-            ],
-            "price": 155,
-            "summary": "Cozy apartment with wooden floors, two bedrooms, one with double bed, the second with two single beds, two bathrooms and equipped kitchen.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Smoking allowed",
-              "Heating",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Essentials",
-              "Shampoo",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Bathtub",
-              "Bed linens",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Oven",
-              "Patio or balcony"
-            ],
-            "bathrooms": 2,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Mariana & Ramón",
-              "location": "Barcelona, Catalonia, Spain",
-              "about": "Nos encanta Barcelona, conocemos la ciudad y algunos de sus secretos. Podemos ayudarte a planificar tu visita.",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/6544866/profile_pic/1400529085/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "6544866"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, Catalunya, Spain",
-              "lat": 2.17434,
-              "lan": 41.39137
-            },
-            "reviews": [
-              {
-                "at": "2016-03-07T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb93c",
-                  "fullname": "Zeljko",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "10916912"
-                },
-                "txt": "This flat is really spectacular. Large, tall ceilings, expensive furniture, walking distance from the center, perfect!"
-              },
-              {
-                "at": "2016-06-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb093",
-                  "fullname": "Kris",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
-                  "id": "1743214"
-                },
-                "txt": "Excellent apartment! We loved our stay in Barcelona.  Great location and very easy check in process and parking.  Very friendly and helpful with information regarding transport, attractions and what to avoid"
-              },
-              {
-                "at": "2016-07-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5d6",
-                  "fullname": "Nicholas",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/69.jpg",
-                  "id": "34503754"
-                },
-                "txt": "Mariana and Tomas are perhaps the most accommodating and professional hosts I've had the pleasure of staying with. The apartment is amazing (truly, it is both larger and more impressive than even the pictures show, which is rare). It was quite warm the first night we were in Barcelona and by the following morning, they had installed a portable A/C unit in the second bedroom – after which my kids slept soundly. The location of the place is *perfect* and we would feel lucky to be able to stay there again. "
-              },
-              {
-                "at": "2016-08-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb30c",
-                  "fullname": "Kim",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg",
-                  "id": "5166067"
-                },
-                "txt": "My husband and our two children (ages 8 and 5) liked that this apartment was very close to grocery stores, restaurants, and Passeig de Gracia.  Check-in was smooth and the apartment was roomy.  There is one AC unit, which cooled the living room and master bedroom very well.  There was also a portable AC unit provided for the smaller bedroom, but it was cumbersome to set up."
-              },
-              {
-                "at": "2018-02-11T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5c1",
-                  "fullname": "Ian",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/66.jpg",
-                  "id": "2092289"
-                },
-                "txt": "One couldn’t ask for a better apartment and sweeter hosts. The location is perfect and the bed linens and towels are of five start hotel quality as are the beds. What a delightful experience it’ has been for all four of us."
-              },
-              {
-                "at": "2018-02-19T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0a3",
-                  "fullname": "Tommy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "39599016"
-                },
-                "txt": "the room is awesome and great location"
-              },
-              {
-                "at": "2018-02-25T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faff8",
-                  "fullname": "Andrea",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg",
-                  "id": "29404792"
-                },
-                "txt": "Amazing apartment, well located, very comfortable beds. Highly recommended"
-              },
-              {
-                "at": "2018-03-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb3c4",
-                  "fullname": "Igor",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/59.jpg",
-                  "id": "11964619"
-                },
-                "txt": "Apartamento muy elegante y confortable. Excelente ubicación Atentos dueños encantadores. Bravo!!!"
-              },
-              {
-                "at": "2018-04-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfb4",
-                  "fullname": "Dawn",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "17499483"
-                },
-                "txt": "We thoroughly enjoyed our stay as the apartment was very clean and had all the amenities that we needed.  The beds were very comfortable and it was nice to have 2 bathrooms. The elevator made it easy to transport our luggage.  The location is great as there is a small grocery store and bakery nearby, and is within walking distance to many shopping and dining areas.  Mariana met us at check in and gave us all the necessary information to make our stay enjoyable.  We would be happy to stay here again in the future."
-              },
-              {
-                "at": "2018-04-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1ad",
-                  "fullname": "Zhanna",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
-                  "id": "8487190"
-                },
-                "txt": "Very spacious, stylish and comfortable apartment to stay in Barcelona! Great combination of price and quality!"
-              },
-              {
-                "at": "2018-04-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe78",
-                  "fullname": "Echo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "19310172"
-                },
-                "txt": "Nice, spacious and well equipped apartment. Super comfortable bed and pillos for a good night rest which was important given the amount of walking we did in Barcelona! Awesome location; love the tree lined streets and lively cafes in the neighbourhood. Highly recommended!"
-              },
-              {
-                "at": "2018-05-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb29a",
-                  "fullname": "Pat",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
-                  "id": "56738693"
-                },
-                "txt": "Fantastic apartment in a great location. Sparkling clean and well presented. Friendly and helpful hosts who are quick to respond to messages. Highly recommended."
-              },
-              {
-                "at": "2018-05-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafc6",
-                  "fullname": "Jae Keun",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "38312706"
-                },
-                "txt": "모든 면에서 좋았습니다. 숙소는 깨끗하고, 멋있었습니다. 위치도 정말 좋았습니다. 다만 체크인 과정이 복잡한데, 전화로만 해결해야 하는 점이 어려웠습니다. 메세지로 전달 받으면 더 좋을 것 같습니다."
-              },
-              {
-                "at": "2018-05-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc034",
-                  "fullname": "Dawn",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
-                  "id": "7421663"
-                },
-                "txt": "We had a great stay at Mariana & Tomás’s place - lots of room for our family of 3 to spread out.  Clean, well-appointed and everything worked as it should (wifi, the two A/C units, clothes washer/dryer).  Appreciated the quick & detailed replies to my questions.  Check-in was smooth and location was convenient.  Would definitely stay here again next time we return to Barcelona."
-              },
-              {
-                "at": "2018-05-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fb9f7",
-                  "fullname": "Jessica",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "4496823"
-                },
-                "txt": "A perfect spot for a visit to Barcelona. The apartment truly is even better than in photos - so much space and excellent amenities (dishwasher, AC, Washer/dryer all came in handy!) Quiet and charming hood in a great central location; close to popular Metro stops and a nice walk to the Born and Gothic. We traveled with our 8 mo old for the first time and the crib and high chair (and dark shades) were all perfect. We would stay here again in a heartbeat."
-              },
-              {
-                "at": "2018-06-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb46f",
-                  "fullname": "Celestina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
-                  "id": "192361281"
-                },
-                "txt": "Our stay at Mariana & Tomás’s place was perfect! It was an ideal layout for our family of 4 and had everything we needed. \nWell appointed, sparkling clean and spacious. Also, Mariana gave some very helpful suggestions and she responded quickly to questions . \nWe would return in a heartbeat when we visit Barcelona !"
-              },
-              {
-                "at": "2018-07-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb423",
-                  "fullname": "Jein",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "103421780"
-                },
-                "txt": "Mariana and Tomás are so helpful, and responsive. When you have any issue with how things work in the house / getting around in city they are there. The apartment itself is also very nice, fancy and bathroom is lovely."
-              },
-              {
-                "at": "2018-07-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafaa",
-                  "fullname": "Liliana",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "114572114"
-                },
-                "txt": "We had a great time in Barcelona. The apartment is fantastically well located. Mariana was super nice and helpful."
-              },
-              {
-                "at": "2018-08-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb3cb",
-                  "fullname": "Marsha",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "134791107"
-                },
-                "txt": "Lovely space. Quiet and spacious. Metro makes its very convenient to get to this location from airport (a little tedious but definitely doable) depending upon which train you take, you’ll either have anywhere from 5 - 15 minute walk.\nWater pressure decent, amenities just right. Building equip with lift. \nThe host was in constant contact with me prior to the travels to answer and address any concerns. We arrived late after host/concierge hours and we were left with very easy to follow instructions.\nWe’re definitely stay again."
-              },
-              {
-                "at": "2018-08-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2df",
-                  "fullname": "Leonard",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "16049608"
-                },
-                "txt": "Excellent apartment for staying in Barcelona. Close to many beautiful places and easy access to public transportation.\n\nMany excellent restaurants near by."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Campers",
-              "Private rooms",
-              "Caves"
-            ],
-            "statReviews": {
-              "cleanliness": 4.4,
-              "communication": 4,
-              "checkIn": 5,
-              "accuracy": 4.5,
-              "location": 4.9,
-              "value": 4.8
-            }
-          },
-          {
-            "name": "Sunny and quiet room with private shower room",
-            "type": "Beachfront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436385/sorbz7rdtxacu1ds9vel.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436329/cvylwkta0uannbxm3zns.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437339/qgs3hrnx0accbjkzuh9s.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436376/phpltehcr6uq9lh5jlax.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437279/vgq4tkkecvdo2nzxdudx.jpg"
-            ],
-            "price": 40,
-            "summary": "Very quite and sunny room with private shower room My place is in Poble Sec, one of the most charming neighborhood in Barcelona. Located in the shadow of Montjuic's hill,the biggest and most beautiful parc in the city Just 2min far from  metro station and 15min from the airport bus stop Poble Sec is sizzling with open air bars and  quite streets ,pretty squares and friendly locals make it worthy The flat is in the 5th FLOOR NO LIFT  There's a lovely fat cat living",
-            "capacity": 2,
-            "amenities": [
-              "Internet",
-              "Wifi",
-              "Kitchen",
-              "Pets live on this property",
-              "Cat(s)",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Washer",
-              "First aid kit",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Hot water",
-              "Bed linens",
-              "Refrigerator",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Stove"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Montserrat",
-              "location": "Barcelona, Catalonia, Spain",
-              "about": "\r\nI love traveling. Therefore, I am delighted to help travelers to discover the magical places of this incredible city. I am completely available to give any kind of suggestions, information and help on what they need to make the stay in Barcelona as pleasant as possible !!\r\n\r\n",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/fdb58b71-1613-4905-8850-024dc23f1cb0.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "80740340"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, Catalunya, Spain",
-              "lat": 2.15691,
-              "lan": 41.37475
-            },
-            "reviews": [
-              {
-                "at": "2016-07-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faf17",
-                  "fullname": "Ida",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "23772603"
-                },
-                "txt": "Montse was such a welcoming host and we had a fantastic stay at her place! The apartment is upper nice and we loved the cat and the turtle. The neighborhood is full of small bars and cafes and it's not too far from the beach. We really loved staying here and we would definitely come back!"
-              },
-              {
-                "at": "2016-08-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbcca",
-                  "fullname": "Alicja",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "45092009"
-                },
-                "txt": "Gospodarz bardzo miły! zero problemów, mieszkanie idealne na podróż do Barcelony, świetna lokalizacja, tuż przy głównej drodze, w związku z czym nie bylo problemu z transportem z lotniska. Mieszkanie schludne, dużym plusem jest prywatna łazienka, do której można wejść z pokoju. Jedynym problemem był nasz późny przyjazd oraz utrudniona komunikacja z gospodarzem (nie zostaliśmy poinformowani o numerze domu) na szczęście wszystko dobrze się skończyło i znaleźliśmy swoje cudne mieszkanie na 3 noce ;)"
-              },
-              {
-                "at": "2016-08-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdf5",
-                  "fullname": "Marvin & Henrica",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg",
-                  "id": "74586972"
-                },
-                "txt": "Our experience with Montserrat and her apartment is positive. We've had a pleasant stay end we felt very welcome. Montserrat is a lovely host. The room is exactly like it's advertised. The apartment is located right in the city centre of Barcelona. It's close to places like shops, the beach, monuments, parks, site seeing, places to go out, etc. Moreover there's an easy airport connection to the apartment. We are happy to recommend this place to everyone! "
-              },
-              {
-                "at": "2016-08-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbafe",
-                  "fullname": "Francesco",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "88526009"
-                },
-                "txt": "Montserrat has been a great host. She was so happy to give us the welcome in Barcelona. Extremely suggested."
-              },
-              {
-                "at": "2016-08-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae90",
-                  "fullname": "Lola",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
-                  "id": "81936880"
-                },
-                "txt": "Séjour agréable, le logement correspond tout à fait à la description et hôte  accueillante "
-              },
-              {
-                "at": "2016-08-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb069",
-                  "fullname": "Sébastien",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
-                  "id": "84836844"
-                },
-                "txt": "2 jours agréables dans l'appartement de Montse et de Palomita (son chat). Barcelone est une très jolie ville. Montse était extrêmement sympathique, elle nous a fait à manger à notre arrivée et était souriante. On était seuls dans l'appart par la suite mais bon ça n'était pas dérangeant.\nPetit conseil néanmoins : évitez de prendre une trop grosse valise que vous devrez monter et descendre sur 5 étages."
-              },
-              {
-                "at": "2016-09-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3408e36c59e6164fc06c",
-                  "fullname": "Olesya",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
-                  "id": "2709574"
-                },
-                "txt": "Montserrat is a great host, very friendly and helpful. The location is very good and close to all important places. Cosy balcony and true Barcelona experience :) thank you Palomita and Montse! "
-              },
-              {
-                "at": "2016-09-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fb9ef",
-                  "fullname": "Alice",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg",
-                  "id": "8965690"
-                },
-                "txt": "Montse and her friend were super welcoming : we had the pleasure to have breakfast and chat with them on our arrival. It was really nice. The flat is located in a non-touristy neighborhood, with plenty of local bars and good food places, and well connected to the public transportation system. "
-              },
-              {
-                "at": "2016-09-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc26",
-                  "fullname": "Jenny",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "7913652"
-                },
-                "txt": "Mi estancia con Montse fue genial! Me encantó la habitación y Montse fue una anfitriona muy acogedora y generosa. Me aconsejó sobre lo que podría hacer en la ciudad, con transporte etc. Me encantaría volver algún día, muchísimas gracias Montse!!"
-              },
-              {
-                "at": "2016-09-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc04f",
-                  "fullname": "Dora",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "20022395"
-                },
-                "txt": "We stayed with Montse for two nights and had a lovely all round experience. Montse was super welcoming and helpful, the flat is lovely and cozy and exactly as described. The neighborhood is not overrun by tourists like many other parts of the city and is in walking distance from many great sights and landmarks. We would definitely stay with Montse again and are more than happy to recommend her place."
-              },
-              {
-                "at": "2016-09-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf4e",
-                  "fullname": "Marie Laure",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
-                  "id": "2238447"
-                },
-                "txt": "Nous avons été très bien accueillies par Montce qui est une personne très aimable, l appartement typique espagnol est très agréable.le luxe une salle de bain privée. L appartement est situé à 4 mn du métro, il y a tout à côté avenue parallèl êt a 10 mn à pied de Plaza espana d une côte êt le port de l autre.  Montce nous a laissé l appartement pour nous seules les 3 jours. La chambre est très agréable et le lit deux places très confortable. Wi fi. N oublions pas qu il y a 5 étages sans ascenseurs..mais montce nous a aidé à l arrivée êt au départ pour tout porter. Très bonne entraînement après les délicieux repas. J y retournerais avec grand plaisir!!!! Muchas gracias montce."
-              },
-              {
-                "at": "2016-10-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb325",
-                  "fullname": "Federica",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "48080783"
-                },
-                "txt": "Il soggiorno da Montserrat è stato molto piacevole. Lei è davvero gentile e disponibile. Ci ha permesso di usare qualsiasi cosa era in casa. L'appartamento è abbastanza pulito e la camera è luminosa, così come la si vede in foto. L'unico aspetto negativo sono le 5 rampe di scale strette e buie."
-              },
-              {
-                "at": "2016-10-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd00",
-                  "fullname": "Lucia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
-                  "id": "89169569"
-                },
-                "txt": "La camera e' semlice ma confortevole, corrisponde esattamente alla foto.\r\nIo ho dormito benissimo, il materasso e' tipo futon..C'e' un piccolo bagno con doccia annesso alla camera, ma per il wc bisogna attraversare un piccolo soggiorno, Per noi non ci sono stati problemi, la padrona di casa aveva orari di lavoro tali che non ci vedavamo mai, ma quando rientrava o si alzava nell'unica altra camera dell'appartamentino, era molto discreta e non faceva (Website hidden by Airbnb) nostro arrivo, non potendo essere presente,ha lasciato le chiavi da un suo amico negoziante che e' stato facile trovare, proprio vicino alla casa, naturalmente ci ha ha avvertito prima tramite sms.\r\nAppartamentino piccolo e semplice ma carino e pulito, l'unico difetto tanti scalini da fare senza ascensore, ma se non si hanno problemi di gambe o di cuore, sono un bell'allenamento per tenersi in forma nonostante le mangiate, oltretutto sono rampe di scale molto tipiche e interessanti..L'esperianza in generale e' stata senz'altro positiva, l'ospite , gentile e discreta si e' preoccupata di facilitarci le cose..Il posto e' anche vicino alla metropolitana o naturalmente anche ai bus.\r\n Wi-fi penso che vada. l'ospite ci ha lasciato la sua password, ma poi non abbiamo piu' provato perché stavamo molto fuori .."
-              },
-              {
-                "at": "2016-10-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1c6",
-                  "fullname": "Friedrich",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
-                  "id": "19083236"
-                },
-                "txt": "We had a nice time!"
-              },
-              {
-                "at": "2016-10-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb03f",
-                  "fullname": "Irene",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "80711464"
-                },
-                "txt": "Montserrat是位很好的女主人,热情好客,亲切地招待我们,提供茶点和咖啡,为了不打扰我们休息还搬去外面吃饭^^ 和她聊了很多,也学到了很多,过得非常愉快｡房间与图片描述一致,很干净舒服｡不便之处是WIFI不是很稳定,以及房间在很高的4楼且没有电梯｡不过Montserrat有帮我们搬行李减轻我们的负担,感谢Montserrat｡我推荐不携带行李箱的游客入住~"
-              },
-              {
-                "at": "2016-10-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb6e2",
-                  "fullname": "Simen",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "21913799"
-                },
-                "txt": "Very cosy apartment in a nice and local neighborhood. Montserrat was a really nice host and we felt very comfortable in her apartment. location is perfect and just 2 min to metro and bus. She has an awesome juice machine to make fresh orange juice:) \r\nHighly recommended!"
-              },
-              {
-                "at": "2016-10-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5e3",
-                  "fullname": "Ines",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "18449869"
-                },
-                "txt": "Montce a été très gentille et accueillante, c'était un plaisir d'être dans son appartement qu'elle nous a gentiment laissé pendant notre séjour de 5 jours, nous l'avons vu que quelques fois et c'était pour qu'elle nous donne des informations sur la ville de Barcelone! L'appartement est très bien situé, à deux pas du métro! Les escaliers de la résidence étaient bien étroits, et il y à 5 étages à monter! Mais nous étions prévenu, c'est écrit sur l'annonce, ça nous a permis de bien digérer le repas avant de dormir! Et si on a une grosse valise Montce est prête à nous aider dans les escaliers ! \r\nMuchas gracias Montce, espero que nos vemos un otro dia por el pais vasco!! :) Hechamos de menos palomita ! "
-              },
-              {
-                "at": "2016-10-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd45",
-                  "fullname": "Ylenia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
-                  "id": "60807862"
-                },
-                "txt": "El piso es como un 6 sin acensor pero es más, las escaleras de acceso a la última planta son infernales. Tiene por ambos lados unos patios que no son aptos para personas con vértigo y si a eso le sumamos que la barandilla está suelta por sitios... El edificio en general es muy antiguo y tiene muchísimas grietas y El Barrio tampoco es de fiar. En resumen, no nos quedamos en el alojamiento finalmente."
-              },
-              {
-                "at": "2016-11-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb09a",
-                  "fullname": "Ainara",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "64867465"
-                },
-                "txt": "Montse nos dió todas las facilidades posibles para que nuestra estancia en Barcelona fuese inmejorable y de verdad nos hizo sentir que su casa era nuestra casa."
-              },
-              {
-                "at": "2016-11-13T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbeeb",
-                  "fullname": "Ольга",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
-                  "id": "99467277"
-                },
-                "txt": "Монсерат очень позитивна и отзывчива, весела и приятна в общении, деликатна и ненавязчива. Встретила нас, несмотря на поздний заезд. Квартира соответствует фотографиям и описаниям, все чисто и аккуратно. Квартира расположена в старинном доме в хорошем и тихом районе. До метро Poble Sec три минуты ходьбы.Для нас оказался необычным подъезд, лестница и правда узкая и высокая, об этом все тут пишут, если есть проблемы со здоровьем, лучше не рисковать. Удачное расположение квартиры позволяет экономить на проезде, до площади Испании и фонтана Монжуик десять минут, до площади Каталонии чуть подальше. Рядом много кафе и магазинов. Из-за рабочего графика Монс, мы видели ее очень редко, поэтому фактически вся квартира была в нашем распоряжении. Это был наш первый опыт с airbnb и он оказался удачным."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Caves",
-              "Beachfront",
-              "New"
-            ],
-            "statReviews": {
-              "cleanliness": 4.7,
-              "communication": 4.6,
-              "checkIn": 4.6,
-              "accuracy": 4.3,
-              "location": 4.7,
-              "value": 4
-            }
-          },
-          {
-            "name": "Inner City Terrace - 2 rooms 2 beds - 4 ppl.",
-            "type": "OMG!",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436236/ctnbnqazpqhotjcauqwp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436588/cxkvvaext8m0kjuaxcrk.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436542/e96nrbkjz8mecvsbzukk.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436787/gcz7mgmxb6dcl4vz6h0a.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437259/pw5sosryaebjynvwppcy.jpg"
-            ],
-            "price": 171,
-            "summary": "Our home is located in Darlington, a small niche suburb of Sydney with a relaxed, friendly and safe atmosphere. We are located a 10 min walk to Broadway, Glebe, Newtown, The University, surrounded by fantastic restaurants, cafes, pubs, markets and public transport. It is a 20 min walk to the city centre.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Internet",
-              "Wifi",
-              "Kitchen",
-              "Paid parking off premises",
-              "Smoking allowed",
-              "Free street parking",
-              "Heating",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Hot water",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Jason",
-              "location": "New South Wales, Australia",
-              "about": "Hey I'm Jason. I enjoy travelling, photography and beer!\r\n\r\nWe have had a little girl!\r\nOur calender will be closed for a while. If you are a repeat guest send me a message and we might be able to open the calender for you.\r\n\r\nI spent many years living in England, Ireland and Italy; and have travelled to Andorra, Austria, Bali, Belgium, Bulgaria, France, Germany, Hungary, Malaysia, Portugal, Romania, Singapore, Spain, Switzerland, Thailand & Vietnam. \r\n\r\nMy partner Luana is from Verona, Italy. \r\n\r\nWe started hosting in Oct 2015 and enjoy meeting people from around the world and listening to stories about their country and travels.\r\n\r\nWe have a good knowledge of Sydney (sights, attractions, shopping, beaches, day treks, restaurants, pubs & night clubs) and various places around Australia. ",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/440690bd-73f1-411a-8194-5e6a17bc39ff.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "9031139"
-            },
-            "loc": {
-              "country": "Australia",
-              "countryCode": "AU",
-              "city": "Sydney",
-              "address": "Darlington, NSW, Australia",
-              "lat": 151.1965,
-              "lan": -33.88848
-            },
-            "reviews": [
-              {
-                "at": "2016-08-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfd7",
-                  "fullname": "Joshua",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
-                  "id": "61019353"
-                },
-                "txt": "My production company booked Jason's home to shoot the second series of our online show, A Shared House and we had an incredible time.\r\n\r\nIn the months leading up to our booking Jason made himself available to assist us with any questions or queries we had about our time in the house.\r\n\r\nJason was flexible with our schedule and did everything he could to make our stay as perfect and problem free as it could be.\r\nThe home is immaculately kept and in great condition.  Close to public transport and near by shops. \r\n\r\nBy the end of the two weeks, Jason's home felt like home to our cast and crew. Both Jason and his partner are so welcoming and accomodating - We have now become great friends!!"
-              },
-              {
-                "at": "2016-11-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4f4",
-                  "fullname": "Sung Hui(Audrey)",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/68.jpg",
-                  "id": "101450846"
-                },
-                "txt": "It was a great time as the host was really kind and helpful. My two boys loved there, they wanted to stay longer but we had to go. Thank you Jason, we hope your always happy. Bye~"
-              },
-              {
-                "at": "2017-06-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb109",
-                  "fullname": "Jiaojie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
-                  "id": "132136782"
-                },
-                "txt": "house is so so so…lovely and Jason and his wife are friendly!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Tropical",
-              "Ryokans",
-              "Casas particulares"
-            ],
-            "statReviews": {
-              "cleanliness": 4.2,
-              "communication": 4.4,
-              "checkIn": 4.7,
-              "accuracy": 4.4,
-              "location": 4,
-              "value": 4.9
-            }
-          },
-          {
-            "name": "Nice room with queen sized bed",
-            "type": "Shared homes",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436864/ww1gixcmzwryfe1amps1.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437053/cg3bpdujvsd9lswwpfgy.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436588/cxkvvaext8m0kjuaxcrk.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437269/u6wxkpazgvqdxiceky9l.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437006/kcsenznwf3pnka6hjwoh.jpg"
-            ],
-            "price": 30,
-            "summary": "A lovely room with a queen sized bed, chair, dresser, lamp and closet. This room has AC for the hotter months. Guests are welcome to use the kitchen, living room and study.",
-            "capacity": 1,
-            "amenities": [
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Free street parking",
-              "Heating",
-              "Smoke detector",
-              "First aid kit",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Jen",
-              "location": "Montreal, Quebec, Canada",
-              "about": "Massage therapist, artist, writer, gardener, traveler, filmmaker and B&B Host.",
-              "responseTime": "within a few hours",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/528512/profile_pic/1303510673/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "528512"
-            },
-            "loc": {
-              "country": "Canada",
-              "countryCode": "CA",
-              "city": "Montreal",
-              "address": "Montreal, QC, Canada",
-              "lat": -73.58677,
-              "lan": 45.52572
-            },
-            "reviews": [
-              {
-                "at": "2011-05-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb685",
-                  "fullname": "Jesse",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
-                  "id": "601664"
-                },
-                "txt": "Jen was very accomodating.  The room was fine, though being an old building you hear any conversations/people there.  Great location though, near the metro, plateau, mile end.  Lots of great restaurants nearby."
-              },
-              {
-                "at": "2011-06-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae87",
-                  "fullname": "Peter",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
-                  "id": "568834"
-                },
-                "txt": "Plateau Montreal Artisinal is value for money.  The location is ideal and there is an excellent range of cafes, restaurants and bars handy.  The Metro is close by.  The accommodation was adequate and the breakfast was great.  This accommodation is more in the range of a guest house than a BnB.  \r\nPeter and Jenny"
-              },
-              {
-                "at": "2011-07-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbeec",
-                  "fullname": "Kim",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "99155"
-                },
-                "txt": "We really enjoyed our stay.  Great location – close to BIXI stand, metro, shops, restaurants and cafes.  Jen is super easy to get along with."
-              },
-              {
-                "at": "2011-07-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe06",
-                  "fullname": "Robert Halley",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/73.jpg",
-                  "id": "731216"
-                },
-                "txt": "We had a great stay at Jen's place, It was  an old buliding but full of  characteristics, close to METRO, and shops.  The rooms are colorful with comfortable beds. Breakfast was excellent. Jen is very accomodating. i highly recommend Jen's place."
-              },
-              {
-                "at": "2011-07-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba59",
-                  "fullname": "Hana",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "784195"
-                },
-                "txt": "I do not recommend this place. I arrived on a hot day, there was no air condotion, bed much to small for a couple, room is dark and not appealing at all\r\nThe room description is definitely deciving\r\nNot worth even to stay even for free!\r\n\r\nCheck out other places\r\nBest of luck - H.\r\n"
-              },
-              {
-                "at": "2011-07-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb586",
-                  "fullname": "Rosa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
-                  "id": "745274"
-                },
-                "txt": "I stayed in Montreal for one night so my friends and I enjoyed Jen's hospitality!! The breakfast was really good, thanks for everything"
-              },
-              {
-                "at": "2011-07-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac57",
-                  "fullname": "Kristin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "787367"
-                },
-                "txt": "This was a cute apartment in a very great location in Montreal.  Jen was a very helpful and generous host.  Breakfast was simple, but very delicious.  My only complaint was that the room is on a fairly busy street and when you have the window open in the morning (which is needed in the summer), it can be very load very early (~6am).  Other than that, it was a great place.  "
-              },
-              {
-                "at": "2011-07-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb323",
-                  "fullname": "Antonia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
-                  "id": "378883"
-                },
-                "txt": "Jen's b&b is a great place to stay, she is very sweet, prepares breakfast with lots of love, the rooms and bathroom are super clean, great location and very independent, it is easy to feel at home.\r\nAlso, you should try Jen's massage, she is awesome!"
-              },
-              {
-                "at": "2011-08-06T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc014",
-                  "fullname": "Alex",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
-                  "id": "881081"
-                },
-                "txt": "Great location. Nice breakfast. Jen was a pleasant and informative host. I'm very glad I did this for my first trip to Montreal and I would definitely do this again."
-              },
-              {
-                "at": "2011-08-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1b1",
-                  "fullname": "Danielle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "884737"
-                },
-                "txt": "Jen is a great host--very accommodating, makes a lovely breakfast with endless cups of coffee and her rooms are all neat and clean. The location is perfect and within walking distance of lots of great food and Montreal sights. Our room had a fan but others might find the lack of air conditioning challenging in the summer. We had a really nice stay."
-              },
-              {
-                "at": "2011-08-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb555",
-                  "fullname": "Jean",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/68.jpg",
-                  "id": "946460"
-                },
-                "txt": "It was perfect! the house is charming and you feel like in your own home. Jen is very welcoming and her breakfast is delicious. A very great host!\r\nI've already decided to come back.. Thanks Jen!"
-              },
-              {
-                "at": "2012-05-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faffb",
-                  "fullname": "Huda",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/73.jpg",
-                  "id": "1575627"
-                },
-                "txt": "We booked with Jen pretty last minute and found her to be very cooperative and accommodating. The location is centrally located, right next to a subway stop and near everything Montreal has to offer. Jen made us a delicious bagel breakfast in the morning, and was very flexible with our check-in/check-out time."
-              },
-              {
-                "at": "2012-05-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb083",
-                  "fullname": "Matthew",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
-                  "id": "1216607"
-                },
-                "txt": "The place was great. Jen was very hospitable and we had a really comfortable and fun visit to Montreal"
-              },
-              {
-                "at": "2012-06-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae33",
-                  "fullname": "Tara",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
-                  "id": "2215882"
-                },
-                "txt": "Great place in a really handy location very easy to see the city, on a lovely street full of restaurants and shops. Very nice building with old school charm, very arty feel. Beds where comfortable room was large and airy with huge window. no air con but the fan in the room worked grand. Wifi and free parking was an extra bonus. Breakfast every morning was lovely. If I get back to Montreal I will stay there again."
-              },
-              {
-                "at": "2012-06-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad61",
-                  "fullname": "Bill",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "11624"
-                },
-                "txt": "We were in town just for one night, and Jen's place worked great!  Very easy to arrive, and everyone was very friendly."
-              },
-              {
-                "at": "2012-07-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc84",
-                  "fullname": "Anna",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
-                  "id": "1730984"
-                },
-                "txt": "Jen was very welcoming and responsive.  She and her friend provided a delicious and substantive breakfast in the morning.  Nice neighborhood right on St. Denis.  Large sunny room with comfy queen mattress. Fun and funky decor, nice little terrace and ktichen.  Couple of things: 1)  there are two bathrooms- one with toilet, the other with sink and bathtub.  The sink drained realy slowly so was a little discouraging.  Shower was fine, water pressure a little low.  2) our room, the Green Room, is right on St. Denis - trucks ROARing woke us early a.m.  3) be sure to take your room key with you when you go to the bathroom, etc, otherwise your door will lock!  Maybe I'm fussier than my younger reviewers, but these are important to note.  Otherwise, a very nice stay with friendly and knowledgable hosts.\r\n"
-              },
-              {
-                "at": "2012-07-06T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac71",
-                  "fullname": "Marshall And Denise",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/62.jpg",
-                  "id": "2659870"
-                },
-                "txt": "Jen was a gracious host and very friendly. The accomodations were more than adequate and breakfasts were yummy.  We even got a free concert in the bargain."
-              },
-              {
-                "at": "2012-07-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faf25",
-                  "fullname": "Steve",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
-                  "id": "2797722"
-                },
-                "txt": " We strongly recommend this location. We would surely stay here again in the future.\r\nNOTE: There are 3 rooms at this location. 2 of them face St Denis, and this is a busy street with traffic noise. The 1 room in the back, away from St Denis, is much quieter. This is our favorite room.\r\nThe location, one block from Metro/Laurier is excellent. The building is from 1890, and has a lot of character. There are 2 flights of stairs to get up to the rooms.\r\nJen is a very welcoming and conscientious host. She went beyond our expectations and helped us with some issues with our room and the AirBNB website. We are most appreciative.\r\nBreakfast was very good.\r\nWe stayed here for one week. in 2 of the 3 rooms. (BTW: The beds in these 2 rooms are folders, and are a bit harder than we like.)"
-              },
-              {
-                "at": "2012-07-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faf25",
-                  "fullname": "Steve",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
-                  "id": "2797722"
-                },
-                "txt": "This is a fine place to stay. Jen is calm, welcoming, and has a nice sense of humor."
-              },
-              {
-                "at": "2012-07-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faffd",
-                  "fullname": "Jackie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
-                  "id": "2762720"
-                },
-                "txt": "I thoroughly enjoyed my stay at Jen's B&B.  Rooms were airy and clean with a kind of artistic feel that I fell immediately in love with.  B&B is in a great central location, surrounded by many great shops, restaurants, and bars, and near Metro station.  Jen is welcoming, enthusiastic, and warm.  Yummy, filling breakfast was a great start to each morning!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Caves",
-              "Amazing views",
-              "Amazing views"
-            ],
-            "statReviews": {
-              "cleanliness": 4.2,
-              "communication": 4.5,
-              "checkIn": 4.6,
-              "accuracy": 4,
-              "location": 5,
-              "value": 4.4
-            }
-          },
-          {
-            "name": "Cozy and modern Lapa-studio",
-            "type": "OMG!",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436582/vv0y7twjl7zcj9g71sjf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436359/abuiyexl2xyemq8uon4s.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436321/g2cs1w7tkxsx58penq9j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436470/jrzh7wvpvulqxo42xocc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436801/mcuu1w2188ndpd6hezzt.jpg"
-            ],
-            "price": 112,
-            "summary": "Studio in modernized building with games room, gym, computer room, ballroom and rooftop pool. The studio with modern, cheerful decor, with light vintage feel is divided into bedroom and living room with kitchen.",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Wifi",
-              "Wheelchair accessible",
-              "Pool",
-              "Kitchen",
-              "Paid parking off premises",
-              "Doorman",
-              "Gym",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Self check-in",
-              "Building staff",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "BBQ grill",
-              "Patio or balcony",
-              "Garden or backyard",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Wide hallway clearance",
-              "Wide doorway",
-              "Flat path to front door",
-              "Well-lit path to entrance",
-              "Accessible-height bed",
-              "Step-free access"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Dejanira",
-              "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
-              "about": "Moro no Rio de Janeiro, nascida em Salvador. Resolvi alugar este apartamento,  principalmente por que gosto muito de viajar e quando viajo, prefiro alugar um espaço para ficar. Alugar um apartamento em outra cidade, outro país, além de ser mais barato do que hotel, possibilita uma maior interação com os moradores locais e um maior conhecimento sobre o seu modo de vida. Como são os supermercados e as padarias, o que vendem ali ? qual é o dia a dia da população?  Além disto não há horário para o café da manhã e posso fazer um lanche ou almoço se não quiser ir a um restaurante.\r\nProcuro trazer as minhas experiências de hospedagem para o meu apartamento, pois quero que o hóspede se sinta confortável, em casa.\r\nAlém de gostar muito de viajar, adoro ler e ouvir música e pretendo com o dinheiro que ganho hospedando, poder me hospedar mais pelo mundo a fora. ",
-              "responseTime": "within a few hours",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/8557006/profile_pic/1378865375/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "8557006"
-            },
-            "loc": {
-              "country": "Brazil",
-              "countryCode": "BR",
-              "city": "Rio De Janeiro",
-              "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
-              "lat": -43.182736348008305,
-              "lan": -22.9106385343457
-            },
-            "reviews": [
-              {
-                "at": "2016-03-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb81",
-                  "fullname": "Joska",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
-                  "id": "45960885"
-                },
-                "txt": "What a great appartement in the most vivid neighbourhood of Rio de Janeiro. The appartment was clean and had everything I needed and more! Rio Scenarium just around the corner, so If you like samba and dancing, this is the pace to be. And Dejanira was a great host. "
-              },
-              {
-                "at": "2016-03-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb052",
-                  "fullname": "Débora",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "22211470"
-                },
-                "txt": "O estúdio é muito bem localizado, com mercado, padaria, bares e restaurantes próximos. O estúdio é exatamente como nas fotos e é bem equipado, com louças, cafeteira, torradeira, etc. O prédio é muito seguro e possui uma infra muito boa. Não cheguei a conhecer Dejanira pessoalmente, mas ela foi muito atenciosa conosco. Recomendo! "
-              },
-              {
-                "at": "2016-04-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb862",
-                  "fullname": "Danielle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "31815003"
-                },
-                "txt": "Apartamento muito confortável e bem localizado! Foi perfeito para a nossa estadia! A Dejanira nos deixou super a vontade e não deixou nada a desejar! Voltaremos mais vezes com certeza!"
-              },
-              {
-                "at": "2016-04-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd24",
-                  "fullname": "Gustavo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "65810582"
-                },
-                "txt": "Tudo conforme descrito, apto bem localizado, Dejanira sempre pronta para nos atender, uma Brahma na geladeira de boas vindas, enfim foi uma experiência excelente em minha primeira viagem via Airbnb. Abraço e muito obrigado Dejanira."
-              },
-              {
-                "at": "2016-05-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb40d",
-                  "fullname": "Kitty",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "6372268"
-                },
-                "txt": "When i came at the adres the doorman gave me the keys. The appartment is in the middle of Lapa on a perfect location!! Bars and restaurants are just around the corner. The appartment was so nice with everything you need. A small kitchen, fridge, nice hot shower, good bed, television. And the gym and sauna down and pool on the rooftop made it all perfect. Come back for sure!! Love this city and place to stay:) thanks!!"
-              },
-              {
-                "at": "2016-05-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb317",
-                  "fullname": "Jorge",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
-                  "id": "41829590"
-                },
-                "txt": "El departamento está muy bueno, corresponde exactamente a las fotografías.\r\nEstá ubicado exactamente en la movida de Río. Esta inmerso en pleno centro de Río. Al lado de Lapa, muy cerca de barrio Santa Teresa. La calle del edificio es dónde pasan ómnibus y taxis. \r\nEsta a un par de cuadras de estación del tren subterráneo.\r\nLa comunicación con la conserjería del edificio es muy buena y tratan de ayudar ante cualquier problema."
-              },
-              {
-                "at": "2016-06-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf9d",
-                  "fullname": "Raphie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
-                  "id": "22001571"
-                },
-                "txt": "Very nice apartment, with a pool and steam rroom available, dejinara was very helpful. Lapa is the place to be if you like to party. Highly recommended "
-              },
-              {
-                "at": "2016-06-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd82",
-                  "fullname": "Andrea",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
-                  "id": "40940251"
-                },
-                "txt": "I really had great time in Dejanira's place. The location is perfect, close to everything I needed to do and lovely atmosphere during the June's Lapa parties. The place corresponds to the pictures and Dejanira is always ready to reply to any questions. I would love to stay there again!"
-              },
-              {
-                "at": "2016-07-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb690",
-                  "fullname": "Vladimir",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "50758819"
-                },
-                "txt": "I highly appreciated safety of the place: secure entry and someone at the reception 24 hours. \nThe place was extremely clean and had most of the necessary appliances with exception of an iron. Yet the apartment complex has laundry services.\nThere were some issues with internet (36 hours or so) but that was not Dejanira's fault, rather local provider's.\n\nDejanira was very responsive.\nTLDR: if you want to stay in that part of the city, I strongly recommend considering that apartment."
-              },
-              {
-                "at": "2016-08-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb095",
-                  "fullname": "Emily",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "32290254"
-                },
-                "txt": "Our time in Rio staying at Dejanira's apartment was fantastic, I personally don't think that the photos do the property justice and feel that in person the property is actually bigger! The facilities were fantastic and we enjoyed using the pool (which is also a lot bigger in person) which has stunning views over Rio, including Christ the Redeemer on Corcovado mountain. The staff were extremely friendly and helpful and learnt our faces immediately so we had no problem at all gaining access to the very secure apartment (the staff buzz you in the gates via CCTV). The neighbourhood is more downtown Rio and if you like a good night out it will be perfect for you. We didn't feel that the neighbourhood was the safest of areas in Rio, but then again anywhere in Rio during the night isn't the safest place to be. The noise from the street at night was sometimes a little loud especially on Fridays and Saturdays which are extremely busy times in Lapa however we understand that this noise is unavoidable and inevitable. It must also be taken into consideration that we were in Rio for the busiest two weeks of the year, during the 2016 Olympics, a time when at night there were hundreds of thousands of tourists on the streets as well as the locals! Despite this as soon as we entered the double electronic gated apartment block we felt completely at ease and safe and during or time in Rio we spent one of the day's exploring Lapa, admiring its arches and the colourful artwork and graffiti that the locality had to offer. The apartment was perfect for us, size, location, accessibility were all excellent. Our neighbours were very friendly and helpful and would always say \"good morning\" and \"good evening\" in the elevator throughout the day. There was a very convenient supermarket just 1 minutes  walk from the apartment and the kitchen had everything you could possible need. If however you prefer to eat out, Lapa has many excellent bars and restaurants and so does Copacabana and Ipanena if you want to travel a little further away. The shower was particularly excellent-hot water was always in abundance. This apartment had everything we wanted and we couldn't have asked for a better place to stay during our time spent in Rio De Janeiro for the Olympics. If and when we ever return to Rio Dejanira's apartment is the only option for us and we would love to stay there again."
-              },
-              {
-                "at": "2016-09-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae52",
-                  "fullname": "Flávio",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
-                  "id": "67209131"
-                },
-                "txt": "Excelente! Tudo conforme o combinado! Retorno garantido!"
-              },
-              {
-                "at": "2016-10-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc7e",
-                  "fullname": "Taiane",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "52128069"
-                },
-                "txt": "Gostamos muito do apartamento, as fotos são exatamente como ele é. A Dejanira foi muito atenciosa, simpática, antes, durante e após a nossa viagem. O apt é excelente tem tudo que se precisa, me senti em casa. É bem localizado, fácil acesso a tudo. Recomendo sem dúvidas. Obrigada até a próxima."
-              },
-              {
-                "at": "2016-10-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb633",
-                  "fullname": "W'Hander",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
-                  "id": "16597673"
-                },
-                "txt": "the place is really amazing, everything in the building, services and the apto are great."
-              },
-              {
-                "at": "2016-11-26T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb9a",
-                  "fullname": "Alberto",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "74312085"
-                },
-                "txt": "My experience at Dejanira's flat was very good. The apartment itself is spacious, clean, with all the facilities that you might need, like AC, WiFi, Fan etc. The Building is very good located, close to Lapa, with a lot of restaurants, bars, pubs. Metro Station is about 15 mins walk (Cinelandia). Dejanira was attentive and made sure that everything was ok. I can just recommend her and her apartment."
-              },
-              {
-                "at": "2017-01-02T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf0a",
-                  "fullname": "Francisca",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg",
-                  "id": "55171995"
-                },
-                "txt": "Dejanira fue una excelente host, siempre muy atenta"
-              },
-              {
-                "at": "2017-01-19T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc04",
-                  "fullname": "Federico",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
-                  "id": "105496190"
-                },
-                "txt": "El departamento es excelente, muy confortable, tal cual se muestra en las fotos. El barrio es muy típico de Río, muy bohemio, mucho movimiento nocturno. Bien conectado con el resto de la ciudad y cómodo en cuanto a servicios y abastecimiento diarios. \nLa pileta es muy cómoda, la gente del edificio muy cordial y amable. Dejanira sumamente atenta, contesta en seguida los mensajes y es muy clara y cálida.\nUn gusto alojarse acá, lo recomendaría siempre. Imperdible."
-              },
-              {
-                "at": "2017-02-14T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae97",
-                  "fullname": "Ana Maria",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "25399239"
-                },
-                "txt": "O apartamento é fiel as fotos. Muito confortável, bonito e tudo funciona. Tivemos acesso a piscina, o que foi muito bom para os momentos em que não queríamos andar pela cidade. Bem localizado, não tivemos dificuldade para ir a lugar algum. Os funcionários do prédio são muito educados e solicitos e aproveitamos muito a Lapa a pé, sempre nos sentindo seguros. Obrigada Dejanira!"
-              },
-              {
-                "at": "2017-02-20T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb100",
-                  "fullname": "Kimberly",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "87423192"
-                },
-                "txt": "Great place to stay!! Has everything you need and it's close to everything. It's thee perfect place to stay in Rio"
-              },
-              {
-                "at": "2017-03-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb418",
-                  "fullname": "Igor",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "102219917"
-                },
-                "txt": "Adoramos o apartamento da Dejanira. Eu e minha namorada ficamos lá por 6 dias, e saímos encantados. O apartamento é bem localizado, fica próximo a pontos turísticos da cidade, no centro da Lapa, próximo a bares e ao mesmo tempo um prédio seguro. E a anfitriã é bastante solícita, acessível. O apartamento estava limpo e organizado. Só elogios ao apartamento da Dejanira. Não vemos a hora de voltar."
-              },
-              {
-                "at": "2017-03-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac6a",
-                  "fullname": "Teemu",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/45.jpg",
-                  "id": "74958291"
-                },
-                "txt": "Stay at Dejanira's place was the best stay in Airbnb for me. With a decent price you'll get everything. A modern and clean apartment with a very good air-conditioning, sauna, 24h gym and the most welcoming host.\n\nIf one thing should be said about the apartment it is that in the weekends it can get a bit noisy, but that is what you should expect when staying in Lapa.\n\nHighly recommend this stay!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Countryside",
-              "Top of the world",
-              "Tropical"
-            ],
-            "statReviews": {
-              "cleanliness": 4.6,
-              "communication": 4.7,
-              "checkIn": 4,
-              "accuracy": 4,
-              "location": 4,
-              "value": 5
-            }
-          },
-          {
-            "name": "Double room with private bathroom",
-            "type": "Beachfront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436588/cxkvvaext8m0kjuaxcrk.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436310/acidri8oahpcoxa0idns.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437049/gpanmdffbwd9crhnzswa.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436414/trl4n8noogyun10qmds8.jpg"
-            ],
-            "price": 38,
-            "summary": "Double room on the second floor of a new constructed duplex of modern design. There are a wardrobe, a small table and its own air conditioner that could be used  for winter as well as for summer. Large family size bed of 135 x 190 cm. Inside the apartment you could freely use large kitchen with dining table and a lot of modern kitchen devices. Itºs located in a quiet neighborhood just in  15 min by train or metro (the train or metro station are just in 5 min by foot from apartment).",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "Washer",
-              "First aid kit",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_50",
-              "Hot water",
-              "Luggage dropoff allowed",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Sonia",
-              "location": "Barcelona, Catalonia, Spain",
-              "about": "Soy una persona extrovertida, sociable, sencilla y me gusta conocer a gente nueva.\r\nEntre mis aficiones están el cine, el baile, los paseos por la playa y la montaña y viajar.",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/7df7595b-806c-46f4-a4d9-62f41a38393d.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "16022141"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, CT, Spain",
-              "lat": 2.17935,
-              "lan": 41.43038
-            },
-            "reviews": [
-              {
-                "at": "2016-04-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb8d4",
-                  "fullname": "Diego",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
-                  "id": "37843205"
-                },
-                "txt": "The host canceled this reservation 44 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2016-04-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb9bb",
-                  "fullname": "Virginia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
-                  "id": "41071490"
-                },
-                "txt": "La pasamos muy bien en bcn y en lo de sonia, tiene todo muy limpio y equipado, el departamento es hermoso, cerca del metro asiq podes ir  a todos lados, nosotros hicimos todo caminando y sin problema. Sin duda lo recomiendo. Gracias Sonia x tu amabilidad sobre todo con emilia.bso"
-              },
-              {
-                "at": "2016-05-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb307",
-                  "fullname": "Santi",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "17945879"
-                },
-                "txt": "Todo muy bien, la habitación y la casa limpia y en zona tranquila. Baño privado y Sonia es una muy buena host."
-              },
-              {
-                "at": "2016-08-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb680",
-                  "fullname": "Noemí",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
-                  "id": "36982672"
-                },
-                "txt": "El dúplex de Sonia es muy nuevo. La habitación y el baño, que ha sido solo para nosotros, estaban limpios y eran confortables. Sonia es una anfitriona muy agradable, silenciosa y respetuosa, hemos estado muy cómodos, nos ha hecho sentir como en casa. Muy próximo a la Meridiana, con la parada de metro de Fabra i Puig a 3 minutos andando, donde coges la línea roja y vas directo al centro sin transbordos. Muy recomendable."
-              },
-              {
-                "at": "2016-08-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb31d",
-                  "fullname": "Alberto",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
-                  "id": "55697896"
-                },
-                "txt": "Sonia es agradable y nos ayudó en todo para movernos en Barcelona, la atención fue increíble.\n\nEl barrio está muy cerca del Metro y del centro, además el apartamento es limpio, agradable y súper equipado.\n"
-              },
-              {
-                "at": "2016-09-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb4e",
-                  "fullname": "Karen",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "61820468"
-                },
-                "txt": "el barrio era muy tranquilo solo que a cierta hora de la noche y del día pasan los camiones de basura y hacen mucho ruido."
-              },
-              {
-                "at": "2017-04-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba02",
-                  "fullname": "Manuel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "7917851"
-                },
-                "txt": "Sonia is a great host, open-minded, helpful and nice. The apartment is clean, close to the metro and shops. Certainly one of the best place to be in Barcelona. Thank you for everything Sonia! "
-              },
-              {
-                "at": "2018-02-27T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb1f",
-                  "fullname": "Luísa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "19125868"
-                },
-                "txt": "Sonia was a very nice guest. Very kind and very helpful for us. I really enjoyed stay at her home.  it was very comfortable also. The bedroom had air conditioners and it was very clean. The Bathroom was only for us. It was not so far from metro and there is very good restaurants near there. Thanks you very much Sonia!"
-              },
-              {
-                "at": "2018-04-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb83c",
-                  "fullname": "Paolo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
-                  "id": "117516937"
-                },
-                "txt": "The trip did not start in a very comforting way as our previous host cancelled our months old booking 2 weeks before our holidays. This solution really saved our trip to Barcellona. Sonia’s place was walking distance from the metro, very easy to get to and just few km away from the very center if the city. The room was nice and clean just like the private bathroom. The first time for us in a room rather than full apartment and were nicely surprised about Sonia’s kindness and confidence. Really recommend this room."
-              },
-              {
-                "at": "2018-05-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafb6",
-                  "fullname": "Veronika",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
-                  "id": "185898153"
-                },
-                "txt": "Sonia was very kind. I approciated the bottle of water on arrival and cup of coffee for a breakfast. This small things make the life better :) as well as willingness to accommodate us sooner and let us leave later. Her appartment is clean and very quite. I fully recommend it."
-              },
-              {
-                "at": "2018-05-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb87d",
-                  "fullname": "Sebastian",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
-                  "id": "183516387"
-                },
-                "txt": "Sonia is very nice host.  I really enjoyed stay at her home. The apartment was clean, near to shops and metro. Bathroom was only for us. When we arrived we got a bottle of water. It was very nice gesture!"
-              },
-              {
-                "at": "2018-07-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faeac",
-                  "fullname": "Paola",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "146212039"
-                },
-                "txt": "Excelente anfitriona, muy buena ubicación, colonia tranquila y con muchos lugares para comer, cerca del metro. Muy recomendable. "
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Ryokans",
-              "Beachfront",
-              "Minsus"
-            ],
-            "statReviews": {
-              "cleanliness": 4.3,
-              "communication": 4.4,
-              "checkIn": 4,
-              "accuracy": 4.2,
-              "location": 5,
-              "value": 4.5
-            }
-          },
-          {
-            "name": "Quarto Taquara - Jacarepaguá",
-            "type": "Amazing views",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436255/nmccht42mpd6erdeqjhi.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436872/i3jblqgpdttpwvshbffo.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437009/zuu2udtrkcs6sxjiym40.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437344/r4w6s3af55tdt5y1lrcc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436556/mb70fifvvpvde8jub5cg.jpg"
-            ],
-            "price": 101,
-            "summary": "Quarto exclusivo com armário e sofá cama de casal, possui ainda um colchão de casal. Apartamento localizado próximo a estação do BRT - Aracy Cabral - Bairro da Taquara - Jacarepaguá de fácil acesso aos bairros da Barra da Tijuca, Recreio, etc.",
-            "capacity": 2,
-            "amenities": [
-              "Cable TV",
-              "Wifi",
-              "Kitchen",
-              "Smoking allowed",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Family/kid friendly",
-              "Washer",
-              "Essentials",
-              "Lock on bedroom door",
-              "24-hour check-in",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_50"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Luana",
-              "location": "Rio de Janeiro, Rio de Janeiro, Brazil",
-              "about": "Carioca, profissional de marketing, maquiadora e que ama viajar, conhecer lugares, culturas e pessoas! ",
-              "responseTime": "a few days or more",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/ef5a70f4-27ad-4377-b5c6-90483ed8ac91.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "3026612"
-            },
-            "loc": {
-              "country": "Brazil",
-              "countryCode": "BR",
-              "city": "Rio De Janeiro",
-              "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
-              "lat": -43.37035220190699,
-              "lan": -22.91636184358952
-            },
-            "reviews": [
-              {
-                "at": "2016-05-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb642",
-                  "fullname": "Gioconda",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "70996760"
-                },
-                "txt": "\r\nLuana é ótima anfitriã, me senti em casa. Compartilhamento de áreas em comum, cozinha, sala sem problemas. Quarto limpo com armário grande e espaço suficiente. E o melhor de tudo, pertinho de onde eu precisava ir, fui e voltei caminhando, o bairro estava tranquilo.\r\nAntes de ir ao Rio, nos comunicamos por celular, e ela pode me dar as direções de como chegar ao apartamento. No final, gentilmente se ofereceu para me apanhar no Terminal Rodoviário, a caminho de volta do trabalho. Achei ótimo, por não conhecer a malha viária urbana por lá. \r\nConversamos muito, achei muito interessante.\r\n\r\n  "
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Play",
-              "Minsus",
-              "Off-the-grid"
-            ],
-            "statReviews": {
-              "cleanliness": 4.7,
-              "communication": 4.3,
-              "checkIn": 4.5,
-              "accuracy": 4.9,
-              "location": 4.5,
-              "value": 4.2
-            }
-          },
-          {
-            "name": "18C.  NICE AND COZY 2 BEDROOMS. PERFECT location!",
-            "type": "Amazing pools",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437349/thl7eoxar7dc7kpbahhj.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436578/y1fshh0nppk5nxbfzqoz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436864/ww1gixcmzwryfe1amps1.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436255/nmccht42mpd6erdeqjhi.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437061/xwqh3jtahjqxod0p1a0c.jpg"
-            ],
-            "price": 90,
-            "summary": "NICE AND COZY APARTMENT WITH 2 BEDROOMS ON A TOP FLOOR. LOCATED ON ST-LAURENT BOULEVARD. WALKING DISTANCE TO MANY GOOD RESTAURANTS, BARS, SHOPPING AND OTHER SERVICES.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Heating",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Self check-in",
-              "Lockbox",
-              "Hot water"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Simple Stay",
-              "location": "Montreal, Quebec, Canada",
-              "about": "",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/a4a32ba2-8d89-474a-adab-2c39c1bc0adb.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "9998124"
-            },
-            "loc": {
-              "country": "Canada",
-              "countryCode": "CA",
-              "city": "Montreal",
-              "address": "Montréal, Québec, Canada",
-              "lat": -73.57981,
-              "lan": 45.51702
-            },
-            "reviews": [
-              {
-                "at": "2016-05-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2bd",
-                  "fullname": "Vanessa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "9506347"
-                },
-                "txt": "Everything was very smooth, as accurate as the pictures. Antoine was available to answer questions before we arrive to Montreal. The apartment was comfortable, great location ( full of restaurants, shops, etc.) and had all items to make you feel like home, the free coffee was an extra touch"
-              },
-              {
-                "at": "2016-05-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb46b",
-                  "fullname": "Keavin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "65825552"
-                },
-                "txt": "Very easy to get to, and in a great location. Antoine was a great host, making sure we had everything we needed even though he wasn't in town. When the air conditioner stopped working, a replacement was promptly brought in. The apartment itself was very clean when we arrived."
-              },
-              {
-                "at": "2016-05-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe33",
-                  "fullname": "Elizabeth",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
-                  "id": "33650974"
-                },
-                "txt": "The apartment is very well situated. Close to many restaurants, bars, Mont Royal, cafes and pharma prix . Antoine was a lovely and accommodating host, I would certainly recommend him. He responded to messages quickly, was very flexible with check out times and the place is very accurately described in the listing. Thank you Antoine!"
-              },
-              {
-                "at": "2016-05-31T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb68",
-                  "fullname": "Gary",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "51076793"
-                },
-                "txt": "Every was good and match the description! Antoine was super accommodating."
-              },
-              {
-                "at": "2016-06-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab76",
-                  "fullname": "Marcella",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
-                  "id": "71002405"
-                },
-                "txt": "Wonderful spot in an awesome area. Lots to do. Antoine was very accomodating and always tthere to answer questions.  Clean spot. Stored out luggage for us the day we checked out until we had to go to the airport."
-              },
-              {
-                "at": "2016-06-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb568",
-                  "fullname": "Emi",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "29445419"
-                },
-                "txt": "It was great staying at Antoine's place for the week we were there. The location is good -- a bit far from the metro system, but we happened to stay during the week of Mural making it a really busy and exciting street to stay on. The space itself was decent with three rooms, one bath, and a kitchen. There is no sofa and the air conditioning was limited to the heat pump in the kitchen, but overall a great bang for your buck and a pleasant stay. Antoine was very pleasant, responsive, helpful, and accommodating. "
-              },
-              {
-                "at": "2016-07-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb66b",
-                  "fullname": "Christopher",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/62.jpg",
-                  "id": "25960942"
-                },
-                "txt": "Spent 4 days at Antoine's place and it was great! Close to some really good restaurants such as Schwartz, Romados, and patati patata. Antoine was great with keeping the lines of communication open. the only that's really missing is a couch in the common area."
-              },
-              {
-                "at": "2016-07-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb177",
-                  "fullname": "Amy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "48505777"
-                },
-                "txt": "Great location! Right in the heart of the action and close to everything else. The apt was a good size, nice and clean, with everything we needed. Antoine was very fast to reply to any questions I had about the booking. Very happy with this spot and would definitely recommend staying here."
-              },
-              {
-                "at": "2016-07-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc02e",
-                  "fullname": "Michael",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/46.jpg",
-                  "id": "62936154"
-                },
-                "txt": "Our stay was fantastic. The location was absolutely perfect with everything being a short walk away. The appartment was clean and was quite spacious for our group of 5. The neighbourhood is just wonderful and we would definately come back again."
-              },
-              {
-                "at": "2016-07-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb18c",
-                  "fullname": "Andrew",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
-                  "id": "2349436"
-                },
-                "txt": "Good stay at Antoine's place. The apartment is very well located close to a lot of the best restaurants and bars in Montreal and walking distance to many sights. Perfect place and well priced for those who need 3 bedrooms and plan to mostly use the apartment for sleeping. As stated in the description, there isn't a living room but there is a large tv and table with chairs in the kitchen area. Air conditioning only in the kitchen but will partially cool bedrooms if you leave all doors open (there are fans in each room, two rooms have windows that open, one just a skylight). Antoine is very helpful, we needed a parking spot for the weekend and he let us take the one he was in (free Friday-Sunday). "
-              },
-              {
-                "at": "2016-07-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb34c",
-                  "fullname": "Carmen",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "76340443"
-                },
-                "txt": "Place was exactly like the photos.  location was very convenient.  The most important thing for my family and I was that the apartment was clean.  I didn't meet Antoine but he left a detail message of how to get into the apartment.  A very good first experience with Airbnb.\r\n\r\nBonus: Netflix was available"
-              },
-              {
-                "at": "2016-08-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb72e",
-                  "fullname": "Kyle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
-                  "id": "49939306"
-                },
-                "txt": "Perfect neighborhood and easy to get around from there using subways/cabs. Also had a lockbox for the keys which made it really easy for us to get in and out when we weren't together. By a ton of restaurants and shops, can't really go wrong. Prompt communication and he was normally in the area if we had real pressing issues."
-              },
-              {
-                "at": "2016-08-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab8b",
-                  "fullname": "Nilo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
-                  "id": "46378967"
-                },
-                "txt": "Very good location and a was cozy apt. In the very surprising hot days at Montreal the aircon at the kitchen was not sufficient to cool the whole apt. Antoine was a very good host quickly helping on any issue. I'd surely recommend. Don't miss the all-you-can-eat No1 Sushi close by..."
-              },
-              {
-                "at": "2016-09-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faf1a",
-                  "fullname": "Alex",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
-                  "id": "16071186"
-                },
-                "txt": "It's not exactly luxurious, but that's OK. The beds were fine, the WiFi was good, and the location is perfect. The front door opens right out onto St. Laurent, and you can walk to Schwartz's and all kinds of bars in minutes. The only strange thing to note is that the toilet is oddly close to an angled wall, so you can't really sit with your legs straight. All in all, if you're just looking for somewhere to come back and crash after a night of drinking, this place fits the bill."
-              },
-              {
-                "at": "2016-09-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2ce",
-                  "fullname": "Naomi",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
-                  "id": "6744975"
-                },
-                "txt": "Antoine is a good communicator, and will address your questions. Convenient location and 2 decent sized rooms, the 3rd is a bit squished and lacks natural light. The air conditioner in the kitchen works well and if you leave the bedroom doors open it helps a lot for hot nights. Fine for a short stay and if you are there to only tour the town, but no sofa or anything to chill out on. "
-              },
-              {
-                "at": "2016-09-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae82",
-                  "fullname": "Jonas",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
-                  "id": "16280217"
-                },
-                "txt": "Great location in the bustling heart of the Plateau. Three bedroom set-up very convenient. Blvd Saint-Laurent vibrant and full of bars and restaurant that are especially lively on weekend. Perfect communication with Antoine"
-              },
-              {
-                "at": "2016-10-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfda",
-                  "fullname": "Renee",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "17431505"
-                },
-                "txt": "Great location. The lockbox containing the keys were very helpful for our large group. The apartment was clean and tidy, basic, but exactly what we needed. \n"
-              },
-              {
-                "at": "2016-10-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb559",
-                  "fullname": "Thomas Wesley",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "17644548"
-                },
-                "txt": "This apartment is very conveniently located - a five minute walk to the base of Mont-Royal, thirty-five minute stroll to the river, you'll be surrounded by shops and cafes of every sort, and the residents of Montreal struck me as pleasant, patient, and engaging.\n\nOur host immediately responded to any question or request and could not have been more helpful.\n\nThe stairway is a bit of a chore to negotiate and there is a bar below that caters to enthusiastic sports fans so if the game goes late you can hear their responses to great plays and bad calls.\n\nThe kitchen area functions well, there is a good shower, and having a washer and dryer unit is great!\n\nI personally find the gray paint in the stairway and the white walls of the all the rooms drab and boring, but that seems to be the norm for rental real estate. All in all the apartment served me well and our host was a charm."
-              },
-              {
-                "at": "2016-10-31T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbbac",
-                  "fullname": "Amanda",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
-                  "id": "45776372"
-                },
-                "txt": "Antoines place was lovely, very clean and cozy. 10 minute walk to the Plateau, so very close to shops and restaurants. We got comfortable quite quick, perfect for a small group of friends or multiple family members. My friends and I had a wonderful stay!"
-              },
-              {
-                "at": "2016-11-13T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad31",
-                  "fullname": "Antonino",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "94215198"
-                },
-                "txt": "Great location, Pereira very flexible and accommodated us well on arrival, great spot to have a group"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Casas particulares",
-              "Earth homes",
-              "Amazing views"
-            ],
-            "statReviews": {
-              "cleanliness": 4.4,
-              "communication": 5,
-              "checkIn": 4.7,
-              "accuracy": 4.1,
-              "location": 4.6,
-              "value": 4.4
-            }
-          },
-          {
-            "name": "Ipanema: moderno apê 2BR + garagem",
-            "type": "Campers",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436406/id1oo8krwgxvdf9s02qp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436961/rj6eo6v6npy65bckaxvr.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437040/oarfkdxx7gyyvcynvwko.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436933/ysvap4wzv8ziwtpbznf8.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437272/e2id7kpaglrrdug3i6if.jpg"
-            ],
-            "price": 298,
-            "summary": "Moderno apartamento de 2 quartos com garagem em bucólica rua de Ipanema, a poucos metros da Lagoa Rodrigo de Freitas.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Free parking on premises",
-              "Smoking allowed",
-              "Doorman",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Hot water",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Host greets you"
-            ],
-            "bathrooms": 2,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Barbara",
-              "location": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
-              "about": "My name is Barbara.\r\nI'm an administrator and real state manager. I study photography.\r\nI've always enjoyed showing Rio around and helping people take the most out of the city.\r\nIt has been seven years I share my love for Rio renting apartments for short period and helping my guests with hints on tourist spots.\r\nI love cooking and It will be a pleasure to be able to help with information about restaurants, bars and gastronomy in general.\r\nI love to make new friends and to know different cultures.\r\nMy husband Ricardo is  a chemical engeneer, a great companion, but not talkative as I'm.\r\nOur daughter Alice is 8 years-old. She is into dancing classical ballet, jazz and loves to exchange experiences with people in general.\r\nI look foward to having you at my place!\r\n\r\nSeja bem vindo (a)! Meu nome é Bárbara, sou administradora de empresas e estudante de fotografia.\r\nHá 7 anos eu compartilho o amor pela cidade do Rio de Janeiro alugando apartamentos por temporada e ajudando meus hóspedes com dicas sobre a cidade e pontos turísticos.\r\nUma das minhas paixões é cozinhar e será um prazer poder compartilhar dicas sobre restaurantes, bares e gastronomia em geral.\r\nAdoro viajar, fazer novos amigos e conhecer diferentes culturas.\r\nSe você ficar na minha casa também vai conhecer o meu marido Ricardo, que é engenheiro químico e meu grande parceiro na hospedagem, gente boa, mas não tão falante como eu. Nossa filha Alice tem 8 anos, dança ballet e jazz e  também adora conhecer novas pessoas e trocar experiências.\r\nTambém tenho apartamentos inteiros no Centro, Lapa e Zona Sul da cidade.\r\nSeja bem vindo a um cantinho para chamar de seu. :)",
-              "responseTime": "within a few hours",
-              "thumbnailUrl": "https://a0.muscache.com/im/users/2537111/profile_pic/1418360168/original.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "2537111"
-            },
-            "loc": {
-              "country": "Brazil",
-              "countryCode": "BR",
-              "city": "Rio De Janeiro",
-              "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
-              "lat": -43.1998455458952,
-              "lan": -22.980051683700506
-            },
-            "reviews": [
-              {
-                "at": "2016-02-23T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb134",
-                  "fullname": "Marina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "55293753"
-                },
-                "txt": "O apartamento é perfeito! Tudo novinho, bonito. O local do apartamento também é excelente, vários restaurantes, barzinhos, farmácia, tudo o que precisamos, e também fica a uns 500 m da praia, super tranquilo! \nTV, geladeira, fogão, microondas e ar condicionado no  apartamento todo, inclusive, no banheiro rs.\nSe o apartamento já é tudo de bom, a anfitriã o torna ainda melhor. Ela responde tudo mega rápido, nos esperou com uma cesta recheada de coisas deliciosas, é uma simpatia e, por fim, nos deu até uma carona até o (Website hidden by Airbnb) certeza, voltaremos e nos hospedaremos no mesmo local. Só temos a agradecer. A nossa primeira experiência com o Airnbn foi surpreendente!"
-              },
-              {
-                "at": "2016-02-28T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac00",
-                  "fullname": "Ubiratan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "18081605"
-                },
-                "txt": "THE APARTMENT WAS GREAT EXCEPT FOR THE AIR CONDITIONING LEAK FROM THE ABOVE APT. AND I BELIEVE THAT THE HOST SHOULD NOT DEMONSTRATE HIS OR HER POLITICAL OPINION BECAUSE SOME PEOPLE MIGHT NOT AGREE WITH IT AND NEVER COME BACK BECAUSE OF IT. APART FROM THIS EVERYTHING WAS GREAT."
-              },
-              {
-                "at": "2016-03-03T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb2a5",
-                  "fullname": "Giordano",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "22531898"
-                },
-                "txt": "Eu já uso o Airbnb há algum tempo, mas essa é a primeira vez que vou deixar um comentário porque vale o tempo. \n\nFui muito bem atendido, o apartamento é muito confortável e eu recomendo. :)"
-              },
-              {
-                "at": "2016-03-06T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb7f3",
-                  "fullname": "Katia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
-                  "id": "16688343"
-                },
-                "txt": "Un grand Merci a Barbara pour son acceuil et sa gentillesse.\r\nNous avons eu plusieurs conseils sur les visites a faire a Rio mais aussi sur les restaurants à proximité. \r\nL'appartement etait spacieux, moderne, charmant et tres coquet.\r\nsuper bien situé a quelques rues de la plage, restaurants, cafés, supermarché et les boutiques.\r\nNous aurions aimé un meilleur équipement cuisine mais c'est réellement le seul petit hic tout le reste etait fantastique!\r\nMerci aussi au portier Joao qui etait tres gentil et serviable.\r\nNous avons adore notre experience et louerons encore cet appartement a notres prochaine visite à Rio.\r\nMerci encore mille et une fois.\r\nkatia"
-              },
-              {
-                "at": "2016-03-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd38",
-                  "fullname": "Fabielen",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "50574444"
-                },
-                "txt": "Apto incrível! Localização próximo a bares e restaurantes. A Bárbara é uma graça,  muito atenciosa.  Voltarei sempre."
-              },
-              {
-                "at": "2016-03-13T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb621",
-                  "fullname": "Mark",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
-                  "id": "19054593"
-                },
-                "txt": "Nice, modern flat. Situated in a brilliant location, perfect for the whole of Rio, close to the Metro, not far from lots of bars and restaurants in Ipanema / Leblon etc. Flat is spacious and modern and Barbara was helpful. Would stay again."
-              },
-              {
-                "at": "2016-03-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbedc",
-                  "fullname": "Andrea",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
-                  "id": "45540172"
-                },
-                "txt": "The apartment was amazing and Barbara was a great host!  It is perfectly located in Ipanema, a short walk to the beach with streets lined with restaurants, shops, and bars.  The apartment had a doorman 24/7 and the neighborhood felt quite safe.  Barbara was extremely responsive and provided many recommendations.  Overall this apartment and Barbara positively contributed to our wonderful stay in Rio, would definitely recommend!!"
-              },
-              {
-                "at": "2016-03-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb221",
-                  "fullname": "Luciana",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "61881692"
-                },
-                "txt": "Barbara foi excelente anfitriã, muito atenciosa e prestativa. O apartamento é ótimo, novinho e excelente localização. Recomendo a estadia."
-              },
-              {
-                "at": "2016-03-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba67",
-                  "fullname": "Maik",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "55565399"
-                },
-                "txt": "Der Empfang war gut organisiert. Ich konnte die Wohnung zur vereinbarten Zeit haben. Anderson, ein Mitarbeiter von Barbara, zeigte mir alles in der Wohnung und wie es funktioniert (Klimaanlage, Fernseher, Dusche, etc.) und er gab mir sehr gute Tips, wie ich am besten zu den Sehenswuerdigkeiten in Rio komme.\r\nDas Appartement befindet sich in einer sicheren Gegend und man hat ca 400 - 500 m zum Strand Ipanema. Es gibt einige Gaststaetten und kleine Supermärkte in der Nähe.\r\nDie Ausstattung des Appartements ist sehr gut - 1 Hauptbad und 1 kleines separates, komplette Küche, TV in Wohnzimmer und Schlafzimmer, etc. Es ist wie auf den Fotos bei Airbnb dargestellt. Die Fotos haben dabei infolge der Beleuchtung einen leichten Gelbton. Im Original ist alles etwas heller.\r\nMir hat es gefallen hier zu uebernachten, da ich im Urlaub keine Hotels möchte"
-              },
-              {
-                "at": "2016-04-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd2b",
-                  "fullname": "Frederico Timoteo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/32.jpg",
-                  "id": "56608973"
-                },
-                "txt": "Fomos muito bem recebidos e tivemos uma ótima estadia. Apartamento em perfeitas condições e em ótima localização. A Barbara, hostess, nos recebeu com dicas sobre as facilidades por perto do apartamento. Recomendamos fortemente. "
-              },
-              {
-                "at": "2016-04-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb436",
-                  "fullname": "Guido",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "7630135"
-                },
-                "txt": "Everything was fine. Nice position and beautiful flat.\nThanks Barbara! "
-              },
-              {
-                "at": "2016-04-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd85",
-                  "fullname": "Rê",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
-                  "id": "66057874"
-                },
-                "txt": "Apartamento bem localizado e confortável! Ficamos surpresos apenas com o Futon do segundo quarto, uma cama seria um pouco mais confortável. A Barbara foi bem atenciosa em todos os momentos! Muito bom! Voltaria com certeza! "
-              },
-              {
-                "at": "2016-05-06T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb733",
-                  "fullname": "Christian",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "8530956"
-                },
-                "txt": "Very nice apartment! Perfectly situated between both the beach and the laguna. communication with Barbara was easy."
-              },
-              {
-                "at": "2016-06-01T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb863",
-                  "fullname": "Melissa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
-                  "id": "66573837"
-                },
-                "txt": "We had a wonderful time in Ipanema, Barbara was very informative upon arrival. She gave us great tips on where to go, good places to eat. The neighborhood felt safe.  The apartment is exactly as described. It was an overall pleasent experience for us. Thank you Barbara. "
-              },
-              {
-                "at": "2016-06-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faf1d",
-                  "fullname": "Marina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
-                  "id": "46653887"
-                },
-                "txt": "Apartamento aconchegante e localização excelente."
-              },
-              {
-                "at": "2016-07-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf90",
-                  "fullname": "John",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
-                  "id": "74202341"
-                },
-                "txt": "Thank you Barbara we enjoyed our 2nd stay with you.  The apartment was great and the location perfect. Thanks for everything, we will let you know when we return to Rio. "
-              },
-              {
-                "at": "2016-08-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb17c",
-                  "fullname": "Fernando",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "46894071"
-                },
-                "txt": "Apartamento incrível e muito bem localizado no RJ (fica ao lado da Lagoa Rodrigo de Freitas e muito próximo do metrô). Fomos muito bem recebidos pela Barbara e recomendamos o apartamento para todos que visitem a cidade. Esperamos voltar em breve!!!"
-              },
-              {
-                "at": "2016-08-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe38",
-                  "fullname": "Fabio",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "22885426"
-                },
-                "txt": "Barbara was great and helpful with our staying.\r\nThe apartment was great and close to the beach and the Rodrigo de Freitas lagoon.\r\nGreat place to stay in Rio."
-              },
-              {
-                "at": "2018-10-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb30d",
-                  "fullname": "Dario",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
-                  "id": "129657053"
-                },
-                "txt": "Excelente departamento , muy moderno y cómodo sin duda volvería , la atención de bárbara  fue excelente .recomendable 100% ."
-              },
-              {
-                "at": "2018-11-19T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad63",
-                  "fullname": "Rhayssa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
-                  "id": "51223227"
-                },
-                "txt": "O apartamento é lindo, moderno, super bem localizado! Você está próximo a bares, restaurantes, e ao lado de ruas de comércio com excelentes lojas."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Adapted",
-              "OMG",
-              "Golfing"
-            ],
-            "statReviews": {
-              "cleanliness": 4.3,
-              "communication": 4,
-              "checkIn": 5,
-              "accuracy": 4.8,
-              "location": 4.5,
-              "value": 5
-            }
-          },
-          {
-            "name": "Oceanfront & Breath Taking Views.",
-            "type": "National parks",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436797/hzfu8ihyoecadrermn14.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436886/cvc2yfmhfg9dabfkyiqw.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436772/nplkpwclhrdvvspkpmbg.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437168/vbmfmdmwrxt7xfwbsw7c.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436912/xle8ueqxjeazbs4bp09p.jpg"
-            ],
-            "price": 230,
-            "summary": "A spectacular oceanfront ground level condo. 10 feet away from the ocean.  Enjoy an unobstructed 180% Amazing Ocean Views, of Molokai & Lanai Islands with awesome sunsets & whale watching in season while sipping your favorite wine from your living room or lanai. Explore & swim  2 reefs just outside your lanai. You have got it all from this renovated private unit. Your backyard is the ocean. In walking distance to town, children friendly, protected by 2 reefs. FREE parking 12 steps to front door.",
-            "capacity": 6,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Pool",
-              "Kitchen",
-              "Free parking on premises",
-              "Free street parking",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Self check-in",
-              "Lockbox",
-              "Private entrance",
-              "Bathtub",
-              "High chair",
-              "Stair gates",
-              "Children’s books and toys",
-              "Window guards",
-              "Pack ’n Play/travel crib",
-              "Room-darkening shades",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Single level home",
-              "BBQ grill",
-              "Patio or balcony",
-              "Garden or backyard",
-              "Beach essentials",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Step-free access",
-              "Flat path to front door",
-              "Well-lit path to entrance",
-              "Step-free access",
-              "Wide clearance to bed",
-              "Step-free access",
-              "Bathtub with bath chair",
-              "Step-free access",
-              "Waterfront",
-              "Beachfront"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Francesco",
-              "location": "Rancho Palos Verdes, California, United States",
-              "about": "I was born on the island of Ischia, Capri, Italy. Maui is my dream come true second home. Staying close to the ocean and enjoying the beaches and lush grounds makes life great.",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/f1457fda-ca3a-427b-9fd2-8c864d35d156.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "104714699"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "Maui",
-              "address": "Lahaina, HI, United States",
-              "lat": -156.68832,
-              "lan": 20.95134
-            },
-            "reviews": [
-              {
-                "at": "2016-11-28T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe4b",
-                  "fullname": "Zane",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
-                  "id": "12759870"
-                },
-                "txt": "The host canceled this reservation 16 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2017-05-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faddb",
-                  "fullname": "Darryl",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "87126299"
-                },
-                "txt": "Francesco was very professional.  The location was clean, orderly and great for kids.  The view of the ocean was amazing, literally 10 feet away!"
-              },
-              {
-                "at": "2017-06-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe4c",
-                  "fullname": "Laura",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/66.jpg",
-                  "id": "74909403"
-                },
-                "txt": "This condo is located in Lahaina, close to a swimmable beach and walking distance to a handful or restaurants and shops. Here are the pros and cons of our experience with this rental: Pros: **Beach access within walking distance **Views **Kitchen well stocked with essentials **Clean and tidy **Beach towels provided (had to get them delivered since none were in the unit as expected, but they came quickly) Cons: **Beds are not comfortable **Pillows could use replacing - they are very flat **All closet doors were next to impossible to open ( this would not have been an issue had there been any sort of dresser with drawers in the master or if the dresser in the second room had drawers that opened, but there wasn't and they didn't, so we had to live out of our suitcases for the week) **We were told there were sand toys, but there weren't. There was snorkel gear and a lone bucket, but no sand toys. A bit of a bummer for the kids who wanted to build sand castles. Things you should know before booking: **this unit is NOT beachfront, it is shorefront. During our stay the water was out far enough at low tide that we could walk on the sand to the nearby beach, but at no point were you able to set up a blanket and play in the sand right in front of the unit. **pictures of the listing are \"doctored up\" for lack of a better term. All the decor is the same and it's definitely the same unit, but you can tell once you walk in that the images were softened and brightened to add listing appeal. Case in point - I showed my 11 year old the pictures of the listed before we took our trip and upon arrival his first words were \"this looks nothing like the photos.\" **that being said, our boys LOVED waking up in the morning when the tide was out and going exploring in the exposed reefs for fish and sea creatures - this is the most redeeming quality of this unit. We did this most mornings as they never tired of exploring, and one morning we even had a few Humuhumu fish shimming right around us when the water was only up to our knees. Very cool. **owner requires a $500 safety deposit that was not explained in the listing at the time we booked, we received a contract after the fact requesting this deposit and the taxes (also not made clear) so you think you're paying one total price, but you will need to pay more **you are not allowed to run the AC in the unit at night and leaving windows open to utilize cool air crosswinds is not an option as the birds outside the bedroom windows provide you with a 5am wake up call **we were checked out for 10 days with no sign of our security deposit being returned. I texted the owner several..."
-              },
-              {
-                "at": "2017-06-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac2e",
-                  "fullname": "Danielle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "97682573"
-                },
-                "txt": "Everything was great!"
-              },
-              {
-                "at": "2017-07-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbcee",
-                  "fullname": "Jeanie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "63613439"
-                },
-                "txt": "The sunset viewing cannot be beat. It's a quiet and serene complex with a little deck overlooking the ocean. Crab and lizards hang there so make sure you walk down. Amazing!!"
-              },
-              {
-                "at": "2017-08-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb91",
-                  "fullname": "Todd",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "71207375"
-                },
-                "txt": "Francsco was a wonderful host. He was very gracious, informative and available for any needs or inquiries throughout or stay. He has put much effort into making his location a special place to remember.\n\nMahalo,\nTodd"
-              },
-              {
-                "at": "2017-08-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad13",
-                  "fullname": "Ann",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
-                  "id": "63649333"
-                },
-                "txt": "This condo was such a gem!  You simply cannot beat the location!  Do not believe the other guest review... nothing was doctored up, the furniture was great, we used the AC whenever we wanted to.  There were plenty of sand toys, snorkel gear, etc.  There were no issues.  \n\nMy sister and I were on a quest to see as many turtles on Maui as possible and we saw more than 5 everyday right in front of the condo!  They come and feed on the reef between the hours of 10 am and 3 pm.  Much better than having to drag all of your stuff to the beach and then back.  My husband would be sitting outside on the patio enjoying his coffee and cigar, signal that there was a turtle, and we literally threw on our bathing suits, grabbed the snorkel gear and were in the water in a matter of seconds!  \n\nA total of 4 adults stayed at the condo for over a week and it was cozy but very comfortable.  The kitchen had everything that we needed.  We cooked breakfast, cut fruit from the farmers market, made smoothies; every kitchen tool we needed was there for us.  The beds were comfortable, there were curtains that we could shut to let some breeze in but still have privacy.  The newly done wood-like tile floors were a plus also.  \n\nWe had looked at many condos in this area and in the Kihei area and we are so glad we chose this one.  Francesco was also so easy to work with, always responded quickly when we had questions.  Could not have asked for a better host."
-              },
-              {
-                "at": "2017-09-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fabaa",
-                  "fullname": "Joe",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
-                  "id": "77721131"
-                },
-                "txt": "Francesco's place was exactly how it is viewed in the pictures. The backyard view is phenomenal (my friend was proposed to in the backyard during sunset), the place was spacious and very clean. Whenever we needed something, Francesco was a phone call away. The place has numerous restaurants and shops across the street and is also about a 10 min drive to down town which has more shops, restaurants and bars. Thanks again for the hospitality! Mahalo."
-              },
-              {
-                "at": "2017-10-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb61a",
-                  "fullname": "Lisa",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/66.jpg",
-                  "id": "42675166"
-                },
-                "txt": "Beautiful location. The home was organized and up to date. Steps from the water. Truly wonderful."
-              },
-              {
-                "at": "2017-10-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae31",
-                  "fullname": "Samuel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
-                  "id": "45322140"
-                },
-                "txt": "We loved coffee in the morning while sitting on the patio relishing the sights and sounds of the gentle ocean waves 10 feet away!"
-              },
-              {
-                "at": "2017-10-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf64",
-                  "fullname": "Sara",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
-                  "id": "97684031"
-                },
-                "txt": "This condo was perfect for our family trip! The 2 bedroom/1 bath was spacious, comfortable, clean and literally right on the water! With the windows open we consistently heard the waves crashing on the rocks just outside. Amazing! \nIn addition, the condo is equipped with everything you need, including all things for the beach (towels, snorkel gear, boogie board, etc). Just outside the condo complex are stores, restaurants and a small local farmers market. \nFRANCESCO was great to work with, giving detailed information about things to do, places to go, etc. \nNo question, this place earns 5 stars and we will stay here again! Thanks for everything!"
-              },
-              {
-                "at": "2017-12-03T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb6da",
-                  "fullname": "Abby",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
-                  "id": "11429351"
-                },
-                "txt": "I would generally recommend staying at this Maui Airbnb. We had 5 guests staying for 7 days. There are 2 bedrooms, 1 with 2 single beds and 1 with a queen size bed and a pull out couch in the living room. The 2 single beds and the pull out couch were in bad shape. Both of the single beds were completely sloped (over used perhaps) and the pull out bed was completely sunken-in, and very very uncomfortable. Aside from the beds, the location and resort was great. The pool was nice and quiet, there is a great view facing the water by the kitchen and it was decently clean. A few notes for potential guests - we did notice a lot of dust on the bedside tables and some dirty qtips on the floor in one of the bedrooms, but we did a few vacuum and sweeps on our own over the week. Also an FYI - there was also not enough toilet paper for the week, so you'll have to get your own. Anyway, over all, a really great place - great location and a nice quiet spot in Maui. :)"
-              },
-              {
-                "at": "2017-12-13T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf46",
-                  "fullname": "Julie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "22888892"
-                },
-                "txt": "Overall this is a great place to stay, walking distance to many casual restaurants and beautiful beach perfect for kids/toddlers. The home is equipped with everything needed for beach/fun (snorkels, massive amounts of towels, play equipment, boogie boards, inflatables, even a couple pairs of water shoes) Unfortunately, because of construction and large waves forming sinkholes, there was a very obstructed view of the ocean due to a temporary fence/cones, plus construction workers walking back & forth across the patio area. This meant the patio area was not as private and not as usable due to the fencing.  Francesco was accommodating in partially refunding us and has been very quick to respond to any issues we had.\n\nNote as other reviewers have said, this property is shorefront/oceanfront not beachfront, which means if you stay during a time when there are large waves, you won’t be able to walk out of the patio area and jump in the ocean since there are lots of large rocks lining the shorefront and very little sand/beach space. There’s a beach only 1 block away perfect for kids since it has a natural wading pool with rocks blocking the waves.  This however is not good for swimming and adults will need water shoes to get over the rock barrier."
-              },
-              {
-                "at": "2018-05-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1ce",
-                  "fullname": "Vy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
-                  "id": "175750558"
-                },
-                "txt": "We had an amazing time. Francesco has a beautiful home. The view was unbeatable. He was prompt with every response. He had everything we needed in his home. Very nice person, highly recommended!"
-              },
-              {
-                "at": "2018-07-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab97",
-                  "fullname": "Rong",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
-                  "id": "125746087"
-                },
-                "txt": "Nice view"
-              },
-              {
-                "at": "2018-08-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2e2",
-                  "fullname": "Amanda",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
-                  "id": "37914217"
-                },
-                "txt": "Francesco’s place is very nice and in a great location!  Beautiful grounds and right next to the ocean.  We snorkeled right by the condo and saw tropical fish and sea turtles. The kids loved the pool and the sunsets were exquisite.  The kitchen was well equipped and updated.  Easy walk to shopping, farmers market and restaurants.  The lanai is no longer grassy and accessible directly in front of the condo, but there is a similar space for guests a short walk away. "
-              },
-              {
-                "at": "2018-09-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc02",
-                  "fullname": "Aya",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
-                  "id": "13416808"
-                },
-                "txt": "The place is conveniently located in Kaanapali area - close to many beaches within 15 min driving distances. Amazing sunset view from the lanai is priceless. Be aware that the access to the waterfront/beach is closed due to construction. \n\nWe had some issues with the cleanness of the house and ended up buying wet Swiffer ourselves and clean the floor and some other kitchen amenities that wasn't fully clean when we arrived. \n\nHot shower was also not working for multiple times, and there are several occasions (at least we know of )that all electricity got shut off (up to 15 min each or so each time), which probably ruined some food in the refrigerator. This might be beyond the owner's control, but something we noticed while we were there.\n\nOverall, we enjoyed our stay in Francesco's place - can't beat the location."
-              },
-              {
-                "at": "2018-09-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb067",
-                  "fullname": "Sharon",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
-                  "id": "74526260"
-                },
-                "txt": "A lovely place to stay, perfectly located within easy walk of shops and restaurants, although we did eat out in Lahaina itself which was lovely. You cant swim in the water out front - you do have to go to nearby beaches - so a car is pretty essential.  But we would definitely stay again. Francesco is a very attentive host who was always accessible and available - despite being on holiday himself at the time!"
-              },
-              {
-                "at": "2018-10-31T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba57",
-                  "fullname": "Dane",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
-                  "id": "58243775"
-                },
-                "txt": "We had an incredible time here on our Maui Vacation! We spent 3 nights here and really enjoyed it. The home has everything you could need... beach chairs, snorkel gear, boogie boards, tons of towels, extra pillows, extra sheets and blankets, pots, pans, coffee maker and much more. Home is right on the shore, but you can easily access the beach to the left or right (just a short walk). Snorkeling out front was wonderful. Lots of fish and we even saw sea turtles. My grandma wasn't able to snorkel, but she loved sitting on the Lanai watching the waves with beautiful views of the islands across (I think it is both Molokai AND Lanai?). She even got to see a sea turtle right out front! Francesco was very helpful, friendly and quick to respond with anything we needed. location was unbeatable too! Close to Front Street in Lahaina, Grocery store 3 minutes away, lots of restaurants and shops within walking distance. It was close to everything but still quiet and private. My family loved Maui and we're already planning our trip for 2019 and hoping to stay at Francescos place again! Thanks again for letting us stay at your beautiful Maui home!"
-              },
-              {
-                "at": "2018-11-21T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb976",
-                  "fullname": "Jody",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/73.jpg",
-                  "id": "172913164"
-                },
-                "txt": "It is the perfect location - close to grocery store, right on the beach seeing and hearing the waves is very relaxing. The bamboo fence made it a bit more inconvenient for accessing the beach however it was perfect for containing my newly walking infant:) note: taxes are extra but totally worth it. Thanks Francesco we had an amazing family vacation."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Campers",
-              "New",
-              "Ryokans"
-            ],
-            "statReviews": {
-              "cleanliness": 4.6,
-              "communication": 4.5,
-              "checkIn": 4.5,
-              "accuracy": 4.5,
-              "location": 4.9,
-              "value": 4.7
-            }
-          },
-          {
-            "name": "East Village Sanctuary",
-            "type": "National parks",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436578/y1fshh0nppk5nxbfzqoz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437262/ifklqhihs1qinbmap5hd.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436562/aflmntpgocp5l2zxikhl.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436301/etz0n0umubahfkgmmwt8.jpg"
-            ],
-            "price": 200,
-            "summary": "Walking distance to NYU. Large one bedroom with full kitchen and living room. In the hustle and bustle of the east village night, hide away in this green oasis to recharge and reset. Right next to the L, 4, 5, 6, N,R, W and F lines this apartment is the perfect central location for anywhere you want to go in NYC as well as just walking a block or two for a cheap amazing meal.",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Heating",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Hot water",
-              "Long term stays allowed",
-              "Other"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Molly",
-              "location": "New York, New York, United States",
-              "about": "I love a good adventure.",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/92528d0c-6ec8-4e6c-81a7-75fad07c511d.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "57107571"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "New York",
-              "address": "New York, NY, United States",
-              "lat": -73.98763,
-              "lan": 40.72808
-            },
-            "reviews": [
-              {
-                "at": "2016-10-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb27a",
-                  "fullname": "Jean-Marie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
-                  "id": "1527535"
-                },
-                "txt": "Amazing apartment! I had a great time and it was easy to deal with Molly. Thank you so much! Jean-Marie"
-              },
-              {
-                "at": "2016-10-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0b4",
-                  "fullname": "Saundra",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg",
-                  "id": "94459166"
-                },
-                "txt": "Everything was great! Nice clean apartment, bedrooms were both a good size. Host was generous and offered us toiletries throughout the place, hope to stay there again "
-              },
-              {
-                "at": "2017-01-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc32",
-                  "fullname": "Manuel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "95902441"
-                },
-                "txt": "Amazing flat , excellent situation!! I recommend this place !! "
-              },
-              {
-                "at": "2017-09-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fb9f3",
-                  "fullname": "Sindre",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
-                  "id": "1984637"
-                },
-                "txt": "Molly was very welcoming, accesible and flexible. She made our stay a pleasant experience."
-              },
-              {
-                "at": "2017-09-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf57",
-                  "fullname": "Roger",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "147808661"
-                },
-                "txt": "Molly's place was clean and beautifully decorated. We had the apartment to ourselves for the three days we were in New York, and the whole experience was perfect. It's located within a quick walking distance of a 24-hour CVS, plenty of restaurants, a Metro Station, local markets and parks, and we always felt safe walking around together, even late at night. She's a very pleasant host and was quick to communicate with us whenever we had questions during our stay. I would absolutely book here again! Thank you, Molly!"
-              },
-              {
-                "at": "2017-10-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbba5",
-                  "fullname": "Eliza",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/70.jpg",
-                  "id": "101073006"
-                },
-                "txt": "Great location. Everything was lovely and as described. Molly was a super accommodating and friendly host."
-              },
-              {
-                "at": "2017-12-04T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba3b",
-                  "fullname": "Ant",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "23058599"
-                },
-                "txt": "Really nice apartment. Easy communications with host. Great area. value for money. Highly, highly recommended."
-              },
-              {
-                "at": "2018-07-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fc05b",
-                  "fullname": "James",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
-                  "id": "56281313"
-                },
-                "txt": "Amazing and quirky place. Excellent location and an amazing host."
-              },
-              {
-                "at": "2018-08-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb6d8",
-                  "fullname": "Arno",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
-                  "id": "81878734"
-                },
-                "txt": "The host canceled this reservation 29 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2018-08-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe91",
-                  "fullname": "Sophie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "116935180"
-                },
-                "txt": "The host canceled this reservation 5 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2018-08-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2fe",
-                  "fullname": "Anna",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/63.jpg",
-                  "id": "37179952"
-                },
-                "txt": "The host canceled this reservation 13 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2018-09-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faec8",
-                  "fullname": "Logan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "77772338"
-                },
-                "txt": "Molly's space was a lovely spot to visit in NY and was much better than expected. There were many places nearby to eat, shop and explore. Access to the subway was perfect. Could not have asked for better accommodations. Would definitely stay here again!"
-              },
-              {
-                "at": "2018-09-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba62",
-                  "fullname": "Mark",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
-                  "id": "49112519"
-                },
-                "txt": "Great location! Plenty to do around the apartment. CVS/Walgreen nearby, bars, restaurants (check out Ippudo for ramen, or Ray’s for a 24h slice after a long night out!) and subway access. Check in was a breeze and Molly was very accommodating and available for questions the few times we messaged her. Also, the apartment is wonderfully decorated (pics don’t do it justice!). Highly recommend!"
-              },
-              {
-                "at": "2018-10-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3408e36c59e6164fc083",
-                  "fullname": "Lisi",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/34.jpg",
-                  "id": "58679049"
-                },
-                "txt": "Perfect Place to Star in NYC!Many Young People!"
-              },
-              {
-                "at": "2018-10-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad64",
-                  "fullname": "Mallory",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "116398175"
-                },
-                "txt": "Looking to adventure in New York City? This is a good home base.  Local to several culture experiences of NYC.  Molly’s space is very homey and decorated with vintage pieces and art. Would love to stay again for future trips I’ll be making to NYC."
-              },
-              {
-                "at": "2018-10-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb354",
-                  "fullname": "Tatiana",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
-                  "id": "74723330"
-                },
-                "txt": "You expect all what Molly offers at her place. Lovely clean apartment. Definitely coming back to it ❤️"
-              },
-              {
-                "at": "2018-11-23T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faccc",
-                  "fullname": "思言",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
-                  "id": "100723707"
-                },
-                "txt": "Perfect location!! Lots of nice Japanese restaurants and bubble tea downstairs. Real room decorating is better than photos. Cozy and romantic little apartment. Molly is nice. Good place to live in east village(๑˙ｰ˙๑)"
-              },
-              {
-                "at": "2019-01-13T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac9a",
-                  "fullname": "Jacquii",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
-                  "id": "6807334"
-                },
-                "txt": "Molly’s place is wonderful! The apartment is cozy and comfortable, but oozes character and a great vibe. \nThe location is fantastic for exploring different delicious cuisines, and quirky bars. \nMolly was quick to communicate and flexible with our check-in time. \nMolly’s place is an awesome base for exploring the lower east side, and NYC generally. Would highly recommend!"
-              },
-              {
-                "at": "2019-02-16T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc0a",
-                  "fullname": "陳",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
-                  "id": "43647224"
-                },
-                "txt": "Definitely a must-stay place for ppl who want to enjoy the city in NY style. The neighborhood is great and close to metro. Molly is super lovely and always in contact. The place is gorgeous and laidback. Will come back again!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Caves",
-              "OMG",
-              "Play"
-            ],
-            "statReviews": {
-              "cleanliness": 4.9,
-              "communication": 4.4,
-              "checkIn": 4.1,
-              "accuracy": 4.1,
-              "location": 4.4,
-              "value": 4.4
-            }
-          },
-          {
-            "name": "2017 , férias no Rio",
-            "type": "National parks",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436281/doubvhbpwjfx81yfzpxq.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437045/dmquvficldi8ssfdlrrx.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436942/cfa0wa2uwfyunrhgp4mt.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436509/rii32aibnhkoeejsohie.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg"
-            ],
-            "price": 250,
-            "summary": "Casa com excelente espaço, localizada no meio da natureza, próximo ao um dos acessos do Parque Estadual da Pedra Branca, que conta com cachoeiras e trilhas na Mata Atlântica e a 10 minutos de carro ou 35 minutos a pé do Parque Olímpico (3.5km) e 3 minutos de carro ou 12 minutos a pé da Vila Olímpica. A casa pricipal conta com 2 quartos com suíte, 2 salas, cozinha, 1 banheiro social e área de serviço.Também contamos com um anexo com 1 quarto com suíte. Os quartos poderão ser compartilhados!",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Kitchen",
-              "Free parking on premises",
-              "Pets live on this property",
-              "Dog(s)",
-              "Family/kid friendly",
-              "Washer",
-              "Hangers",
-              "Iron",
-              "Laptop friendly workspace"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Maria Alice",
-              "location": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
-              "about": "",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/5b44ea07-3550-47af-9b68-8c1be2f4d18c.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "66720687"
-            },
-            "loc": {
-              "country": "Brazil",
-              "countryCode": "BR",
-              "city": "Rio De Janeiro",
-              "address": "Rio de Janeiro, RJ, Brazil",
-              "lat": -43.4186896742968,
-              "lan": -22.96840021041473
-            },
-            "reviews": [
-              {
-                "at": "2017-03-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb972",
-                  "fullname": "Andrea",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "81271149"
-                },
-                "txt": "Ótimo para relaxar! O espaço de Alice é confortável e tranquilo, onde podemos caminhar com segurança desfrutando de uma linda paisagem com serras.Uma vegetação exuberante. Além da possibilidade de fazer uma trilha para cachoeiras.  Alice e sua família foram bastante prestativas e nos ajudaram no que precisamos. Grata por tudo!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Countryside",
-              "Luxe",
-              "Luxe"
-            ],
-            "statReviews": {
-              "cleanliness": 4.7,
-              "communication": 4.6,
-              "checkIn": 5,
-              "accuracy": 4,
-              "location": 5,
-              "value": 4.6
-            }
-          },
-          {
-            "name": "One bdrm apt in Central/Sheung Wan next to Soho",
-            "type": "National parks",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436287/my8eunlgiiflc2ohslgx.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437287/mns2lapesdourab6dn7u.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436787/gcz7mgmxb6dcl4vz6h0a.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436456/aazeb5pemja3ddxauatd.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436772/nplkpwclhrdvvspkpmbg.jpg"
-            ],
-            "price": 416,
-            "summary": "Located between Hollywood and Caine Road, just down from Soho bars/restaurants and not far from Wyndham St. and LKF nightlife. 5 minute walk to the escalator. Good for travelling couples, solo adventurers, and business travellers.",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Pool",
-              "Kitchen",
-              "Doorman",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "Hangers",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Hot water",
-              "Other"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Daniel",
-              "location": "Hong Kong",
-              "about": "Hello, I'm originally from the LA area but have been back in Hong Kong for about 6 years. I also spent some time on the east coast of the U.S. in the Washington, D.C. area. I teach middle school math at an international school here in Hong Kong and have enjoyed the lifestyle of living and working in this vibrant city. \r\n\r\nHong Kong has always had plenty of options to stay active. I've played in an expat softball league here for many years and still try to get out as much as I can. When I first arrived, I did a few of the popular hikes, but not so much anymore unfortunately. There are still some places in Hong Kong that I would like to explore and I also find the city to be a great hub for travelling throughout southeast Asia. \r\n\r\nI'm new to Airbnb and open to suggestions on making your stay in Hong Kong an enjoyable experience. Nice to meet you!",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/a8b75580-b8d5-4a7e-bc36-420941c37ec4.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "37153965"
-            },
-            "loc": {
-              "country": "Hong Kong",
-              "countryCode": "HK",
-              "city": "Hong Kong",
-              "address": "Hong Kong, Hong Kong Island, Hong Kong",
-              "lat": 114.15096,
-              "lan": 22.284
-            },
-            "reviews": [
-              {
-                "at": "2016-07-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb564",
-                  "fullname": "Patrick",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
-                  "id": "32220174"
-                },
-                "txt": "Daniel's apt was in a great location to explore the city. It was close to the Soho area which have bars and lots of nightlife. I would recommend Daniel's place to anyone interested in making the most out of Hong Kong."
-              },
-              {
-                "at": "2016-12-10T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba20",
-                  "fullname": "Rory",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "33768489"
-                },
-                "txt": "Very accommodating host, made the experience very easy. Located in a great part of the City!"
-              },
-              {
-                "at": "2016-12-26T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbace",
-                  "fullname": "Sabrina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/36.jpg",
-                  "id": "12713254"
-                },
-                "txt": "it was a comfortable stay at a good location."
-              },
-              {
-                "at": "2016-12-28T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbed4",
-                  "fullname": "J",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
-                  "id": "34589883"
-                },
-                "txt": "Great location, super clean and quite. There is also a door (wo)man in the lobby who is friendly and helpful. Check in and out were more than easy. \n\nWould def stay here again. 17 min walk from Hong Kong Station for airport connection. Plenty of nightlife close by in Lan Kwai Fong.\n\nIt is located in Mid Levels, so...prepare for the steep incline!"
-              },
-              {
-                "at": "2016-12-29T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb49b",
-                  "fullname": "Benjamin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/57.jpg",
-                  "id": "35260486"
-                },
-                "txt": "The host canceled this reservation the day before arrival. This is an automated posting."
-              },
-              {
-                "at": "2017-05-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbfcd",
-                  "fullname": "Jianwei",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
-                  "id": "9866897"
-                },
-                "txt": "Very well maintained place. In the middle of soho. Only downside is the number of steps to get to the apartment, but that's the same for most apartments on HK island. Great value, will stay again. "
-              },
-              {
-                "at": "2017-06-26T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb324",
-                  "fullname": "Jingjing",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "80624707"
-                },
-                "txt": "Daniel's place is located in Central Hong Kong, close to restaurants, shops and bars. The flat is spacious and comfortable! I highly recommend it for your stay in HK!"
-              },
-              {
-                "at": "2017-07-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdb1",
-                  "fullname": "Justin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "30849127"
-                },
-                "txt": "Fantastic place with a great location. The unit is located right between Sheung Wan and SoHo with a number of good restaurants on the same street.\nIf you're new to the island or want easy, walkable access to the area around Central, then I highly recommend this place.  "
-              },
-              {
-                "at": "2017-12-26T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb41b",
-                  "fullname": "Salomon",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "158239126"
-                },
-                "txt": "Besides the myriad of stairs and steps, the apartment is located within a walking distance to both sights and shopping, as well as to the Central subway station that connects a handful of lines. \n\nThe apartment was quite big by Hong Kong standards, and everything was clean and tidy on top of that. The stay went smoothly without any problems."
-              },
-              {
-                "at": "2018-01-02T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc4e",
-                  "fullname": "Freyja",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/42.jpg",
-                  "id": "9893361"
-                },
-                "txt": "Highly recommend!!\n\nDaniel was great at communicating and gave us lots of tips before we arrived.\n\nArriving was very straight forward (although it was surprising when the Doorman asked for our passport!) Daniel very kindly let us check in early - what a star!\n\nThe place is spacious (for Hong Kong), though if you're planning on cooking you'll likely have to spread out into the living room. Bed is comfy, shower is hot - what more could you want :)\n\nIf you don't mind walking up lots of steps and steep hills, you can easily see many of the main HK Island sights on foot. If walking isn't your thing, there's plenty of public transport options reasonably close.\n\nThis place is really slap bang in the middle of things - close to restaurants, bars, cafes, supermarkets, shopping centres.\n\nIt's a great place to base yourself, particularly if you're only there for a short trip, like were.\n\nWarning though: the area is very steep! You'll feel it in your calves :)"
-              },
-              {
-                "at": "2018-07-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb520",
-                  "fullname": "Kiran",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/55.jpg",
-                  "id": "2714512"
-                },
-                "txt": "Great place to stay if you are visiting Hong Kong. Very close to restaurants and night life. Would highly recommend and would stay again if back in the area."
-              },
-              {
-                "at": "2018-12-30T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd93",
-                  "fullname": "Dandelion",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
-                  "id": "91018339"
-                },
-                "txt": "This modern apartment is located between Sheng Wan MTR & Central MTR. PMQ mall is across the street & visible through the window. Lots of food & drinks nearby, Lan Kwai Fong included (10 min walk). \n\nAlthough conveniently located, it is quiet as party-goers are found wandering in the streets starting one block away. For a straight-shot to the Sheng Wan station, take a couple long flights of stairs. If you have luggage & want to avoid that, use the Central station (or Uber) but keep in mind it is always very crowded there. \n\nApartment was spacious for Hong Kong standards. Shower pressure was strong & stayed hot through long hair washing. Living room has surround sound system & English channels to watch TV. There's an extra closet room for hanging clothes. \n\nOverall, great place to stay as compared to other HK apartments. \n\nAlso note, not all amenities at Dan's place are for communal use. This was not listed under House Rules nor noted anywhere. I was surprised to receive a note after check-out that an already open beverage was not for share although fridge was listed as an amenity. Through dozens of stays on Airbnb, this was my first experience encountering such an issue. Just use caution here."
-              },
-              {
-                "at": "2019-01-03T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae20",
-                  "fullname": "Tom",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
-                  "id": "47208441"
-                },
-                "txt": "Perfect place in the middle of Hong Kong to explore the city!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Play",
-              "Luxe",
-              "Top of the world"
-            ],
-            "statReviews": {
-              "cleanliness": 5,
-              "communication": 4.7,
-              "checkIn": 4.6,
-              "accuracy": 4.1,
-              "location": 4.2,
-              "value": 4.6
-            }
-          },
-          {
-            "name": "Center of Istanbul, comfortable for family house",
-            "type": "Castles",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436978/mhqf1tttzqr33ecrrwb2.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437344/r4w6s3af55tdt5y1lrcc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436390/om97cgufeacwlric2r5w.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437021/cw6mtrxza5fzmmgxen4j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436394/kscsvxyn0uro9tjhefeb.jpg"
-            ],
-            "price": 200,
-            "summary": "This house is very special house. The area is amazing. Personally I live here. So this house is not a commercial house. I love the area of this house. It is really really in the center of Istanbul. The house is like 100m2 but I will lock one room for my personal belongings.",
-            "capacity": 3,
-            "amenities": [
-              "Wifi",
-              "Kitchen",
-              "Free parking on premises",
-              "Smoking allowed",
-              "Breakfast",
-              "Heating",
-              "Family/kid friendly",
-              "Dryer",
-              "Essentials",
-              "Shampoo",
-              "Lock on bedroom door",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Luggage dropoff allowed",
-              "Well-lit path to entrance",
-              "Step-free access",
-              "Wide clearance to bed",
-              "Accessible-height bed",
-              "Step-free access",
-              "Step-free access",
-              "Handheld shower head",
-              "Fixed grab bars for toilet"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Erdem",
-              "location": "Istanbul, Turkey",
-              "about": "",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/56b1af83-c006-4845-8c33-fe0a8d4c2b52.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "15863875"
-            },
-            "loc": {
-              "country": "Turkey",
-              "countryCode": "TR",
-              "city": "Istanbul",
-              "address": "Şişli, İstanbul, Turkey",
-              "lat": 29.01145,
-              "lan": 41.06423
-            },
-            "reviews": [
-              {
-                "at": "2018-10-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc71",
-                  "fullname": "Ilia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "219681294"
-                },
-                "txt": "Erdem is really nice guy, helped with a lot of things, location is good, safe and comfortable for travel. Apartment itself is quite good too and fine for the value."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Minsus",
-              "Play",
-              "Earth homes"
-            ],
-            "statReviews": {
-              "cleanliness": 4.4,
-              "communication": 4.3,
-              "checkIn": 4,
-              "accuracy": 4.4,
-              "location": 4.1,
-              "value": 4.4
-            }
-          },
-          {
-            "name": "Spacious 3bdrm. Artsy and Perfect location!",
-            "type": "Castles",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436306/be2v9wssznxs4hebudb4.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436582/vv0y7twjl7zcj9g71sjf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436539/jy85me6y4bcsgfjvytwv.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436837/fyczvvyuelceouxja8yy.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436372/d32ktdsaqfoiogz5dpvf.jpg"
-            ],
-            "price": 1146,
-            "summary": "Welcome to stay in my 3bed apartment. Its a rare gem in HK,  as its Huge compared to other Hk apts! Perfect for a few friends sharing or a family. Walk everywhere in Central in  few min. Soho, Escalator, Hollywood road, MTR. It’s walk up building! please check my profile, I have many reviews :)",
-            "capacity": 5,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Heating",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 3,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Melanie",
-              "location": "Seattle, Washington, United States",
-              "about": "Raised in the west, I decided to travel and work abroad for a few years. Working and backpacking away from home has helped me gain so much experience and insight from living away from home, I think everyone should try it! \r\n\r\nI love hosting! And I put my heart into it and always think about how I can make my place enjoyable and comfy.\r\nif you have any feedback I'd love to hear and learn how to grow from it.\r\n\r\nI can speak English and hope to make your stay as pleasant as possible :) We can definitely give you suggestions for eating, shopping, art and museums and also night life. Just ask!",
-              "responseTime": "within a few hours",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/5db18be8-88b0-40d8-9960-46275d99ac3b.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "930612"
-            },
-            "loc": {
-              "country": "Hong Kong",
-              "countryCode": "HK",
-              "city": "Hong Kong",
-              "address": "Hong Kong, Hong Kong Island, Hong Kong",
-              "lat": 114.15202,
-              "lan": 22.28582
-            },
-            "reviews": [
-              {
-                "at": "2016-02-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd26",
-                  "fullname": "Veronica",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "10225425"
-                },
-                "txt": "Melanie was an amazing and friendly host! Super friendly, accommodating and quick to answer all my questions.\r\n\r\nThe location of her place is very convenient...only about a 5 min walk to the MTR, Soho and LKF. The space itself is extremely spacious for Hong Kong and not to mention super cute with a very artsy vibe. Absolutely loved the decor and you can really get a sense of who Melanie is from her lovely finishing touches. "
-              },
-              {
-                "at": "2016-02-10T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb34a",
-                  "fullname": "Eunji",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/68.jpg",
-                  "id": "22116383"
-                },
-                "txt": "위치는 소호에서 도보 3분거리. 숙소자체는 좋으나 동네 자체가 오래되서 밤에 귀가할 때 조금 어두웠음. 홍콩에서 보기 드물게 방3개인 집이라 가족들과 좁지 않게 지낼 수 있어 좋았음. 다만 뜨거운 물 쓰는게 조금 불편했고 건물이 오래되어서 바깥 소음이나 방음이 잘 안되는 게 단점이었으나 전반적으로 가격대비 너무 깔끔하고 좋은 숙소였음! \n\nWe checked in late at night but Melanie gave us all the information before arrival so we could check in easily on our own. If you once find this place, you will relalise how close it is from Soho, but getting here for the first time wasn't very easy for us. I stayed here with my husband and my brother's family and the place was spacious enough (considering its hongkong) for us all to hang around. You need to walk up to the 4th floor but wasn't a problme at all to us. \nWe had some issue about electricity but Melanie responded quickly and helped us sort out the problem. One thing we felt inconvenient was hot shower but we got used to it later. And, it was very considerate of Melanie to prepare three heaters for us. \nI highly recommend this place for a family or groups of 4-5 ppl and especially those who wish to enjoy the atmosphere of Soho area and lankwaifong. I and my husband went out for a drink every night and found awesome bars and restaurants. We could have done it easily as the place is so close to it. \n"
-              },
-              {
-                "at": "2016-02-12T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4bc",
-                  "fullname": "Sergio",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/62.jpg",
-                  "id": "47448814"
-                },
-                "txt": "The apartment itself is nicely decorated and in good condition, with two good sized bedrooms, one bedroom with a tatami and also a sofa bed.  It is very centrally located so you can stroll to Central and Lan Kwai Fong very easily. We would recommend it."
-              },
-              {
-                "at": "2016-02-14T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb929",
-                  "fullname": "Lusy",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/32.jpg",
-                  "id": "30309397"
-                },
-                "txt": "We had SUCH a lovely stay at Melanie's apartment! This home is so clean and kept very nicely, we particularly loved the attention to detail with umbrellas, books, candles, hairdryers, etc. to make sure we felt at home! Thank you so much for letting us enjoy your place for the weekend :]]"
-              },
-              {
-                "at": "2016-02-18T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbbd3",
-                  "fullname": "Anthony",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "7601463"
-                },
-                "txt": "Mel was extremely responsive with my super late booking. \r\nThe set of instructions she provided were more than adequate, but she even reached out on (Hidden by Airbnb) to ensure everything was understood. Would highly recommend Mel, and hope to stay in her huge place again soon"
-              },
-              {
-                "at": "2016-02-28T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb68b",
-                  "fullname": "Salvatore",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
-                  "id": "13362622"
-                },
-                "txt": "Melanie welcomed me promptly and timely providing me all the needed info to enjoy my staying at her place. She replied all of my questions and let me feel welcome.\r\n\r\nThe apartment is spacious (rare size in HK!) and really clean (not usual too), comfortable for families.\r\nFurthermore, it's strategically located in the heart of Soho and HK.\r\n\r\ncleanliness of the main gate and stairs could be improved.\r\n\r\nGreat experience overall.\r\n"
-              },
-              {
-                "at": "2016-03-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164facd8",
-                  "fullname": "Riikka",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
-                  "id": "29979454"
-                },
-                "txt": "Melanie oli ystävällinen ja avulias majoittaja. Hän antoi kohteesta tarkan kuvauksen ja lähetti etukäteen tarkan ja äärimmäisen kattavan tietopaketin. Asunto vastasi odotuksia täydellisesti ja oli todellakin tilava Hong Kongin mittakaavassa. Sijainti oli mitä loistavin!!!!! Asunto oli siisti, miellyttävä ja hyvin varusteltu. Internet toimi moitteettomasti. Suosittelen Melanien majoitusta lämpimästi kaikille. "
-              },
-              {
-                "at": "2016-03-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb228",
-                  "fullname": "David",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
-                  "id": "40018078"
-                },
-                "txt": "Melanie's home in Hong Kong is wonderful! Very convenient and accommodating - it was a great experience. Not to mention, Melanie is extremely helpful and provided some solid tips about seeing the city.  Her place is also very close to some delicious dim sum. I would recommend her place to anybody staying in the city. Thanks Melanie!"
-              },
-              {
-                "at": "2016-04-11T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb620",
-                  "fullname": "Paul",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
-                  "id": "30302063"
-                },
-                "txt": "Melanie was very helpful when arriving and gave clear instructions on how to access the apartment. The apartment was clean and comfortable and as shown in the photos. The place was very spacious for four of us and the location was perfect. Would definitely consider staying here again."
-              },
-              {
-                "at": "2016-04-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fabd9",
-                  "fullname": "Maria",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
-                  "id": "16114855"
-                },
-                "txt": "Melanie's home was the nicest place we stayed in Hong Kong, she was thorough and gave us excellent directions for easy access to her apartment. Neighborhood is full of trendy and great restaurants and bars and easy access to the MTR to explore other areas of the city. Highly recommend and would stay again on my next visit."
-              },
-              {
-                "at": "2016-05-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae68",
-                  "fullname": "Jing",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "14350554"
-                },
-                "txt": "房间离上环地铁站很近,不管是往返机场还是市内出行都很方便｡房间装修和设施虽然简陋,但需要的东西基本都有｡最大的缺点是房间位于五楼,对于我这样家庭出游不太合适,抬着几个行李箱和宝宝推车爬楼梯的经历像一场噩梦｡推荐结伴出游的年轻人居住,性价比蛮高｡"
-              },
-              {
-                "at": "2016-05-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb790",
-                  "fullname": "Dx",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/23.jpg",
-                  "id": "43463016"
-                },
-                "txt": "The bed caused skin itches, could hardly sleep. \n\nApartment is very artistic, looks very comfortable. Good location. Toilets and showers in great condition. "
-              },
-              {
-                "at": "2016-05-27T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb412",
-                  "fullname": "Simon",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "4152981"
-                },
-                "txt": "I would highly recommend staying at Melanie's apartment in Sheung Wan, near the famous Lang Kwai Fong area of Hong Kong island. I've stayed in many overpriced, cramped hotels and hostels in Hong Kong over the years and this was my first time opting for AirBnB instead. I was not disappointed. Melanie's apartment is very very spacious, has a lot of character and is super comfortable. It's also fantastic value for money if a few of you are sharing. Her instructions of how to find and access the building were spot on, very helpful indeed. \r\n\r\nWe'll be back for sure!"
-              },
-              {
-                "at": "2016-06-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbbcf",
-                  "fullname": "Rachel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
-                  "id": "15625834"
-                },
-                "txt": "The check in instructions were clear and easy to get, I found my way there easily. The climb up wasn't that bad. When I checked in, the house was in a huge mess as the previous guest had trashed the listing and looked like they had a party there. Melanie was easily reachable and wasn't fazed much when I showed her pictures. Instead, she took it like a champ and pulled a miracle by getting her cleaner to come at midnight. I was calling Airbnb to move my reservation elsewhere but her ability to rectify everything in record time was all I could ask for. The apartment looked great for photos after the massive cleanup! Thank you!"
-              },
-              {
-                "at": "2016-06-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd55",
-                  "fullname": "Alex",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
-                  "id": "4395210"
-                },
-                "txt": "Fantastic apartment decorated with taste. BUT unfortunately experience was spoilt by deafening construction noise from the apartment on 3rd floor. If you don't plan on spending time in the apartment from 8am to 5pm you'll prob love your time."
-              },
-              {
-                "at": "2016-07-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb802",
-                  "fullname": "嘉楠",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
-                  "id": "71291052"
-                },
-                "txt": "It really has a perfect location,and the rooms are very clean and tidy.Thanks,Melanie!"
-              },
-              {
-                "at": "2016-07-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb8f1",
-                  "fullname": "Dan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
-                  "id": "8945756"
-                },
-                "txt": "Melanie's place was great! The location is superb and her directions were very accurate and easy to follow. communication was great. Construction site nearby was a bit noisy but we all slept fine. Convenience store on the corner very handy.\n\nThe place was spacious and clean. Shower had good flow and no trouble with hot water. Fridge small but all we needed. Plenty of markets and eateries around and the MTR (train) station is only a short walk and one stop to central.\n\nWe're able to drop our bags slightly earlier which was also very helpful in the heat.\n\nI would definitely stay at Melanie's place again.\n\nCheers for having us."
-              },
-              {
-                "at": "2016-07-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb83d",
-                  "fullname": "Brad",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
-                  "id": "1338187"
-                },
-                "txt": "Melanie's place was great, and as advertised. Very spacious for Hong Kong and close to everything. Had a bit of trouble getting in with the key missing from the lock box upon arrival but her assistant Elvie came to the rescue and it was a non issue. Would definitely stay there again given how convenient and spacious it was.  "
-              },
-              {
-                "at": "2016-07-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba77",
-                  "fullname": "Jirat-Orn",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "2092204"
-                },
-                "txt": "It was easy to find, not far from E2 exit of the MTR, but the place was on 5 floor (first floor has no room so actually didn't count but you have to gone up 5 floor by stair). The place was quite and nice, clean and comfy just like the picture. Have a bit problems with the light inside the room but she response quick and ask for the helper to come. Thanks to the place we have a nice sleep. P.S. The shop of King fish ball was right beside in front the corner of the place, not bad to have a try."
-              },
-              {
-                "at": "2016-07-31T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb68b",
-                  "fullname": "Salvatore",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
-                  "id": "13362622"
-                },
-                "txt": "Melanie was super supporting in sharing all the needed details to make our experience just great! \r\n\r\n"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Earth homes",
-              "OMG",
-              "Off-the-grid"
-            ],
-            "statReviews": {
-              "cleanliness": 4,
-              "communication": 4.2,
-              "checkIn": 4.6,
-              "accuracy": 4.5,
-              "location": 4.9,
-              "value": 4.9
-            }
-          },
-          {
-            "name": "Ocean View Hawaiian Bungalow on a private ranch",
-            "type": "Castles",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437221/wczn7rdpbtjbcvgspakp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436281/doubvhbpwjfx81yfzpxq.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436852/y3scgbn8d6evumdpwdp4.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437009/zuu2udtrkcs6sxjiym40.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436912/xle8ueqxjeazbs4bp09p.jpg"
-            ],
-            "price": 469,
-            "summary": "Miles Away is a plantation era bungalow that we lovingly restored to host visiting guests from all around the world. The ranch has 4 cottages available. Each are very private and separated.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Wifi",
-              "Pool",
-              "Kitchen",
-              "Free parking on premises",
-              "Pets live on this property",
-              "Dog(s)",
-              "Cat(s)",
-              "Other pet(s)",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "First aid kit",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "Hangers",
-              "Iron",
-              "Laptop friendly workspace",
-              "Self check-in",
-              "Keypad",
-              "High chair",
-              "Crib",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "BBQ grill",
-              "Patio or balcony",
-              "Garden or backyard",
-              "Beach essentials",
-              "Luggage dropoff allowed"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Christie",
-              "location": "Hawi, HI & Santa Monica Ca United States",
-              "about": "I'm the creator of Puakea Ranch in Hawi, HI.  We purchased the ranch in 2006 and restored all the historic homes and brought the property back to life. Now people can enjoy a more authentic and unique Hawaiian vacation. My vision was to create a relaxing, comfortable & eco friendly environment in this rugged Hawaiian landscape.  We are a great fit for adventurous travelers who also appreciate life's little luxires, like pressed sheets, sharp knives and farm fresh eggs. ",
-              "responseTime": "within a day",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/e3f52405-c67a-4bf4-a8aa-555e8889cf66.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "4967433"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "Maui",
-              "address": "Hawi, HI, United States",
-              "lat": -155.87199,
-              "lan": 20.23256
-            },
-            "reviews": [
-              {
-                "at": "2017-07-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc5c",
-                  "fullname": "Anna Lis",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
-                  "id": "21733717"
-                },
-                "txt": "For adventurous spirits.  \nPluses: beautiful cottage and property (thoughtful landscaping and layout, unique design of outdoor bathroom), fruit and veggies from the garden, close to small town gift shops and restaurants, happy animals, quiet/peaceful atmosphere, bigger shared pool is nice. \nMinuses: centipedes, flying roaches indoors, shallow private pool (for wading only) and limited guest services.\nOverall: I had a memorable happy birthday at Puakea."
-              },
-              {
-                "at": "2018-09-04T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae01",
-                  "fullname": "Anna Marie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/68.jpg",
-                  "id": "80710058"
-                },
-                "txt": "Dear Christie,\nSitting on the bed in the front bedroom at Miles Away with late afternoon light and a breeze I want to tell you how much we’ve loved it here. The pool has been perfect for our grandson who is turning 4- he can go underwater and still stand up! We’ve all taken the kitchen scraps to the pig and watched him dominate, used the swings, clothesline, and have great praise for the outside bathroom. There is a high minded curatorial process going on here. Everything feels as if it were chosen for a use in this dreamy world of a bygone time. Thank you for making it possible for us to be here for 6 nights. I am so appreciative of your vision, this feeling of old Hawaii.\nSincerely and with Aloha,\nAnna Marie Hamilton"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Boats",
-              "Caves",
-              "Campers"
-            ],
-            "statReviews": {
-              "cleanliness": 4.3,
-              "communication": 4.5,
-              "checkIn": 4.9,
-              "accuracy": 4.7,
-              "location": 5,
-              "value": 4.9
-            }
-          },
-          {
-            "name": "Nuevo espacioso apartamento en BCN",
-            "type": "National parks",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437045/dmquvficldi8ssfdlrrx.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436902/cidqzea6jlj827teokyg.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436975/hx9ravtjop3uqv4giupt.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436397/nde7l2hrwezdfzbvhczj.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436372/d32ktdsaqfoiogz5dpvf.jpg"
-            ],
-            "price": 320,
-            "summary": "If you like to stay in a beautiful local area but still close to all the tourist attractions we have a place for you. Spacious and renovated three bedrooms Apartment in the magnificent district of Barcelona, with a capacity of a group up to 8 people.",
-            "capacity": 8,
-            "amenities": [
-              "TV",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Kitchen",
-              "Doorman",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "Washer"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 3,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Dimitry",
-              "location": "Barcelona, Cataluña, Spain",
-              "about": "PROVENZA MBS, a  small company managing an apartment building at nice centric neighborhood one block away from central hospital, a polytechnic university and a Ninot Market. Centric but safe surroundings.",
-              "responseTime": "within a day",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/user/cd951be5-6cf9-4978-bbb6-6a07aad43e3d.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "2201772"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, Catalonia, Spain",
-              "lat": 2.15307,
-              "lan": 41.3866
-            },
-            "reviews": [
-              {
-                "at": "2014-01-03T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd6c",
-                  "fullname": "Alexandre",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
-                  "id": "10748050"
-                },
-                "txt": "It was great on every point"
-              },
-              {
-                "at": "2014-06-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc3f",
-                  "fullname": "Chrizz",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
-                  "id": "2608085"
-                },
-                "txt": "The accommodation was perfect for us! Dimitry was a very friendly, uncomplicated and reliable host and the apartment was very clean and well equipped. We were seven people and it offers enough space for us. It was situated in the 6th floor and when we open the windows a fresh breeze blows throw the rooms. The neighborhood was save, even at night and the next metro station is 5 minutes to walk. \r\n\r\nThanks for the nice apartment. We had an amazing time in Barcelona!"
-              },
-              {
-                "at": "2014-07-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4b3",
-                  "fullname": "Sergey",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
-                  "id": "5573771"
-                },
-                "txt": "Классная большая квартира почти в центре"
-              },
-              {
-                "at": "2014-09-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb558",
-                  "fullname": "Wiktor",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/40.jpg",
-                  "id": "719571"
-                },
-                "txt": "Dimitry is a great host, very friendly. The place is great for bigger group of people. The apartament is clean, well prepared. "
-              },
-              {
-                "at": "2014-09-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba86",
-                  "fullname": "Margaret",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
-                  "id": "13524649"
-                },
-                "txt": "We did not see Dimitry during our stay but his assistant in the office was exceptionally helpful and friendly.  \r\nThere were many cafes, bars and restaurants nearby and there was a metro station and bus stops in close proximity."
-              },
-              {
-                "at": "2016-10-08T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe53",
-                  "fullname": "Emmas",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "59532966"
-                },
-                "txt": "One bedroom had a light glaring in all night from outside neighbouring apartment block and was unusable. A dryer should be provided. Bathrooms should be restocked and cleaned at least every second day."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Ryokans",
-              "Ryokans",
-              "Private rooms"
-            ],
-            "statReviews": {
-              "cleanliness": 4.9,
-              "communication": 4.9,
-              "checkIn": 4.1,
-              "accuracy": 4.2,
-              "location": 4,
-              "value": 4.2
-            }
-          },
-          {
-            "name": "Modern Beachside Apartment with Balcony",
-            "type": "OMG!",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436385/sorbz7rdtxacu1ds9vel.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436556/mb70fifvvpvde8jub5cg.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436942/cfa0wa2uwfyunrhgp4mt.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436928/ouvft4oeavr7ceeha4gk.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436933/ysvap4wzv8ziwtpbznf8.jpg"
-            ],
-            "price": 90,
-            "summary": "Wind down in an elegant designer apartment just steps from the beach. Indulge in the laid back lifestyle of this space featuring thoughtfully curated furnishings and decor, soothing earth tones throughout, and a private balcony.",
-            "capacity": 6,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Free parking on premises",
-              "Elevator",
-              "Heating",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Essentials",
-              "Shampoo",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Pack ’n Play/travel crib",
-              "Body soap",
-              "Bath towel",
-              "Toilet paper",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Coffee maker",
-              "Dishwasher",
-              "Oven",
-              "Smart TV",
-              "DVD player",
-              "Beach view",
-              "Rain shower",
-              "Terrace",
-              "Balcony",
-              "Sound system",
-              "Breakfast table",
-              "Espresso machine",
-              "Double oven",
-              "Murphy bed",
-              "Bedroom comforts",
-              "Bathroom essentials"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "David",
-              "location": "Barcelona, Catalonia, Spain",
-              "about": "I was born in Barcelona, and love my city and Catalonia.\r\nI have a background in Security and HSE, and as hobbies, I like cinema, computers, electronics and sports, and above all meeting people from all around the world and showing them my hospitality!\r\nI have been hosting guests for years at Tripadvisor, and probably I am number one in reviews in Barcelona!",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/c043af77-03fa-417a-9a0d-ed8697336ef5.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "50345502"
-            },
-            "loc": {
-              "country": "Spain",
-              "countryCode": "ES",
-              "city": "Barcelona",
-              "address": "Barcelona, Catalunya, Spain",
-              "lat": 2.21291,
-              "lan": 41.40308
-            },
-            "reviews": [
-              {
-                "at": "2017-03-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb091",
-                  "fullname": "Darmo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "117161775"
-                },
-                "txt": "David's large, modern, cozy, clean and comfortable apartment is located in the newer section of Barcelona, in a quiet neighbourhood. The large underground parking is well lit, clean and roomy making manouvering our car very easy. It has direct elevator access to the apartment above, so unloading and loading the car was very convenient.\n\nThe area around the apartment has stores, restaurants, a Mercadona Supermarket, and many smaller grocery stores. The sidewalks are broad and evenly graded which makes for easy walking, and clean.\n\nPublic buses are frequent and easy to use, and there is an underground Metro station nearby within easy walking distance.\n\nDavid was what I would call a super host. His apartment was well equipped with every modern convenience and very clean. It was also very well stocked with food; bread, milk, juice, fresh fruit, butter, coking oil, etc., including a bottle of wine.\n\nHe patiently and carefully explained the works of every appliance in the apartment, including the use of the television features, and he made sure you are aware that he is available for any question later on. Communicating in English was not a problem.\n\nWe greatly appreciated the considerable time he spent providing us with detailed explanation of all the major attractions of Barcelona and how to get there. His Guest Guidebook includes all the details one could possibly ever need while in Barcelona, from managing emergency situations, using public transport, maps, to restaurants, shops, museums and all major attractions. Our visit to Barcelona was made much easier because of the book, and we learned a lot more.\n\nWe would recommend anyone visiting Barcelona to use David's place. We will definitely return to David's apartment if we should want to visit Barcelona again. The five days we were there were not enough.\n"
-              },
-              {
-                "at": "2017-04-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb880",
-                  "fullname": "Samuel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "84315133"
-                },
-                "txt": "David a un accueil convivial et très précis avec toutes les informations dont vous avez besoins.L'appartement est bien placé, agréable et chaleureux.Nous y retournerons sans hésiter."
-              },
-              {
-                "at": "2017-04-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb264",
-                  "fullname": "Laurie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "74509541"
-                },
-                "txt": "Nous avons passé un agréable séjour dans l'appartement de David. Il est très bien aménagé et confortable. L'appartement se situe à environ 20 minutes à pied de bars et discothèques pour sortir le soir et proche des transports en commun pour rejoindre le centre-ville. \nL'appartement est très propre et bien équipé (serviettes, plaids, petit déjeuner, savon, etc.)\nDavid nous a donné beaucoup d'informations (attention à ne pas être trop long ;-) ) pour se restaurer (très bonnes adresses), visiter et sortir!\nJe recommande cet appartement. "
-              },
-              {
-                "at": "2017-07-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbca6",
-                  "fullname": "Valentina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
-                  "id": "43538795"
-                },
-                "txt": "Nuestra estadía de 16 días en el departamento de David fue fabulosa. El departamento era espectacular y limpio, con una muy buena ubicación en una zona moderna y silenciosa de Barcelona. \nDavid es gentil, empático, correcto y por sobretodo, amable. Siempre disponible 24 horas ante cualquier duda o circunstancia. Nos recibió con comida, vino y muchos otros artefactos que fueron indispensables en nuestra estadía allí (shampoo, pasta de dientes, elementos de limpieza). No solo eso sino que también, se tomó el tiempo para explicarnos los lugares que no nos podíamos perder, y los restaurantes a cuales ir.  Fue un placer para nosotros poder conocerlo, y estamos seguros que en nuestros próximos viajes a Barcelona, contactar a David será nuestra primera opción. \n\nEn fin, nuestra estadía en Barcelona fue asombrosa, y gran parte fue gracias a David. Nos hizo sentir en casa. Muchas gracias!!"
-              },
-              {
-                "at": "2017-07-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb21",
-                  "fullname": "Samuele",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
-                  "id": "134589877"
-                },
-                "txt": "Excelente todo!! David además es muy atento, si quieres te ahorras dinero en guías y libros sobre Barcelona y Cataluña ya que te lo explica todo. Inclusive se ofrece para llevarte a ver sitios que nadie ve. El apartamento a dos pasos de la playa, del Mall y del Metro con el cual podes ir al Centro Histórico, mucho mejor que quedarte en el mismo ya que ni dormirías... Recomendable !!!!"
-              },
-              {
-                "at": "2017-08-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb75f",
-                  "fullname": "Etienne",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
-                  "id": "89992896"
-                },
-                "txt": "David est un hôte particulièrement accueillant et arrangeant. Il nous a grandement conseillé mes amis et moi sur la ville de Barcelone. Son appartement est très propre et cocooning. Merci encore à lui pour ce séjour je le recommande."
-              },
-              {
-                "at": "2017-08-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad9f",
-                  "fullname": "Vivienne",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "129454405"
-                },
-                "txt": "Booking a holiday at this lovely apartment affords the luxury of two vacations rolled into one -- to easily explore the vibrant city of Barcelona, plus relax and unwind at the beach.  That's reason enough to chose to stay at Centric Boutique at the Beach.  What comes as a bonus is David, a host who takes pride in what he does and who understands that \"goodwill is everything\".  It is no surprise that the owner has been awarded the Tripadvisor Certificate of Excellence.  \n\nDavid keeps in touch, checkIng in to see if/what there is anything we need, in addition to recommending places to visit.  It's not just lip service.  For example, we suggested he consider adding a mat in the bathtub, which could be a bit slippery.  Later that day, DONE.\n\nFor example, when it was was time to vacate after our ten-day stay, we asked if would do us the favour of arranging for a mini-van to pick us up at 5:30am, as we were taking a train on to San Sebastian, and couldn't risk any misunderstanding if we tried booking this ourselves.  After checkIng around, David came back with an answer.  The going rate was too high and he was still looking to find us much more reasonable transportation.  He DID.\n\nThis beautifully decorated, two-bedroom apartment is everything as described, well-equipped, well-stocked, clean and comfortable with a lovely balcony and close to all amenities.  \n\nDo we recommend it, most definitely YES."
-              },
-              {
-                "at": "2017-08-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb917",
-                  "fullname": "Glenn",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
-                  "id": "139956241"
-                },
-                "txt": "Our stay at David's apartment was everything it was supposed to be and so much more.  One of the main reasons we chose the apartment was the great reviews that David received as a host.  It turned out that those reviews didn't do him justice.  From the moment I booked, David made sure to stay in contact with us to ensure that we would be fully prepared for our Barcelona experience.  He even offered to pick us up at the airport!  Upon arrival, David gave us a car tour of the city and took us to some out of the way sights that we would have otherwise missed.  The day before we were leaving, I received a message from David offering to drop us back at the  airport.   He went above and beyond to make sure that our time in Barcelona was as wonderful as possible.  David is the ultimate host and I can't recommend him highly enough."
-              },
-              {
-                "at": "2017-09-16T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbaf8",
-                  "fullname": "Abdulrhman",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "16752139"
-                },
-                "txt": "Tout d'abord \nL'appartement été très propre dans un endroit calme  a côté de la plage ça traversant un rue pour arriver à la plage ,,\n\nDans l'appartement y'a tous ce qu'il faut pour la cuisine,,\nLe toilette aussi y'a tous ce qu'il faut de Serviettes et savon ،، \nJe me sentais comme si je suis  dans mon appartement.\n \nDavid est un personne  merveilleuse il a bien nos accueillir dans son appartement,, il a nous donné toutes les informations touristiques sur la ville.\nEt il était en contact avec nous Pendant notre séjour pour savoir si on besoin de qqch ou pas ."
-              },
-              {
-                "at": "2017-10-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb92e",
-                  "fullname": "Laura",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "32671371"
-                },
-                "txt": "David is truly a wonderful host. He really took his time to make sure we had all information about the apartment, the area, restaurants, public transport etc. That was wonderful. We felt David was there to help if anything. We had a great weekend!"
-              },
-              {
-                "at": "2017-11-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb495",
-                  "fullname": "Tony",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "7529305"
-                },
-                "txt": "David is a fantastic host.  Not only did he explain everything about his wonderful apartment, but really covered a lot of detail about the surrounding area - places to eat, drink, avoid!!!  \n\nThe apartment is lovely.  Everything works fantastically well. \n\nIf you are going to the CCIB or beach, this is perfect.\n\nThank you David.  Fantastic host and fantastic apartment.\nTony"
-              },
-              {
-                "at": "2017-11-20T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf6d",
-                  "fullname": "Dale",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
-                  "id": "52840005"
-                },
-                "txt": "Lovely place in between Barcelona and badalona. Great location for shops and a beautiful beach just a few minutes walk. David is a great host and this is his full time job so reply’s within a few minutes and is always on call.  He asked us for 2 and a half hours of our time on arrival to explain the apartment and area which isn’t really needed and can be abit over helpful at times which some people might find annoying but overall 5/5 from me."
-              },
-              {
-                "at": "2018-01-20T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5cd",
-                  "fullname": "Tanya",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
-                  "id": "41656977"
-                },
-                "txt": "Large apartment within close distance to the city of Barcelona. Good for families or couples as the apartment has two bedrooms with a double bed in one and a queen size in the main. Good sized kitchen with all amenities including a washing machine and dryer. Even supplies such as butter, jam, milk, tea, coffee, wine, olive oil, etc available. Good sized lounge room with views of the courtyard in the middle of the apartment complex. Train station only a 5 minute walk with the underground being a great way to get around. David provided very in depth details and maps of things to do and see in Barcelona and details of the best ways to get around. He was available to answer questions prior to our arrival and during our stay. Check in and out was easy as David was very flexible and able to work in with our flight schedules. "
-              },
-              {
-                "at": "2018-01-28T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac82",
-                  "fullname": "Anna",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
-                  "id": "39784223"
-                },
-                "txt": "Where to begin? Yeah! David, the owner. It's really hard to described how helpful and awesome he is. The best host in all our life. Very kind, friendly. You can always count on him, in every details. He took care of us before we even arrived. He explained how to get to the apartment in the best way. And he was there when we came. Ready to tell us everything. You can ask him about even unexpected things about your stay and be sure he will find an answer in a very short time. How to get to any museum or tourist attraction, where to go in Barcelona,  what to do with kids, where to go to a whole day journey outside the town etc. He's knowledge about Catalonia's history and Catalan architecture is unbelievable. We spending a whole week in Barcelona with our little daughter. She was so happy possessing her own room so she would not go outside. She told us every day she find herself as a princess. She's eight and believe me, she will never said this in our flat. The apartment is amazing. Full of every conveniences you need. Honestly, we haven't got in our own kitchen so many stuff. The apartment is stylish and cosy. So you could feel very comfortable here during your stay. If you need coffee you could make it in many ways, you could cooked here, prepared a dishes, and what it's really really awesome, you could spend a whole evening or night on a lovely terrace. But who wants to stayed on a terrace in Barcelona? If you decided to explore a town, you will find in David's apartment a special guide book which he prepared for his guests. You can't miss it. It's huge as an Encyclopedia Britannica. Neighbours are friendly, you will find a nice bakery and full equipped stores just around the corner. location is just excellent. Lovely beach is a few blocks from your apartment, underground station just five minutes by walk. Bus stop is on the same corner as a David's apartment. It's hard to believe, but yes. You will find there everything what every high-maintenance resident need. So, if you really want to enjoy your stay at Barcelona, choose this unusual opportunity for living. You will not regret. We are sure! We fell in love with Barcelona, we fell in love with David and we plan to go back as soon as we can. What about next week?"
-              },
-              {
-                "at": "2018-02-04T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb17e",
-                  "fullname": "Fiona",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "136155801"
-                },
-                "txt": "David is an excellent host, very knowledgable.  His apartment is in a quiet block and looks as good as the photos.  We were attending a conference at the CCIB and it was a 15 min walk along by the sea. It is also about a 10-15 min walk to selva de mare tube station.  Just over an hour from the airport."
-              },
-              {
-                "at": "2018-02-11T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac1a",
-                  "fullname": "Neil",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/16.jpg",
-                  "id": "15370154"
-                },
-                "txt": "It is hard to write a review which should be full of superlatives, without making it sound false, but I must try!  \nDavid is truly the perfect host: his love for his city and his dedication to hosting, means he is incredibly generous with his time- the check in is amazing...  The flat is lovely with lots of style, and very well furnished, the location a stone's throw away from easy and quick connections into tow is fantastic.\nI would recommend anyone visiting Barcelona to stay at David's: i simply could not rate him high enough!"
-              },
-              {
-                "at": "2018-02-17T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf3e",
-                  "fullname": "Shu",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
-                  "id": "61738696"
-                },
-                "txt": "David is a very nice guy, everything is perfect."
-              },
-              {
-                "at": "2018-03-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbbf4",
-                  "fullname": "Natasha",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
-                  "id": "136357789"
-                },
-                "txt": "David was the perfect host. He was there to meet my friend before I even reached Barcelona, and helped us when we lost a passport. He offered such great insight into all the best things to do and see around Barcelona, advising us on the best routes to get to the popular destinations. The flat was beautiful, with a big kitchen. Walking distance from the metro, we found it very easy to get into the City, without having to pay for a taxi."
-              },
-              {
-                "at": "2018-03-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb04",
-                  "fullname": "Jiaxin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
-                  "id": "102981978"
-                },
-                "txt": "David is a very nice person. On our first day in Barcelona, our car has some problems, none of us can speak Spanish so we call David and he came and help us and solve problems. Also, his apartment is very good and tidy. It is good choice for 4 or 5 friend or family to live. Only 5 mins to the beach and shopping mall very convince. We really enjoy the day in Barcelona. Last, David will give you a lot advices for traveling in Barcelona. His apartment is the best choice"
-              },
-              {
-                "at": "2018-04-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab54",
-                  "fullname": "Fernanda",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg",
-                  "id": "18223142"
-                },
-                "txt": "Espaço incrível, localização maravilhosa e uma super hospitalidade. Barcelona é SENSACIONAL. Espero voltar em breve!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Tropical",
-              "Off-the-grid",
-              "Ryokans"
-            ],
-            "statReviews": {
-              "cleanliness": 4.2,
-              "communication": 4,
-              "checkIn": 4,
-              "accuracy": 4.4,
-              "location": 4.8,
-              "value": 4.7
-            }
-          },
-          {
-            "name": "Clean, comfortable and convenient",
-            "type": "Shared homes",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436236/ctnbnqazpqhotjcauqwp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436204/wzbrvr4mcsuub6gvwbry.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437344/r4w6s3af55tdt5y1lrcc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437021/cw6mtrxza5fzmmgxen4j.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436823/af6elioxovkhvp6cg1un.jpg"
-            ],
-            "price": 1099,
-            "summary": "Great apartment centrally located within 5 mins walking distance to Causeway Bay and Tin Hau MTR's.  Times Square, SOGO Dept store and various other shops within walking distance. Lots of restaurants to choose from in the area.",
-            "capacity": 6,
-            "amenities": [
-              "TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Kitchen",
-              "Doorman",
-              "Elevator",
-              "Heating",
-              "Washer",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Dominique",
-              "location": "Hong Kong",
-              "about": "I am a 33 year old Australian expat living with another 31 year old female. Have lived in Hong Kong for 13 years. As we are both teachers, we usually travel during the school holidays therefore will be renting our flat during these times. ",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/1a5f6a5e-6bf2-458d-8772-9c7e0cc75d49.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "26586136"
-            },
-            "loc": {
-              "country": "Hong Kong",
-              "countryCode": "HK",
-              "city": "Hong Kong",
-              "address": "Hong Kong , Causeway Bay, Hong Kong",
-              "lat": 114.18976,
-              "lan": 22.27983
-            },
-            "reviews": [
-              {
-                "at": "2016-07-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb72d",
-                  "fullname": "Paul",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/18.jpg",
-                  "id": "70079865"
-                },
-                "txt": "Dominique's flat was fantastic. The welcome book was full of wonderful information on Causeway Bay as well as everything Hong Kong had to offer. The flat was much bigger than we had anticipated and had all the amenities required for a medium term stay.  Although we didn't actually get to meet Dominique, she answered all our queries and was very helpful. I would highly recommend Dominique's place for anyone looking for a place in Hong Kong."
-              },
-              {
-                "at": "2016-12-26T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad8d",
-                  "fullname": "Michelle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "3856195"
-                },
-                "txt": "The apartment was at a very convenient location. It was a very safe neighbourhood and we had many choices of food/cafes around Causeway Bay area. Transportation like tram/bus/MTR a stone's throw away. \r\n\r\nThank you Dominique, it had been a pleasant stay! "
-              },
-              {
-                "at": "2017-01-31T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb8bc",
-                  "fullname": "Kenelynn",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/61.jpg",
-                  "id": "26827541"
-                },
-                "txt": "The place is accessible to all public transportation. It is spacious and good enough for big family to stay. The host was accommodating and we didn't have a hard time looking for the place and communicating with them. I would definitely recommend this place for an enjoyable and stress-free trip in Hong Kong!"
-              },
-              {
-                "at": "2019-02-09T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb841",
-                  "fullname": "Beatrix",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
-                  "id": "48946845"
-                },
-                "txt": "Dominique's place is very clean and spacious. It's got everything you need. She was very helpful and thoughtful. I was travelling with two elders and one child and the location made it easy for us to move around."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Amazing views",
-              "Beachfront",
-              "Minsus"
-            ],
-            "statReviews": {
-              "cleanliness": 4.8,
-              "communication": 4.3,
-              "checkIn": 4.2,
-              "accuracy": 4.5,
-              "location": 4.4,
-              "value": 4.4
-            }
-          },
-          {
-            "name": "Beautiful 1 Bedroom Apartment",
-            "type": "Beach",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436236/ctnbnqazpqhotjcauqwp.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436219/yida7pxwpup9rtgnguhv.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437017/gjyzgdjngyrhfrj2loxz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437301/af9yuihshv3wh24bu07u.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg"
-            ],
-            "price": 997,
-            "summary": "This one bedroom apartment in Sheung Wan/Central is the perfect hideaway for a young couple or single person looking to explore everything that Hong Kong has to offer.",
-            "capacity": 2,
-            "amenities": [
-              "Wifi",
-              "Air conditioning",
-              "Kitchen",
-              "Buzzer/wireless intercom",
-              "Washer",
-              "Essentials",
-              "Laptop friendly workspace"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Mai-Britt",
-              "location": "Hong Kong",
-              "about": "Hong Kong is a beautiful city, so vibrant and diverse. I have been living in Hong Kong since 2010. I enjoy traveling and use my personal experience to point you to fantastic restaurants, exciting cafes and bars, the best shopping areas and of course to the local grocer and great supermarkets.",
-              "responseTime": "within a few hours",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/22a8b8ef-e551-4341-b5a4-abf0b3e51ff6.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "36481278"
-            },
-            "loc": {
-              "country": "Hong Kong",
-              "countryCode": "HK",
-              "city": "Hong Kong",
-              "address": "Sheung Wan, Hong Kong Island, Hong Kong",
-              "lat": 114.15241,
-              "lan": 22.28351
-            },
-            "reviews": [
-              {
-                "at": "2016-01-26T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2d3",
-                  "fullname": "William",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "9060469"
-                },
-                "txt": "The host canceled this reservation 7 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2016-02-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd59",
-                  "fullname": "Kevin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
-                  "id": "20163551"
-                },
-                "txt": "Mai's apartment is really nice. Lovely decor. Nice and bright with lots of natural sunlight.. and the balcony is cool :) The location is great. Very close to both Sheung Wan and Central. Mai responded quickly to all messages. Thank you Mai!"
-              },
-              {
-                "at": "2016-02-11T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb1e1",
-                  "fullname": "Chuying",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "30317869"
-                },
-                "txt": "Mai-Britt's flat is so lovely and clean. I can find everything in her flat. I prefer to stay in Mai-Britt's house than hotel. And the bed is so comfortable i can have a deep sleep. I never seen Mai in person but she send message and take some pictures. I can easily connect with her and easily find her place. the flat is located on Gough street. From central about 7mins to walk. close to SheungWan. Everything is perfect. And this nice flat i can't easily find in HK. If i back to HK, i will stay in her flat again. thank you so much!  "
-              },
-              {
-                "at": "2016-03-02T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd58",
-                  "fullname": "Sophie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/43.jpg",
-                  "id": "11547925"
-                },
-                "txt": "Clean & still very new! location is pretty good, it's about 10 mins walk to the MTR, but it's the major Hong Kong & Central stations, from which you can access many lines! Lots of great eateries & convenience stores nearby as well, including the famous Kau Kee Beef Brisket Noodles! Do note the small details like that there is (currently) no wifi & no lift, but we knew about these so we were prepared for it. One small thing, the curtains are quite sheer over the full-length windows which makes the whole place bright & airy, but if you're used to sleeping in darkness then I recommend bringing eyeshades."
-              },
-              {
-                "at": "2016-04-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb7ac",
-                  "fullname": "Rodion",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "1599685"
-                },
-                "txt": "Mai was a super friendly host the apt was clean had everything you needed to make for a comfortable stay - can't beat the location close to everything you want to be near in Hong Kong.\r\n\r\n"
-              },
-              {
-                "at": "2016-09-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb293",
-                  "fullname": "Anna",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "75878955"
-                },
-                "txt": "The host canceled this reservation 23 days before arrival. This is an automated posting."
-              },
-              {
-                "at": "2016-11-18T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf6a",
-                  "fullname": "Mark",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
-                  "id": "103064855"
-                },
-                "txt": "Fantastic location with a couple of renowned local eateries a stone's throw away, Airport Express and Central MTR station within easy walking distance, yet quietly nestled away from the hustle and bustle of the nearby financial district. Apartment itself is spacious enough for one (and I reckon up to two) and has most essentials required - although this being HK, didn't get to spend much time in it. The lack of a lift in this block means legging it up several flights of stairs (as host has made known to her credit) but even that is a perfect antidote to the great food and drink the city has to offer. Mai-Britt was most friendly and welcoming, and the whole experience (as a first-time user) was smoother than I'd expected."
-              },
-              {
-                "at": "2016-12-03T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb64a",
-                  "fullname": "Erin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
-                  "id": "18954566"
-                },
-                "txt": "Located in the heart of Hong Kong, this apartment is perfect for a weekend in Hong Kong. Mai-Britt is the perfect host, and her apartment is set up to feel spacious and bright despite the tight space common in Hong Kong.\r\n\r\nThe spot is close to restaurants, shops and the MTR. "
-              },
-              {
-                "at": "2016-12-29T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb08d",
-                  "fullname": "William",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/78.jpg",
-                  "id": "66616934"
-                },
-                "txt": "Super stay at Mai-Britt's place. Great and clear communication through out. The tasteful apartment is quiet, yet in the middle of the hippest neighborhood, in the center of everything. \nThank you for a wonderful stay."
-              },
-              {
-                "at": "2017-12-29T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb48c",
-                  "fullname": "Brittney",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
-                  "id": "6931896"
-                },
-                "txt": "I couldn’t ask for more Perfect location and accommodations for living like a hip local!"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Play",
-              "Tropical",
-              "Casas particulares"
-            ],
-            "statReviews": {
-              "cleanliness": 4.1,
-              "communication": 4.7,
-              "checkIn": 4.3,
-              "accuracy": 4.5,
-              "location": 4.7,
-              "value": 4.2
-            }
-          },
-          {
-            "name": "PORTO DOWNTOWN FLATS-RIBEIRA STUDIO",
-            "type": "Lakefront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437002/rfon5llzyvk94eilgk5r.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436562/aflmntpgocp5l2zxikhl.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437336/u9ttr09gqo3hmfumwdww.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436306/be2v9wssznxs4hebudb4.jpg"
-            ],
-            "price": 55,
-            "summary": "Porto Downtown Flats RIBEIRA STUDIO is a newly remodelled apartment, located in the most beautiful area of Porto. It is situated in Rua São Joao, in the old Ribeira of Porto, an area classified as World´s heritage. Fully equiped kitchen and wi-fi.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Wifi",
-              "Kitchen",
-              "Paid parking off premises",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "First aid kit",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "High chair",
-              "Pack ’n Play/travel crib",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Stove",
-              "Long term stays allowed",
-              "Step-free access",
-              "Wide doorway",
-              "Step-free access",
-              "Wide doorway",
-              "Wide clearance to bed",
-              "Accessible-height bed",
-              "Step-free access",
-              "Wide doorway",
-              "Accessible-height toilet",
-              "Host greets you",
-              "Paid parking on premises"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 0,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Tim",
-              "location": "Porto, Porto District, Portugal",
-              "about": "I´M EAGER TO BE YOUR HOST\r\nANSIOSO POR SER O SEU ANFITRIÃO",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/7acb937f-b6b3-41ae-966d-2e3052e1f55f.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "35484736"
-            },
-            "loc": {
-              "country": "Portugal",
-              "countryCode": "PT",
-              "city": "Porto",
-              "address": "Porto, Porto, Portugal",
-              "lat": -8.61279,
-              "lan": 41.14106
-            },
-            "reviews": [
-              {
-                "at": "2016-02-03T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc1c",
-                  "fullname": "Tina",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/13.jpg",
-                  "id": "6129255"
-                },
-                "txt": "Teresa was very welcoming and took time to explain whatever was necessary and answer questions about Porto.  The apartment was very nice - just like the photos.  When I mentioned that the apartment hadn't warmed up as much as I'd hoped, she had an additional heater brought by within hours.  The location was so easy, a block and a half from the waterfront restaurant scene, and almost as close to one of the train stations.  We were really happy with our stay!"
-              },
-              {
-                "at": "2016-02-22T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf63",
-                  "fullname": "Diogo",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "12229496"
-                },
-                "txt": "Apartamento conforme descrito, muito bom.\nFomos bem recebidos e aconselha-se a quem queira conhecer o Porto"
-              },
-              {
-                "at": "2016-03-10T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb4b6",
-                  "fullname": "Andrei",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "17136393"
-                },
-                "txt": "This is a very good location for exploring Porto. The studio is excellent - close to all the important city attractions as well to good restaurants and bars. Teresa is a great host. Although we did not meet her personally she made sure that we have everything we need plus we got excellent advice for what to do and see in Porto."
-              },
-              {
-                "at": "2016-03-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad33",
-                  "fullname": "Anu",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "14825908"
-                },
-                "txt": "Very functional studio, great location, warm welcoming from the host."
-              },
-              {
-                "at": "2016-04-09T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164faec1",
-                  "fullname": "Charly",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
-                  "id": "54447748"
-                },
-                "txt": "Très bon accueil, logement agréable et très bien situé dans le centre de porto, à quelques mètres du Douro ! Super appartement pour passer un we prolongé, voir une semaine à deux !"
-              },
-              {
-                "at": "2016-04-15T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb71",
-                  "fullname": "Joost",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/50.jpg",
-                  "id": "21091770"
-                },
-                "txt": "We have had an excellent stay in this apartment. \n\nIt is situated just a few steps from the lively historic heart of the beautiful city of Porto. Most of the things you'd like to do are within walking distance: a lot of cultural highlights, shopping, bus/metro/train and of course many Port-houses.\n\nThe apartment sits in a somewhat old building which is a contrast to the apartment itself. It has been nicely renovated and has the comfort you would want. It's spacious for a stay with two people. Most of the interior is new and functions properly. This is complemented by nice (and some antique) decorative details.\nA pleasant surprise was the smell of freshly baked bread every morning in the staircase. The downstairs neighbour is a bakery where you can get good and cheap bread and your morning espresso.\n\nWe have had contact with Teresa through AirBNB, she has been helpful and kind. Tim welcomed us with a gastronomic surprise and even a list of suggestions for our stay in Porto. They are a very hospitable and helpful couple!\n\nThank you Teresa and Tim!"
-              },
-              {
-                "at": "2016-04-24T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb84c",
-                  "fullname": "Markus",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
-                  "id": "4435845"
-                },
-                "txt": "Teresa and her friend were very kind and welcomed us with a delicate surprise. They were helpful with telling us the best places to visit. The flat is very nice furnished, well equipped an next to a lively street direct in the city centre. We enjoyed our stay and would like to comeback somewhen. "
-              },
-              {
-                "at": "2016-04-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5f4",
-                  "fullname": "Florence",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
-                  "id": "25783150"
-                },
-                "txt": "Great place, so clean, great host, easy to reach and happy to please us !"
-              },
-              {
-                "at": "2016-05-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fb9c2",
-                  "fullname": "Antony",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/30.jpg",
-                  "id": "9824102"
-                },
-                "txt": "This place is awesome!!\r\nThe location is great. Just a couple of mins walk downhill to Cai da Riberia on the river and all the great restaurants and bars there.\r\nThe flat itself was spotless and spacious. Perfect for the 2 of us.\r\nTeresa's partner was there to meet us it 12.30am. Let us in, showed us around and offered us a small glass of port and a pastille de nada as a welcome. Very nice.\r\nThe bed is extremely comfortable too. Always a bonus. \r\nLoved this place!\r\nOne small drawback was the noise of passing partygoers in the small hours as the flat is on the a bit of a thoroughfare but seriously not a real problem as the bed was so comfortable we just dozed straight off again.\r\nThe owners checked in with us via test several times over our 3 day stay to make sure we had everything we needed and were all ok.\r\nCan't fault it. We had a great time here. Hope to come back and stay here again sometime very soon\r\n"
-              },
-              {
-                "at": "2016-05-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb02b",
-                  "fullname": "Marcos",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "42708159"
-                },
-                "txt": "El departamento es hermoso, la ubicacion privilegiada y el trato de los anfitriones excelente. No se puede pedir mas cuando alguien contrata este servicio. Si alguien piensa viajar a Oporto no dude en que el departamento de Teresa sea una de las mejores opciones para contratar."
-              },
-              {
-                "at": "2016-05-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe08",
-                  "fullname": "Nathalie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/44.jpg",
-                  "id": "3279833"
-                },
-                "txt": "Nous avons été très bien accueilli par Tim, l'ami de Teresa, qui nous avait préparé du Porto et des pasteis de nata! L'appartement est exactement conforme aux photos, très agréable, spacieux et bien décoré (le lit est vraiment très confortable, bravo! ).  L'appartement est idéalement situé à côté de Ribeira et des quais pour les balades nocturnes...Nous reviendrons avec plaisir à Porto, cette ville est magnifique. Merci encore pour tout, Tim et Teresa. "
-              },
-              {
-                "at": "2016-05-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb2b3",
-                  "fullname": "Julia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "59517094"
-                },
-                "txt": "We absolutely loved our stay in Porto. The appartement is very well located and beautifully furnished. Also, it was very (!) clean and tidy and the kitchenette is well equipped. Teresa's friend waited for us in front of the house and it was a warm welcome - they even had prepared a small surprise!\r\nThank you so much - we would love to visit again!"
-              },
-              {
-                "at": "2016-05-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb19e",
-                  "fullname": "Sandra",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
-                  "id": "70110183"
-                },
-                "txt": "Receção impecável por parte do anfitrião. Extremamente simpático e prestável, fez-nos sentir em casa! A casa está muito bem localizada, perfeita para quem quer passar um fim-de-semana a passear no Porto"
-              },
-              {
-                "at": "2016-05-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf70",
-                  "fullname": "Anna",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
-                  "id": "53521683"
-                },
-                "txt": " Tim's apartment has everything needed for a comfortable stay. The location is great just a few steps to the river over which life goes on:) Tim  was still available for us. He provided every essentials - for example feeding chair for my lilltle one:) We were greeted with a glass of Porto and delicious sweets which was very nice suprise;)\r\nI can certainly recommend Tim as a hoster!\r\nKind Regards\r\nAnna"
-              },
-              {
-                "at": "2016-06-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fac88",
-                  "fullname": "Seungbin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/49.jpg",
-                  "id": "10710311"
-                },
-                "txt": "Tim was so kind host.\r\nHe showed everything what we need, and he asked our feeling during our trip.\r\nFlat was so close to river, which is so main area in Porto.\r\nFlat was clean and neat. Shortly, perfect flat!"
-              },
-              {
-                "at": "2016-07-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3401e36c59e6164fab62",
-                  "fullname": "Jack",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "10236908"
-                },
-                "txt": "Tim was so kind when he showed us around the apartment.  We loved talking with him about Porto.  The location was perfect, and the views out the windows are spectacular.  We loved our time here.  The apartment had everything we needed, and we hope to be lucky enough to come back one day."
-              },
-              {
-                "at": "2016-07-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb875",
-                  "fullname": "Simon",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/69.jpg",
-                  "id": "3291682"
-                },
-                "txt": "very nice place, in the heart of the old Porto. Tim is really reactive if you have any problem and really nice.\r\nIt was sometimes difficult at night because of the noise of nightlife outside especially because we had a baby, but then you are in the center so that's normal."
-              },
-              {
-                "at": "2016-08-13T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafe3",
-                  "fullname": "Gianni",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/53.jpg",
-                  "id": "48657146"
-                },
-                "txt": "Appartement parfait, proche des centres d'Interets, confortable et propre. Tim nous laisse un mémo de ce qu'il faut voir et faire à Porto. "
-              },
-              {
-                "at": "2016-08-17T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb0dd",
-                  "fullname": "Sergio",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
-                  "id": "11565794"
-                },
-                "txt": "A localização é excelente, o apartamento muito aconchegante e agradável, tem todos os utensílios para você preparar sua refeição.\nDa janela você tem vista para rio Douro, por lá pode desfrutar\nde muitos restaurantes, bares\num lindo por do sol ...\nPor fim estamos agradecidos pela recepção e todo o suporte \noferecidos pelo anfitrião Tim.\nAbs.\nSergio"
-              },
-              {
-                "at": "2016-09-03T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb5f7",
-                  "fullname": "Raquel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "7255624"
-                },
-                "txt": "El apartamento era tal cual le esperábamos. Amplio, luminoso y limpio. Tim ha sido un anfitrión genial, nos facilitó todo lo que necesitamos, y eso que viajamos con dos bebés, y tuvimos que solicitarle dos cunas. La zona es totalmente céntrica, a unos pocos metros del Duero y una gran variedad de restauración. Hay supermercado cercano. Si tuviéramos que ponerle una pega, es que al estar en pleno centro, el barrio es un poco ruidoso, pero bastante llevadero.\r\n"
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Ryokans",
-              "Adapted",
-              "Play"
-            ],
-            "statReviews": {
-              "cleanliness": 4.7,
-              "communication": 4,
-              "checkIn": 5,
-              "accuracy": 4.6,
-              "location": 4.8,
-              "value": 4.9
-            }
-          },
-          {
-            "name": "Large well-lit & quiet room in the Plateau",
-            "type": "Lakefront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436481/tqwkxtbalipudzhivoag.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436301/etz0n0umubahfkgmmwt8.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437006/kcsenznwf3pnka6hjwoh.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437013/gz1hfzv47xzfwcmosadc.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436556/mb70fifvvpvde8jub5cg.jpg"
-            ],
-            "price": 35,
-            "summary": "Fully furnished.  The room has lots of natural light through the day New windows = great insulation from the cold Meshed windows = almost no bugs Each room has its own heating The kitchen has its own balcony and fire exit Anything you need, please don't hesitate to ask!",
-            "capacity": 3,
-            "amenities": [
-              "Wifi",
-              "Kitchen",
-              "Pets allowed",
-              "Free street parking",
-              "Heating",
-              "Family/kid friendly",
-              "Suitable for events",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "First aid kit",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "Hot water",
-              "Bed linens",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Single level home",
-              "Patio or balcony",
-              "Luggage dropoff allowed",
-              "Long term stays allowed",
-              "Well-lit path to entrance",
-              "Step-free access",
-              "Wide clearance to bed",
-              "Accessible-height bed",
-              "Firm mattress",
-              "Host greets you",
-              "Paid parking on premises"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Yannick",
-              "location": "Montreal, Quebec, Canada",
-              "about": "Hello, my housemate Naomi and I are looking forward to hosting you! Montreal has been our home for atleast few years now so we know Montreal very well to be able to give you insider suggestions ;).We can communicate in French, English, German, Hindi. We love to travel and move around ourselves, and understand your needs as a visitor. Search for us on Face book and Couchsurfing if you would like to know more. We are involved in Science, Psychology, Engineering and Entrepreneurship and are familiar with different types of dance, martial arts, sports, and music. We are easygoing although we like being active, and can easily find a way to relate to you!  If you need anything at all, please don't hesitate to let us know during your stay, and we'd be happy to provide it.",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/ec80f2bb-ced3-4f60-8cb0-952bf00f0b21.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "8579366"
-            },
-            "loc": {
-              "country": "Canada",
-              "countryCode": "CA",
-              "city": "Montreal",
-              "address": "Montréal, Québec, Canada",
-              "lat": -73.58359,
-              "lan": 45.52143
-            },
-            "reviews": [
-              {
-                "at": "2016-10-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb403",
-                  "fullname": "Louis-Étienne",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
-                  "id": "49515817"
-                },
-                "txt": "Yannick était en voyage donc nous avons rencontré ses colocataires. Elles sont fort sympathiques. Draps et  serviettes étaient fournies. L'appartement est propre, silencieux et bien placé. On a même eu droit à une part de gâteau de pendaison de crémaillère ! Je recommande."
-              },
-              {
-                "at": "2016-10-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fafc9",
-                  "fullname": "Melanie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/69.jpg",
-                  "id": "56199182"
-                },
-                "txt": "the time in yannick's place was really nice. his roommates welcomed us perfectly and his room had lots of space for all our luggage. the area has a lot to offer, shops, bars and restaurants and the park is close by. we can only recommend the place."
-              },
-              {
-                "at": "2016-10-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb19b",
-                  "fullname": "Miriam",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
-                  "id": "99272386"
-                },
-                "txt": "Yannick's roommates were perfect hosts! The area was great as it was walking distance to Mont Royal with tons of coffee shops and everything you can imagine. It was also only a 5 min walk to the Mont Royal subway station so it was very easy to get around to anywhere. The apartment was exactly as described on the photos."
-              },
-              {
-                "at": "2016-10-23T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb12",
-                  "fullname": "Julie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
-                  "id": "8248832"
-                },
-                "txt": "Le logement est super bien placé à 5/10 min du métro Mont Royal au coeur du Plateau ! Audrey et Johanna les colloques de Yannick nous ont super bien accueilli et mis à l'aise."
-              },
-              {
-                "at": "2017-05-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb534",
-                  "fullname": "Aline & Félix",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
-                  "id": "25621833"
-                },
-                "txt": "Nous avons fait 3 airbnb à Montréal avant d'arriver chez Yannick et nous pouvons dire qu'une chose : c'est définitivement le meilleur !"
-              },
-              {
-                "at": "2017-06-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb95b",
-                  "fullname": "Jennifer",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
-                  "id": "1279438"
-                },
-                "txt": "Yannick is a helpful host for local events, eateries and getting around. The apt is a classic third floor walk up in the \"Plateau\", on the rise near Mt Royal. Great location. Easy access to metro subways, buses and very walkable.  Close to restaurants and shopping. He is on a one way, quiet street. If youre driving parking can be limited or unavailable so scope the neighborhood and watch the signs! There is a Montreal parking app and Metro Transit app that are very helpful, and Yannick can help you strategize for a spot."
-              },
-              {
-                "at": "2018-07-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb164",
-                  "fullname": "Gary",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
-                  "id": "3186625"
-                },
-                "txt": "Yannick is a helpful, warm host, and responds to queries quickly. The location is great - walking to cafes, restaurants and shops and there is lots of character in this part of Montreal. The bed is comfortable and the apartment is tasteful and interesting. Highly recommend."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Amazing views",
-              "Earth homes",
-              "Top of the world"
-            ],
-            "statReviews": {
-              "cleanliness": 4.4,
-              "communication": 4.8,
-              "checkIn": 4.4,
-              "accuracy": 5,
-              "location": 4.5,
-              "value": 5
-            }
-          },
-          {
-            "name": "Luxury 1-Bdrm in Downtown Brooklyn",
-            "type": "Design",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436827/znh7gqzbwb4wm6bdziy7.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436550/mqmwpqdel4nxrmogeawh.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436837/fyczvvyuelceouxja8yy.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436998/atpmgujjvdqnlfwfrntf.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437327/epcnh2tzpafwmvi3srcp.jpg"
-            ],
-            "price": 144,
-            "summary": "A perfect blend of one of BKLYN's hippest areas with a new, high-rise apartment building. You'll be hard pressed to find a corner unit like this closer the the City. Almost 800 sf of living space with luxury amenities & modern but comfy furnishings.",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Kitchen",
-              "Doorman",
-              "Gym",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Safety card",
-              "Fire extinguisher",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Ashley",
-              "location": "New York, New York, United States",
-              "about": "I'm an executive at a wellness company in New York City. Educated in Fashion at Parsons, I'm into fitness and nutrition. I've lived in the city since enrolling at Parsons in the late 90s.\r\n\r\nIf you're looking for restaurant reservations, boutique fitness studios, or things to do in the city, then just let me know what you're interested in. I'd love to offer some suggestions and help you have a wonderful stay in New York City.",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/afca1b34-30e9-43c0-969b-7b9cf913cb8d.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "10099253"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "New York",
-              "address": "Brooklyn, NY, United States",
-              "lat": -73.98102,
-              "lan": 40.69406
-            },
-            "reviews": [
-              {
-                "at": "2016-02-21T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe55",
-                  "fullname": "Francesco",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/67.jpg",
-                  "id": "2043011"
-                },
-                "txt": "The host canceled this reservation 2 days before arrival. This is an automated posting."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Off-the-grid",
-              "Beachfront",
-              "Casas particulares"
-            ],
-            "statReviews": {
-              "cleanliness": 4.8,
-              "communication": 4.9,
-              "checkIn": 4.4,
-              "accuracy": 4.9,
-              "location": 4.9,
-              "value": 5
-            }
-          },
-          {
-            "name": "Modern West Kowloon Based Apartment",
-            "type": "Castles",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436787/gcz7mgmxb6dcl4vz6h0a.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436266/num9wnb6uzdsvqr6nyuu.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437017/gjyzgdjngyrhfrj2loxz.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436876/bskkmribzul6cjzbprvi.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436315/nyglbkkyaednuygn6eik.jpg"
-            ],
-            "price": 502,
-            "summary": "single bedroom available for rent. Good for people on business or have lay overs in Hong Kong or family holidays Safe, Convenient, Accessible, Cosy apartment.  This apartment is located in west Kowloon Tai Kok Tsui Area. it is very easy to access the MTR (Train) stations and get to Hong Kong Island or the new territories, also great to relax in doors. can provide a list of help items if required.",
-            "capacity": 1,
-            "amenities": [
-              "TV",
-              "Wifi",
-              "Air conditioning",
-              "Wheelchair accessible",
-              "Pool",
-              "Kitchen",
-              "Doorman",
-              "Gym",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Family/kid friendly",
-              "Smoke detector",
-              "Essentials",
-              "24-hour check-in",
-              "Iron",
-              "Hot water",
-              "Host greets you"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Private room",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Govinda",
-              "location": "Hong Kong",
-              "about": "",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/5bbd9579-1d7c-4f95-9f3b-85d24b159ce6.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "70727802"
-            },
-            "loc": {
-              "country": "Hong Kong",
-              "countryCode": "HK",
-              "city": "Hong Kong",
-              "address": "Tai Kok Tsui, Kowloon, Hong Kong",
-              "lat": 114.15992,
-              "lan": 22.32324
-            },
-            "reviews": [
-              {
-                "at": "2017-01-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbaa3",
-                  "fullname": "Gloria",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
-                  "id": "56154312"
-                },
-                "txt": "this was my first experience to visit Hongkong with my family. wr are 3 person includr a toddler... we really enjoyed our stay in Govinda's apartment during our trip in HK... this room maybe not spacious, but already good enough for us since you cant meet such a comfortable place if you stay in hotel at HK.... there are 2 rooms but unfortunately I can only use 1 room since the weather is really cold there on december so I decided to sleep on the living room. the room is really cool since its near to the window, but still we still so happy coz we can put our things on that empty room. there are also a kitchen with very complete utensil and ingredients, and the owner are generous enough to let us use them. the bathroom is quite small but it's doesnt matter at all coz there are hot water so we can warm up our body. my conclusion is we are so happy to live there and hope we can stay there again if we come back to HK. the neighbourhood is really good too, you can put your laundry on the shopping mall neat the apartment. there are some nice restaurants too nearby and dont worry the transportation is really easy too. there are so many stand by taxis in front of the lobby of the apartment."
-              },
-              {
-                "at": "2017-10-05T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf69",
-                  "fullname": "Estella",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
-                  "id": "87941563"
-                },
-                "txt": "Apart from the two hiccups involving the metal gate that locked me out (since govinda didn't mention any instructions on how to open it i assumed it was going to remain unlocked) the rest of the stay was ok. Govinda was friendly and the place comfortable."
-              },
-              {
-                "at": "2018-01-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe50",
-                  "fullname": "Jiatong",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/52.jpg",
-                  "id": "14574351"
-                },
-                "txt": "Quite and beautiful"
-              },
-              {
-                "at": "2018-09-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbcc5",
-                  "fullname": "Shashi Kanth",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
-                  "id": "201201326"
-                },
-                "txt": "Amazing host! Recommend for short stays."
-              },
-              {
-                "at": "2018-10-29T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164faf45",
-                  "fullname": "Anurag Swarup",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg",
-                  "id": "220879708"
-                },
-                "txt": "Govinda was gracious to accept my request for accommodation at a very short notice. In spite of his busy schedule he also took out some time to spend with me and helped me in getting around. \nThe building is very nice with a lot of security for the safety and comfort of the residents. There’s a nice park right outside the building for relaxing and for walking. A small Thai restaurant across the park serves very good food. Must try. A convenience store next to the building and availability of taxi and public transport close by makes it very easy to commute. Over all a nice neighbourhood to stay."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Off-the-grid",
-              "Beachfront",
-              "Beachfront"
-            ],
-            "statReviews": {
-              "cleanliness": 5,
-              "communication": 4.9,
-              "checkIn": 4.9,
-              "accuracy": 4.9,
-              "location": 4,
-              "value": 4.4
-            }
-          },
-          {
-            "name": "Vista magnifica mar,lagoa,montanha.",
-            "type": "Beachfront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436359/abuiyexl2xyemq8uon4s.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437040/oarfkdxx7gyyvcynvwko.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436801/mcuu1w2188ndpd6hezzt.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436310/acidri8oahpcoxa0idns.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437330/mmhkmfvg8o3freucyekc.jpg"
-            ],
-            "price": 209,
-            "summary": "Sol da manhã,andar alto, aconchegante,cheio de charme , perto aos eventos Rio 2016 e shoppings como Barra Shopping, New York e casas de show. Rodoviaria BRT.Metrô direto para Copacabana.Onibus na porta para Zona Sul.Predio com total seguranca.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Wheelchair accessible",
-              "Pool",
-              "Kitchen",
-              "Free parking on premises",
-              "Doorman",
-              "Gym",
-              "Elevator",
-              "Buzzer/wireless intercom",
-              "Heating",
-              "Family/kid friendly",
-              "Fire extinguisher",
-              "Essentials",
-              "Hangers",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_50"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 1,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Ana Cristina",
-              "location": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
-              "about": "",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/8828e6c0-5224-462d-90b4-042daf56464c.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": false,
-              "id": "63618115"
-            },
-            "loc": {
-              "country": "Brazil",
-              "countryCode": "BR",
-              "city": "Rio De Janeiro",
-              "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
-              "lat": -43.364530263111185,
-              "lan": -23.008791637258927
-            },
-            "reviews": [
-              {
-                "at": "2016-08-12T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbb6a",
-                  "fullname": "Eric",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "51317518"
-                },
-                "txt": "I stayed for the Olympics, and the apartment was great.  I mostly just slept there, but it was very comfortable.  The host and her family were very welcoming.  I would recommend staying here!"
-              },
-              {
-                "at": "2016-08-14T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb993",
-                  "fullname": "Daniel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/47.jpg",
-                  "id": "1809997"
-                },
-                "txt": "Aluguei o apartamento da Ana durante as olimpíadas e foi super bacana a experiência. Ana e Wladimir são pessoas muito queridas,  de fácil trato e sempre dispostos a ajudar no que fosse preciso. A vista do apto é deslumbrante e a localização ótima, na beira da praia. fiquei super satisfeito! Recomendo a todos que quiserem um espaço acolhedor na barra! "
-              },
-              {
-                "at": "2016-08-18T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164facd6",
-                  "fullname": "Luciano",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/24.jpg",
-                  "id": "4807885"
-                },
-                "txt": "El departamento de Ana es muy amplio y cómodo. Mis 3 amigos y yo pasamos una estadía excelente. Ana y su esposo contestaron inmediatamente todas nuestras dudas y fueron muy amables. /// Ana's apartment its so big and  confortable. Muy 3 friends and i spend an exelent time there. Ana and her husband answered our request inmediatly anda they were kind."
-              },
-              {
-                "at": "2016-08-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fae71",
-                  "fullname": "Egle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
-                  "id": "22863414"
-                },
-                "txt": "Otima localizacao, limpo e conveniente. "
-              },
-              {
-                "at": "2017-03-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb163",
-                  "fullname": "Lindinalva",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/75.jpg",
-                  "id": "47786719"
-                },
-                "txt": "Apartamento funcional, caprichoso na decoração e de fato com uma vista incrível. Está no posto 8 da Barra, só atravessar a avenida para praia. Para ir à região mais badalada da Barra é necessário o carro. Anfitriões simpáticos e comunicação fluida."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "New",
-              "Iconic cities",
-              "Boats"
-            ],
-            "statReviews": {
-              "cleanliness": 4.9,
-              "communication": 4.3,
-              "checkIn": 5,
-              "accuracy": 4.2,
-              "location": 4.1,
-              "value": 4.7
-            }
-          },
-          {
-            "name": "Elegance and Peace in Potts Point",
-            "type": "Lakefront",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436496/ihozxprafjzuhil9qhh4.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436559/sbtoepvxxobkogznuiw4.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437339/qgs3hrnx0accbjkzuh9s.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436266/num9wnb6uzdsvqr6nyuu.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436600/rt3ldgx1xfqct3961yjz.jpg"
-            ],
-            "price": 125,
-            "summary": "My beautifully renovated Art Deco studio apartment is in the heart of Kings Cross, yet so peaceful and quiet. New bathroom and modern kitchen, in the Art Deco tradition, are stunning to be in. A Sleeping Duck queen bed which is absolutely fabulous, 4G unlimited wifi, high quality washer/dryer and dishwasher. Fully self contained!",
-            "capacity": 2,
-            "amenities": [
-              "TV",
-              "Wifi",
-              "Kitchen",
-              "Heating",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Carbon monoxide detector",
-              "First aid kit",
-              "Essentials",
-              "Shampoo",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Microwave",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Stove",
-              "Long term stays allowed"
-            ],
-            "bathrooms": 1,
-            "bedrooms": 0,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Mariana",
-              "location": "Elizabeth Bay, New South Wales, Australia",
-              "about": "I love Sydney and all her natural beauty.  I immigrated here many years ago and still get excited every time I step out the door. I know this city well and can help you with information and tips. Bird watching and snorkelling are high on my list of things to do. I also love hosting people and making sure they feel at home in my home. Mi casa es su casa.",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/4a760ed0-9e9f-4122-9b4a-85dff1f7bdb6.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "14073279"
-            },
-            "loc": {
-              "country": "Australia",
-              "countryCode": "AU",
-              "city": "Sydney",
-              "address": "Elizabeth Bay, NSW, Australia",
-              "lat": 151.22674,
-              "lan": -33.87226
-            },
-            "reviews": [
-              {
-                "at": "2016-11-28T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fabce",
-                  "fullname": "Chieko",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
-                  "id": "90337565"
-                },
-                "txt": "Mariana was a great host.She was kind,warm, and always helpful.\r\nI had a great 3 month stay at Mariana's (Website hidden by Airbnb) location,it was clean,well equipped,everything was well prepared.And clean big bathtub,I was enjoyed every bath time. "
-              },
-              {
-                "at": "2016-12-08T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd77",
-                  "fullname": "Racheal",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
-                  "id": "64118327"
-                },
-                "txt": "The studio apartment was exactly what I needed. It was quiet, and had a very comfy new bed. Thank you Mariana for your assistance and the flowers throughout the apartment made it so homely. "
-              },
-              {
-                "at": "2016-12-16T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb31a",
-                  "fullname": "Frances",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/77.jpg",
-                  "id": "77644382"
-                },
-                "txt": "Mariana's place is great!  It's in a fantastic location off Macleay Street with lots of cafes and restaurants on the doorstep as well as easy access to the City via train at KingsX and buses.  It also is an easy walk down to Rushcutters Bay park and the water if you're looking for a bit of peace and tranquility. The apartment itself is very quiet  at the back of the buildings and well away from the buzz of Macleay St.  It has also been brilliantly and neatly designed by Mariana with a great bathroom and kitchen with high quality appliances and a really comfortable bed as well as lots of nice  Art Deco touches.  Mariana is a fantastic host - really open and friendly,  and generously invited us to use anything in the kitchen and bathroom cupboards.  We would highly recommend Mariana's apartment and Mariana as a host - and would definitely stay here again."
-              },
-              {
-                "at": "2017-01-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbe92",
-                  "fullname": "Trupti",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
-                  "id": "9452719"
-                },
-                "txt": "Great central location of the apartment. It's perfect for two people for a few nights. It's truly a studio but Mariana has done a great job putting all the basics in."
-              },
-              {
-                "at": "2017-01-06T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc80",
-                  "fullname": "Andrew",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg",
-                  "id": "6048489"
-                },
-                "txt": "Well decorated studio apartment great for couples or single travelers. The apartment is newer and has a great efficiency kitchen with all appliances you need in addition to a nice bathroom.\n\nThe view looks into an inner space in between apartments and you can see into the neighbors kitchen, but nothing new if you have stayed in big city airbnbs.\n\nThe apartment did not have A/C at the time of stay, I would recommend this place as long as it's cooler outside or more fans were brought in.\n\nThe location is phenomenal. Lots of restaurants and a few coffee shops nearby with easy access to Kings Cross Station for your metro needs.\n\nGreat stay overall!"
-              },
-              {
-                "at": "2017-01-13T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb957",
-                  "fullname": "Ben",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
-                  "id": "7125198"
-                },
-                "txt": "Great find in a charming building. The apartment is well appointed and the communication and service was fantastic. Will definitely stay again!"
-              },
-              {
-                "at": "2017-01-23T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb729",
-                  "fullname": "Louise",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/56.jpg",
-                  "id": "20057027"
-                },
-                "txt": "Beautiful apartment, very central location (I walked to the city one day) in fabulous Potts Point. The apartment had everything I needed (including a bathtub!) and the host was delightful. Highly recommended and I would definitely come back here."
-              },
-              {
-                "at": "2017-02-01T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb43f",
-                  "fullname": "Gosia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
-                  "id": "87875104"
-                },
-                "txt": "the apartment is perfectly located. It is located within walking distance of the city center. public transport is also very close to the apartment. everything that was needed was a in the equipment flat. everything was very well organized. I would heartily recommend!"
-              },
-              {
-                "at": "2017-02-07T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb608",
-                  "fullname": "Petrus",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
-                  "id": "108102608"
-                },
-                "txt": "Beautiful place close to everything, quiet and clean with very nice touches and a super comfortable bed. Really enjoyed our stay!"
-              },
-              {
-                "at": "2017-02-13T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba17",
-                  "fullname": "Norliza",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
-                  "id": "14949551"
-                },
-                "txt": "Mariana is a fantastic host. She is very friendly and it was very easy to communicate with her.  We love her (Website hidden by Airbnb) is  well equipped and very clean.  There were many cafes nearby and King Cross Stn was a short walk away. We highly recommend this apartment."
-              },
-              {
-                "at": "2017-02-18T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb941",
-                  "fullname": "Joe And Melanie",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/64.jpg",
-                  "id": "83476849"
-                },
-                "txt": "What a terrific little place to stay. Its freshly renovated and homely. The location is excellent with some of Sydney's best restaurants literally around the corner. Also easy access for Uber pick ups etc. Thanks so much for hosting us Mariana, it was lovely to meet you."
-              },
-              {
-                "at": "2017-02-23T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fabb1",
-                  "fullname": "Michelle",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
-                  "id": "116834122"
-                },
-                "txt": "The boutique apartment is nice, got everything in it, like cooking stuff and washing machine.  Maybe a bit stuffed during summer cos not quite convenient to open windows in the living room, but it’s around 20+ degrees during our stay, so it’s ok for us. The apt is on 1/F, so need to walk few steps with your luggage. Mariana is very nice and helpful as well."
-              },
-              {
-                "at": "2017-02-25T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb2a7",
-                  "fullname": "Mari",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/27.jpg",
-                  "id": "62079094"
-                },
-                "txt": "Although it was only for two nights, I had a wonderful time at Mariana's apartment. It is a beautifully renovated room, very clean and the location is great. Definitely recommend it!"
-              },
-              {
-                "at": "2017-03-04T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fba71",
-                  "fullname": "Richard",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/25.jpg",
-                  "id": "110465301"
-                },
-                "txt": "This is a great place to stay for a couple visiting Sydney. It is not large but very well equipped with high quality fittings and furnished to a high standard. Kings Cross station is within easy walking distance as are plenty of good eateries and a supermarket."
-              },
-              {
-                "at": "2017-03-12T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb3ba",
-                  "fullname": "Bree",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/48.jpg",
-                  "id": "64462161"
-                },
-                "txt": "Mariana was a fabulous host, very easy to contact. Brilliant location beautifully laid out apartment!"
-              },
-              {
-                "at": "2017-03-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbcbf",
-                  "fullname": "Antonette",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/58.jpg",
-                  "id": "64699310"
-                },
-                "txt": "Mariana is such a great host..welcomes and bids goodbye to her guest personally. She responds quickly and has created a comfortable & beautiful abode for guest. Her flat is close to Kings cross station, bus stops and hop on/off stop. Close to grocery, market, restaurants and bars...including ice cream shops :). Her apartment is very reflective of Sydney...its a combination of a sense of culture & vintage with the comforts of whats new & functional. I LOVE the fact that we come home to a very comfy bed and bath tub + epsom salt after a very tiring touristy walking day. :) "
-              },
-              {
-                "at": "2017-03-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb060",
-                  "fullname": "Rob",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg",
-                  "id": "17477578"
-                },
-                "txt": "Lovely location, very well appointed homely feel and great value. "
-              },
-              {
-                "at": "2017-03-25T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb69e",
-                  "fullname": "Helen",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
-                  "id": "99236115"
-                },
-                "txt": "We loved our stay here in Pott's Point! It is walking distance to King's Cross station and very accessible to the city center. Mariana's apartment is clean, well-equipped, and elegant. Best for couples as it might be a little tight for a family! "
-              },
-              {
-                "at": "2017-03-30T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3406e36c59e6164fbc19",
-                  "fullname": "Alexander",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/38.jpg",
-                  "id": "4375065"
-                },
-                "txt": "Great little completely self-contained studio."
-              },
-              {
-                "at": "2017-04-02T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbf89",
-                  "fullname": "Felicia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "22522038"
-                },
-                "txt": "Mariana's apartment is centrally located, done up to a high standard (she installed a Miele dishwasher and induction hob) and is exactly as described in the description. The kitchen is also well equipped should you need to cook. It's clean, convenient and comfortable. Public transport is all within a few minutes walk which is always great. Check-in went smoothly too and we would like to thank Mariana for the wonderful stay. We wouldn't hesitate to recommend her apartment to other guests and would return to stay there during our next visit to Sydney."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Earth homes",
-              "Caves",
-              "Skiing"
-            ],
-            "statReviews": {
-              "cleanliness": 4.7,
-              "communication": 4.8,
-              "checkIn": 5,
-              "accuracy": 4.3,
-              "location": 4.3,
-              "value": 4.5
-            }
-          },
-          {
-            "name": "Unit 414 Luxurious Top Floor Condo Great Views",
-            "type": "Campers",
-            "imgUrls": [
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436912/xle8ueqxjeazbs4bp09p.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436872/i3jblqgpdttpwvshbffo.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436338/oifgxuovghbgnabppike.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436922/ytr7znhbuqnxnotutplv.jpg",
-              "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436893/pkhxv5j90ubdzbpgdbdb.jpg"
-            ],
-            "price": 385,
-            "summary": "If you prefer high-end living, this condo is for you!  It is fully renovated and gorgeous with amazing ocean and courtyard views!   Kana'i A Nalu is a quiet resort on the ocean front away from the road.  This complex sits  on a 3-mile stretch of white sand beach that spans almost the entire Ma'alaea Bay. Wonderful for romantic sunset strolls or for a beach run.   This property is located less than a mile walking distance to Ma'alaea Harbor and centrally located between South and North Maui.",
-            "capacity": 4,
-            "amenities": [
-              "TV",
-              "Cable TV",
-              "Internet",
-              "Wifi",
-              "Air conditioning",
-              "Pool",
-              "Kitchen",
-              "Free parking on premises",
-              "Elevator",
-              "Free street parking",
-              "Washer",
-              "Dryer",
-              "Smoke detector",
-              "Essentials",
-              "Shampoo",
-              "24-hour check-in",
-              "Hangers",
-              "Hair dryer",
-              "Iron",
-              "Laptop friendly workspace",
-              "translation missing: en.hosting_amenity_49",
-              "translation missing: en.hosting_amenity_50",
-              "Self check-in",
-              "Lockbox",
-              "Babysitter recommendations",
-              "Hot water",
-              "Bed linens",
-              "Extra pillows and blankets",
-              "Microwave",
-              "Coffee maker",
-              "Refrigerator",
-              "Dishwasher",
-              "Dishes and silverware",
-              "Cooking basics",
-              "Oven",
-              "Stove",
-              "Single level home",
-              "BBQ grill",
-              "Patio or balcony",
-              "Garden or backyard",
-              "Beach essentials",
-              "Long term stays allowed",
-              "Step-free access",
-              "Flat path to front door",
-              "Well-lit path to entrance",
-              "Disabled parking spot",
-              "Step-free access",
-              "Step-free access",
-              "Step-free access"
-            ],
-            "bathrooms": 2,
-            "bedrooms": 2,
-            "roomType": "Entire home/apt",
-            "host": {
-              "_id": "63dbac3c5705dc29556eae8d",
-              "fullname": "Kathy",
-              "location": "Hawaii, United States",
-              "about": "I am the owner of Maui Vision Rental. Maui Vision became a reality and a business starting with my personal condo at the Kihei Akahi Resort C618.\r\n\r\nMaui Vision is a business I love because I get to share the Aloha Spirit, the beauty of the land, and talk story with people from around the world. It is nice to know that we can contribute to someone’s Hawaiian vacation experience in a positive way. We love to hear back from our happy guests.\r\n\r\nI used to live on the island of Oahu with my US Navy family when I was young.  We later moved to Southern California.  I knew one day I would return to Hawaii, the place I fell in love with long ago. I took a leap of faith and purchased my Maui condo June 2002 this was the beginning of fulfilling her prophecy to once again return to Hawaii soil.\r\n\r\nI am a tropical expression artist who paints on canvas and etched metal.  My work is inspired by the beauty of the islands and has been displayed in several Maui art galleries over the years.  I am a writer and have my first book on Amazon.  I recently took up hula dancing and love to immerse myself in the culture and grace of this island.\r\n\r\nI have over 25 years of business administration and customer service experience working for large corporations and high tech startups.\r\n\r\nIf you are in need of a caring Realtor here on Maui, please contact Kathy McCartney RS#77317 of La Costa Realty Hawai’i, LLC Brokerage Lic #18349 .",
-              "responseTime": "within an hour",
-              "thumbnailUrl": "https://a0.muscache.com/im/pictures/ddcc4146-9abc-4f4d-b347-8f30deb10f6c.jpg?aki_policy=profile_small",
-              "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
-              "isSuperhost": true,
-              "id": "733802"
-            },
-            "loc": {
-              "country": "United States",
-              "countryCode": "US",
-              "city": "Maui",
-              "address": "Wailuku, HI, United States",
-              "lat": -156.50456,
-              "lan": 20.79559
-            },
-            "reviews": [
-              {
-                "at": "2016-08-20T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbdd8",
-                  "fullname": "Richard",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
-                  "id": "18800697"
-                },
-                "txt": "This is a beautiful condo!  The unit is exactly as seen in the pictures.  Very nicely renovated with all the needed condiments and supplies.  Unit is on the 4th floor so it has a beautiful view.  location is perfect.  Right in the middle of the island and central to all the things we wanted to see and do.  Building is nice and quiet.  Beach is beautiful for taking long walks and the breeze keeps things nice and cool.  Kathy was fantastic to work with.  She provided everything we needed in advance along with recommendations for things to see and do and places to eat.  She responded extremely quickly to any questions or concerns during our stay.  Would highly recommend and would definitely return!  Thank you for making our stay in Maui so enjoyable!"
-              },
-              {
-                "at": "2016-09-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3403e36c59e6164fb184",
-                  "fullname": "Catalin",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/41.jpg",
-                  "id": "91990104"
-                },
-                "txt": "Description was spot on, quiet building, excellent aminities. Will stay again!"
-              },
-              {
-                "at": "2017-05-10T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fabee",
-                  "fullname": "Marta",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
-                  "id": "1869315"
-                },
-                "txt": "The house is simply amazing. The location is perfect, in the middle of th Island, and the condo is literally by he ocean. The sound of the ocean at night... We'll miss that! \n\nIt's also fully equipped. I can't think of anything we needed that wasn't already there: beach towels, swimming pool noodles, picnic bag, kickboards... You name it! \n\nSame thing with the kitchen. High-end appliances and enough pans and tableware to cook and serve a full thanksgiving meal.\n\n100% recommended!  "
-              },
-              {
-                "at": "2017-05-19T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb667",
-                  "fullname": "Cynthia",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/19.jpg",
-                  "id": "122235248"
-                },
-                "txt": "Beautiful condo, location is great for anything you want to do on Maui, kitchen has everything you could possibly need to prepare meals.  We had extra towels and blankets.  Towels for the beach and pool.  Kathy has thought of everything.  Wifi access and TV were also awesome when we returned from  a fun filled day to relax.  "
-              },
-              {
-                "at": "2017-06-07T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb6e0",
-                  "fullname": "Kris",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/26.jpg",
-                  "id": "129882400"
-                },
-                "txt": "Excellent Property and Excellent location.  I secured this property for a client.  They enjoyed their stay immensely.  Host reported a carpet stain afterward, however I cannot pursue compensation without photos.  So other than that----excellent experience."
-              },
-              {
-                "at": "2017-06-21T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb925",
-                  "fullname": "Adam",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/54.jpg",
-                  "id": "20120647"
-                },
-                "txt": "This was my first trip to Hawaii and having used Airbnb successfully before, I was looking forward to our stay! While I can usually overlook most shortcomings, the list was too many to ignore here. Wide angle pictures & professionally written listing descriptions will impress most - however, here are some takes from my REAL customer experience at the 414 condo:\n\n\"We will provide you with a special code to access the condo after you are booked and paid in full.\"\n\n- After a 13 day stay, we were charged a \"half day rate\" for a late checkout for 5 hours over our contracted stay. During our last day, we ended up being locked out of the condo. Thankfully the late checkout fee was refunded due to this situation. Not quite the goodbye from our paradise as we hoped for.\n\n\"This unit includes a window A/C in the living room should you need it although we find it is rarely needed because the tradewinds keep you comfortable.\"\n\n- The AC unit is a measly 12\" by 32\" window unit that had trouble keeping even the living room & kitchen areas cool. If 86 degrees in your bedroom while sleeping is \"comfortable\", then this might be the place for you.\n\n\"This setting is wonderful for romantic sunset strolls. For the more active person this is a great beach to run on as you can do so for miles in peace away from the crowds.\"  -- \"Three miles of quiet sandy beach will entice you to walk, run, or build sand castles.\"\n\n- Haycraft Park is roughly 500 feet away from the beach directly in front of this condo, and it was filled with people every day. Half the time we were here, there were campers there who stayed all day and over night with big fish lines across the entire beach. There may be other listings with better seclusion. \n\n\"This unit is spacious and bright.\"\n\n- Spacious? That's a stretch. But bright? You're absolutely spot on. If you enjoy sleeping in the dark, this place might NOT be for you. Waking up at 530am is ideal for the lighting of this condo, ever with the window shades (which many times had trouble coming down since they are on automatic motors). \n\nA POSITIVE NOTE:\nOne thing I cannot get over is the real Mahalo spirit of everyone staying and living at the Kana'i A Nalu resort. While my mother in law and 16 month old daughter got locked out on the last day, many guests there offered help, water, and to hang in their condos while we tried to wait patiently to get back in. The resort has an amazing location and even better spirit within its guests. \n"
-              },
-              {
-                "at": "2017-12-31T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb471",
-                  "fullname": "Sue",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
-                  "id": "68844759"
-                },
-                "txt": "Beautiful condo. Fully renovated. Very responsive. Wonderfully stay"
-              },
-              {
-                "at": "2018-01-19T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3402e36c59e6164fad3b",
-                  "fullname": "Ryan",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg",
-                  "id": "158714125"
-                },
-                "txt": "I thoroughly enjoyed my stay. It is just as pictured and so much more!  I couldn’t imagine staying anywhere else when visiting Maui. The location is convenient to get to many of the must-sees in Maui. The beds are amazingly comfortable. Kathy was great to work with. I highly recommend you consider staying here."
-              },
-              {
-                "at": "2018-07-28T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3405e36c59e6164fb8cb",
-                  "fullname": "Rachel",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
-                  "id": "141454515"
-                },
-                "txt": "This unit was very cozy and had a great location.  It has been updated and was very nice in the accommodations!  The host was great to work with and the overall experience was a vacation of a life-time!"
-              },
-              {
-                "at": "2018-10-22T04:00:00.000Z",
-                "by": {
-                  "_id": "622f3404e36c59e6164fb2f4",
-                  "fullname": "Dirk",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
-                  "id": "29460553"
-                },
-                "txt": "The condo is set up very nice. The kitchen is equipped very well and has all amenities. Bedrooms and bathrooms have a good size for a vacation. It would be nice to have a full size dining table, but we've used the kitchen counter instead, which worked for us.\nNote that Maalaea is probably the most windy spot on the island and you'll have wind noises from the trees all day and night long. The condo complex features a nice courtyard with grass and a small pool and direct access to the beach and ocean."
-              },
-              {
-                "at": "2018-12-12T05:00:00.000Z",
-                "by": {
-                  "_id": "622f3407e36c59e6164fbd15",
-                  "fullname": "Jessica",
-                  "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
-                  "id": "130238992"
-                },
-                "txt": "Beautiful space in a nice quiet location to unwind and relax.  Our family had a very nice time unwinding and relaxing at Kathy's place.  Beds are very comfortable, the updated kitchen is beautiful and accommodating for preparing meals.  The condo and the building are well maintained and very clean.  The easy access to the beach is a plus.  In condo washer and dryer is also a plus for light packing.  Host was very responsive when there was an issue with the cable box.  You can't go wrong with booking Kathy's place."
-              }
-            ],
-            "likedByUsers": [],
-            "types": [
-              "Iconic cities",
-              "Beachfront",
-              "Private rooms"
-            ],
-            "statReviews": {
-              "cleanliness": 4.4,
-              "communication": 4.6,
-              "checkIn": 4.3,
-              "accuracy": 4.6,
-              "location": 5,
-              "value": 4.6
-            }
-          },
           {
             "name": "1 sunny bedroom in large St-Henri appartment",
             "type": "Beach",
@@ -18578,7 +9709,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Tropical",
               "Casas particulares"
@@ -18860,7 +9991,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Luxe",
               "Play",
               "Top of the world"
@@ -19145,7 +10276,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Boats",
               "Luxe"
@@ -19292,7 +10423,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg",
                   "id": "88048997"
                 },
-                "txt": "This is our first experience to book an accommodation with Airbnb and it's fantastic! Best location for anyone who wants the easiest access to all types of transportation for work or for leisure. As for parents like us travelling with an elderly and two active young children, Wilson's apartment is the best to meet our needs. Not only it is so clean and safe for kids, its convenient location allows us to return for nap and rest when kids are tired between our busy holiday schedules. Wilson is so approachable and very thoughtful in many details.\r\nClean linens, towels, kitchenware, clothes washing powder, indoor storable clothes liner, refills of every consumable daily essential items eg toilet papers, tissues etc.\r\nThere are some stairs upon entry into lobby/lift of the building but it is a very common feature in Hong Kong. You can open the French-door-type glass doors fully before you enter with big luggages. The building guards/administrators on duty are very friendly too.\r\nSurprisingly, it's so quiet and comfortable to sleep, considering its prime location in one of the busiest parts of Hong Kong. Eating, shopping, sightseeing...all within walking distance or so easy for additional transportation when preferred.\r\nThank you for making our stay in Hong Kong so memorable.\r\nStrongly recommended!"
+                "txt": "This is our first experience to book an accommodation with Airbnb and it's fantastic! Best location for anyone who wants the easiest access to all labels of transportation for work or for leisure. As for parents like us travelling with an elderly and two active young children, Wilson's apartment is the best to meet our needs. Not only it is so clean and safe for kids, its convenient location allows us to return for nap and rest when kids are tired between our busy holiday schedules. Wilson is so approachable and very thoughtful in many details.\r\nClean linens, towels, kitchenware, clothes washing powder, indoor storable clothes liner, refills of every consumable daily essential items eg toilet papers, tissues etc.\r\nThere are some stairs upon entry into lobby/lift of the building but it is a very common feature in Hong Kong. You can open the French-door-type glass doors fully before you enter with big luggages. The building guards/administrators on duty are very friendly too.\r\nSurprisingly, it's so quiet and comfortable to sleep, considering its prime location in one of the busiest parts of Hong Kong. Eating, shopping, sightseeing...all within walking distance or so easy for additional transportation when preferred.\r\nThank you for making our stay in Hong Kong so memorable.\r\nStrongly recommended!"
               },
               {
                 "at": "2016-10-01T04:00:00.000Z",
@@ -19426,7 +10557,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Earth homes",
               "Earth homes",
               "Luxe"
@@ -19586,7 +10717,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
                   "id": "12002909"
                 },
-                "txt": "There are 2 types of AirBnBs - one feels like a hotel and the other is someone's actual home. This is the latter - do not expect a hotel experience. location is great (Star St in Wanchai has boutique shops & nice restaurants, you're less than 5 min walk from the MTR and less than 30 min walk to Central). Building is more modern than most in the area, with a doorman and elevator. Apartment has an open view (not easy to come by on HK island!) Carmen keeps her place tidy and well equipped with everything you need. Bed is short (as others have noted) and the sofa is small too. Bathroom is basic but shower has hot water and ok pressure. Kitchen is tiny but there is plenty of space in the fridge and a water boiler. Carmen is friendly and super responsive! Bottom line: Great for a couple of nights only."
+                "txt": "There are 2 labels of AirBnBs - one feels like a hotel and the other is someone's actual home. This is the latter - do not expect a hotel experience. location is great (Star St in Wanchai has boutique shops & nice restaurants, you're less than 5 min walk from the MTR and less than 30 min walk to Central). Building is more modern than most in the area, with a doorman and elevator. Apartment has an open view (not easy to come by on HK island!) Carmen keeps her place tidy and well equipped with everything you need. Bed is short (as others have noted) and the sofa is small too. Bathroom is basic but shower has hot water and ok pressure. Kitchen is tiny but there is plenty of space in the fridge and a water boiler. Carmen is friendly and super responsive! Bottom line: Great for a couple of nights only."
               },
               {
                 "at": "2019-01-03T05:00:00.000Z",
@@ -19600,7 +10731,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Ryokans",
               "Tropical",
               "Boats"
@@ -19893,7 +11024,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Countryside",
               "Boats",
               "Casas particulares"
@@ -20163,7 +11294,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "New",
               "OMG"
@@ -20397,7 +11528,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Casas particulares",
               "Luxe",
               "Skiing"
@@ -20679,7 +11810,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Earth homes",
               "OMG"
@@ -20909,7 +12040,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Boats",
               "Minsus",
               "Top of the world"
@@ -21183,7 +12314,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Iconic cities",
               "Casas particulares",
               "Ryokans"
@@ -21267,7 +12398,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Top of the world",
               "Tropical"
@@ -21352,7 +12483,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Iconic cities",
               "Play",
               "Top of the world"
@@ -21507,7 +12638,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Iconic cities",
               "Golfing"
@@ -21793,7 +12924,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Tropical",
               "Adapted"
@@ -22061,7 +13192,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Casas particulares",
               "Adapted"
@@ -22234,7 +13365,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Campers",
               "Skiing",
               "Casas particulares"
@@ -22520,7 +13651,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "Countryside",
               "Beachfront"
@@ -22795,7 +13926,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Iconic cities",
               "Beachfront",
               "Tropical"
@@ -23091,7 +14222,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Earth homes",
               "Minsus",
               "Ryokans"
@@ -23173,7 +14304,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Earth homes",
               "Caves"
@@ -23449,7 +14580,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "New",
               "Ryokans",
               "Skiing"
@@ -23719,7 +14850,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "Skiing",
               "Caves"
@@ -23997,7 +15128,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Earth homes",
               "Beachfront"
@@ -24185,7 +15316,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Adapted",
               "OMG",
               "Luxe"
@@ -24323,7 +15454,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Adapted",
               "Adapted",
               "Play"
@@ -24645,7 +15776,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Golfing",
               "Countryside"
@@ -24789,7 +15920,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Golfing",
               "Luxe",
               "Campers"
@@ -25064,7 +16195,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "Minsus",
               "Beachfront"
@@ -25353,7 +16484,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Boats",
               "Top of the world"
@@ -25636,7 +16767,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Amazing views",
               "Tropical",
               "Campers"
@@ -25931,7 +17062,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Ryokans",
               "Adapted",
               "Private rooms"
@@ -26212,7 +17343,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Casas particulares",
               "Private rooms",
               "Private rooms"
@@ -26495,7 +17626,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Countryside",
               "Amazing views",
               "Off-the-grid"
@@ -26769,7 +17900,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Beachfront",
               "Skiing",
               "Private rooms"
@@ -27042,7 +18173,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Private rooms",
               "Iconic cities"
@@ -27128,7 +18259,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Adapted",
               "Minsus",
               "Caves"
@@ -27413,7 +18544,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "New",
               "Campers",
               "Boats"
@@ -27497,7 +18628,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Golfing",
               "Iconic cities",
               "Top of the world"
@@ -27785,7 +18916,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Adapted",
               "Skiing"
@@ -28068,7 +19199,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Adapted",
               "Caves",
               "Casas particulares"
@@ -28362,7 +19493,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "Private rooms",
               "Beachfront"
@@ -28486,7 +19617,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Casas particulares",
               "Iconic cities"
@@ -28757,7 +19888,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Skiing",
               "Ryokans",
               "Amazing views"
@@ -29032,7 +20163,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Countryside",
               "Ryokans",
               "Beachfront"
@@ -29313,7 +20444,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Luxe",
               "Beachfront"
@@ -29592,7 +20723,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Beachfront",
               "Campers"
@@ -29764,7 +20895,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Iconic cities",
               "Amazing views"
@@ -30059,7 +21190,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Golfing",
               "Campers"
@@ -30336,7 +21467,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "New",
               "Private rooms",
               "Off-the-grid"
@@ -30512,7 +21643,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Campers",
               "New"
@@ -30788,7 +21919,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Campers",
               "Skiing",
               "Luxe"
@@ -30988,7 +22119,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Campers",
               "New",
               "OMG"
@@ -31097,7 +22228,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Iconic cities",
               "Countryside",
               "Luxe"
@@ -31385,7 +22516,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Ryokans",
               "OMG",
               "Private rooms"
@@ -31659,7 +22790,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Casas particulares",
               "Boats",
               "Skiing"
@@ -31744,7 +22875,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Campers",
               "Luxe",
               "Casas particulares"
@@ -32016,7 +23147,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Skiing",
               "Top of the world",
               "Golfing"
@@ -32297,7 +23428,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Amazing views",
               "Casas particulares",
               "Tropical"
@@ -32582,7 +23713,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "New",
               "Adapted",
               "Play"
@@ -32705,7 +23836,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Ryokans",
               "Off-the-grid",
               "Skiing"
@@ -32970,7 +24101,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Caves",
               "Luxe",
               "Campers"
@@ -33253,7 +24384,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "New",
               "Iconic cities",
               "New"
@@ -33525,7 +24656,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Iconic cities",
               "Earth homes",
               "Amazing views"
@@ -33799,7 +24930,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Top of the world",
               "Ryokans",
               "Amazing views"
@@ -34105,7 +25236,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Boats",
               "Play",
               "Skiing"
@@ -34383,7 +25514,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Amazing views",
               "Play",
               "Off-the-grid"
@@ -34652,7 +25783,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Beachfront",
               "Private rooms",
               "Campers"
@@ -34827,7 +25958,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Luxe",
               "Countryside",
               "Private rooms"
@@ -34904,7 +26035,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Golfing",
               "Ryokans",
               "Minsus"
@@ -35074,7 +26205,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Earth homes",
               "Play",
               "New"
@@ -35183,7 +26314,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Skiing",
               "OMG",
               "Amazing views"
@@ -35354,7 +26485,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Earth homes",
               "Minsus"
@@ -35626,7 +26757,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Skiing",
               "Beachfront",
               "Ryokans"
@@ -35911,7 +27042,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Play",
               "Ryokans"
@@ -36070,7 +27201,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Tropical",
               "Minsus",
               "Skiing"
@@ -36346,7 +27477,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Golfing",
               "Earth homes",
               "Skiing"
@@ -36623,7 +27754,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Campers",
               "Private rooms",
               "Caves"
@@ -36901,7 +28032,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Caves",
               "Beachfront",
               "New"
@@ -37009,7 +28140,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Tropical",
               "Ryokans",
               "Casas particulares"
@@ -37277,7 +28408,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Caves",
               "Amazing views",
               "Amazing views"
@@ -37573,7 +28704,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Countryside",
               "Top of the world",
               "Tropical"
@@ -37768,7 +28899,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Ryokans",
               "Beachfront",
               "Minsus"
@@ -37846,7 +28977,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Minsus",
               "Off-the-grid"
@@ -38123,7 +29254,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Casas particulares",
               "Earth homes",
               "Amazing views"
@@ -38402,7 +29533,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Adapted",
               "OMG",
               "Golfing"
@@ -38717,7 +29848,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Campers",
               "New",
               "Ryokans"
@@ -38979,7 +30110,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Caves",
               "OMG",
               "Play"
@@ -39057,7 +30188,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Countryside",
               "Luxe",
               "Luxe"
@@ -39261,7 +30392,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Luxe",
               "Top of the world"
@@ -39348,7 +30479,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "Play",
               "Earth homes"
@@ -39614,7 +30745,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Earth homes",
               "OMG",
               "Off-the-grid"
@@ -39725,7 +30856,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Boats",
               "Caves",
               "Campers"
@@ -39849,7 +30980,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Ryokans",
               "Ryokans",
               "Private rooms"
@@ -40145,7 +31276,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Tropical",
               "Off-the-grid",
               "Ryokans"
@@ -40257,7 +31388,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Amazing views",
               "Beachfront",
               "Minsus"
@@ -40418,7 +31549,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Tropical",
               "Casas particulares"
@@ -40711,7 +31842,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Ryokans",
               "Adapted",
               "Play"
@@ -40785,7 +31916,7 @@ export class StayService {
               "_id": "63dbac3c5705dc29556eae8d",
               "fullname": "Yannick",
               "location": "Montreal, Quebec, Canada",
-              "about": "Hello, my housemate Naomi and I are looking forward to hosting you! Montreal has been our home for atleast few years now so we know Montreal very well to be able to give you insider suggestions ;).We can communicate in French, English, German, Hindi. We love to travel and move around ourselves, and understand your needs as a visitor. Search for us on Face book and Couchsurfing if you would like to know more. We are involved in Science, Psychology, Engineering and Entrepreneurship and are familiar with different types of dance, martial arts, sports, and music. We are easygoing although we like being active, and can easily find a way to relate to you!  If you need anything at all, please don't hesitate to let us know during your stay, and we'd be happy to provide it.",
+              "about": "Hello, my housemate Naomi and I are looking forward to hosting you! Montreal has been our home for atleast few years now so we know Montreal very well to be able to give you insider suggestions ;).We can communicate in French, English, German, Hindi. We love to travel and move around ourselves, and understand your needs as a visitor. Search for us on Face book and Couchsurfing if you would like to know more. We are involved in Science, Psychology, Engineering and Entrepreneurship and are familiar with different labels of dance, martial arts, sports, and music. We are easygoing although we like being active, and can easily find a way to relate to you!  If you need anything at all, please don't hesitate to let us know during your stay, and we'd be happy to provide it.",
               "thumbnailUrl": "https://a0.muscache.com/im/pictures/ec80f2bb-ced3-4f60-8cb0-952bf00f0b21.jpg?aki_policy=profile_small",
               "pictureUrl": "https://xsgames.co/randomusers/avatar.php?g=male",
               "isSuperhost": false,
@@ -40872,7 +32003,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Amazing views",
               "Earth homes",
               "Top of the world"
@@ -40961,7 +32092,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Beachfront",
               "Casas particulares"
@@ -41082,7 +32213,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Beachfront",
               "Beachfront"
@@ -41204,7 +32335,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "New",
               "Iconic cities",
               "Boats"
@@ -41485,7 +32616,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Earth homes",
               "Caves",
               "Skiing"
@@ -41698,7 +32829,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Iconic cities",
               "Beachfront",
               "Private rooms"
@@ -41787,7 +32918,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Tropical",
               "Casas particulares"
@@ -42069,7 +33200,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Luxe",
               "Play",
               "Top of the world"
@@ -42354,7 +33485,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Boats",
               "Luxe"
@@ -42501,7 +33632,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/35.jpg",
                   "id": "88048997"
                 },
-                "txt": "This is our first experience to book an accommodation with Airbnb and it's fantastic! Best location for anyone who wants the easiest access to all types of transportation for work or for leisure. As for parents like us travelling with an elderly and two active young children, Wilson's apartment is the best to meet our needs. Not only it is so clean and safe for kids, its convenient location allows us to return for nap and rest when kids are tired between our busy holiday schedules. Wilson is so approachable and very thoughtful in many details.\r\nClean linens, towels, kitchenware, clothes washing powder, indoor storable clothes liner, refills of every consumable daily essential items eg toilet papers, tissues etc.\r\nThere are some stairs upon entry into lobby/lift of the building but it is a very common feature in Hong Kong. You can open the French-door-type glass doors fully before you enter with big luggages. The building guards/administrators on duty are very friendly too.\r\nSurprisingly, it's so quiet and comfortable to sleep, considering its prime location in one of the busiest parts of Hong Kong. Eating, shopping, sightseeing...all within walking distance or so easy for additional transportation when preferred.\r\nThank you for making our stay in Hong Kong so memorable.\r\nStrongly recommended!"
+                "txt": "This is our first experience to book an accommodation with Airbnb and it's fantastic! Best location for anyone who wants the easiest access to all labels of transportation for work or for leisure. As for parents like us travelling with an elderly and two active young children, Wilson's apartment is the best to meet our needs. Not only it is so clean and safe for kids, its convenient location allows us to return for nap and rest when kids are tired between our busy holiday schedules. Wilson is so approachable and very thoughtful in many details.\r\nClean linens, towels, kitchenware, clothes washing powder, indoor storable clothes liner, refills of every consumable daily essential items eg toilet papers, tissues etc.\r\nThere are some stairs upon entry into lobby/lift of the building but it is a very common feature in Hong Kong. You can open the French-door-type glass doors fully before you enter with big luggages. The building guards/administrators on duty are very friendly too.\r\nSurprisingly, it's so quiet and comfortable to sleep, considering its prime location in one of the busiest parts of Hong Kong. Eating, shopping, sightseeing...all within walking distance or so easy for additional transportation when preferred.\r\nThank you for making our stay in Hong Kong so memorable.\r\nStrongly recommended!"
               },
               {
                 "at": "2016-10-01T04:00:00.000Z",
@@ -42635,7 +33766,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Earth homes",
               "Earth homes",
               "Luxe"
@@ -42795,7 +33926,7 @@ export class StayService {
                   "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
                   "id": "12002909"
                 },
-                "txt": "There are 2 types of AirBnBs - one feels like a hotel and the other is someone's actual home. This is the latter - do not expect a hotel experience. location is great (Star St in Wanchai has boutique shops & nice restaurants, you're less than 5 min walk from the MTR and less than 30 min walk to Central). Building is more modern than most in the area, with a doorman and elevator. Apartment has an open view (not easy to come by on HK island!) Carmen keeps her place tidy and well equipped with everything you need. Bed is short (as others have noted) and the sofa is small too. Bathroom is basic but shower has hot water and ok pressure. Kitchen is tiny but there is plenty of space in the fridge and a water boiler. Carmen is friendly and super responsive! Bottom line: Great for a couple of nights only."
+                "txt": "There are 2 labels of AirBnBs - one feels like a hotel and the other is someone's actual home. This is the latter - do not expect a hotel experience. location is great (Star St in Wanchai has boutique shops & nice restaurants, you're less than 5 min walk from the MTR and less than 30 min walk to Central). Building is more modern than most in the area, with a doorman and elevator. Apartment has an open view (not easy to come by on HK island!) Carmen keeps her place tidy and well equipped with everything you need. Bed is short (as others have noted) and the sofa is small too. Bathroom is basic but shower has hot water and ok pressure. Kitchen is tiny but there is plenty of space in the fridge and a water boiler. Carmen is friendly and super responsive! Bottom line: Great for a couple of nights only."
               },
               {
                 "at": "2019-01-03T05:00:00.000Z",
@@ -42809,7 +33940,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Ryokans",
               "Tropical",
               "Boats"
@@ -43102,7 +34233,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Countryside",
               "Boats",
               "Casas particulares"
@@ -43372,7 +34503,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "New",
               "OMG"
@@ -43606,7 +34737,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Casas particulares",
               "Luxe",
               "Skiing"
@@ -43888,7 +35019,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Earth homes",
               "OMG"
@@ -44118,7 +35249,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Boats",
               "Minsus",
               "Top of the world"
@@ -44392,7 +35523,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Iconic cities",
               "Casas particulares",
               "Ryokans"
@@ -44476,7 +35607,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Top of the world",
               "Tropical"
@@ -44561,7 +35692,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Iconic cities",
               "Play",
               "Top of the world"
@@ -44716,7 +35847,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Iconic cities",
               "Golfing"
@@ -45002,7 +36133,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Tropical",
               "Adapted"
@@ -45270,7 +36401,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Casas particulares",
               "Adapted"
@@ -45443,7 +36574,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Campers",
               "Skiing",
               "Casas particulares"
@@ -45729,7 +36860,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "Countryside",
               "Beachfront"
@@ -46004,7 +37135,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Iconic cities",
               "Beachfront",
               "Tropical"
@@ -46300,7 +37431,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Earth homes",
               "Minsus",
               "Ryokans"
@@ -46382,7 +37513,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Earth homes",
               "Caves"
@@ -46658,7 +37789,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "New",
               "Ryokans",
               "Skiing"
@@ -46928,7 +38059,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "Skiing",
               "Caves"
@@ -47206,7 +38337,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Earth homes",
               "Beachfront"
@@ -47394,7 +38525,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Adapted",
               "OMG",
               "Luxe"
@@ -47532,7 +38663,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Adapted",
               "Adapted",
               "Play"
@@ -47854,7 +38985,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Golfing",
               "Countryside"
@@ -47998,7 +39129,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Golfing",
               "Luxe",
               "Campers"
@@ -48273,7 +39404,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "Minsus",
               "Beachfront"
@@ -48562,7 +39693,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Boats",
               "Top of the world"
@@ -48845,7 +39976,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Amazing views",
               "Tropical",
               "Campers"
@@ -49140,7 +40271,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Ryokans",
               "Adapted",
               "Private rooms"
@@ -49421,7 +40552,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Casas particulares",
               "Private rooms",
               "Private rooms"
@@ -49704,7 +40835,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Countryside",
               "Amazing views",
               "Off-the-grid"
@@ -49978,7 +41109,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Beachfront",
               "Skiing",
               "Private rooms"
@@ -50251,7 +41382,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Private rooms",
               "Iconic cities"
@@ -50337,7 +41468,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Adapted",
               "Minsus",
               "Caves"
@@ -50622,7 +41753,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "New",
               "Campers",
               "Boats"
@@ -50706,7 +41837,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Golfing",
               "Iconic cities",
               "Top of the world"
@@ -50994,7 +42125,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Adapted",
               "Skiing"
@@ -51277,7 +42408,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Adapted",
               "Caves",
               "Casas particulares"
@@ -51571,7 +42702,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Minsus",
               "Private rooms",
               "Beachfront"
@@ -51695,7 +42826,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Casas particulares",
               "Iconic cities"
@@ -51966,7 +43097,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Skiing",
               "Ryokans",
               "Amazing views"
@@ -52241,7 +43372,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Countryside",
               "Ryokans",
               "Beachfront"
@@ -52522,7 +43653,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Play",
               "Luxe",
               "Beachfront"
@@ -52801,7 +43932,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Beachfront",
               "Campers"
@@ -52973,7 +44104,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Off-the-grid",
               "Iconic cities",
               "Amazing views"
@@ -53268,7 +44399,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "OMG",
               "Golfing",
               "Campers"
@@ -53545,7 +44676,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "New",
               "Private rooms",
               "Off-the-grid"
@@ -53721,7 +44852,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Private rooms",
               "Campers",
               "New"
@@ -53997,7 +45128,7 @@ export class StayService {
               }
             ],
             "likedByUsers": [],
-            "types": [
+            "labels": [
               "Campers",
               "Skiing",
               "Luxe"

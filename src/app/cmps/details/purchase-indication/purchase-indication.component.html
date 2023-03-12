@@ -1,11 +1,15 @@
 <section *ngIf="order" class="purchase-indication">
-  <div class="title">
+  <div *ngIf="!isAfterConfirm" class="title">
     <h2>One last step</h2>
     <p>Dir guest,</p>
     <p>In order to complete your reservation, please confirm your trip details</p>
   </div>
+  <div *ngIf="isAfterConfirm" class="title-after-confirm">
+    <h2>Reserved successfully</h2>
+    <p>You can follow the order status in <a href="/user">My trip</a> page</p>
+  </div>
   <div class="content">
-    <div class="detailes">
+    <div class="details">
       <h3>Reservation details</h3>
       <div class="dates">
         <h4>Trip dates:</h4>
@@ -17,7 +21,7 @@
       </div>
       <div class="guests">
         <h4>Guests</h4>
-        <div>{{getGuests}}</div>
+        <div class="guest-list">{{getGuests}}</div>
       </div>
       <div class="price-details">
         <h4>Price details</h4>
@@ -45,7 +49,8 @@
     </div>
   </div>
   <div class="btn-container">
-    <button class="back">Back</button>
-    <button>Confirm</button>
+    <button *ngIf="!isAfterConfirm" class="back" (click)="onClickBack()">Back</button>
+    <button *ngIf="!isAfterConfirm" class="confirm" (click)="onClickConfirm()">Confirm</button>
+    <button *ngIf="isAfterConfirm" class="close" (click)="onClickClose()">Close</button>
   </div>
 </section>

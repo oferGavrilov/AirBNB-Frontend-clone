@@ -1,6 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
-import { lastValueFrom } from 'rxjs';
 import { Order } from 'src/app/models/order.model';
 import { Stay } from 'src/app/models/stay.model';
 import { OrderService } from 'src/app/services/order.service';
@@ -16,7 +15,9 @@ export class PurchaseIndicationComponent implements OnInit {
     private orderService: OrderService,
     private router: Router) { }
   @Input() stay !: Stay
+  @Output() setIsReserveClick = new EventEmitter()
   order!: Order
+  isAfterConfirm: boolean = false
 
   async ngOnInit() {
     this.order = await this.orderService.getCurrOrder()
@@ -40,4 +41,24 @@ export class PurchaseIndicationComponent implements OnInit {
     str += this.order?.guests.pets > 0 ? ' ,' + this.order.guests.pets + ' pets ' : ''
     return str
   }
+
+  onClickBack() {
+    this.setIsReserveClick.emit(false)
+  }
+
+  onClickConfirm() {
+    this.isAfterConfirm = true
+    try {
+      this.orderService.save(this.order)
+      this.orderService.setOrder(this.orderService.getEmptyOrder() as Order)
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
+  onClickClose() {
+    this.router.navigate(['/'])
+  }
 }
+
+
