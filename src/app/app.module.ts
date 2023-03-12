@@ -17,7 +17,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HomeHeaderComponent } from './cmps/home-header/home-header.component';
 import { StayDetailsComponent } from './pages/stay-details/stay-details.component';
 import { GoogleMapComponent } from './cmps/google-map/google-map.component';
-import { StayOrderComponent } from './cmps/stay-order/stay-order.component';
+import { StayOrderComponent } from './cmps/details/stay-order/stay-order.component';
 import { AmenitiesListComponent } from './cmps/details/amenities-list/amenities-list.component';
 import { AmenitiesPreviewComponent } from './cmps/details/amenities-preview/amenities-preview.component';
 import { SpecialPerksComponent } from './cmps/details/special-perks/special-perks.component';
@@ -97,6 +97,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar'
     NgMultiSelectDropDownModule,
     GoogleMapsModule,
     AirbnbCalendarModule,
+    NgMultiSelectDropDownModule,
+    FormsModule,
     ReactiveFormsModule,
     MatSelectModule,
     MatMenuModule,

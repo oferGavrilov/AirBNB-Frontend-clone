@@ -21,3 +21,17 @@
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+.empty-list {
+  @include center-flex();
+  flex-direction: column;
+  h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0;
+  }
+  img {
+    height: 300px;
+    width: auto;
+  }
+}

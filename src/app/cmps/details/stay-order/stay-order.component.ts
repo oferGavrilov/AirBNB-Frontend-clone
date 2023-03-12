@@ -6,6 +6,7 @@ import { OrderService } from 'src/app/services/order.service';
 import { UserService } from 'src/app/services/user.service';
 import { Order } from 'src/app/models/order.model';
 import { Subscription } from 'rxjs';
+import { Router } from '@angular/router';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
@@ -17,7 +18,7 @@ export class StayOrderComponent implements OnInit, OnDestroy {
   constructor(private orderService: OrderService,
     private userService: UserService,
     private snackBar: MatSnackBar) { }
-
+    
   @Input() stay !: Stay
   @Output() setIsReserveClick = new EventEmitter<boolean>()
 
