@@ -51,8 +51,8 @@ export class UserTripsComponent implements OnInit, OnDestroy {
     this.orderService.setFilter(this.orderService.getEmptyFilter())
     this.isSearchActive = false
   }
+
   setOrdersToShow(orders: Order[]) {
-    console.log(this.ordersToShow)
     this.ordersToShow = orders
   }
 
@@ -83,7 +83,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
       data.push(
         {
           "Stay name": order.stay.name,
-          "Host name": order.hostName,
+          "Host name": order.host.fullname,
           "Check in": order.startDate,
           "Check out": order.endDate,
           "Total": '$' + order.totalPrice,

@@ -1,8 +1,6 @@
 
 export interface Order {
   _id: string,
-  hostId: string,
-  hostName: string,
   buyer: {
     _id: string,
     fullname: string
@@ -16,6 +14,10 @@ export interface Order {
     name: string,
     price: number
   },
+  host: {
+    _id: string,
+    fullname: string,
+  }
   status: string
 }
 export interface FilterOrder {
@@ -25,7 +27,7 @@ export interface FilterOrder {
   stayName: string
   hostName: string
   totalPrice: number
-  term:string
+  term: string
 }
 
 export interface Guest {

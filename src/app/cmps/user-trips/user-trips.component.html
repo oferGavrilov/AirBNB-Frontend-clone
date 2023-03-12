@@ -49,7 +49,6 @@
 
     <div class="trips">
         <div class="titles">
-            <input type="checkbox">
             <h4>Stay name</h4>
             <h4>Host name</h4>
             <h4>Check in</h4>
@@ -59,9 +58,8 @@
             <h4>Status</h4>
         </div>
         <div *ngFor="let order of ordersToShow" class="trips-content">
-            <input type="checkbox">
             <span>{{order.stay.name}}</span>
-            <span>{{order.hostName}}</span>
+            <span>{{order.host.fullname}}</span>
             <span>{{order.startDate | date}}</span>
             <span>{{order.endDate | date}}</span>
             <span>{{order.totalPrice | currency}}</span>

@@ -15,6 +15,6 @@ export class UserStaysComponent {
   constructor() { }
   
   ngOnInit(): void {
-    this.userStays = this.stays.filter(stay => stay.host._id === this.user._id)
+    // this.userStays = this.stays.filter(stay => stay.host._id === this.user._id)
   }
 }

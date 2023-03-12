@@ -1,15 +1,142 @@
 @import '../../../assets/styles/setup/variables';
 @import '../../../assets/styles/setup/mixins';
+@import '../../../assets/styles/setup/layout';
 
-.user-order {
+.user-trips {
     color: $header-text-color;
-    border: 2px solid #dad4d4bc ;
-    padding: 14px;
-    h2 {
-        letter-spacing: 1px;
+    border: 2px solid #dad4d4bc;
+    padding: 18px 20px 0 20px;
+    position: relative;    
+    font-size: 14px;
+
+    .user-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .icon{
+            cursor: pointer;
+            &:hover {
+                color: #1976d2;
+            }
+        }
+        h2 {
+            letter-spacing: 1px;
+            font-family: system-ui;
+        }
+
+        .search-input{
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            input{
+                outline: none;
+                border: none;
+                border-bottom: 2px solid black;
+                width: 300px;
+                font-size: 16px;
+                
+                &:focus-visible {
+                    border-bottom: 2px solid #1976d2;
+                }
+            }
+        }
+        .tools {
+            display: flex;
+            height: 50%;
+
+            >* {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                padding: 8px;
+                margin: 0 8px;
+                border-radius: 50%;
+                color: #0000008a;
+                transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+                &:hover {
+                    color: #1976d2;
+                    background-color: #0000000a
+                }
+            }
+        }
     }
 
-    .order-status-container {
+    .trips-details {
         @include user-details-container()
+    }
+
+
+    .trips {
+        display: flex;
+        flex-direction: column;
+
+        .titles,
+        .trips-content {
+            display: flex;
+            border-bottom: 1px solid #dad4d4bc;
+            padding: 16px 0;
+            align-items: center;
+            justify-content: space-between;
+
+            input {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+            }
+
+            span,
+            h4 {
+                text-align: center;
+                width: 100px;
+            }
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+
+            .actions-btns{
+                display: flex;
+            }
+        }
+    }
+
+    .paging {
+        padding: 14px;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        gap: 14px;
+
+        select {
+            margin-left: 8px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+
+            option {
+                padding: 6px;
+            }
+        }
+
+        .material-symbols-outlined {
+            cursor: pointer;
+            margin: 5px;
+        }
+    }
+
+    @media print {
+        & {
+            margin-top: 30px;
+
+            .user-header,
+            .trips-details,
+            .paging,
+            input {
+                display: none;
+            }
+        }
     }
 }

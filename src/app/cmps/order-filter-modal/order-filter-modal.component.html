@@ -16,7 +16,7 @@
             <label>Host name</label>
             <select (change)="onSetFilter($event)" name="hostName" id="hostName">
                 <option value="">All</option>
-                <option *ngFor="let order of orders" [value]="order.hostName">{{order.hostName}}</option>
+                <option *ngFor="let order of orders" [value]="order.host.fullname">{{order.host.fullname}}</option>
             </select>
         </li>
         <li>

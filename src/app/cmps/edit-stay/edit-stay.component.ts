@@ -3,6 +3,7 @@ import { Stay } from 'src/app/models/stay.model';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UploadImgService } from 'src/app/services/upload-img.service';
+import { UserService } from 'src/app/services/user.service';
 
 @Component({
   selector: 'edit-stay',
@@ -10,7 +11,9 @@ import { UploadImgService } from 'src/app/services/upload-img.service';
   styleUrls: ['./edit-stay.component.scss']
 })
 export class EditStayComponent {
-  constructor(private stayService: StayService, private uploadImgService: UploadImgService) { }
+  constructor(private stayService: StayService,
+    private uploadImgService: UploadImgService,
+    private userService: UserService) { }
 
   @Input() user!: User
   stay = this.stayService.getEmptyStay()
@@ -28,19 +31,14 @@ export class EditStayComponent {
       unSelectAllText: 'UnSelect All'
     }
   }
-  
+
   onAddStay() {
-    console.log(this.stay)
+    const user = this.userService.getUser()
     const country = this.stay.loc.country
     const city = this.stay.loc.city
     const address = this.stay.loc.address
-    // let geocoder = new google.maps.Geocoder()
-    // geocoder.geocode({
-    //   'address': address
-    // })
 
-    // console.log(geocoder)
-    this.stay.host = {...this.stay.host , _id:this.user._id , pictureUrl:this.user.imgUrl}
+    this.stay.host = { ...this.stay.host, _id: user._id, pictureUrl: user.imgUrl }
     this.stay.loc.address = `${address}, ${city}, ${country}`
     this.stayService.save(this.stay)
   }
@@ -52,7 +50,7 @@ export class EditStayComponent {
     this.stay.imgUrls.push(imgUrl)
   }
 
-  get Labels () {
+  get Labels() {
     return [
       'OMG!',
       'Amazing views', ,

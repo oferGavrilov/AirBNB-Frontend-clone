@@ -1,32 +1,19 @@
 <section class="user">
-    <app-header></app-header>
-
-    <main class="main-layout">
-        <nav>
-            <span routerLink="orders" class="{{pageNav === 'user-order' ? 'active' : ''}}">Orders</span>
-            <span routerLink="trips"  class="{{pageNav === 'user-trips' ? 'active' : ''}}">My trips</span>
-            <span routerLink="stays" class="{{pageNav === 'user-stays' ? 'active' : ''}}">My stays</span>
-            <span routerLink="wishlist" class="{{pageNav === 'wishlist' ? 'active' : ''}}">Wishlist</span>
-            <span routerLink="edit" class="{{pageNav === 'edit-stay' ? 'active' : ''}}">Add a stay</span>
-        </nav>
-        <router-outlet [user]="user"></router-outlet>
-
-        <!-- <div [ngSwitch]="pageNav" class="dynamic-cmp">
-            <home *ngSwitchCase="'home'"></home>
-            <user-order [user]="user" *ngSwitchCase="'user-order'"></user-order>
-            <user-stays [stays]="stays" [user]="user" *ngSwitchCase="'user-stays'"></user-stays>
-            <user-trips *ngSwitchCase="'user-trips'"></user-trips>
-            <edit-stay [user]="user" *ngSwitchCase="'edit-stay'"></edit-stay>
-            <div class="wishlist"  *ngSwitchCase="'wishlist'">
-              <h2>Wishlists</h2>
-              <stay-list *ngIf="stays.length" [stays]="stays"></stay-list>
-              <div *ngIf="!stays.length" class="empty-wishlist">
-                <h3>Create your first wishlist</h3>
-                <p>As you search, tap the heart icon to save your favorite places to stay or things to do to a wishlist.</p>
-              </div>
-            </div>
-        </div> -->
-    </main>
-
-    <app-footer></app-footer>
+  <app-header></app-header>
+  <main class="main-layout">
+    <nav>
+      <span routerLink="orders" (click)="pageNav = 'user-order'"
+        class="{{pageNav === 'user-order' ? 'active' : ''}}">Orders</span>
+      <span routerLink="trips" (click)="pageNav = 'user-trips'" class="{{pageNav === 'user-trips' ? 'active' : ''}}">My
+        trips</span>
+      <span routerLink="stays" (click)="pageNav = 'user-stays'" class="{{pageNav === 'user-stays' ? 'active' : ''}}">My
+        stays</span>
+      <span routerLink="wishlist" (click)="pageNav = 'wishlist'"
+        class="{{pageNav === 'wishlist' ? 'active' : ''}}">Wishlist</span>
+      <span routerLink="edit" (click)="pageNav = 'edit-stay'" class="{{pageNav === 'edit-stay' ? 'active' : ''}}">Add a
+        stay</span>
+    </nav>
+    <router-outlet [user]="user"></router-outlet>
+  </main>
+  <app-footer></app-footer>
 </section>
