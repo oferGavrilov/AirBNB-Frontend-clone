@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Observable } from 'rxjs';
 import { Stay } from 'src/app/models/stay.model';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
@@ -28,7 +29,7 @@ export class EditStayComponent {
       unSelectAllText: 'UnSelect All'
     }
   }
-  
+
   onAddStay() {
     console.log(this.stay)
     const country = this.stay.loc.country
