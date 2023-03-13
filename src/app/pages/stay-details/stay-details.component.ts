@@ -101,7 +101,6 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     const user = this.userService.getUser()
     if (!user) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
     else {
-
       this.order.host._id = this.stay.host._id
       this.order.host.fullname = this.stay.host.fullname
       this.order.buyer = { _id: user._id, fullname: user.fullname }

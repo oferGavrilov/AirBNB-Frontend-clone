@@ -1,9 +1,8 @@
 
 <div class="map">
-
     <google-map height="500px" id="map"  width="100%" [center]="center" [zoom]="zoom" (mapClick)="moveMap($event)"
     (mapMousemove)="move($event)" [options]="options" >
-    <map-marker  [position]="location" [options]="markerOptions" >
+    <map-marker  [position]="location" [options]="markerOptions">
     </map-marker>
 </google-map>
 </div>
