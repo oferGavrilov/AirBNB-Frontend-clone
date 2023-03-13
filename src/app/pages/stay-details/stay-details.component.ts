@@ -7,6 +7,8 @@ import { UserService } from 'src/app/services/user.service';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { OrderService } from 'src/app/services/order.service';
+import { Order } from 'src/app/models/order.model';
 
 @Component({
   selector: 'stay-details',
@@ -21,12 +23,15 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     private route: ActivatedRoute,
     private userService: UserService,
     private stayService: StayService,
-    private snackBar: MatSnackBar) { }
+    private snackBar: MatSnackBar,
+    private orderService: OrderService) { }
 
   unlistener !: () => void
   user!: User
   stay!: Stay
-  subscription!: Subscription
+  order !: Order
+  staySubscription!: Subscription
+  orderSubscription!: Subscription
   shareIcon = faArrowUpFromBracket
   heartIcon = faHeart
   starIcon = faStar
@@ -37,7 +42,8 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
   isLikeByUser: boolean = false
 
   ngOnInit(): void {
-    this.subscription = this.route.data.subscribe(data => {
+    this.orderSubscription = this.orderService.order$.subscribe(order => this.order = order)
+    this.staySubscription = this.route.data.subscribe(data => {
       this.stay = data['stay']
     })
     this.user = this.userService.getUser()
@@ -91,13 +97,35 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     }
   }
 
+  addOrder() {
+    const user = this.userService.getUser()
+    if (!user) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
+    else {
+
+      this.order.host._id = this.stay.host._id
+      this.order.host.fullname = this.stay.host.fullname
+      this.order.buyer = { _id: user._id, fullname: user.fullname }
+      this.order.totalPrice = this.TotalPrice
+      this.order.stay = { _id: this.stay._id, name: this.stay.name, price: this.stay.price }
+      this.isReserveClick = true
+    }
+  }
+
+  get TotalPrice() {
+    const price = +this.stay.price * (this.order.endDate.getDate() - this.order.startDate.getDate())
+    const cleanTax = +(price * 0.10).toFixed()
+    const serviceFee = +(price * 0.17).toFixed()
+    return (price + cleanTax + serviceFee)
+  }
+
   onClickShare() {
     navigator.clipboard.writeText(window.location.href)
     this.snackBar.open('copy to clipboard', 'Close', { duration: 3000 })
   }
 
   ngOnDestroy(): void {
-    this.subscription.unsubscribe()
+    this.staySubscription.unsubscribe()
+    this.orderSubscription.unsubscribe()
     this.unlistener()
   }
 }

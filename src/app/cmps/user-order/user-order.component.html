@@ -1,21 +1,93 @@
-<section class="user-order">
-    <h2>Hi {{user.fullname}}, you have 2 pending orders</h2>
-    <div class="order-status-container">
+<section class="user-trips">
+    <div class="user-header">
+        <h2 typingAnimation *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
+        <div *ngIf="isSearchActive" class="search-input">
+            <input type="text" name="term" [(ngModel)]="orderFilter.term" (ngModelChange)="onSetFilter()" autofocus
+                autocomplete="off" placeholder="Search an order here..">
+            <span class="icon material-symbols-outlined" (click)="onClearSearch()">close</span>
+        </div>
+        <div class="tools">
+            <div (click)="isSearchActive = !isSearchActive">
+                <span title="Search" class="material-symbols-outlined">search</span>
+            </div>
+            <div (click)="onDownloadCSV()">
+                <span title="Download CSV" class="material-symbols-outlined">cloud_download</span>
+            </div>
+            <div (click)="onPrint()">
+                <span title="Print" class="material-symbols-outlined">print</span>
+            </div>
+            <div>
+                <span title="View Columns" class="material-symbols-outlined">view_week</span>
+            </div>
+            <div (click)="isShowFilterModal = !isShowFilterModal">
+                <span title="Filter Table" class="material-symbols-outlined">filter_alt</span>
+            </div>
+        </div>
+    </div>
+
+    <order-filter-modal (setOrdersToShow)="setOrdersToShow($event)" [ordersToShow]="ordersToShow" [filter]="orderFilter"
+        (toggleFilterModal)="toggleFilterModal()" [orders]="orders" *ngIf="isShowFilterModal"></order-filter-modal>
+
+    <div class="trips-details">
         <div>
-            <span>0/2</span>
+            <span>{{getOrderStatusAmount('approve')}}/{{orders.length}}</span>
             <fa-icon class="icon-approved" [icon]="faCircle"></fa-icon>
             <span>(Approved)</span>
         </div>
         <div>
-            <span>2/2</span>
+            <span>{{getOrderStatusAmount('pending')}}/{{orders.length}}</span>
             <fa-icon class="icon-pending" [icon]="faCircle"></fa-icon>
             <span>(Pending)</span>
         </div>
         <div>
-            <span>2/2</span>
+            <span>{{getOrderStatusAmount('decline')}}/{{orders.length}}</span>
             <fa-icon class="icon-declined" [icon]="faCircle"></fa-icon>
             <span>(Declined)</span>
         </div>
-        <span>Total earning: $0.0</span>
+    </div>
+
+    <div class="trips">
+        <div class="titles">
+            <h4>Client name</h4>
+            <h4>Stay name</h4>
+            <h4>Check in</h4>
+            <h4>Check out</h4>
+            <h4>Total</h4>
+            <h4>Order status</h4>
+            <h4>Status</h4>
+            <h4>Actions</h4>
+        </div>
+        <div *ngFor="let order of ordersToShow" class="trips-content">
+            <span>{{order.buyer.fullname}}</span>
+            <span>{{order.stay.name}}</span>
+            <span>{{order.startDate | date}}</span>
+            <span>{{order.endDate | date}}</span>
+            <span>{{order.totalPrice | currency}}</span>
+            <span>{{order.status}}</span>
+            <span>
+                <img src="assets/img/{{order.status}}.png" alt="">
+            </span>
+            <span class="actions-btns">
+                <button class="approve" (click)="onChangeStatus('approve' , order)">Approve</button>
+                <button class="decline" (click)="onChangeStatus('decline', order)">Decline</button>
+            </span>
+        </div>
+        <div class="paging">
+            <div>
+                <label for="rows">Rows per page:</label>
+                <select name="rows" id="rows">
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="30">30</option>
+                </select>
+            </div>
+            <div>
+                <span>1-1 of 1</span>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">chevron_left</span>
+                <span class="material-symbols-outlined">chevron_right</span>
+            </div>
+        </div>
     </div>
 </section>

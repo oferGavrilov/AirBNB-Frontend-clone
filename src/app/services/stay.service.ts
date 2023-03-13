@@ -58,12 +58,15 @@ export class StayService {
       likeByUser: '',
       place: '',
       label: '',
-      price: 0
+      price: 0,
+      hostId: '',
+      isPetAllowed: false
     }
   }
 
   private _filter(stays: Stay[], filterBy: StayFilter) {
     if(filterBy.likeByUser) stays = stays.filter(stay => stay.likedByUsers.includes(filterBy.likeByUser))
+    if(filterBy.hostId) stays = stays.filter(stay => stay.host._id === filterBy.hostId)
     if(filterBy.label) stays = stays.filter(stay => stay.labels?.includes(filterBy.label))
     if(filterBy.place) {
       const regex = new RegExp(filterBy.place, 'i')
@@ -85,7 +88,7 @@ export class StayService {
       price: 0,
       summary: '',
       capacity: 0,
-      amenities: [],
+      amenities:new Array<string>(0),
       bathrooms: 0,
       bedrooms: 0,
       roomType: '',
@@ -109,9 +112,9 @@ export class StayService {
         lat: -156.6917,
         lan: 20.93792
       },
-      reviews: [],
-      likedByUsers: [],
-      labels: [],
+      reviews: new Array<string>(0),
+      likedByUsers: new Array<string>(0),
+      labels: new Array<string>(0),
       statReviews: {
         cleanliness: 0,
         communication: 4.3,

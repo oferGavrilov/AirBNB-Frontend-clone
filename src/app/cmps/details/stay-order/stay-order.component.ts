@@ -1,26 +1,20 @@
-import { Component, Input, OnInit, OnDestroy, Output, EventEmitter } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { Stay } from 'src/app/models/stay.model';
 import { faStar, faCircleMinus, faCirclePlus, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { CalendarOptions } from 'ngx-airbnb-calendar';
-import { OrderService } from 'src/app/services/order.service';
-import { UserService } from 'src/app/services/user.service';
 import { Order } from 'src/app/models/order.model';
-import { Subscription } from 'rxjs';
-import { Router } from '@angular/router';
-import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'stay-order',
   templateUrl: './stay-order.component.html',
   styleUrls: ['./stay-order.component.scss']
 })
-export class StayOrderComponent implements OnInit, OnDestroy {
-  constructor(private orderService: OrderService,
-    private userService: UserService,
-    private snackBar: MatSnackBar) { }
-    
+export class StayOrderComponent implements OnInit {
+  constructor() { }
+
   @Input() stay !: Stay
-  @Output() setIsReserveClick = new EventEmitter<boolean>()
+  @Input() order !: Order
+  @Output() addOrder = new EventEmitter()
 
   faCirclePlus = faCirclePlus
   faCircleMinus = faCircleMinus
@@ -32,8 +26,6 @@ export class StayOrderComponent implements OnInit, OnDestroy {
   totalDays!: any
   children: number = 0
   showGuestModal: boolean = false
-  order !: Order
-  subscription!: Subscription
 
   options: CalendarOptions = {
     format: "yyyy/LL/dd",
@@ -43,10 +35,13 @@ export class StayOrderComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    this.subscription = this.orderService.order$.subscribe(order => this.order = order)
     if (!this.order.startDate.getTime()) this.order.startDate = new Date()
     if (!this.order.endDate.getTime()) this.order.endDate = new Date(Date.now() + (3600 * 1000 * 72))
     this.date = this.dateFromOrder
+  }
+
+  onAddOrder() {
+    this.addOrder.emit()
   }
 
   public toggleGuestModal() {
@@ -105,22 +100,5 @@ export class StayOrderComponent implements OnInit, OnDestroy {
       }
     }
     return this.order.endDate
-  }
-
-  onAddOrder() {
-    const user = this.userService.getUser()
-    if (!user) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
-    else {
-      this.order.hostId = this.stay.host._id
-      this.order.hostName = this.stay.host.fullname
-      this.order.buyer = { _id: user._id, fullname: user.fullname }
-      this.order.totalPrice = this.TotalPrice
-      this.order.stay = { _id: this.stay._id, name: this.stay.name, price: this.stay.price }
-      this.setIsReserveClick.emit(true)
-    }
-  }
-
-  ngOnDestroy() {
-    this.subscription.unsubscribe()
   }
 }

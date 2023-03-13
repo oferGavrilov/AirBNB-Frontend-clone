@@ -60,7 +60,7 @@
                   <div class="select-inputs">
                         <label for="stay-type">Stay types:
                               <ng-multiselect-dropdown class="label-picker" [data]="labels" [settings]="selectSettings"
-                                    [placeholder]="'Labels'" [(ngModel)]="stay.labels"
+                                    [placeholder]="'Labels'" [ngModel]="stay.labels" (ngModel)="stay.labels"
                                     name="labels"></ng-multiselect-dropdown>
                         </label>
                         <label for="property-type">Property type:
@@ -90,7 +90,8 @@
             </div>
             <div class="amenities">
                   <ng-multiselect-dropdown [data]="amenities" [settings]="selectSettings" [placeholder]="'Amenities'"
-                        [(ngModel)]="stay.amenities" name="amenities"></ng-multiselect-dropdown>
+                        [ngModel]="stay.amenities" (ngModel)="stay.amenities"
+                        name="amenities"></ng-multiselect-dropdown>
             </div>
             <button class="save-btn">Save</button>
       </form>

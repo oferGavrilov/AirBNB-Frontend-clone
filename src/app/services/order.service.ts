@@ -26,7 +26,6 @@ export class OrderService {
 
   public getEmptyOrder() {
     return {
-      hostId: '',
       buyer: {
         _id: '',
         fullname: ''
@@ -39,6 +38,10 @@ export class OrderService {
         children: 0,
         infants: 0,
         pets: 0,
+      },
+      host:{
+        _id:'',
+        fullname:''
       },
       stay: {
         _id: '',
@@ -106,13 +109,13 @@ export class OrderService {
     console.log(filterBy)
     if (filterBy.term) {
       const regex = new RegExp(filterBy.term, 'i')
-      orders = orders.filter(order => regex.test(order.stay.name) || regex.test(order.hostName))
+      orders = orders.filter(order => regex.test(order.stay.name) || regex.test(order.host.fullname))
     }
-    if (filterBy.hostId) orders = orders.filter(order => order.hostId === filterBy.hostId)
+    if (filterBy.hostId) orders = orders.filter(order => order.host._id === filterBy.hostId)
     if (filterBy.buyerId) orders = orders.filter(order => order.buyer._id === filterBy.buyerId)
     if (filterBy.status) orders = orders.filter(order => order.status === filterBy.status)
     if (filterBy.stayName) orders = orders.filter(order => order.stay.name === filterBy.stayName)
-    if (filterBy.hostName) orders = orders.filter(order => order.hostName === filterBy.hostName)
+    if (filterBy.hostName) orders = orders.filter(order => order.host.fullname === filterBy.hostName)
     if (filterBy.totalPrice) orders = orders.filter(order => order.totalPrice === filterBy.totalPrice)
     return orders
   }

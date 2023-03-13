@@ -4,7 +4,7 @@ import { Observable, Subscription } from 'rxjs';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UserService } from 'src/app/services/user.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router, UrlSegment } from '@angular/router';
 
 @Component({
   selector: 'user',
@@ -13,22 +13,24 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class UserComponent implements OnInit, OnDestroy {
 
+  user !: User
+  stays !: Stay[]
+  subscription!: Subscription
+  routerSubscription!: Subscription
+  pageNav: string = 'user-stays'
+
   constructor(
     private userService: UserService,
     private stayService: StayService,
     private route: ActivatedRoute,
+    private router: Router,
   ) { }
-
-  user !: User
-  stays !: Stay[]
-  subscription!: Subscription
-  pageNav: string = 'user-stays'
 
   ngOnInit() {
     this.user = this.userService.getUser()
     this.subscription = this.stayService.stays$.subscribe(stays => this.stays = stays)
-    const urlArr = window.location.href.split('/')
-    console.log(urlArr[urlArr.length - 1])
+    const url = window.location.href.split('/')
+    this.pageNav = url[url.length - 1]
   }
   // @Input() pageNav: string = 'home'
 

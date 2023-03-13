@@ -8,6 +8,8 @@
     padding: 18px 20px 0 20px;
     position: relative;    
     font-size: 14px;
+    min-height: 40vh;
+
 
     .user-header {
         display: flex;
@@ -90,8 +92,8 @@
             h4 {
                 text-align: center;
                 width: 100px;
-                &:nth-child(2){
-                    width: 330px;
+                &:nth-child(1){
+                    width: 300px;
                 }
             }
 

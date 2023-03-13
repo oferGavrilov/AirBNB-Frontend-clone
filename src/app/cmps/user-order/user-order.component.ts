@@ -1,6 +1,12 @@
 import { Component, Input } from '@angular/core';
 import { User } from 'src/app/models/user.model';
 import { faCircle } from '@fortawesome/free-solid-svg-icons'
+import { UserService } from 'src/app/services/user.service';
+import { OrderService } from 'src/app/services/order.service';
+import { Subscription } from 'rxjs';
+import { FilterOrder, Order } from 'src/app/models/order.model';
+import { ngxCsv } from 'ngx-csv';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 
 @Component({
@@ -10,6 +16,104 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons'
 })
 export class UserOrderComponent {
 
+  orderFilter!: FilterOrder
+
+  constructor(private userService: UserService,
+    private orderService: OrderService,
+    private snackBar: MatSnackBar
+  ) { }
+
   @Input() user!: User
+  orders !: Order[]
+  ordersToShow!: Order[]
+  subscription !: Subscription
   faCircle = faCircle
+  isSearchActive: boolean = false
+  isShowFilterModal: boolean = false
+
+
+  ngOnInit(): void {
+    this.user = this.userService.getUser()
+    this.orderFilter = this.orderService.getEmptyFilter()
+    this.orderFilter.hostId = this.user._id
+    this.orderService.setFilter(this.orderFilter)
+    this.subscription = this.orderService.orders$.subscribe(orders => {
+      this.orders = orders
+      this.ordersToShow = [...orders]
+    })
+  }
+
+  setOrdersToShow(orders: Order[]) {
+    this.ordersToShow = orders
+  }
+
+  toggleFilterModal() {
+    this.isShowFilterModal = !this.isShowFilterModal
+  }
+
+  getOrderStatusAmount(type: string) {
+    return this.orders.filter(order => order.status === type).length
+  }
+
+  onSetFilter() {
+    this.orderService.setFilter(this.orderFilter)
+  }
+
+  onClearSearch() {
+    this.orderService.setFilter(this.orderService.getEmptyFilter())
+    this.isSearchActive = false
+  }
+
+  onDownloadCSV() {
+    new ngxCsv(this.getData(), "orders", this.getOptions())
+  }
+
+  onPrint() {
+    window.print()
+  }
+
+  onChangeStatus(newStatus: string, order: Order): void {
+    order.status = newStatus
+    try {
+      this.orderService.save(order)
+      this.snackBar.open(`Status change to ${newStatus}`, 'Close', { duration: 3000 })
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe()
+  }
+
+  // Private function for CSV files
+  private getData() {
+    let data = []
+    for (const order of this.orders) {
+      data.push(
+        {
+          "Client name": order.buyer.fullname,
+          "Stay name": order.stay.name,
+          "Check in": order.startDate,
+          "Check out": order.endDate,
+          "Total": '$' + order.totalPrice,
+          "Order status": order.status
+        }
+      )
+    }
+    return data
+  }
+  private getOptions() {
+    return {
+      title: 'User Details',
+      fieldSeparator: ',',
+      quoteStrings: '"',
+      decimalseparator: '.',
+      showLabels: false,
+      noDownload: false,
+      showTitle: false,
+      useBom: false,
+      headers: ['Client name', 'Stay name', 'Check in', 'Check out', 'Total', 'Order status']
+    };
+  }
 }
