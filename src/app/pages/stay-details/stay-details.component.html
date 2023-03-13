@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="share-save">
-        <span class="share">
+        <span class="share" (click)="onClickShare()">
           <fa-icon [icon]="shareIcon"></fa-icon>
           <span>share</span>
         </span>
@@ -28,11 +28,7 @@
       </div>
     </header>
     <div class="img-container">
-      <img class="img" [src]="stay.imgUrls[0]" alt="">
-      <img class="img" [src]="stay.imgUrls[1]" alt="">
-      <img class="img" [src]="stay.imgUrls[2]" alt="">
-      <img class="img" [src]="stay.imgUrls[3]" alt="">
-      <img class="img" [src]="stay.imgUrls[4]" alt="">
+      <img *ngFor="let imgUrl of stay.imgUrls" class="img" [src]="imgUrl" alt="">
     </div>
     <!-- TODO: Export to component -->
     <div *ngIf="isShowHeader" class="sticky-header full">

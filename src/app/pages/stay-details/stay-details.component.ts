@@ -101,7 +101,6 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     const user = this.userService.getUser()
     if (!user) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
     else {
-
       this.order.host._id = this.stay.host._id
       this.order.host.fullname = this.stay.host.fullname
       this.order.buyer = { _id: user._id, fullname: user.fullname }
@@ -116,6 +115,11 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     const cleanTax = +(price * 0.10).toFixed()
     const serviceFee = +(price * 0.17).toFixed()
     return (price + cleanTax + serviceFee)
+  }
+
+  onClickShare() {
+    navigator.clipboard.writeText(window.location.href)
+    this.snackBar.open('copy to clipboard', 'Close', { duration: 3000 })
   }
 
   ngOnDestroy(): void {

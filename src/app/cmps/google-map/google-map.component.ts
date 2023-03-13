@@ -19,12 +19,19 @@ export class GoogleMapComponent implements OnInit {
   minZoom = 8
   prices !: number[]
 
+  IconOption: google.maps.Icon = {
+    url: 'assets/img/home.png',
+    scaledSize: new google.maps.Size(100, 100)
+}
+
   markerOptions: google.maps.MarkerOptions = {
     optimized: false,
     draggable: false,
-    icon: 'assets/img/home.png',
+    icon: this.IconOption,
+    // icon: 'assets/img/home.png',
     // icon: this.markerIcon,
   }
+
 
   options: google.maps.MapOptions = {
     scrollwheel: false,
