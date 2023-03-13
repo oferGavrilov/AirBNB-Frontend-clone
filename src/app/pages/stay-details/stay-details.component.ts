@@ -91,6 +91,11 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     }
   }
 
+  onClickShare() {
+    navigator.clipboard.writeText(window.location.href)
+    this.snackBar.open('copy to clipboard', 'Close', { duration: 3000 })
+  }
+
   ngOnDestroy(): void {
     this.subscription.unsubscribe()
     this.unlistener()
