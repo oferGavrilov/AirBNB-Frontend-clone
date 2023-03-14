@@ -43,7 +43,7 @@ export class StayService {
 
   public save(stay: any) {
     if(stay._id) return lastValueFrom(this.httpService.put(this.STAY_URL, stay))
-    return this.httpService.post(this.STAY_URL, stay)
+    return lastValueFrom(this.httpService.post(this.STAY_URL, stay))
   }
 
   public getEmptyFilter() {
@@ -57,12 +57,10 @@ export class StayService {
     }
   }
 
-
   public setFilter(filter: StayFilter) {
     this._stayFilter$.next(filter)
     this.loadStays()
   }
-
 
   public getEmptyStay() {
     return {
