@@ -1,50 +1,7 @@
-<!-- <section class="login">
-    <app-header></app-header>
-    <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
-        <label for="fullname">Full name:
-            <input formControlName="fullname" id="fullname" class="form-control" placeholder="Full name" />
-            <div *ngIf="form.controls['fullname'].invalid && (form.controls['fullname'].dirty || form.controls['fullname'].touched)"
-                class="alert alert-danger">
-                <div *ngIf="form.controls['fullname'].errors?.['required']">
-                    Full name is required.
-                </div>
-                <div *ngIf="form.controls['fullname'].errors?.['minlength']">
-                    Full name must be at least 3 characters long.
-                </div>
-            </div>
-        </label>
-        <label for="username">User name:
-            <input formControlName="username" type="text" id="username" placeholder="User name" />
-            <div *ngIf="form.controls['username'].invalid && (form.controls['username'].dirty || form.controls['username'].touched)"
-                class="alert alert-danger">
-                <div *ngIf="form.controls['username'].errors?.['required']">
-                    Full name is required.
-                </div>
-                <div *ngIf="form.controls['username'].errors?.['minlength']">
-                    Full name must be at least 3 characters long.
-                </div>
-            </div>
-        </label>
-        <label for="password">Password:
-            <input formControlName="password" id="password" placeholder="Password" required />
-            <div *ngIf="form.controls['password'].invalid && (form.controls['password'].dirty || form.controls['password'].touched)"
-                class="alert alert-danger">
-                <div *ngIf="form.controls['password'].errors?.['required']">
-                    Password is required.
-                </div>
-                <div *ngIf="form.controls['password'].errors?.['minlength']">
-                    Password must be at least 3 characters long.
-                </div>
-            </div>
-        </label>
-        <button [disabled]="form.pristine || form.invalid">Save</button>
-    </form>
-</section> -->
-
 <section class="login-page">
     <div #container class="container" id="container">
         <div class="form-container sign-up-container">
-            <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+            <form [formGroup]="formSignup" (ngSubmit)="onSubmit('signup')" novalidate>
                 <h1 class="title">Create Account</h1>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -54,34 +11,34 @@
                 <span>or use your email for registration</span>
 
                 <input formControlName="fullname" id="fullname" class="form-control" placeholder="Full name">
-                <div *ngIf="form.controls['fullname'].invalid && (form.controls['fullname'].dirty || form.controls['fullname'].touched)"
+                <div *ngIf="formSignup.controls['fullname'].invalid && (formSignup.controls['fullname'].dirty || formSignup.controls['fullname'].touched)"
                     class="alert alert-danger">
-                    <div *ngIf="form.controls['fullname'].errors?.['required']">
+                    <div *ngIf="formSignup.controls['fullname'].errors?.['required']">
                         Full name is required.
                     </div>
-                    <div *ngIf="form.controls['fullname'].errors?.['minlength']">
+                    <div *ngIf="formSignup.controls['fullname'].errors?.['minlength']">
                         Full name must be at least 3 characters long.
                     </div>
                 </div>
 
                 <input formControlName="username" type="text" id="username" placeholder="User name" />
-                <div *ngIf="form.controls['username'].invalid && (form.controls['username'].dirty || form.controls['username'].touched)"
+                <div *ngIf="formSignup.controls['username'].invalid && (formSignup.controls['username'].dirty || formSignup.controls['username'].touched)"
                     class="alert alert-danger">
-                    <div *ngIf="form.controls['username'].errors?.['required']">
+                    <div *ngIf="formSignup.controls['username'].errors?.['required']">
                         User name is required.
                     </div>
-                    <div *ngIf="form.controls['username'].errors?.['minlength']">
+                    <div *ngIf="formSignup.controls['username'].errors?.['minlength']">
                         User name must be at least 3 characters long.
                     </div>
                 </div>
 
                 <input formControlName="password" id="password" placeholder="Password" required />
-                <div *ngIf="form.controls['password'].invalid && (form.controls['password'].dirty || form.controls['password'].touched)"
+                <div *ngIf="formSignup.controls['password'].invalid && (formSignup.controls['password'].dirty || formSignup.controls['password'].touched)"
                     class="alert alert-danger">
-                    <div *ngIf="form.controls['password'].errors?.['required']">
+                    <div *ngIf="formSignup.controls['password'].errors?.['required']">
                         Password is required.
                     </div>
-                    <div *ngIf="form.controls['password'].errors?.['minlength']">
+                    <div *ngIf="formSignup.controls['password'].errors?.['minlength']">
                         Password must be at least 3 characters long.
                     </div>
                 </div>
@@ -95,11 +52,11 @@
                         </label>
                     </div>
                 </div>
-                <button [disabled]="form.pristine || form.invalid">Sign Up</button>
+                <button [disabled]="formSignup.pristine || formSignup.invalid">Sign Up</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
-            <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
+            <form [formGroup]="formLogin" (ngSubmit)="onSubmit('login')" novalidate>
                 <h1 class="title">Sign in</h1>
                 <div class="social-container">
                     <a href="#" class="social"></a>
@@ -109,29 +66,29 @@
                 <span>or use your account</span>
 
                 <input formControlName="username" type="text" id="username" placeholder="User name" />
-                <div *ngIf="form.controls['username'].invalid && (form.controls['username'].dirty || form.controls['username'].touched)"
+                <div *ngIf="formLogin.controls['username'].invalid && (formLogin.controls['username'].dirty || formLogin.controls['username'].touched)"
                     class="alert alert-danger">
-                    <div *ngIf="form.controls['username'].errors?.['required']">
+                    <div *ngIf="formLogin.controls['username'].errors?.['required']">
                         User name is required.
                     </div>
-                    <div *ngIf="form.controls['username'].errors?.['minlength']">
+                    <div *ngIf="formLogin.controls['username'].errors?.['minlength']">
                         User name must be at least 3 characters long.
                     </div>
                 </div>
 
                 <input formControlName="password" id="password" placeholder="Password" required />
-                <div *ngIf="form.controls['password'].invalid && (form.controls['password'].dirty || form.controls['password'].touched)"
+                <div *ngIf="formLogin.controls['password'].invalid && (formLogin.controls['password'].dirty || formLogin.controls['password'].touched)"
                     class="alert alert-danger">
-                    <div *ngIf="form.controls['password'].errors?.['required']">
+                    <div *ngIf="formLogin.controls['password'].errors?.['required']">
                         Password is required.
                     </div>
-                    <div *ngIf="form.controls['password'].errors?.['minlength']">
+                    <div *ngIf="formLogin.controls['password'].errors?.['minlength']">
                         Password must be at least 3 characters long.
                     </div>
                 </div>
 
                 <a>Forgot your password?</a>
-                <button>Login</button>
+                <button [disabled]="formLogin.pristine || formLogin.invalid">Login</button>
             </form>
         </div>
         <div class="overlay-container">

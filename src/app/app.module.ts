@@ -27,7 +27,7 @@ import { HostInfoComponent } from './cmps/details/host-info/host-info.component'
 import { AirbnbCalendarModule } from 'ngx-airbnb-calendar';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderMenuModalComponent } from './cmps/header-menu-modal/header-menu-modal.component';
-import { LoginComponent } from './cmps/login/login.component';
+import { LoginComponent } from './pages/login/login.component';
 import { AppFooterComponent } from './cmps/app-footer/app-footer.component';
 import { UserComponent } from './pages/user/user.component';
 import { UserOrderComponent } from './cmps/user-order/user-order.component';

@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { UserService } from 'src/app/services/user.service';
 import { Subscription } from 'rxjs';
@@ -12,21 +12,27 @@ import { UploadImgService } from 'src/app/services/upload-img.service';
   styleUrls: ['./login.component.scss']
 })
 
-export class LoginComponent {
+export class LoginComponent implements OnInit{
   @ViewChild('container') container: any
+
   constructor(
     private userService: UserService,
     private router: Router,
     private uploadImgService: UploadImgService,
     private fb: FormBuilder) {
-    this.form = this.fb.group({
+    this.formSignup = this.fb.group({
       fullname: ['', [Validators.required, Validators.minLength(3)]],
+      username: ['', [Validators.required, Validators.minLength(3)]],
+      password: ['', [Validators.required, Validators.minLength(3)]]
+    })
+    this.formLogin = this.fb.group({
       username: ['', [Validators.required, Validators.minLength(3)]],
       password: ['', [Validators.required, Validators.minLength(3)]]
     })
   }
 
-  form !: FormGroup
+  formSignup !: FormGroup
+  formLogin !: FormGroup
   user!: User
   subscription!: Subscription
   isSignup: boolean = false
@@ -37,16 +43,15 @@ export class LoginComponent {
   }
 
   ngOnInit(): void {
-    this.form.patchValue(this.userService.getEmptyUser())
+    this.formSignup.patchValue(this.userService.getEmptyUser())
+    this.formLogin.patchValue(this.userService.getEmptyUser())
   }
 
-  onSubmit(): void {
-    const coords = this.form.value
+  onSubmit(type: string): void {
+    const coords = type === 'signup' ? this.formSignup.value : this.formLogin.value
     const user = { ...coords, imgUrl: this.imgData.imgUrl }
     try {
-      if (this.isSignup) {
-        this.userService.signup(user)
-      }
+      if (this.isSignup) this.userService.signup(user)
       else this.userService.login(coords)
       this.router.navigateByUrl('')
     } catch (err) {
@@ -57,7 +62,6 @@ export class LoginComponent {
   async uploadImg(ev: Event) {
     const { secure_url, height, width } = await this.uploadImgService.uploadImg(ev)
     this.imgData = { imgUrl: secure_url, width, height }
-
   }
 
   onSignupPage() {
