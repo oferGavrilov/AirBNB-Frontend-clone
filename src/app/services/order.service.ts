@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, lastValueFrom, of, tap, throwError } from 'rxjs';
+import { BehaviorSubject, lastValueFrom, of, tap, throwError, Observable } from 'rxjs';
 import { FilterOrder, Order } from '../models/order.model';
+import { HttpService } from './http.service';
 import { UtilService } from './util.service';
 
 @Injectable({
@@ -8,8 +9,12 @@ import { UtilService } from './util.service';
 })
 export class OrderService {
 
-  constructor(private utilService: UtilService) { }
+  constructor(
+    private utilService: UtilService,
+    private httpService: HttpService
+    ) { }
   ORDER_STORAGE_KEY = 'orders'
+  ORDER_URL = 'order/'
 
   private _orders$ = new BehaviorSubject<Order[]>([])
   public orders$ = this._orders$.asObservable()
@@ -22,6 +27,47 @@ export class OrderService {
 
   public getCurrOrder() {
     return Promise.resolve(this._order$.value)
+  }
+
+  public async loadOrders() {
+    const filterBy = this._orderFilter$.value
+    const queryParams = this.getQueryParams(filterBy)
+    const orders = await lastValueFrom(this.httpService.get(this.ORDER_URL + queryParams, null)) as Order[]
+    this._orders$.next(orders)
+  }
+
+  public query(filterBy: FilterOrder | null) {
+    const queryParams = this.getQueryParams(filterBy)
+    console.log('queryParams:', queryParams)
+    return this.httpService.get(this.ORDER_URL + queryParams, null) as Observable<Order[]>
+  }
+
+  public save(order: Order) {
+    if(order._id) return lastValueFrom(this.httpService.put(this.ORDER_URL, order))
+    return lastValueFrom(this.httpService.post(this.ORDER_URL, order))
+  }
+
+  public getEmptyFilter() {
+    return {
+      stayName: '',
+      hostName: '',
+      checkIn: new Date(),
+      checkOut: new Date(),
+      totalPrice: 0,
+      status: '',
+      hostId: '',
+      buyerId: '',
+      term: ''
+    }
+  }
+
+  public setFilter(filter: FilterOrder) {
+    this._orderFilter$.next(filter)
+    this.loadOrders()
+  }
+
+  public setOrder(order: Order) {
+    this._order$.next(order)
   }
 
   public getEmptyOrder() {
@@ -52,72 +98,16 @@ export class OrderService {
     }
   }
 
-  public loadOrders() {
-    const filterBy = this._orderFilter$.value
-    let orders = this.utilService.loadFromStorage(this.ORDER_STORAGE_KEY) || []
-    if (filterBy) {
-      orders = this._filter(orders, filterBy)
-    }
-    this._orders$.next(orders)
-  }
-
-  public query(filter: FilterOrder | null) {
-    let orders = this.utilService.loadFromStorage(this.ORDER_STORAGE_KEY) || []
-    if (filter) {
-      orders = this._filter(orders, filter)
-    }
-    return orders ? of(orders) : throwError(() => 'Cant load orders')
-  }
-
-  public save(order: Order) {
-    let orders = this.utilService.loadFromStorage(this.ORDER_STORAGE_KEY) || []
-    if (order._id) orders = orders.map((currOrder: Order) => currOrder._id === order._id ? order : currOrder)
-    else {
-      console.log('new')
-      order._id = this.utilService.makeId()
-      orders.push(order)
-    }
-    this.utilService.saveToStorage(this.ORDER_STORAGE_KEY, orders)
-    this.loadOrders()
-    return order
-  }
-
-  public getEmptyFilter() {
-    return {
-      stayName: '',
-      hostName: '',
-      checkIn: new Date(),
-      checkOut: new Date(),
-      totalPrice: 0,
-      status: '',
-      hostId: '',
-      buyerId: '',
-      term: ''
-    }
-  }
-
-  public setFilter(filter: FilterOrder) {
-    this._orderFilter$.next(filter)
-    this.loadOrders()
-  }
-
-  public setOrder(order: Order) {
-    this._order$.next(order)
-  }
-
-  private _filter(orders: Order[], filterBy: FilterOrder) {
-    console.log(filterBy)
-    if (filterBy.term) {
-      const regex = new RegExp(filterBy.term, 'i')
-      orders = orders.filter(order => regex.test(order.stay.name) || regex.test(order.host.fullname))
-    }
-    if (filterBy.hostId) orders = orders.filter(order => order.host._id === filterBy.hostId)
-    if (filterBy.buyerId) orders = orders.filter(order => order.buyer._id === filterBy.buyerId)
-    if (filterBy.status) orders = orders.filter(order => order.status === filterBy.status)
-    if (filterBy.stayName) orders = orders.filter(order => order.stay.name === filterBy.stayName)
-    if (filterBy.hostName) orders = orders.filter(order => order.host.fullname === filterBy.hostName)
-    if (filterBy.totalPrice) orders = orders.filter(order => order.totalPrice === filterBy.totalPrice)
-    return orders
+  private getQueryParams(filterBy: FilterOrder | null) {
+    let params = '?'
+    if (filterBy?.term) params += `term=${filterBy.term}&`
+    if (filterBy?.hostId) params += `hostId=${filterBy.hostId}&`
+    if (filterBy?.buyerId) params += `buyerId=${filterBy.buyerId}&`
+    if (filterBy?.status) params += `status=${filterBy.status}&`
+    if (filterBy?.stayName) params +=  `stayName=${filterBy.stayName}&`
+    if (filterBy?.hostName) params +=  `hostName=${filterBy.hostName}&`
+    if (filterBy?.totalPrice) params +=  `totalPrice=${filterBy.totalPrice}&`
+    return params
   }
 }
 

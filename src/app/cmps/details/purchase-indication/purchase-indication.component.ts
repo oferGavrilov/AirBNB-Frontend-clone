@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
+import { lastValueFrom } from 'rxjs';
 import { Order } from 'src/app/models/order.model';
 import { Stay } from 'src/app/models/stay.model';
 import { OrderService } from 'src/app/services/order.service';
@@ -48,10 +49,10 @@ export class PurchaseIndicationComponent implements OnInit {
     this.setIsReserveClick.emit(false)
   }
 
-  onClickConfirm() {
+  async onClickConfirm() {
     this.isAfterConfirm = true
     try {
-      this.orderService.save(this.order)
+      this.order = await this.orderService.save(this.order) as Order
       this.orderService.setOrder(this.orderService.getEmptyOrder() as Order)
       this.snackBar.open('Your order sent successfully', 'Close', { duration: 3000 })
     } catch (err) {

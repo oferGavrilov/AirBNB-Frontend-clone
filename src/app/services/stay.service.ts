@@ -26,14 +26,15 @@ export class StayService {
   public stayFilter$ = this._stayFilter$.asObservable()
 
   public async loadStays() {
-    // const queryParams = `?title=${filter.title}&isStarred=${filter.isStarred}`
-    // const filterBy = this._stayFilter$.value
-    const stays = await lastValueFrom(this.httpService.get(this.STAY_URL, null)) as Stay[]
+    const filterBy = this._stayFilter$.value
+    const queryParams = this.getQueryParams(filterBy)
+    const stays = await lastValueFrom(this.httpService.get(this.STAY_URL + queryParams, null)) as Stay[]
     this._stays$.next(stays)
   }
 
   public query(filterBy: StayFilter) {
-    return this.httpService.get(this.STAY_URL, null) as Observable<Stay[]>
+    const queryParams = this.getQueryParams(filterBy)
+    return this.httpService.get(this.STAY_URL + queryParams, null) as Observable<Stay[]>
   }
 
   public getById(stayId: string): Observable<Stay> {
@@ -41,10 +42,7 @@ export class StayService {
   }
 
   public save(stay: any) {
-    if(stay._id){
-      console.log('stay:', stay)
-      return this.httpService.put(this.STAY_URL, stay)
-    }
+    if(stay._id) return lastValueFrom(this.httpService.put(this.STAY_URL, stay))
     return this.httpService.post(this.STAY_URL, stay)
   }
 
@@ -59,21 +57,12 @@ export class StayService {
     }
   }
 
-  // private _filter(stays: Stay[], filterBy: StayFilter) {
-  //   if(filterBy.likeByUser) stays = stays.filter(stay => stay.likedByUsers.includes(filterBy.likeByUser))
-  //   if(filterBy.hostId) stays = stays.filter(stay => stay.host._id === filterBy.hostId)
-  //   if(filterBy.label) stays = stays.filter(stay => stay.labels?.includes(filterBy.label))
-  //   if(filterBy.place) {
-  //     const regex = new RegExp(filterBy.place, 'i')
-  //     stays = stays.filter(stay => regex.test(stay.loc.address))
-  //   }
-  //   return stays
-  // }
 
   public setFilter(filter: StayFilter) {
     this._stayFilter$.next(filter)
     this.loadStays()
   }
+
 
   public getEmptyStay() {
     return {
@@ -119,6 +108,15 @@ export class StayService {
         value: 0
       }
     }
+  }
+
+  private getQueryParams(filterBy: StayFilter) {
+    let params = '?'
+    if(filterBy.likeByUser) params += `likeByUser=${filterBy.likeByUser}&`
+    if(filterBy.hostId) params += `hostId=${filterBy.hostId}&`
+    if(filterBy.label) params += `label=${filterBy.label}&`
+    if(filterBy.place) params += `place=${filterBy.place}`
+    return params
   }
 
   private _createStays() {

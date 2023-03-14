@@ -80,14 +80,14 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     else this.isLikeByUser = this.stay.likedByUsers.includes(this.user._id)
   }
 
-  onClickLike(ev: Event) {
+  async onClickLike(ev: Event) {
     ev.stopPropagation()
     try {
       if (!this.user) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
       else {
         if (this.isLikeByUser) this.stay.likedByUsers = this.stay.likedByUsers.filter(userId => userId !== this.user._id)
         else this.stay.likedByUsers.push(this.user._id)
-        this.stayService.save(this.stay)
+        this.stay = await this.stayService.save(this.stay) as Stay
         this.isLikeByUser = !this.isLikeByUser
         const msg = this.isLikeByUser ? 'Stay added to wishlist' : 'Stay removed from wishlist'
         this.snackBar.open(msg, 'Close', { duration: 3000 })

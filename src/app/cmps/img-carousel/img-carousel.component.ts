@@ -57,14 +57,14 @@ export class ImgCarouselComponent implements OnInit {
     else this.isLikeByUser = this.stay.likedByUsers.includes(user._id)
   }
 
-  onClickLike(ev: Event) {
+ async onClickLike(ev: Event) {
     ev.stopPropagation()
     try {
       const user = this.userService.getUser()
       if (!user) return
       if (this.isLikeByUser) this.stay.likedByUsers = this.stay.likedByUsers.filter(userId => userId !== user._id)
       else this.stay.likedByUsers.push(user._id)
-      this.stayService.save(this.stay)
+      this.stay = await this.stayService.save(this.stay) as Stay
       this.isLikeByUser = !this.isLikeByUser
       const msg = this.isLikeByUser ? 'Stay added to wishlist' : 'Stay removed from wishlist'
       if (this.isUserPage()) this.stayService.loadStays()
