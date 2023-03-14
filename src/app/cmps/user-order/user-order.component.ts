@@ -7,6 +7,7 @@ import { Subscription } from 'rxjs';
 import { FilterOrder, Order } from 'src/app/models/order.model';
 import { ngxCsv } from 'ngx-csv';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { LoaderService } from 'src/app/services/loader.service';
 
 
 @Component({
@@ -20,7 +21,8 @@ export class UserOrderComponent {
 
   constructor(private userService: UserService,
     private orderService: OrderService,
-    private snackBar: MatSnackBar
+    private snackBar: MatSnackBar,
+    public loader:LoaderService
   ) { }
 
   @Input() user!: User
@@ -33,6 +35,7 @@ export class UserOrderComponent {
 
 
   ngOnInit(): void {
+    this.loader.setLoading(true)
     this.user = this.userService.getUser()
     this.orderFilter = this.orderService.getEmptyFilter()
     this.orderFilter.hostId = this.user._id
@@ -41,6 +44,7 @@ export class UserOrderComponent {
       this.orders = orders
       this.ordersToShow = [...orders]
     })
+    this.loader.setLoading(false)
   }
 
   setOrdersToShow(orders: Order[]) {

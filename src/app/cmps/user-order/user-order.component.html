@@ -1,4 +1,4 @@
-<section class="user-trips">
+<section *ngIf="ordersToShow.length" class="user-trips">
     <div class="user-header">
         <h2 typingAnimation *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
         <div *ngIf="isSearchActive" class="search-input">
@@ -91,3 +91,10 @@
         </div>
     </div>
 </section>
+
+<app-loader *ngIf="this.loader.getLoading()"></app-loader>
+
+<div *ngIf="!this.loader.getLoading() && !ordersToShow?.length" class="empty-orders">
+    <h2>No orders yet</h2>
+    <img src="assets/img/order.png" alt="orders">
+</div>

@@ -1,4 +1,4 @@
-<section class="user-stays">
+<section *ngIf="userStays?.length" class="user-stays">
       <div class="stays">
             <div class="titles">
                   <h2 class="name-title big">Name</h2>
@@ -24,3 +24,11 @@
             </div>
       </div>
 </section>
+
+<app-loader *ngIf="this.loader.getLoading()"></app-loader>
+
+<div *ngIf="!this.loader.getLoading() && !userStays?.length" class="empty-stay">
+      <h2>No stays yet</h2>
+      <p>Add your own stay in <a href="#">add stay</a></p>
+      <img src="assets/img/stays.png" alt="">
+</div>

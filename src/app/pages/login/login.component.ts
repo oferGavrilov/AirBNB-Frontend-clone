@@ -5,6 +5,7 @@ import { Subscription } from 'rxjs';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { User } from 'src/app/models/user.model';
 import { UploadImgService } from 'src/app/services/upload-img.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'login',
@@ -19,6 +20,7 @@ export class LoginComponent implements OnInit{
     private userService: UserService,
     private router: Router,
     private uploadImgService: UploadImgService,
+    private snackBar: MatSnackBar,
     private fb: FormBuilder) {
     this.formSignup = this.fb.group({
       fullname: ['', [Validators.required, Validators.minLength(3)]],
@@ -47,15 +49,16 @@ export class LoginComponent implements OnInit{
     this.formLogin.patchValue(this.userService.getEmptyUser())
   }
 
-  onSubmit(type: string): void {
+  async onSubmit(type: string) {
     const coords = type === 'signup' ? this.formSignup.value : this.formLogin.value
     const user = { ...coords, imgUrl: this.imgData.imgUrl }
     try {
-      if (this.isSignup) this.userService.signup(user)
-      else this.userService.login(coords)
+      if (this.isSignup) await this.userService.signup(user)
+      else await this.userService.login(coords)
       this.router.navigateByUrl('')
     } catch (err) {
-      console.error(err)
+      this.snackBar.open('Username or password wrong', 'Close', { duration: 3000 })
+      console.log(err)
     }
   }
 

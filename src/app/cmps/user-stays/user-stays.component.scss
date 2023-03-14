@@ -67,3 +67,24 @@
             color: $main-color;
       }
 }
+
+.empty-stay {
+      margin: 40px 0;
+      color: $header-text-color;
+
+      p {
+            margin-top: 12px;
+
+            a {
+                  color: $secondary-color;
+                  font-weight: 500;
+                  text-decoration: none;
+            }
+      }
+
+      img {
+            margin-top: 24px;
+            border-radius: 12px;
+            width: 700px;
+      }
+}

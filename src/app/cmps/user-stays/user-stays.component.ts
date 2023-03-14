@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { Subscription , lastValueFrom } from 'rxjs';
 import { StatReviews, Stay } from 'src/app/models/stay.model';
 import { User } from 'src/app/models/user.model';
 import { OrderService } from 'src/app/services/order.service';
@@ -7,6 +7,7 @@ import { StayService } from 'src/app/services/stay.service';
 import { UserService } from 'src/app/services/user.service';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { Router } from '@angular/router';
+import { LoaderService } from 'src/app/services/loader.service';
 
 @Component({
   selector: 'user-stays',
@@ -17,21 +18,20 @@ export class UserStaysComponent {
   
   user!: User
   userStays!: Stay[]
-  subscription!: Subscription
   faStar = faStar
-
+  
   constructor(private userService: UserService,
-    private stayService: StayService,) { }
+    private stayService: StayService,
+    public loader:LoaderService) { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
     const user = this.userService.getUser();
     const stayFilter = this.stayService.getEmptyFilter()
     stayFilter.hostId = user._id
-    this.stayService.setFilter(stayFilter)
-    this.subscription = this.stayService.stays$.subscribe(stays => {
-      this.userStays = stays
-    })
+    this.loader.setLoading(true)
+    this.userStays = await lastValueFrom(this.stayService.query(stayFilter))
     this.userStays = this.userStays.filter(stay => stay.host._id === user._id)
+    this.loader.setLoading(false)
   }
 
   getRateAvg(stay: Stay): number {

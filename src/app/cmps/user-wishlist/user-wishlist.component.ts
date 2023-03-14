@@ -21,6 +21,9 @@ export class UserWishlistComponent {
     filter.likeByUser = user._id
     this.stayService.setFilter(filter)
   }
+  onClickList() {
+    console.log('asfoafg')
+  }
 
   ngOnDestroy(): void {
     this.subscription.unsubscribe()

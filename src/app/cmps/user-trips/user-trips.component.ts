@@ -8,6 +8,7 @@ import { OrderService } from 'src/app/services/order.service';
 import { UserService } from 'src/app/services/user.service';
 
 import { faCheck, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { LoaderService } from 'src/app/services/loader.service';
 
 @Component({
   selector: 'user-trips',
@@ -15,8 +16,11 @@ import { faCheck, faCircle } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./user-trips.component.scss']
 })
 export class UserTripsComponent implements OnInit, OnDestroy {
-  constructor(private orderService: OrderService
-    , private userService: UserService) { }
+  constructor(
+    private orderService: OrderService,
+     private userService: UserService,
+     public loader:LoaderService
+    ) { }
 
   faCheck = faCheck
   faCircle = faCircle
@@ -33,6 +37,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
 
   // TODO:GET USER FROM GUARD
   ngOnInit(): void {
+    this.loader.setLoading(true)
     setTimeout(() => this.start = true, 1000)
     this.user = this.userService.getUser()
     this.orderFilter = this.orderService.getEmptyFilter()
@@ -42,6 +47,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
       this.orders = orders
       this.ordersToShow = [...orders]
     })
+    this.loader.setLoading(false)
   }
   onSetFilter() {
     this.orderService.setFilter(this.orderFilter)
