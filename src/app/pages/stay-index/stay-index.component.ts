@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Stay } from 'src/app/models/stay.model';
+import { LoaderService } from 'src/app/services/loader.service';
 import { StayService } from 'src/app/services/stay.service';
 
 @Component({
@@ -10,18 +11,21 @@ import { StayService } from 'src/app/services/stay.service';
 })
 export class StayIndexComponent implements OnInit, OnDestroy {
   constructor(
-    private stayService: StayService) { }
+    private stayService: StayService,
+    public loader: LoaderService) { }
 
-  stays$ !: Observable<Stay[]>
+  stays$ !: Observable<Stay[]> | null
   isShowScroller: boolean = false;
 
-  ngOnInit() {
-    this.stayService.loadStays()
+  async ngOnInit() {
+    this.loader.setLoading(true)
+    await this.stayService.loadStays()
+    this.loader.setLoading(false)
     this.stays$ = this.stayService.stays$;
 
-    window.addEventListener('scroll',  () => this.onScroll())
+    window.addEventListener('scroll', () => this.onScroll())
   }
-  
+
   onScroll() {
     if (window.scrollY >= 150) {
       this.isShowScroller = true
@@ -31,6 +35,6 @@ export class StayIndexComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    window.removeEventListener('scroll' ,() => this.onScroll())
+    window.removeEventListener('scroll', () => this.onScroll())
   }
 }

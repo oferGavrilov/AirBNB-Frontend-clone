@@ -3,18 +3,17 @@ import { BehaviorSubject, Observable, of, throwError } from 'rxjs';
 import { Stay, StayFilter } from '../models/stay.model';
 import { HttpService } from './http.service';
 import { UtilService } from './util.service';
-import { lastValueFrom} from 'rxjs';
+import { lastValueFrom } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class StayService {
+
   constructor(
     private utilService: UtilService,
     private httpService: HttpService
-    ) {
-    // this._createStays()
-  }
+  ) {}
 
   STAY_KEY: string = 'stayDB';
   STAY_URL: string = 'stay/'
@@ -42,7 +41,7 @@ export class StayService {
   }
 
   public save(stay: any) {
-    if(stay._id) return lastValueFrom(this.httpService.put(this.STAY_URL, stay))
+    if (stay._id) return lastValueFrom(this.httpService.put(this.STAY_URL, stay))
     return lastValueFrom(this.httpService.post(this.STAY_URL, stay))
   }
 
@@ -70,12 +69,12 @@ export class StayService {
       price: 0,
       summary: '',
       capacity: 0,
-      amenities:new Array<string>(0),
+      amenities: new Array<string>(0),
       bathrooms: 0,
       bedrooms: 0,
       roomType: '',
       host: {
-        _id:'',
+        _id: '',
         createAt: Date.now(),
         fullname: '',
         location: '',
@@ -110,10 +109,10 @@ export class StayService {
 
   private getQueryParams(filterBy: StayFilter) {
     let params = '?'
-    if(filterBy.likeByUser) params += `likeByUser=${filterBy.likeByUser}&`
-    if(filterBy.hostId) params += `hostId=${filterBy.hostId}&`
-    if(filterBy.label) params += `label=${filterBy.label}&`
-    if(filterBy.place) params += `place=${filterBy.place}`
+    if (filterBy.likeByUser) params += `likeByUser=${filterBy.likeByUser}&`
+    if (filterBy.hostId) params += `hostId=${filterBy.hostId}&`
+    if (filterBy.label) params += `label=${filterBy.label}&`
+    if (filterBy.place) params += `place=${filterBy.place}`
     return params
   }
 
@@ -1189,7 +1188,7 @@ export class StayService {
             "Skiing",
             "Top of the world",
             "Golfing",
-           " Tiny homes"
+            " Tiny homes"
           ],
           "statReviews": {
             "cleanliness": 4.1,
@@ -8687,7 +8686,8 @@ export class StayService {
               "by": {
                 "_id": "622f3403e36c59e6164fb2b3",
                 "fullname": "Julia",
-                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",              },
+                "imgUrl": "https://xsgames.co/randomusers/assets/avatars/male/37.jpg",
+              },
               "txt": "We absolutely loved our stay in Porto. The appartement is very well located and beautifully furnished. Also, it was very (!) clean and tidy and the kitchenette is well equipped. Teresa's friend waited for us in front of the house and it was a warm welcome - they even had prepared a small surprise!\r\nThank you so much - we would love to visit again!"
             },
             {

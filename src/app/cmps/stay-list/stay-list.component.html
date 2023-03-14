@@ -1,6 +1,6 @@
 <ul *ngIf="stays?.length" class="stay-list">
   <li *ngFor="let stay of stays">
-    <stay-preview [routerLink]="['' , stay._id]" [stay]="stay"></stay-preview>
+    <stay-preview [routerLink]="['', stay._id]" [stay]="stay"></stay-preview>
   </li>
 </ul>
 <div *ngIf="!stays?.length" class="empty-list">

@@ -6,9 +6,10 @@
     >* {
         grid-column: 2;
 
-        &.full {
-            grid-column: 1 /-1;
-        }
+    }
+
+    >*.full {
+        grid-column: 1 /-1;
     }
 
     @include for-tablet-layout {

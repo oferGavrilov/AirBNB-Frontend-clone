@@ -48,7 +48,8 @@ import { MatMenuModule } from '@angular/material/menu'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
-import { MatSnackBarModule } from '@angular/material/snack-bar'
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { LoaderComponent } from './cmps/loader/loader.component'
 
 @NgModule({
   declarations: [
@@ -86,7 +87,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar'
     GuestModalComponent,
     HeaderFilterGuestModalComponent,
     PurchaseIndicationComponent,
-    UserWishlistComponent
+    UserWishlistComponent,
+    LoaderComponent
   ],
   imports: [
     FormsModule,
