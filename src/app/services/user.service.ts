@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
+import { lastValueFrom } from 'rxjs';
 import { User } from '../models/user.model';
+import { HttpService } from './http.service';
+import { StayService } from './stay.service';
 import { UtilService } from './util.service';
 
 @Injectable({
@@ -7,31 +10,38 @@ import { UtilService } from './util.service';
 })
 export class UserService {
 
-  private USER_STORAGE_KEY = 'users'
-  private STORAGE_KEY_LOGGEDIN_USER = 'user'
 
-  constructor(private utilService: UtilService) {
-    this.createUsers()
-  }
+
+  constructor(
+    private utilService: UtilService,
+    private httpService: HttpService,
+    private stayService: StayService) {}
+
+    private USER_STORAGE_KEY = 'users'
+    private STORAGE_KEY_LOGGEDIN_USER = 'user'
+    private USER_URL = 'user/'
+    private AUTH_URL = 'auth/'
 
   public getUser(): User {
     return JSON.parse(sessionStorage.getItem(this.STORAGE_KEY_LOGGEDIN_USER) as string)
   }
 
-  private getUsers() {
-    return this.utilService.loadFromStorage(this.USER_STORAGE_KEY)
+  public async login(credentials: User) {
+    try {
+      const loggedInUser = await lastValueFrom(this.httpService.post(this.AUTH_URL + 'login', credentials)) as User
+      if(loggedInUser) this.saveLocalUser(loggedInUser)
+    } catch (err) {
+      throw err
+    }
   }
 
-  public login(user: User): void {
-    const users = this.getUsers()
-    const loggedInUser = users.find((currUser: User) => currUser.password === user.password && currUser.username === user.username)
-    if (loggedInUser) this.saveLocalUser(loggedInUser)
-    else throw Error
-  }
-
-  public signup(user: User): void {
-    user = this.save(user)
-    this.saveLocalUser(user)
+  public async signup(user: User) {
+    try {
+      user = await lastValueFrom(this.httpService.post(this.AUTH_URL + 'signup', user)) as User
+      this.saveLocalUser(user)
+    } catch (err) {
+      throw err
+    }
   }
 
   public getEmptyUser() {
@@ -39,23 +49,19 @@ export class UserService {
       username: '',
       fullname: '',
       password: '',
-      favorites: [],
+      imgUrl: ''
     }
   }
 
-  public logout(): void {
-    sessionStorage.clear()
-  }
-
-  private save(user: User): User {
-    let users = this.getUsers()
-    if (user._id) users = users.map((currUser: User) => currUser._id === user._id ? user : currUser)
-    else {
-      user._id = this.utilService.makeId()
-      users.push(user)
+  public async logout() {
+    try {
+      const msg = await lastValueFrom(this.httpService.post(this.AUTH_URL + 'logout'))
+      sessionStorage.clear()
+      console.log('msg:', msg)
+      this.stayService.loadStays()
+    } catch (err) {
+      console.log('err:', err)
     }
-    this.utilService.saveToStorage(this.USER_STORAGE_KEY, users)
-    return user
   }
 
   private saveLocalUser(user: User) {
@@ -63,20 +69,4 @@ export class UserService {
     return user
   }
 
-  private createUsers() {
-    let users = this.utilService.loadFromStorage(this.USER_STORAGE_KEY)
-    if (!users || !users.length) {
-      users = [
-        {
-          _id: '1001',
-          fullname: "puki ben david",
-          username: "puki",
-          password: 'puki',
-          favorites: [],
-          isHost: false
-        }
-      ]
-      this.utilService.saveToStorage(this.USER_STORAGE_KEY, users)
-    }
-  }
 }
