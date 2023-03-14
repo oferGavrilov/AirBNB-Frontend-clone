@@ -1,5 +1,5 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Injectable, isDevMode } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -7,19 +7,18 @@ import { HttpClient } from '@angular/common/http';
 export class HttpService {
 
   constructor(private http: HttpClient) { }
-  BASE_URL = process.env['NODE_ENV'] === 'production'
-      ? '/api/'
-      : '//localhost:4200/api/'
 
-  public getConfig() {
-    return this.http.get<any>('/api/heroes')
-  }
+  BASE_URL = isDevMode() ? '//localhost:3030/api/' : '/api/'
+  headers = new HttpHeaders({
+  'Content-Type': 'application/json',
+  'Authorization': 'Bearer <token>',
+  })
 
   public get(endpoint: string, data: any) {
     return this.httpRequest(endpoint, 'get', data)
   }
 
-  public post(endpoint: string, data: any) {
+  public post(endpoint: string, data?: any) {
       return this.httpRequest(endpoint, 'post', data)
   }
 
@@ -36,6 +35,7 @@ export class HttpService {
       const option = {
         body: data,
       }
+      console.log('method:', `${this.BASE_URL}${endpoint}`)
       return this.http.request(method, `${this.BASE_URL}${endpoint}`,option)
     } catch (err: any) {
         console.log(`Had Issues ${method}ing to the backend, endpoint: ${endpoint}, with data: `, data)

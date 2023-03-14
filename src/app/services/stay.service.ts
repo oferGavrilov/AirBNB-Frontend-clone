@@ -1,17 +1,23 @@
 import { Injectable, OnInit } from '@angular/core';
 import { BehaviorSubject, Observable, of, throwError } from 'rxjs';
 import { Stay, StayFilter } from '../models/stay.model';
+import { HttpService } from './http.service';
 import { UtilService } from './util.service';
+import { lastValueFrom} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class StayService {
-  constructor(private utilService: UtilService) {
-    this._createStays()
+  constructor(
+    private utilService: UtilService,
+    private httpService: HttpService
+    ) {
+    // this._createStays()
   }
 
   STAY_KEY: string = 'stayDB';
+  STAY_URL: string = 'stay/'
 
   private _stays$ = new BehaviorSubject<Stay[]>([]);
   public stays$ = this._stays$.asObservable()
@@ -19,38 +25,27 @@ export class StayService {
   private _stayFilter$ = new BehaviorSubject<StayFilter>(this.getEmptyFilter());
   public stayFilter$ = this._stayFilter$.asObservable()
 
-  public loadStays() {
-    const filterBy = this._stayFilter$.value
-    let stays = this.utilService.loadFromStorage(this.STAY_KEY) || []
-    if (filterBy) {
-      stays = this._filter(stays, filterBy)
-    }
+  public async loadStays() {
+    // const queryParams = `?title=${filter.title}&isStarred=${filter.isStarred}`
+    // const filterBy = this._stayFilter$.value
+    const stays = await lastValueFrom(this.httpService.get(this.STAY_URL, null)) as Stay[]
     this._stays$.next(stays)
   }
 
   public query(filterBy: StayFilter) {
-    let stays = this.utilService.loadFromStorage(this.STAY_KEY) || []
-    if (filterBy) {
-      stays = this._filter(stays, filterBy)
-    }
-    return stays ? of(stays) : throwError(() => `Cant load stay!`)
+    return this.httpService.get(this.STAY_URL, null) as Observable<Stay[]>
   }
 
   public getById(stayId: string): Observable<Stay> {
-    let stays = this.utilService.loadFromStorage(this.STAY_KEY)
-    const stay = stays.find((stay: Stay) => stay._id === stayId)
-    return stay ? of(stay) : throwError(() => `Stay id ${stayId} not found!`)
+    return this.httpService.get(this.STAY_URL + stayId, null) as Observable<Stay>
   }
 
   public save(stay: any) {
-    let stays = this.utilService.loadFromStorage(this.STAY_KEY)
-    if (stay._id) stays = stays.map((currStay: Stay) => currStay._id === stay._id ? stay : currStay)
-    else {
-      stay._id = this.utilService.makeId()
-      stays.push(stay)
+    if(stay._id){
+      console.log('stay:', stay)
+      return this.httpService.put(this.STAY_URL, stay)
     }
-    this.utilService.saveToStorage(this.STAY_KEY, stays)
-    return stay
+    return this.httpService.post(this.STAY_URL, stay)
   }
 
   public getEmptyFilter() {
@@ -64,16 +59,16 @@ export class StayService {
     }
   }
 
-  private _filter(stays: Stay[], filterBy: StayFilter) {
-    if(filterBy.likeByUser) stays = stays.filter(stay => stay.likedByUsers.includes(filterBy.likeByUser))
-    if(filterBy.hostId) stays = stays.filter(stay => stay.host._id === filterBy.hostId)
-    if(filterBy.label) stays = stays.filter(stay => stay.labels?.includes(filterBy.label))
-    if(filterBy.place) {
-      const regex = new RegExp(filterBy.place, 'i')
-      stays = stays.filter(stay => regex.test(stay.loc.address))
-    }
-    return stays
-  }
+  // private _filter(stays: Stay[], filterBy: StayFilter) {
+  //   if(filterBy.likeByUser) stays = stays.filter(stay => stay.likedByUsers.includes(filterBy.likeByUser))
+  //   if(filterBy.hostId) stays = stays.filter(stay => stay.host._id === filterBy.hostId)
+  //   if(filterBy.label) stays = stays.filter(stay => stay.labels?.includes(filterBy.label))
+  //   if(filterBy.place) {
+  //     const regex = new RegExp(filterBy.place, 'i')
+  //     stays = stays.filter(stay => regex.test(stay.loc.address))
+  //   }
+  //   return stays
+  // }
 
   public setFilter(filter: StayFilter) {
     this._stayFilter$.next(filter)
