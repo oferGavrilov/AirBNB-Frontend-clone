@@ -1,10 +1,9 @@
-import { Component, Input, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Stay } from 'src/app/models/stay.model';
-import { Observable, Subscription } from 'rxjs';
+import { Subscription } from 'rxjs';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UserService } from 'src/app/services/user.service';
-import { ActivatedRoute, NavigationEnd, Router, UrlSegment } from '@angular/router';
 
 @Component({
   selector: 'user',
@@ -22,8 +21,6 @@ export class UserComponent implements OnInit, OnDestroy {
   constructor(
     private userService: UserService,
     private stayService: StayService,
-    private route: ActivatedRoute,
-    private router: Router,
   ) { }
 
   ngOnInit() {

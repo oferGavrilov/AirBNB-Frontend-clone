@@ -35,7 +35,6 @@ export class HttpService {
       const option = {
         body: data,
       }
-      console.log('method:', `${this.BASE_URL}${endpoint}`)
       return this.http.request(method, `${this.BASE_URL}${endpoint}`,option)
     } catch (err: any) {
         console.log(`Had Issues ${method}ing to the backend, endpoint: ${endpoint}, with data: `, data)
