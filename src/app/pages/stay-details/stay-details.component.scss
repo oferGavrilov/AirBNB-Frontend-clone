@@ -16,6 +16,10 @@
     color: $header-text-color;
     padding-top: 24px;
 
+    @include for-mobile-layout {
+      flex-direction: column;
+    }
+
     .header-info {
       h1 {
         font-weight: 500;
@@ -89,6 +93,10 @@
     overflow: hidden;
     margin-top: 24px;
     height: 300px;
+
+    @include for-mobile-layout {
+      width: 350px;
+    }
 
     :first-child {
       grid-row: 1/3;
