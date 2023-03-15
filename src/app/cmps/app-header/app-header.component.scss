@@ -8,7 +8,6 @@ header {
     color: $header-text-color;
     border-bottom: 1px solid $border-color;
     color: $header-text-color;
-    position: relative;
     z-index: 7;
 
     .header-content {
@@ -58,7 +57,6 @@ header {
             padding: 5px 5px 5px 12px;
             width: 76px;
             border: 1px solid $border-color;
-
             transition: box-shadow .4s;
 
             img {
@@ -78,4 +76,17 @@ header {
             display: none;
         }
     }
+
+
+   @include for-mobile-layout {
+    .header-content{
+      .logo, nav {
+        display: none;
+      }
+
+      &.filter-active {
+        height: 250px;
+    }
+    }
+   }
 }

@@ -7,7 +7,7 @@
       <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
     </span>
   </div>
-  <div *ngIf="isHeaderFilterActive" tabindex="-1" (blur)="onBlur()" (window:scroll)="onToggleHeaderFilter()"
+  <div *ngIf="isHeaderFilterActive" (window:scroll)="onToggleHeaderFilter()"
     class="header-filter-active">
     <div [ngClass]="modalNav === 'region-modal' || modalNav === 'search-place-modal' ? 'where active' : 'where'"
       (click)="setModalNav('region-modal')">
@@ -42,7 +42,7 @@
         <span *ngIf="getGuests().length < 11">Search</span>
       </div>
     </div>
-    <header-filter-modal (focusout)="onBlur()" *ngIf="modalNav" [modalNav]="modalNav" (setModalNav)="setModalNav"
+    <header-filter-modal *ngIf="modalNav" [modalNav]="modalNav" (setModalNav)="setModalNav"
       [order]="order" [stayFilter]="stayFilter" [placeNameFilter]="searchFilter"
       (setSearchFilter)="setSearchFilter($event)"></header-filter-modal>
   </div>

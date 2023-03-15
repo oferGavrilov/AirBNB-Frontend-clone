@@ -4,6 +4,12 @@
 .search-place-modal {
   max-height: 425px;
   overflow-y: auto;
+
+  @include for-mobile-layout {
+    & {
+      max-height: 300px;
+    }
+   }
   li {
     display: flex;
     align-items: center;

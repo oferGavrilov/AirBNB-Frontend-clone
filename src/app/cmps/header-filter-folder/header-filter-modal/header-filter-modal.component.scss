@@ -15,8 +15,19 @@
   min-width: 350px;
   background-color: #ffffff;
 
-  &.right {
-    right: 0;
-    left: unset;
+  @include for-tablet-layout {
+    &.right {
+      right: 0;
+      left: unset;
+    }
   }
+
+  @include for-mobile-layout {
+    &{
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 435px;
+      width: 270px;
+    }
+   }
 }

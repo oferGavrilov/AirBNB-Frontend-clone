@@ -2,14 +2,44 @@
 @import '../../../../assets/styles/setup/mixins';
 @import '../../../../assets/styles/setup/function';
 
-::ng-deep airbnb-calendar{
+::ng-deep airbnb-calendar {
   top: 32px;
   right: 410px;
 }
 
+::ng-deep {
+  @include for-mobile-layout {
+    airbnb-calendar {
+      .airbnb-calendar-container {
+        width: 300px !important;
+        left: 259px !important;
+        top: 115px !important;
+        height: 306px !important;
+      }
+
+      .airbnb-calendar :nth-child(2) {
+        &:not(.calendar-day-names) {
+          &:not(.month-name) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .calendar {
+      width: 100% !important;
+    }
+  }
+}
+
+
+
 .header-filter {
   @include center-absolute();
+  top: 40px;
+  z-index: 10;
   transition: .4s;
+
   &.active {
     top: 135px;
   }
@@ -21,9 +51,9 @@
     border-radius: 40px;
     box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
     transition: box-shadow 0.2s ease;
-    // padding: 7px 10px;
     font-size: rem(14px);
   }
+
   .header-filter-close {
     min-width: 348px;
     height: 48px;
@@ -36,36 +66,38 @@
     }
 
     >* {
-        cursor: pointer;
-        padding: 0 16px;
-        font-weight: 600;
+      cursor: pointer;
+      padding: 0 16px;
+      font-weight: 600;
 
-        &:nth-child(2) {
-            border-right: 1px solid $border-color;
-            border-left: 1px solid $border-color;
-        }
+      &:nth-child(2) {
+        border-right: 1px solid $border-color;
+        border-left: 1px solid $border-color;
+      }
 
-        &:nth-child(3) {
-            color: $main-color;
-            font-weight: 400;
-        }
-        .icon-container {
-            @include center-flex();
-            background-color: $secondary-color;
-            border-radius: 50%;
-            height: 32px;
-            width: 32px;
-            color: #ffffff;
-        }
+      &:nth-child(3) {
+        color: $main-color;
+        font-weight: 400;
+      }
+
+      .icon-container {
+        @include center-flex();
+        background-color: $secondary-color;
+        border-radius: 50%;
+        height: 32px;
+        width: 32px;
+        color: #ffffff;
       }
     }
+  }
 
   .header-filter-active {
     height: 64px;
     position: relative;
     background-color: #ebebeb;
     height: 100%;
-    >*{
+
+    >* {
       display: flex;
       cursor: pointer;
       color: $main-color;
@@ -86,7 +118,7 @@
 
     .border {
       width: 1px;
-      background-color: darken($border-color, 5%) ;
+      background-color: darken($border-color, 5%);
       height: 60%;
     }
 
@@ -96,16 +128,19 @@
 
     #calender {
       width: 0;
+      height: 0;
       opacity: 0;
     }
 
     .where {
       width: 250px;
+
       input {
         font-size: 14px;
         color: $main-color;
         border: none;
         background-color: inherit;
+
         &:focus-visible {
           outline: none;
         }
@@ -116,6 +151,7 @@
       width: 300px;
       display: flex;
       justify-content: space-between;
+
       .add-guests {
         display: flex;
         padding: 11px 10px 11px 24px;
@@ -141,6 +177,48 @@
       font-size: 12px;
       font-weight: 600;
       padding-bottom: 6px;
+    }
+
+    @include for-mobile-layout {
+      & {
+        @include center-flex();
+        flex-direction: column;
+
+        >*:not(.who-guests, #calender, :last-child, .border) {
+          flex-direction: column;
+          padding: 6px 34px;
+        }
+
+        .where,
+        .date,
+        .add-guests {
+          @include center-flex();
+          width: 100%;
+        }
+
+        .where {
+          input {
+            width: 125px;
+          }
+        }
+
+        .who-guests {
+          justify-content: center;
+          position: relative;
+
+          .search {
+            justify-content: end;
+            padding: 15px 17px;
+            position: absolute;
+            right: 0;
+
+            span {
+              display: none;
+            }
+          }
+        }
+
+      }
     }
 
   }

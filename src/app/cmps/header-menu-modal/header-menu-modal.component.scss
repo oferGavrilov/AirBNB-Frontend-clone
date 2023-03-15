@@ -23,15 +23,15 @@
         border-bottom: 1px solid $border-color;
         padding-bottom: 12px;
     }
-    
+
     .bold {
         font-weight: 600;
     }
-    
+
     span {
         cursor: pointer;
         padding: 12px;
-        
+
         &:hover {
             background-color: $main-hover;
         }
