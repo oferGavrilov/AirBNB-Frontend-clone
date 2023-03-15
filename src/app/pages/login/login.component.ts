@@ -61,6 +61,7 @@ export class LoginComponent implements OnInit {
     const coords = type === 'signup' ? this.formSignup.value : this.formLogin.value
     const user = { ...coords, imgUrl: this.imgData.imgUrl }
     try {
+      console.log(this.isSignup)
       if (this.isSignup) await this.userService.signup(user)
       else await this.userService.login(coords)
       this.router.navigateByUrl('')
