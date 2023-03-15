@@ -9,9 +9,32 @@
     align-items: center;
     justify-content: space-between;
     background-color: white;
+
     img {
         width: 32px;
         cursor: pointer;
+    }
+
+    .about-us {
+        @include center-flex();
+        gap: 4px;
+        cursor: pointer;
+        transition: transform .2s , color .2s;
+
+        &:hover {
+            transform: scale(1.2);
+            h5{
+                color:$secondary-color;
+            }
+        }
+        h5{
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .icon {
+            color: $secondary-color;
+        }
     }
 
     .login-container {
@@ -19,12 +42,12 @@
         align-items: center;
         gap: 24px;
 
-        .title{
+        .title {
             color: $header-text-color;
             font-weight: 500;
         }
 
-        button{
+        button {
             @include center-flex();
             background-color: $secondary-color;
             border: none;
@@ -37,7 +60,7 @@
             border-radius: 12px;
             cursor: pointer;
 
-            svg{
+            svg {
                 font-size: 22px;
             }
         }

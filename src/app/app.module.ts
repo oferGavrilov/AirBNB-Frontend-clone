@@ -50,6 +50,7 @@ import { MatToolbarModule } from '@angular/material/toolbar'
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { LoaderComponent } from './cmps/loader/loader.component';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -89,6 +90,7 @@ import { LoaderComponent } from './cmps/loader/loader.component';
     PurchaseIndicationComponent,
     UserWishlistComponent,
     LoaderComponent,
+    AboutComponent,
   ],
   imports: [
     FormsModule,

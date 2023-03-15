@@ -10,5 +10,4 @@ import { StayService } from 'src/app/services/stay.service';
   styleUrls: ['./home-header.component.scss']
 })
 export class HomeHeaderComponent {
-
 }

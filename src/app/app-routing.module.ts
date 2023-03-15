@@ -13,6 +13,7 @@ import { UserTripsComponent } from './cmps/user-trips/user-trips.component';
 import { UserOrderComponent } from './cmps/user-order/user-order.component';
 import { UserStaysComponent } from './cmps/user-stays/user-stays.component';
 import { UserWishlistComponent } from './cmps/user-wishlist/user-wishlist.component';
+import { AboutComponent } from './pages/about/about.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'user', component: UserComponent, canActivate: [AuthGuard] , children:[
@@ -24,12 +25,13 @@ const routes: Routes = [
     {path:'wishlist', component: UserWishlistComponent},
   ] },
   { path: 'login', component: LoginComponent },
+  { path: 'about', component: AboutComponent },
   {
     path: ':stayId',
     component: StayDetailsComponent,
     resolve: { stay: StayResolver }
   },
-  { path: '', component: StayIndexComponent },
+  { path: '', component: StayIndexComponent},
 ]
 
 @NgModule({
