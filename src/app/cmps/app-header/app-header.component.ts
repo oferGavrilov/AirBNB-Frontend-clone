@@ -1,11 +1,11 @@
-import { Component } from '@angular/core'
+import { Component, ViewEncapsulation } from '@angular/core'
 import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
 import { UserService } from 'src/app/services/user.service'
 
 @Component({
   selector: 'app-header',
   templateUrl: './app-header.component.html',
-  styleUrls: ['./app-header.component.scss']
+  styleUrls: ['./app-header.component.scss'],
 })
 export class AppHeaderComponent {
 

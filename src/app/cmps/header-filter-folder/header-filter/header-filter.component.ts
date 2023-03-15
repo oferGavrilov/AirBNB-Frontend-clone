@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output, OnInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
+import { Component, EventEmitter, Input, Output, OnInit, OnDestroy, ViewChild, ElementRef, ViewEncapsulation } from '@angular/core';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { Order } from 'src/app/models/order.model';
 import { OrderService } from 'src/app/services/order.service';
@@ -71,7 +71,6 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
 
   setModalNav(val: string) {
     this.modalNav = val
-    this.isBlur = true
   }
 
   onSetWhereSearch(val: string) {
@@ -82,16 +81,10 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
 
   onClickDate(val: string) {
     this.modalNav = val
-    this.isBlur = true
   }
 
   onClickGuests(val: string) {
     this.setModalNav(val)
-  }
-
-  onBlur() {
-    console.log('out:')
-    if(!this.isBlur) this.onToggleHeaderFilter()
   }
 
   onClickSearch() {

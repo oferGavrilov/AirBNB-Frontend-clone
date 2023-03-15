@@ -1,4 +1,5 @@
 @import '../../../../assets/styles/setup/variables';
+@import '../../../../assets/styles/setup/mixins';
 
 .region-modal {
   display: flex;
@@ -25,4 +26,11 @@
       height: 122px;
     }
   }
+
+  @include for-mobile-layout {
+    .img-container img {
+      width: 90px;
+      height: 90px;
+    }
+   }
 }
