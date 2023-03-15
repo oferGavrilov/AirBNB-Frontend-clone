@@ -26,6 +26,10 @@ export class StayIndexComponent implements OnInit, OnDestroy {
     window.addEventListener('scroll', () => this.onScroll())
   }
 
+  onPageUp() {
+    window.scrollTo(0,0)
+  }
+
   onScroll() {
     if (window.scrollY >= 150) {
       this.isShowScroller = true

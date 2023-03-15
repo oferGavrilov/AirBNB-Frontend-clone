@@ -9,6 +9,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'login',
@@ -35,9 +36,11 @@ export class LoginComponent implements OnInit {
       password: ['', [Validators.required, Validators.minLength(3)]]
     })
   }
+  faUser = faUser
   facebook = faFacebookF
   twitter = faTwitter
   google = faGoogle
+
   formSignup !: FormGroup
   formLogin !: FormGroup
   user!: User
@@ -76,5 +79,5 @@ export class LoginComponent implements OnInit {
     this.isSignup = !this.isSignup
   }
 
-  
+
 }
