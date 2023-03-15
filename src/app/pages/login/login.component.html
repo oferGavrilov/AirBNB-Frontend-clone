@@ -9,7 +9,6 @@
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <span>or use your email for registration</span>
-
                 <input formControlName="fullname" id="fullname" class="form-control" placeholder="Full name">
                 <div *ngIf="formSignup.controls['fullname'].invalid && (formSignup.controls['fullname'].dirty || formSignup.controls['fullname'].touched)"
                     class="alert alert-danger">
@@ -20,7 +19,6 @@
                         Full name must be at least 3 characters long.
                     </div>
                 </div>
-
                 <input formControlName="username" type="text" id="username" placeholder="User name" />
                 <div *ngIf="formSignup.controls['username'].invalid && (formSignup.controls['username'].dirty || formSignup.controls['username'].touched)"
                     class="alert alert-danger">
@@ -31,7 +29,6 @@
                         User name must be at least 3 characters long.
                     </div>
                 </div>
-
                 <input formControlName="password" id="password" placeholder="Password" required />
                 <div *ngIf="formSignup.controls['password'].invalid && (formSignup.controls['password'].dirty || formSignup.controls['password'].touched)"
                     class="alert alert-danger">
@@ -42,7 +39,6 @@
                         Password must be at least 3 characters long.
                     </div>
                 </div>
-
                 <div class="upload-preview">
                     <div class='img-picker'>
                         <label htmlFor="imgUpload">
@@ -75,7 +71,6 @@
                         User name must be at least 3 characters long.
                     </div>
                 </div>
-
                 <input formControlName="password" id="password" placeholder="Password" required />
                 <div *ngIf="formLogin.controls['password'].invalid && (formLogin.controls['password'].dirty || formLogin.controls['password'].touched)"
                     class="alert alert-danger">
@@ -86,7 +81,6 @@
                         Password must be at least 3 characters long.
                     </div>
                 </div>
-
                 <a>Forgot your password?</a>
                 <button [disabled]="formLogin.pristine || formLogin.invalid">Login</button>
             </form>
