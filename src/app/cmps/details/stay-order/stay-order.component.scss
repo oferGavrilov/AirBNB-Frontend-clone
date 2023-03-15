@@ -6,45 +6,24 @@
   right: 703px;
   display: flex;
   flex-direction: column;
-
-  // .airbnb-calendar-container{
-  // }
-
-  div {
-    padding: 0 0;
-  }
-  // :first-child {
-  //   width: 60%;
-  //   :first-child {
-  //     padding: 0;
-  //     border-radius: 8px;
-  //     >* {
-  //       float: right;
-  //       padding: unset;
-  //     }
-  //   }
-  // }
 }
-
-::ng-deep .airbnb-calendar-container[_ngcontent-utb-c73] {
-  background-color: #D70466;
-}
-
 
 .stay-order {
     position: sticky;
     top: 86px;
-
     .order-content {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid rgb(221, 221, 221);
-        border-radius: 12px;
-        padding: 24px;
-        box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
-        color: $header-text-color;
-        min-width: 350px;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgb(221, 221, 221);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+      color: $header-text-color;
+      min-width: 350px;
 
+      @include for-mobile-layout {
+       margin: 20px 0;
+      }
         .stay-order-header {
             display: flex;
             align-items: center;
@@ -154,6 +133,8 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: 0 12px;
+                border-top: 1px solid gray;
+                width: 100%;
 
                 button {
                     display: flex;
@@ -162,12 +143,7 @@
                     padding: 0;
                     text-align: left;
                 }
-
-                border-top: 1px solid gray;
-                width: 100%;
             }
-
-
         }
 
         .order-btn {
@@ -222,6 +198,9 @@
         border-radius: 12px;
         padding: 24px;
         margin-top: 24px;
+        @include for-mobile-layout {
+          display: none;
+         }
 
         p {
             width: 80%;
@@ -231,6 +210,5 @@
                 font-weight: 600;
             }
         }
-
     }
 }

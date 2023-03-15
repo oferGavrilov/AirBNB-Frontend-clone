@@ -1,12 +1,15 @@
+@import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
+
 .map{
     -webkit-border-radius: 30px;
     // -webkit-box-shadow: 8px 8px 16px #323834;
     border-radius: 12px;
-
-
+    @include for-mobile-layout {
+      margin: 0 5px;
+    }
 }
 google-map {
-
     .map-container {
         border-radius: 24px !important;
     }

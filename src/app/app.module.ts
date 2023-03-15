@@ -49,7 +49,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { LoaderComponent } from './cmps/loader/loader.component'
+import { LoaderComponent } from './cmps/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -88,7 +88,7 @@ import { LoaderComponent } from './cmps/loader/loader.component'
     HeaderFilterGuestModalComponent,
     PurchaseIndicationComponent,
     UserWishlistComponent,
-    LoaderComponent
+    LoaderComponent,
   ],
   imports: [
     FormsModule,

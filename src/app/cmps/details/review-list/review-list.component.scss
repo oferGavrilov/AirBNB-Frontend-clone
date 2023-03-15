@@ -4,6 +4,10 @@
 .review-list {
   padding: 32px 0;
   border-bottom: 1px solid $border-color;
+  @include for-mobile-layout {
+    border-top: 1px solid $border-color;
+    margin: 20px 5px;
+  }
   .reviews-header {
     display: flex;
     align-items: center;
@@ -51,6 +55,9 @@
             height: 4px;
             display: block;
           }
+          @include for-mobile-layout {
+            width: 30px;
+          }
         }
       }
     }
@@ -60,5 +67,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px 8%;
+    @include for-mobile-layout {
+      grid-template-columns: 1fr;
+    }
   }
 }
