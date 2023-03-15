@@ -6,6 +6,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { User } from 'src/app/models/user.model';
 import { UploadImgService } from 'src/app/services/upload-img.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 
 @Component({
   selector: 'login',
@@ -13,7 +16,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   styleUrls: ['./login.component.scss']
 })
 
-export class LoginComponent implements OnInit{
+export class LoginComponent implements OnInit {
   @ViewChild('container') container: any
 
   constructor(
@@ -32,7 +35,9 @@ export class LoginComponent implements OnInit{
       password: ['', [Validators.required, Validators.minLength(3)]]
     })
   }
-
+  facebook = faFacebookF
+  twitter = faTwitter
+  google = faGoogle
   formSignup !: FormGroup
   formLogin !: FormGroup
   user!: User
@@ -67,12 +72,9 @@ export class LoginComponent implements OnInit{
     this.imgData = { imgUrl: secure_url, width, height }
   }
 
-  onSignupPage() {
-    this.isSignup = true
-    this.container.nativeElement.classList.add("right-panel-active");
+  onToggleSign() {
+    this.isSignup = !this.isSignup
   }
-  onSigninPage() {
-    this.isSignup = false
-    this.container.nativeElement.classList.remove("right-panel-active");
-  }
+
+  
 }

@@ -1,6 +1,6 @@
-<section class="login-page">
+<!-- <section class="login-page">
     <div #container class="container" id="container">
-        <div class="form-container sign-up-container">
+        <div  class="form-container sign-up-container">
             <form [formGroup]="formSignup" (ngSubmit)="onSubmit('signup')" novalidate>
                 <h1 class="title">Create Account</h1>
                 <div class="social-container">
@@ -51,7 +51,8 @@
                 <button [disabled]="formSignup.pristine || formSignup.invalid">Sign Up</button>
             </form>
         </div>
-        <div class="form-container sign-in-container">
+
+        <div  class="form-container sign-in-container">
             <form [formGroup]="formLogin" (ngSubmit)="onSubmit('login')" novalidate>
                 <h1 class="title">Sign in</h1>
                 <div class="social-container">
@@ -99,5 +100,116 @@
                 </div>
             </div>
         </div>
+    </div>
+</section> -->
+
+
+<section class="login-page">
+    <div *ngIf="!isSignup" class="signup-container">
+        <div class="header">
+            <h1>Create an Account</h1>
+            <p>Get started for free!</p>
+        </div>
+        <form [formGroup]="formSignup" (ngSubmit)="onSubmit('signup')" novalidate>
+            <div class="input-container">
+                <span class="icon material-symbols-outlined">account_circle</span>
+                <input formControlName="fullname" id="fullname" class="form-control" placeholder="Full name" />
+            </div>
+            <div *ngIf="formSignup.controls['fullname'].invalid && (formSignup.controls['fullname'].dirty || formSignup.controls['fullname'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="formSignup.controls['fullname'].errors?.['required']">
+                    Full name is required.
+                </div>
+                <div *ngIf="formSignup.controls['fullname'].errors?.['minlength']">
+                    Full name must be at least 3 characters long.
+                </div>
+            </div>
+            <div class="input-container">
+                <span class="icon material-symbols-outlined">mail</span>
+                <input formControlName="username" type="text" id="username" placeholder="User name" />
+            </div>
+            <div *ngIf="formSignup.controls['username'].invalid && (formSignup.controls['username'].dirty || formSignup.controls['username'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="formSignup.controls['username'].errors?.['required']">
+                    User name is required.
+                </div>
+                <div *ngIf="formSignup.controls['username'].errors?.['minlength']">
+                    User name must be at least 3 characters long.
+                </div>
+            </div>
+            <div class="input-container">
+                <span class="icon material-symbols-outlined">key</span>
+                <input formControlName="password" id="password" placeholder="Password" required />
+            </div>
+            <div *ngIf="formSignup.controls['password'].invalid && (formSignup.controls['password'].dirty || formSignup.controls['password'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="formSignup.controls['password'].errors?.['required']">
+                    Password is required.
+                </div>
+                <div *ngIf="formSignup.controls['password'].errors?.['minlength']">
+                    Password must be at least 3 characters long.
+                </div>
+            </div>
+            <div class="upload-preview">
+                <div class='img-picker'>
+                    <label htmlFor="imgUpload">
+                        <img *ngIf="!imgData.imgUrl" class="guest-img" src="assets/img/guest.png" alt="" />
+                        <img *ngIf="imgData.imgUrl" class="user-img" [src]="imgData.imgUrl" alt="" />
+                        <input type="file" (change)="uploadImg($event)" accept="img/*" id="imgUpload" />
+                    </label>
+                </div>
+            </div>
+            <button class="signup-btn" [disabled]="formSignup.pristine || formSignup.invalid">Sign Up</button>
+        </form>
+        <p>Or sign up with</p>
+        <div class="social-icons">
+            <fa-icon class="social-icon facebook" [icon]="facebook"></fa-icon>
+            <fa-icon class="social-icon twitter" [icon]="twitter"></fa-icon>
+            <fa-icon class="social-icon google" [icon]="google"></fa-icon>
+        </div>
+        <p>Already have an account <span class="toggle-btn" (click)="isSignup = true">sign in</span></p>
+    </div>
+
+    <div *ngIf="isSignup" class="login-container">
+        <div class="header">
+            <h1>Sign in</h1>
+            <p>Welcome back</p>
+        </div>
+        <form [formGroup]="formLogin" (ngSubmit)="onSubmit('signup')" novalidate>
+            <div class="input-container">
+                <span class="icon material-symbols-outlined">mail</span>
+                <input formControlName="username" type="text" id="username" placeholder="User name" />
+            </div>
+            <div *ngIf="formLogin.controls['username'].invalid && (formLogin.controls['username'].dirty || formLogin.controls['username'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="formLogin.controls['username'].errors?.['required']">
+                    User name is required.
+                </div>
+                <div *ngIf="formLogin.controls['username'].errors?.['minlength']">
+                    User name must be at least 3 characters long.
+                </div>
+            </div>
+            <div class="input-container">
+                <span class="icon material-symbols-outlined">key</span>
+                <input formControlName="password" id="password" placeholder="Password" required />
+            </div>
+            <div *ngIf="formLogin.controls['password'].invalid && (formLogin.controls['password'].dirty || formLogin.controls['password'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="formLogin.controls['password'].errors?.['required']">
+                    Password is required.
+                </div>
+                <div *ngIf="formLogin.controls['password'].errors?.['minlength']">
+                    Password must be at least 3 characters long.
+                </div>
+            </div>
+            <button class="signup-btn" [disabled]="formLogin.pristine || formLogin.invalid"> Sign Up</button>
+        </form>
+        <p>Or sign in with</p>
+        <div class="social-icons">
+            <fa-icon class="social-icon facebook" [icon]="facebook"></fa-icon>
+            <fa-icon class="social-icon twitter" [icon]="twitter"></fa-icon>
+            <fa-icon class="social-icon google" [icon]="google"></fa-icon>
+        </div>
+        <p>Not member yet ? <span class="toggle-btn" (click)="isSignup = !isSignup">sign up</span></p>
     </div>
 </section>
