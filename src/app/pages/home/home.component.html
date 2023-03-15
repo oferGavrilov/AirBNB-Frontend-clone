@@ -1,16 +1,4 @@
-<section class="home main-layout">
+<section class="home">
     <home-header></home-header>
-    <section class="teaser-section">
-        <div class="teaser">
-            <h2>
-                <p>Airbnb it.</p>
-                You could earn
-            </h2>
-            <h2 class="amount">£{{amount | number:''}}</h2>
-            <p class="teaser-info"><a>{{getSumOfNights()}} nights</a> at an estimated £193 at night</p>
-            <input type="range" max="5778" min="193" value="amount" (change)="onChangeAmount($event)">
-            <p class="teaser-description">Learn how we estimate your earnings</p>
-        </div>
-    </section>
 </section>
 

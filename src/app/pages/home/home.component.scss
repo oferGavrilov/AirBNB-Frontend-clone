@@ -2,64 +2,9 @@
 @import '../../../assets/styles/setup/mixins';
 
 .home {
-    height: 150vh;
-    .teaser-section {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-
-        .teaser {
-            margin-top: 160px;
-            color: $header-text-color;
-            word-spacing: 4px;
-
-            h1 {
-                line-height: 52px;
-                line-break: strict;
-                font-size: 48px;
-                font-weight: 500;
-                margin-bottom: 24px;
-
-                p {
-                    color: $secondary-color;
-                    margin: 0;
-                }
-            }
-
-            .amount {
-                margin-bottom: 24px;
-                font-size: 72px;
-                line-height: 72px;
-                letter-spacing: 5px;
-            }
-
-            .teaser-info {
-                margin-bottom: 28px;
-                line-height: 22px;
-
-                a {
-                    text-decoration: underline;
-                }
-            }
-
-            input {
-                width: 100%;
-                height: 40px;
-            }
-
-
-            .teaser-description {
-                text-decoration: underline;
-                color: $main-color;
-                cursor: pointer;
-            }
-        }
-
-        // @include for-normal-layout() {
-        //     &{
-        //         flex-direction: row;
-        //     }
-        // }
-    }
+    background-image: url('../../../assets/img/home-page2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 

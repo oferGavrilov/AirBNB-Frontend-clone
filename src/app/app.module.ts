@@ -52,6 +52,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { LoaderComponent } from './cmps/loader/loader.component';
 import { AboutComponent } from './pages/about/about.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -96,6 +97,7 @@ import { AboutComponent } from './pages/about/about.component';
     FormsModule,
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     FontAwesomeModule,
     HttpClientModule,
     NgMultiSelectDropDownModule,
@@ -106,7 +108,6 @@ import { AboutComponent } from './pages/about/about.component';
     ReactiveFormsModule,
     MatSelectModule,
     MatMenuModule,
-    BrowserAnimationsModule,
     MatToolbarModule,
     ReactiveFormsModule,
     MatSnackBarModule

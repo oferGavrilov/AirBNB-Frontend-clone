@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
-import { Stay } from 'src/app/models/stay.model';
-
-import { StayService } from 'src/app/services/stay.service';
+import { UserService } from 'src/app/services/user.service';
+import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'home-header',
@@ -10,4 +8,25 @@ import { StayService } from 'src/app/services/stay.service';
   styleUrls: ['./home-header.component.scss']
 })
 export class HomeHeaderComponent {
+
+  constructor(private userService: UserService) { }
+  faGlobe = faGlobe
+  faBars = faBars
+  isShowHeaderMenuModal = false
+  isHeaderFilterActive = false
+
+  onToggleHeaderMenuModal() {
+    this.isShowHeaderMenuModal = !this.isShowHeaderMenuModal
+    console.log(this.isShowHeaderMenuModal)
+  }
+
+  toggleHeaderFilter() {
+    this.isHeaderFilterActive = !this.isHeaderFilterActive
+  }
+
+  getUserImg() {
+    const user = this.userService.getUser()
+    if (user?.imgUrl) return user.imgUrl
+    return 'assets/img/guest.png'
+  }
 }

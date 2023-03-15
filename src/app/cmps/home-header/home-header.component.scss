@@ -8,32 +8,38 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    color: white;
+    background-color: #ffffff80;
+    padding: 0 80px;
+    font-size: 20px;
 
-    img {
-        width: 32px;
+    .logo {
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        color: $secondary-color;
+        height: 42px;
+
+        img {
+            width: 35px;
+        }
     }
 
     .about-us {
         @include center-flex();
         gap: 4px;
         cursor: pointer;
-        transition: transform .2s , color .2s;
+        padding: 10px 16px;
+        border-radius: 12px;
+        transition: transform .2s, color .2s;
 
         &:hover {
-            transform: scale(1.2);
-            h5{
-                color:$secondary-color;
-            }
-        }
-        h5{
-            font-weight: 500;
-            font-size: 16px;
+            background-color: #e9e1e148;
         }
 
-        .icon {
-            color: $secondary-color;
+        h5 {
+            font-weight: 500;
+            font-size: 18px;
         }
     }
 
@@ -43,16 +49,13 @@
         gap: 24px;
 
         .title {
-            color: $header-text-color;
-            font-weight: 500;
+            font-weight: 600;
         }
 
-        button {
+        .explore {
             @include center-flex();
-            background-color: $secondary-color;
             border: none;
             padding: 10px 16px;
-            width: 200px;
             color: white;
             font-size: 18px;
             font-weight: 600;
@@ -63,6 +66,35 @@
             svg {
                 font-size: 22px;
             }
+
+            transition: transform .2s;
+
+            &:hover {
+                background-color: #e9e1e148;
+            }
+        }
+    }
+    .menu {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 5px 5px 12px;
+        width: 76px;
+        background-color: white;
+        border-radius: 12px;
+        transition: box-shadow .4s;
+        color: $black;
+        cursor: pointer;
+
+        img {
+            border-radius: 2em;
+            width: 29px;
+            height: 29px;
+        }
+
+        &:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
         }
     }
 }
