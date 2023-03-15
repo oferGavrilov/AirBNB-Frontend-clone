@@ -5,6 +5,13 @@
   font-family: $main-font;
   padding-bottom: 50px;
 
+  @include for-mobile-layout {
+    .main-layout {
+      display: unset;
+    }
+  }
+
+
   &.reserve-click {
     filter: blur(2px);
     cursor: not-allowed;
@@ -15,10 +22,6 @@
     justify-content: space-between;
     color: $header-text-color;
     padding-top: 24px;
-
-    @include for-mobile-layout {
-      flex-direction: column;
-    }
 
     .header-info {
       h1 {
@@ -82,6 +85,22 @@
         }
       }
     }
+
+    @include for-mobile-layout {
+      flex-direction: column;
+      width: 100%;
+      padding: 10px 5px;
+      .header-info {
+        @include center-flex();
+        flex-direction: column;
+        .loc, .point {
+          display: none;
+        }
+        .reviews {
+          margin-left: 20px;
+        }
+      }
+    }
   }
 
   .img-container {
@@ -95,7 +114,7 @@
     height: 300px;
 
     @include for-mobile-layout {
-      width: 350px;
+      width: 100%;
     }
 
     :first-child {
@@ -126,7 +145,10 @@
     }
   }
 
-  .sticky-header {
+  .secondary-header {
+    @include for-mobile-layout {
+      display: none;
+    }
     box-shadow: rgb(0 0 0 / 10%) 0px 1px 0px;
     background-color: #fff;
     z-index: 3;
@@ -186,15 +208,23 @@
     display: flex;
     padding-top: 48px;
     gap: 10%;
+    @include for-mobile-layout {
+      flex-direction: column;
+      gap: unset;
+    }
   }
-
 
   .subtitle {
     @include center-flex();
     justify-content: space-between;
     border-bottom: 1px solid $border-color;
     padding-bottom: 24px;
-
+    @include for-mobile-layout {
+      margin: 0 5px;
+      img {
+        display: none;
+      }
+    }
     .subtitle-content {
       h2 {
         font-size: 22px;
@@ -213,7 +243,6 @@
         }
       }
     }
-
     img {
       width: 56px;
       height: 56px;
@@ -234,6 +263,9 @@
       span {
         color: $secondary-color;
       }
+    }
+    @include for-mobile-layout {
+      margin: 0 5px;
     }
   }
 
@@ -259,5 +291,8 @@
     line-height: 20px;
     padding: 32px 0;
     border-bottom: 1px solid $border-color;
+    @include for-mobile-layout {
+      margin: 0 5px;
+    }
   }
 }

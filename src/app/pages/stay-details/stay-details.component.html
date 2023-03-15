@@ -30,8 +30,7 @@
     <div class="img-container">
       <img *ngFor="let imgUrl of stay.imgUrls" class="img" [src]="imgUrl" alt="">
     </div>
-    <!-- TODO: Export to component -->
-    <div *ngIf="isShowHeader" class="sticky-header full">
+    <div *ngIf="isShowHeader" class="secondary-header full">
       <div class="main-layout">
         <div class="header-content">
           <nav>
@@ -55,7 +54,6 @@
         </div>
       </div>
     </div>
-    <!--  -->
     <div #element class="stay-order-info">
       <div class="stay-information">
         <div class="subtitle">
@@ -83,9 +81,9 @@
         </div>
         <amenities-list id="amenities" [stay]="stay"></amenities-list>
       </div>
-      <!-- <stay-order (addOrder)="addOrder()" [order]="order" [stay]="stay"></stay-order> -->
+      <stay-order (addOrder)="addOrder()" [order]="order" [stay]="stay"></stay-order>
     </div>
-    <!-- <review-list id="reviews" [stay]="stay"></review-list> -->
+    <review-list id="reviews" [stay]="stay"></review-list>
     <div class="google-map" id="location">
       <h2>Where you'll be</h2>
       <span class="address">{{stay.loc.address}}</span>
