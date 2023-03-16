@@ -84,6 +84,7 @@
       <stay-order (addOrder)="addOrder()" [order]="order" [stay]="stay"></stay-order>
     </div>
     <review-list id="reviews" [stay]="stay"></review-list>
+    <add-review [stay]="stay"></add-review>
     <div class="google-map" id="location">
       <h2>Where you'll be</h2>
       <span class="address">{{stay.loc.address}}</span>

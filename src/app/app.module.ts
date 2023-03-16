@@ -51,7 +51,8 @@ import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { LoaderComponent } from './cmps/loader/loader.component';
 import { AboutComponent } from './pages/about/about.component';
-
+import { AddReviewComponent } from './cmps/details/add-review/add-review.component';
+import { NgxStarRatingModule } from 'ngx-star-rating';
 
 @NgModule({
   declarations: [
@@ -92,6 +93,7 @@ import { AboutComponent } from './pages/about/about.component';
     UserWishlistComponent,
     LoaderComponent,
     AboutComponent,
+    AddReviewComponent,
   ],
   imports: [
     FormsModule,
@@ -110,7 +112,8 @@ import { AboutComponent } from './pages/about/about.component';
     MatMenuModule,
     MatToolbarModule,
     ReactiveFormsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    NgxStarRatingModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],

@@ -1,6 +1,6 @@
 import { Injectable, OnInit } from '@angular/core';
 import { BehaviorSubject, Observable, of, throwError } from 'rxjs';
-import { Stay, StayFilter } from '../models/stay.model';
+import { Review, Stay, StayFilter } from '../models/stay.model';
 import { HttpService } from './http.service';
 import { UtilService } from './util.service';
 import { lastValueFrom } from 'rxjs';
@@ -115,6 +115,18 @@ export class StayService {
     if (filterBy.place) params += `place=${filterBy.place}`
     return params
   }
+
+  public getEmptyReview(): Review {
+    return {
+        "at": Date.now(),
+        "by": {
+          "_id": '',
+          "fullname": '',
+          "imgUrl": '',
+        },
+        "txt": ''
+  }
+}
 
   private _createStays() {
     let stays = this.utilService.loadFromStorage(this.STAY_KEY)

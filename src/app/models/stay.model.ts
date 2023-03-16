@@ -42,9 +42,7 @@ export interface googleMapLoc {
 
 export interface Review {
     at: number
-    id: string,
     txt: string,
-    rate: number,
     by: {
         _id: string,
         fullname: string,
