@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { UserService } from 'src/app/services/user.service';
 import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -9,6 +9,7 @@ import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
 })
 export class HomeHeaderComponent {
 
+  @Input() isTopZero!: boolean
   constructor(private userService: UserService) { }
   faGlobe = faGlobe
   faBars = faBars

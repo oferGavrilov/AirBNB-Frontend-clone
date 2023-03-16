@@ -65,7 +65,7 @@
             <span>{{order.totalPrice | currency}}</span>
             <span>{{order.status}}</span>
             <span>
-                <img src="assets/img/{{order.status}}.png" alt="">
+                <img src="assets/img/user/{{order.status}}.png" alt="">
             </span>
             <span class="actions-btns">
                 <button class="approve" (click)="onChangeStatus('approve' , order)">Approve</button>
@@ -96,5 +96,5 @@
 
 <div *ngIf="!this.loader.getLoading() && !ordersToShow?.length" class="empty-orders">
     <h2>No orders yet</h2>
-    <img src="assets/img/order.png" alt="orders">
+    <img src="assets/img/user/order.png" alt="orders">
 </div>

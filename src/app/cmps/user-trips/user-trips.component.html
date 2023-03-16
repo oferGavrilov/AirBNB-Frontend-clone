@@ -65,7 +65,7 @@
             <span>{{order.totalPrice | currency}}</span>
             <span>{{order.status}}</span>
             <span>
-                <img src="assets/img/{{order.status}}.png" alt="">
+                <img src="assets/img/user/{{order.status}}.png" alt="">
             </span>
         </div>
         <div class="paging">
@@ -92,5 +92,5 @@
 <div *ngIf="!this.loader.getLoading() && !ordersToShow?.length" class="empty-trips">
     <h2>No trips yet</h2>
     <p>Find your next trip <a href="#">here</a></p>
-    <img src="assets/img/trips.png" alt="trips">
+    <img src="assets/img/user/trips.png" alt="trips">
 </div>

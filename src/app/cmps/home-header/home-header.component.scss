@@ -2,17 +2,25 @@
 @import '../../../assets/styles/setup/mixins';
 
 .home-header {
-    position: sticky;
+    position: fixed;
+    width: 100vw;
     top: 0;
     height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     color: white;
     background-color: #ffffff80;
-    padding: 0 80px;
     font-size: 20px;
-
+    transition: background-color .3s , color .3s;
+    
+    &.scrolled {
+        background-color: white;
+        color: $black;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
     .logo {
         cursor: pointer;
         display: flex;
@@ -31,7 +39,7 @@
         cursor: pointer;
         padding: 10px 16px;
         border-radius: 12px;
-        transition: transform .2s, color .2s;
+        transition: transform .2s;
 
         &:hover {
             background-color: #e9e1e148;
@@ -56,7 +64,6 @@
             @include center-flex();
             border: none;
             padding: 10px 16px;
-            color: white;
             font-size: 18px;
             font-weight: 600;
             gap: 6px;
@@ -83,6 +90,7 @@
         width: 76px;
         background-color: white;
         border-radius: 12px;
+        border: 1px solid lightgray;
         transition: box-shadow .4s;
         color: $black;
         cursor: pointer;

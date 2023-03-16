@@ -10,11 +10,11 @@
         padding: 16px 0;
 
         span {
+            @include center-flex();
             cursor: pointer;
             font-size: 14px;
             font-weight: 600;
             border-radius: 6px;
-            padding: 10px 0;
             min-width: 180px;
             flex-grow: 1;
             text-align: center;
@@ -22,7 +22,8 @@
             transition: .2s;
             text-transform: uppercase;
             color: rgb(62, 54, 54);
-
+            height: 37px;
+            
             &:hover {
                 background-color: darken($main-hover, 5%);
                 color: $secondary-color;
@@ -33,6 +34,9 @@
                 background-color: $secondary-color;
             }
         }
+      }
+      main{
+        min-height: calc(100vh - 491px);
       }
 
     @media print {

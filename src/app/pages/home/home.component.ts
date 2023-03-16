@@ -5,7 +5,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  
+
+  isTopZero: boolean = false
+
+  onScroll() {
+    this.isTopZero = window.pageYOffset !== 0  
+  }
 }
 
 

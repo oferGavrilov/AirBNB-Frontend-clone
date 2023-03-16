@@ -1,14 +1,15 @@
-<section class="home-header">
-    <div class="logo" routerLink="/">
-        <img src="assets/img/logo.png" alt="">
-        <h3>airbnb</h3>
-    </div>
-    <div class="login-container">
-        <div class="about-us" routerLink="/about">
-            <span class="icon material-symbols-outlined">info</span>
-            <h5>About Us</h5>
+<section [ngClass]="isTopZero ? 'scrolled' : ''" class="home-header main-layout full">
+    <div class="content">
+        <div class="logo" routerLink="/">
+            <img src="assets/img/logo.png" alt="">
+            <h3>airbnb</h3>
         </div>
-        <div class="explore" routerLink="/">
+        <div class="login-container">
+            <div class="about-us" routerLink="/about">
+                <span class="icon material-symbols-outlined">info</span>
+                <h5>About Us</h5>
+            </div>
+            <div class="explore" routerLink="/">
             <span>Explore</span>
         </div>
         <div class="menu" (click)="onToggleHeaderMenuModal()">
@@ -16,6 +17,7 @@
             <img [src]="getUserImg()" alt="">
         </div>
     </div>
+</div>
 </section>
 <header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()"
     *ngIf="isShowHeaderMenuModal"></header-menu-modal>

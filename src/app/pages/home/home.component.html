@@ -1,4 +1,15 @@
-<section class="home">
-    <home-header></home-header>
+<section (window:scroll)="onScroll()" class="home">
+    <div class="teaser">
+        <home-header [isTopZero]="isTopZero"></home-header>
+    </div>
+    <main class="main-layout">
+        <div class="become-host">
+            <div class="content">
+                <h2>Try hosting</h2>
+                <p>Earn extra income and unlock new opportunities by sharing your space</p>
+                <button>Become Host</button>
+            </div>
+        </div>
+    </main>
 </section>
 
