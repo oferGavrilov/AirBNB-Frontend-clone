@@ -90,3 +90,6 @@ header {
     }
    }
 }
+::ng-deep .header-menu-modal{
+    position: absolute !important;
+}

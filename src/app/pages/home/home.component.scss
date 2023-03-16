@@ -2,8 +2,13 @@
 @import '../../../assets/styles/setup/mixins';
 
 .home {
-    height: 250vh;
 
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
     .teaser {
         height: 100vh;
         background-image: url('../../../assets/img/home/home-page.jpg');
@@ -13,15 +18,13 @@
     }
 
     .become-host {
-        height: 450px;
-        background-image: url('../../../assets/img/home/become-host.jpg');
-        background-position: 50%;
-        background-repeat: no-repeat;
-        background-size: cover;
         display: flex;
         align-items: center;
         border-radius: 12px;
-        padding: 100px;
+
+        img {
+            border-radius: 12px;
+        }
 
         .content {
             color: white;
@@ -29,12 +32,15 @@
             display: flex;
             flex-direction: column;
             gap: 12px;
+            margin-left: 24px;
+            position: absolute;
 
             h2 {
                 font-size: 3rem;
                 font-weight: 500;
             }
-            p{
+
+            p {
                 max-width: 300px;
                 font-size: 18px
             }
@@ -42,7 +48,7 @@
             button {
                 background-color: #fff;
                 font-size: 1rem;
-                color: $header-text-color; 
+                color: $header-text-color;
                 height: 45px;
                 margin-top: 40px;
                 width: 135px;
@@ -50,7 +56,97 @@
                 font-weight: 600;
                 cursor: pointer;
             }
+        }
 
+        @include for-mobile-layout() {
+            & {
+                height: 200px;
+                width: 340px;
+
+                .content {
+                    h2 {
+                        font-size: unset;
+                    }
+
+                    p {
+                        font-size: 13px;
+                        max-width: 200px;
+                    }
+
+                    button {
+                        font-size: 12px;
+                        height: 34px;
+                        width: 92px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .popular-cities {
+
+        h2 {
+            margin: 16px;
+        }
+
+        .places {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+
+            &:hover {
+                img {
+                    -webkit-filter: grayscale(0);
+                    filter: grayscale(0);
+                }
+            }
+        }
+
+        img {
+            min-width: 100px;
+            aspect-ratio: 16/9;
+            border-radius: 8px;
+            -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+            object-fit: cover;
+            transition: .5s;
+        }
+
+        .name {
+            width: 100%;
+            margin-top: 8px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        @include for-mobile-layout() {
+            & {
+                width: 375px;
+            }
+
+            .places {
+                display: flex;
+                overflow-x: scroll;
+                height: 100%;
+                width: 340px;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+                article {
+                    img {
+                        width: 270px;
+                    }
+                }
+            }
         }
     }
 }
