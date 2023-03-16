@@ -30,6 +30,6 @@ export class AppHeaderComponent {
   getUserImg() {
     const user = this.userService.getUser()
     if (user?.imgUrl) return user.imgUrl
-    return 'assets/img/guest.png'
+    return 'assets/img/user/guest.png'
   }
 }

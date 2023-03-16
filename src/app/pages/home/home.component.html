@@ -1,15 +1,37 @@
-<section (window:scroll)="onScroll()" class="home">
-    <div class="teaser">
+<section (window:scroll)="onScroll()" class="home main-layout">
+    <div class="teaser full">
         <home-header [isTopZero]="isTopZero"></home-header>
     </div>
-    <main class="main-layout">
+    <main >
+        <div class="popular-cities">
+            <h2>Popular cities around the world</h2>
+            <div class="places">
+                <article>
+                    <img src="assets/img/home/portugal.jpg" alt="portugal">
+                    <span class="name">Portugal</span>
+                </article>
+                <article>
+                    <img src="assets/img/home/brazil.jpg" alt="portugal">
+                    <span class="name">Brazil</span>
+                </article>
+                <article>
+                    <img src="assets/img/home/usa.jpg" alt="portugal">
+                    <span class="name">United States</span>
+                </article>
+                <article>
+                    <img src="assets/img/home/canada.jpg" alt="portugal">
+                    <span class="name">Canada</span>
+                </article>
+            </div>
+        </div>
         <div class="become-host">
+            <img src="assets/img/home/become-host.jpg" alt="">
             <div class="content">
                 <h2>Try hosting</h2>
                 <p>Earn extra income and unlock new opportunities by sharing your space</p>
-                <button>Become Host</button>
+                <button (click)="onNavigateToHost()">Become Host</button>
             </div>
         </div>
     </main>
+    <app-footer class="full"></app-footer>
 </section>
-

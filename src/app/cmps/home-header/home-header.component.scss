@@ -10,7 +10,10 @@
     background-color: #ffffff80;
     font-size: 20px;
     transition: background-color .3s , color .3s;
-    
+    z-index: 100;
+    @include for-mobile-layout() {
+        height: 65px;
+    }
     &.scrolled {
         background-color: white;
         color: $black;
@@ -51,7 +54,7 @@
         }
     }
 
-    .login-container {
+    .nav-container {
         display: flex;
         align-items: center;
         gap: 24px;
@@ -80,6 +83,12 @@
                 background-color: #e9e1e148;
             }
         }
+        
+        @include for-mobile-layout() {
+            .about-us,.explore{
+                display: none;
+            }
+        }
     }
     .menu {
         position: relative;
@@ -105,4 +114,7 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
         }
     }
+}
+::ng-deep .header-menu-modal{
+    position: fixed !important;
 }
