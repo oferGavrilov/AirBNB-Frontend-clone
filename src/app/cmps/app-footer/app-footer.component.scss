@@ -6,7 +6,6 @@
   border-top: 1px solid $border-color;
   color: $header-text-color;
   font-size: 14px;
-  
 
   .footer-content {
     padding-top: 48px;
@@ -42,3 +41,67 @@
     }
   }
 }
+
+.mobile-footer {
+  height: 50px;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+
+  .footer-content {
+    @include center-flex();
+    justify-content: space-between;
+    height: 100%;
+
+    img.logo {
+      cursor: pointer;
+      width: 35px;
+    }
+
+    .menu {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 5px 5px 12px;
+      width: 76px;
+      background-color: white;
+      border-radius: 12px;
+      border: 1px solid lightgray;
+      transition: box-shadow .4s;
+      color: $black;
+      cursor: pointer;
+
+      img {
+          border-radius: 2em;
+          width: 29px;
+          height: 29px;
+      }
+
+      &:hover {
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+      }
+  }
+}
+}
+
+@include for-tablet-layout {
+  .mobile-footer {
+    display: none;
+  }
+  .app-footer {
+    display: grid;
+  }
+}
+
+@include for-mobile-layout {
+  .app-footer {
+    display: none;
+  }
+  .mobile-footer {
+    display: grid;
+  }
+}
+
+

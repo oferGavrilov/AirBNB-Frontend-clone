@@ -1,4 +1,4 @@
-<section class="header-menu-modal">
+<section [ngClass]="isOpenFooter ? 'footer' : ''" class="header-menu-modal">
     <div *ngIf="!isLoggedInUser()">
         <span [routerLink]="['/login']" class="bold">Sign up</span>
         <span [routerLink]="['/login']">Log in</span>

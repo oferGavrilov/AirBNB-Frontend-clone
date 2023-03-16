@@ -1,20 +1,26 @@
 @import '../../../assets/styles/setup/variables';
 
 .header-menu-modal {
-    position: absolute;
-    z-index: 10;
-    top: 67px;
-    right: 65px;
-    background-color: #fff;
-    box-shadow: 0 2px 16px rgb(0 0 0 / 12%);
-    border-radius: 12px;
-    padding: 12px 0;
-    font-size: 14px;
-    font-weight: 400;
-    gap: 12px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
+  position: absolute;
+  z-index: 10;
+  top: 67px;
+  right: 65px;
+  background-color: #fff;
+  box-shadow: 0 2px 16px rgb(0 0 0 / 12%);
+  border-radius: 12px;
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 400;
+  gap: 12px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  &.footer {
+    position: fixed !important;
+    top: unset;
+    bottom: 50px;
+    right: 20px;
+  }
 
     div {
         gap: 12px;
