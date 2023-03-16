@@ -52,6 +52,8 @@ import { UserWishlistComponent } from './cmps/user-wishlist/user-wishlist.compon
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { LoaderComponent } from './cmps/loader/loader.component';
 import { AboutComponent } from './pages/about/about.component';
+import { AddReviewComponent } from './cmps/details/add-review/add-review.component';
+import { NgxStarRatingModule } from 'ngx-star-rating';
 
 @NgModule({
   declarations: [
@@ -92,6 +94,7 @@ import { AboutComponent } from './pages/about/about.component';
     UserWishlistComponent,
     LoaderComponent,
     AboutComponent,
+    AddReviewComponent,
   ],
   imports: [
     FormsModule,
@@ -111,6 +114,7 @@ import { AboutComponent } from './pages/about/about.component';
     MatToolbarModule,
     ReactiveFormsModule,
     MatSnackBarModule,
+    NgxStarRatingModule,
     TranslateModule.forRoot({
       loader:{
         provide: TranslateLoader,
@@ -126,7 +130,7 @@ import { AboutComponent } from './pages/about/about.component';
 export class AppModule { 
   constructor(private translate:TranslateService){
     translate.setDefaultLang('en')
-    translate.use('he')
+    translate.use('en')
   }
 }
 

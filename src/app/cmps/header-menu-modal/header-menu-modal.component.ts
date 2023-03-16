@@ -1,4 +1,4 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import { Component, Output, EventEmitter, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { UserService } from 'src/app/services/user.service';
 
@@ -10,6 +10,7 @@ import { UserService } from 'src/app/services/user.service';
 export class HeaderMenuModalComponent {
 
   @Output() onToggleHeaderMenuModal = new EventEmitter()
+  @Input() isOpenFooter!: boolean
 
   constructor(private router: Router,
     private userService: UserService) { }

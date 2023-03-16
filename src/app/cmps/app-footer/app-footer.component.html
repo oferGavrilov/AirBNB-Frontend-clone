@@ -39,3 +39,15 @@
       </p>
     </div>
 </footer>
+
+<footer class="mobile-footer main-layout full">
+  <div class="footer-content">
+    <img routerLink="/" class="logo" src="assets/img/logo.png" alt="">
+    <div class="menu" (click)="onToggleHeaderMenuModal()">
+      <fa-icon [icon]="faBars"></fa-icon>
+      <img [src]="getUserImg()" alt="">
+    </div>
+  </div>
+</footer>
+<header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()"
+    *ngIf="isShowHeaderMenuModal" [isOpenFooter]="true"></header-menu-modal>
