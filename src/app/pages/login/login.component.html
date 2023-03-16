@@ -52,7 +52,7 @@
                 <div class="upload-preview">
                     <div class='img-picker'>
                         <label htmlFor="imgUpload">
-                            <img *ngIf="!imgData.imgUrl" class="guest-img" src="assets/img/guest.png" alt="" />
+                            <img *ngIf="!imgData.imgUrl" class="guest-img" src="assets/img/user/guest.png" alt="" />
                             <img *ngIf="imgData.imgUrl" class="user-img" [src]="imgData.imgUrl" alt="" />
                             <input type="file" (change)="uploadImg($event)" accept="img/*" id="imgUpload" />
                         </label>
