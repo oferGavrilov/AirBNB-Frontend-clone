@@ -6,7 +6,7 @@
         </div>
         <nav>
             <div class="home-nav" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
-                <span>Airbnb your home</span>
+                <span>{{'stay.header.your-home'|translate}}</span>
             </div>
             <div class="language">
                 <fa-icon [icon]="faGlobe"></fa-icon>
@@ -17,6 +17,8 @@
             </div>
         </nav>
     </div>
-    <header-filter [isHeaderFilterActive]="isHeaderFilterActive" (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
+    <header-filter [isHeaderFilterActive]="isHeaderFilterActive"
+        (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
 </header>
-<header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" *ngIf="isShowHeaderMenuModal"></header-menu-modal>
+<header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()"
+    *ngIf="isShowHeaderMenuModal"></header-menu-modal>

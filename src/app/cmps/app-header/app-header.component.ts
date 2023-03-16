@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation } from '@angular/core'
+import { Component } from '@angular/core'
 import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
 import { UserService } from 'src/app/services/user.service'
 
@@ -9,9 +9,7 @@ import { UserService } from 'src/app/services/user.service'
 })
 export class AppHeaderComponent {
 
-  constructor(
-    private userService: UserService,
-    ) { }
+  constructor(private userService: UserService) {}
 
   faGlobe = faGlobe
   faBars = faBars

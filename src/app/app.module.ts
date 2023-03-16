@@ -2,8 +2,15 @@ import { NgModule , CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { GoogleMapsModule } from '@angular/google-maps';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule , HttpClient } from '@angular/common/http';
 import { MatSelectModule } from '@angular/material/select';
+import { MatMenuModule } from '@angular/material/menu'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar'
+import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app-root/app.component';
@@ -25,7 +32,6 @@ import { ReviewListComponent } from './cmps/details/review-list/review-list.comp
 import { ReviewPreviewComponent } from './cmps/details/review-preview/review-preview.component';
 import { HostInfoComponent } from './cmps/details/host-info/host-info.component';
 import { AirbnbCalendarModule } from 'ngx-airbnb-calendar';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HeaderMenuModalComponent } from './cmps/header-menu-modal/header-menu-modal.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AppFooterComponent } from './cmps/app-footer/app-footer.component';
@@ -43,15 +49,9 @@ import { GuestModalComponent } from './cmps/guest-modal/guest-modal.component';
 import { HeaderFilterGuestModalComponent } from './cmps/header-filter-folder/header-filter-guest-modal/header-filter-guest-modal.component';
 import { PurchaseIndicationComponent } from './cmps/details/purchase-indication/purchase-indication.component';
 import { UserWishlistComponent } from './cmps/user-wishlist/user-wishlist.component'
-
-import { MatMenuModule } from '@angular/material/menu'
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule } from '@angular/material/toolbar'
-import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { LoaderComponent } from './cmps/loader/loader.component';
 import { AboutComponent } from './pages/about/about.component';
-
 
 @NgModule({
   declarations: [
@@ -110,11 +110,27 @@ import { AboutComponent } from './pages/about/about.component';
     MatMenuModule,
     MatToolbarModule,
     ReactiveFormsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    TranslateModule.forRoot({
+      loader:{
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory ,
+        deps:[HttpClient]
+      }
+    })
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule { 
+  constructor(private translate:TranslateService){
+    translate.setDefaultLang('en')
+    translate.use('he')
+  }
+}
+
+export function HttpLoaderFactory(http:HttpClient):TranslateHttpLoader {
+  return new TranslateHttpLoader(http)
+}
 

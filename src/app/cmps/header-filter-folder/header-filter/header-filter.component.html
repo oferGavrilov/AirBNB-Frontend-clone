@@ -1,8 +1,8 @@
 <section [ngClass]="isHeaderFilterActive ? 'header-filter active' : 'header-filter'">
   <div (click)="onToggleHeaderFilter()" class="header-filter-close" *ngIf="!isHeaderFilterActive">
-    <span>{{Anywhere}}</span>
-    <span>{{AnyWeek}}</span>
-    <span>{{addGuest}}</span>
+    <span>{{'stay.header.anywhere' | translate}}</span>
+    <span>{{'stay.header.anyweek' | translate}}</span>
+    <span>{{'stay.header.add-guests' | translate}}</span>
     <span class="icon-container">
       <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
     </span>
@@ -11,35 +11,35 @@
     class="header-filter-active">
     <div [ngClass]="modalNav === 'region-modal' || modalNav === 'search-place-modal' ? 'where active' : 'where'"
       (click)="setModalNav('region-modal')">
-      <span class="title">Where</span>
+      <span class="title">{{'stay.header.where' | translate}}</span>
       <input #searchBox (keyup)="onSetWhereSearch(searchBox.value)" [value]="searchFilter" type="text"
-        placeholder="Search destination" />
+        placeholder="{{'stay.header.search-destination' | translate}}" />
     </div>
     <div class="border"></div>
     <label for="calender" [ngClass]="modalNav === 'start-date' ? 'active' : ''" class="date"
       (click)="onClickDate('start-date')">
-      <span class="title">Check in</span>
+      <span class="title">{{'stay.header.check-in' | translate}}</span>
       <span *ngIf="getCheckIn()">{{getCheckIn() | date}}</span>
-      <span *ngIf="!getCheckIn()">Add dates</span>
+      <span *ngIf="!getCheckIn()">{{'stay.header.add-dates' | translate}}</span>
     </label>
     <input id="calender" type="text" [(ngModel)]="date" name="date" airbnb-calendar [options]="options" />
     <div class="border"></div>
     <label for="calender" [ngClass]="modalNav === 'end-date' ? 'active ' : ''" class="date"
       (click)="onClickDate('end-date')">
-      <span class="title">Check out</span>
+      <span class="title">{{'stay.header.check-out' | translate}}</span>
       <span *ngIf="getCheckOut()">{{getCheckOut() | date}}</span>
-      <span *ngIf="!getCheckOut()">Add dates</span>
+      <span *ngIf="!getCheckOut()">{{'stay.header.add-dates' | translate}}</span>
     </label>
     <div class="border"></div>
     <div class="who-guests">
       <div [ngClass]="modalNav === 'guests-modal' ? 'active ' : ''" class="add-guests"
         (click)="setModalNav('guests-modal')">
-        <span class="title">who</span>
+        <span class="title">{{'stay.header.who' | translate}}</span>
         <span>{{getGuests()}}</span>
       </div>
       <div class="search" (click)="onClickSearch()">
         <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
-        <span *ngIf="getGuests().length < 11">Search</span>
+        <span *ngIf="getGuests().length < 11">{{'stay.header.search' | translate}}</span>
       </div>
     </div>
     <header-filter-modal *ngIf="modalNav" [modalNav]="modalNav" (setModalNav)="setModalNav"

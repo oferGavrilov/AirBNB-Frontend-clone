@@ -7,7 +7,7 @@
     <div class="filter-container">
         <div *ngFor="let filter of getFilters()" (click)="onClickLabel(filter.txt)">
             <img src="{{filter.img}}" alt="">
-            <span>{{filter.txt}}</span>
+            <span>{{ filter.txt | translate}}</span>
         </div>
     </div>
     <div *ngIf="checkRightArrow()" (click)="onClickArrow(1)" class="arrow-container arrow-right">
