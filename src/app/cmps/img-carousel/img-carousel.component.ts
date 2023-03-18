@@ -61,14 +61,16 @@ export class ImgCarouselComponent implements OnInit {
     ev.stopPropagation()
     try {
       const user = this.userService.getUser()
-      if (!user) return
-      if (this.isLikeByUser) this.stay.likedByUsers = this.stay.likedByUsers.filter(userId => userId !== user._id)
-      else this.stay.likedByUsers.push(user._id)
-      this.stay = await this.stayService.save(this.stay) as Stay
-      this.isLikeByUser = !this.isLikeByUser
-      const msg = this.isLikeByUser ? 'Stay added to wishlist' : 'Stay removed from wishlist'
-      if (this.isUserPage()) this.stayService.loadStays()
-      this.snackBar.open(msg, 'Close', { duration: 3000 })
+      if (!user) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
+      else {
+        if (this.isLikeByUser) this.stay.likedByUsers = this.stay.likedByUsers.filter(userId => userId !== user._id)
+        else this.stay.likedByUsers.push(user._id)
+        this.stay = await this.stayService.save(this.stay) as Stay
+        this.isLikeByUser = !this.isLikeByUser
+        const msg = this.isLikeByUser ? 'Stay added to wishlist' : 'Stay removed from wishlist'
+        if (this.isUserPage()) this.stayService.loadStays()
+        this.snackBar.open(msg, 'Close', { duration: 3000 })
+      }
     } catch (err) {
       console.log('err:', err)
     }
