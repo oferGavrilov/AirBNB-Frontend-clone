@@ -54,11 +54,11 @@ import { LoaderComponent } from './cmps/loader/loader.component';
 import { AboutComponent } from './pages/about/about.component';
 import { AddReviewComponent } from './cmps/details/add-review/add-review.component';
 import { NgxStarRatingModule } from 'ngx-star-rating';
-import { SocialLoginModule, SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
+import {  SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
 import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-social-login';import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.component';
-// import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
+import { MatBadgeModule } from '@angular/material/badge'
+import { MatIconModule } from '@angular/material/icon'
 
-// const config: SocketIoConfig = { url: 'http://localhost:4200', options: {} };
 @NgModule({
   declarations: [
     AppComponent,
@@ -116,10 +116,12 @@ import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-s
     ReactiveFormsModule,
     MatSelectModule,
     MatMenuModule,
+    MatIconModule,
     MatToolbarModule,
     ReactiveFormsModule,
     MatSnackBarModule,
     NgxStarRatingModule,
+    MatBadgeModule,
     TranslateModule.forRoot({
       loader:{
         provide: TranslateLoader,

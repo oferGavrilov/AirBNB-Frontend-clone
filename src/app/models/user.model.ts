@@ -4,5 +4,6 @@ export interface User {
     fullname: string
     password: string
     imgUrl: string
-    favourites: string[]
+    userMsg: number
+    hostMsg: number
 }

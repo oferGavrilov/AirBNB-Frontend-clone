@@ -1,5 +1,6 @@
 import { Component } from '@angular/core'
 import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
+import { User } from 'src/app/models/user.model'
 import { UserService } from 'src/app/services/user.service'
 
 @Component({
@@ -16,6 +17,15 @@ export class AppHeaderComponent {
   isShowHeaderMenuModal: boolean = false
   isHeaderFilterActive: boolean = false
   isOpenLanguageModal: boolean = false
+  user !: User
+  ngOnInit() {
+    this.user = this.userService.getUser()
+  }
+
+  get UserNotification(){
+    return this.user.hostMsg + this.user.userMsg
+  }
+
 
   onToggleHeaderMenuModal() {
     this.isShowHeaderMenuModal = !this.isShowHeaderMenuModal
@@ -30,8 +40,7 @@ export class AppHeaderComponent {
   }
 
   getUserImg() {
-    const user = this.userService.getUser()
-    if (user?.imgUrl) return user.imgUrl
+    if (this.user?.imgUrl) return this.user.imgUrl
     return 'assets/img/user/guest.png'
   }
 }

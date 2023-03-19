@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { throwError } from 'rxjs';
 import { lastValueFrom } from 'rxjs';
 import { Order } from '../models/order.model';
 import { User } from '../models/user.model';
@@ -16,11 +17,15 @@ export class UserService {
     private httpService: HttpService,
     private stayService: StayService,
     private socketService: SocketService,
-    private orderService: OrderService,
-    private snackBar: MatSnackBar) { }
+    public orderService: OrderService,
+    public snackBar: MatSnackBar) {
+  }
 
+  private USER_URL = 'user/'
   private STORAGE_KEY_LOGGEDIN_USER = 'user'
   private AUTH_URL = 'auth/'
+  hostFunction = this.updateHostMsg.bind(this)
+  userFunction = this.updateUserMsg.bind(this)
 
   public getUser(): User {
     return JSON.parse(sessionStorage.getItem(this.STORAGE_KEY_LOGGEDIN_USER) as string)
@@ -32,8 +37,8 @@ export class UserService {
       if (loggedInUser) {
         this.saveLocalUser(loggedInUser)
         this.socketService.login(loggedInUser._id)
-        this.socketService.on(this.socketService.SOCKET_EMIT_ORDER_FOR_HOST, this.updateHostMsg)
-        this.socketService.on(this.socketService.SOCKET_EMIT_ORDER_FOR_USER, this.updateUserMsg)
+        this.socketService.on(this.socketService.SOCKET_EMIT_ORDER_FOR_HOST, this.hostFunction)
+        this.socketService.on(this.socketService.SOCKET_EMIT_ORDER_FOR_USER, this.userFunction)
       }
     } catch (err) {
       throw err
@@ -54,8 +59,41 @@ export class UserService {
       username: '',
       fullname: '',
       password: '',
-      imgUrl: ''
+      imgUrl: '',
+      userMsg: 0,
+      hostMsg: 0
     }
+  }
+
+  async updateHostMsg(order: Order) {
+    const user = this.getUser()
+    user.hostMsg++
+    const updatedUser = await this.update(user) as User
+    this.saveLocalUser(updatedUser)
+    console.log(updatedUser)
+    const msg = `${order.buyer.fullname} invite your place`
+    this.snackBar.open(msg, 'Close', { duration: 3000 })
+    this.orderService.loadOrders()
+  }
+
+  update(user: User) {
+    try {
+      if (!user) return
+      return lastValueFrom(this.httpService.put(this.USER_URL, user))
+    } catch (err) {
+      throw err
+    }
+  }
+
+  async updateUserMsg(order: Order) {
+    const user = this.getUser()
+    user.userMsg++
+    const updatedUser = await this.update(user) as User
+    this.saveLocalUser(updatedUser)
+    console.log(updatedUser)
+    const msg = `${order.stay.name} update your vacation status`
+    this.snackBar.open(msg, 'Close', { duration: 3000 })
+    this.orderService.loadOrders()
   }
 
   public async logout() {
@@ -69,26 +107,9 @@ export class UserService {
     }
   }
 
-  private updateHostMsg(order: Order) {
-    const user = JSON.parse(sessionStorage.getItem(this.STORAGE_KEY_LOGGEDIN_USER) as string)
-    console.log('user:', user)
-    // if(order.host._id !== user?._id) return
-    const msg = `${order.buyer.fullname} invite your place`
-    this.snackBar.open(msg, 'Close', { duration: 3000 })
-    this.orderService.loadOrders()
-  }
-  
-  private updateUserMsg(order: Order) {
-    const user = JSON.parse(sessionStorage.getItem(this.STORAGE_KEY_LOGGEDIN_USER) as string)
-    console.log('user:', user)
-    // if(order.buyer._id !== user?._id) return
-    const msg = `${order.stay.name} update your vacation status`
-    this.snackBar.open(msg, 'Close', { duration: 3000 })
-    this.orderService.loadOrders()
-  }
-
   private saveLocalUser(user: User) {
     sessionStorage.setItem(this.STORAGE_KEY_LOGGEDIN_USER, JSON.stringify(user))
     return user
   }
 }
+
