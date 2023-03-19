@@ -11,6 +11,7 @@
   },
   "private": true,
   "dependencies": {
+    "@abacritt/angularx-social-login": "^2.0.0",
     "@angular/cdk": "^15.2.1",
     "@angular/common": "^15.1.0",
     "@angular/compiler": "^15.1.0",
@@ -31,8 +32,10 @@
     "ng-multiselect-dropdown": "^0.3.9",
     "ngx-airbnb-calendar": "^0.5.0",
     "ngx-csv": "^0.3.2",
+    "ngx-socket-io": "^4.4.0",
     "ngx-star-rating": "^2.1.0",
     "rxjs": "~7.8.0",
+    "socket.io-client": "^4.6.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },

@@ -55,7 +55,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { AddReviewComponent } from './cmps/details/add-review/add-review.component';
 import { NgxStarRatingModule } from 'ngx-star-rating';
 import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.component';
+// import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 
+// const config: SocketIoConfig = { url: 'http://localhost:4200', options: {} };
 @NgModule({
   declarations: [
     AppComponent,
@@ -117,6 +119,7 @@ import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.com
     ReactiveFormsModule,
     MatSnackBarModule,
     NgxStarRatingModule,
+    // SocketIoModule.forRoot(config),
     TranslateModule.forRoot({
       loader:{
         provide: TranslateLoader,
