@@ -54,7 +54,8 @@ import { LoaderComponent } from './cmps/loader/loader.component';
 import { AboutComponent } from './pages/about/about.component';
 import { AddReviewComponent } from './cmps/details/add-review/add-review.component';
 import { NgxStarRatingModule } from 'ngx-star-rating';
-
+import { SocialLoginModule, SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
+import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-social-login';
 @NgModule({
   declarations: [
     AppComponent,
@@ -115,6 +116,7 @@ import { NgxStarRatingModule } from 'ngx-star-rating';
     ReactiveFormsModule,
     MatSnackBarModule,
     NgxStarRatingModule,
+    SocialLoginModule,
     TranslateModule.forRoot({
       loader:{
         provide: TranslateLoader,
@@ -124,10 +126,30 @@ import { NgxStarRatingModule } from 'ngx-star-rating';
     })
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  providers: [],
+  providers: [
+    {
+      provide: 'SocialAuthServiceConfig',
+      useValue: {
+        autoLogin: false,
+        providers: [
+          {
+            id: GoogleLoginProvider.PROVIDER_ID,
+            provider: new GoogleLoginProvider('975546587762-nh443v7hguglfkc781c8ejgbp6ocpe5s.apps.googleusercontent.com')
+          },
+          {
+            id: FacebookLoginProvider.PROVIDER_ID,
+            provider: new FacebookLoginProvider('975546587762-nh443v7hguglfkc781c8ejgbp6ocpe5s.apps.googleusercontent.com')
+          }
+        ],
+        onError: (err) => {
+          console.error(err);
+        }
+      } as SocialAuthServiceConfig,
+    }
+  ],
   bootstrap: [AppComponent],
 })
-export class AppModule { 
+export class AppModule {
   constructor(private translate:TranslateService){
     translate.setDefaultLang('en')
     translate.use('en')
