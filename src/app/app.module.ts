@@ -9,7 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -55,7 +55,10 @@ import { AboutComponent } from './pages/about/about.component';
 import { AddReviewComponent } from './cmps/details/add-review/add-review.component';
 import { NgxStarRatingModule } from 'ngx-star-rating';
 import { SocialLoginModule, SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
-import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-social-login';
+import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-social-login';import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.component';
+// import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
+
+// const config: SocketIoConfig = { url: 'http://localhost:4200', options: {} };
 @NgModule({
   declarations: [
     AppComponent,
@@ -96,6 +99,7 @@ import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-s
     LoaderComponent,
     AboutComponent,
     AddReviewComponent,
+    LagnuageModalComponent,
   ],
   imports: [
     FormsModule,
@@ -116,7 +120,6 @@ import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-s
     ReactiveFormsModule,
     MatSnackBarModule,
     NgxStarRatingModule,
-    SocialLoginModule,
     TranslateModule.forRoot({
       loader:{
         provide: TranslateLoader,

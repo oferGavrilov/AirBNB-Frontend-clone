@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { lastValueFrom } from 'rxjs';
 import { User } from '../models/user.model';
 import { HttpService } from './http.service';
+import { SocketService } from './socket.service';
 import { StayService } from './stay.service';
 
 @Injectable({
@@ -10,10 +11,11 @@ import { StayService } from './stay.service';
 export class UserService {
   constructor(
     private httpService: HttpService,
-    private stayService: StayService) {}
+    private stayService: StayService,
+    private socketService: SocketService) { }
 
-    private STORAGE_KEY_LOGGEDIN_USER = 'user'
-    private AUTH_URL = 'auth/'
+  private STORAGE_KEY_LOGGEDIN_USER = 'user'
+  private AUTH_URL = 'auth/'
 
   public getUser(): User {
     return JSON.parse(sessionStorage.getItem(this.STORAGE_KEY_LOGGEDIN_USER) as string)
@@ -22,7 +24,10 @@ export class UserService {
   public async login(credentials: User) {
     try {
       const loggedInUser = await lastValueFrom(this.httpService.post(this.AUTH_URL + 'login', credentials)) as User
-      if(loggedInUser) this.saveLocalUser(loggedInUser)
+      if (loggedInUser) {
+        this.saveLocalUser(loggedInUser)
+        // this.socketService.login(loggedInUser._id)
+      }
     } catch (err) {
       throw err
     }

@@ -6,10 +6,10 @@
         </div>
         <nav>
             <div class="home-nav" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
-            <span>{{'stay.header.your-home'|translate}}</span>
+                <span>{{'stay.header.your-home'|translate}}</span>
             </div>
-            <div class="language">
-                <fa-icon [icon]="faGlobe"></fa-icon>
+            <div (click)="onToggleLanguageModal()">
+                <span class="language material-symbols-outlined">language</span>
             </div>
             <div class="menu" (click)="onToggleHeaderMenuModal()">
                 <fa-icon [icon]="faBars"></fa-icon>
@@ -17,6 +17,9 @@
             </div>
         </nav>
     </div>
-    <header-filter [isHeaderFilterActive]="isHeaderFilterActive" (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
+    <header-filter [isHeaderFilterActive]="isHeaderFilterActive"
+        (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
 </header>
-<header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" [isOpenFooter]="false" *ngIf="isShowHeaderMenuModal"></header-menu-modal>
+<header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" [isOpenFooter]="false"
+    *ngIf="isShowHeaderMenuModal"></header-menu-modal>
+<lagnuage-modal (onToggleLanguageModal)="onToggleLanguageModal()" *ngIf="isOpenLanguageModal"></lagnuage-modal>

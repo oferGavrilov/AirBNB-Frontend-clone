@@ -6,47 +6,47 @@
     <div class="form-container">
         <div *ngIf="isSignup" class="signup-container">
             <div class="header">
-                <h1>Create an Account</h1>
-                <p>Get started for free!</p>
+                <h1>{{'stay.login.create-account' | translate}}</h1>
+                <p>{{'stay.login.get-started' | translate}}</p>
             </div>
             <form [formGroup]="formSignup" (ngSubmit)="onSubmit('signup')" novalidate>
                 <div class="input-container">
                     <span class="icon material-symbols-outlined">account_circle</span>
-                    <input formControlName="fullname" id="fullname" class="form-control" placeholder="Full name" />
+                    <input formControlName="fullname" id="fullname" class="form-control" placeholder="Full name" autocomplete="off" />
                 </div>
                 <div *ngIf="formSignup.controls['fullname'].invalid && (formSignup.controls['fullname'].dirty || formSignup.controls['fullname'].touched)"
                     class="alert alert-danger">
                     <div *ngIf="formSignup.controls['fullname'].errors?.['required']">
-                        Full name is required.
+                        {{'stay.login.required-fullname' | translate}}
                     </div>
                     <div *ngIf="formSignup.controls['fullname'].errors?.['minlength']">
-                        Full name must be at least 3 characters long.
+                        {{'stay.login.required-fullname-length' | translate}}
                     </div>
                 </div>
                 <div class="input-container">
                     <fa-icon class="icon" [icon]="faUser"></fa-icon>
-                    <input formControlName="username" type="text" id="username" placeholder="User name" />
+                    <input formControlName="username" type="text" id="username" placeholder="User name" autocomplete="off" />
                 </div>
                 <div *ngIf="formSignup.controls['username'].invalid && (formSignup.controls['username'].dirty || formSignup.controls['username'].touched)"
                     class="alert alert-danger">
                     <div *ngIf="formSignup.controls['username'].errors?.['required']">
-                        User name is required.
+                        {{'stay.login.required-username' | translate}}
                     </div>
                     <div *ngIf="formSignup.controls['username'].errors?.['minlength']">
-                        User name must be at least 3 characters long.
+                        {{'stay.login.required-username-length' | translate}}
                     </div>
                 </div>
                 <div class="input-container">
                     <span class="icon material-symbols-outlined">key</span>
-                    <input formControlName="password" id="password" placeholder="Password" required />
+                    <input formControlName="password" id="password" placeholder="Password" required autocomplete="off"/>
                 </div>
                 <div *ngIf="formSignup.controls['password'].invalid && (formSignup.controls['password'].dirty || formSignup.controls['password'].touched)"
                     class="alert alert-danger">
                     <div *ngIf="formSignup.controls['password'].errors?.['required']">
-                        Password is required.
+                        {{'stay.login.required-password' | translate}}
                     </div>
                     <div *ngIf="formSignup.controls['password'].errors?.['minlength']">
-                        Password must be at least 3 characters long.
+                        {{'stay.login.required-password-length' | translate}}
                     </div>
                 </div>
                 <div class="upload-preview">
@@ -58,58 +58,58 @@
                         </label>
                     </div>
                 </div>
-                <button class="signup-btn" [disabled]="formSignup.pristine || formSignup.invalid">Sign up</button>
+                <button class="signup-btn" [disabled]="formSignup.pristine || formSignup.invalid">{{'stay.login.sign-up' | translate}}</button>
             </form>
-            <p>Or sign up with</p>
+            <p>{{'stay.login.or-sign-up-with' | translate}}</p>
             <div class="social-icons">
                 <fa-icon class="social-icon facebook" [icon]="facebook" ></fa-icon>
                 <fa-icon class="social-icon twitter" [icon]="twitter"></fa-icon>
                 <fa-icon class="social-icon google" [icon]="google"></fa-icon>
             </div>
-            <p>Already have an account <span class="toggle-btn" (click)="isSignup = false">sign in</span></p>
+            <p>Already have an account <span class="toggle-btn" (click)="isSignup = false">{{'stay.login.sign-in' | translate}}</span></p>
         </div>
 
         <div *ngIf="!isSignup" class="login-container">
             <div class="header">
-                <h1>Sign in</h1>
-                <p>Welcome back</p>
+                <h1>{{'stay.login.sign-in' | translate}}</h1>
+                <p>{{'stay.login.welcome-back' | translate}}</p>
             </div>
             <form [formGroup]="formLogin" (ngSubmit)="onSubmit('login')" novalidate>
                 <div class="input-container">
                     <fa-icon class="icon" [icon]="faUser"></fa-icon>
-                    <input formControlName="username" type="text" id="username" placeholder="User name" />
+                    <input formControlName="username" type="text" id="username" placeholder="User name" autocomplete="off"/>
                 </div>
                 <div *ngIf="formLogin.controls['username'].invalid && (formLogin.controls['username'].dirty || formLogin.controls['username'].touched)"
                     class="alert alert-danger">
                     <div *ngIf="formLogin.controls['username'].errors?.['required']">
-                        User name is required.
+                        {{'stay.login.required-username' | translate}}
                     </div>
                     <div *ngIf="formLogin.controls['username'].errors?.['minlength']">
-                        User name must be at least 3 characters long.
+                        {{'stay.login.required-username-length' | translate}}
                     </div>
                 </div>
                 <div class="input-container">
                     <span class="icon material-symbols-outlined">key</span>
-                    <input formControlName="password" id="password" placeholder="Password" required />
+                    <input formControlName="password" id="password" placeholder="Password" required autocomplete="off" />
                 </div>
                 <div *ngIf="formLogin.controls['password'].invalid && (formLogin.controls['password'].dirty || formLogin.controls['password'].touched)"
                     class="alert alert-danger">
                     <div *ngIf="formLogin.controls['password'].errors?.['required']">
-                        Password is required.
+                        {{'stay.login.required-password' | translate}}
                     </div>
                     <div *ngIf="formLogin.controls['password'].errors?.['minlength']">
-                        Password must be at least 3 characters long.
+                        {{'stay.login.required-password-length' | translate}}
                     </div>
                 </div>
-                <button class="signup-btn" [disabled]="formLogin.pristine || formLogin.invalid">Sign in</button>
+                <button class="signup-btn" [disabled]="formLogin.pristine || formLogin.invalid">{{'stay.login.sign-in' | translate}}</button>
             </form>
-            <p>Or sign in with</p>
+            <p>{{'stay.login.or-sign-in-with' | translate}}</p>
             <div class="social-icons">
                 <fa-icon class="social-icon facebook" [icon]="facebook"></fa-icon>
                 <fa-icon class="social-icon twitter" [icon]="twitter"></fa-icon>
                 <fa-icon class="social-icon google" [icon]="google"></fa-icon>
             </div>
-            <p>Not member yet ? <span class="toggle-btn" (click)="isSignup = true">sign up</span></p>
+            <p>{{'stay.login.not-member-yet' | translate}} <span class="toggle-btn" (click)="isSignup = true">{{'stay.login.sign-up' | translate}}</span></p>
         </div>
     </div>
 </section>

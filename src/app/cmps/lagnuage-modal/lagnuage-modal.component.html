@@ -1,0 +1,17 @@
+<section class="lagnuage-modal">
+      <ul class="suggested-languages">
+            <h2>Suggested language and region</h2>
+            <li *ngFor="let lang of Suggested" [ngClass]= "isActive(lang) ? 'active' : '' " (click)="onSetLang(lang)">
+                  <span class="language">{{lang.language}}</span>
+                  <span class="country">{{lang.country}}</span>
+            </li>
+      </ul>
+      <ul class="language-picker">
+            <h2>Choose a language and region</h2>
+            <li *ngFor="let lang of UnSuggested" [ngClass]= "isActive(lang) ? 'active' : '' " (click)="onSetLang(lang)">
+                  <span class="language">{{lang.language}}</span>
+                  <span class="country">{{lang.country}}</span>
+            </li>
+      </ul>
+      <span class="close-btn material-symbols-outlined" (click)="onCloseModal()">close</span>
+</section>

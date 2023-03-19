@@ -36,18 +36,25 @@ header {
     nav {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         font-size: rem(14px);
         font-weight: 600;
         height: 42px;
+        gap: 4px;
 
         >* {
             cursor: pointer;
             padding: 12px;
             border-radius: 22px;
+            @include center-flex();
 
             &:hover:not(.menu) {
                 background-color: $main-hover;
             }
+        }
+
+        .language {
+            font-size: 20px;
         }
 
         .menu {
@@ -78,18 +85,21 @@ header {
     }
 
 
-   @include for-mobile-layout {
-    .header-content{
-      .logo, nav {
-        display: none;
-      }
+    @include for-mobile-layout {
+        .header-content {
 
-      &.filter-active {
-        height: 250px;
+            .logo,
+            nav {
+                display: none;
+            }
+
+            &.filter-active {
+                height: 250px;
+            }
+        }
     }
-    }
-   }
 }
-::ng-deep .header-menu-modal{
+
+::ng-deep .header-menu-modal {
     position: absolute !important;
 }

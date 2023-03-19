@@ -9,12 +9,13 @@ import { UserService } from 'src/app/services/user.service'
 })
 export class AppHeaderComponent {
 
-  constructor(private userService: UserService) {}
+  constructor(private userService: UserService) { }
 
   faGlobe = faGlobe
   faBars = faBars
-  isShowHeaderMenuModal = false
-  isHeaderFilterActive = false
+  isShowHeaderMenuModal: boolean = false
+  isHeaderFilterActive: boolean = false
+  isOpenLanguageModal: boolean = false
 
   onToggleHeaderMenuModal() {
     this.isShowHeaderMenuModal = !this.isShowHeaderMenuModal
@@ -23,6 +24,10 @@ export class AppHeaderComponent {
 
   toggleHeaderFilter() {
     this.isHeaderFilterActive = !this.isHeaderFilterActive
+  }
+
+  onToggleLanguageModal() {
+    this.isOpenLanguageModal = !this.isOpenLanguageModal
   }
 
   getUserImg() {
