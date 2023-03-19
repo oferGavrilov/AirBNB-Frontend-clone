@@ -9,7 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -54,7 +54,8 @@ import { LoaderComponent } from './cmps/loader/loader.component';
 import { AboutComponent } from './pages/about/about.component';
 import { AddReviewComponent } from './cmps/details/add-review/add-review.component';
 import { NgxStarRatingModule } from 'ngx-star-rating';
-import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.component';
+import { SocialLoginModule, SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
+import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-social-login';import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.component';
 // import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 
 // const config: SocketIoConfig = { url: 'http://localhost:4200', options: {} };
@@ -119,7 +120,6 @@ import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.com
     ReactiveFormsModule,
     MatSnackBarModule,
     NgxStarRatingModule,
-    // SocketIoModule.forRoot(config),
     TranslateModule.forRoot({
       loader:{
         provide: TranslateLoader,
@@ -129,10 +129,35 @@ import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.com
     })
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  providers: [],
+  providers: [
+    {
+      provide: 'SocialAuthServiceConfig',
+      useValue: {
+        autoLogin: false,
+        providers: [
+          {
+            id: GoogleLoginProvider.PROVIDER_ID,
+            provider: new GoogleLoginProvider('975546587762-nh443v7hguglfkc781c8ejgbp6ocpe5s.apps.googleusercontent.com')
+          },
+          {
+            id: FacebookLoginProvider.PROVIDER_ID,
+            provider: new FacebookLoginProvider('975546587762-nh443v7hguglfkc781c8ejgbp6ocpe5s.apps.googleusercontent.com')
+          }
+        ],
+        onError: (err) => {
+          console.error(err);
+        }
+      } as SocialAuthServiceConfig,
+    }
+  ],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private translate:TranslateService){
+    translate.setDefaultLang('en')
+    translate.use('en')
+  }
+}
 
 export function HttpLoaderFactory(http:HttpClient):TranslateHttpLoader {
   return new TranslateHttpLoader(http)

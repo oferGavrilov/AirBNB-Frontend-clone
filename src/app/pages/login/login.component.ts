@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { UserService } from 'src/app/services/user.service';
 import { Subscription } from 'rxjs';
@@ -6,11 +6,12 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { User } from 'src/app/models/user.model';
 import { UploadImgService } from 'src/app/services/upload-img.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
-
+import { SocialAuthService } from "@abacritt/angularx-social-login";
+import { FacebookLoginProvider, GoogleLoginProvider  } from "@abacritt/angularx-social-login";
+import { SocialUser } from '@abacritt/angularx-social-login/public-api';
+import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'login',
   templateUrl: './login.component.html',
@@ -19,12 +20,13 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 export class LoginComponent implements OnInit {
   @ViewChild('container') container: any
-
   constructor(
     private userService: UserService,
     private router: Router,
     private uploadImgService: UploadImgService,
     private snackBar: MatSnackBar,
+    private authService: SocialAuthService,
+    private httpClient: HttpClient,
     private fb: FormBuilder) {
     this.formSignup = this.fb.group({
       fullname: ['', [Validators.required, Validators.minLength(3)]],
@@ -40,12 +42,14 @@ export class LoginComponent implements OnInit {
   facebook = faFacebookF
   twitter = faTwitter
   google = faGoogle
-
+  // user2!: SocialUser
+  // loggedIn!: boolean
   formSignup !: FormGroup
   formLogin !: FormGroup
   user!: User
   subscription!: Subscription
   isSignup: boolean = false
+  // accessToken = ''
   imgData = {
     imgUrl: '',
     height: 500,
@@ -55,7 +59,44 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
     this.formSignup.patchValue(this.userService.getEmptyUser())
     this.formLogin.patchValue(this.userService.getEmptyUser())
+    // this.authService.authState.subscribe((user) => {
+    //   this.user2 = user
+    //   console.log('this.user2:', this.user2)
+    //   this.loggedIn = (user != null);
+    // });
   }
+
+  // refreshToken(): void {
+  //   this.authService.refreshAuthToken(GoogleLoginProvider.PROVIDER_ID);
+  //   console.log(':', this.authService.refreshAuthToken(GoogleLoginProvider.PROVIDER_ID))
+  // }
+
+  // getAccessToken(): void {
+  //   this.authService.getAccessToken(GoogleLoginProvider.PROVIDER_ID).then(accessToken => this.accessToken = accessToken);
+  //   console.log('this.accessToken:', this.accessToken)
+  // }
+
+//   getGoogleCalendarData(): void {
+//     if (!this.accessToken) return;
+
+//     this.httpClient
+//       .get('https://www.googleapis.com/calendar/v3/calendars/primary/events', {
+//         headers: { Authorization: `Bearer ${this.accessToken}` },
+//       })
+//       .subscribe((events) => {
+//         alert('Look at your console');
+//         console.log('events', events);
+//       });
+//   }
+
+//  async signInWithFB() {
+//   const user = await this.authService.signIn(FacebookLoginProvider.PROVIDER_ID)
+//   console.log('user:', user)
+//   }
+
+//   signOut(): void {
+//     this.authService.signOut();
+//   }
 
   async onSubmit(type: string) {
     const coords = type === 'signup' ? this.formSignup.value : this.formLogin.value
