@@ -19,6 +19,7 @@ export class SocketService {
   public SOCKET_EMIT_ORDER_FOR_USER = 'order-update-emit'
 
   emit(eventName:string , data:any) {
+    console.log(eventName , data)
     this.socket.emit(eventName, data)
   }
 

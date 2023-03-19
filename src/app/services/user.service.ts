@@ -72,15 +72,16 @@ export class UserService {
   private updateHostMsg(order: Order) {
     const user = JSON.parse(sessionStorage.getItem(this.STORAGE_KEY_LOGGEDIN_USER) as string)
     console.log('user:', user)
-    if(order.host._id !== user?._id) return
+    // if(order.host._id !== user?._id) return
     const msg = `${order.buyer.fullname} invite your place`
     this.snackBar.open(msg, 'Close', { duration: 3000 })
     this.orderService.loadOrders()
   }
-
+  
   private updateUserMsg(order: Order) {
     const user = JSON.parse(sessionStorage.getItem(this.STORAGE_KEY_LOGGEDIN_USER) as string)
-    if(order.buyer._id !== user?._id) return
+    console.log('user:', user)
+    // if(order.buyer._id !== user?._id) return
     const msg = `${order.stay.name} update your vacation status`
     this.snackBar.open(msg, 'Close', { duration: 3000 })
     this.orderService.loadOrders()

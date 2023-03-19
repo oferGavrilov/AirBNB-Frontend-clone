@@ -12,7 +12,7 @@
             <form [formGroup]="formSignup" (ngSubmit)="onSubmit('signup')" novalidate>
                 <div class="input-container">
                     <span class="icon material-symbols-outlined">account_circle</span>
-                    <input formControlName="fullname" id="fullname" class="form-control" placeholder="Full name" autocomplete="off" />
+                    <input formControlName="fullname" id="fullname" autofocus class="form-control" placeholder="Full name" autocomplete="off" />
                 </div>
                 <div *ngIf="formSignup.controls['fullname'].invalid && (formSignup.controls['fullname'].dirty || formSignup.controls['fullname'].touched)"
                     class="alert alert-danger">
@@ -77,7 +77,7 @@
             <form [formGroup]="formLogin" (ngSubmit)="onSubmit('login')" novalidate>
                 <div class="input-container">
                     <fa-icon class="icon" [icon]="faUser"></fa-icon>
-                    <input formControlName="username" type="text" id="username" placeholder="User name" autocomplete="off"/>
+                    <input formControlName="username" type="text" id="username" autofocus placeholder="User name" autocomplete="off"/>
                 </div>
                 <div *ngIf="formLogin.controls['username'].invalid && (formLogin.controls['username'].dirty || formLogin.controls['username'].touched)"
                     class="alert alert-danger">

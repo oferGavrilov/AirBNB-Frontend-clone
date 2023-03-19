@@ -1,11 +1,8 @@
 import { Injectable } from '@angular/core';
-import { MatSnackBar } from '@angular/material/snack-bar';
-import { BehaviorSubject, lastValueFrom, of, tap, throwError, Observable } from 'rxjs';
+import { BehaviorSubject, lastValueFrom, Observable } from 'rxjs';
 import { FilterOrder, Order } from '../models/order.model';
 import { HttpService } from './http.service';
 import { SocketService } from './socket.service';
-import { UserService } from './user.service';
-import { UtilService } from './util.service';
 
 @Injectable({
   providedIn: 'root'
@@ -41,11 +38,11 @@ export class OrderService {
 
   public query(filterBy: FilterOrder | null) {
     const queryParams = this.getQueryParams(filterBy)
-    console.log('queryParams:', queryParams)
     return this.httpService.get(this.ORDER_URL + queryParams, null) as Observable<Order[]>
   }
 
   public save(order: Order) {
+    console.log('save order', order)
     if(order._id){
       this.socketService.emit(this.socketService.SOCKET_EVENT_ORDER_FOR_USER, order)
       return lastValueFrom(this.httpService.put(this.ORDER_URL, order))
