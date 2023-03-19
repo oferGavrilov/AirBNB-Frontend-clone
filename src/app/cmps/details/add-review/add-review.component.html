@@ -1,22 +1,22 @@
 <form [formGroup]="form" (submit)="onAddReview()" class="add-review">
-  <h2>Add a review about this stay</h2>
+  <h2>{{'stay.details.add-review' | translate}}</h2>
   <div class="star-container">
-    <label for="capacity">Cleanliness:
+    <label for="capacity">{{'stay.details.cleanliness' | translate}}:
       <ngx-star-rating formControlName="cleanliness" id="cleanliness" name="capacity"></ngx-star-rating>
     </label>
-    <label for="communication">Communication:
+    <label for="communication">{{'stay.details.communication' | translate}}:
       <ngx-star-rating formControlName="communication" id="communication" name="communication"></ngx-star-rating>
     </label>
-    <label for="checkIn">CheckIn:
+    <label for="checkIn">{{'stay.details.CheckIn' | translate}}:
       <ngx-star-rating formControlName="checkIn" id="checkIn" name="checkIn"></ngx-star-rating>
     </label>
-    <label for="accuracy">Accuracy:
+    <label for="accuracy">{{'stay.details.accuracy' | translate}}:
       <ngx-star-rating formControlName="accuracy" id="accuracy" name="accuracy"></ngx-star-rating>
     </label>
-    <label for="location">Location:
+    <label for="location">{{'stay.details.location' | translate}}:
       <ngx-star-rating formControlName="location" id="location" name="location"></ngx-star-rating>
     </label>
-    <label for="value">Value:
+    <label for="value">{{'stay.details.value' | translate}}:
       <ngx-star-rating formControlName="value" id="value" name="value"></ngx-star-rating>
     </label>
   </div>

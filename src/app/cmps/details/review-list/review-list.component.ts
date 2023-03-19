@@ -26,10 +26,9 @@ export class ReviewListComponent {
     const rateArr = []
     let key: keyof StatReviews
     for(key in this.stay.statReviews) {
-      const rateObj = {rateName: key, rate: this.stay.statReviews[key]}
+      const rateObj = {rateName: `stay.details.${key}`, rate: this.stay.statReviews[key]}
       rateArr.push(rateObj)
     }
-
     return rateArr
   }
 

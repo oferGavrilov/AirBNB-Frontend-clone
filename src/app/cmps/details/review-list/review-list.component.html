@@ -5,11 +5,11 @@
       <span>{{getRateAvg()}}</span>
     </div>
     <fa-icon class="point" [icon]="point"></fa-icon>
-    <div class="reviews-amount">{{stay.reviews.length}} reviews</div>
+    <div class="reviews-amount">{{stay.reviews.length}} {{'stay.details.reviews' | translate}}</div>
   </div>
   <ul class="rate-list">
     <li *ngFor="let rateObj of getRateArr()">
-      <span>{{rateObj.rateName}}</span>
+      <span>{{rateObj.rateName | translate}}</span>
       <div class="rate-percent">
         <span class="line"><span [ngStyle]="{width: getRatePercent(rateObj.rate)}"></span></span>
         <span>{{rateObj.rate}}</span>

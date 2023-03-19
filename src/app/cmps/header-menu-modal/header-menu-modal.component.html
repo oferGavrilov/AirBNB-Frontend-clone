@@ -1,12 +1,12 @@
 <section [ngClass]="isOpenFooter ? 'footer' : ''" class="header-menu-modal">
     <div *ngIf="!isLoggedInUser()">
-        <span [routerLink]="['/login']" class="bold">Sign up</span>
-        <span [routerLink]="['/login']">Log in</span>
+        <span [routerLink]="['/login']" class="bold">{{'stay.header.sign-up' | translate}}</span>
+        <span [routerLink]="['/login']">{{'stay.header.login' | translate}}</span>
     </div>
     <div *ngIf="isLoggedInUser()">
-        <span [routerLink]="['/user/trips']" (click)="toggleMenuModal()" class="bold">Trips</span>
-        <span [routerLink]="['/user/wishlist']" (click)="toggleMenuModal()" class="bold">Wishlist</span>
+        <span [routerLink]="['/user/trips']" (click)="toggleMenuModal()" class="bold">{{'stay.header.trips' | translate}}</span>
+        <span [routerLink]="['/user/wishlist']" (click)="toggleMenuModal()" class="bold">{{'stay.header.wishlist' | translate}}</span>
     </div>
-    <span [routerLink]="['/home']">Airbnb your home</span>
-    <span *ngIf="isLoggedInUser()" routerLink="/" class="logout" (click)="onLogout()">Logout</span>
+    <span [routerLink]="['/home']">{{'stay.header.your-home' | translate}}</span>
+    <span *ngIf="isLoggedInUser()" routerLink="/" class="logout" (click)="onLogout()">{{'stay.header.logout' | translate}}</span>
 </section>
