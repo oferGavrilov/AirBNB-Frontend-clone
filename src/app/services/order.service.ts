@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { BehaviorSubject, lastValueFrom, of, tap, throwError, Observable } from 'rxjs';
 import { FilterOrder, Order } from '../models/order.model';
 import { HttpService } from './http.service';
+import { SocketService } from './socket.service';
+import { UserService } from './user.service';
 import { UtilService } from './util.service';
 
 @Injectable({
@@ -10,8 +13,8 @@ import { UtilService } from './util.service';
 export class OrderService {
 
   constructor(
-    private utilService: UtilService,
-    private httpService: HttpService
+    private httpService: HttpService,
+    private socketService: SocketService,
     ) { }
   ORDER_STORAGE_KEY = 'orders'
   ORDER_URL = 'order/'
@@ -43,7 +46,11 @@ export class OrderService {
   }
 
   public save(order: Order) {
-    if(order._id) return lastValueFrom(this.httpService.put(this.ORDER_URL, order))
+    if(order._id){
+      this.socketService.emit(this.socketService.SOCKET_EVENT_ORDER_FOR_USER, order)
+      return lastValueFrom(this.httpService.put(this.ORDER_URL, order))
+    }
+    this.socketService.emit(this.socketService.SOCKET_EVENT_ORDER_FOR_HOST, order)
     return lastValueFrom(this.httpService.post(this.ORDER_URL, order))
   }
 

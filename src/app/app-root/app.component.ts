@@ -13,15 +13,11 @@ export class AppComponent {
     private translate: TranslateService,
     private socketService: SocketService) {
     translate.setDefaultLang('en')
-    translate.use('he')
-
+    translate.use('en')
   }
 
   ngOnInit(): void {
     this.stayService.loadStays()
-    this.socketService.listen('test').subscribe((data) => {
-      console.log(data)
-    })
   }
   title = 'airbnb';
 }

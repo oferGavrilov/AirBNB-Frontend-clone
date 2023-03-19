@@ -28,6 +28,7 @@
     "@googlemaps/js-api-loader": "^1.15.1",
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
+    "@types/socket.io-client": "^3.0.0",
     "angular-typing-animation": "^0.5.4",
     "ng-multiselect-dropdown": "^0.3.9",
     "ngx-airbnb-calendar": "^0.5.0",
