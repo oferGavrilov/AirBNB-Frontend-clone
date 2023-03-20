@@ -42,9 +42,8 @@ export class OrderService {
   }
 
   public save(order: Order) {
-    console.log('save order', order)
     if(order._id){
-      this.socketService.emit(this.socketService.SOCKET_EVENT_ORDER_FOR_USER, order )
+      this.socketService.emit(this.socketService.SOCKET_EVENT_ORDER_FOR_USER, order)
       return lastValueFrom(this.httpService.put(this.ORDER_URL, order))
     }
     this.socketService.emit(this.socketService.SOCKET_EVENT_ORDER_FOR_HOST, order)

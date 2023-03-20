@@ -54,7 +54,7 @@ export class EditStayComponent {
     const country = this.stay.loc.country
     const city = this.stay.loc.city
     const address = this.stay.loc.address
-    this.stay.host = { ...this.stay.host, _id: user._id, pictureUrl: user.imgUrl }
+    this.stay.host = { ...this.stay.host, _id: user._id, pictureUrl: user.imgUrl, fullname: user.fullname }
     this.stay.loc.address = `${address}, ${city}, ${country}`
     if (this.checkValidation()) return
     try {

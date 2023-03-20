@@ -24,12 +24,10 @@ export class UserService {
       const user = this.getUser()
       this._user$.next(user)
       if(user) {
-        console.log('user:', user)
         this.socketService.login(user._id)
         this.socketService.on(this.socketService.SOCKET_EMIT_ORDER_FOR_HOST, this.hostFunction)
         this.socketService.on(this.socketService.SOCKET_EMIT_ORDER_FOR_USER, this.userFunction)
       }
-
   }
 
   private USER_URL = 'user/'

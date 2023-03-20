@@ -51,7 +51,6 @@ export class UserOrderComponent {
   async deleteHostMsg() {
     this.user.hostMsg = 0
     this.user = await this.userService.update(this.user) as User
-    console.log('this.user:', this.user)
   }
 
   setOrdersToShow(orders: Order[]) {
@@ -83,10 +82,10 @@ export class UserOrderComponent {
     window.print()
   }
 
-  onChangeStatus(newStatus: string, order: Order): void {
+  async onChangeStatus(newStatus: string, order: Order) {
     order.status = newStatus
     try {
-      this.orderService.save(order)
+      await this.orderService.save(order)
       this.snackBar.open(`Status change to ${newStatus}`, 'Close', { duration: 3000 })
     } catch (err) {
       console.log(err)
