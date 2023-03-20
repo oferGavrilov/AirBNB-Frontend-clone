@@ -27,7 +27,7 @@ export class SocketService {
     this.socket.on(eventName, cb)
   }
 
-  off(eventName: string, cb = null) {
+  off(eventName: string, cb: Function | null  = null) {
     if (!this.socket) return;
     if (!cb) this.socket.removeAllListeners(eventName)
     else this.socket.removeListener(eventName, cb)

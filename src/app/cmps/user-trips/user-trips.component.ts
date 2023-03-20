@@ -40,6 +40,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
     this.loader.setLoading(true)
     setTimeout(() => this.start = true, 1000)
     this.user = this.userService.getUser()
+    this.deleteUserMsg()
     this.orderFilter = this.orderService.getEmptyFilter()
     this.orderFilter.buyerId = this.user._id
     this.orderService.setFilter(this.orderFilter)
@@ -49,6 +50,12 @@ export class UserTripsComponent implements OnInit, OnDestroy {
     })
     this.loader.setLoading(false)
   }
+
+  async deleteUserMsg() {
+    this.user.userMsg = 0
+    this.user = await this.userService.update(this.user) as User
+  }
+
   onSetFilter() {
     this.orderService.setFilter(this.orderFilter)
   }
@@ -73,7 +80,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   onDownloadCSV() {
     new ngxCsv(this.getData(), "orders", this.getOptions())
   }
-  
+
   onPrint() {
     window.print()
   }

@@ -37,6 +37,7 @@ export class UserOrderComponent {
   ngOnInit(): void {
     this.loader.setLoading(true)
     this.user = this.userService.getUser()
+    this.deleteHostMsg()
     this.orderFilter = this.orderService.getEmptyFilter()
     this.orderFilter.hostId = this.user._id
     this.orderService.setFilter(this.orderFilter)
@@ -45,6 +46,12 @@ export class UserOrderComponent {
       this.ordersToShow = [...orders]
     })
     this.loader.setLoading(false)
+  }
+
+  async deleteHostMsg() {
+    this.user.hostMsg = 0
+    this.user = await this.userService.update(this.user) as User
+    console.log('this.user:', this.user)
   }
 
   setOrdersToShow(orders: Order[]) {
