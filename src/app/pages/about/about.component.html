@@ -1,31 +1,47 @@
 <section class="about">
-      <home-header></home-header>
+      <home-header [isTopZero]="true"></home-header>
       <div class="header">
             <h1>Who Are We ?</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi soluta molestiae nam dolore sit?
-                  Voluptatem,
-                  quod, voluptate quam accusantium omnis reiciendis illo vel, expedita voluptatum quis deleniti sit
-                  ratione ut
-                  numquam fuga distinctio dolores facilis voluptas. Impedit aperiam aut ab!</p>
+            <p>We are Idan and Ofer Full Stack Developers, we recently finished a full stack boot camp at Coding
+                  Academy,
+                  we have done some big end-to-end projects with React and this is our big first end-to-end project in
+                  Angular.
+                  We hope you enjoy the app. 😊
+            </p>
+            <a href="https://github.com/oferGavrilov/AirBNB-clone" target="_blank">View the code here</a>
       </div>
       <main class="main">
             <div class="ofer">
-                  <img src="assets/img/about/ofer.jpg" alt="ofer">
+                  <img src="https://media.licdn.com/dms/image/D4D35AQGBqyxxPb-UXQ/profile-framedphoto-shrink_400_400/0/1678568013406?e=1679918400&v=beta&t=tuk_jsCxg7ApRfo2pFlRBctPt7fv7GaMxEQw4W1q9PU"
+                        alt="ofer">
                   <div class="description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore placeat cum debitis rem tempora quis modi unde vitae dicta? Totam officia corporis assumenda. Beatae.</p>
+                        <p>I'm Ofer Gavrilov, 24 years old from Ramla, Israel.
+                              I'm a full stack developer with experience of creating single page applications with the
+                              best technologies like <span class="bold">HTML5, CSS3, SCSS, React, Redux, TypeScript,
+                                    Angular, Rxjs</span> for frontend. <span class="bold">Node.js, Express,
+                                    Socket.io</span> for backend. <span class="bold">MongoDB, SQL</span> for
+                              database.</p>
+                        <div class="icon-container">
+                              <a href="https://github.com/oferGavrilov" target="_blank"><fa-icon [icon]="github"></fa-icon></a>
+                              <a href="https://www.linkedin.com/in/ofergavriel/" target="_blank"><fa-icon class="linkedin" [icon]="linkedin"></fa-icon></a>
+                        </div>
                   </div>
             </div>
             <div class="idan">
                   <img src="assets/img/about/idan.jpg" alt="idan">
                   <div class="description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolorem ad delectus reprehenderit, et a quibusdam autem minus corporis sed incidunt, dignissimos soluta amet similique.</p>
+                        <p>I'm Idan David, 23 years old from Mazkeret Batya, Israel.
+                              I'm a full stack developer with experience of creating single page applications with the
+                              best technologies like <span class="bold">HTML5, CSS3, SCSS, React, Redux, TypeScript,
+                                    Angular, Rxjs</span> for frontend. <span class="bold">Node.js, Express,
+                                    Socket.io</span> for backend. <span class="bold">MongoDB, SQL</span> for
+                              database.</p>
+                        <div class="icon-container">
+                              <a href="https://github.com/idandavid1" target="_blank"><fa-icon [icon]="github"></fa-icon></a>
+                              <a href="https://www.linkedin.com/in/idandavid/" target="_blank"><fa-icon class="linkedin" [icon]="linkedin"></fa-icon></a>
+                        </div>
                   </div>
             </div>
       </main>
       <img src="assets/img/about/skills.png" alt="skills">
-
-      <div>
-            <h1>{{'demo.heading' | translate}}</h1>
-            <p>{{'demo.text' | translate}}</p>
-        </div>
 </section>

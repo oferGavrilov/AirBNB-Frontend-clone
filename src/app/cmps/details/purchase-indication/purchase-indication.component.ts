@@ -25,8 +25,8 @@ export class PurchaseIndicationComponent implements OnInit {
     this.order = await this.orderService.getCurrOrder()
   }
 
-  get GetTotalDays() {
-    return this.order.endDate.getDate() - this.order.startDate.getDate()
+  get GetTotalDays(): number {
+    return this.order.endDate?.getDate() - this.order.startDate?.getDate()
   }
 
   get Price() {
@@ -51,7 +51,7 @@ export class PurchaseIndicationComponent implements OnInit {
   async onClickConfirm() {
     this.isAfterConfirm = true
     try {
-      this.order = await this.orderService.save(this.order) as Order
+      await this.orderService.save(this.order)
       this.orderService.setOrder(this.orderService.getEmptyOrder() as Order)
       this.snackBar.open('Your order sent successfully', 'Close', { duration: 3000 })
     } catch (err) {
