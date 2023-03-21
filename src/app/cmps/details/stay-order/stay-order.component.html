@@ -6,36 +6,26 @@
             <div class="reviews">
                 <div class="rating">
                     <fa-icon class="star" [icon]="faStar"></fa-icon>
-                    <span>4.93</span>
+                    <span>{{RateAvg}}</span>
                 </div>
-                <span class="sum-of-reviews">{{stay.reviews.length}} reviews</span>
+                <span class="sum-of-reviews">{{stay.reviews.length}} {{'stay.details.reviews' | translate}}</span>
             </div>
         </div>
         <div class="checkout-container">
-            <!-- <div (click)="onSetDate()" class="checkout-btns">
-                <button>
-                    <span class="title">Check-in</span>
-                    <span>{{checkIn | date}}</span>
-                </button>
-                <button>
-                    <span class="title">Checkout</span>
-                    <span>{{checkOut | date}}</span>
-                </button>
-            </div> -->
             <div class="checkout-btns">
                 <label for="calender" class="check-in">
-                    <span class="title">Check-in</span>
+                    <span class="title">{{'stay.header.check-out' | translate}}</span>
                     <span>{{getCheckIn() | date}}</span>
                 </label>
                 <input id="calender" type="text" [(ngModel)]="date" name="date" airbnb-calendar [options]="options" />
                 <label for="calender" class="check-out">
-                    <span class="title">Checkout</span>
+                    <span class="title">{{'stay.header.check-in' | translate}}</span>
                     <span>{{getCheckOut() | date}}</span>
                 </label>
             </div>
             <div class="guest-btn" (click)="showGuestModal=!showGuestModal">
                 <button>
-                    <span class="title">Guests</span>
+                    <span class="title">{{'stay.header.guests' | translate}}</span>
                     <span>{{getGuests()}}</span>
                 </button>
                 <fa-icon *ngIf="!showGuestModal" [icon]="faChevronDown"></fa-icon>
@@ -43,28 +33,28 @@
             </div>
             <guest-modal (toggleGuestModal)="toggleGuestModal()" [order]="order" [stay]="stay" *ngIf="showGuestModal"></guest-modal>
         </div>
-        <button class="order-btn" (click)="onAddOrder()">Reserve</button>
+        <button class="order-btn" (click)="onAddOrder()">{{'stay.order.reserve' | translate}}</button>
        
         <div class="order-description">
-            <span>You won't be charged yet</span>
-            <p>Price shown is the total trip price, including additional fees and taxes.</p>
+            <span>{{'stay.order.description-one' | translate}}</span>
+            <p>{{'stay.order.description-two' | translate}}</p>
         </div>
         <div class="price-container">
             <div class="price-line">
-                <span class="price-item">${{stay.price}} X {{GetTotalDays}} nights</span>
+                <span class="price-item">${{stay.price}} X {{GetTotalDays}} {{'stay.order.nights' | translate}}</span>
                 <span>${{Price}} </span>
             </div>
             <div class="price-line">
-                <span class="price-item">Cleaning fee</span>
+                <span class="price-item">{{'stay.order.cleaning-fee' | translate}}</span>
                 <span>${{CleanTax}} USD</span>
             </div>
             <div class="price-line">
-                <span class="price-item">Service fee</span>
+                <span class="price-item">{{'stay.order.service-fee' | translate}}</span>
                 <span>${{ServiceFee}} USD</span>
             </div>
         </div>
         <div class="total-price">
-            <span>Total</span>
+            <span>{{'stay.order.total' | translate}}</span>
             <span>${{TotalPrice | number:'1.2'}} USD</span>
         </div>
     </div>

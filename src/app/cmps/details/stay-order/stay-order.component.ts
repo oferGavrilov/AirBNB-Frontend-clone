@@ -1,5 +1,5 @@
 import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
-import { Stay } from 'src/app/models/stay.model';
+import { StatReviews, Stay } from 'src/app/models/stay.model';
 import { faStar, faCircleMinus, faCirclePlus, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { CalendarOptions } from 'ngx-airbnb-calendar';
 import { Order } from 'src/app/models/order.model';
@@ -71,6 +71,16 @@ export class StayOrderComponent implements OnInit {
   get dateFromOrder() {
     if (!this.order.startDate.getMilliseconds() || !this.order.endDate.getMilliseconds()) return ''
     return this.order.startDate.toDateString() + '-' + this.order.endDate.toDateString()
+  }
+
+  get RateAvg() {
+    let rate = 0
+    let key: keyof StatReviews
+    for (key in this.stay.statReviews) {
+      rate += this.stay.statReviews[key]
+    }
+
+    return (rate / 6).toFixed(2)
   }
 
   getGuests() {

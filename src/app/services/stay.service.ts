@@ -13,7 +13,7 @@ export class StayService {
   constructor(
     private utilService: UtilService,
     private httpService: HttpService
-  ) {}
+  ) { }
 
   STAY_KEY: string = 'stayDB';
   STAY_URL: string = 'stay/'
@@ -118,15 +118,15 @@ export class StayService {
 
   public getEmptyReview(): Review {
     return {
-        "at": Date.now(),
-        "by": {
-          "_id": '',
-          "fullname": '',
-          "imgUrl": '',
-        },
-        "txt": ''
+      "at": Date.now(),
+      "by": {
+        "_id": '',
+        "fullname": '',
+        "imgUrl": '',
+      },
+      "txt": ''
+    }
   }
-}
 
   private _createStays() {
     let stays = this.utilService.loadFromStorage(this.STAY_KEY)

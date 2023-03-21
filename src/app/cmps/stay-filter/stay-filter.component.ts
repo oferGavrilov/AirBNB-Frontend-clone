@@ -103,8 +103,8 @@ export class StayFilterComponent implements OnInit, OnDestroy {
     { txt: 'stay.filter.castles', img: 'assets/img/filter-imgs/castles.jpg' },
     { txt: 'stay.filter.tiny-homes', img: 'assets/img/filter-imgs/tiny-homes.jpg' },
     { txt: 'stay.filter.islands', img: 'assets/img/filter-imgs/islands.jpg' },
-    { txt: 'Boats', img: 'assets/img/filter-imgs/boats.jpg' },
-    { txt: 'Creative spaces', img: 'assets/img/filter-imgs/creative-spaces.jpg' },
+    { txt: 'stay.filter.boats', img: 'assets/img/filter-imgs/boats.jpg' },
+    { txt: 'stay.filter.creative-spaces', img: 'assets/img/filter-imgs/creative-spaces.jpg' },
     { txt: 'Beach', img: 'assets/img/filter-imgs/beach.jpg' },
     { txt: 'Design', img: 'assets/img/filter-imgs/design.jpg' },
   ]

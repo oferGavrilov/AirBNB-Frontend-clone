@@ -35,6 +35,7 @@
     height: 100px;
     list-style: none;
     gap: 8px;
+    margin: 36px 0;
 
     li {
       @include center-flex();

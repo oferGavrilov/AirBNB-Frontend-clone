@@ -9,7 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {TranslateLoader, TranslateModule, TranslateService} from '@ngx-translate/core';
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -57,7 +57,8 @@ import { NgxStarRatingModule } from 'ngx-star-rating';
 import { SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
 import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-social-login';import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.component';
 import { MatBadgeModule } from '@angular/material/badge'
-import { MatIconModule } from '@angular/material/icon'
+import { MatIconModule } from '@angular/material/icon';
+// import {ServiceWorkerModule} from '@angular/service-worker'
 
 @NgModule({
   declarations: [
@@ -122,6 +123,7 @@ import { MatIconModule } from '@angular/material/icon'
     MatSnackBarModule,
     NgxStarRatingModule,
     MatBadgeModule,
+    // ServiceWorkerModule
     TranslateModule.forRoot({
       loader:{
         provide: TranslateLoader,
@@ -155,10 +157,7 @@ import { MatIconModule } from '@angular/material/icon'
   bootstrap: [AppComponent],
 })
 export class AppModule {
-  constructor(private translate:TranslateService){
-    translate.setDefaultLang('en')
-    translate.use('en')
-  }
+ 
 }
 
 export function HttpLoaderFactory(http:HttpClient):TranslateHttpLoader {

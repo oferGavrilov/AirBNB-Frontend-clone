@@ -27,16 +27,8 @@ export class UserComponent implements OnInit, OnDestroy {
     this.user = this.userService.getUser()
     this.subscription = this.stayService.stays$.subscribe(stays => this.stays = stays)
     const url = window.location.href.split('/')
-    this.pageNav = url[url.length - 1]
-  }
-  // @Input() pageNav: string = 'home'
-
-
-  onClickWishList() {
-    const filter = this.stayService.getEmptyFilter()
-    filter.likeByUser = this.user._id
-    this.stayService.setFilter(filter)
-    this.pageNav = 'wishlist'
+    this.pageNav = 'user-' + url[url.length - 1]
+    console.log(this.pageNav)
   }
 
   ngOnDestroy() {
@@ -44,5 +36,4 @@ export class UserComponent implements OnInit, OnDestroy {
     this.stayService.setFilter(filter)
     this.subscription.unsubscribe()
   }
-
 }
