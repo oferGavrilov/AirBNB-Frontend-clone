@@ -41,12 +41,11 @@ You are more than welcome to ***check it out*** ( [right here](https://airbnb-rk
 
 ## Technologies
 
-The technology stack we used was MEAN - MongoDB, Express, Angular, Node.js.
+The technology stack we used was MEAN - ***MongoDB***, ***Express***, ***Angular***, ***Node.js***.
 The app uses webSockets to update the orders in real-time.
-The API calls to the backend are done with the REST API method.
+The API calls to the backend are done with the ***REST API*** method.
 
-We have used many third side libraries for many goals like Google-maps, Angular-Material, Font-Awesome, Ngx-Translate, Socket.io, Ngx-CSV, Ngx-Star-Rating. 
-
+We have used many third side libraries for many goals like ***Google-maps, Angular-Material, Font-Awesome, Ngx-Translate, Socket.io, Ngx-CSV, Ngx-Star-Rating.*** 
 
 
 ## Code scaffolding
