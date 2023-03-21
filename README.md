@@ -84,7 +84,7 @@ After find a nice place the users can navigate to stay details for more informat
 ![Main stays image](src/assets/img/readme/stay-filter3.png "stay-page")
 
 ### Login & Signup
-We created an e2e authentication flow, including encrypting the users details and ***Google Login***.
+We created an e2e authentication flow, including encrypting the users details.
 
 ![Login image](src/assets/img/readme/stay-login.png "login-page")
 
@@ -97,7 +97,7 @@ Here the users can explore more information about any place they choose to see, 
 ![Stay details image](src/assets/img/readme/stay-details4.png "stay-details")
 
 ### User Page
-Here users can post new stays, watch their wishlist, watch their trip list, watch their own stay list and watch their order list and there they can approve or decline orders of another users.
+Here users can post new stays, watch their wishlist, their trip list, their own stay list and their order list and there they can approve or decline orders of another users.
 
 ![Stay user image](src/assets/img/readme/add-stay1.png "stay-user")
 ![Stay user image](src/assets/img/readme/user-wishlist.png "stay-user")
