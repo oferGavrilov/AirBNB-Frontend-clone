@@ -48,9 +48,10 @@ The API calls to the backend are done with the REST API method.
 We have used many third side libraries for many goals like Google-maps, Angular-Material, Font-Awesome, Ngx-Translate, Socket.io, Ngx-CSV, Ngx-Star-Rating. 
 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
@@ -88,7 +89,7 @@ We created an e2e authentication flow, including encrypting the users details an
 
 ![Login image](src/assets/img/readme/stay-login.png "login-page")
 
-### Task details
+### Stay details
 Here the users can explore more information about any place they choose to see, and send a order request to the host, they can also add their own review and rating by stars.
 
 ![Stay details image](src/assets/img/readme/stay-details1.png "stay-details")
@@ -96,9 +97,31 @@ Here the users can explore more information about any place they choose to see, 
 ![Stay details image](src/assets/img/readme/stay-details3.png "stay-details")
 ![Stay details image](src/assets/img/readme/stay-details4.png "stay-details")
 
+### User Page
+Here users can post new stays, watch their wishlist, watch their trip list, watch their own stay list and watch their order list and there they can approve or decline orders of another users.
+
+![Stay user image](src/assets/img/readme/add-stay1.png "stay-user")
+![Stay user image](src/assets/img/readme/user-wishlist.png "stay-user")
+![Stay user image](src/assets/img/readme/stay-user1.png "stay-user")
+![Stay user image](src/assets/img/readme/stay-user2.png "stay-user")
+![Stay user image](src/assets/img/readme/stay-user3.png "stay-user")
+
+### Internationalization Translation
+In our app users can choose their favorite language!
+
+![I18n Translate](src/assets/img/readme/stay-translate.png "I18n Translate")
+
+### About us
+And finally we designed a page for you with a little information about us 😉
+
+![About us](src/assets/img/readme/about-us.png "about-us")
+
+
 ### Some mobile!
 Just a taste of the mobile experience. We used different **mixins**, **conditional rendering**, and the **"mobile first"** approach. 
 The layout we have built from the very first moment enabled us to make the website responsive without a lot of effort.
+
+<img src="src/assets/img/readme/stay-mobile1.png" width="33%" style="float: left"/><img src="src/assets/img/readme/stay-mobile2.png" width="33%" style="float: left;"/><img src="src/assets/img/readme/stay-mobile3.png" width="33%" style="float: left;"/>
 
 ### Authors
  - [Idan David](https://github.com/idandavid1)
