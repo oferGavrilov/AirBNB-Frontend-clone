@@ -58,11 +58,12 @@ export class UserService {
       throw err
     }
   }
-
+  
   public async signup(user: User) {
     try {
       user = await lastValueFrom(this.httpService.post(this.AUTH_URL + 'signup', user)) as User
       this.saveLocalUser(user)
+      this._user$.next(user)
     } catch (err) {
       throw err
     }

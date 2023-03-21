@@ -92,6 +92,8 @@
             h4 {
                 text-align: center;
                 width: 100px;
+                overflow: hidden;
+                text-overflow: ellipsis;
                 &:nth-child(1){
                     width: 300px;
                 }

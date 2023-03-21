@@ -9,7 +9,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { faFacebookF, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { SocialAuthService } from "@abacritt/angularx-social-login";
-import { FacebookLoginProvider, GoogleLoginProvider  } from "@abacritt/angularx-social-login";
+import { FacebookLoginProvider, GoogleLoginProvider } from "@abacritt/angularx-social-login";
 import { SocialUser } from '@abacritt/angularx-social-login/public-api';
 import { HttpClient } from '@angular/common/http';
 @Component({
@@ -76,33 +76,32 @@ export class LoginComponent implements OnInit {
   //   console.log('this.accessToken:', this.accessToken)
   // }
 
-//   getGoogleCalendarData(): void {
-//     if (!this.accessToken) return;
+  //   getGoogleCalendarData(): void {
+  //     if (!this.accessToken) return;
 
-//     this.httpClient
-//       .get('https://www.googleapis.com/calendar/v3/calendars/primary/events', {
-//         headers: { Authorization: `Bearer ${this.accessToken}` },
-//       })
-//       .subscribe((events) => {
-//         alert('Look at your console');
-//         console.log('events', events);
-//       });
-//   }
+  //     this.httpClient
+  //       .get('https://www.googleapis.com/calendar/v3/calendars/primary/events', {
+  //         headers: { Authorization: `Bearer ${this.accessToken}` },
+  //       })
+  //       .subscribe((events) => {
+  //         alert('Look at your console');
+  //         console.log('events', events);
+  //       });
+  //   }
 
-//  async signInWithFB() {
-//   const user = await this.authService.signIn(FacebookLoginProvider.PROVIDER_ID)
-//   console.log('user:', user)
-//   }
+  //  async signInWithFB() {
+  //   const user = await this.authService.signIn(FacebookLoginProvider.PROVIDER_ID)
+  //   console.log('user:', user)
+  //   }
 
-//   signOut(): void {
-//     this.authService.signOut();
-//   }
+  //   signOut(): void {
+  //     this.authService.signOut();
+  //   }
 
   async onSubmit(type: string) {
     const coords = type === 'signup' ? this.formSignup.value : this.formLogin.value
-    const user = { ...coords, imgUrl: this.imgData.imgUrl }
+    const user = { ...coords, imgUrl: this.imgData.imgUrl, hostMsg: 0, userMsg: 0 }
     try {
-      console.log(this.isSignup)
       if (this.isSignup) await this.userService.signup(user)
       else await this.userService.login(coords)
       this.router.navigateByUrl('')
@@ -110,6 +109,14 @@ export class LoginComponent implements OnInit {
       this.snackBar.open('Username or password wrong', 'Close', { duration: 3000 })
       console.log(err)
     }
+  }
+  
+  async onSignDemo() {
+    const demoCoords = this.userService.getEmptyUser() as User
+    demoCoords.username = 'demo'
+    demoCoords.password = 'demo'
+    await this.userService.login(demoCoords)
+    this.router.navigateByUrl('')
   }
 
   async uploadImg(ev: Event) {

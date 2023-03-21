@@ -8,7 +8,7 @@ For those of you who are already familiar with Airbnb, we added some interesting
 If you are not familiar with the App, read about it [here](#airbnb-description).
 And, if you are tired and just want to see some images of the website, [scroll to the bottom...](#showcase)
 
-![Main board image](sprint-4/frontend/src/assets/img/readme/table.png "Board-main-page")
+![Main Stay image](src/assets/img/readme/stay-index.png "Stay-main-page")
 
 [Link to backend repository](https://github.com/oferGavrilov/AirBNB-backend "backend repository").
 ___

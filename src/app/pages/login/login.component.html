@@ -101,6 +101,7 @@
                         {{'stay.login.required-password-length' | translate}}
                     </div>
                 </div>
+                <button type="button" class="signup-btn demo" (click)="onSignDemo()">Sign with demo user</button>
                 <button class="signup-btn" [disabled]="formLogin.pristine || formLogin.invalid">{{'stay.login.sign-in' | translate}}</button>
             </form>
             <p>{{'stay.login.or-sign-in-with' | translate}}</p>

@@ -95,6 +95,8 @@
             h4 {
                 text-align: center;
                 width: 110px;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
 
             img {
@@ -175,7 +177,7 @@
                 display: none;
             }
 
-            .actions-btns{
+            .actions-btns {
                 flex-direction: column;
             }
         }
@@ -185,9 +187,9 @@
 .empty-orders {
     margin: 40px 0;
     color: $header-text-color;
-    
+
     img {
-          margin-top: 24px;
-          width: 700px;
+        margin-top: 24px;
+        width: 700px;
     }
 }
