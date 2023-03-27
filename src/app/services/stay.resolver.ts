@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import {
-  Router, Resolve,
+  Resolve,
   RouterStateSnapshot,
   ActivatedRouteSnapshot
 } from '@angular/router';
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs';
 import { Stay } from '../models/stay.model';
 import { StayService } from './stay.service';
 
@@ -20,4 +20,3 @@ export class StayResolver implements Resolve<Stay> {
     return this.stayService.getById(stayId)
   }
 }
-

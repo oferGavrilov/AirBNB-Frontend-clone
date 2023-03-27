@@ -51,5 +51,3 @@ export class SearchPlaceModalComponent implements OnInit {
     }, 0)
   }
 }
-
-

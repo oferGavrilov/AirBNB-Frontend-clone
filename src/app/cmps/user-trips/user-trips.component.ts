@@ -1,12 +1,10 @@
 import { Subscription } from 'rxjs';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ngxCsv } from 'ngx-csv';
-
 import { FilterOrder, Order } from 'src/app/models/order.model';
 import { User } from 'src/app/models/user.model';
 import { OrderService } from 'src/app/services/order.service';
 import { UserService } from 'src/app/services/user.service';
-
 import { faCheck, faCircle } from '@fortawesome/free-solid-svg-icons';
 import { LoaderService } from 'src/app/services/loader.service';
 
@@ -35,7 +33,6 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   ordersToShow!: Order[]
   isSearchActive: boolean = false
 
-  // TODO:GET USER FROM GUARD
   ngOnInit(): void {
     this.loader.setLoading(true)
     setTimeout(() => this.start = true, 1000)

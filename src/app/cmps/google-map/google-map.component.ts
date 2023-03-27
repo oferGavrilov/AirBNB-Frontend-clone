@@ -1,6 +1,5 @@
-import { Component, Input, OnInit, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { googleMapLoc, Stay } from 'src/app/models/stay.model';
-import { StayService } from 'src/app/services/stay.service';
 
 @Component({
   selector: 'map',
@@ -10,7 +9,7 @@ import { StayService } from 'src/app/services/stay.service';
 export class GoogleMapComponent implements OnInit {
   @Input() stay!: Stay;
 
-  constructor(private stayService: StayService) { }
+  constructor() { }
   location !: googleMapLoc
   display: any
   center: google.maps.LatLngLiteral = { lat: 40.084, lng: 34.8 }
@@ -28,10 +27,7 @@ export class GoogleMapComponent implements OnInit {
     optimized: false,
     draggable: false,
     icon: this.IconOption,
-    // icon: 'assets/img/home.png',
-    // icon: this.markerIcon,
   }
-
 
   options: google.maps.MapOptions = {
     scrollwheel: false,
@@ -41,7 +37,6 @@ export class GoogleMapComponent implements OnInit {
     minZoom: this.minZoom,
   }
   markerPositions: google.maps.LatLngLiteral[] = [];
-  // marker !: Marker
   ngOnInit() {
     this.center.lat = this.stay.loc.lan
     this.center.lng = this.stay.loc.lat
@@ -49,18 +44,6 @@ export class GoogleMapComponent implements OnInit {
       lat: this.stay.loc.lan,
       lng: this.stay.loc.lat,
     }
-  }
-
-
-  getPositions(idx: number) {
-    // if (!this.stays) return
-    // const { lat, lan: lng } = this.stays[idx].loc
-    // return { lat, lng }
-  }
-
-  getMarkerPrice() {
-    // if (this.stays) return this.prices = this.stays.map(stay => stay.price)
-    // return ''
   }
 
   addMarker(event: google.maps.MapMouseEvent) {

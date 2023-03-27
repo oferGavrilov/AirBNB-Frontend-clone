@@ -4,7 +4,6 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { UserService } from 'src/app/services/user.service';
 import { StayService } from 'src/app/services/stay.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { User } from 'src/app/models/user.model';
 
 @Component({
   selector: 'add-review',

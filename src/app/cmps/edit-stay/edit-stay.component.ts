@@ -2,7 +2,6 @@ import { Component, Input } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { ActivatedRoute, Router } from '@angular/router';
 import { lastValueFrom} from 'rxjs';
-import { Stay } from 'src/app/models/stay.model';
 import { User } from 'src/app/models/user.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UploadImgService } from 'src/app/services/upload-img.service';

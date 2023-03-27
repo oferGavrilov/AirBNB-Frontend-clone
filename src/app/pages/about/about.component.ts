@@ -7,7 +7,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./about.component.scss'],
 })
 export class AboutComponent {
- 
   github = faGithub
   linkedin = faLinkedin
 }

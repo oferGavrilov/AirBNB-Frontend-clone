@@ -44,5 +44,4 @@ export class HeaderFilterGuestModalComponent {
   onAddGuests(guestType: keyof Guest, diff: number) {
     this.order.guests[guestType] += diff
   }
-
 }

@@ -11,7 +11,6 @@ import { UserService } from 'src/app/services/user.service';
   styleUrls: ['./user.component.scss']
 })
 export class UserComponent implements OnInit, OnDestroy {
-
   user !: User
   stays !: Stay[]
   subscription!: Subscription

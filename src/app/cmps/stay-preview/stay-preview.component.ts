@@ -17,7 +17,6 @@ export class StayPreviewComponent {
     for(key in this.stay.statReviews) {
       rate += this.stay.statReviews[key]
     }
-
     return (rate / 6).toFixed(2)
   }
 }

@@ -1,5 +1,5 @@
-import { Injectable, OnInit } from '@angular/core';
-import { BehaviorSubject, Observable, of, throwError } from 'rxjs';
+import { Injectable } from '@angular/core';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { Review, Stay, StayFilter } from '../models/stay.model';
 import { HttpService } from './http.service';
 import { UtilService } from './util.service';
@@ -11,7 +11,6 @@ import { lastValueFrom } from 'rxjs';
 export class StayService {
 
   constructor(
-    private utilService: UtilService,
     private httpService: HttpService
   ) { }
 
@@ -127,6 +126,4 @@ export class StayService {
       "txt": ''
     }
   }
-
 }
-
