@@ -3,10 +3,12 @@
 
 .host-info {
   padding: 32px 0;
-  border-bottom: 1px solid $border-color;
   .host-container {
     width: 500px;
     color: $header-text-color;
+    @include for-mobile-layout {
+      width: 100%;
+    }
     .title {
       display: flex;
       align-items: center;
