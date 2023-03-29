@@ -8,8 +8,7 @@ import { UploadImgService } from 'src/app/services/upload-img.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { faFacebookF, faTwitter, faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
-import { SocialAuthService } from "@abacritt/angularx-social-login";
-import { HttpClient } from '@angular/common/http';
+
 @Component({
   selector: 'login',
   templateUrl: './login.component.html',

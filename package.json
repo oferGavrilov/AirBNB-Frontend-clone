@@ -20,6 +20,8 @@
     "@angular/material": "^15.2.1",
     "@angular/platform-browser": "^15.1.0",
     "@angular/platform-browser-dynamic": "^15.1.0",
+    "@angular/pwa": "^0.900.1",
+    "@angular/service-worker": "9.0.0",
     "@angular/router": "^15.1.0",
     "@fortawesome/angular-fontawesome": "^0.12.1",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
@@ -54,5 +56,3 @@
     "typescript": "~4.9.4"
   }
 }
-
-
