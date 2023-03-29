@@ -7,7 +7,7 @@
         <span [routerLink]="['/user/trips']" (click)="toggleMenuModal()" class="bold">{{'stay.header.trips' | translate}}</span>
         <span [routerLink]="['/user/wishlist']" (click)="toggleMenuModal()" class="bold">{{'stay.header.wishlist' | translate}}</span>
     </div>
-    <div class="language">
+    <div class="language" (click)="onToggleLanguageModal()">
         <span>Language</span>
     </div>
     <span [routerLink]="['/home']">{{'stay.header.your-home' | translate}}</span>

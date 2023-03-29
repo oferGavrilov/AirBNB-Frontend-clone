@@ -21,7 +21,7 @@
     <header-filter [isHeaderFilterActive]="isHeaderFilterActive"
         (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
 </header>
-<header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" (toggleLanguageModal)="onToggleLanguageModal"
+<header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" (toggleLanguageModal)="onToggleLanguageModal()"
 [isOpenLanguageModal]="isOpenLanguageModal" [isOpenFooter]="false"
     *ngIf="isShowHeaderMenuModal"></header-menu-modal>
 <language-modal (onToggleLanguageModal)="onToggleLanguageModal()" *ngIf="isOpenLanguageModal"></language-modal>

@@ -44,7 +44,7 @@
         }
     }
 
-    @include for-tablet-layout{
+    @include for-normal-layout{
         .language{
             display: none;
         }

@@ -13,6 +13,12 @@ export class AppFooterComponent {
 
   faBars = faBars
   isShowHeaderMenuModal = false
+  isOpenLanguageModal: boolean = false
+
+  onToggleLanguageModal() {
+    console.log("Toggle language")
+    this.isOpenLanguageModal = !this.isOpenLanguageModal
+  }
 
   onToggleHeaderMenuModal() {
     this.isShowHeaderMenuModal = !this.isShowHeaderMenuModal
@@ -22,4 +28,6 @@ export class AppFooterComponent {
     if (user?.imgUrl) return user.imgUrl
     return 'assets/img/user/guest.png'
   }
+
+
 }

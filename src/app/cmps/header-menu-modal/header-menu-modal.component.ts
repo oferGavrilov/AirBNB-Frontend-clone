@@ -18,7 +18,9 @@ export class HeaderMenuModalComponent {
     private userService: UserService) { }
 
   onToggleLanguageModal() {
+    console.log('Toggle language modal')
     this.toggleLanguageModal.emit()
+    this.toggleMenuModal()
   }
 
   isLoggedInUser() {
