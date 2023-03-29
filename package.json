@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ng test",
     "postinstall": "ngcc"
   },
   "private": true,
