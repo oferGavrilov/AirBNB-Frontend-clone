@@ -17,6 +17,10 @@
   padding: 32px 0;
   border-bottom: 1px solid $border-color;
 
+  @include for-mobile-layout {
+    margin: 20px 5px;
+  }
+
   h2 {
     font-size: 22px;
     font-weight: 500;

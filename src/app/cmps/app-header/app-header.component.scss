@@ -10,6 +10,11 @@ header {
     color: $header-text-color;
     z-index: 7;
 
+    @include for-mobile-layout {
+      display: block;
+      width: 100%;
+    }
+
     .header-content {
         display: flex;
         align-items: center;
@@ -31,7 +36,7 @@ header {
             }
         }
     }
-    
+
     nav {
         display: flex;
         justify-content: space-between;
@@ -52,7 +57,7 @@ header {
             }
         }
 
-       
+
         .language {
             font-size: 20px;
         }

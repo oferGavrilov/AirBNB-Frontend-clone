@@ -1,21 +1,21 @@
 <section class="stay-filter">
-    <div (click)="onClickArrow(-1)" *ngIf="checkLeftArrow()" class="arrow-container arrow-left">
-        <div class="arrow arrow-left">
-            <fa-icon [icon]="faChevronLeft"></fa-icon>
-        </div>
-    </div>
-    <div class="filter-container">
-        <div *ngFor="let filter of getFilters()" (click)="onClickLabel(filter.txt)">
-            <img src="{{filter.img}}" alt="">
-            <span>{{ filter.txt | translate}}</span>
-        </div>
-    </div>
-    <div *ngIf="checkRightArrow()" (click)="onClickArrow(1)" class="arrow-container arrow-right">
-        <div class="arrow arrow-right">
-            <fa-icon [icon]="faChevronRight"></fa-icon>
-        </div>
-    </div>
-    <a *ngIf="this.stayFilter.label" (click)="onClickLabel('')" loading="eager" class="clear-filter">
-        <img src="assets/img/stay/clear-filter.png" alt="">
-    </a>
+  <div (click)="onClickArrow(-1)" *ngIf="checkLeftArrow()" class="arrow-container arrow-left">
+      <div class="arrow arrow-left">
+          <fa-icon [icon]="faChevronLeft"></fa-icon>
+      </div>
+  </div>
+  <div class="filter-container">
+      <div *ngFor="let filter of getFilters()" (click)="onClickLabel(filter.txt)">
+          <img src="{{filter.img}}" alt="">
+          <span>{{ filter.txt | translate}}</span>
+      </div>
+  </div>
+  <div *ngIf="checkRightArrow()" (click)="onClickArrow(1)" class="arrow-container arrow-right">
+      <div class="arrow arrow-right">
+          <fa-icon [icon]="faChevronRight"></fa-icon>
+      </div>
+  </div>
+  <a *ngIf="this.stayFilter.label" (click)="onClickLabel('')" loading="eager" class="clear-filter">
+      <img src="assets/img/stay/clear-filter.png" alt="">
+  </a>
 </section>

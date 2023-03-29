@@ -38,6 +38,7 @@
   z-index: 10;
   transition: .4s;
 
+
   &.active {
     top: 135px;
   }
@@ -53,8 +54,12 @@
   }
 
   .header-filter-close {
-    min-width: 348px;
+    width: 348px;
     height: 48px;
+
+    @include for-mobile-layout {
+      width: 100%;
+    }
 
     span {
       max-width: 150px;
@@ -67,6 +72,9 @@
       cursor: pointer;
       padding: 0 16px;
       font-weight: 600;
+      @include for-mobile-layout {
+        padding: 0 12px;
+      }
 
       &:nth-child(2) {
         border-right: 1px solid $border-color;
