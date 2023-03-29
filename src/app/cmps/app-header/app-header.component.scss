@@ -32,6 +32,13 @@ header {
         }
     }
     
+    // .logo, .home-nav {
+    //     display: none;
+
+    //     @include for-tablet-layout {
+    //         display: block;
+    //     }
+    // }
     nav {
         display: flex;
         justify-content: space-between;
@@ -110,6 +117,7 @@ header {
             }
         }
     }
+
 }
 
 ::ng-deep .header-menu-modal {
