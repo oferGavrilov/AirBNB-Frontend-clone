@@ -9,7 +9,6 @@ import { UserService } from 'src/app/services/user.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-
   constructor(
     private userService: UserService,
     private snackBar: MatSnackBar,
@@ -35,7 +34,3 @@ export class HomeComponent {
     else this.router.navigate(['/user/edit'])
   }
 }
-
-
-
-

@@ -12,52 +12,14 @@ import { StayService } from 'src/app/services/stay.service';
 })
 
 export class StayFilterComponent implements OnInit, OnDestroy {
-  constructor(
-    private breakpointObserver: BreakpointObserver,
-    private stayService: StayService) {
-    this.breakpointObserver.observe([
-      "(max-width:460px)"
-    ]).subscribe((result: BreakpointState) => {
-      if (result.matches) {
-        this.itemsToShow = 3
-      }
-    })
-    this.breakpointObserver.observe([
-      "(min-width:600px)"
-    ]).subscribe((result: BreakpointState) => {
-      if (result.matches) {
-        this.itemsToShow = 5
-      }
-    })
-    this.breakpointObserver.observe([
-      "(min-width:800px)"
-    ]).subscribe((result: BreakpointState) => {
-      if (result.matches) {
-        this.itemsToShow = 8
-      }
-    })
-    this.breakpointObserver.observe([
-      "(min-width:960px)"
-    ]).subscribe((result: BreakpointState) => {
-      if (result.matches) {
-        this.itemsToShow = 12
-      }
-    })
-    this.breakpointObserver.observe([
-      "(min-width:1400px)"
-    ]).subscribe((result: BreakpointState) => {
-      if (result.matches) {
-        this.itemsToShow = 14
-      }
-    })
-  }
+  constructor(private stayService: StayService) {}
 
   faChevronRight = faChevronRight
   faChevronLeft = faChevronLeft
   stayFilter !: StayFilter
   subscription!: Subscription
   index = 0
-  itemsToShow = 3
+  itemsToShow = 10
 
   ngOnInit(): void {
     this.subscription = this.stayService.stayFilter$.subscribe(stayFilter => {

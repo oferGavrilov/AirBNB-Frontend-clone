@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { BehaviorSubject, throwError } from 'rxjs';
+import { BehaviorSubject} from 'rxjs';
 import { lastValueFrom } from 'rxjs';
 import { Order } from '../models/order.model';
 import { User } from '../models/user.model';
@@ -14,7 +14,6 @@ import { StayService } from './stay.service';
 })
 
 export class UserService {
-
   constructor(
     private httpService: HttpService,
     private stayService: StayService,
@@ -137,4 +136,3 @@ export class UserService {
     return user
   }
 }
-

@@ -14,5 +14,4 @@ export class MapService {
     this.obsCurrentApiStatus = this.currentApiStatus.asObservable();
    }
 
-//TODO add http request for google map
 }

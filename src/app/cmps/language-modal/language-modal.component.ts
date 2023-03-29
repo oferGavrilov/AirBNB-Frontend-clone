@@ -9,11 +9,11 @@ interface Language {
 }
 
 @Component({
-  selector: 'lagnuage-modal',
-  templateUrl: './lagnuage-modal.component.html',
-  styleUrls: ['./lagnuage-modal.component.scss']
+  selector: 'language-modal',
+  templateUrl: './language-modal.component.html',
+  styleUrls: ['./language-modal.component.scss']
 })
-export class LagnuageModalComponent {
+export class languageModalComponent {
 
   @Output() onToggleLanguageModal = new EventEmitter()
   constructor(private translateService: TranslateService) {

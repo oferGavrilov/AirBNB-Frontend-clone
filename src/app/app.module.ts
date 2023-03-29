@@ -1,16 +1,16 @@
-import { NgModule , CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { GoogleMapsModule } from '@angular/google-maps';
-import { HttpClientModule , HttpClient } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { MatSelectModule } from '@angular/material/select';
 import { MatMenuModule } from '@angular/material/menu'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
-import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app-root/app.component';
@@ -54,11 +54,8 @@ import { LoaderComponent } from './cmps/loader/loader.component';
 import { AboutComponent } from './pages/about/about.component';
 import { AddReviewComponent } from './cmps/details/add-review/add-review.component';
 import { NgxStarRatingModule } from 'ngx-star-rating';
-import { SocialAuthServiceConfig } from '@abacritt/angularx-social-login';
-import { GoogleLoginProvider, FacebookLoginProvider } from '@abacritt/angularx-social-login';import { LagnuageModalComponent } from './cmps/lagnuage-modal/lagnuage-modal.component';
-import { MatBadgeModule } from '@angular/material/badge'
+import { languageModalComponent } from './cmps/language-modal/language-modal.component';
 import { MatIconModule } from '@angular/material/icon';
-// import {ServiceWorkerModule} from '@angular/service-worker'
 
 @NgModule({
   declarations: [
@@ -100,7 +97,7 @@ import { MatIconModule } from '@angular/material/icon';
     LoaderComponent,
     AboutComponent,
     AddReviewComponent,
-    LagnuageModalComponent,
+    languageModalComponent,
   ],
   imports: [
     FormsModule,
@@ -122,45 +119,20 @@ import { MatIconModule } from '@angular/material/icon';
     ReactiveFormsModule,
     MatSnackBarModule,
     NgxStarRatingModule,
-    MatBadgeModule,
-    // ServiceWorkerModule
     TranslateModule.forRoot({
-      loader:{
+      loader: {
         provide: TranslateLoader,
-        useFactory: HttpLoaderFactory ,
-        deps:[HttpClient]
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
       }
     })
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  providers: [
-    {
-      provide: 'SocialAuthServiceConfig',
-      useValue: {
-        autoLogin: false,
-        providers: [
-          {
-            id: GoogleLoginProvider.PROVIDER_ID,
-            provider: new GoogleLoginProvider('975546587762-nh443v7hguglfkc781c8ejgbp6ocpe5s.apps.googleusercontent.com')
-          },
-          {
-            id: FacebookLoginProvider.PROVIDER_ID,
-            provider: new FacebookLoginProvider('975546587762-nh443v7hguglfkc781c8ejgbp6ocpe5s.apps.googleusercontent.com')
-          }
-        ],
-        onError: (err) => {
-          console.error(err);
-        }
-      } as SocialAuthServiceConfig,
-    }
-  ],
+  providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {
- 
-}
+export class AppModule { }
 
-export function HttpLoaderFactory(http:HttpClient):TranslateHttpLoader {
+export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http)
 }
-

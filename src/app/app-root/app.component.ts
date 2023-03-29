@@ -10,8 +10,7 @@ import { StayService } from '../services/stay.service';
 })
 export class AppComponent {
   constructor(private stayService: StayService,
-    private translate: TranslateService,
-    private socketService: SocketService) {
+    private translate: TranslateService) {
     translate.setDefaultLang('en')
     translate.use('en')
   }

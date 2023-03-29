@@ -63,5 +63,3 @@ export class PurchaseIndicationComponent implements OnInit {
     this.router.navigate(['/'])
   }
 }
-
-

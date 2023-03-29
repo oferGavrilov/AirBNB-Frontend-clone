@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output, OnInit, OnDestroy, ViewChild, ElementRef, ViewEncapsulation } from '@angular/core';
+import { Component, EventEmitter, Input, Output, OnInit, OnDestroy } from '@angular/core';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { Order } from 'src/app/models/order.model';
 import { OrderService } from 'src/app/services/order.service';
@@ -59,6 +59,7 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
     return `${month1} ${this.order.startDate.getDate()} - ${month2} ${this.order.endDate.getDate()}  `
   }
 
+  // SERVICE
   get addGuest() {
     const guests = this.order.guests
     if(guests.adults === 1 && guests.children === 0 && guests.infants === 0 && guests.pets === 0) return 'Add guests'
@@ -135,5 +136,4 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
     this.subscriptionOrder.unsubscribe()
     this.subscriptionStayFilter.unsubscribe()
   }
-
 }

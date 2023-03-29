@@ -41,5 +41,3 @@ export class SocketService {
     this.socket.emit(this.SOCKET_EMIT_LOGOUT)
   }
 }
-
-

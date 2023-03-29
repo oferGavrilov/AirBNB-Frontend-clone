@@ -1,5 +1,5 @@
-import { Component, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
-import { lastValueFrom, Subscription } from 'rxjs';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { Stay } from 'src/app/models/stay.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UserService } from 'src/app/services/user.service';

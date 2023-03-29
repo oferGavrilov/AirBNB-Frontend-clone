@@ -9,7 +9,6 @@ import { ngxCsv } from 'ngx-csv';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { LoaderService } from 'src/app/services/loader.service';
 
-
 @Component({
   selector: 'user-order',
   templateUrl: './user-order.component.html',

@@ -1,6 +1,5 @@
 <section class="stay-order">
     <div class="order-content">
-
         <div class="stay-order-header">
             <h2 class="total">{{stay.price |currency}} USD<span> total</span></h2>
             <div class="reviews">
@@ -34,7 +33,6 @@
             <guest-modal (toggleGuestModal)="toggleGuestModal()" [order]="order" [stay]="stay" *ngIf="showGuestModal"></guest-modal>
         </div>
         <button class="order-btn" (click)="onAddOrder()">{{'stay.order.reserve' | translate}}</button>
-       
         <div class="order-description">
             <span>{{'stay.order.description-one' | translate}}</span>
             <p>{{'stay.order.description-two' | translate}}</p>
@@ -58,7 +56,6 @@
             <span>${{TotalPrice | number:'1.2'}} USD</span>
         </div>
     </div>
-
     <div class="order-type">
         <p><span>This is a rare find.</span>Mega's place on Airbnb is usually fully booked.</p>
         <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation"

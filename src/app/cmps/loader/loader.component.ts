@@ -6,6 +6,4 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./loader.component.scss'],
   encapsulation: ViewEncapsulation.ShadowDom
 })
-export class LoaderComponent {
-
-}
+export class LoaderComponent {}

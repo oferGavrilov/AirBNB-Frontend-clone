@@ -1,12 +1,10 @@
-import { Component, Input } from '@angular/core';
-import { Subscription , lastValueFrom } from 'rxjs';
+import { Component } from '@angular/core';
+import { lastValueFrom } from 'rxjs';
 import { StatReviews, Stay } from 'src/app/models/stay.model';
 import { User } from 'src/app/models/user.model';
-import { OrderService } from 'src/app/services/order.service';
 import { StayService } from 'src/app/services/stay.service';
 import { UserService } from 'src/app/services/user.service';
 import { faStar } from '@fortawesome/free-solid-svg-icons'
-import { Router } from '@angular/router';
 import { LoaderService } from 'src/app/services/loader.service';
 
 @Component({
@@ -15,14 +13,14 @@ import { LoaderService } from 'src/app/services/loader.service';
   styleUrls: ['./user-stays.component.scss']
 })
 export class UserStaysComponent {
-  
+
   user!: User
   userStays!: Stay[]
   faStar = faStar
-  
+
   constructor(private userService: UserService,
     private stayService: StayService,
-    public loader:LoaderService) { }
+    public loader: LoaderService) { }
 
   async ngOnInit() {
     const user = this.userService.getUser();

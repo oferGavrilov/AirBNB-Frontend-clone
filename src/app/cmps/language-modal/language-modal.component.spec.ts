@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LagnuageModalComponent } from './lagnuage-modal.component';
+import { languageModalComponent } from './language-modal.component';
 
-describe('LagnuageModalComponent', () => {
-  let component: LagnuageModalComponent;
-  let fixture: ComponentFixture<LagnuageModalComponent>;
+describe('LanguageModalComponent', () => {
+  let component: languageModalComponent;
+  let fixture: ComponentFixture<languageModalComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LagnuageModalComponent ]
+      declarations: [ languageModalComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LagnuageModalComponent);
+    fixture = TestBed.createComponent(languageModalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

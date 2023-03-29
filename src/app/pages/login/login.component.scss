@@ -1,15 +1,14 @@
 @import '../../../assets/styles/setup/variables';
 @import '../../../assets/styles/setup/mixins';
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,800";
 
 .ng-valid[required],
 input.ng-valid {
 	border-left: 5px solid #42A948;
-	/* green */
 }
 
 .ng-invalid:not(form) {
 	border-left: 5px solid #a94442;
-	/* red */
 }
 
 .alert div {
@@ -23,8 +22,6 @@ input.ng-valid {
 	font-size: 13px;
 }
 
-
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,800";
 button {
 	border-radius: 20px;
 	border: 1px solid #FF4B2B;
@@ -81,7 +78,6 @@ button:disabled {
 	}
 }
 
-// img uploader
 #imgUpload {
 	display: none;
 }
