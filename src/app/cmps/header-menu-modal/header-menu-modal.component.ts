@@ -10,10 +10,16 @@ import { UserService } from 'src/app/services/user.service';
 export class HeaderMenuModalComponent {
 
   @Output() onToggleHeaderMenuModal = new EventEmitter()
+  @Output() toggleLanguageModal = new EventEmitter()
+  @Input() isOpenLanguageModal!: boolean
   @Input() isOpenFooter!: boolean
 
   constructor(private router: Router,
     private userService: UserService) { }
+
+  onToggleLanguageModal() {
+    this.toggleLanguageModal.emit()
+  }
 
   isLoggedInUser() {
     return this.userService.getUser() !== null

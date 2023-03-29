@@ -7,6 +7,11 @@
         <span [routerLink]="['/user/trips']" (click)="toggleMenuModal()" class="bold">{{'stay.header.trips' | translate}}</span>
         <span [routerLink]="['/user/wishlist']" (click)="toggleMenuModal()" class="bold">{{'stay.header.wishlist' | translate}}</span>
     </div>
+    <div class="language">
+        <span>Language</span>
+    </div>
     <span [routerLink]="['/home']">{{'stay.header.your-home' | translate}}</span>
     <span *ngIf="isLoggedInUser()" routerLink="/" class="logout" (click)="onLogout()">{{'stay.header.logout' | translate}}</span>
 </section>
+
+<language-modal (onToggleLanguageModal)="onToggleLanguageModal()" *ngIf="isOpenLanguageModal"></language-modal>

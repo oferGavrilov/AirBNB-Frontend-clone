@@ -1,4 +1,5 @@
 @import '../../../assets/styles/setup/variables';
+@import '../../../assets/styles/setup/mixins';
 
 .header-menu-modal {
   position: absolute;
@@ -40,6 +41,12 @@
 
         &:hover {
             background-color: $main-hover;
+        }
+    }
+
+    @include for-tablet-layout{
+        .language{
+            display: none;
         }
     }
 }

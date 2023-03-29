@@ -31,19 +31,16 @@ header {
             align-items: center;
             color: $secondary-color;
             height: 42px;
+            display: none;
             img {
                 width: 46px;
             }
+
+            @include for-narrow-layout{
+                display: flex;
+            }
         }
     }
-    
-    // .logo, .home-nav {
-    //     display: none;
-
-    //     @include for-tablet-layout {
-    //         display: block;
-    //     }
-    // }
 
     nav {
         display: flex;
@@ -53,6 +50,7 @@ header {
         font-weight: 600;
         height: 42px;
         gap: 4px;
+        display: none;
 
         >* {
             cursor: pointer;
@@ -68,6 +66,10 @@ header {
 
         .language {
             font-size: 20px;
+        }
+
+        .home-nav {
+            display: none;
         }
 
         .menu {
@@ -91,6 +93,7 @@ header {
                 right: -10px;
                 border-radius: 50%;
             }
+
             img {
                 border-radius: 2em;
                 width: 29px;
@@ -101,6 +104,15 @@ header {
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
             }
         }
+        @include for-narrow-layout {
+            display: flex;
+        }
+
+        @include for-normal-layout {
+            .home-nav {
+                display: block;
+            }
+        }
     }
 
     @media print {
@@ -108,22 +120,6 @@ header {
             display: none;
         }
     }
-
-
-    @include for-mobile-layout {
-        .header-content {
-
-            .logo,
-            nav {
-                display: none;
-            }
-
-            &.filter-active {
-                height: 250px;
-            }
-        }
-    }
-
 }
 
 ::ng-deep .header-menu-modal {
