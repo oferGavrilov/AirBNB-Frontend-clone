@@ -74,6 +74,7 @@
 
     .status {
         text-transform: uppercase;
+        font-weight: 600;
         &.decline {
             color: salmon;
         }
