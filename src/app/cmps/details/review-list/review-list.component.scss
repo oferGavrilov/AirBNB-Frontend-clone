@@ -30,9 +30,8 @@
 
   .rate-list {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     flex-wrap: wrap;
-    height: 100px;
     list-style: none;
     gap: 8px;
     margin: 36px 0;
@@ -40,8 +39,7 @@
     li {
       @include center-flex();
       justify-content: space-between;
-      width: 40%;
-
+      width: 360px;
       .rate-percent {
         @include center-flex();
         gap: 8px;
@@ -56,9 +54,6 @@
             height: 4px;
             display: block;
           }
-          @include for-mobile-layout {
-            width: 30px;
-          }
         }
       }
     }
@@ -70,6 +65,22 @@
     grid-gap: 40px 8%;
     @include for-mobile-layout {
       grid-template-columns: 1fr;
+    }
+  }
+
+  .show-more {
+    margin-top: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    span {
+      font-weight: 500;
+      text-decoration: underline;
+    }
+
+    .icon {
+      font-size: 14px;
     }
   }
 }

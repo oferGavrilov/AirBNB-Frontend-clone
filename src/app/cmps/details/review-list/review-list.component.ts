@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { StatReviews, Stay } from 'src/app/models/stay.model';
-import { faStar, faCircle } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faCircle, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'review-list',
@@ -11,6 +11,8 @@ export class ReviewListComponent {
   @Input() stay!: Stay
   faStar = faStar
   point = faCircle
+  faAngleRight = faAngleRight
+  howMuchToShow = 6
 
   getRateAvg() {
     let rate = 0
@@ -37,6 +39,10 @@ export class ReviewListComponent {
   }
 
   getReviews() {
-    return this.stay.reviews.slice(0, 6)
+    return this.stay.reviews.slice(0, this.howMuchToShow)
+  }
+
+  onClickShowMore() {
+    this.howMuchToShow += 2
   }
 }
