@@ -9,21 +9,25 @@
     color: white;
     background-color: #ffffff80;
     font-size: 20px;
-    transition: background-color .3s , color .3s;
+    transition: background-color .3s, color .3s;
     z-index: 100;
+
     @include for-mobile-layout() {
         height: 65px;
     }
+
     &.scrolled {
         background-color: white;
         color: $black;
     }
-    .content{
+
+    .content {
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 100%;
     }
+
     .logo {
         cursor: pointer;
         display: flex;
@@ -42,7 +46,9 @@
         cursor: pointer;
         padding: 10px 16px;
         border-radius: 12px;
+        white-space: nowrap;
         transition: transform .2s;
+        font-size: 14px;
 
         &:hover {
             background-color: #e9e1e148;
@@ -51,6 +57,12 @@
         h5 {
             font-weight: 500;
             font-size: 18px;
+        }
+
+        @include for-tablet-layout {
+            h5 {
+                font-size: 18px;
+            }
         }
     }
 
@@ -70,6 +82,7 @@
             font-size: 18px;
             font-weight: 600;
             gap: 6px;
+            display: none;
             border-radius: 12px;
             cursor: pointer;
 
@@ -83,13 +96,14 @@
                 background-color: #e9e1e148;
             }
         }
-        
-        @include for-mobile-layout() {
-            .about-us,.explore{
-                display: none;
+
+        @include for-narrow-layout() {
+            .explore {
+                display: block;
             }
         }
     }
+
     .menu {
         position: relative;
         display: flex;
@@ -115,6 +129,7 @@
         }
     }
 }
-::ng-deep .header-menu-modal{
+
+::ng-deep .header-menu-modal {
     position: fixed !important;
 }

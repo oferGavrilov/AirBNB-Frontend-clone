@@ -12,7 +12,7 @@ export class OrderService {
   constructor(
     private httpService: HttpService,
     private socketService: SocketService,
-    ) { }
+  ) { }
   ORDER_STORAGE_KEY = 'orders'
   ORDER_URL = 'order/'
 
@@ -38,12 +38,13 @@ export class OrderService {
 
   public query(filterBy: FilterOrder | null) {
     const queryParams = this.getQueryParams(filterBy)
+    console.log(queryParams)
     return this.httpService.get(this.ORDER_URL + queryParams, null) as Observable<Order[]>
   }
 
   public save(order: Order) {
     console.log(order)
-    if(order._id){
+    if (order._id) {
       this.socketService.emit(this.socketService.SOCKET_EVENT_ORDER_FOR_USER, order)
       return lastValueFrom(this.httpService.put(this.ORDER_URL, order))
     }
@@ -89,9 +90,9 @@ export class OrderService {
         infants: 0,
         pets: 0,
       },
-      host:{
-        _id:'',
-        fullname:''
+      host: {
+        _id: '',
+        fullname: ''
       },
       stay: {
         _id: '',
@@ -108,9 +109,9 @@ export class OrderService {
     if (filterBy?.hostId) params += `hostId=${filterBy.hostId}&`
     if (filterBy?.buyerId) params += `buyerId=${filterBy.buyerId}&`
     if (filterBy?.status) params += `status=${filterBy.status}&`
-    if (filterBy?.stayName) params +=  `stayName=${filterBy.stayName}&`
-    if (filterBy?.hostName) params +=  `hostName=${filterBy.hostName}&`
-    if (filterBy?.totalPrice) params +=  `totalPrice=${filterBy.totalPrice}&`
+    if (filterBy?.stayName) params += `stayName=${filterBy.stayName}&`
+    if (filterBy?.hostName) params += `hostName=${filterBy.hostName}&`
+    if (filterBy?.totalPrice) params += `totalPrice=${filterBy.totalPrice}&`
     return params
   }
 }
