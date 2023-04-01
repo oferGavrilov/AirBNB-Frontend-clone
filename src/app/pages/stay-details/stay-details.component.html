@@ -10,9 +10,11 @@
             <span>{{getRateAvg()}}</span>
           </div>
           <span class="point">.</span>
-          <a href="" class="reviews">{{stay.reviews.length}} {{'stay.details.reviews' | translate}}</a>
+          <a href="#reviews" class="reviews">{{stay.reviews.length}} {{'stay.details.reviews' | translate}}</a>
           <span class="point">.</span>
-          <div class="loc">{{stay.loc.address}}</div>
+          <div class="loc">
+            <a href="#location">{{stay.loc.address}}</a>
+          </div>
           <span class="point">.</span>
         </div>
       </div>
