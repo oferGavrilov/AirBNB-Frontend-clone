@@ -16,13 +16,13 @@ import { LoaderService } from 'src/app/services/loader.service';
 export class UserTripsComponent implements OnInit, OnDestroy {
   constructor(
     private orderService: OrderService,
-     private userService: UserService,
-     public loader:LoaderService
-    ) { }
+    private userService: UserService,
+    public loader: LoaderService
+  ) { }
 
   faCheck = faCheck
   faCircle = faCircle
-  start:boolean = false
+  start: boolean = false
   stringInterpolation: string = "Angular 4 Typing Animation Directive (string interpolation)"
 
   subscription!: Subscription
@@ -58,7 +58,7 @@ export class UserTripsComponent implements OnInit, OnDestroy {
   }
 
   onClearSearch() {
-    this.orderService.setFilter(this.orderService.getEmptyFilter())
+    this.onSetFilter()
     this.isSearchActive = false
   }
 

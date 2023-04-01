@@ -67,10 +67,11 @@
             <span>
                 <img src="assets/img/user/{{order.status}}.png" alt="">
             </span>
-            <span class="actions-btns">
+            <span *ngIf="order.status === 'pending'" class="actions-btns">
                 <button class="approve" (click)="onChangeStatus('approve' , order)">Approve</button>
                 <button class="decline" (click)="onChangeStatus('decline', order)">Decline</button>
             </span>
+            <span ngClass="status {{order.status}}" *ngIf="order.status !== 'pending'">{{order.status}}</span>
         </div>
         <div class="paging">
             <div>

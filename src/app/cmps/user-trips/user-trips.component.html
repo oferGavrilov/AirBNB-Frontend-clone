@@ -1,4 +1,4 @@
-<section *ngIf="ordersToShow.length" class="user-trips">
+<section *ngIf="ordersToShow.length || orderFilter.term" class="user-trips">
     <div class="user-header">
         <h2 typingAnimation *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
         <div *ngIf="isSearchActive" class="search-input">

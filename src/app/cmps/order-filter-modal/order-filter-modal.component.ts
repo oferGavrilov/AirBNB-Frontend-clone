@@ -20,9 +20,11 @@ export class OrderFilterModalComponent {
 
   async onSetFilter($ev: any) {
     let option = $ev.target.options[$ev.target.options.selectedIndex].value
-    const type  = $ev.target.name as keyof FilterOrder
+    console.log(option)
+    const type = $ev.target.name as keyof FilterOrder
     if (type === 'totalPrice') this.filter.totalPrice = +option
     if (type !== 'totalPrice') this.filter[type] = option
+    this.filter.stayName = this.filter.stayName.replace(/&/g, 'amp;')
     this.ordersToShow = await lastValueFrom(this.orderService.query(this.filter))
     this.setOrdersToShow.emit(this.ordersToShow)
   }

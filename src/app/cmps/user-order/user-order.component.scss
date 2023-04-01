@@ -72,6 +72,15 @@
         @include user-details-container()
     }
 
+    .status {
+        text-transform: uppercase;
+        &.decline {
+            color: salmon;
+        }
+        &.approve {
+            color: lightgreen;
+        }
+    }
 
     .trips {
         display: flex;
