@@ -19,3 +19,30 @@
       bottom: 70px;
     }
 }
+
+.clear-filter {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 30px;
+  border-radius: 50%;
+  height: 50px;
+  left: 30px;
+  width: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+  text-align: center;
+  color: white;
+  box-shadow: 1px 1px 20px 10px lightgray;
+  z-index: 100;
+
+  @include for-mobile-layout {
+    bottom: 55px;
+  }
+
+  img{
+      width: 30px;
+  }
+}

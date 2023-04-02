@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { SocketService } from '../services/socket.service';
 import { StayService } from '../services/stay.service';
 
 @Component({
@@ -15,8 +14,5 @@ export class AppComponent {
     translate.use('en')
   }
 
-  ngOnInit(): void {
-    this.stayService.loadStays()
-  }
   title = 'airbnb';
 }

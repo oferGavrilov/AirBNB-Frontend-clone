@@ -7,4 +7,8 @@
   </main>
   <app-loader *ngIf="this.loader.getLoading()"></app-loader>
   <a *ngIf="isShowScroller" (click)="onPageUp()" class="scroller-up"><span class="material-symbols-outlined">expand_less</span></a>
+
+  <a *ngIf="isShowClearBtn" (click)="onClearFilter()" loading="eager" class="clear-filter">
+    <img src="assets/img/stay/clear-filter.png" alt="">
+</a>
 </section>

@@ -23,46 +23,38 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
     private stayService: StayService,
     private utilService: UtilService,
     private router: Router,
-    private activatedRoute: ActivatedRoute) { 
-      console.log(activatedRoute.snapshot.queryParams)
-    }
-    
-    faMagnifyingGlass = faMagnifyingGlass
-    modalNav = ''
-    searchFilter = ''
-    order !: Order
-    subscriptionOrder!: Subscription
-    subscriptionStayFilter!: Subscription
-    date: string | null = null
-    isBlur: boolean = false
-    stayFilter!: StayFilter
-    
-    options: CalendarOptions = {
-      format: "yyyy/LL/dd",
-      formatDays: "eeeeee",
-      firstCalendarDay: 1,
-      closeOnSelected: false,
-    }
-    
-    ngOnInit() {
-      this.subscriptionOrder = this.orderService.order$.subscribe(order => this.order = order)
-      this.subscriptionStayFilter = this.stayService.stayFilter$.subscribe(stayFilter => this.stayFilter = stayFilter)
-      this.date = this.dateFromOrder
-      this.stayFilter = {
-        ...this.stayService.getEmptyFilter(),
-        ...this.activatedRoute.snapshot.queryParams as StayFilter
-      }
-      console.log(this.stayFilter)
-      this.stayService.setFilter(this.stayFilter)
-    }
-    
-    get Anywhere() {
-      return this.stayFilter.place ? this.stayFilter.place : 'Anywhere'
-    }
-    
-    get AnyWeek() {
-      if (!this.order.startDate || !this.order.endDate || !this.date) return 'Any week'
-      if (this.order.startDate.getMonth() === this.order.endDate.getMonth()) {
+    private activatedRoute: ActivatedRoute) { }
+
+  faMagnifyingGlass = faMagnifyingGlass
+  modalNav = ''
+  searchFilter = ''
+  order !: Order
+  subscriptionOrder!: Subscription
+  subscriptionStayFilter!: Subscription
+  date: string | null = null
+  isBlur: boolean = false
+  stayFilter!: StayFilter
+
+  options: CalendarOptions = {
+    format: "yyyy/LL/dd",
+    formatDays: "eeeeee",
+    firstCalendarDay: 1,
+    closeOnSelected: false,
+  }
+
+  ngOnInit() {
+    this.subscriptionOrder = this.orderService.order$.subscribe(order => this.order = order)
+    this.subscriptionStayFilter = this.stayService.stayFilter$.subscribe(stayFilter => this.stayFilter = stayFilter)
+    this.date = this.dateFromOrder
+  }
+
+  get Anywhere() {
+    return this.stayFilter.place ? this.stayFilter.place : 'Anywhere'
+  }
+
+  get AnyWeek() {
+    if (!this.order.startDate || !this.order.endDate || !this.date) return 'Any week'
+    if (this.order.startDate.getMonth() === this.order.endDate.getMonth()) {
       const monthName = this.utilService.getMonthName(this.order.endDate.getMilliseconds())
       return `${monthName} ${this.order.startDate.getDate()} - ${this.order.endDate.getDate()}`
     }

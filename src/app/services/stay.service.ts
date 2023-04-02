@@ -25,8 +25,8 @@ export class StayService {
   public async loadStays() {
     const filterBy = this._stayFilter$.value
     const queryParams = this.getQueryParams(filterBy)
-    console.log('queryParams:', queryParams)
     const stays = await lastValueFrom(this.httpService.get(this.STAY_URL + queryParams, null)) as Stay[]
+    console.log(stays);
     this._stays$.next(stays)
   }
 
@@ -50,13 +50,18 @@ export class StayService {
       place: '',
       label: '',
       hostId: '',
-      isPetAllowed: false
+      isPetAllowed: 'false'
     }
   }
 
   public setFilter(filter: StayFilter) {
     this._stayFilter$.next(filter)
     this.loadStays()
+  }
+
+  public async setFilterAsync(filter: StayFilter) {
+    this._stayFilter$.next(filter)
+    await this.loadStays()
   }
 
   public getEmptyStay() {

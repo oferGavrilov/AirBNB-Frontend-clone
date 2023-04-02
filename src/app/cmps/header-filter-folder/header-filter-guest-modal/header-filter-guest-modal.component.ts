@@ -46,8 +46,8 @@ export class HeaderFilterGuestModalComponent {
   onAddGuests(guestType: keyof Guest, diff: number) {
     this.order.guests[guestType] += diff
     if(guestType === 'pets') {
-      if(this.order.guests.pets > 0)  this.stayFilter.isPetAllowed = true
-      else this.stayFilter.isPetAllowed = false
+      if(this.order.guests.pets > 0)  this.stayFilter.isPetAllowed = 'true'
+      else this.stayFilter.isPetAllowed = 'false'
     }
   }
 }

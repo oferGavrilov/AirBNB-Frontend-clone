@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { StayService } from 'src/app/services/stay.service';
 import { UserService } from 'src/app/services/user.service';
 @Component({
@@ -12,8 +12,9 @@ export class HomeComponent {
   constructor(
     private userService: UserService,
     private snackBar: MatSnackBar,
-    private router:Router,
-    private stayService: StayService
+    private router: Router,
+    private stayService: StayService,
+    private activatedRoute: ActivatedRoute
   ) { }
 
   isTopZero: boolean = false
@@ -26,11 +27,18 @@ export class HomeComponent {
     const stayFilter = this.stayService.getEmptyFilter()
     stayFilter.place = place
     this.stayService.setFilter(stayFilter)
-    this.router.navigate(['/'])
+    this.router.navigate(
+      ['/'],
+      {
+        relativeTo: this.activatedRoute,
+        queryParams: stayFilter,
+        queryParamsHandling: 'merge'
+      }
+    )
   }
 
   onNavigateToHost() {
-    if(!this.userService.getUser())  this.snackBar.open('Please login first', 'Close', { duration: 3000 })
+    if (!this.userService.getUser()) this.snackBar.open('Please login first', 'Close', { duration: 3000 })
     else this.router.navigate(['/user/edit'])
   }
 }
