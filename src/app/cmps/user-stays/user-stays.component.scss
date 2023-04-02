@@ -7,6 +7,8 @@
       margin: 20px 0;
       min-height: 40vh;
       color: $header-text-color;
+      margin-bottom: 72px;
+      padding: 4px;
 
       h2 {
             text-transform: uppercase;
@@ -29,7 +31,7 @@
                   gap: 8px;
 
                   &.big {
-                        width: 210px;
+                        width: 185px;
                   }
             }
 
@@ -55,6 +57,7 @@
                         font-weight: 700;
                         overflow: hidden;
                         text-overflow: ellipsis;
+                        width: 100px;
                   }
 
                   @include for-narrow-layout {
@@ -74,7 +77,7 @@
                   display: none;
             }
 
-            @include for-narrow-layout {
+            @include for-normal-layout {
 
                   .stay-capacity,
                   .stay-rate {
