@@ -25,6 +25,7 @@ export class StayService {
   public async loadStays() {
     const filterBy = this._stayFilter$.value
     const queryParams = this.getQueryParams(filterBy)
+    console.log('queryParams:', queryParams)
     const stays = await lastValueFrom(this.httpService.get(this.STAY_URL + queryParams, null)) as Stay[]
     this._stays$.next(stays)
   }
@@ -110,6 +111,7 @@ export class StayService {
     if (filterBy.likeByUser) params += `likeByUser=${filterBy.likeByUser}&`
     if (filterBy.hostId) params += `hostId=${filterBy.hostId}&`
     if (filterBy.label) params += `label=${filterBy.label}&`
+    if (filterBy.isPetAllowed) params += `isPetAllowed=${filterBy.isPetAllowed}&`
     if (filterBy.place) params += `place=${filterBy.place}`
     return params
   }

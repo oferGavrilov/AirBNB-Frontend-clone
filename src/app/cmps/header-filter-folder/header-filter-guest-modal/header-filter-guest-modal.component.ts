@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Guest, Order } from 'src/app/models/order.model';
 import { faCircleMinus, faCirclePlus } from '@fortawesome/free-solid-svg-icons'
+import { StayFilter } from 'src/app/models/stay.model';
 @Component({
   selector: 'header-filter-guest-modal',
   templateUrl: './header-filter-guest-modal.component.html',
@@ -8,6 +9,7 @@ import { faCircleMinus, faCirclePlus } from '@fortawesome/free-solid-svg-icons'
 })
 export class HeaderFilterGuestModalComponent {
   @Input() order !: Order
+  @Input() stayFilter!: StayFilter
   faCirclePlus = faCirclePlus
   faCircleMinus = faCircleMinus
 
@@ -43,5 +45,9 @@ export class HeaderFilterGuestModalComponent {
 
   onAddGuests(guestType: keyof Guest, diff: number) {
     this.order.guests[guestType] += diff
+    if(guestType === 'pets') {
+      if(this.order.guests.pets > 0)  this.stayFilter.isPetAllowed = true
+      else this.stayFilter.isPetAllowed = false
+    }
   }
 }
