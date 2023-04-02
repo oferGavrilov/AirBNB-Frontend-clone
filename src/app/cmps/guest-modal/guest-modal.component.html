@@ -3,7 +3,7 @@
         <div class="guest-container">
             <div class="type">
                 <h5>{{guest.type}}</h5>
-                <span>Age 13+</span>
+                <span>{{GuestTypeSubTitle(guest.type)}}</span>
             </div>
             <div class="amount">
                 <button [ngClass]="checkMinusBtn(guest.type) ? '' : 'disabled'"><fa-icon class="star"

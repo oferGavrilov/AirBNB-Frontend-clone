@@ -30,7 +30,7 @@ img {
     width: 100%;
 }
 
-a{
+a {
     color: unset;
 }
 
@@ -53,14 +53,22 @@ ul {
 
 .cdk-overlay-container {
     position: fixed !important;
-    top: 10px;
-    right: 31%;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     z-index: 100;
 
-    .mat-mdc-snack-bar-container .mdc-snackbar__surface {
-        background-color: $secondary-color;
+    .mat-mdc-snack-bar-container {
+        .mdc-snackbar__surface {
+            background-color: $secondary-color;
+        }
+
+        @include for-mobile-layout {
+            width:90vw;
+        }
     }
+
 
     span {
         color: white;
