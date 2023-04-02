@@ -18,10 +18,10 @@
             </div>
         </nav>
     </div>
-    <header-filter [isHeaderFilterActive]="isHeaderFilterActive"
+    <header-filter *ngIf="isShowFilter" [isHeaderFilterActive]="isHeaderFilterActive"
         (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
 </header>
 <header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" (toggleLanguageModal)="onToggleLanguageModal()"
-[isOpenLanguageModal]="isOpenLanguageModal" [isOpenFooter]="false"
+    [isOpenLanguageModal]="isOpenLanguageModal" [isOpenFooter]="false"
     *ngIf="isShowHeaderMenuModal"></header-menu-modal>
 <language-modal (onToggleLanguageModal)="onToggleLanguageModal()" *ngIf="isOpenLanguageModal"></language-modal>

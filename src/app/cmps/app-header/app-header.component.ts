@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { ActivatedRoute } from '@angular/router'
 import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
 import { Subscription } from 'rxjs'
 import { User } from 'src/app/models/user.model'
@@ -10,8 +11,10 @@ import { UserService } from 'src/app/services/user.service'
   styleUrls: ['./app-header.component.scss'],
 })
 export class AppHeaderComponent {
-
-  constructor(private userService: UserService) { }
+  constructor(
+    private userService: UserService,
+    private activatedRoute: ActivatedRoute
+  ) { }
 
   faGlobe = faGlobe
   faBars = faBars
@@ -20,15 +23,17 @@ export class AppHeaderComponent {
   isOpenLanguageModal: boolean = false
   user!: User | null
   subscription!: Subscription
+  isShowFilter: boolean = false
+
   ngOnInit() {
     this.subscription = this.userService.user$.subscribe(user => this.user = user)
+    this.isShowFilter = this.activatedRoute?.component?.name === 'StayIndexComponent'
   }
 
-  get UserNotification(){
-    if(!this.user) return 0
+  get UserNotification() {
+    if (!this.user) return 0
     return this.user.hostMsg + this.user.userMsg
   }
-
 
   onToggleHeaderMenuModal() {
     this.isShowHeaderMenuModal = !this.isShowHeaderMenuModal

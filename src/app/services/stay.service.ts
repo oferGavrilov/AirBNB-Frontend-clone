@@ -48,7 +48,6 @@ export class StayService {
       likeByUser: '',
       place: '',
       label: '',
-      price: 0,
       hostId: '',
       isPetAllowed: false
     }

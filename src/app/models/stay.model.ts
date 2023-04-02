@@ -63,7 +63,6 @@ export interface StayFilter {
   likeByUser: string,
   place: string,
   label: string,
-  price: number,
   hostId: string,
   isPetAllowed: boolean
 }

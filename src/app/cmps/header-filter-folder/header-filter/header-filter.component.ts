@@ -7,6 +7,7 @@ import { CalendarOptions } from 'ngx-airbnb-calendar';
 import { StayFilter } from 'src/app/models/stay.model';
 import { StayService } from 'src/app/services/stay.service';
 import { UtilService } from 'src/app/services/util.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'header-filter',
@@ -14,43 +15,54 @@ import { UtilService } from 'src/app/services/util.service';
   styleUrls: ['./header-filter.component.scss']
 })
 export class HeaderFilterComponent implements OnInit, OnDestroy {
+  @Input() isHeaderFilterActive!: boolean
+  @Output() toggleHeaderFilter = new EventEmitter<void>()
+
   constructor(
     private orderService: OrderService,
     private stayService: StayService,
-    private utilService: UtilService) {
+    private utilService: UtilService,
+    private router: Router,
+    private activatedRoute: ActivatedRoute) { 
+      console.log(activatedRoute.snapshot.queryParams)
     }
-  @Input() isHeaderFilterActive!: boolean
-  @Output() toggleHeaderFilter = new EventEmitter<void>()
-  faMagnifyingGlass = faMagnifyingGlass
-  modalNav = ''
-  searchFilter = ''
-  order !: Order
-  subscriptionOrder!: Subscription
-  subscriptionStayFilter!: Subscription
-  date: string | null = null
-  isBlur: boolean = false
-  stayFilter!: StayFilter
-
-  options: CalendarOptions = {
-    format: "yyyy/LL/dd",
-    formatDays: "eeeeee",
-    firstCalendarDay: 1,
-    closeOnSelected: false,
-  }
-
-  ngOnInit() {
-    this.subscriptionOrder = this.orderService.order$.subscribe(order => this.order = order)
-    this.subscriptionStayFilter =  this.stayService.stayFilter$.subscribe(stayFilter => this.stayFilter = stayFilter)
-    this.date = this.dateFromOrder
-  }
-
-  get Anywhere() {
-    return this.stayFilter.place ? this.stayFilter.place : 'Anywhere'
-  }
-
-  get AnyWeek() {
-    if(!this.order.startDate || !this.order.endDate || !this.date) return 'Any week'
-    if(this.order.startDate.getMonth() === this.order.endDate.getMonth()){
+    
+    faMagnifyingGlass = faMagnifyingGlass
+    modalNav = ''
+    searchFilter = ''
+    order !: Order
+    subscriptionOrder!: Subscription
+    subscriptionStayFilter!: Subscription
+    date: string | null = null
+    isBlur: boolean = false
+    stayFilter!: StayFilter
+    
+    options: CalendarOptions = {
+      format: "yyyy/LL/dd",
+      formatDays: "eeeeee",
+      firstCalendarDay: 1,
+      closeOnSelected: false,
+    }
+    
+    ngOnInit() {
+      this.subscriptionOrder = this.orderService.order$.subscribe(order => this.order = order)
+      this.subscriptionStayFilter = this.stayService.stayFilter$.subscribe(stayFilter => this.stayFilter = stayFilter)
+      this.date = this.dateFromOrder
+      this.stayFilter = {
+        ...this.stayService.getEmptyFilter(),
+        ...this.activatedRoute.snapshot.queryParams as StayFilter
+      }
+      console.log(this.stayFilter)
+      this.stayService.setFilter(this.stayFilter)
+    }
+    
+    get Anywhere() {
+      return this.stayFilter.place ? this.stayFilter.place : 'Anywhere'
+    }
+    
+    get AnyWeek() {
+      if (!this.order.startDate || !this.order.endDate || !this.date) return 'Any week'
+      if (this.order.startDate.getMonth() === this.order.endDate.getMonth()) {
       const monthName = this.utilService.getMonthName(this.order.endDate.getMilliseconds())
       return `${monthName} ${this.order.startDate.getDate()} - ${this.order.endDate.getDate()}`
     }
@@ -62,7 +74,7 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
   // SERVICE
   get addGuest() {
     const guests = this.order.guests
-    if(guests.adults === 1 && guests.children === 0 && guests.infants === 0 && guests.pets === 0) return 'Add guests'
+    if (guests.adults === 1 && guests.children === 0 && guests.infants === 0 && guests.pets === 0) return 'Add guests'
     return this.getGuests()
   }
 
@@ -76,7 +88,7 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
 
   onSetWhereSearch(val: string) {
     this.searchFilter = val
-    if(val) this.setModalNav('search-place-modal')
+    if (val) this.setModalNav('search-place-modal')
     else this.setModalNav('region-modal')
   }
 
@@ -91,11 +103,12 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
   onClickSearch() {
     this.orderService.setOrder(this.order)
     this.stayService.setFilter(this.stayFilter)
+    this.applyFilterToRoute(this.stayFilter)
     this.onToggleHeaderFilter()
   }
 
   get dateFromOrder() {
-    if(!this.order.startDate.getMilliseconds() || !this.order.endDate.getMilliseconds()) return ''
+    if (!this.order.startDate.getMilliseconds() || !this.order.endDate.getMilliseconds()) return ''
     return this.order.startDate.toDateString() + '-' + this.order.endDate.toDateString()
   }
 
@@ -130,6 +143,17 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
 
   setSearchFilter(place: string) {
     this.searchFilter = place
+  }
+
+  private applyFilterToRoute(filter: StayFilter): void {
+    this.router.navigate(
+      [],
+      {
+        relativeTo: this.activatedRoute,
+        queryParams: filter,
+        queryParamsHandling: 'merge'
+      }
+    )
   }
 
   ngOnDestroy() {
