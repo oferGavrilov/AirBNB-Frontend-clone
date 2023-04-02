@@ -38,8 +38,11 @@
             }
 
             .stay-name {
+                  display: flex;
+                  text-align: start;
                   justify-content: flex-start;
-                  height: 60px;
+                  align-items: flex-start;
+                  flex-direction: column;
 
                   img {
                         width: 100px;
@@ -52,7 +55,11 @@
                         font-weight: 700;
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        white-space: nowrap;
+                  }
+
+                  @include for-narrow-layout {
+                        flex-direction: row;
+
                   }
             }
 
@@ -60,6 +67,19 @@
                   @include main-btn();
                   padding: 8px 10px;
                   background: radial-gradient(circle at left, #ff385c 0%, #e61e4d 27.5%, #e31c5f 40%, #d70466 57.5%, #bd1e59 75%, #bd1e59 100%);
+            }
+
+            .stay-capacity,
+            .stay-rate {
+                  display: none;
+            }
+
+            @include for-narrow-layout {
+
+                  .stay-capacity,
+                  .stay-rate {
+                        display: flex;
+                  }
             }
       }
 

@@ -2,13 +2,6 @@
 @import '../../../assets/styles/setup/mixins';
 
 .user {
-
-    @include for-mobile-layout {
-        .main-layout {
-            display: unset;
-        }
-    }
-
     nav {
         display: flex;
         flex-wrap: wrap;
@@ -42,18 +35,26 @@
                 background-color: $secondary-color;
             }
         }
-        @include for-narrow-layout{
+
+        @include for-narrow-layout {
             flex-direction: row;
         }
     }
 
     main {
         min-height: calc(100vh - 491px);
+        margin-bottom: 72px;
     }
 
     @media print {
-        nav {
+        nav , app-footer{
             display: none;
+        }
+    }
+
+    @include for-mobile-layout {
+        .main-layout {
+            display: unset;
         }
     }
 }
