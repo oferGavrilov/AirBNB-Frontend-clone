@@ -15,13 +15,15 @@
                 <fa-icon [icon]="faBars"></fa-icon>
                 <img [src]="getUserImg()" alt="">
                 <span *ngIf="UserNotification" class="notification">{{UserNotification}}</span>
+                
+                <header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" (toggleLanguageModal)="onToggleLanguageModal()"
+                [isOpenLanguageModal]="isOpenLanguageModal" [isOpenFooter]="false"
+                *ngIf="isShowHeaderMenuModal"></header-menu-modal>
             </div>
         </nav>
     </div>
     <header-filter *ngIf="isShowFilter" [isHeaderFilterActive]="isHeaderFilterActive"
         (toggleHeaderFilter)="toggleHeaderFilter()"></header-filter>
 </header>
-<header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" (toggleLanguageModal)="onToggleLanguageModal()"
-    [isOpenLanguageModal]="isOpenLanguageModal" [isOpenFooter]="false"
-    *ngIf="isShowHeaderMenuModal"></header-menu-modal>
+
 <language-modal (onToggleLanguageModal)="onToggleLanguageModal()" *ngIf="isOpenLanguageModal"></language-modal>

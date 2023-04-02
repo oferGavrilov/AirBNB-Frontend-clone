@@ -2,22 +2,28 @@
 @import '../../../assets/styles/setup/mixins';
 
 .scroller-up {
-    position: fixed;
-    @include center-flex();
-    bottom: 30px;
-    right: 30px;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    box-shadow: 1px 1px 20px 10px #e1b4b4;
-    background-color: $secondary-color;
-    @include for-mobile-layout {
-      bottom: 70px;
-    }
+  @include center-flex();
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  box-shadow: 1px 1px 20px 10px #e1b4b4;
+  background-color: $secondary-color;
+
+  @include for-tablet-layout {
+    display: flex;
+  }
+
+  @include for-mobile-layout {
+    bottom: 70px;
+  }
 }
 
 .clear-filter {
@@ -42,7 +48,7 @@
     bottom: 55px;
   }
 
-  img{
-      width: 30px;
+  img {
+    width: 30px;
   }
 }

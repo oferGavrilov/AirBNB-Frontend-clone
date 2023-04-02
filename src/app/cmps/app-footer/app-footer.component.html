@@ -46,11 +46,12 @@
     <div class="menu" (click)="onToggleHeaderMenuModal()">
       <fa-icon [icon]="faBars"></fa-icon>
       <img [src]="getUserImg()" alt="">
+
+      <header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()"
+        (toggleLanguageModal)="onToggleLanguageModal()" [isOpenLanguageModal]="isOpenLanguageModal"
+        [isOpenFooter]="true" *ngIf="isShowHeaderMenuModal"></header-menu-modal>
     </div>
   </div>
 </footer>
-<header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" (toggleLanguageModal)="onToggleLanguageModal()"
-[isOpenLanguageModal]="isOpenLanguageModal" [isOpenFooter]="true"
-    *ngIf="isShowHeaderMenuModal"></header-menu-modal>
 
 <language-modal (onToggleLanguageModal)="onToggleLanguageModal()" *ngIf="isOpenLanguageModal"></language-modal>

@@ -67,34 +67,38 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 5px 5px 5px 12px;
-      width: 76px;
-      background-color: white;
-      border-radius: 12px;
-      border: 1px solid lightgray;
+      width: 85px;
+      border: 1px solid $border-color;
       transition: box-shadow .4s;
-      color: $black;
+      padding: 12px;
+      border-radius: 12px;
       cursor: pointer;
 
       img {
-          border-radius: 2em;
-          width: 29px;
-          height: 29px;
+        position: absolute;
+        border-radius: 2em;
+        width: 29px;
+        height: 29px;
+        right: 5px;
+      }
+
+      svg {
+        position: absolute;
       }
 
       &:hover {
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
       }
+    }
   }
-}
 }
 
 @include for-narrow-layout {
   .mobile-footer {
     display: none;
   }
+
   .app-footer {
     display: grid;
   }
 }
-
