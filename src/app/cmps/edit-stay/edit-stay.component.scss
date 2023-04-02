@@ -3,6 +3,8 @@
 
 .edit-stay {
       color: #373333;
+      padding: 0 8px;
+      margin-bottom: 72px;
 
       input,
       select {
@@ -28,13 +30,13 @@
             display: grid;
             grid-template-columns: 1fr .5fr .5fr;
             gap: 10px;
-            height: 416px;
+            height: 283px;
             width: 100%;
             padding: 16px 0;
 
             label {
                   @include center-flex();
-                  height: 195px;
+                  // height: 195px;
                   width: 100%;
                   background-color: #f1f1f1;
                   color: #635c5c;
@@ -42,7 +44,7 @@
             }
 
             label:first-child {
-                  height: 400px;
+                  height: 250px;
                   border-bottom-left-radius: 10px;
                   border-top-left-radius: 10px;
                   grid-row: 1/3;
@@ -65,6 +67,19 @@
                   aspect-ratio: 1/1;
                   object-fit: cover;
             }
+
+            @include for-narrow-layout {
+                  height: 416px;
+
+                  label {
+                        height: 195px;
+                  }
+
+                  label:first-child {
+                        height: 400px;
+                  }
+
+            }
       }
 
       .stay-info {
@@ -76,9 +91,10 @@
 
             >* {
                   display: flex;
+                  flex-wrap: wrap;
                   align-items: center;
                   gap: 40px;
-                  padding-bottom: 20px ;
+                  padding-bottom: 20px;
                   border-bottom: 1px solid $border-color;
             }
 
@@ -89,9 +105,10 @@
                   gap: 4px;
             }
 
-            ng-multiselect-dropdown{
+            ng-multiselect-dropdown {
                   width: 200px;
             }
+
             .user-img-upload {
                   input {
                         display: none;

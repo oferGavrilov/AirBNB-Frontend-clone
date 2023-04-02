@@ -3,10 +3,10 @@
             <div class="titles">
                   <h2 class="name-title big">Name</h2>
                   <h2>Action</h2>
-                  <h2>Capacity</h2>
+                  <h2 class="stay-capacity">Capacity</h2>
                   <h2>Price</h2>
                   <h2 class="big">Location</h2>
-                  <h2>Rate</h2>
+                  <h2 class="stay-rate">Rate</h2>
             </div>
             <div *ngFor="let stay of userStays" class="stays-content">
                   <div class="stay-name big">
@@ -14,10 +14,10 @@
                         <span>{{stay.name}}</span>
                   </div>
                   <button class="update-btn" [routerLink]="['/user/edit/' , stay._id]">Update</button>
-                  <span>{{stay.capacity}}</span>
+                  <span class="stay-capacity">{{stay.capacity}}</span>
                   <span>{{stay.price | currency }}</span>
                   <span class="big">{{stay.loc.address}}</span>
-                  <div>
+                  <div class="stay-rate">
                         <span>{{getRateAvg(stay)}}</span>
                         <fa-icon class="star" [icon]="faStar"></fa-icon>
                   </div>

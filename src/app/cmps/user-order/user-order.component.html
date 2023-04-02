@@ -1,6 +1,6 @@
 <section *ngIf="ordersToShow.length" class="user-trips">
     <div class="user-header">
-        <h2 typingAnimation *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
+        <h2 typingAnimation *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} orders</h2>
         <div *ngIf="isSearchActive" class="search-input">
             <input type="text" name="term" [(ngModel)]="orderFilter.term" (ngModelChange)="onSetFilter()" autofocus
                 autocomplete="off" placeholder="Search an order here..">
@@ -45,28 +45,32 @@
 
     <div class="trips">
         <div class="titles">
-            <h4>Client name</h4>
+            <h4 class="client-name">Client name</h4>
             <h4>Stay name</h4>
             <h4>Check in</h4>
             <h4>Check out</h4>
             <h4>Total</h4>
-            <h4>Order status</h4>
+            <h4 class="order-status">Order status</h4>
             <h4>Status</h4>
             <h4>Actions</h4>
         </div>
         <div *ngFor="let order of ordersToShow" class="trips-content">
-            <span>{{order.buyer.fullname}}</span>
+            <span class="client-name">{{order.buyer.fullname}}</span>
             <span>{{order.stay.name}}</span>
             <span>{{order.startDate | date}}</span>
             <span>{{order.endDate | date}}</span>
             <span>{{order.totalPrice | currency}}</span>
-            <span>{{order.status}}</span>
+            <span class="order-status">{{order.status}}</span>
             <span>
                 <img src="assets/img/user/{{order.status}}.png" alt="">
             </span>
             <span *ngIf="order.status === 'pending'" class="actions-btns">
-                <button class="approve" (click)="onChangeStatus('approve' , order)">Approve</button>
-                <button class="decline" (click)="onChangeStatus('decline', order)">Decline</button>
+                <button class="approve mobile" (click)="onChangeStatus('approve', order)">
+                    <span class="material-symbols-outlined">done</span>
+                </button>
+                <button class="decline mobile" (click)="onChangeStatus('decline', order)">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
             </span>
             <span ngClass="status {{order.status}}" *ngIf="order.status !== 'pending'">{{order.status}}</span>
         </div>
