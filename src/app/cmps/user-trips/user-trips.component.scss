@@ -5,43 +5,53 @@
 .user-trips {
     color: $header-text-color;
     border: 2px solid #dad4d4bc;
-    padding: 18px 20px 0 20px;
-    position: relative;    
-    font-size: 14px;
+    padding: 18px 10px 0 10px;
+    position: relative;
+    font-size: 13px;
     min-height: 40vh;
+    margin-bottom: 72px;
+
+    @include for-narrow-layout {
+        padding: 18px 20px 0 20px;
+        font-size: 14px;
+    }
 
     .user-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        .icon{
+        .icon {
             cursor: pointer;
+
             &:hover {
                 color: #1976d2;
             }
         }
+
         h2 {
             letter-spacing: 1px;
             font-family: system-ui;
         }
 
-        .search-input{
+        .search-input {
             display: flex;
             align-items: center;
             gap: 6px;
-            input{
+
+            input {
                 outline: none;
                 border: none;
                 border-bottom: 2px solid black;
                 width: 300px;
                 font-size: 16px;
-                
+
                 &:focus-visible {
                     border-bottom: 2px solid #1976d2;
                 }
             }
         }
+
         .tools {
             display: flex;
             height: 50%;
@@ -50,23 +60,38 @@
                 cursor: pointer;
                 display: flex;
                 align-items: center;
-                padding: 8px;
-                margin: 0 8px;
+                padding: 4px;
+                margin: 0 4px;
                 border-radius: 50%;
                 color: #0000008a;
                 transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-
+                
+                span {
+                    font-size: 18px;
+                    
+                    
+                }
+                
                 &:hover {
                     color: #1976d2;
                     background-color: #0000000a
                 }
+                @include for-narrow-layout {
+                    padding: 8px;
+                    margin: 0 8px;
+                    span {
+                        font-size: 24px;
+                    }
+                }
             }
+
         }
     }
 
     .trips-details {
         @include user-details-container()
     }
+
 
 
     .trips {
@@ -93,8 +118,13 @@
                 width: 100px;
                 overflow: hidden;
                 text-overflow: ellipsis;
-                &:nth-child(1){
-                    width: 300px;
+
+                &:nth-child(1) {
+                    width: 180px;
+
+                    @include for-narrow-layout {
+                        width: 280px;
+                    }
                 }
             }
 
@@ -129,6 +159,8 @@
         }
     }
 
+
+
     @media print {
         & {
             margin-top: 30px;
@@ -143,22 +175,31 @@
     }
 }
 
+.host-name,
+.order-status {
+    display: none;
+
+    @include for-narrow-layout {
+        display: block;
+    }
+}
+
 .empty-trips {
     margin: 40px 0;
     color: $header-text-color;
 
     p {
-          margin-top: 12px;
+        margin-top: 12px;
 
-          a {
-                color: $secondary-color;
-                font-weight: 500;
-                text-decoration: none;
-          }
+        a {
+            color: $secondary-color;
+            font-weight: 500;
+            text-decoration: none;
+        }
     }
 
     img {
-          margin-top: 24px;
-          width: 700px;
+        margin-top: 24px;
+        width: 700px;
     }
 }
