@@ -21,8 +21,7 @@
       <review-preview [review]="review"></review-preview>
     </li>
   </ul>
-  <div class="show-more" *ngIf="stay.reviews.length > howMuchToShow" (click)="onClickShowMore()">
-    <span>Show more reviews</span>
-    <fa-icon class="icon" [icon]="faAngleRight"></fa-icon>
+  <div class="show-more" *ngIf="stay.reviews.length > 6" (click)="onClickShowMore()">
+    <span>{{stay.reviews.length > howMuchToShow ? 'Show more reviews' : 'Show less reviews'}}</span>
   </div>
 </section>

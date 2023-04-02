@@ -70,17 +70,16 @@
 
   .show-more {
     margin-top: 24px;
+    padding: 13px 23px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    span {
-      font-weight: 500;
-      text-decoration: underline;
-    }
-
-    .icon {
-      font-size: 14px;
+    @include center-flex();
+    font-weight: 500;
+    color: $header-text-color;
+    border:  1px solid $header-text-color;
+    width: 195px;
+    border-radius: 12px;
+    &:hover {
+      background-color: $main-hover;
     }
   }
 }

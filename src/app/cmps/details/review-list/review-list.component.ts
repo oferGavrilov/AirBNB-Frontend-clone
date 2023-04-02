@@ -43,6 +43,7 @@ export class ReviewListComponent {
   }
 
   onClickShowMore() {
-    this.howMuchToShow += 2
+    if(this.stay.reviews.length <= this.howMuchToShow) this.howMuchToShow = 6
+    else this.howMuchToShow += 2
   }
 }
