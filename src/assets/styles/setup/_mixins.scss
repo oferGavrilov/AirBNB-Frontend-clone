@@ -43,21 +43,27 @@
 }
 
 @mixin center-absolute() {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @mixin user-details-container() {
-    margin: 16px auto;
+    flex-direction: column;
     display: flex;
-    align-items: center;
-    gap: 32px;
+    gap: 16px;
+    margin: 16px auto;
     background-color: $main-hover;
     padding: 10px 18px;
     border-radius: 6px;
     width: max-content;
+
+    @include for-narrow-layout() {
+        flex-direction: row;
+        align-items: center;
+        gap: 32px;
+    }
 
     .title {
         font-weight: 500;
@@ -81,7 +87,7 @@
     }
 }
 
-@mixin main-btn  {
+@mixin main-btn {
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;

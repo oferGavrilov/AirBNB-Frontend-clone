@@ -1,6 +1,6 @@
 <section *ngIf="ordersToShow.length || orderFilter.term" class="user-trips">
     <div class="user-header">
-        <h2 typingAnimation *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} pending trips</h2>
+        <h2 typingAnimation *ngIf="!isSearchActive">Hi {{user.fullname}}, you have {{orders.length}} trips</h2>
         <div *ngIf="isSearchActive" class="search-input">
             <input type="text" name="term" [(ngModel)]="orderFilter.term" (ngModelChange)="onSetFilter()" autofocus
                 autocomplete="off" placeholder="Search an order here..">
@@ -44,20 +44,20 @@
     <div class="trips">
         <div class="titles">
             <h4>Stay name</h4>
-            <h4>Host name</h4>
+            <h4 class="host-name">Host name</h4>
             <h4>Check in</h4>
             <h4>Check out</h4>
             <h4>Total</h4>
-            <h4>Order status</h4>
+            <h4 class="order-status">Order status</h4>
             <h4>Status</h4>
         </div>
         <div *ngFor="let order of ordersToShow" class="trips-content">
             <span>{{order.stay.name}}</span>
-            <span>{{order.host.fullname}}</span>
+            <span class="host-name">{{order.host.fullname}}</span>
             <span>{{order.startDate | date}}</span>
             <span>{{order.endDate | date}}</span>
             <span>{{order.totalPrice | currency}}</span>
-            <span>{{order.status}}</span>
+            <span class="order-status">{{order.status}}</span>
             <span>
                 <img src="assets/img/user/{{order.status}}.png" alt="">
             </span>
