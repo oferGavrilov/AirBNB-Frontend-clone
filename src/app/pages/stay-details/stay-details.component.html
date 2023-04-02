@@ -4,18 +4,17 @@
     <header id="photos">
       <div class="header-info">
         <h1>{{stay.name}}</h1>
-        <div>
+        <div class="flex align-center justify-center">
           <div class="rate">
-            <fa-icon [icon]="starIcon"></fa-icon>
+            <fa-icon class="star" [icon]="starIcon"></fa-icon>
             <span>{{getRateAvg()}}</span>
           </div>
-          <span class="point">.</span>
+          <fa-icon class="point" [icon]="point"></fa-icon>
           <a href="#reviews" class="reviews">{{stay.reviews.length}} {{'stay.details.reviews' | translate}}</a>
-          <span class="point">.</span>
+          <fa-icon class="point" [icon]="point"></fa-icon>
           <div class="loc">
             <a href="#location">{{stay.loc.address}}</a>
           </div>
-          <span class="point">.</span>
         </div>
       </div>
       <div class="share-save">
@@ -63,9 +62,9 @@
             <h2>{{stay.roomType}} hosted by {{stay.host.fullname}}</h2>
             <div>
               <span>{{stay.capacity}} {{'stay.header.guests' | translate}}</span>
-              <span class="point">.</span>
+              <fa-icon class="point" [icon]="point"></fa-icon>
               <span>{{stay.bathrooms}} {{'stay.details.bathroom' | translate}}</span>
-              <span class="point">.</span>
+              <fa-icon class="point" [icon]="point"></fa-icon>
               <span>{{stay.bedrooms}} {{'stay.details.bedrooms' | translate}}</span>
             </div>
           </div>

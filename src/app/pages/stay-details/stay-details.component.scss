@@ -10,13 +10,17 @@
     }
   }
 
+  .point {
+    font-size: 3px;
+  }
+
   &.reserve-click {
     filter: blur(2px);
     cursor: not-allowed;
   }
 
   header {
-    @include center-flex;
+    @include center-flex();
     justify-content: space-between;
     color: $header-text-color;
     padding-top: 24px;
@@ -29,18 +33,22 @@
         margin-bottom: 8px;
       }
 
+      .point {
+        margin: 0 8px 0 8px;
+      }
+
       div {
         display: flex;
         font-weight: 500;
       }
 
-      .point {
-        margin: 0 8px 0 8px;
-      }
-
       .rate {
+        @include center-flex();
         span {
           margin-left: 4px;
+        }
+        .star {
+          font-size: 12px;
         }
       }
 
