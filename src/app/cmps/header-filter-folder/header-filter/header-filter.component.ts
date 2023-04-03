@@ -49,11 +49,11 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
   }
 
   get Anywhere() {
-    return this.stayFilter.place ? this.stayFilter.place : 'Anywhere'
+    return this.stayFilter.place ? this.stayFilter.place : 'stay.header.anywhere'
   }
 
   get AnyWeek() {
-    if (!this.order.startDate || !this.order.endDate || !this.date) return 'Any week'
+    if (!this.order.startDate || !this.order.endDate || !this.date) return 'stay.header.anyweek'
     if (this.order.startDate.getMonth() === this.order.endDate.getMonth()) {
       const monthName = this.utilService.getMonthName(this.order.endDate.getMilliseconds())
       return `${monthName} ${this.order.startDate.getDate()} - ${this.order.endDate.getDate()}`
@@ -64,9 +64,9 @@ export class HeaderFilterComponent implements OnInit, OnDestroy {
   }
 
   // SERVICE
-  get addGuest() {
+  get AddGuest() {
     const guests = this.order.guests
-    if (guests.adults === 1 && guests.children === 0 && guests.infants === 0 && guests.pets === 0) return 'Add guests'
+    if (guests.adults === 1 && guests.children === 0 && guests.infants === 0 && guests.pets === 0) return 'stay.header.add-guests'
     return this.getGuests()
   }
 
