@@ -1,14 +1,20 @@
 <section class="stay-index">
   <app-header></app-header>
-  <main *ngIf="!this.loader.getLoading()" class="main-layout">
-    <stay-filter></stay-filter>
-    <stay-list [stays]="stays$ | async"></stay-list>
+  <stay-filter></stay-filter>
+  <main *ngIf="!this.loader.getLoading() || isLoadStay" class="main-layout">
+    <div #elFooter (window:scroll)="onPageScroll()">
+      <stay-list [stays]="stays$ | async"></stay-list>
+      <skeleton-loader *ngIf="this.loader.getLoading() && isLoadStay"></skeleton-loader>
+    </div>
     <app-footer class="full"></app-footer>
   </main>
-  <app-loader *ngIf="this.loader.getLoading()"></app-loader>
-  <a *ngIf="isShowScroller" (click)="onPageUp()" class="scroller-up"><span class="material-symbols-outlined">expand_less</span></a>
+
+  <a *ngIf="isShowScroller" (click)="onPageUp()" class="scroller-up"><span
+      class="material-symbols-outlined">expand_less</span></a>
+
+  <skeleton-loader *ngIf="this.loader.getLoading()"></skeleton-loader>
 
   <a *ngIf="isShowClearBtn" (click)="onClearFilter()" loading="eager" class="clear-filter">
     <img src="assets/img/stay/clear-filter.png" alt="">
-</a>
+  </a>
 </section>

@@ -1,0 +1,40 @@
+@import '../../../assets/styles/setup/mixins';
+@import '../../../assets/styles/setup/variables';
+
+ul {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px 24px;
+      margin: 16px 0 70px 0;
+      list-style: none;
+      border-radius: '14px';
+
+      .square {
+            width: 100%;
+      }
+
+      @include for-narrow-layout {
+            margin: 16px 0 40px 0;
+            grid-template-columns: repeat(2, 1fr);
+      }
+
+      @include for-normal-layout {
+            grid-template-columns: repeat(3, 1fr);
+      }
+
+      @include for-wide-layout {
+            grid-template-columns: repeat(4, 1fr);
+      }
+}
+
+.line-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+}
+
+.rate {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+}

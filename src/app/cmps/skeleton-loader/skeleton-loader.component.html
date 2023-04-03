@@ -1,0 +1,49 @@
+<div class="item main-layout">
+      <ul>
+            <li class="main" *ngFor="let item of items">
+                  <ngx-skeleton-loader class="square" [theme]="{ 
+                        'border-radius': '14px',
+                        height: '285px',
+                        border: '1px solid white'
+                  }">
+                  </ngx-skeleton-loader>
+                  <div class="line-container">
+                        <ngx-skeleton-loader [theme]="{ 
+                              'border-radius': '8px',
+                              height: '20px',
+                              width: '180px',
+                              border: '1px solid white'
+                        }">
+                        </ngx-skeleton-loader>
+                        <ngx-skeleton-loader [theme]="{ 
+                        'border-radius': '8px',
+                        height: '20px',
+                        width: '200px',
+                        border: '1px solid white'
+                              }">
+                        </ngx-skeleton-loader>
+                        <ngx-skeleton-loader [theme]="{ 
+                              'border-radius': '8px',
+                              height: '20px',
+                              width: '100px',
+                              border: '1px solid white'
+                        }">
+                        </ngx-skeleton-loader>
+                        <ngx-skeleton-loader [theme]="{ 
+                              'border-radius': '8px',
+                              height: '20px',
+                              width: '90px',
+                              border: '1px solid white'}">
+                        </ngx-skeleton-loader>
+                        <ngx-skeleton-loader class="rate" [theme]="{ 
+                              'border-radius': '8px',
+                              height: '20px',
+                              width: '50px',
+                              border: '1px solid white'}">
+                        </ngx-skeleton-loader>
+                        
+                  </div>
+            </li>
+      </ul>
+
+</div>

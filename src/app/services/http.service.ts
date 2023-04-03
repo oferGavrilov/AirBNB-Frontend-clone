@@ -14,7 +14,7 @@ export class HttpService {
   'Authorization': 'Bearer <token>',
   })
 
-  public get(endpoint: string, data: any) {
+  public get(endpoint: string, data?: any) {
     return this.httpRequest(endpoint, 'get', data)
   }
 

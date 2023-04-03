@@ -29,7 +29,7 @@ const routes: Routes = [
   {
     path: ':stayId',
     component: StayDetailsComponent,
-    resolve: { stay: StayResolver }
+    resolve: { stay: StayResolver },
   },
   { path: '', component: StayIndexComponent},
 ]

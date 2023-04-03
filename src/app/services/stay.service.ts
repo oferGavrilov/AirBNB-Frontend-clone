@@ -22,17 +22,28 @@ export class StayService {
   private _stayFilter$ = new BehaviorSubject<StayFilter>(this.getEmptyFilter());
   public stayFilter$ = this._stayFilter$.asObservable()
 
-  public async loadStays() {
+  private _stayLength$ = new BehaviorSubject<number>(1)
+  public stayLength$ = this._stayLength$.asObservable()
+
+  public async loadStays(index: number = 0, isConnectStays: boolean = true) {
     const filterBy = this._stayFilter$.value
-    const queryParams = this.getQueryParams(filterBy)
+    const queryParams = this.getQueryParams(filterBy, index)
+    const prevStays = isConnectStays ? this._stays$.value : []
     const stays = await lastValueFrom(this.httpService.get(this.STAY_URL + queryParams, null)) as Stay[]
-    console.log(stays);
-    this._stays$.next(stays)
+    this._stays$.next(prevStays.concat(stays))
   }
 
   public query(filterBy: StayFilter) {
     const queryParams = this.getQueryParams(filterBy)
     return this.httpService.get(this.STAY_URL + queryParams, null) as Observable<Stay[]>
+  }
+
+  public async loadFullLength() {
+    const filterBy = this._stayFilter$.value
+    const queryParams = this.getQueryParams(filterBy)
+
+    const stayLength = await lastValueFrom(this.httpService.get(this.STAY_URL + 'length/' + queryParams, null)) as number
+    this._stayLength$.next(stayLength)
   }
 
   public getById(stayId: string): Observable<Stay> {
@@ -56,12 +67,14 @@ export class StayService {
 
   public setFilter(filter: StayFilter) {
     this._stayFilter$.next(filter)
-    this.loadStays()
+    this.loadFullLength()
+    this.loadStays(0, false)
   }
-
+  
   public async setFilterAsync(filter: StayFilter) {
     this._stayFilter$.next(filter)
-    await this.loadStays()
+    this.loadFullLength()
+    await this.loadStays(0, false)
   }
 
   public getEmptyStay() {
@@ -110,8 +123,8 @@ export class StayService {
     }
   }
 
-  private getQueryParams(filterBy: StayFilter) {
-    let params = '?'
+  private getQueryParams(filterBy: StayFilter, index: number = 0) {
+    let params = `?page=${index}&`
     if (filterBy.likeByUser) params += `likeByUser=${filterBy.likeByUser}&`
     if (filterBy.hostId) params += `hostId=${filterBy.hostId}&`
     if (filterBy.label) params += `label=${filterBy.label}&`

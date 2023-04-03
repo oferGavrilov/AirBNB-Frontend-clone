@@ -1,0 +1,82 @@
+[
+      {
+            "txt": "OMG!",
+            "translate": "OMG!",
+            "img": "assets/img/filter-imgs/omg.jpg"
+      },
+      {
+            "txt": "Amazing-views",
+            "translate": "stay.filter.amazing-views",
+            "img": "assets/img/filter-imgs/amazing-views.jpg"
+      },
+      {
+            "txt": "Trending",
+            "translate": "stay.filter.trending",
+            "img": "assets/img/filter-imgs/trending.jpg"
+      },
+      {
+            "txt": "Golfing",
+            "translate": "stay.filter.golfing",
+            "img": "assets/img/filter-imgs/golfing.jpg"
+      },
+      {
+            "txt": "Surfing",
+            "translate": "stay.filter.surfing",
+            "img": "assets/img/filter-imgs/surfing.jpg"
+      },
+      {
+            "txt": "Mansions",
+            "translate": "stay.filter.mansions",
+            "img": "assets/img/filter-imgs/mansions.jpg"
+      },
+      {
+            "txt": "Luxe",
+            "translate": "stay.filter.luxe",
+            "img": "assets/img/filter-imgs/luxe.jpg"
+      },
+      {
+            "txt": "Private-rooms",
+            "translate": "stay.filter.private-rooms",
+            "img": "assets/img/filter-imgs/private-rooms.jpg"
+      },
+      {
+            "txt": "Lake front",
+            "translate": "stay.filter.lake-front",
+            "img": "assets/img/filter-imgs/lake-front.jpg"
+      },
+      {
+            "txt": "Castles",
+            "translate": "stay.filter.castles",
+            "img": "assets/img/filter-imgs/castles.jpg"
+      },
+      {
+            "txt": "Tiny homes",
+            "translate": "stay.filter.tiny-homes",
+            "img": "assets/img/filter-imgs/tiny-homes.jpg"
+      },
+      {
+            "txt": "Islands",
+            "translate": "stay.filter.islands",
+            "img": "assets/img/filter-imgs/islands.jpg"
+      },
+      {
+            "txt": "Boats",
+            "translate": "stay.filter.boats",
+            "img": "assets/img/filter-imgs/boats.jpg"
+      },
+      {
+            "txt": "Creative spaces",
+            "translate": "stay.filter.creative-spaces",
+            "img": "assets/img/filter-imgs/creative-spaces.jpg"
+      },
+      {
+            "txt": "Beach",
+            "translate": "Beach",
+            "img": "assets/img/filter-imgs/beach.jpg"
+      },
+      {
+            "txt": "Design",
+            "translate": "Design",
+            "img": "assets/img/filter-imgs/design.jpg"
+      }
+]

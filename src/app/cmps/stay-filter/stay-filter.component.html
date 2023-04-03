@@ -1,18 +1,20 @@
-<section class="stay-filter">
-  <div (click)="onClickArrow(-1)" *ngIf="checkLeftArrow()" class="arrow-container arrow-left">
-      <div class="arrow arrow-left">
-          <fa-icon [icon]="faChevronLeft"></fa-icon>
-      </div>
-  </div>
-  <div class="filter-container">
-      <div *ngFor="let filter of getFilters()" (click)="onClickLabel(filter.txt)">
-          <img src="{{filter.img}}" alt="">
-          <span>{{ filter.txt | translate}}</span>
-      </div>
-  </div>
-  <div *ngIf="checkRightArrow()" (click)="onClickArrow(1)" class="arrow-container arrow-right">
-      <div class="arrow arrow-right">
-          <fa-icon [icon]="faChevronRight"></fa-icon>
-      </div>
-  </div>
+<section class="stay-filter main-layout">
+    <div class="main-content">
+        <div (click)="onScroll(-1)" *ngIf="!isFullyScrolledLeft" class="arrow-container arrow-left">
+            <div class="arrow arrow-left">
+                <fa-icon [icon]="faChevronLeft"></fa-icon>
+            </div>
+        </div>
+        <div #elFilter class="filter-container">
+            <div *ngFor="let filter of filters" (click)="onClickLabel(filter.txt)">
+                <img src="{{filter.img}}" alt="">
+                <span>{{ filter.translate | translate}}</span>
+            </div>
+        </div>
+        <div *ngIf="!isFullyScrolledRight" (click)="onScroll(1)" class="arrow-container arrow-right">
+            <div class="arrow arrow-right">
+                <fa-icon [icon]="faChevronRight"></fa-icon>
+            </div>
+        </div>
+    </div>
 </section>

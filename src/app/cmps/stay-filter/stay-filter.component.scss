@@ -2,99 +2,113 @@
 @import '../../../assets/styles/setup/mixins';
 
 .stay-filter {
-    position: relative;
-    height: 78px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
 
-    fa-icon {
-        font-size: 12px
+    @include for-mobile-layout {
+        &.main-layout {
+            display: unset;
+        }
     }
 
-    .arrow-container {
-        @include center-flex();
-        position: absolute;
-        padding: 16px;
-        height: 100%;
-        background-color: white;
-        z-index: 5;
-        width: 50px;
+    .main-content {
+        position: relative;
+        height: 78px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
 
-        &.arrow-left {
-            bottom: 0;
-            left: 0;
+        fa-icon {
+            font-size: 12px
         }
 
-        &.arrow-right {
-            bottom: 0;
-            right: 0;
-        }
-
-        .arrow {
+        .arrow-container {
             @include center-flex();
             position: absolute;
-            cursor: pointer;
-            border: 0.5px solid rgb(0 0 0 / 0.3);
-            border-radius: 50%;
-            width: 28px;
-            height: 28px;
+            padding: 16px;
+            height: 100%;
             background-color: white;
-            transition: box-shadow 0.2s ease;
+            z-index: 5;
+            width: 50px;
 
-            &:hover {
-                transform: scale(1.04);
-                box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-            }
-        }
-    }
-
-    .filter-container {
-        display: flex;
-        padding: 8px 0;
-        overflow: hidden;
-
-        >* {
-            color: $main-color;
-            font-size: 12px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 4px 20px 6px;
-            margin: 12px 0 10px;
-            gap: 8px;
-            align-items: center;
-            cursor: pointer;
-            transition: color .2s opacity .2s;
-
-            img {
-                opacity: .6;
-                width: 24px;
-                transition: opacity .2s;
+            &.arrow-left {
+                bottom: 0;
+                left: 0;
             }
 
-            &:hover:not(:last-child) {
-                color: #000000;
+            &.arrow-right {
+                bottom: 0;
+                right: 0;
+            }
 
-                img {
-                    opacity: 1;
+            .arrow {
+                @include center-flex();
+                position: absolute;
+                cursor: pointer;
+                border: 0.5px solid rgb(0 0 0 / 0.3);
+                border-radius: 50%;
+                width: 28px;
+                height: 28px;
+                background-color: white;
+                transition: box-shadow 0.2s ease;
+
+                &:hover {
+                    transform: scale(1.04);
+                    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
                 }
             }
         }
-    }
 
-    .filter-btn {
-        @include center-flex();
-        font-size: 12px;
-        gap: 6px;
-        color: $header-text-color;
-        padding: 7px 16px;
-        height: 48px;
-        border: 1px solid $border-color;
-        border-radius: 12px;
-        margin: auto 0;
-        cursor: pointer;
+        .filter-container {
+            display: flex;
+            font-size: 12px;
+            align-items: center;
+            overflow-y: auto;
+            position: relative;
+            scroll-behavior: smooth;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            >* {
+                color: $main-color;
+                font-size: 12px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 4px 20px 6px;
+                margin: 12px 0 10px;
+                gap: 8px;
+                align-items: center;
+                cursor: pointer;
+                transition: color .2s opacity .2s;
+
+                img {
+                    opacity: .6;
+                    width: 24px;
+                    transition: opacity .2s;
+                }
+
+                &:hover:not(:last-child) {
+                    color: #000000;
+
+                    img {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .filter-btn {
+            @include center-flex();
+            font-size: 12px;
+            gap: 6px;
+            color: $header-text-color;
+            padding: 7px 16px;
+            height: 48px;
+            border: 1px solid $border-color;
+            border-radius: 12px;
+            margin: auto 0;
+            cursor: pointer;
+        }
     }
 }
-
-

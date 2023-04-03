@@ -56,6 +56,8 @@ import { AddReviewComponent } from './cmps/details/add-review/add-review.compone
 import { NgxStarRatingModule } from 'ngx-star-rating';
 import { languageModalComponent } from './cmps/language-modal/language-modal.component';
 import { MatIconModule } from '@angular/material/icon';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+import { SkeletonLoaderComponent } from './cmps/skeleton-loader/skeleton-loader.component';
 
 @NgModule({
   declarations: [
@@ -98,6 +100,7 @@ import { MatIconModule } from '@angular/material/icon';
     AboutComponent,
     AddReviewComponent,
     languageModalComponent,
+    SkeletonLoaderComponent,
   ],
   imports: [
     FormsModule,
@@ -119,6 +122,7 @@ import { MatIconModule } from '@angular/material/icon';
     ReactiveFormsModule,
     MatSnackBarModule,
     NgxStarRatingModule,
+    NgxSkeletonLoaderModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

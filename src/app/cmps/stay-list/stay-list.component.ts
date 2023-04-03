@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Stay } from 'src/app/models/stay.model';
+import { StayService } from 'src/app/services/stay.service';
 
 @Component({
   selector: 'stay-list',
@@ -7,7 +8,6 @@ import { Stay } from 'src/app/models/stay.model';
   styleUrls: ['./stay-list.component.scss']
 })
 export class StayListComponent {
-  constructor() { }
+  constructor(private stayService: StayService) { }
   @Input() stays!: Stay[] | null;
-
 }
