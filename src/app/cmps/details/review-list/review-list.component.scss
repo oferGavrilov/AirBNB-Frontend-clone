@@ -4,6 +4,7 @@
 .review-list {
   padding: 32px 0;
   border-bottom: 1px solid $border-color;
+  color: $header-text-color;
   @include for-mobile-layout {
     border-top: 1px solid $border-color;
     margin: 20px 5px;
@@ -43,6 +44,7 @@
       .rate-percent {
         @include center-flex();
         gap: 8px;
+        font-size: 14px;
         .line {
           width: 150px;
           background-color: $border-color;

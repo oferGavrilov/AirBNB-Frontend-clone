@@ -1,5 +1,5 @@
 <section class="img-carousel">
-  <fa-icon (click)="onClickLike($event)" [ngClass]="isLikeByUser ? 'active like' : 'like'" [icon]="faHeart"></fa-icon>
+  <fa-icon *ngIf="IsShowLike" (click)="onClickLike($event)" [ngClass]="isLikeByUser ? 'active like' : 'like'" [icon]="faHeart"></fa-icon>
   <span class="arrow left-arrow" *ngIf="currIdx" (click)="onClickArrow($event,-1)">
     <fa-icon [icon]="faAngleLeft"></fa-icon>
   </span>

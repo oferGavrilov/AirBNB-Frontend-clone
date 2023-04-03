@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { faAngleRight, faAngleLeft, faHeart, faCircle } from '@fortawesome/free-solid-svg-icons'
 import { Stay } from 'src/app/models/stay.model';
 import { StayService } from 'src/app/services/stay.service';
@@ -15,6 +15,7 @@ export class ImgCarouselComponent implements OnInit {
     private stayService: StayService,
     private userService: UserService,
     private router: Router,
+    private activatedRoute: ActivatedRoute,
     private snackBar: MatSnackBar) { }
 
   @Input() stay !: Stay
@@ -27,12 +28,18 @@ export class ImgCarouselComponent implements OnInit {
 
   ngOnInit() {
     this.isLikeActive()
+    console.log('activatedRoute:', this.activatedRoute?.component?.name)
   }
 
   onClickArrow(ev: Event, diff: number) {
     ev.stopPropagation()
     this.currIdx += diff
   }
+
+  get IsShowLike() {
+    return this.activatedRoute?.component?.name !== 'StayDetailsComponent'
+  }
+
 
   checkRightArrow() {
     return this.currIdx < (this.stay.imgUrls.length - 1)
