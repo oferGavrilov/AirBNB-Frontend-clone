@@ -29,8 +29,9 @@
       </div>
     </header>
     <div class="img-container">
-      <img loading="la" *ngFor="let imgUrl of stay.imgUrls" class="img" [src]="imgUrl" alt="">
+      <img loading="lazy" *ngFor="let imgUrl of stay.imgUrls" class="img" [src]="imgUrl" alt="">
     </div>
+    <img-carousel [stay]="stay" [isLikeByUser]="false"></img-carousel>
     <div *ngIf="isShowHeader" class="secondary-header full">
       <div class="main-layout">
         <div class="header-content">
