@@ -6,7 +6,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        flex-direction: column;
         gap: 8px;
         padding: 16px 0;
 
@@ -16,7 +15,7 @@
             font-size: 14px;
             font-weight: 600;
             border-radius: 6px;
-            min-width: 180px;
+            width: 33%;
             flex-grow: 1;
             text-align: center;
             color: $secondary-color;
@@ -24,6 +23,10 @@
             text-transform: uppercase;
             color: rgb(62, 54, 54);
             height: 37px;
+
+            &:last-child{
+                width: 100%;
+            }
 
             &:hover {
                 background-color: darken($main-hover, 5%);
@@ -34,6 +37,13 @@
                 color: white;
                 background-color: $secondary-color;
             }
+
+            @include for-normal-layout{
+                width: 15%;
+                &:last-child{
+                    width: 15%;
+                }
+            }
         }
 
         @include for-narrow-layout {
@@ -43,7 +53,6 @@
 
     main {
         min-height: calc(100vh - 491px);
-        margin-bottom: 72px;
     }
 
     @media print {

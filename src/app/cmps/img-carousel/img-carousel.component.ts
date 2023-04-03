@@ -57,7 +57,7 @@ export class ImgCarouselComponent implements OnInit {
     else this.isLikeByUser = this.stay.likedByUsers.includes(user._id)
   }
 
- async onClickLike(ev: Event) {
+  async onClickLike(ev: Event) {
     ev.stopPropagation()
     try {
       const user = this.userService.getUser()

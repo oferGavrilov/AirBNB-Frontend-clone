@@ -29,6 +29,13 @@ export class GuestModalComponent {
     return guests
   }
 
+  GuestTypeSubTitle(guestType: keyof Guest) {
+    if(guestType === 'adults') return 'Ages 13 or above'
+    if(guestType === 'children') return 'Ages 2–12'
+    if(guestType === 'infants') return 'Under 2'
+    return 'Bringing a service animal?'
+  }
+
   onToggleGuestModal() {
     this.toggleGuestModal.emit()
   }
