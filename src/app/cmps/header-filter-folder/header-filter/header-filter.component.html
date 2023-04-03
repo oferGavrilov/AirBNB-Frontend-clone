@@ -1,8 +1,8 @@
 <section [ngClass]="isHeaderFilterActive ? 'header-filter active' : 'header-filter'">
   <div (click)="onToggleHeaderFilter()" class="header-filter-close" *ngIf="!isHeaderFilterActive">
-    <span>{{'stay.header.anywhere' | translate}}</span>
-    <span>{{'stay.header.anyweek' | translate}}</span>
-    <span>{{'stay.header.add-guests' | translate}}</span>
+    <span>{{Anywhere | translate}}</span>
+    <span>{{AnyWeek | translate}}</span>
+    <span>{{AddGuest | translate}}</span>
     <span class="icon-container">
       <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
     </span>
