@@ -23,9 +23,13 @@
     @include center-flex();
     justify-content: space-between;
     color: $header-text-color;
-    padding-top: 24px;
+    flex-direction: column;
+    padding: 10px 5px;
 
     .header-info {
+      @include center-flex();
+      flex-direction: column;
+
       h1 {
         font-weight: 500;
         font-size: 23px;
@@ -37,6 +41,11 @@
         margin: 0 8px 0 8px;
       }
 
+      .loc,
+      .point {
+        display: none;
+      }
+
       div {
         display: flex;
         font-weight: 500;
@@ -44,9 +53,11 @@
 
       .rate {
         @include center-flex();
+
         span {
           margin-left: 4px;
         }
+
         .star {
           font-size: 12px;
         }
@@ -57,6 +68,23 @@
         cursor: pointer;
         color: $header-text-color;
         text-decoration: underline;
+      }
+
+      .reviews {
+        margin-left: 20px;
+      }
+
+      @include for-narrow-layout {
+        display: block;
+
+        .loc,
+        .point {
+          display: block;
+        }
+
+        .reviews {
+          margin-left: unset;
+        }
       }
     }
 
@@ -78,6 +106,7 @@
           text-decoration: underline;
         }
       }
+
       .like {
         @include center-flex();
         cursor: pointer;
@@ -92,20 +121,10 @@
       }
     }
 
-    @include for-mobile-layout {
-      flex-direction: column;
-      width: 100%;
-      padding: 10px 5px;
-      .header-info {
-        @include center-flex();
-        flex-direction: column;
-        .loc, .point {
-          display: none;
-        }
-        .reviews {
-          margin-left: 20px;
-        }
-      }
+    @include for-narrow-layout {
+      flex-direction: row;
+      padding: unset;
+      padding-top: 24px;
     }
   }
 
@@ -155,6 +174,7 @@
     @include for-mobile-layout {
       display: none;
     }
+
     box-shadow: rgb(0 0 0 / 10%) 0px 1px 0px;
     background-color: #fff;
     z-index: 3;
@@ -202,7 +222,8 @@
           .star {
             font-size: 12px;
           }
-          .reviews{
+
+          .reviews {
             text-decoration: underline;
           }
         }
@@ -212,11 +233,12 @@
 
   .stay-order-info {
     display: flex;
+    flex-direction: column;
     padding-top: 48px;
-    gap: 10%;
-    @include for-mobile-layout {
-      flex-direction: column;
-      gap: unset;
+
+    @include for-normal-layout {
+      flex-direction: row;
+      gap: 10%;
     }
   }
 
@@ -225,12 +247,15 @@
     justify-content: space-between;
     border-bottom: 1px solid $border-color;
     padding-bottom: 24px;
+
     @include for-mobile-layout {
       margin: 0 5px;
+
       img {
         display: none;
       }
     }
+
     .subtitle-content {
       h2 {
         font-size: 22px;
@@ -249,6 +274,7 @@
         }
       }
     }
+
     img {
       width: 56px;
       height: 56px;
@@ -270,18 +296,19 @@
         color: $secondary-color;
       }
     }
+
     @include for-mobile-layout {
       margin: 0 5px;
     }
   }
 
   .where-you-be {
-    margin: 16px 0;
+    margin-top: 16px;
   }
 
   .google-map {
     color: $header-text-color;
-    padding-top: 24px;
+    padding: 24px 0;
     border-bottom: 1px solid $border-color;
 
     h2 {
@@ -290,8 +317,13 @@
       padding-bottom: 24px;
     }
 
-    .address {
-      margin-bottom: 24px;
+    .map-info {
+      color: #222222;
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
     }
   }
 
@@ -301,6 +333,7 @@
     line-height: 20px;
     padding: 32px 0;
     border-bottom: 1px solid $border-color;
+
     @include for-mobile-layout {
       margin: 0 5px;
     }

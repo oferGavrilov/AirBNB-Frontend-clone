@@ -85,9 +85,12 @@
     <review-list id="reviews" [stay]="stay"></review-list>
     <add-review [stay]="stay"></add-review>
     <h2 class="where-you-be">{{'stay.details.where-you-be' | translate}}</h2>
-    <span class="address">{{stay.loc.address}}</span>
     <div class="google-map" id="location">
       <map [stay]="stay"></map>
+      <div class="map-info">
+        <h4 class="address">{{stay.loc.address}}</h4>
+        <p class="stay-summary">{{stay.summary}}</p>
+      </div>
     </div>
     <host-info [stay]="stay"></host-info>
   </div>
