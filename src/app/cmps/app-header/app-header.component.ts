@@ -27,6 +27,9 @@ export class AppHeaderComponent {
 
   ngOnInit() {
     this.subscription = this.userService.user$.subscribe(user => this.user = user)
+    console.log('this.activatedRoute:', this.activatedRoute)
+    console.log('this.activatedRoute?.component:', this.activatedRoute?.component)
+    console.log('this.activatedRoute?.component?.name:', this.activatedRoute?.component?.name)
     this.isShowFilter = this.activatedRoute?.component?.name === 'StayIndexComponent'
   }
 
