@@ -59,6 +59,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { SkeletonLoaderComponent } from './cmps/skeleton-loader/skeleton-loader.component';
 
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material/core';
+import {MatInputModule} from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent,
@@ -123,13 +126,18 @@ import { SkeletonLoaderComponent } from './cmps/skeleton-loader/skeleton-loader.
     MatSnackBarModule,
     NgxStarRatingModule,
     NgxSkeletonLoaderModule,
+
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatInputModule,
+    
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],

@@ -1,29 +1,60 @@
 @import '../../../../assets/styles/setup/variables';
 @import '../../../../assets/styles/setup/mixins';
 
-::ng-deep airbnb-calendar{
-  top: 60px;
-  right: 703px;
-  display: flex;
-  flex-direction: column;
+::ng-deep .checkout-btns {
+    airbnb-calendar {
+        right: 212px;
+
+        .airbnb-calendar-container {
+            width: 400px;
+        }
+
+        .airbnb-calendar-container .airbnb-calendar .calendar {
+            float: unset !important;
+            width: 100% !important;
+            background: white !important;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+        }
+
+        @include for-narrow-layout {
+            top: 52px;
+        }
+
+        @include for-normal-layout {
+            top: 60px;
+            right: 703px !important;
+
+            .airbnb-calendar-container .airbnb-calendar .calendar {
+                float: left !important;
+                width: 50% !important;
+                background: white !important;
+            }
+
+            .airbnb-calendar-container {
+                width: 850px;
+            }
+        }
+    }
 }
 
 .stay-order {
     position: sticky;
     top: 86px;
-    .order-content {
-      display: flex;
-      flex-direction: column;
-      border: 1px solid rgb(221, 221, 221);
-      border-radius: 12px;
-      padding: 24px;
-      box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
-      color: $header-text-color;
-      min-width: 350px;
 
-      @include for-mobile-layout {
-       margin: 20px 0;
-      }
+    .order-content {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+        color: $header-text-color;
+        min-width: 350px;
+
+        @include for-mobile-layout {
+            margin: 20px 0;
+        }
+
         .stay-order-header {
             display: flex;
             align-items: center;
@@ -75,20 +106,21 @@
             cursor: pointer;
 
             #calender {
-              opacity: 0;
-              width: 0;
+                opacity: 0;
+                width: 0;
 
-              [_nghost-bhy-c73] {
-                box-sizing: border-box;
-                display: block;
-                position: relative;
-                right: 591px;
-                z-index: 10;
-                top: 52px;
-            }
+                [_nghost-bhy-c73] {
+                    box-sizing: border-box;
+                    display: block;
+                    position: relative;
+                    right: 591px;
+                    z-index: 10;
+                    top: 52px;
+                }
             }
 
-            label, button {
+            label,
+            button {
                 display: flex;
                 flex-direction: column;
                 white-space: nowrap;
@@ -147,7 +179,7 @@
         }
 
         .order-btn {
-          @include main-btn();
+            @include main-btn();
         }
 
         .order-description {
@@ -198,9 +230,10 @@
         border-radius: 12px;
         padding: 24px;
         margin-top: 24px;
+
         @include for-mobile-layout {
-          display: none;
-         }
+            display: none;
+        }
 
         p {
             width: 80%;
@@ -212,3 +245,15 @@
         }
     }
 }
+
+// .input-test{
+//     height: 0;
+//     width: 1px;
+// }
+
+// ::ng-deep{
+//     .mat-date-range-input-separator,
+//     .mat-mdc-form-field-subscript-wrapper{
+//         display: none;
+//     }
+// }

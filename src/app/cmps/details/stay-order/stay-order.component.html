@@ -30,7 +30,8 @@
                 <fa-icon *ngIf="!showGuestModal" [icon]="faChevronDown"></fa-icon>
                 <fa-icon *ngIf="showGuestModal" [icon]="faChevronUp"></fa-icon>
             </div>
-            <guest-modal (toggleGuestModal)="toggleGuestModal()" [order]="order" [stay]="stay" *ngIf="showGuestModal"></guest-modal>
+            <guest-modal (toggleGuestModal)="toggleGuestModal()" [order]="order" [stay]="stay"
+                *ngIf="showGuestModal"></guest-modal>
         </div>
         <button class="order-btn" (click)="onAddOrder()">{{'stay.order.reserve' | translate}}</button>
         <div class="order-description">

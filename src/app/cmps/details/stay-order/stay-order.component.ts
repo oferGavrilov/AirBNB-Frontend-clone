@@ -9,6 +9,8 @@ import { Order } from 'src/app/models/order.model';
   templateUrl: './stay-order.component.html',
   styleUrls: ['./stay-order.component.scss']
 })
+
+
 export class StayOrderComponent implements OnInit {
   constructor() { }
 
@@ -21,7 +23,6 @@ export class StayOrderComponent implements OnInit {
   faChevronDown = faChevronDown
   faChevronUp = faChevronUp
   faStar = faStar
-
   date: string | null = null
   totalDays!: any
   children: number = 0

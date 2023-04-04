@@ -4,7 +4,6 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class UtilService {
-
   constructor() { }
 
   public getMonthName(time: number) {
@@ -26,14 +25,5 @@ export class UtilService {
     var max = num1 >= num2 ? num1 + 1 : num2 + 1
     var min = num1 <= num2 ? num1 : num2
     return Math.floor(Math.random() * (max - min)) + min
-  }
-
-  public saveToStorage(key: string, value: any) {
-    localStorage.setItem(key, JSON.stringify(value))
-  }
-
-  public loadFromStorage(key: string) {
-    let data = localStorage.getItem(key)
-    return data ? JSON.parse(data) : undefined
   }
 }
