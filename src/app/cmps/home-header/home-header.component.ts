@@ -18,7 +18,6 @@ export class HomeHeaderComponent {
 
   onToggleHeaderMenuModal() {
     this.isShowHeaderMenuModal = !this.isShowHeaderMenuModal
-    console.log(this.isShowHeaderMenuModal)
   }
 
   toggleHeaderFilter() {

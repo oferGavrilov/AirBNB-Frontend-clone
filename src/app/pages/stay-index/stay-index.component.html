@@ -1,5 +1,5 @@
 <section class="stay-index">
-  <app-header></app-header>
+  <app-header [isShowFilter]="true"></app-header>
   <stay-filter></stay-filter>
   <main *ngIf="!this.loader.getLoading() || isLoadStay" class="main-layout">
     <div #elFooter (window:scroll)="onPageScroll()">

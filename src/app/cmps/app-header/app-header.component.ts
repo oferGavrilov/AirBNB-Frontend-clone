@@ -1,5 +1,4 @@
-import { Component } from '@angular/core'
-import { ActivatedRoute } from '@angular/router'
+import { Component, Input } from '@angular/core'
 import { faGlobe, faBars } from '@fortawesome/free-solid-svg-icons'
 import { Subscription } from 'rxjs'
 import { User } from 'src/app/models/user.model'
@@ -12,10 +11,9 @@ import { UserService } from 'src/app/services/user.service'
 })
 export class AppHeaderComponent {
   constructor(
-    private userService: UserService,
-    private activatedRoute: ActivatedRoute
-  ) { }
+    private userService: UserService) {}
 
+  @Input() isShowFilter!: boolean
   faGlobe = faGlobe
   faBars = faBars
   isShowHeaderMenuModal: boolean = false
@@ -23,14 +21,9 @@ export class AppHeaderComponent {
   isOpenLanguageModal: boolean = false
   user!: User | null
   subscription!: Subscription
-  isShowFilter: boolean = false
 
   ngOnInit() {
     this.subscription = this.userService.user$.subscribe(user => this.user = user)
-    console.log('this.activatedRoute:', this.activatedRoute)
-    console.log('this.activatedRoute?.component:', this.activatedRoute?.component)
-    console.log('this.activatedRoute?.component?.name:', this.activatedRoute?.component?.name)
-    this.isShowFilter = this.activatedRoute?.component?.name === 'StayIndexComponent'
   }
 
   get UserNotification() {

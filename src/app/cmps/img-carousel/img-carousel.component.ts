@@ -28,7 +28,6 @@ export class ImgCarouselComponent implements OnInit {
 
   ngOnInit() {
     this.isLikeActive()
-    console.log('activatedRoute:', this.activatedRoute?.component?.name)
   }
 
   onClickArrow(ev: Event, diff: number) {
@@ -37,7 +36,7 @@ export class ImgCarouselComponent implements OnInit {
   }
 
   get IsShowLike() {
-    return this.activatedRoute?.component?.name !== 'StayDetailsComponent'
+    return !this.activatedRoute?.snapshot?.params['stayId']
   }
 
 
