@@ -62,6 +62,7 @@ import { SkeletonLoaderComponent } from './cmps/skeleton-loader/skeleton-loader.
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatInputModule} from '@angular/material/input';
+import { StaysMapComponent } from './cmps/stays-map/stays-map.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -104,6 +105,7 @@ import {MatInputModule} from '@angular/material/input';
     AddReviewComponent,
     languageModalComponent,
     SkeletonLoaderComponent,
+    StaysMapComponent,
   ],
   imports: [
     FormsModule,

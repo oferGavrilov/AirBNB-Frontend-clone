@@ -28,6 +28,7 @@ export class StayIndexComponent implements OnInit, OnDestroy {
   stayFullLength: number = 0
   isLoadStay: boolean = false
   subscriptionStayLength!: Subscription
+  isShowMap:boolean = false
 
   async ngOnInit() {
     this.subscriptionStayLength = this.stayService.stayLength$.subscribe(stayLength => {

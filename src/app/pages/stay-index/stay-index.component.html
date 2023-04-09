@@ -3,14 +3,19 @@
   <stay-filter></stay-filter>
   <main *ngIf="!this.loader.getLoading() || isLoadStay" class="main-layout">
     <div #elFooter (window:scroll)="onPageScroll()">
-      <stay-list [stays]="stays$ | async"></stay-list>
+      <stay-list *ngIf="!isShowMap" [stays]="stays$ | async"></stay-list>
+      <stays-map *ngIf="isShowMap" [stays]="stays$ | async"></stays-map>
       <skeleton-loader *ngIf="this.loader.getLoading() && isLoadStay"></skeleton-loader>
     </div>
-    <app-footer class="full"></app-footer>
+    <app-footer *ngIf="!isShowMap" class="full"></app-footer>
   </main>
 
   <a *ngIf="isShowScroller" (click)="onPageUp()" class="scroller-up"><span
       class="material-symbols-outlined">expand_less</span></a>
+
+  <div class="toggle-map" (click)="isShowMap = !isShowMap">
+    <span>Show {{isShowMap ? 'list' : 'map'}}</span>
+  </div>
 
   <skeleton-loader *ngIf="this.loader.getLoading()"></skeleton-loader>
 

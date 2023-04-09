@@ -2,12 +2,12 @@ import { Component, Input, OnInit } from '@angular/core';
 import { googleMapLoc, Stay } from 'src/app/models/stay.model';
 
 @Component({
-  selector: 'map',
-  templateUrl: './google-map.component.html',
-  styleUrls: ['./google-map.component.scss']
+  selector: 'stays-map',
+  templateUrl: './stays-map.component.html',
+  styleUrls: ['./stays-map.component.scss']
 })
-export class GoogleMapComponent implements OnInit {
-  @Input() stay!: Stay;
+export class StaysMapComponent implements OnInit {
+  @Input() stays!: Stay[] | null;
 
   constructor() { }
   location !: googleMapLoc
@@ -18,29 +18,15 @@ export class GoogleMapComponent implements OnInit {
   minZoom = 2
   prices !: number[]
 
-  icons = [{ lat: 40, lng: 39 }, { lat: 41, lng: 40 }, { lat: 30, lng: 32 }]
-
-  IconOption: google.maps.Icon = {
-    url: 'assets/img/home.png',
-    scaledSize: new google.maps.Size(100, 100)
-  }
-
   StayOption: google.maps.Icon = {
     url: 'assets/img/marker.png',
     scaledSize: new google.maps.Size(50, 20)
-  }
-
-  markerOptions: google.maps.MarkerOptions = {
-    optimized: false,
-    draggable: false,
-    icon: this.IconOption,
   }
 
   stayOptions: google.maps.MarkerOptions = {
     optimized: false,
     draggable: false,
     icon: this.StayOption,
-    label:'$125'
   }
 
   options: google.maps.MapOptions = {
@@ -52,11 +38,9 @@ export class GoogleMapComponent implements OnInit {
   }
   markerPositions: google.maps.LatLngLiteral[] = [];
   ngOnInit() {
-    this.center.lat = this.stay.loc.lan
-    this.center.lng = this.stay.loc.lat
-    this.location = {
-      lat: this.stay.loc.lan,
-      lng: this.stay.loc.lat,
+    if (this.stays) {
+      this.center.lat = this.stays[3].loc.lan
+      this.center.lng = this.stays[3].loc.lat
     }
   }
 
@@ -76,5 +60,19 @@ export class GoogleMapComponent implements OnInit {
     if (event.latLng != null) {
       this.display = event.latLng.toJSON();
     }
+  }
+
+  getLocation(stay: Stay) {
+    return { lat: stay.loc.lat, lng: stay.loc.lan }
+  }
+
+  getStayOption(stay: Stay) {
+    const stayOptions: google.maps.MarkerOptions = {
+      optimized: false,
+      draggable: false,
+      icon: this.StayOption,
+      label: '$' + stay.price
+    }
+    return stayOptions;
   }
 }
