@@ -51,4 +51,26 @@
   img {
     width: 30px;
   }
+
+}
+
+.toggle-map {
+  background: rgb(34, 34, 34);
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 14px 19px;
+  border-radius: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.25s ease 0s;
+
+  &:hover {
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 0 1px transparent, 0 0 0 4px transparent, 0 6px 16px rgba(0, 0, 0, 0.12);
+    transform: scale(1.04) translateX(-47.5%);
+  }
+
 }
