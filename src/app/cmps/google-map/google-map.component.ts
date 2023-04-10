@@ -14,34 +14,20 @@ export class GoogleMapComponent implements OnInit {
   location !: googleMapLoc
   display: any
   center: google.maps.LatLngLiteral = { lat: 40.084, lng: 34.8 }
-  zoom = 2
+  zoom = 7
   maxZoom = 15
   minZoom = 2
   prices !: number[]
-
-  icons = [{ lat: 40, lng: 39 }, { lat: 41, lng: 40 }, { lat: 30, lng: 32 }]
 
   IconOption: google.maps.Icon = {
     url: 'assets/img/home.png',
     scaledSize: new google.maps.Size(100, 100)
   }
 
-  StayOption: google.maps.Icon = {
-    url: 'assets/img/marker.png',
-    scaledSize: new google.maps.Size(50, 20)
-  }
-
   markerOptions: google.maps.MarkerOptions = {
     optimized: false,
     draggable: false,
     icon: this.IconOption,
-  }
-
-  stayOptions: google.maps.MarkerOptions = {
-    optimized: false,
-    draggable: false,
-    icon: this.StayOption,
-    label:'$125'
   }
 
   options: google.maps.MapOptions = {
@@ -51,6 +37,7 @@ export class GoogleMapComponent implements OnInit {
     maxZoom: this.maxZoom,
     minZoom: this.minZoom,
   }
+
   markerPositions: google.maps.LatLngLiteral[] = [];
   ngOnInit() {
     this.center.lat = this.stay.loc.lan

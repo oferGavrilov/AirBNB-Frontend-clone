@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { googleMapLoc, Stay } from 'src/app/models/stay.model';
 
 @Component({
@@ -6,17 +7,18 @@ import { googleMapLoc, Stay } from 'src/app/models/stay.model';
   templateUrl: './stays-map.component.html',
   styleUrls: ['./stays-map.component.scss']
 })
+
 export class StaysMapComponent implements OnInit {
   @Input() stays!: Stay[] | null;
 
-  constructor() { }
+  constructor(private router: Router) {
+   }
   location !: googleMapLoc
   display: any
   center: google.maps.LatLngLiteral = { lat: 40.084, lng: 34.8 }
-  zoom = 2
+  zoom = 9
   maxZoom = 15
   minZoom = 2
-  prices !: number[]
 
   StayOption: google.maps.Icon = {
     url: 'assets/img/marker.png',
@@ -39,8 +41,8 @@ export class StaysMapComponent implements OnInit {
   markerPositions: google.maps.LatLngLiteral[] = [];
   ngOnInit() {
     if (this.stays) {
-      this.center.lat = this.stays[3].loc.lan
-      this.center.lng = this.stays[3].loc.lat
+      this.center.lat = this.stays[0].loc.lan
+      this.center.lng = this.stays[0].loc.lat
     }
   }
 
@@ -63,16 +65,21 @@ export class StaysMapComponent implements OnInit {
   }
 
   getLocation(stay: Stay) {
-    return { lat: stay.loc.lat, lng: stay.loc.lan }
+    const loc = { lat: stay.loc.lan, lng: stay.loc.lat}
+    return loc
   }
 
-  getStayOption(stay: Stay) {
+  getStayOption() {
     const stayOptions: google.maps.MarkerOptions = {
       optimized: false,
       draggable: false,
       icon: this.StayOption,
-      label: '$' + stay.price
     }
     return stayOptions;
+  }
+
+  onClickMark(stayId: string) {
+    console.log('stayId:', stayId)
+    this.router.navigate(['', stayId])
   }
 }

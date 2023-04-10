@@ -2,7 +2,7 @@
       <google-map height="80vh" id="map" width="100%" [center]="center" [zoom]="zoom" (mapClick)="moveMap($event)"
             (mapMousemove)="move($event)" [options]="options">
 
-            <map-marker *ngFor="let stay of stays" [position]="getLocation(stay)" label="$ {{ stay.price}}"
+            <map-marker *ngFor="let stay of stays" (mapClick)="onClickMark(stay._id)" [position]="getLocation(stay)" label="$ {{ stay.price}}"
                   [options]="stayOptions"></map-marker>
       </google-map>
 </div>
