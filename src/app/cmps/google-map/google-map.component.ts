@@ -14,7 +14,7 @@ export class GoogleMapComponent implements OnInit {
   location !: googleMapLoc
   display: any
   center: google.maps.LatLngLiteral = { lat: 40.084, lng: 34.8 }
-  zoom = 7
+  zoom = 12
   maxZoom = 15
   minZoom = 2
   prices !: number[]

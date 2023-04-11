@@ -4,6 +4,7 @@ import { Observable, Subscription } from 'rxjs';
 import { Stay, StayFilter } from 'src/app/models/stay.model';
 import { LoaderService } from 'src/app/services/loader.service';
 import { StayService } from 'src/app/services/stay.service';
+import { faList, faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'stay-index',
@@ -29,6 +30,8 @@ export class StayIndexComponent implements OnInit, OnDestroy {
   isLoadStay: boolean = false
   subscriptionStayLength!: Subscription
   isShowMap:boolean = false
+  listIcon = faList
+  mapIcon = faMapLocationDot
 
   async ngOnInit() {
     this.subscriptionStayLength = this.stayService.stayLength$.subscribe(stayLength => {
@@ -49,7 +52,7 @@ export class StayIndexComponent implements OnInit, OnDestroy {
 
   async onPageScroll() {
     const element = this.elFooter.nativeElement
-    if (element.clientHeight + element.offsetTop <= window.scrollY + window.innerHeight) {
+    if (element.clientHeight + element.offsetTop <= window.scrollY + window.innerHeight && !this.isShowMap) {
       if (this.stayFullLength > this.stayLoadIndex * 20 && !this.isLoadStay) {
         this.isLoadStay = true
         this.loader.setLoading(true)
@@ -99,6 +102,11 @@ export class StayIndexComponent implements OnInit, OnDestroy {
   checkIfClearFilter(stayFilter: StayFilter): boolean {
     if (stayFilter.place || stayFilter.label || stayFilter.isPetAllowed === 'true') return true
     return false
+  }
+
+  get IsShowMapBtn() {
+    return this.stayFullLength
+    && !this.loader.getLoading()
   }
 
   ngOnDestroy(): void {

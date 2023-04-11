@@ -12,13 +12,12 @@
 
   <a *ngIf="isShowScroller" (click)="onPageUp()" class="scroller-up"><span
       class="material-symbols-outlined">expand_less</span></a>
-
-  <div class="toggle-map" (click)="isShowMap = !isShowMap">
-    <span>Show {{isShowMap ? 'list' : 'map'}}</span>
+  <div *ngIf="IsShowMapBtn" class="toggle-map" (click)="isShowMap = !isShowMap">
+    <span>Show {{isShowMap ? 'list' : 'map'}}   </span>
+    <fa-icon *ngIf="isShowMap" [icon]="listIcon"></fa-icon>
+    <fa-icon *ngIf="!isShowMap" [icon]="mapIcon"></fa-icon>
   </div>
-
   <skeleton-loader *ngIf="this.loader.getLoading()"></skeleton-loader>
-
   <a *ngIf="isShowClearBtn" (click)="onClearFilter()" loading="eager" class="clear-filter">
     <img src="assets/img/stay/clear-filter.png" alt="">
   </a>
