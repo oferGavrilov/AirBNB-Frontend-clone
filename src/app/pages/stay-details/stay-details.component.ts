@@ -48,6 +48,7 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     })
     this.user = this.userService.getUser()
     this.isLikeActive()
+    console.log('he')
   }
 
   setIsReserveClick(val: boolean) {

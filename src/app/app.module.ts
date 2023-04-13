@@ -11,6 +11,7 @@ import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app-root/app.component';
@@ -128,11 +129,11 @@ import { StaysMapComponent } from './cmps/stays-map/stays-map.component';
     MatSnackBarModule,
     NgxStarRatingModule,
     NgxSkeletonLoaderModule,
-
+    LazyLoadImageModule,
     MatDatepickerModule,
     MatNativeDateModule,
     MatInputModule,
-    
+
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
