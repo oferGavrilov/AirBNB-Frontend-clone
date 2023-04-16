@@ -26,7 +26,7 @@ export class AppFooterComponent {
   getUserImg() {
     const user = this.userService.getUser()
     if (user?.imgUrl) return user.imgUrl
-    return 'assets/img/user/guest.png'
+    return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1681630492/user-stay/guest_upcxtq.png'
   }
 
 

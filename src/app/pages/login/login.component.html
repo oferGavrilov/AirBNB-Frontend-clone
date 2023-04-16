@@ -1,6 +1,6 @@
 <section class="login-page">
     <div class="logo" routerLink="/">
-        <img src="assets/img/logo.png" alt="">
+        <img src="https://res.cloudinary.com/du63kkxhl/image/upload/v1681629704/logo_smny53.png" alt="">
         <span class="close-btn material-symbols-outlined" routerLink="/">close</span>
     </div>
     <div class="form-container">
@@ -52,7 +52,7 @@
                 <div class="upload-preview">
                     <div class='img-picker'>
                         <label htmlFor="imgUpload">
-                            <img *ngIf="!imgData.imgUrl" class="guest-img" src="assets/img/user/guest.png" alt="" />
+                            <img *ngIf="!imgData.imgUrl" class="guest-img" src="https://res.cloudinary.com/du63kkxhl/image/upload/v1681630492/user-stay/guest_upcxtq.png" alt="" />
                             <img *ngIf="imgData.imgUrl" class="user-img" [src]="imgData.imgUrl" alt="" />
                             <input type="file" (change)="uploadImg($event)" accept="img/*" id="imgUpload" />
                         </label>

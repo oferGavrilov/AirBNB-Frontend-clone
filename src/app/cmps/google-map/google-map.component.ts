@@ -20,7 +20,7 @@ export class GoogleMapComponent implements OnInit {
   prices !: number[]
 
   IconOption: google.maps.Icon = {
-    url: 'assets/img/home.png',
+    url: 'https://res.cloudinary.com/du63kkxhl/image/upload/v1681630007/home_wx3a5a.png',
     scaledSize: new google.maps.Size(100, 100)
   }
 
