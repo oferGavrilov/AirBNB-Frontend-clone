@@ -15,9 +15,13 @@
       "prefix": "",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
-            "outputPath": "dist/airbnb",
+            "customWebpackConfig": {
+              "path": "src/custom-webpack.config.js",
+              "replaceDuplicatePlugins": true
+            },
+            "outputPath": "dist/airbnb/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -104,6 +108,64 @@
             ],
             "scripts": []
           }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/airbnb/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json",
+            "inlineStyleLanguage": "scss"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media",
+              "optimization": true,
+              "sourceMap": false,
+              "extractLicenses": true,
+              "vendorChunk": false
+            },
+            "development": {
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "airbnb:build:development",
+              "serverTarget": "airbnb:server:development"
+            },
+            "production": {
+              "browserTarget": "airbnb:build:production",
+              "serverTarget": "airbnb:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "airbnb:build:production",
+              "serverTarget": "airbnb:server:production"
+            },
+            "development": {
+              "browserTarget": "airbnb:build:development",
+              "serverTarget": "airbnb:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
