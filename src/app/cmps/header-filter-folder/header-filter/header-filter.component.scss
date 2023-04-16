@@ -2,35 +2,56 @@
 @import '../../../../assets/styles/setup/mixins';
 @import '../../../../assets/styles/setup/function';
 
-::ng-deep airbnb-calendar {
-  top: 32px;
-  right: 410px;
-}
+::ng-deep .header-filter {
+  airbnb-calendar {
+    right: 212px;
+    top: -14px;
 
-::ng-deep {
-  @include for-mobile-layout {
-    airbnb-calendar {
-      .airbnb-calendar-container {
-        width: 300px !important;
-        left: 259px !important;
-        top: 115px !important;
-        height: 306px !important;
-      }
-
-      .airbnb-calendar :nth-child(2) {
-        &:not(.calendar-day-names) {
-          &:not(.month-name) {
-            display: none;
-          }
-        }
-      }
+    .airbnb-calendar-container {
+      width: 400px;
+      height: 250px;
     }
 
-    .calendar {
+    .airbnb-calendar-container .airbnb-calendar .calendar {
+      float: unset !important;
       width: 100% !important;
+      background: white !important;
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+      padding-top: 16px !important;
+      padding-bottom: 0 !important;
+    }
+
+    .day::before {
+      padding-top: 70% !important;
+    }
+
+    @include for-tablet-layout {
+        top: 40px;
+    }
+
+    @include for-normal-layout {
+        top: 43px;
+        right: 405px !important;
+
+        .airbnb-calendar-container .airbnb-calendar .calendar {
+            float: left !important;
+            padding-top: 40px !important;
+            padding-bottom: 40px !important;
+            width: 50% !important;
+            background: white !important;
+            box-shadow: none;
+        }
+        .day::before {
+          padding-top: 100% !important;
+        }
+        .airbnb-calendar-container {
+            width: 850px;
+            height: 400px;
+        }
     }
   }
 }
+
 
 .header-filter {
   @include center-absolute();
@@ -72,6 +93,7 @@
       cursor: pointer;
       padding: 0 16px;
       font-weight: 600;
+
       @include for-mobile-layout {
         padding: 0 12px;
       }
