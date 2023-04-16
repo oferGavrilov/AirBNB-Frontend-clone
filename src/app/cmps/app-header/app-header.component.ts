@@ -46,7 +46,7 @@ export class AppHeaderComponent {
 
   getUserImg() {
     if (this.user?.imgUrl) return this.user.imgUrl
-    return 'assets/img/user/guest.png'
+    return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1681630492/user-stay/guest_upcxtq.png'
   }
 
   ngOnDestroy() {

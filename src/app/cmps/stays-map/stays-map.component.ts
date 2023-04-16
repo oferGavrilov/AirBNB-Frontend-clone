@@ -21,7 +21,7 @@ export class StaysMapComponent implements OnInit {
   minZoom = 2
 
   StayOption: google.maps.Icon = {
-    url: 'assets/img/marker.png',
+    url: 'https://res.cloudinary.com/du63kkxhl/image/upload/v1681630116/marker_hhfjge.png',
     scaledSize: new google.maps.Size(50, 20)
   }
 

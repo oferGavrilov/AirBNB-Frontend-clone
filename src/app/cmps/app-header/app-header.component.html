@@ -1,7 +1,7 @@
 <header class="main-layout full">
     <div [ngClass]="isHeaderFilterActive ? 'header-content filter-active' : 'header-content'">
         <div class="logo" routerLink="/">
-            <img src="assets/img/logo.png" alt="">
+            <img src="https://res.cloudinary.com/du63kkxhl/image/upload/v1681629704/logo_smny53.png" alt="">
             <h2>airbnb</h2>
         </div>
         <nav>
@@ -15,7 +15,7 @@
                 <fa-icon [icon]="faBars"></fa-icon>
                 <img [src]="getUserImg()" alt="">
                 <span *ngIf="UserNotification" class="notification">{{UserNotification}}</span>
-                
+
                 <header-menu-modal (onToggleHeaderMenuModal)="onToggleHeaderMenuModal()" (toggleLanguageModal)="onToggleLanguageModal()"
                 [isOpenLanguageModal]="isOpenLanguageModal" [isOpenFooter]="false"
                 *ngIf="isShowHeaderMenuModal"></header-menu-modal>
