@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "postbuild": "gulp compress",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "postinstall": "ngcc"
@@ -47,6 +48,8 @@
     "@angular/compiler-cli": "^15.1.0",
     "@types/googlemaps": "^3.43.3",
     "@types/jasmine": "~4.3.0",
+    "gulp": "^4.0.2",
+    "gulp-gzip": "^1.4.2",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
