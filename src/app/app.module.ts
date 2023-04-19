@@ -59,9 +59,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { SkeletonLoaderComponent } from './cmps/skeleton-loader/skeleton-loader.component';
 import { NgOptimizedImage } from '@angular/common'
-import {MatDatepickerModule} from '@angular/material/datepicker';
-import {MatNativeDateModule} from '@angular/material/core';
-import {MatInputModule} from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatInputModule } from '@angular/material/input';
 import { StaysMapComponent } from './cmps/stays-map/stays-map.component';
 @NgModule({
   declarations: [
