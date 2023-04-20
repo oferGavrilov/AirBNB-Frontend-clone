@@ -9,6 +9,7 @@ import { StayService } from 'src/app/services/stay.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { OrderService } from 'src/app/services/order.service';
 import { Order } from 'src/app/models/order.model';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'stay-details',
@@ -24,7 +25,8 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     private userService: UserService,
     private stayService: StayService,
     private snackBar: MatSnackBar,
-    private orderService: OrderService) { }
+    private orderService: OrderService,
+    private viewportScroller: ViewportScroller) { }
 
   unlistener !: () => void
   user!: User
@@ -48,6 +50,10 @@ export class StayDetailsComponent implements OnInit, OnDestroy {
     })
     this.user = this.userService.getUser()
     this.isLikeActive()
+  }
+
+  scrollTo(nav: string) {
+    this.viewportScroller.scrollToAnchor(nav)
   }
 
   setIsReserveClick(val: boolean) {

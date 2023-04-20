@@ -36,10 +36,10 @@
       <div class="main-layout">
         <div class="header-content">
           <nav>
-            <a href="#photos">{{'stay.details.photos' | translate}}</a>
-            <a href="#amenities">{{'stay.details.amenities' | translate}}</a>
-            <a href="#reviews">{{'stay.details.reviews' | translate}}</a>
-            <a href="#location">{{'stay.details.location' | translate}}</a>
+            <a (click)="scrollTo('photos')">{{'stay.details.photos' | translate}}</a>
+            <a (click)="scrollTo('amenities')">{{'stay.details.amenities' | translate}}</a>
+            <a (click)="scrollTo('reviews')">{{'stay.details.reviews' | translate}}</a>
+            <a (click)="scrollTo('location')">{{'stay.details.location' | translate}}</a>
           </nav>
           <div *ngIf="isShowHeaderOrder" class="header-order">
             <div class="order-info">
