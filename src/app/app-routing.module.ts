@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { environment } from 'src/environments/environment';
+import { environment } from '../environments/environment';
 import { StayResolver } from './services/stay.resolver';
 import { HomeComponent } from './pages/home/home.component';
 import { StayIndexComponent } from './pages/stay-index/stay-index.component';
@@ -15,14 +15,16 @@ import { UserWishlistComponent } from './cmps/user-wishlist/user-wishlist.compon
 import { AboutComponent } from './pages/about/about.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'user', component: UserComponent, canActivate: [AuthGuard] , children:[
-    {path:'edit/:id', component: EditStayComponent},
-    {path:'edit', component: EditStayComponent},
-    {path:'trips', component: UserTripsComponent},
-    {path:'orders', component: UserOrderComponent},
-    {path:'stays', component: UserStaysComponent},
-    {path:'wishlist', component: UserWishlistComponent},
-  ] },
+  {
+    path: 'user', component: UserComponent, canActivate: [AuthGuard], children: [
+      { path: 'edit/:id', component: EditStayComponent },
+      { path: 'edit', component: EditStayComponent },
+      { path: 'trips', component: UserTripsComponent },
+      { path: 'orders', component: UserOrderComponent },
+      { path: 'stays', component: UserStaysComponent },
+      { path: 'wishlist', component: UserWishlistComponent },
+    ]
+  },
   { path: 'login', component: LoginComponent },
   { path: 'about', component: AboutComponent },
   {
@@ -30,7 +32,7 @@ const routes: Routes = [
     loadChildren: () => import('./lazy-loading/lazy-loading.module').then(m => m.LazyLoadingModule),
     resolve: { stay: StayResolver },
   },
-  { path: '', component: StayIndexComponent},
+  { path: '', component: StayIndexComponent },
 ]
 
 @NgModule({
