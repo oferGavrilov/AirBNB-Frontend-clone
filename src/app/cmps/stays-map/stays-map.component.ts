@@ -79,7 +79,6 @@ export class StaysMapComponent implements OnInit {
   }
 
   onClickMark(stayId: string) {
-    console.log('stayId:', stayId)
     this.router.navigate(['', stayId])
   }
 }

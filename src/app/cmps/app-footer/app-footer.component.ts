@@ -16,7 +16,6 @@ export class AppFooterComponent {
   isOpenLanguageModal: boolean = false
 
   onToggleLanguageModal() {
-    console.log("Toggle language")
     this.isOpenLanguageModal = !this.isOpenLanguageModal
   }
 

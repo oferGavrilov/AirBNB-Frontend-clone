@@ -40,7 +40,6 @@ export class AppHeaderComponent {
   }
 
   onToggleLanguageModal() {
-    console.log("Toggle language")
     this.isOpenLanguageModal = !this.isOpenLanguageModal
   }
 

@@ -38,12 +38,10 @@ export class OrderService {
 
   public query(filterBy: FilterOrder | null) {
     const queryParams = this.getQueryParams(filterBy)
-    console.log(queryParams)
     return this.httpService.get(this.ORDER_URL + queryParams, null) as Observable<Order[]>
   }
 
   public save(order: Order) {
-    console.log(order)
     if (order._id) {
       this.socketService.emit(this.socketService.SOCKET_EVENT_ORDER_FOR_USER, order)
       return lastValueFrom(this.httpService.put(this.ORDER_URL, order))
