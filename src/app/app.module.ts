@@ -1,4 +1,4 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { GoogleMapsModule } from '@angular/google-maps';
@@ -12,7 +12,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app-root/app.component';
 import { AppHeaderComponent } from './cmps/app-header/app-header.component';
@@ -59,11 +58,11 @@ import { languageModalComponent } from './cmps/language-modal/language-modal.com
 import { MatIconModule } from '@angular/material/icon';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { SkeletonLoaderComponent } from './cmps/skeleton-loader/skeleton-loader.component';
-import { NgOptimizedImage } from '@angular/common'
-import {MatDatepickerModule} from '@angular/material/datepicker';
-import {MatNativeDateModule} from '@angular/material/core';
-import {MatInputModule} from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatInputModule } from '@angular/material/input';
 import { StaysMapComponent } from './cmps/stays-map/stays-map.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 @NgModule({
   declarations: [
     AppComponent,
@@ -133,7 +132,7 @@ import { StaysMapComponent } from './cmps/stays-map/stays-map.component';
     MatDatepickerModule,
     MatNativeDateModule,
     MatInputModule,
-    NgOptimizedImage,
+
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -141,13 +140,18 @@ import { StaysMapComponent } from './cmps/stays-map/stays-map.component';
         deps: [HttpClient]
       }
     }),
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule { }
-
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
   return new TranslateHttpLoader(http)
 }
