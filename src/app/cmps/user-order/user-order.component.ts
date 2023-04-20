@@ -44,7 +44,6 @@ export class UserOrderComponent {
       this.orders = orders
       this.ordersToShow = [...orders]
     })
-    console.log(this.ordersToShow)
     this.loader.setLoading(false)
   }
 

@@ -133,6 +133,7 @@ import { environment } from 'src/environments/environment';
     MatDatepickerModule,
     MatNativeDateModule,
     MatInputModule,
+
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

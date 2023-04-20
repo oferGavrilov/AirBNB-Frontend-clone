@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { faSquare } from '@fortawesome/free-solid-svg-icons';
 import { googleMapLoc, Stay } from 'src/app/models/stay.model';
 
 @Component({

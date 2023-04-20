@@ -23,7 +23,6 @@ export class SearchPlaceModalComponent implements OnInit {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    console.log('changes:', changes)
     if(this.stays) this.makePlaces()
   }
 

@@ -27,7 +27,6 @@ export class UserComponent implements OnInit, OnDestroy {
     this.subscription = this.stayService.stays$.subscribe(stays => this.stays = stays)
     const url = window.location.href.split('/')
     this.pageNav = 'user-' + url[url.length - 1]
-    console.log(this.pageNav)
   }
 
   ngOnDestroy() {
