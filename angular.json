@@ -17,6 +17,9 @@
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "ngx-csv"
+           ],
             "customWebpackConfig": {
               "path": "src/custom-webpack.config.js",
               "replaceDuplicatePlugins": true
