@@ -34,9 +34,10 @@ const routes: Routes = [
   },
   { path: '', component: StayIndexComponent },
 ]
+console.log('environment?.production', environment?.production);
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: environment?.production, scrollPositionRestoration: 'enabled', anchorScrolling: "enabled" })],
+  imports: [RouterModule.forRoot(routes, { useHash: true, scrollPositionRestoration: 'enabled', anchorScrolling: "enabled" })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
