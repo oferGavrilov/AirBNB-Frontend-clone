@@ -11,41 +11,41 @@ export class AmenitiesPreviewComponent {
   getAmenityImgName() {
     switch (this.amenity) {
       case 'Private outdoor pool - available all year, open 24 hours, lap pool':
-        return 'pool'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447776/amenities/pool_i809mh.png'
       case 'Kitchen':
-        return 'kitchen'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447776/amenities/kitchen_dztgii.png'
       case '32" HDTV with Disney+, standard cable':
-        return 'tv'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447776/amenities/tv_vgpfep.png'
       case 'Private BBQ grill: charcoal':
-        return 'grill'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447775/amenities/grill_bsumui.png'
       case 'Mountain view':
-        return 'view'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447776/amenities/view_yb42sh.png'
       case 'Free parking on premises':
-        return 'parking'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447776/amenities/parking_uddcjt.png'
       case 'Cooking basics':
-        return 'kitchen'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447776/amenities/kitchen_dztgii.png'
       case 'AC - split type ductless system':
-        return 'ac'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447777/amenities/ac_rpfet6.png'
       case 'Indoor fireplace: wood-burning':
-        return 'fire-place'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447775/amenities/fire-place_s8q4rb.png'
       case 'Garden view':
-        return 'garden'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447775/amenities/garden_q28lnw.png'
       case 'Wifi':
-        return 'wifi'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447776/amenities/wifi_lbvtlj.png'
       case 'Cleaning products':
-        return 'cleaning-products'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447777/amenities/cleaning-products_c9xrzg.png'
       case 'Shampoo':
-        return 'shampoo'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447776/amenities/shampoo_u0imkt.png'
       case 'Hair dryer':
-        return 'hair-dryer'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447775/amenities/hair-dryer_f96jh0.png'
       case 'Hot water':
-        return 'hot-water'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447775/amenities/hot-water_g2xktc.png'
       case 'Heating - split type ductless system':
-        return 'heating'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447775/amenities/heating_e5hoje.png'
       case 'Pets allowed':
-        return 'pet'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447776/amenities/pet_z5fkos.png'
       case 'Backyard':
-        return 'garden'
+        return 'https://res.cloudinary.com/du63kkxhl/image/upload/v1685447775/amenities/garden_q28lnw.png'
       default:
         return
     }
