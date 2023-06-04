@@ -125,7 +125,7 @@ export class UserService {
       this.socketService.off(this.socketService.SOCKET_EMIT_ORDER_FOR_HOST, this.hostFunction)
       this.socketService.off(this.socketService.SOCKET_EMIT_ORDER_FOR_USER, this.userFunction)
       this._user$.next(null)
-      this.stayService.loadStays()
+      window.location.assign('/')
     } catch (err) {
       console.log('err:', err)
     }

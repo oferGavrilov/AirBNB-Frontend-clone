@@ -59,13 +59,17 @@ ul {
     color: white;
     z-index: 100;
 
+    .cdk-global-overlay-wrapper {
+        align-items: unset !important;
+    }
+
     .mat-mdc-snack-bar-container {
         .mdc-snackbar__surface {
             background-color: $secondary-color;
         }
 
         @include for-mobile-layout {
-            width:90vw;
+            width: 90vw;
         }
     }
 

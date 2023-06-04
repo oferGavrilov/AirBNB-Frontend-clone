@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { Order } from 'src/app/models/order.model';
 import { Stay } from 'src/app/models/stay.model';
 import { OrderService } from 'src/app/services/order.service';
+import { UtilService } from 'src/app/services/util.service';
 
 @Component({
   selector: 'purchase-indication',
@@ -15,40 +16,41 @@ export class PurchaseIndicationComponent implements OnInit {
   constructor(
     private orderService: OrderService,
     private router: Router,
-    private snackBar: MatSnackBar) { }
+    private snackBar: MatSnackBar,
+    private utilService: UtilService) { }
   @Input() stay !: Stay
   @Output() setIsReserveClick = new EventEmitter()
   order!: Order
   isAfterConfirm: boolean = false
 
-  async ngOnInit() {
+  async ngOnInit () {
     this.order = await this.orderService.getCurrOrder()
   }
 
-  get GetTotalDays(): number {
-    return this.order.endDate?.getDate() - this.order.startDate?.getDate()
+  get GetTotalDays (): number {
+    return this.utilService.getDaysBetweenDates(this.order.endDate, this.order.startDate)
   }
 
-  get Price() {
+  get Price () {
     return this.stay.price * this.GetTotalDays
   }
 
-  get ServiceFee() {
+  get ServiceFee () {
     return (this.Price * 0.17).toFixed()
   }
 
-  get getGuests() {
+  get getGuests () {
     let str = this.order?.guests.adults + this.order.guests.children > 0 ? (this.order.guests.adults + this.order.guests.children) + ' guests ' : ''
     str += this.order?.guests.infants > 0 ? ' ,' + this.order.guests.infants + ' infants ' : ''
     str += this.order?.guests.pets > 0 ? ' ,' + this.order.guests.pets + ' pets ' : ''
     return str
   }
 
-  onClickBack() {
+  onClickBack () {
     this.setIsReserveClick.emit(false)
   }
 
-  async onClickConfirm() {
+  async onClickConfirm () {
     this.isAfterConfirm = true
     try {
       await this.orderService.save(this.order)
@@ -59,7 +61,7 @@ export class PurchaseIndicationComponent implements OnInit {
     }
   }
 
-  onClickClose() {
+  onClickClose () {
     this.router.navigate(['/'])
   }
 }
