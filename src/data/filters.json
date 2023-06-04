@@ -2,81 +2,81 @@
       {
             "txt": "OMG!",
             "translate": "OMG!",
-            "img": "assets/img/filter-imgs/omg.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/omg_ifvv7v.png"
       },
       {
             "txt": "Amazing-views",
             "translate": "stay.filter.amazing-views",
-            "img": "assets/img/filter-imgs/amazing-views.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/amazing-views_ovr5cr.png"
       },
       {
             "txt": "Trending",
             "translate": "stay.filter.trending",
-            "img": "assets/img/filter-imgs/trending.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/trending_zraxau.png"
       },
       {
             "txt": "Golfing",
             "translate": "stay.filter.golfing",
-            "img": "assets/img/filter-imgs/golfing.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/golfing_kwb9sw.png"
       },
       {
             "txt": "Surfing",
             "translate": "stay.filter.surfing",
-            "img": "assets/img/filter-imgs/surfing.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/surfing_trgxdh.png"
       },
       {
             "txt": "Mansions",
             "translate": "stay.filter.mansions",
-            "img": "assets/img/filter-imgs/mansions.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/mansions_w5j1ey.png"
       },
       {
             "txt": "Luxe",
             "translate": "stay.filter.luxe",
-            "img": "assets/img/filter-imgs/luxe.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/luxe_hj1zab.png"
       },
       {
             "txt": "Private-rooms",
             "translate": "stay.filter.private-rooms",
-            "img": "assets/img/filter-imgs/private-rooms.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/private-rooms_adfrpc.png"
       },
       {
             "txt": "Lake front",
             "translate": "stay.filter.lake-front",
-            "img": "assets/img/filter-imgs/lake-front.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/lake-front_n4yzrj.png"
       },
       {
             "txt": "Castles",
             "translate": "stay.filter.castles",
-            "img": "assets/img/filter-imgs/castles.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/castles_jdg0m1.png"
       },
       {
             "txt": "Tiny homes",
             "translate": "stay.filter.tiny-homes",
-            "img": "assets/img/filter-imgs/tiny-homes.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446872/stay-filter/tiny-homes_bjldpu.png"
       },
       {
             "txt": "Islands",
             "translate": "stay.filter.islands",
-            "img": "assets/img/filter-imgs/islands.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/islands_o3mzz8.png"
       },
       {
             "txt": "Boats",
             "translate": "stay.filter.boats",
-            "img": "assets/img/filter-imgs/boats.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/boats_ribxsa.png"
       },
       {
             "txt": "Creative spaces",
             "translate": "stay.filter.creative-spaces",
-            "img": "assets/img/filter-imgs/creative-spaces.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/creative-spaces_uqa2hh.png"
       },
       {
             "txt": "Beach",
             "translate": "Beach",
-            "img": "assets/img/filter-imgs/beach.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/beach_ay0mz6.png"
       },
       {
             "txt": "Design",
             "translate": "Design",
-            "img": "assets/img/filter-imgs/design.jpg"
+            "img": "https://res.cloudinary.com/du63kkxhl/image/upload/v1685446871/stay-filter/design_iofuqw.png"
       }
 ]
