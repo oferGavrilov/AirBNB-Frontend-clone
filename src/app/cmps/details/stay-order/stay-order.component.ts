@@ -3,6 +3,7 @@ import { StatReviews, Stay } from 'src/app/models/stay.model';
 import { faStar, faCircleMinus, faCirclePlus, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { CalendarOptions } from 'ngx-airbnb-calendar';
 import { Order } from 'src/app/models/order.model';
+import { UtilService } from 'src/app/services/util.service';
 
 @Component({
   selector: 'stay-order',
@@ -12,7 +13,7 @@ import { Order } from 'src/app/models/order.model';
 
 
 export class StayOrderComponent implements OnInit {
-  constructor() { }
+  constructor(private utilService: UtilService) { }
 
   @Input() stay !: Stay
   @Input() order !: Order
@@ -35,46 +36,46 @@ export class StayOrderComponent implements OnInit {
     closeOnSelected: true,
   }
 
-  ngOnInit() {
+  ngOnInit () {
     if (!this.order.startDate.getTime()) this.order.startDate = new Date()
     if (!this.order.endDate.getTime()) this.order.endDate = new Date(Date.now() + (3600 * 1000 * 72))
     this.date = this.dateFromOrder
   }
 
-  onAddOrder() {
+  onAddOrder () {
     this.addOrder.emit()
   }
 
-  public toggleGuestModal() {
+  public toggleGuestModal () {
     this.showGuestModal = !this.showGuestModal
   }
 
-  get GetTotalDays() {
-    return this.getCheckOut().getDate() - this.getCheckIn().getDate()
+  get GetTotalDays (): number {
+    return this.utilService.getDaysBetweenDates(this.getCheckOut(), this.getCheckIn())
   }
 
-  get Price() {
+  get Price () {
     return this.stay.price * this.GetTotalDays
   }
 
-  get CleanTax() {
+  get CleanTax () {
     return (this.Price * 0.10).toFixed()
   }
 
-  get ServiceFee() {
+  get ServiceFee () {
     return (this.Price * 0.17).toFixed()
   }
 
-  get TotalPrice() {
+  get TotalPrice () {
     return (+this.Price + +this.CleanTax + +this.ServiceFee)
   }
 
-  get dateFromOrder() {
+  get dateFromOrder () {
     if (!this.order.startDate.getMilliseconds() || !this.order.endDate.getMilliseconds()) return ''
     return this.order.startDate.toDateString() + '-' + this.order.endDate.toDateString()
   }
 
-  get RateAvg() {
+  get RateAvg () {
     let rate = 0
     let key: keyof StatReviews
     for (key in this.stay.statReviews) {
@@ -84,14 +85,14 @@ export class StayOrderComponent implements OnInit {
     return (rate / 6).toFixed(2)
   }
 
-  getGuests() {
+  getGuests () {
     let str = this.order.guests.adults + this.order.guests.children > 0 ? (this.order.guests.adults + this.order.guests.children) + ' guests ' : ''
     str += this.order.guests.infants > 0 ? ' ,' + this.order.guests.infants + ' infants ' : ''
     str += this.order.guests.pets > 0 ? ' ,' + this.order.guests.pets + ' pets ' : ''
     return str
   }
 
-  getCheckIn() {
+  getCheckIn () {
     if (this.date) {
       const dates = this.date?.split('-')
       if (dates.length >= 1) {
@@ -102,7 +103,7 @@ export class StayOrderComponent implements OnInit {
     return this.order.startDate
   }
 
-  getCheckOut() {
+  getCheckOut () {
     if (this.date) {
       const dates = this.date?.split('-')
       if (dates.length === 2) {
