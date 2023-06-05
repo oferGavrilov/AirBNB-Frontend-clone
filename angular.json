@@ -24,7 +24,7 @@
               "path": "src/custom-webpack.config.js",
               "replaceDuplicatePlugins": true
             },
-            "outputPath": "dist/airbnb/browser",
+            "outputPath": "dist/airbnb",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
